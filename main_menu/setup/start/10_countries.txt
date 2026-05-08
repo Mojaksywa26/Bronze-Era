@@ -15,49 +15,50 @@ current_age = age_1_traditions
 countries = {
 	countries = {
 
-
-	##GREEK Mycenaean Greece
+	##0001G
 	0001G = {
-		capital = mycenae
+		capital = amorgos
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			amorgos andravida andritsaina andros angelokastron argos astros
-			atalanti athens balat bodonitsa bodrum candia cephalonia chalandritsa
-			chania chios corinth damala demetrias elounda eretreia ermioni farsala
+			amorgos andravida andritsaina andros angelokastron argos astros atalanti
+			athens balat bodonitsa bodrum candia cephalonia chalandritsa chania
+			chios corinth damala demetrias elounda eretreia ermioni farsala
 			gergeri gravia hagios_pavlos ikaria kalamata kalavryta karpathos karystos
-			karytaina kleisoura kos kymi kyparissia kythira kythnos larissa leukas
-			leuktron livadeia loidoriki megara milos modon monemvasia mykonos mystras
-			nafpaktos nafplio naxos negroponte neopatras oitylo oreos patras
-			pontikokastro rethymno rodos salona samos siteia sporades stomio thebes
-			tripolitsa tyrnavos veligosti viannos vonitsa vostitsa xylokastro zakynthos
-			zetounion
+			karytaina kleisoura kos kymi kyparissia kythira kythnos larissa
+			leukas leuktron livadeia loidoriki megara milos modon monemvasia
+			mykonos mystras nafpaktos nafplio naxos negroponte neopatras oitylo
+			oreos patras pontikokastro rethymno rodos salona samos siteia
+			sporades stomio thebes tripolitsa tyrnavos veligosti viannos vonitsa
+			vostitsa xylokastro zakynthos zetounion
 		}
 		government = {
 			ruler = random
 		}
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { minoan ionian aeolian dorian arcadian cycladic }
+	
 	}
 
-	##EGYPT
+	##0002G
 	0002G = {
-		capital = cairo
+		capital = acre
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			acre akhmim al_mima alexandria ashmunayn aswan asyut atfih beersheba
-			beni_suef bilbeis cairo dakahla damanhur damietta dara edfu el_alamein
-			el_arish el_bahnasa el_balyana el_burullus el_buwit el_mahalla esna
-			faiyum faqus fuwa gaza giza hebron hiw irbid jaffa jerusalem kafr_saqr
-			kharibta kom_ombo majdal manfalut mansoura matruh menouf minya nablus
-			nawa nekhel qalyub qatya qena qus ramsis rashid safed sallum samanoud
+			acre akhmim al_mima alexandria ashmunayn aswan asyut atfih
+			beersheba beni_suef bilbeis cairo dakahla damanhur damietta dara
+			edfu el_alamein el_arish el_bahnasa el_balyana el_burullus el_buwit el_mahalla
+			esna faiyum faqus fuwa gaza giza hebron hiw
+			irbid jaffa jerusalem kafr_saqr kharibta kom_ombo majdal manfalut
+			mansoura matruh menouf minya nablus nawa nekhel qalyub
+			qatya qena qus ramsis rashid safed sallum samanoud
 			sharuna tahna tarrana tidah tinnis ushmum_tannah wadi_el_natrun warrada
 		}
 		government = {
@@ -65,42 +66,46 @@ countries = {
 		}
 		accepted_cultures = { upper_egyptian lower_egyptian }
 		tolerated_cultures = { nubian medjay libyan canaanite phoenician peleset }
+	
 	}
 
-	##ANATOLIA
+	##0003G
 	0003G = {
-		capital = ankara
+		capital = adana
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			adana afrin afsin akdagmadeni aksaray aksehir al_bab aleppo altinekin
-			altintas amasya anamur anavarza ankara arguvan arsuz artah ayas aydincik
-			ayntab baliseyh bayat bekarlar besni beypazari birecik bogazliyan bolvadin
-			bor_tur bozan bozok candir candir_cil cankiri caxud celtik cemisgezek
-			comana_cil corum corycus cubuk cumra dabiq darende dasmenda deliktash
-			develi dinek_keskin divrigi dluk elbistan emirdag enguzud eregli_kar
-			ermenek erzincan eskil gemerek gerger goksun gumus gurun hacibektas hafik
-			hargan harput hatunsaray haymana huseyinabad ilgin ilic insuyu iskenderun
-			iskilip jabbul kahta kalecik kapan karahisar_i_sahib karakecili karapinar
-			kars_armenia kayseri kaysun keban kemah kilis kirsehir kizilca kochisar
-			konya koyulhisar kulu_turkey kursunlu kuzucan ladik larende malatya manbij
-			marash merzifon mihaliccik molevon mut nevsehir nigde obruk pertek pirloganda
-			polatli sabanozu samsat sariyahsi sarkisla sebinkarahisar seyitgazi silifke
-			siran sis sivas sivrihisar sorgun suhut suluklu sulusaray sungurlu suruc
-			tarsus tokat tomarza tosya trapessac turgut ulnia urgup yahyali zara
-			zardana zile
+			adana afrin afsin akdagmadeni aksaray aksehir al_bab aleppo
+			altinekin altintas amasya anamur anavarza ankara arguvan arsuz
+			artah ayas aydincik ayntab baliseyh bayat bekarlar besni
+			beypazari birecik bogazliyan bolvadin bor_tur bozan bozok candir
+			candir_cil cankiri caxud celtik cemisgezek comana_cil corum corycus
+			cubuk cumra dabiq darende dasmenda deliktash develi dinek_keskin
+			divrigi dluk elbistan emirdag enguzud eregli_kar ermenek erzincan
+			eskil gemerek gerger goksun gumus gurun hacibektas hafik
+			hargan harput hatunsaray haymana huseyinabad ilgin ilic insuyu
+			iskenderun iskilip jabbul kahta kalecik kapan karahisar_i_sahib karakecili
+			karapinar kars_armenia kayseri kaysun keban kemah kilis kirsehir
+			kizilca kochisar konya koyulhisar kulu_turkey kursunlu kuzucan ladik
+			larende malatya manbij marash merzifon mihaliccik molevon mut
+			nevsehir nigde obruk pertek pirloganda polatli sabanozu samsat
+			sariyahsi sarkisla sebinkarahisar seyitgazi silifke siran sis sivas
+			sivrihisar sorgun suhut suluklu sulusaray sungurlu suruc tarsus
+			tokat tomarza tosya trapessac turgut ulnia urgup yahyali
+			zara zardana zile
 		}
 		government = {
 			ruler = random
 		}
 		accepted_cultures = { hittite }
 		tolerated_cultures = { luwian hattian palaic hurrian phrygian lukka }
+	
 	}
 
-	##LEVANTINE KINGDOM
+	##ACRE
 	ACRE = {
 		capital = sidon
 
@@ -111,13 +116,36 @@ countries = {
 		own_control_core = {
 			sidon
 		}
-		accepted_cultures = { tjekker }
-		tolerated_cultures = { }
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { phoenician }
+		tolerated_cultures = { canaanite tjekker }
+	
 	}
 
-	##CYPRUS
+	##AGRIANES
+	AGRIA = {
+		capital = dupnitsa
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			dupnitsa samokov sredets svoge tsaribrod velbuzd zemlungrad
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { thracian }
+		tolerated_cultures = { }
+	
+	}
+
+	##ALASI
 	ALASI = {
-		capital = nicosia_cyp
+		capital = famagusta
 
 		country_rank = rank_kingdom
 
@@ -126,23 +154,110 @@ countries = {
 		own_control_core = {
 			famagusta kyrenia larnaca limassol morphou nicosia_cyp paphos
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { canaanite }
 		tolerated_cultures = { }
+	
 	}
 
-	##AMURU
-	AMURU = {
-		capital = homs
+	##ALMOPIANS
+	ALMOP = {
+		capital = debar
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			baalbek hama homs idlib kafartab khanaser marrat masyaf nabek qusayr
+			debar kicevo ohrid prilep skopje tetovo
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { paeonian thracian }
+		tolerated_cultures = { illyrian }
+	
+	}
+
+	##ALZIYA
+	ALZIY = {
+		capital = ahlat
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			ahlat bargiri baskale catak ercis hosap tatvan van
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { urartian }
+		tolerated_cultures = { gutian }
+	
+	}
+
+	##AMURU
+	AMURU = {
+		capital = baalbek
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			baalbek hama homs idlib kafartab khanaser marrat masyaf
+			nabek qusayr
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { amorite }
 		tolerated_cultures = { }
+	
+	}
+
+	##ARDIAIOI
+	ARDIA = {
+		capital = dubrovnik
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			dubrovnik gacko gradina konjic kotor mostar nevesinje onogost
+			pljevlja soko_grad trebinje ustikolina
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { illyrian triballian }
+		tolerated_cultures = { umbrian }
+	
+	}
+
+	##ARGAR
+	ARGAR = {
+		capital = adra
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			adra almanzora almeria baza caravaca cartagena cieza gergal
+			guadix huescar lorca mojacar mula murcia orgiva velez_rubio
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { iberian }
+		tolerated_cultures = { }
+	
 	}
 
 	##ARWAD
@@ -156,52 +271,62 @@ countries = {
 		own_control_core = {
 			jableh
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { phoenician }
 		tolerated_cultures = { }
+	
 	}
 
-	##ASHURITE EMPIRE
+	##ASYRI
 	ASYRI = {
-		capital = mosul
+		capital = abu_kemal
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			abu_kemal akre al_anbar al_sinn altun_kupri amadiya anah ar_rabb araban
-			ayn_tamr bahcesaray balad bara_iraq barqaid busayrah chamchamal cizre daquq
-			deir_ez_zor duhok dunaysir erbil eruh haditha hakkari hasakah hasankeyf hit
-			karbala kirkuk kozluk makisin mardin mawet midyat mosul nusaybin piranshahr
-			qaladiza qayyarah rahba ras_ayn rawanduz samarra sardasht semdinli siirt
-			sinjar sirnak sulaymaniyah tal_afar tikrit tunanir tuz_khurma ukbara zakho
+			abu_kemal akre al_anbar al_sinn altun_kupri amadiya anah ar_rabb
+			araban ayn_tamr bahcesaray balad bara_iraq barqaid busayrah chamchamal
+			cizre daquq deir_ez_zor duhok dunaysir erbil eruh haditha
+			hakkari hasakah hasankeyf hit karbala kirkuk kozluk makisin
+			mardin mawet midyat mosul nusaybin piranshahr qaladiza qayyarah
+			rahba ras_ayn rawanduz samarra sardasht semdinli siirt sinjar
+			sirnak sulaymaniyah tal_afar tikrit tunanir tuz_khurma ukbara zakho
 		}
 		government = {
 			ruler = random
 		}
 		accepted_cultures = { assyrian }
 		tolerated_cultures = { hurrian akkadian babylonian }
+	
 	}
 
 	##AZZI
 	AZZI = {
-		capital = erzurum
+		capital = bayburt
 
-		country_rank = rank_country
+		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			bayburt erzurum gumushane hasankale hinis ispir kelkit oltu panaskerti
-			parkhali tekman tercan tortum varto
+			bayburt erzurum gumushane hasankale hinis ispir kelkit oltu
+			panaskerti parkhali tekman tercan tortum varto
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { urartian }
 		tolerated_cultures = { }
+	
 	}
 
-	##BALEARIC ISLANDS
+	##BALES
 	BALES = {
-		capital = palma
+		capital = ciudadela_de_menorca
 
 		country_rank = rank_kingdom
 
@@ -210,8 +335,12 @@ countries = {
 		own_control_core = {
 			ciudadela_de_menorca ibiza manacor palma pollensa
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { iberian }
 		tolerated_cultures = { }
+	
 	}
 
 	##BALSA
@@ -225,8 +354,12 @@ countries = {
 		own_control_core = {
 			tavira
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { lusitanian }
 		tolerated_cultures = { }
+	
 	}
 
 	##BERIT
@@ -240,8 +373,51 @@ countries = {
 		own_control_core = {
 			deir_qamar
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { phoenician }
 		tolerated_cultures = { }
+	
+	}
+
+	##BOTTIAEA
+	BOTTI = {
+		capital = edessa
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			edessa elassona giannitsa gynaikokastro hatera kassandreia kavala kilkis
+			mount_athos ostrovo polygyros rentina servia thasos thessaloniki veria
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = { dacian paeonian }
+	
+	}
+
+	##BOULINOI
+	BOULI = {
+		capital = glamoc
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			glamoc livno sinj
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { illyrian }
+		tolerated_cultures = { }
+	
 	}
 
 	##BYBLO
@@ -255,13 +431,36 @@ countries = {
 		own_control_core = {
 			beirut
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { phoenician }
 		tolerated_cultures = { }
+	
+	}
+
+	##CHAONIA
+	CAONI = {
+		capital = avlonya
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			avlonya ballsh berat devol elbasan kavaje
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { illyrian }
+		tolerated_cultures = { mycenaean }
+	
 	}
 
 	##CARTI
 	CARTI = {
-		capital = gibraltar
+		capital = algeciras
 
 		country_rank = rank_kingdom
 
@@ -270,13 +469,60 @@ countries = {
 		own_control_core = {
 			algeciras gibraltar
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { tartessian }
 		tolerated_cultures = { }
+	
 	}
 
-	##DILMUN
+	##DARDANIANS
+	DARDN = {
+		capital = arilje
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			arilje belgrad branicevo brskovo brvenik budimlja carasova debrc
+			gradac jagodina kovin kozelj krupanj krusevac kucevo mihalt
+			mitrovica nis pancevo peja petrovaradin pirot plenita prijepolje
+			prokuplje ravno rudnik sabac severin sjenica smederevo sremska_mitrovica
+			stalac stramba strehaia svrljig targu_jiu trgoviste_SER uzice valjevo
+			vidin visegrad visesav zica
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { triballian }
+		tolerated_cultures = { dacian thracian illyrian }
+	
+	}
+
+	##DERRONES
+	DERRN = {
+		capital = glubocica
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			glubocica medveda novo_brdo pristina vranje
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { illyrian triballian }
+		tolerated_cultures = { }
+	
+	}
+
+	##DIMUN
 	DIMUN = {
-		capital = manama
+		capital = al_mashqar
 
 		country_rank = rank_kingdom
 
@@ -285,29 +531,55 @@ countries = {
 		own_control_core = {
 			al_mashqar al_uqayr eglat_faisal manama sayhat zubarah
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { dilmunite }
 		tolerated_cultures = { }
+	
 	}
 
-	##EL ARGAR
-	ARGAR = {
-		capital = murcia
+	##DOBERES
+	DOBER = {
+		capital = bansko
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			adra almanzora almeria baza caravaca cartagena cieza gergal guadix huescar
-			lorca mojacar mula murcia orgiva velez_rubio
+			bansko krupnik melnik
 		}
-		accepted_cultures = { iberian }
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { thracian }
 		tolerated_cultures = { }
+	
+	}
+
+	##DOLOPIA
+	DOLOP = {
+		capital = arta
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			arta karditsa karpenisi pyli
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = { }
+	
 	}
 
 	##ELAM
 	ELAM = {
-		capital = shush
+		capital = bagh_malek
 
 		country_rank = rank_kingdom
 
@@ -315,31 +587,40 @@ countries = {
 
 		own_control_core = {
 			bagh_malek bandar_deylam bandar_rig basht behbahan borazjan dehdasht dehdez
-			dehram dishmok dogonbadan farashband firuzabad hendijan izeh jannaba kalameh
-			kavar kazerun lordegan machul masjed_soleyman nurabad ramhormoz reyshahr
-			sar_mashhad suq
+			dehram dishmok dogonbadan farashband firuzabad hendijan izeh jannaba
+			kalameh kavar kazerun lordegan machul masjed_soleyman nurabad ramhormoz
+			reyshahr sar_mashhad suq
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { elamite }
 		tolerated_cultures = { gutian }
+	
 	}
 
-	##ELIMI
-	ELIMI = {
-		capital = palermo
+	##ELIMIOTIS
+	ELMIT = {
+		capital = grevena
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
+			grevena trikala
 		}
-		accepted_cultures = { sicel }
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { mycenaean }
 		tolerated_cultures = { }
+	
 	}
 
 	##ELYMI
 	ELYMI = {
-		capital = palermo
+		capital = mazara
 
 		country_rank = rank_kingdom
 
@@ -348,98 +629,199 @@ countries = {
 		own_control_core = {
 			mazara palermo salemi trapani
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { sicel }
 		tolerated_cultures = { }
+	
 	}
 
 	##HABIR
 	HABIR = {
-		capital = damascus
+		capital = azraq
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			azraq bosra burraq damascus jayrud kaf qutayfah salkhad suwayda
+			azraq bosra burraq damascus jayrud kaf qutayfah salkhad
+			suwayda
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { aramaean }
 		tolerated_cultures = { moabite }
+	
 	}
 
 	##HAJAS
 	HAJAS = {
-		capital = trebizond
+		capital = artanuji
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			artanuji batumi gorele khikhani khupati rize savsat surmene trebizond
+			artanuji batumi gorele khikhani khupati rize savsat surmene
+			trebizond
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { colchian }
 		tolerated_cultures = { }
+	
 	}
 
 	##HAPAL
 	HAPAL = {
-		capital = usak
+		capital = alasehir
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			alasehir aslanapa banaz dinar gediz honaz lazkiye nazilli sandikli seyhli
-			tavsanli usak
+			alasehir aslanapa banaz dinar gediz honaz lazkiye nazilli
+			sandikli seyhli tavsanli usak
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { luwian }
 		tolerated_cultures = { }
+	
+	}
+
+	##HIERASTAMNOI
+	HIERA = {
+		capital = kaseg
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			kaseg knin novigrad pag sibenik zadar
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { illyrian }
+		tolerated_cultures = { }
+	
+	}
+
+	##HYLLOI
+	HYLLO = {
+		capital = brac
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			brac split
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { illyrian }
+		tolerated_cultures = { }
+	
 	}
 
 	##IAPYG
 	IAPYG = {
-		capital = bari
+		capital = altamura
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			altamura andria bari barletta bovino foggia lucera manfredonia monopoli
-			rotondo sansevero
+			altamura andria bari barletta bovino foggia lucera manfredonia
+			monopoli rotondo sansevero
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { samnite }
 		tolerated_cultures = { }
+	
+	}
+
+	##KARKAMISSA
+	KARKA = {
+		capital = jabar
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			jabar madinat_far maskanah raqqa tabqah
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { babylonian aramaean }
+		tolerated_cultures = { canaanite }
+	
+	}
+
+	##KASKA
+	KASKA = {
+		capital = akkus
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			akkus bafra bayramlu gadegara giresun ladik_pontus mesudiye niksar
+			samsun sonisa terme unye
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { colchian }
+		tolerated_cultures = { hittite kartvelian }
+	
 	}
 
 	##KASSI
 	KASSI = {
-		capital = baghdad
+		capital = abadan
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			abadan abdanan abdas ahvaz al_madar al_qatr al_tib an_nil arkvaz badra
-			baghdad bakusaya balad_ruz baqubah basra dayr_aqul dehloran dowraq eyvan
-			gilan_gharb hamidiyeh harunabad hawraman hillah hoveyzeh ilam javanrud
-			kamyaran kermanshah khalafabad khalis khanaqin mandali marivan meymeh
-			mosharahat muhammerah nasiriyah numaniyyah qasr_shirin quban rusafa sahrazur
-			samawa shush shushtar suq_al_shuyukh wasit zuwayr
+			abadan abdanan abdas ahvaz al_madar al_qatr al_tib an_nil
+			arkvaz badra baghdad bakusaya balad_ruz baqubah basra dayr_aqul
+			dehloran dowraq eyvan gilan_gharb hamidiyeh harunabad hawraman hillah
+			hoveyzeh ilam javanrud kamyaran kermanshah khalafabad khalis khanaqin
+			mandali marivan meymeh mosharahat muhammerah nasiriyah numaniyyah qasr_shirin
+			quban rusafa sahrazur samawa shush shushtar suq_al_shuyukh wasit
+			zuwayr
 		}
 		government = {
 			ruler = random
 		}
 		accepted_cultures = { kassite }
 		tolerated_cultures = { babylonian sumerian }
+	
 	}
 
 	##KUWAL
 	KUWAL = {
-		capital = isparta
+		capital = burdur
 
 		country_rank = rank_kingdom
 
@@ -448,44 +830,95 @@ countries = {
 		own_control_core = {
 			burdur egirdir isparta sarkikaraagac uluborlu yalvac
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { luwian }
 		tolerated_cultures = { }
+	
+	}
+
+	##LAEAEANS
+	LAEAE = {
+		capital = kostenets
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			kostenets stipon strelcha tsepina
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { thracian }
+		tolerated_cultures = { paeonian }
+	
+	}
+
+	##LAZPA
+	LAZPA = {
+		capital = mitilene
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			mitilene molyvos
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = { }
+	
 	}
 
 	##LIBYA
 	LIBYA = {
-		capital = benghazi
+		capital = ajdabiya
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			ajdabiya al_bayda al_khuimat awjila barca benghazi derna mechili msus qaminis
-			siwa suluntah tmimi tobruk
+			ajdabiya al_bayda al_khuimat awjila barca benghazi derna mechili
+			msus qaminis siwa suluntah tmimi tobruk
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { libu }
 		tolerated_cultures = { garamantian }
+	
 	}
 
 	##LUKKA
 	LUKKA = {
-		capital = mugla
+		capital = cine
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			cine gokabat golhisar kas marmaris megri milas mugla tavas yuksekkum
+			cine gokabat golhisar kas marmaris megri milas mugla
+			tavas yuksekkum
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { lukka }
 		tolerated_cultures = { carian }
+	
 	}
 
 	##MAGAN
 	MAGAN = {
-		capital = masqat
+		capital = abu_dhabi
 
 		country_rank = rank_kingdom
 
@@ -493,14 +926,19 @@ countries = {
 
 		own_control_core = {
 			abu_dhabi al_ayn al_dhaid al_kamil_wal_wafi al_khaburah as_sib bahla dubai
-			ibra ibri izki jalan_buani_buali julfar khor_fakkan masirah masqat nakhal
-			nizwa qalhat rustaq saham sharjah shinas sinaw suhar sur yanqul
+			ibra ibri izki jalan_buani_buali julfar khor_fakkan masirah masqat
+			nakhal nizwa qalhat rustaq saham sharjah shinas sinaw
+			suhar sur yanqul
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { arabian }
 		tolerated_cultures = { sabaean }
+	
 	}
 
-	##MALAGA
+	##MALAK
 	MALAK = {
 		capital = malaga
 
@@ -511,78 +949,216 @@ countries = {
 		own_control_core = {
 			malaga
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { tartessian }
 		tolerated_cultures = { }
+	
+	}
+
+	##MANIOI
+	MANIO = {
+		capital = metkovic
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			metkovic slano
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { illyrian }
+		tolerated_cultures = { }
+	
 	}
 
 	##MASA
 	MASA = {
-		capital = bursa
+		capital = adranos
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			adranos bilecik bursa domanic dursunbey emet eynegol harmancik inonu iznik
-			kutahya simav sultanonu
+			adranos bilecik bursa domanic dursunbey emet eynegol harmancik
+			inonu iznik kutahya simav sultanonu
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { phrygian }
 		tolerated_cultures = { }
+	
+	}
+
+	##MIRA
+	MIRA = {
+		capital = ayasuluk
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			ayasuluk birgi cesme guzelhisar kula manisa smyrna tire
+			urla
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { hittite }
+		tolerated_cultures = { mycenaean }
+	
 	}
 
 	##MITAN
 	MITAN = {
-		capital = urfa
+		capital = adakli
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			adakli bingol cermik diyarbekir egil ergani genc harran hazro heni kulp
-			mayyafariqin palu sason savur siverek sivrice urfa viransehir
+			adakli bingol cermik diyarbekir egil ergani genc harran
+			hazro heni kulp mayyafariqin palu sason savur siverek
+			sivrice urfa viransehir
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { hurrian }
 		tolerated_cultures = { }
+	
+	}
+
+	##MOLOSSIA
+	MOLOS = {
+		capital = argyrokastro
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			argyrokastro butrint corfu kastoria kleisoura_epirus konitsa siatista
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = { paeonian }
+	
+	}
+
+	##NESTIOI
+	NESTI = {
+		capital = drijeva
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			drijeva makarska
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { illyrian }
+		tolerated_cultures = { }
+	
 	}
 
 	##NURAG
 	NURAG = {
-		capital = cagliari
+		capital = ales
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			ales alghero bitti bosa cagliari castelsardo isili macomer muravera oristano
-			orosei ozieri posada sassari seddori sorgono tempiopausania terralba
-			terranova_pausania thiesi tortoli tratalias villa_di_chiesa
+			ales alghero bitti bosa cagliari castelsardo isili macomer
+			muravera oristano orosei ozieri posada sassari seddori sorgono
+			tempiopausania terralba terranova_pausania thiesi tortoli tratalias villa_di_chiesa
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { nuragic }
 		tolerated_cultures = { sherden }
+	
+	}
+
+	##PAEONIA
+	PAEON = {
+		capital = bitola
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			bitola florina kocani kratovo kumanovo prosek shtip strumica
+			veles
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { thracian }
+		tolerated_cultures = { paeonian dacian }
+	
+	}
+
+	##PAEOPLAE
+	PAEOP = {
+		capital = beden
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			beden dospat nevrokop
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { thracian }
+		tolerated_cultures = { }
+	
 	}
 
 	##PALA
 	PALA = {
-		capital = sinop
+		capital = amasra
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			amasra arac bartin boyabat cerkes devrekani eregli gerede gerze inebolu
-			kastamonu kure_i_mamure mengen safranbolu sinop taskopru ulus yenicepazari
+			amasra arac bartin boyabat cerkes devrekani eregli gerede
+			gerze inebolu kastamonu kure_i_mamure mengen safranbolu sinop taskopru
+			ulus yenicepazari
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { palaic }
 		tolerated_cultures = { }
+	
 	}
 
 	##PARTH
 	PARTH = {
-		capital = antalya
+		capital = alaiye
 
 		country_rank = rank_kingdom
 
@@ -592,28 +1168,77 @@ countries = {
 			alaiye antalya beysehir elmali finike istanoz karahisar_i_teke manavgat
 			selinti seydisehir
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { lycian }
 		tolerated_cultures = { }
+	
 	}
 
-	##SASU
-	SASU = {
-		capital = amman
+	##SAHIRIYA
+	SAHIR = {
+		capital = akcasehir
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			al_quwayrah amman aqaba haql karak maan madaba shoubak sughar
+			akcasehir akyazi bolu goynuk kibrus konrapa mudurnu nalli
+			sogut
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { mycenaean hittite }
+		tolerated_cultures = { }
+	
+	}
+
+	##SASU
+	SASU = {
+		capital = al_quwayrah
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			al_quwayrah amman aqaba haql karak maan madaba shoubak
+			sughar
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { edomite }
 		tolerated_cultures = { ammonite }
+	
+	}
+
+	##SEHA RIVER LAND
+	SEHA = {
+		capital = akhisar
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			akhisar balikesir bergama bigadic demirci foca gordes menemen
+			soma susurluk
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { hittite }
+		tolerated_cultures = { mycenaean }
+	
 	}
 
 	##SICAN
 	SICAN = {
-		capital = palermo
+		capital = bivona
 
 		country_rank = rank_kingdom
 
@@ -622,61 +1247,175 @@ countries = {
 		own_control_core = {
 			bivona caltanisetta cefalu corleone girgenti sciacca termini
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { sicel }
 		tolerated_cultures = { }
+	
 	}
 
 	##SICEL
 	SICEL = {
-		capital = syracuse
+		capital = caltagirone
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			caltagirone catania messina mistretta modica nicosiasic noto patti piazza
-			syracuse terranovasic
+			caltagirone catania messina mistretta modica nicosiasic noto patti
+			piazza syracuse terranovasic
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { sicel }
 		tolerated_cultures = { }
+	
+	}
+
+	##SIROPAINES
+	SIROP = {
+		capital = drama
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			drama serres
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { paeonian }
+		tolerated_cultures = { mycenaean }
+	
 	}
 
 	##SUTU
 	SUTU = {
-		capital = tadmur
+		capital = arak
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			arak huwwarin ithriya qaryatayn qastal salamiyya sukhnah tadmur taybah
+			arak huwwarin ithriya qaryatayn qastal salamiyya sukhnah tadmur
+			taybah
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { aramaean }
 		tolerated_cultures = { }
+	
 	}
 
 	##TARTS
 	TARTS = {
-		capital = sevilla
+		capital = arcos_de_la_frontera
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			arcos_de_la_frontera ayamonte cadiz carmona coria_del_rio huelva
-			jerez_de_la_frontera medina_sidonia niebla sanlucar sanlucar_la_mayor
-			sevilla tarifa
+			arcos_de_la_frontera ayamonte cadiz carmona coria_del_rio huelva jerez_de_la_frontera medina_sidonia
+			niebla sanlucar sanlucar_la_mayor sevilla tarifa
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { tartessian }
 		tolerated_cultures = { }
+	
+	}
+
+	##TAULANTIOI
+	TAULA = {
+		capital = bar_cg
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			bar_cg dukagjini durres gjakova has koman kruje lezha
+			podgorica prizren shkoder tirana
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { illyrian }
+		tolerated_cultures = { triballian }
+	
+	}
+
+	##THESPROTIA
+	TESPR = {
+		capital = ioannina
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			ioannina parga preveza
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = { }
+	
+	}
+
+	##THRACE
+	THRAC = {
+		capital = bukelon
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			bukelon burgas demotica edirne elhovo haskovo hayrabolu komotini
+			malgara ormenio perperek rusokastro smolyan traianopolis ustra xanthia
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = { thracian }
+	
+	}
+
+	##THRACIAN BOSPORUS
+	BOSPH = {
+		capital = ahtopol
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			ahtopol atpazari catalca constantinople corlu izmit kirklareli kiyikoy
+			luleburgaz silivri silli sozopol uskudar vize
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = { }
+	
 	}
 
 	##TRPOL
 	TRPOL = {
-		capital = tripoli_syria
+		capital = baniyas
 
 		country_rank = rank_kingdom
 
@@ -685,8 +1424,12 @@ countries = {
 		own_control_core = {
 			baniyas tartus tripoli_syria
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { libu }
 		tolerated_cultures = { }
+	
 	}
 
 	##UGART
@@ -700,24 +1443,33 @@ countries = {
 		own_control_core = {
 			antioch latakia
 		}
+		government = {
+			ruler = random
+		}
 		accepted_cultures = { ugaritic }
 		tolerated_cultures = { }
+	
 	}
 
 	##WILUS
 	WILUS = {
-		capital = canakkale
+		capital = ayvacik
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			ayvacik balya bandirma bayramic biga can canakkale edremit gonen imbros
-			lapseki lemnos manyas mihalic
+			ayvacik balya bandirma bayramic biga can canakkale edremit
+			enez gallipoli gonen imbros kesan lapseki lemnos manyas
+			mihalic rodoscuk
+		}
+		government = {
+			ruler = random
 		}
 		accepted_cultures = { luwian }
-		tolerated_cultures = { }
+		tolerated_cultures = { mycenaean }
+	
 	}
-}
+	}
 }

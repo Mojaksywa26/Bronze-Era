@@ -19,6 +19,10 @@ const manualCountryCultures = new Map([
     accepted: ["hittite"],
     tolerated: ["luwian", "hattian", "palaic", "hurrian", "phrygian", "lukka"],
   }],
+  ["ACRE", {
+    accepted: ["phoenician"],
+    tolerated: ["canaanite", "tjekker"],
+  }],
 ]);
 
 function readText(rel) {
@@ -200,7 +204,7 @@ function applyCountryCultures() {
     if (!nextBody) nextBody = insertAfterNestedBlock(body, "own_control_core", insertion);
     if (!nextBody) nextBody = `${body}${insertion}`;
 
-    const nextBlock = `${input.slice(entry.start, entry.open + 1)}${nextBody}}`;
+    const nextBlock = `${input.slice(entry.start, entry.open + 1)}${nextBody}\n\t}`;
     output += input.slice(cursor, entry.start);
     output += nextBlock;
     cursor = entry.close + 1;

@@ -10,22 +10,6 @@ MER = {
 	color = rgb { 72 85 83 }
 	color2 = rgb { 110 27 27 }
 }
-0001G = {
-	color = rgb { 63 18 186 }
-	color2 = rgb { 110 27 27 }
-}
-0002G = {
-	color = rgb { 54 201 103 }
-	color2 = rgb { 110 27 27 }
-}
-0003G = {
-	color = rgb { 18 131 217 }
-	color2 = rgb { 110 27 27 }
-}
-ACRE = {
-	color = rgb { 198 188 47 }
-	color2 = rgb { 110 27 27 }
-}
 ALASI = {
 	color = rgb { 62 208 147 }
 	color2 = rgb { 110 27 27 }
@@ -76,10 +60,6 @@ ARGAR = {
 }
 ELAM = {
 	color = rgb { 208 74 47 }
-	color2 = rgb { 110 27 27 }
-}
-ELIMI = {
-	color = rgb { 83 213 124 }
 	color2 = rgb { 110 27 27 }
 }
 ELYMI = {
@@ -176,5 +156,149 @@ UGART = {
 }
 WILUS = {
 	color = rgb { 196 201 49 }
+	color2 = rgb { 110 27 27 }
+}
+AGRIA = {
+	color = rgb { 48 83 187 }
+	color2 = rgb { 110 27 27 }
+}
+ALMOP = {
+	color = rgb { 75 203 52 }
+	color2 = rgb { 110 27 27 }
+}
+ALZIY = {
+	color = rgb { 200 45 187 }
+	color2 = rgb { 110 27 27 }
+}
+ARDIA = {
+	color = rgb { 218 68 70 }
+	color2 = rgb { 110 27 27 }
+}
+BOTTI = {
+	color = rgb { 54 63 201 }
+	color2 = rgb { 110 27 27 }
+}
+BOULI = {
+	color = rgb { 220 65 127 }
+	color2 = rgb { 110 27 27 }
+}
+CAONI = {
+	color = rgb { 53 109 182 }
+	color2 = rgb { 110 27 27 }
+}
+DARDN = {
+	color = rgb { 177 57 141 }
+	color2 = rgb { 110 27 27 }
+}
+DERRN = {
+	color = rgb { 127 218 62 }
+	color2 = rgb { 110 27 27 }
+}
+DOBER = {
+	color = rgb { 210 143 70 }
+	color2 = rgb { 110 27 27 }
+}
+DOLOP = {
+	color = rgb { 182 58 60 }
+	color2 = rgb { 110 27 27 }
+}
+ELMIT = {
+	color = rgb { 192 187 48 }
+	color2 = rgb { 110 27 27 }
+}
+HIERA = {
+	color = rgb { 62 55 200 }
+	color2 = rgb { 110 27 27 }
+}
+HYLLO = {
+	color = rgb { 208 86 62 }
+	color2 = rgb { 110 27 27 }
+}
+KARKA = {
+	color = rgb { 55 121 179 }
+	color2 = rgb { 110 27 27 }
+}
+KASKA = {
+	color = rgb { 197 99 43 }
+	color2 = rgb { 110 27 27 }
+}
+LAEAE = {
+	color = rgb { 42 174 198 }
+	color2 = rgb { 110 27 27 }
+}
+LAZPA = {
+	color = rgb { 85 87 206 }
+	color2 = rgb { 110 27 27 }
+}
+MANIO = {
+	color = rgb { 222 63 132 }
+	color2 = rgb { 110 27 27 }
+}
+MIRA = {
+	color = rgb { 69 217 202 }
+	color2 = rgb { 110 27 27 }
+}
+MOLOS = {
+	color = rgb { 141 75 195 }
+	color2 = rgb { 110 27 27 }
+}
+NESTI = {
+	color = rgb { 146 45 205 }
+	color2 = rgb { 110 27 27 }
+}
+PAEON = {
+	color = rgb { 204 97 36 }
+	color2 = rgb { 110 27 27 }
+}
+PAEOP = {
+	color = rgb { 57 97 177 }
+	color2 = rgb { 110 27 27 }
+}
+SAHIR = {
+	color = rgb { 197 48 90 }
+	color2 = rgb { 110 27 27 }
+}
+SEHA = {
+	color = rgb { 55 212 37 }
+	color2 = rgb { 110 27 27 }
+}
+SIROP = {
+	color = rgb { 35 215 53 }
+	color2 = rgb { 110 27 27 }
+}
+TAULA = {
+	color = rgb { 216 49 202 }
+	color2 = rgb { 110 27 27 }
+}
+TESPR = {
+	color = rgb { 82 201 64 }
+	color2 = rgb { 110 27 27 }
+}
+THRAC = {
+	color = rgb { 194 194 56 }
+	color2 = rgb { 110 27 27 }
+}
+BOSPH = {
+	color = rgb { 66 212 215 }
+	color2 = rgb { 110 27 27 }
+}
+0001G = {
+	color = rgb { 63 18 186 }
+	color2 = rgb { 110 27 27 }
+}
+0002G = {
+	color = rgb { 54 201 103 }
+	color2 = rgb { 110 27 27 }
+}
+0003G = {
+	color = rgb { 18 131 217 }
+	color2 = rgb { 110 27 27 }
+}
+ACRE = {
+	color = rgb { 198 188 47 }
+	color2 = rgb { 110 27 27 }
+}
+ELIMI = {
+	color = rgb { 83 213 124 }
 	color2 = rgb { 110 27 27 }
 }

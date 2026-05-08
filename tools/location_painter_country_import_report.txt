@@ -1,0 +1,12 @@
+Location painter country import report
+======================================
+
+Assignments read: 73
+Countries updated from painter: 72
+Countries added: 0
+Empty stale countries removed: 0
+Renamed source countries removed: 0
+Renamed/normalized tags: 0
+Invalid locations skipped: 0
+Duplicate painter locations: 0
+

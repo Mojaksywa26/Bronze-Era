@@ -1,7 +1,7 @@
 Bronze Era country culture status report
 ========================================
 
-Countries processed: 42
+Countries processed: 72
 
 0001G
 - accepted_cultures: mycenaean
@@ -13,13 +13,28 @@ Countries processed: 42
 - accepted_cultures: hittite
 - tolerated_cultures: luwian hattian palaic hurrian phrygian lukka
 ACRE
-- accepted_cultures: tjekker
+- accepted_cultures: phoenician
+- tolerated_cultures: canaanite tjekker
+AGRIA
+- accepted_cultures: thracian
 - tolerated_cultures: none
 ALASI
 - accepted_cultures: canaanite
 - tolerated_cultures: none
+ALMOP
+- accepted_cultures: paeonian thracian
+- tolerated_cultures: illyrian
+ALZIY
+- accepted_cultures: urartian
+- tolerated_cultures: gutian
 AMURU
 - accepted_cultures: amorite
+- tolerated_cultures: none
+ARDIA
+- accepted_cultures: illyrian triballian
+- tolerated_cultures: umbrian
+ARGAR
+- accepted_cultures: iberian
 - tolerated_cultures: none
 ARWAD
 - accepted_cultures: phoenician
@@ -39,23 +54,41 @@ BALSA
 BERIT
 - accepted_cultures: phoenician
 - tolerated_cultures: none
+BOTTI
+- accepted_cultures: mycenaean
+- tolerated_cultures: dacian paeonian
+BOULI
+- accepted_cultures: illyrian
+- tolerated_cultures: none
 BYBLO
 - accepted_cultures: phoenician
 - tolerated_cultures: none
+CAONI
+- accepted_cultures: illyrian
+- tolerated_cultures: mycenaean
 CARTI
 - accepted_cultures: tartessian
+- tolerated_cultures: none
+DARDN
+- accepted_cultures: triballian
+- tolerated_cultures: dacian thracian illyrian
+DERRN
+- accepted_cultures: illyrian triballian
 - tolerated_cultures: none
 DIMUN
 - accepted_cultures: dilmunite
 - tolerated_cultures: none
-ARGAR
-- accepted_cultures: iberian
+DOBER
+- accepted_cultures: thracian
+- tolerated_cultures: none
+DOLOP
+- accepted_cultures: mycenaean
 - tolerated_cultures: none
 ELAM
 - accepted_cultures: elamite
 - tolerated_cultures: gutian
-ELIMI
-- accepted_cultures: sicel
+ELMIT
+- accepted_cultures: mycenaean
 - tolerated_cultures: none
 ELYMI
 - accepted_cultures: sicel
@@ -69,14 +102,32 @@ HAJAS
 HAPAL
 - accepted_cultures: luwian
 - tolerated_cultures: none
+HIERA
+- accepted_cultures: illyrian
+- tolerated_cultures: none
+HYLLO
+- accepted_cultures: illyrian
+- tolerated_cultures: none
 IAPYG
 - accepted_cultures: samnite
 - tolerated_cultures: none
+KARKA
+- accepted_cultures: babylonian aramaean
+- tolerated_cultures: canaanite
+KASKA
+- accepted_cultures: colchian
+- tolerated_cultures: hittite kartvelian
 KASSI
 - accepted_cultures: kassite
 - tolerated_cultures: babylonian sumerian
 KUWAL
 - accepted_cultures: luwian
+- tolerated_cultures: none
+LAEAE
+- accepted_cultures: thracian
+- tolerated_cultures: paeonian
+LAZPA
+- accepted_cultures: mycenaean
 - tolerated_cultures: none
 LIBYA
 - accepted_cultures: libu
@@ -90,35 +141,74 @@ MAGAN
 MALAK
 - accepted_cultures: tartessian
 - tolerated_cultures: none
+MANIO
+- accepted_cultures: illyrian
+- tolerated_cultures: none
 MASA
 - accepted_cultures: phrygian
 - tolerated_cultures: none
+MIRA
+- accepted_cultures: hittite
+- tolerated_cultures: mycenaean
 MITAN
 - accepted_cultures: hurrian
+- tolerated_cultures: none
+MOLOS
+- accepted_cultures: mycenaean
+- tolerated_cultures: paeonian
+NESTI
+- accepted_cultures: illyrian
 - tolerated_cultures: none
 NURAG
 - accepted_cultures: nuragic
 - tolerated_cultures: sherden
+PAEON
+- accepted_cultures: thracian
+- tolerated_cultures: paeonian dacian
+PAEOP
+- accepted_cultures: thracian
+- tolerated_cultures: none
 PALA
 - accepted_cultures: palaic
 - tolerated_cultures: none
 PARTH
 - accepted_cultures: lycian
 - tolerated_cultures: none
+SAHIR
+- accepted_cultures: mycenaean hittite
+- tolerated_cultures: none
 SASU
 - accepted_cultures: edomite
 - tolerated_cultures: ammonite
+SEHA
+- accepted_cultures: hittite
+- tolerated_cultures: mycenaean
 SICAN
 - accepted_cultures: sicel
 - tolerated_cultures: none
 SICEL
 - accepted_cultures: sicel
 - tolerated_cultures: none
+SIROP
+- accepted_cultures: paeonian
+- tolerated_cultures: mycenaean
 SUTU
 - accepted_cultures: aramaean
 - tolerated_cultures: none
 TARTS
 - accepted_cultures: tartessian
+- tolerated_cultures: none
+TAULA
+- accepted_cultures: illyrian
+- tolerated_cultures: triballian
+TESPR
+- accepted_cultures: mycenaean
+- tolerated_cultures: none
+THRAC
+- accepted_cultures: mycenaean
+- tolerated_cultures: thracian
+BOSPH
+- accepted_cultures: mycenaean
 - tolerated_cultures: none
 TRPOL
 - accepted_cultures: libu
@@ -128,4 +218,4 @@ UGART
 - tolerated_cultures: none
 WILUS
 - accepted_cultures: luwian
-- tolerated_cultures: none
+- tolerated_cultures: mycenaean
