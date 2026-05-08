@@ -41,6 +41,8 @@ countries = {
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { minoan ionian aeolian dorian arcadian cycladic }
 	
+	
+	
 	}
 
 	##0002G
@@ -66,6 +68,8 @@ countries = {
 		}
 		accepted_cultures = { upper_egyptian lower_egyptian }
 		tolerated_cultures = { nubian medjay libyan canaanite phoenician peleset }
+	
+	
 	
 	}
 
@@ -103,6 +107,8 @@ countries = {
 		accepted_cultures = { hittite }
 		tolerated_cultures = { luwian hattian palaic hurrian phrygian lukka }
 	
+	
+	
 	}
 
 	##ACRE
@@ -121,6 +127,8 @@ countries = {
 		}
 		accepted_cultures = { phoenician }
 		tolerated_cultures = { canaanite tjekker }
+	
+	
 	
 	}
 
@@ -141,6 +149,8 @@ countries = {
 		accepted_cultures = { thracian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##ALASI
@@ -159,6 +169,8 @@ countries = {
 		}
 		accepted_cultures = { canaanite }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -179,6 +191,8 @@ countries = {
 		accepted_cultures = { paeonian thracian }
 		tolerated_cultures = { illyrian }
 	
+	
+	
 	}
 
 	##ALZIYA
@@ -197,6 +211,8 @@ countries = {
 		}
 		accepted_cultures = { urartian }
 		tolerated_cultures = { gutian }
+	
+	
 	
 	}
 
@@ -218,6 +234,8 @@ countries = {
 		accepted_cultures = { amorite }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##ARDIAIOI
@@ -236,7 +254,9 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { illyrian triballian }
-		tolerated_cultures = { umbrian }
+		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -258,6 +278,8 @@ countries = {
 		accepted_cultures = { iberian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##ARWAD
@@ -276,6 +298,8 @@ countries = {
 		}
 		accepted_cultures = { phoenician }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -302,6 +326,8 @@ countries = {
 		accepted_cultures = { assyrian }
 		tolerated_cultures = { hurrian akkadian babylonian }
 	
+	
+	
 	}
 
 	##AZZI
@@ -322,6 +348,8 @@ countries = {
 		accepted_cultures = { urartian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##BALES
@@ -340,6 +368,8 @@ countries = {
 		}
 		accepted_cultures = { iberian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -360,6 +390,8 @@ countries = {
 		accepted_cultures = { lusitanian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##BERIT
@@ -378,6 +410,8 @@ countries = {
 		}
 		accepted_cultures = { phoenician }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -399,6 +433,8 @@ countries = {
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { dacian paeonian }
 	
+	
+	
 	}
 
 	##BOULINOI
@@ -417,6 +453,8 @@ countries = {
 		}
 		accepted_cultures = { illyrian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -437,6 +475,8 @@ countries = {
 		accepted_cultures = { phoenician }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##CHAONIA
@@ -456,6 +496,8 @@ countries = {
 		accepted_cultures = { illyrian }
 		tolerated_cultures = { mycenaean }
 	
+	
+	
 	}
 
 	##CARTI
@@ -474,6 +516,8 @@ countries = {
 		}
 		accepted_cultures = { tartessian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -499,6 +543,8 @@ countries = {
 		accepted_cultures = { triballian }
 		tolerated_cultures = { dacian thracian illyrian }
 	
+	
+	
 	}
 
 	##DERRONES
@@ -517,6 +563,8 @@ countries = {
 		}
 		accepted_cultures = { illyrian triballian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -537,6 +585,8 @@ countries = {
 		accepted_cultures = { dilmunite }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##DOBERES
@@ -556,6 +606,8 @@ countries = {
 		accepted_cultures = { thracian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##DOLOPIA
@@ -574,6 +626,8 @@ countries = {
 		}
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -597,6 +651,8 @@ countries = {
 		accepted_cultures = { elamite }
 		tolerated_cultures = { gutian }
 	
+	
+	
 	}
 
 	##ELIMIOTIS
@@ -616,6 +672,8 @@ countries = {
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##ELYMI
@@ -632,8 +690,10 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { sicel }
-		tolerated_cultures = { }
+		accepted_cultures = { elymian }
+		tolerated_cultures = { sicanian }
+	
+	
 	
 	}
 
@@ -655,6 +715,8 @@ countries = {
 		accepted_cultures = { aramaean }
 		tolerated_cultures = { moabite }
 	
+	
+	
 	}
 
 	##HAJAS
@@ -674,6 +736,8 @@ countries = {
 		}
 		accepted_cultures = { colchian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -695,6 +759,8 @@ countries = {
 		accepted_cultures = { luwian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##HIERASTAMNOI
@@ -713,6 +779,8 @@ countries = {
 		}
 		accepted_cultures = { illyrian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -733,6 +801,8 @@ countries = {
 		accepted_cultures = { illyrian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##IAPYG
@@ -750,8 +820,10 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { samnite }
+		accepted_cultures = { iapygian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -772,6 +844,8 @@ countries = {
 		accepted_cultures = { babylonian aramaean }
 		tolerated_cultures = { canaanite }
 	
+	
+	
 	}
 
 	##KASKA
@@ -791,6 +865,8 @@ countries = {
 		}
 		accepted_cultures = { colchian }
 		tolerated_cultures = { hittite kartvelian }
+	
+	
 	
 	}
 
@@ -817,6 +893,8 @@ countries = {
 		accepted_cultures = { kassite }
 		tolerated_cultures = { babylonian sumerian }
 	
+	
+	
 	}
 
 	##KUWAL
@@ -835,6 +913,8 @@ countries = {
 		}
 		accepted_cultures = { luwian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -855,6 +935,8 @@ countries = {
 		accepted_cultures = { thracian }
 		tolerated_cultures = { paeonian }
 	
+	
+	
 	}
 
 	##LAZPA
@@ -873,6 +955,8 @@ countries = {
 		}
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -894,6 +978,8 @@ countries = {
 		accepted_cultures = { libu }
 		tolerated_cultures = { garamantian }
 	
+	
+	
 	}
 
 	##LUKKA
@@ -913,6 +999,8 @@ countries = {
 		}
 		accepted_cultures = { lukka }
 		tolerated_cultures = { carian }
+	
+	
 	
 	}
 
@@ -936,6 +1024,8 @@ countries = {
 		accepted_cultures = { arabian }
 		tolerated_cultures = { sabaean }
 	
+	
+	
 	}
 
 	##MALAK
@@ -955,6 +1045,8 @@ countries = {
 		accepted_cultures = { tartessian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##MANIOI
@@ -973,6 +1065,8 @@ countries = {
 		}
 		accepted_cultures = { illyrian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -994,6 +1088,8 @@ countries = {
 		accepted_cultures = { phrygian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##MIRA
@@ -1013,6 +1109,8 @@ countries = {
 		}
 		accepted_cultures = { hittite }
 		tolerated_cultures = { mycenaean }
+	
+	
 	
 	}
 
@@ -1035,6 +1133,8 @@ countries = {
 		accepted_cultures = { hurrian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##MOLOSSIA
@@ -1053,6 +1153,8 @@ countries = {
 		}
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { paeonian }
+	
+	
 	
 	}
 
@@ -1073,6 +1175,8 @@ countries = {
 		accepted_cultures = { illyrian }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##NURAG
@@ -1092,7 +1196,9 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { nuragic }
-		tolerated_cultures = { sherden }
+		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -1114,6 +1220,8 @@ countries = {
 		accepted_cultures = { thracian }
 		tolerated_cultures = { paeonian dacian }
 	
+	
+	
 	}
 
 	##PAEOPLAE
@@ -1132,6 +1240,8 @@ countries = {
 		}
 		accepted_cultures = { thracian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -1154,6 +1264,8 @@ countries = {
 		accepted_cultures = { palaic }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##PARTH
@@ -1173,6 +1285,8 @@ countries = {
 		}
 		accepted_cultures = { lycian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -1194,6 +1308,8 @@ countries = {
 		accepted_cultures = { mycenaean hittite }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##SASU
@@ -1213,6 +1329,8 @@ countries = {
 		}
 		accepted_cultures = { edomite }
 		tolerated_cultures = { ammonite }
+	
+	
 	
 	}
 
@@ -1234,6 +1352,8 @@ countries = {
 		accepted_cultures = { hittite }
 		tolerated_cultures = { mycenaean }
 	
+	
+	
 	}
 
 	##SICAN
@@ -1250,8 +1370,10 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { sicel }
+		accepted_cultures = { sicanian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -1273,6 +1395,8 @@ countries = {
 		accepted_cultures = { sicel }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##SIROPAINES
@@ -1291,6 +1415,8 @@ countries = {
 		}
 		accepted_cultures = { paeonian }
 		tolerated_cultures = { mycenaean }
+	
+	
 	
 	}
 
@@ -1312,6 +1438,8 @@ countries = {
 		accepted_cultures = { aramaean }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##TARTS
@@ -1331,6 +1459,8 @@ countries = {
 		}
 		accepted_cultures = { tartessian }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -1352,6 +1482,8 @@ countries = {
 		accepted_cultures = { illyrian }
 		tolerated_cultures = { triballian }
 	
+	
+	
 	}
 
 	##THESPROTIA
@@ -1370,6 +1502,8 @@ countries = {
 		}
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -1391,6 +1525,8 @@ countries = {
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { thracian }
 	
+	
+	
 	}
 
 	##THRACIAN BOSPORUS
@@ -1411,6 +1547,8 @@ countries = {
 		accepted_cultures = { mycenaean }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##TRPOL
@@ -1430,6 +1568,8 @@ countries = {
 		accepted_cultures = { libu }
 		tolerated_cultures = { }
 	
+	
+	
 	}
 
 	##UGART
@@ -1448,6 +1588,8 @@ countries = {
 		}
 		accepted_cultures = { ugaritic }
 		tolerated_cultures = { }
+	
+	
 	
 	}
 
@@ -1469,6 +1611,8 @@ countries = {
 		}
 		accepted_cultures = { luwian }
 		tolerated_cultures = { mycenaean }
+	
+	
 	
 	}
 	}

@@ -290,3 +290,51 @@ oceanian_bronze_language = {
 	lowborn = { Langi Tala Motu }
 }
 
+italian_bronze_language = {
+	color = rgb { 149 106 88 }
+	family = italian_bronze_language_family
+
+	male_names = { Tites Aulus Mamercus Vibennus }
+	female_names = { Tana Ruma Acca Larthia }
+	dynasty_names = { Tites Aulus Mamercus Vibennus }
+	lowborn = { Tites Aulus Mamercus }
+}
+
+
+
+alpine_bronze_language = {
+	color = rgb { 104 133 112 }
+	family = alpine_bronze_language_family
+
+	male_names = { Camun Raet Lauco Brenno }
+	female_names = { Retia Camuna Lauca Brixia }
+	dynasty_names = { Camun Raet Lauco Brenno }
+	lowborn = { Camun Raet Lauco }
+}
+
+
+
+adriatic_bronze_language = {
+	color = rgb { 112 128 151 }
+	family = adriatic_bronze_language_family
+
+	male_names = { Daunos Iapyx Messapios Hyllos }
+	female_names = { Dauna Iapya Messapia Adria }
+	dynasty_names = { Daunos Iapyx Messapios Hyllos }
+	lowborn = { Daunos Iapyx Messapios }
+}
+
+
+
+island_bronze_language = {
+	color = rgb { 154 122 76 }
+	family = island_bronze_language_family
+
+	male_names = { Nora Sardo Iolaos Eryx }
+	female_names = { Sarda Nora Elyma Segesta }
+	dynasty_names = { Nora Sardo Iolaos Eryx }
+	lowborn = { Nora Sardo Iolaos }
+}
+
+
+

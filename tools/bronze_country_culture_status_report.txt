@@ -32,7 +32,7 @@ AMURU
 - tolerated_cultures: none
 ARDIA
 - accepted_cultures: illyrian triballian
-- tolerated_cultures: umbrian
+- tolerated_cultures: none
 ARGAR
 - accepted_cultures: iberian
 - tolerated_cultures: none
@@ -91,8 +91,8 @@ ELMIT
 - accepted_cultures: mycenaean
 - tolerated_cultures: none
 ELYMI
-- accepted_cultures: sicel
-- tolerated_cultures: none
+- accepted_cultures: elymian
+- tolerated_cultures: sicanian
 HABIR
 - accepted_cultures: aramaean
 - tolerated_cultures: moabite
@@ -109,7 +109,7 @@ HYLLO
 - accepted_cultures: illyrian
 - tolerated_cultures: none
 IAPYG
-- accepted_cultures: samnite
+- accepted_cultures: iapygian
 - tolerated_cultures: none
 KARKA
 - accepted_cultures: babylonian aramaean
@@ -161,7 +161,7 @@ NESTI
 - tolerated_cultures: none
 NURAG
 - accepted_cultures: nuragic
-- tolerated_cultures: sherden
+- tolerated_cultures: none
 PAEON
 - accepted_cultures: thracian
 - tolerated_cultures: paeonian dacian
@@ -184,7 +184,7 @@ SEHA
 - accepted_cultures: hittite
 - tolerated_cultures: mycenaean
 SICAN
-- accepted_cultures: sicel
+- accepted_cultures: sicanian
 - tolerated_cultures: none
 SICEL
 - accepted_cultures: sicel

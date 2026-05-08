@@ -48,3 +48,27 @@ bronze_siberian_language_family = {
 	color = rgb { 128 152 173 }
 }
 
+italian_bronze_language_family = {
+	color = rgb { 149 106 88 }
+}
+
+
+
+alpine_bronze_language_family = {
+	color = rgb { 104 133 112 }
+}
+
+
+
+adriatic_bronze_language_family = {
+	color = rgb { 112 128 151 }
+}
+
+
+
+island_bronze_language_family = {
+	color = rgb { 154 122 76 }
+}
+
+
+

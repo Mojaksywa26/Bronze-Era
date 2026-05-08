@@ -749,26 +749,32 @@ samnite = {
 }
 
 sicel = {
-	language = italic_bronze_language
-	color = rgb { 170 133 130 }
+	language = island_bronze_language
+	color = rgb { 168 125 83 }
 	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
-		italic_bronze_group
+		island_bronze_group
 	}
 }
 
+
+
+
 nuragic = {
-	language = italic_bronze_language
+	language = island_bronze_language
 	color = rgb { 126 119 79 }
 	tags = { west_mediterranean_gfx mediterranean_gfx }
 	opinions = {
 	}
 	culture_groups = {
-		italic_bronze_group
+		island_bronze_group
 	}
 }
+
+
+
 
 ligurian = {
 	language = italic_bronze_language
@@ -1506,4 +1512,251 @@ aboriginal = {
 		oceanian_bronze_group
 	}
 }
+
+canegrate = {
+	language = alpine_bronze_language
+	color = rgb { 121 112 95 }
+	tags = { west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		alpine_bronze_group
+	}
+}
+
+
+
+terramare = {
+	language = italian_bronze_language
+	color = rgb { 150 100 82 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italian_bronze_group
+	}
+}
+
+
+
+polada = {
+	language = alpine_bronze_language
+	color = rgb { 94 133 119 }
+	tags = { west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		alpine_bronze_group
+	}
+}
+
+
+
+luco = {
+	language = alpine_bronze_language
+	color = rgb { 91 122 98 }
+	tags = { west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		alpine_bronze_group
+	}
+}
+
+
+
+castellieri = {
+	language = adriatic_bronze_language
+	color = rgb { 105 119 145 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		adriatic_bronze_group
+	}
+}
+
+
+
+camunni = {
+	language = alpine_bronze_language
+	color = rgb { 82 116 104 }
+	tags = { west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		alpine_bronze_group
+	}
+}
+
+
+
+raeti = {
+	language = alpine_bronze_language
+	color = rgb { 114 131 102 }
+	tags = { west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		alpine_bronze_group
+	}
+}
+
+
+
+apennine = {
+	language = italian_bronze_language
+	color = rgb { 137 105 83 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italian_bronze_group
+	}
+}
+
+
+
+proto_villanovan = {
+	language = italian_bronze_language
+	color = rgb { 162 107 87 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italian_bronze_group
+	}
+}
+
+
+
+latial = {
+	language = italian_bronze_language
+	color = rgb { 156 84 76 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italian_bronze_group
+	}
+}
+
+
+
+rinaldone = {
+	language = italian_bronze_language
+	color = rgb { 124 93 86 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italian_bronze_group
+	}
+}
+
+
+
+ausonian = {
+	language = italian_bronze_language
+	color = rgb { 174 117 77 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italian_bronze_group
+	}
+}
+
+
+
+oenotrian = {
+	language = italian_bronze_language
+	color = rgb { 153 118 72 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italian_bronze_group
+	}
+}
+
+
+
+iapygian = {
+	language = adriatic_bronze_language
+	color = rgb { 103 137 151 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		adriatic_bronze_group
+	}
+}
+
+
+
+sicanian = {
+	language = island_bronze_language
+	color = rgb { 150 112 78 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		island_bronze_group
+	}
+}
+
+
+
+elymian = {
+	language = island_bronze_language
+	color = rgb { 132 100 92 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		island_bronze_group
+	}
+}
+
+
+
+torrean = {
+	language = island_bronze_language
+	color = rgb { 111 122 83 }
+	tags = { west_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		island_bronze_group
+	}
+}
+
+
+
+golasecca = {
+	language = alpine_bronze_language
+	color = rgb { 87 126 126 }
+	tags = { west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		alpine_bronze_group
+	}
+}
+
+
+
+este = {
+	language = adriatic_bronze_language
+	color = rgb { 124 134 109 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		adriatic_bronze_group
+	}
+}
+
+
 

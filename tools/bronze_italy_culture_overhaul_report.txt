@@ -1,0 +1,29 @@
+Bronze Age Italy culture overhaul report
+=========================================
+
+Cultures defined/updated: 21
+Locations assigned: 308
+Missing mapped locations: 0
+
+Assigned pop lines by culture:
+- apennine: 157
+- ausonian: 78
+- camunni: 11
+- canegrate: 170
+- castellieri: 63
+- elymian: 10
+- germanic: 37
+- iapygian: 120
+- illyrian: 5
+- latial: 30
+- luco: 23
+- nuragic: 74
+- oenotrian: 60
+- polada: 46
+- proto_villanovan: 239
+- raeti: 16
+- rinaldone: 15
+- sicanian: 28
+- sicel: 48
+- terramare: 146
+- torrean: 10
