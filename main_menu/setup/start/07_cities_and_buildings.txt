@@ -1,0 +1,9 @@
+locations={
+
+}
+
+# for the unique and special buildings
+
+building_manager = {
+
+}

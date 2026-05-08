@@ -1,0 +1,184 @@
+﻿DUMMY = {
+	color = rgb { 40 40 40 }
+	color2 = rgb { 110 27 27 }
+}
+PIR = {
+	color = rgb { 116 143 139 }
+	color2 = rgb { 110 27 27 }
+}
+MER = {
+	color = rgb { 72 85 83 }
+	color2 = rgb { 110 27 27 }
+}
+0001G = {
+	color = rgb { 63 18 186 }
+	color2 = rgb { 110 27 27 }
+}
+0002G = {
+	color = rgb { 54 201 103 }
+	color2 = rgb { 110 27 27 }
+}
+0003G = {
+	color = rgb { 18 131 217 }
+	color2 = rgb { 110 27 27 }
+}
+ACRE = {
+	color = rgb { 198 188 47 }
+	color2 = rgb { 110 27 27 }
+}
+ALASIYA = {
+	color = rgb { 62 208 147 }
+	color2 = rgb { 110 27 27 }
+}
+AMURRU = {
+	color = rgb { 29 70 114 }
+	color2 = rgb { 110 27 27 }
+}
+ARWAD = {
+	color = rgb { 178 191 59 }
+	color2 = rgb { 110 27 27 }
+}
+ASSYRIA = {
+	color = rgb { 212 96 33 }
+	color2 = rgb { 110 27 27 }
+}
+AZZI = {
+	color = rgb { 173 212 33 }
+	color2 = rgb { 110 27 27 }
+}
+BALEARES = {
+	color = rgb { 97 41 209 }
+	color2 = rgb { 110 27 27 }
+}
+BALSA = {
+	color = rgb { 213 132 77 }
+	color2 = rgb { 110 27 27 }
+}
+BERITOS = {
+	color = rgb { 198 59 47 }
+	color2 = rgb { 110 27 27 }
+}
+BYBLOS = {
+	color = rgb { 220 56 176 }
+	color2 = rgb { 110 27 27 }
+}
+CARTEI = {
+	color = rgb { 54 122 206 }
+	color2 = rgb { 110 27 27 }
+}
+DIMUN = {
+	color = rgb { 81 63 217 }
+	color2 = rgb { 110 27 27 }
+}
+EL_ARGAR = {
+	color = rgb { 148 60 195 }
+	color2 = rgb { 110 27 27 }
+}
+ELAM = {
+	color = rgb { 208 74 47 }
+	color2 = rgb { 110 27 27 }
+}
+ELIMI = {
+	color = rgb { 83 213 124 }
+	color2 = rgb { 110 27 27 }
+}
+ELYMIAN = {
+	color = rgb { 138 68 193 }
+	color2 = rgb { 110 27 27 }
+}
+HABIRU = {
+	color = rgb { 135 222 69 }
+	color2 = rgb { 110 27 27 }
+}
+HAJASA = {
+	color = rgb { 71 220 123 }
+	color2 = rgb { 110 27 27 }
+}
+HAPALLA = {
+	color = rgb { 84 74 222 }
+	color2 = rgb { 110 27 27 }
+}
+IAPYGIA = {
+	color = rgb { 148 61 209 }
+	color2 = rgb { 110 27 27 }
+}
+KASSITES = {
+	color = rgb { 120 30 230 }
+	color2 = rgb { 110 27 27 }
+}
+KUWALBASSA = {
+	color = rgb { 60 125 215 }
+	color2 = rgb { 110 27 27 }
+}
+LIBYA = {
+	color = rgb { 114 81 219 }
+	color2 = rgb { 110 27 27 }
+}
+LUKKA = {
+	color = rgb { 154 91 200 }
+	color2 = rgb { 110 27 27 }
+}
+MAGAN = {
+	color = rgb { 79 216 86 }
+	color2 = rgb { 110 27 27 }
+}
+MALAKA = {
+	color = rgb { 41 199 115 }
+	color2 = rgb { 110 27 27 }
+}
+MASA = {
+	color = rgb { 218 176 52 }
+	color2 = rgb { 110 27 27 }
+}
+MITANNI = {
+	color = rgb { 79 222 143 }
+	color2 = rgb { 110 27 27 }
+}
+MITTANI = {
+	color = rgb { 58 212 189 }
+	color2 = rgb { 110 27 27 }
+}
+NURAGIC = {
+	color = rgb { 75 211 60 }
+	color2 = rgb { 110 27 27 }
+}
+PALA = {
+	color = rgb { 80 207 63 }
+	color2 = rgb { 110 27 27 }
+}
+PARTHA = {
+	color = rgb { 145 215 71 }
+	color2 = rgb { 110 27 27 }
+}
+SASU = {
+	color = rgb { 207 140 68 }
+	color2 = rgb { 110 27 27 }
+}
+SICANI = {
+	color = rgb { 202 78 161 }
+	color2 = rgb { 110 27 27 }
+}
+SICELS = {
+	color = rgb { 60 52 183 }
+	color2 = rgb { 110 27 27 }
+}
+SUTU = {
+	color = rgb { 45 82 66 }
+	color2 = rgb { 110 27 27 }
+}
+TARDESSOS = {
+	color = rgb { 198 43 212 }
+	color2 = rgb { 110 27 27 }
+}
+TRIPOLI = {
+	color = rgb { 224 72 92 }
+	color2 = rgb { 110 27 27 }
+}
+UGARIT = {
+	color = rgb { 50 69 210 }
+	color2 = rgb { 110 27 27 }
+}
+WILUSA = {
+	color = rgb { 196 201 49 }
+	color2 = rgb { 110 27 27 }
+}

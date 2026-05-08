@@ -1,0 +1,8 @@
+building_manager = {
+	#Papal Cardinals
+	
+}
+
+religion_manager = {
+
+}

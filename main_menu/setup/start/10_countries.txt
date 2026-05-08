@@ -1,0 +1,655 @@
+current_age = age_1_traditions
+
+# own_control_core
+# own_control_integrated
+# own_control_conquered
+# own_control_colony
+# own_core
+# own_conquered
+# own_integrated
+# own_colony
+# control_core
+# control
+# our_cores_conquered_by_others
+
+countries = {
+	countries = {
+
+
+	##GREEK Mycenaean Greece
+	0001G = {
+		capital = mycenae
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			amorgos andravida andritsaina andros angelokastron argos astros
+			atalanti athens balat bodonitsa bodrum candia cephalonia chalandritsa
+			chania chios corinth damala demetrias elounda eretreia ermioni farsala
+			gergeri gravia hagios_pavlos ikaria kalamata kalavryta karpathos karystos
+			karytaina kleisoura kos kymi kyparissia kythira kythnos larissa leukas
+			leuktron livadeia loidoriki megara milos modon monemvasia mykonos mystras
+			nafpaktos nafplio naxos negroponte neopatras oitylo oreos patras
+			pontikokastro rethymno rodos salona samos siteia sporades stomio thebes
+			tripolitsa tyrnavos veligosti viannos vonitsa vostitsa xylokastro zakynthos
+			zetounion
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { hellenic }
+		tolerated_cultures = { ionian aeolian dorian arcadian }
+	}
+
+	##EGYPT
+	0002G = {
+		capital = cairo
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			acre akhmim al_mima alexandria ashmunayn aswan asyut atfih beersheba
+			beni_suef bilbeis cairo dakahla damanhur damietta dara edfu el_alamein
+			el_arish el_bahnasa el_balyana el_burullus el_buwit el_mahalla esna
+			faiyum faqus fuwa gaza giza hebron hiw irbid jaffa jerusalem kafr_saqr
+			kharibta kom_ombo majdal manfalut mansoura matruh menouf minya nablus
+			nawa nekhel qalyub qatya qena qus ramsis rashid safed sallum samanoud
+			sharuna tahna tarrana tidah tinnis ushmum_tannah wadi_el_natrun warrada
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { egyptian }
+	}
+
+	##ANATOLIA
+	0003G = {
+		capital = ankara
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			adana afrin afsin akdagmadeni aksaray aksehir al_bab aleppo altinekin
+			altintas amasya anamur anavarza ankara arguvan arsuz artah ayas aydincik
+			ayntab baliseyh bayat bekarlar besni beypazari birecik bogazliyan bolvadin
+			bor_tur bozan bozok candir candir_cil cankiri caxud celtik cemisgezek
+			comana_cil corum corycus cubuk cumra dabiq darende dasmenda deliktash
+			develi dinek_keskin divrigi dluk elbistan emirdag enguzud eregli_kar
+			ermenek erzincan eskil gemerek gerger goksun gumus gurun hacibektas hafik
+			hargan harput hatunsaray haymana huseyinabad ilgin ilic insuyu iskenderun
+			iskilip jabbul kahta kalecik kapan karahisar_i_sahib karakecili karapinar
+			kars_armenia kayseri kaysun keban kemah kilis kirsehir kizilca kochisar
+			konya koyulhisar kulu_turkey kursunlu kuzucan ladik larende malatya manbij
+			marash merzifon mihaliccik molevon mut nevsehir nigde obruk pertek pirloganda
+			polatli sabanozu samsat sariyahsi sarkisla sebinkarahisar seyitgazi silifke
+			siran sis sivas sivrihisar sorgun suhut suluklu sulusaray sungurlu suruc
+			tarsus tokat tomarza tosya trapessac turgut ulnia urgup yahyali zara
+			zardana zile
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { anatolian }
+	}
+
+	##LEVANTINE KINGDOM
+	ACRE = {
+		capital = sidon
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			sidon
+		}
+	}
+
+	##CYPRUS
+	ALASIYA = {
+		capital = nicosia_cyp
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			famagusta kyrenia larnaca limassol morphou nicosia_cyp paphos
+		}
+	}
+
+	##AMURRU
+	AMURRU = {
+		capital = homs
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			baalbek hama homs idlib kafartab khanaser marrat masyaf nabek qusayr
+		}
+	}
+
+	##ARWAD
+	ARWAD = {
+		capital = jableh
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			jableh
+		}
+	}
+
+	##ASSYRIAN EMPIRE
+	ASSYRIA = {
+		capital = mosul
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			abu_kemal akre al_anbar al_sinn altun_kupri amadiya anah ar_rabb araban
+			ayn_tamr bahcesaray balad bara_iraq barqaid busayrah chamchamal cizre daquq
+			deir_ez_zor duhok dunaysir erbil eruh haditha hakkari hasakah hasankeyf hit
+			karbala kirkuk kozluk makisin mardin mawet midyat mosul nusaybin piranshahr
+			qaladiza qayyarah rahba ras_ayn rawanduz samarra sardasht semdinli siirt
+			sinjar sirnak sulaymaniyah tal_afar tikrit tunanir tuz_khurma ukbara zakho
+		}
+		government = {
+			ruler = random
+		}
+	}
+
+	##AZZI
+	AZZI = {
+		capital = erzurum
+
+		country_rank = rank_country
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			bayburt erzurum gumushane hasankale hinis ispir kelkit oltu panaskerti
+			parkhali tekman tercan tortum varto
+		}
+	}
+
+	##BALEARIC ISLANDS
+	BALEARES = {
+		capital = palma
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			ciudadela_de_menorca ibiza manacor palma pollensa
+		}
+	}
+
+	##BALSA
+	BALSA = {
+		capital = tavira
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			tavira
+		}
+	}
+
+	##BERITOS
+	BERITOS = {
+		capital = deir_qamar
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			deir_qamar
+		}
+	}
+
+	##BYBLOS
+	BYBLOS = {
+		capital = beirut
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			beirut
+		}
+	}
+
+	##CARTEIA
+	CARTEI = {
+		capital = gibraltar
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			algeciras gibraltar
+		}
+	}
+
+	##DILMUN
+	DIMUN = {
+		capital = manama
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			al_mashqar al_uqayr eglat_faisal manama sayhat zubarah
+		}
+	}
+
+	##EL ARGAR
+	EL_ARGAR = {
+		capital = murcia
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			adra almanzora almeria baza caravaca cartagena cieza gergal guadix huescar
+			lorca mojacar mula murcia orgiva velez_rubio
+		}
+	}
+
+	##ELAM
+	ELAM = {
+		capital = shush
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			bagh_malek bandar_deylam bandar_rig basht behbahan borazjan dehdasht dehdez
+			dehram dishmok dogonbadan farashband firuzabad hendijan izeh jannaba kalameh
+			kavar kazerun lordegan machul masjed_soleyman nurabad ramhormoz reyshahr
+			sar_mashhad suq
+		}
+	}
+
+	##ELIMI
+	ELIMI = {
+		capital = palermo
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+		}
+	}
+
+	##ELYMIAN
+	ELYMIAN = {
+		capital = palermo
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			mazara palermo salemi trapani
+		}
+	}
+
+	##HABIRU
+	HABIRU = {
+		capital = damascus
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			azraq bosra burraq damascus jayrud kaf qutayfah salkhad suwayda
+		}
+	}
+
+	##HAJASA
+	HAJASA = {
+		capital = trebizond
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			artanuji batumi gorele khikhani khupati rize savsat surmene trebizond
+		}
+	}
+
+	##HAPALLA
+	HAPALLA = {
+		capital = usak
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			alasehir aslanapa banaz dinar gediz honaz lazkiye nazilli sandikli seyhli
+			tavsanli usak
+		}
+	}
+
+	##IAPYGIA
+	IAPYGIA = {
+		capital = bari
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			altamura andria bari barletta bovino foggia lucera manfredonia monopoli
+			rotondo sansevero
+		}
+	}
+
+	##KASSITES
+	KASSITES = {
+		capital = baghdad
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			abadan abdanan abdas ahvaz al_madar al_qatr al_tib an_nil arkvaz badra
+			baghdad bakusaya balad_ruz baqubah basra dayr_aqul dehloran dowraq eyvan
+			gilan_gharb hamidiyeh harunabad hawraman hillah hoveyzeh ilam javanrud
+			kamyaran kermanshah khalafabad khalis khanaqin mandali marivan meymeh
+			mosharahat muhammerah nasiriyah numaniyyah qasr_shirin quban rusafa sahrazur
+			samawa shush shushtar suq_al_shuyukh wasit zuwayr
+		}
+		government = {
+			ruler = random
+		}
+	}
+
+	##KUWALBASSA
+	KUWALBASSA = {
+		capital = isparta
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			burdur egirdir isparta sarkikaraagac uluborlu yalvac
+		}
+	}
+
+	##LIBYA
+	LIBYA = {
+		capital = benghazi
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			ajdabiya al_bayda al_khuimat awjila barca benghazi derna mechili msus qaminis
+			siwa suluntah tmimi tobruk
+		}
+	}
+
+	##LUKKA
+	LUKKA = {
+		capital = mugla
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			cine gokabat golhisar kas marmaris megri milas mugla tavas yuksekkum
+		}
+	}
+
+	##MAGAN
+	MAGAN = {
+		capital = masqat
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			abu_dhabi al_ayn al_dhaid al_kamil_wal_wafi al_khaburah as_sib bahla dubai
+			ibra ibri izki jalan_buani_buali julfar khor_fakkan masirah masqat nakhal
+			nizwa qalhat rustaq saham sharjah shinas sinaw suhar sur yanqul
+		}
+	}
+
+	##MALAGA
+	MALAKA = {
+		capital = malaga
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			malaga
+		}
+	}
+
+	##MASA
+	MASA = {
+		capital = bursa
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			adranos bilecik bursa domanic dursunbey emet eynegol harmancik inonu iznik
+			kutahya simav sultanonu
+		}
+	}
+
+	##MITANNI
+	MITANNI = {
+		capital = urfa
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			adakli bingol cermik diyarbekir egil ergani genc harran hazro heni kulp
+			mayyafariqin palu sason savur siverek sivrice urfa viransehir
+		}
+	}
+
+	##MITTANI
+	MITTANI = {
+		capital = ankara
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+		}
+	}
+
+	##NURAGIC
+	NURAGIC = {
+		capital = cagliari
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			ales alghero bitti bosa cagliari castelsardo isili macomer muravera oristano
+			orosei ozieri posada sassari seddori sorgono tempiopausania terralba
+			terranova_pausania thiesi tortoli tratalias villa_di_chiesa
+		}
+	}
+
+	##PALA
+	PALA = {
+		capital = sinop
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			amasra arac bartin boyabat cerkes devrekani eregli gerede gerze inebolu
+			kastamonu kure_i_mamure mengen safranbolu sinop taskopru ulus yenicepazari
+		}
+	}
+
+	##PARTHA
+	PARTHA = {
+		capital = antalya
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			alaiye antalya beysehir elmali finike istanoz karahisar_i_teke manavgat
+			selinti seydisehir
+		}
+	}
+
+	##SASU
+	SASU = {
+		capital = amman
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			al_quwayrah amman aqaba haql karak maan madaba shoubak sughar
+		}
+	}
+
+	##SICANI
+	SICANI = {
+		capital = palermo
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			bivona caltanisetta cefalu corleone girgenti sciacca termini
+		}
+	}
+
+	##SICELS
+	SICELS = {
+		capital = syracuse
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			caltagirone catania messina mistretta modica nicosiasic noto patti piazza
+			syracuse terranovasic
+		}
+	}
+
+	##SUTU
+	SUTU = {
+		capital = tadmur
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			arak huwwarin ithriya qaryatayn qastal salamiyya sukhnah tadmur taybah
+		}
+	}
+
+	##TARDESSOS
+	TARDESSOS = {
+		capital = sevilla
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			arcos_de_la_frontera ayamonte cadiz carmona coria_del_rio huelva
+			jerez_de_la_frontera medina_sidonia niebla sanlucar sanlucar_la_mayor
+			sevilla tarifa
+		}
+	}
+
+	##TRIPOLI
+	TRIPOLI = {
+		capital = tripoli_syria
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			baniyas tartus tripoli_syria
+		}
+	}
+
+	##UGARIT
+	UGARIT = {
+		capital = antioch
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			antioch latakia
+		}
+	}
+
+	##WILUSA
+	WILUSA = {
+		capital = canakkale
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			ayvacik balya bandirma bayramic biga can canakkale edremit gonen imbros
+			lapseki lemnos manyas mihalic
+		}
+	}
+}
+}
