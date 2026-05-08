@@ -1,0 +1,1509 @@
+# Bronze Era total conversion cultures, centered on the 1205 BCE collapse horizon.
+
+egyptian = {
+	language = egyptian_bronze_language
+	color = rgb { 192 155 69 }
+	tags = { egyptian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		egypt_nile_group
+	}
+}
+
+upper_egyptian = {
+	language = egyptian_bronze_language
+	color = rgb { 197 146 72 }
+	tags = { egyptian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		egypt_nile_group
+	}
+}
+
+lower_egyptian = {
+	language = egyptian_bronze_language
+	color = rgb { 225 187 94 }
+	tags = { egyptian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		egypt_nile_group
+	}
+}
+
+nubian = {
+	language = nubian_bronze_language
+	color = rgb { 120 78 50 }
+	tags = { nubian_gfx east_african_gfx african_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		egypt_nile_group
+	}
+}
+
+medjay = {
+	language = nubian_bronze_language
+	color = rgb { 155 105 59 }
+	tags = { nubian_gfx saharan_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		egypt_nile_group
+	}
+}
+
+libyan = {
+	language = libyan_bronze_language
+	color = rgb { 188 132 73 }
+	tags = { amazigh_gfx maghrebi_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		egypt_nile_group
+	}
+}
+
+sumerian = {
+	language = sumerian_bronze_language
+	color = rgb { 184 139 76 }
+	tags = { middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		mesopotamian_group
+	}
+}
+
+akkadian = {
+	language = akkadian_bronze_language
+	color = rgb { 147 86 51 }
+	tags = { middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		mesopotamian_group
+	}
+}
+
+babylonian = {
+	language = akkadian_bronze_language
+	color = rgb { 158 97 62 }
+	tags = { middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		mesopotamian_group
+	}
+}
+
+assyrian = {
+	language = akkadian_bronze_language
+	color = rgb { 169 108 73 }
+	tags = { middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		mesopotamian_group
+	}
+}
+
+amorite = {
+	language = akkadian_bronze_language
+	color = rgb { 180 119 84 }
+	tags = { middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		mesopotamian_group
+	}
+}
+
+kassite = {
+	language = akkadian_bronze_language
+	color = rgb { 191 130 95 }
+	tags = { middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		mesopotamian_group
+	}
+}
+
+elamite = {
+	language = elamite_bronze_language
+	color = rgb { 111 89 80 }
+	tags = { persian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		mesopotamian_group
+	}
+}
+
+hurrian = {
+	language = hurrian_bronze_language
+	color = rgb { 104 111 147 }
+	tags = { caucasian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		mesopotamian_group
+	}
+}
+
+gutian = {
+	language = akkadian_bronze_language
+	color = rgb { 147 86 51 }
+	tags = { middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		mesopotamian_group
+	}
+}
+
+hittite = {
+	language = anatolian_bronze_language
+	color = rgb { 169 113 68 }
+	tags = { middle_east_gfx east_mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		anatolian_bronze_group
+	}
+}
+
+luwian = {
+	language = luwian_bronze_language
+	color = rgb { 191 139 73 }
+	tags = { east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		anatolian_bronze_group
+	}
+}
+
+hattian = {
+	language = anatolian_bronze_language
+	color = rgb { 173 120 74 }
+	tags = { middle_east_gfx east_mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		anatolian_bronze_group
+	}
+}
+
+lycian = {
+	language = anatolian_bronze_language
+	color = rgb { 184 131 85 }
+	tags = { middle_east_gfx east_mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		anatolian_bronze_group
+	}
+}
+
+carian = {
+	language = anatolian_bronze_language
+	color = rgb { 195 142 96 }
+	tags = { middle_east_gfx east_mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		anatolian_bronze_group
+	}
+}
+
+palaic = {
+	language = anatolian_bronze_language
+	color = rgb { 206 153 107 }
+	tags = { middle_east_gfx east_mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		anatolian_bronze_group
+	}
+}
+
+phrygian = {
+	language = anatolian_bronze_language
+	color = rgb { 152 102 100 }
+	tags = { east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		anatolian_bronze_group
+	}
+}
+
+canaanite = {
+	language = levantine_bronze_language
+	color = rgb { 162 122 45 }
+	tags = { levantine_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		levant_bronze_group
+	}
+}
+
+ugaritic = {
+	language = levantine_bronze_language
+	color = rgb { 173 133 56 }
+	tags = { levantine_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		levant_bronze_group
+	}
+}
+
+phoenician = {
+	language = levantine_bronze_language
+	color = rgb { 184 144 67 }
+	tags = { levantine_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		levant_bronze_group
+	}
+}
+
+moabite = {
+	language = levantine_bronze_language
+	color = rgb { 195 155 78 }
+	tags = { levantine_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		levant_bronze_group
+	}
+}
+
+edomite = {
+	language = levantine_bronze_language
+	color = rgb { 206 166 89 }
+	tags = { levantine_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		levant_bronze_group
+	}
+}
+
+ammonite = {
+	language = levantine_bronze_language
+	color = rgb { 217 177 100 }
+	tags = { levantine_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		levant_bronze_group
+	}
+}
+
+aramaean = {
+	language = levantine_bronze_language
+	color = rgb { 225 188 111 }
+	tags = { levantine_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		levant_bronze_group
+	}
+}
+
+arabian = {
+	language = arabian_bronze_language
+	color = rgb { 152 115 56 }
+	tags = { arabian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		arabian_bronze_group
+	}
+}
+
+midianite = {
+	language = arabian_bronze_language
+	color = rgb { 163 126 67 }
+	tags = { arabian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		arabian_bronze_group
+	}
+}
+
+dilmunite = {
+	language = arabian_bronze_language
+	color = rgb { 174 137 78 }
+	tags = { arabian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		arabian_bronze_group
+	}
+}
+
+sabaean = {
+	language = arabian_bronze_language
+	color = rgb { 185 148 89 }
+	tags = { arabian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		arabian_bronze_group
+	}
+}
+
+margian = {
+	language = iranian_bronze_language
+	color = rgb { 97 119 67 }
+	tags = { persian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iranian_plateau_group
+	}
+}
+
+bactrian = {
+	language = iranian_bronze_language
+	color = rgb { 108 130 78 }
+	tags = { persian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iranian_plateau_group
+	}
+}
+
+arian = {
+	language = iranian_bronze_language
+	color = rgb { 119 141 89 }
+	tags = { persian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iranian_plateau_group
+	}
+}
+
+mede = {
+	language = iranian_bronze_language
+	color = rgb { 130 152 100 }
+	tags = { persian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iranian_plateau_group
+	}
+}
+
+persian = {
+	language = iranian_bronze_language
+	color = rgb { 141 163 111 }
+	tags = { persian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iranian_plateau_group
+	}
+}
+
+gedrosian = {
+	language = iranian_bronze_language
+	color = rgb { 152 174 122 }
+	tags = { persian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iranian_plateau_group
+	}
+}
+
+kartvelian = {
+	language = caucasian_bronze_language
+	color = rgb { 70 117 82 }
+	tags = { caucasian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		caucasus_bronze_group
+	}
+}
+
+colchian = {
+	language = caucasian_bronze_language
+	color = rgb { 81 128 93 }
+	tags = { caucasian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		caucasus_bronze_group
+	}
+}
+
+urartian = {
+	language = caucasian_bronze_language
+	color = rgb { 91 116 128 }
+	tags = { caucasian_gfx middle_east_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		caucasus_bronze_group
+	}
+}
+
+albanian_caucasian = {
+	language = caucasian_bronze_language
+	color = rgb { 103 150 115 }
+	tags = { caucasian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		caucasus_bronze_group
+	}
+}
+
+nakh = {
+	language = caucasian_bronze_language
+	color = rgb { 114 161 126 }
+	tags = { caucasian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		caucasus_bronze_group
+	}
+}
+
+circassian = {
+	language = caucasian_bronze_language
+	color = rgb { 125 172 137 }
+	tags = { caucasian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		caucasus_bronze_group
+	}
+}
+
+sintashta = {
+	language = steppe_bronze_language
+	color = rgb { 127 113 69 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+andronovo = {
+	language = steppe_bronze_language
+	color = rgb { 138 124 80 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+cimmerian = {
+	language = steppe_bronze_language
+	color = rgb { 149 135 91 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+scythian = {
+	language = steppe_bronze_language
+	color = rgb { 160 146 102 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+saka = {
+	language = steppe_bronze_language
+	color = rgb { 171 157 113 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+roxolani = {
+	language = steppe_bronze_language
+	color = rgb { 182 168 124 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+mycenaean = {
+	language = aegean_bronze_language
+	color = rgb { 81 119 183 }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		aegean_bronze_group
+	}
+}
+
+minoan = {
+	language = aegean_bronze_language
+	color = rgb { 67 151 176 }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		aegean_bronze_group
+	}
+}
+
+aeolian = {
+	language = aegean_bronze_language
+	color = rgb { 75 126 190 }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		aegean_bronze_group
+	}
+}
+
+ionian = {
+	language = aegean_bronze_language
+	color = rgb { 86 137 201 }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		aegean_bronze_group
+	}
+}
+
+dorian = {
+	language = aegean_bronze_language
+	color = rgb { 97 148 212 }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		aegean_bronze_group
+	}
+}
+
+arcadian = {
+	language = aegean_bronze_language
+	color = rgb { 108 159 223 }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		aegean_bronze_group
+	}
+}
+
+cycladic = {
+	language = aegean_bronze_language
+	color = rgb { 119 170 225 }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		aegean_bronze_group
+	}
+}
+
+thracian = {
+	language = balkanic_bronze_language
+	color = rgb { 90 117 99 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+illyrian = {
+	language = balkanic_bronze_language
+	color = rgb { 101 128 110 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+dacian = {
+	language = balkanic_bronze_language
+	color = rgb { 112 139 121 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+paeonian = {
+	language = balkanic_bronze_language
+	color = rgb { 123 150 132 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+pelasgian = {
+	language = balkanic_bronze_language
+	color = rgb { 134 161 143 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+triballian = {
+	language = balkanic_bronze_language
+	color = rgb { 145 172 154 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+latin = {
+	language = italic_bronze_language
+	color = rgb { 126 89 86 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italic_bronze_group
+	}
+}
+
+etruscan = {
+	language = italic_bronze_language
+	color = rgb { 137 100 97 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italic_bronze_group
+	}
+}
+
+umbrian = {
+	language = italic_bronze_language
+	color = rgb { 148 111 108 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italic_bronze_group
+	}
+}
+
+samnite = {
+	language = italic_bronze_language
+	color = rgb { 159 122 119 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italic_bronze_group
+	}
+}
+
+sicel = {
+	language = italic_bronze_language
+	color = rgb { 170 133 130 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italic_bronze_group
+	}
+}
+
+nuragic = {
+	language = italic_bronze_language
+	color = rgb { 126 119 79 }
+	tags = { west_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italic_bronze_group
+	}
+}
+
+ligurian = {
+	language = italic_bronze_language
+	color = rgb { 192 155 152 }
+	tags = { west_mediterranean_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		italic_bronze_group
+	}
+}
+
+iberian = {
+	language = iberian_bronze_language
+	color = rgb { 158 96 62 }
+	tags = { iberian_gfx west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iberian_bronze_group
+	}
+}
+
+tartessian = {
+	language = iberian_bronze_language
+	color = rgb { 169 107 73 }
+	tags = { iberian_gfx west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iberian_bronze_group
+	}
+}
+
+lusitanian = {
+	language = iberian_bronze_language
+	color = rgb { 180 118 84 }
+	tags = { iberian_gfx west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iberian_bronze_group
+	}
+}
+
+celtiberian = {
+	language = iberian_bronze_language
+	color = rgb { 191 129 95 }
+	tags = { iberian_gfx west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iberian_bronze_group
+	}
+}
+
+aquitanian = {
+	language = iberian_bronze_language
+	color = rgb { 202 140 106 }
+	tags = { iberian_gfx west_mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		iberian_bronze_group
+	}
+}
+
+gaulish = {
+	language = celtic_bronze_language
+	color = rgb { 59 123 69 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		gaulish_bronze_group
+	}
+}
+
+armorican = {
+	language = celtic_bronze_language
+	color = rgb { 70 134 80 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		gaulish_bronze_group
+	}
+}
+
+lepontic = {
+	language = celtic_bronze_language
+	color = rgb { 81 145 91 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		gaulish_bronze_group
+	}
+}
+
+nordic = {
+	language = germanic_bronze_language
+	color = rgb { 73 109 132 }
+	tags = { north_german_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		germanic_nordic_group
+	}
+}
+
+jutlandic = {
+	language = germanic_bronze_language
+	color = rgb { 84 120 143 }
+	tags = { north_german_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		germanic_nordic_group
+	}
+}
+
+germanic = {
+	language = germanic_bronze_language
+	color = rgb { 95 131 154 }
+	tags = { north_german_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		germanic_nordic_group
+	}
+}
+
+britannic = {
+	language = brittonic_bronze_language
+	color = rgb { 70 108 77 }
+	tags = { british_gfx celtic_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		britain_bronze_group
+	}
+}
+
+caledonian = {
+	language = brittonic_bronze_language
+	color = rgb { 81 119 88 }
+	tags = { british_gfx celtic_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		britain_bronze_group
+	}
+}
+
+hibernian = {
+	language = brittonic_bronze_language
+	color = rgb { 92 130 99 }
+	tags = { british_gfx celtic_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		britain_bronze_group
+	}
+}
+
+harappan = {
+	language = indic_bronze_language
+	color = rgb { 174 116 61 }
+	tags = { indian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		indic_bronze_group
+	}
+}
+
+vedic = {
+	language = indic_bronze_language
+	color = rgb { 166 110 53 }
+	tags = { indian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		indic_bronze_group
+	}
+}
+
+dravidian = {
+	language = dravidian_bronze_language
+	color = rgb { 130 95 67 }
+	tags = { dravidian_gfx indian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		indic_bronze_group
+	}
+}
+
+gandharan = {
+	language = indic_bronze_language
+	color = rgb { 188 132 75 }
+	tags = { indian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		indic_bronze_group
+	}
+}
+
+tocharian = {
+	language = iranian_bronze_language
+	color = rgb { 112 104 66 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		central_asian_bronze_group
+	}
+}
+
+sogdian = {
+	language = iranian_bronze_language
+	color = rgb { 123 115 77 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		central_asian_bronze_group
+	}
+}
+
+ferghana = {
+	language = iranian_bronze_language
+	color = rgb { 134 126 88 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		central_asian_bronze_group
+	}
+}
+
+berber = {
+	language = libyan_bronze_language
+	color = rgb { 152 104 55 }
+	tags = { amazigh_gfx maghrebi_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		north_african_bronze_group
+	}
+}
+
+garamantian = {
+	language = libyan_bronze_language
+	color = rgb { 163 115 66 }
+	tags = { amazigh_gfx maghrebi_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		north_african_bronze_group
+	}
+}
+
+libu = {
+	language = libyan_bronze_language
+	color = rgb { 174 126 77 }
+	tags = { amazigh_gfx maghrebi_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		north_african_bronze_group
+	}
+}
+
+sherden = {
+	language = aegean_bronze_language
+	color = rgb { 101 136 157 }
+	tags = { west_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		sea_peoples_group
+	}
+}
+
+peleset = {
+	language = levantine_bronze_language
+	color = rgb { 91 142 169 }
+	tags = { levantine_gfx east_mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		sea_peoples_group
+	}
+}
+
+tjekker = {
+	language = aegean_bronze_language
+	color = rgb { 92 139 166 }
+	tags = { east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		sea_peoples_group
+	}
+}
+
+denyen = {
+	language = aegean_bronze_language
+	color = rgb { 103 150 177 }
+	tags = { east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		sea_peoples_group
+	}
+}
+
+lukka = {
+	language = luwian_bronze_language
+	color = rgb { 86 151 165 }
+	tags = { east_mediterranean_gfx mediterranean_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		sea_peoples_group
+	}
+}
+
+shang = {
+	language = east_asian_bronze_language
+	color = rgb { 158 58 43 }
+	tags = { east_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		east_asian_bronze_group
+	}
+}
+
+zhou = {
+	language = east_asian_bronze_language
+	color = rgb { 169 69 54 }
+	tags = { east_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		east_asian_bronze_group
+	}
+}
+
+sanxingdui = {
+	language = east_asian_bronze_language
+	color = rgb { 180 80 65 }
+	tags = { east_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		east_asian_bronze_group
+	}
+}
+
+dongyi = {
+	language = east_asian_bronze_language
+	color = rgb { 191 91 76 }
+	tags = { east_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		east_asian_bronze_group
+	}
+}
+
+baiyue = {
+	language = east_asian_bronze_language
+	color = rgb { 202 102 87 }
+	tags = { east_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		east_asian_bronze_group
+	}
+}
+
+qiang = {
+	language = east_asian_bronze_language
+	color = rgb { 213 113 98 }
+	tags = { east_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		east_asian_bronze_group
+	}
+}
+
+jomon = {
+	language = east_asian_bronze_language
+	color = rgb { 145 96 73 }
+	tags = { japanese_gfx east_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		east_asian_bronze_group
+	}
+}
+
+mumun = {
+	language = east_asian_bronze_language
+	color = rgb { 120 126 94 }
+	tags = { east_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		east_asian_bronze_group
+	}
+}
+
+austroasiatic = {
+	language = southeast_asian_bronze_language
+	color = rgb { 55 117 72 }
+	tags = { indochina_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		southeast_asian_bronze_group
+	}
+}
+
+vietic = {
+	language = southeast_asian_bronze_language
+	color = rgb { 66 128 83 }
+	tags = { indochina_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		southeast_asian_bronze_group
+	}
+}
+
+mon = {
+	language = southeast_asian_bronze_language
+	color = rgb { 77 139 94 }
+	tags = { indochina_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		southeast_asian_bronze_group
+	}
+}
+
+khmer = {
+	language = southeast_asian_bronze_language
+	color = rgb { 88 150 105 }
+	tags = { indochina_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		southeast_asian_bronze_group
+	}
+}
+
+austronesian = {
+	language = southeast_asian_bronze_language
+	color = rgb { 99 161 116 }
+	tags = { indochina_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		southeast_asian_bronze_group
+	}
+}
+
+karasuk = {
+	language = siberian_bronze_language
+	color = rgb { 96 129 149 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		siberian_bronze_group
+	}
+}
+
+yeniseian = {
+	language = siberian_bronze_language
+	color = rgb { 107 140 160 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		siberian_bronze_group
+	}
+}
+
+tungusic = {
+	language = siberian_bronze_language
+	color = rgb { 118 151 171 }
+	tags = { central_asian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		siberian_bronze_group
+	}
+}
+
+puntite = {
+	language = african_bronze_language
+	color = rgb { 98 82 45 }
+	tags = { african_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		african_bronze_group
+	}
+}
+
+cushitic = {
+	language = african_bronze_language
+	color = rgb { 109 93 56 }
+	tags = { african_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		african_bronze_group
+	}
+}
+
+nilo_saharan = {
+	language = african_bronze_language
+	color = rgb { 120 104 67 }
+	tags = { african_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		african_bronze_group
+	}
+}
+
+bantu = {
+	language = african_bronze_language
+	color = rgb { 131 115 78 }
+	tags = { african_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		african_bronze_group
+	}
+}
+
+nok = {
+	language = african_bronze_language
+	color = rgb { 142 126 89 }
+	tags = { african_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		african_bronze_group
+	}
+}
+
+mande = {
+	language = african_bronze_language
+	color = rgb { 153 137 100 }
+	tags = { african_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		african_bronze_group
+	}
+}
+
+khoisan = {
+	language = african_bronze_language
+	color = rgb { 164 148 111 }
+	tags = { african_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		african_bronze_group
+	}
+}
+
+olmec = {
+	language = american_bronze_language
+	color = rgb { 129 68 40 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+mayan = {
+	language = american_bronze_language
+	color = rgb { 140 79 51 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+zapotec = {
+	language = american_bronze_language
+	color = rgb { 151 90 62 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+poverty_point = {
+	language = american_bronze_language
+	color = rgb { 162 101 73 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+puebloan = {
+	language = american_bronze_language
+	color = rgb { 173 112 84 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+andean = {
+	language = american_bronze_language
+	color = rgb { 184 123 95 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+chorrera = {
+	language = american_bronze_language
+	color = rgb { 195 134 106 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+arawak = {
+	language = american_bronze_language
+	color = rgb { 129 68 40 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+tupi = {
+	language = american_bronze_language
+	color = rgb { 140 79 51 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+araucanian = {
+	language = american_bronze_language
+	color = rgb { 151 90 62 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+saqqaq = {
+	language = american_bronze_language
+	color = rgb { 162 101 73 }
+	tags = { american_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		american_bronze_group
+	}
+}
+
+lapita = {
+	language = oceanian_bronze_language
+	color = rgb { 47 113 125 }
+	tags = { austronesian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		oceanian_bronze_group
+	}
+}
+
+papuan = {
+	language = oceanian_bronze_language
+	color = rgb { 101 111 142 }
+	tags = { papuan_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		oceanian_bronze_group
+	}
+}
+
+aboriginal = {
+	language = oceanian_bronze_language
+	color = rgb { 145 98 64 }
+	tags = { aboriginal_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		oceanian_bronze_group
+	}
+}
+

@@ -1,0 +1,50 @@
+# Language families used by the Bronze Era culture overhaul.
+
+kemetic_language_family = {
+	color = rgb { 203 166 92 }
+}
+
+sumerian_language_family = {
+	color = rgb { 164 126 82 }
+}
+
+akkadian_language_family = {
+	color = rgb { 155 94 63 }
+}
+
+anatolian_language_family = {
+	color = rgb { 166 118 74 }
+}
+
+hurro_urartian_language_family = {
+	color = rgb { 120 112 142 }
+}
+
+aegean_language_family = {
+	color = rgb { 82 128 185 }
+}
+
+pre_indo_european_language_family = {
+	color = rgb { 139 156 115 }
+}
+
+bronze_steppe_language_family = {
+	color = rgb { 151 139 91 }
+}
+
+bronze_caucasian_language_family = {
+	color = rgb { 99 141 107 }
+}
+
+bronze_american_language_family = {
+	color = rgb { 156 105 76 }
+}
+
+bronze_oceanian_language_family = {
+	color = rgb { 80 146 151 }
+}
+
+bronze_siberian_language_family = {
+	color = rgb { 128 152 173 }
+}
+

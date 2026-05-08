@@ -1,0 +1,77 @@
+# Bronze Era total conversion culture groups. Vanilla medieval groups are not used by scenario pops.
+
+egypt_nile_group = {
+}
+
+mesopotamian_group = {
+}
+
+anatolian_bronze_group = {
+}
+
+levant_bronze_group = {
+}
+
+arabian_bronze_group = {
+}
+
+iranian_plateau_group = {
+}
+
+caucasus_bronze_group = {
+}
+
+steppe_bronze_group = {
+}
+
+aegean_bronze_group = {
+}
+
+balkans_bronze_group = {
+}
+
+italic_bronze_group = {
+}
+
+iberian_bronze_group = {
+}
+
+gaulish_bronze_group = {
+}
+
+germanic_nordic_group = {
+}
+
+britain_bronze_group = {
+}
+
+indic_bronze_group = {
+}
+
+central_asian_bronze_group = {
+}
+
+north_african_bronze_group = {
+}
+
+sea_peoples_group = {
+}
+
+east_asian_bronze_group = {
+}
+
+southeast_asian_bronze_group = {
+}
+
+siberian_bronze_group = {
+}
+
+african_bronze_group = {
+}
+
+american_bronze_group = {
+}
+
+oceanian_bronze_group = {
+}
+

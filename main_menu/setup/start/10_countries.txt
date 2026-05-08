@@ -39,8 +39,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { hellenic }
-		tolerated_cultures = { ionian aeolian dorian arcadian }
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = { minoan ionian aeolian dorian arcadian cycladic }
 	}
 
 	##EGYPT
@@ -63,7 +63,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { egyptian }
+		accepted_cultures = { upper_egyptian lower_egyptian }
+		tolerated_cultures = { nubian medjay libyan canaanite phoenician peleset }
 	}
 
 	##ANATOLIA
@@ -95,7 +96,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { anatolian }
+		accepted_cultures = { hittite }
+		tolerated_cultures = { luwian hattian palaic hurrian phrygian lukka }
 	}
 
 	##LEVANTINE KINGDOM

@@ -1,0 +1,292 @@
+# Compact Bronze Age name pools for generated cultures.
+
+egyptian_bronze_language = {
+	color = rgb { 214 177 91 }
+	family = kemetic_language_family
+
+	male_names = { Ramesses Seti Merenptah Amenmose Khaemwaset }
+	female_names = { Tausret Nefertari Iset Henuttawy Mutemwiya }
+	dynasty_names = { Ramesses Seti Merenptah Amenmose Khaemwaset }
+	lowborn = { Ramesses Seti Merenptah }
+}
+
+nubian_bronze_language = {
+	color = rgb { 122 78 49 }
+	family = eastern_sudanic_language_family
+
+	male_names = { Amani Arakamani Teriteqas Nastasen }
+	female_names = { Amanishakheto Amanitore Maletasen }
+	dynasty_names = { Amani Arakamani Teriteqas Nastasen }
+	lowborn = { Amani Arakamani Teriteqas }
+}
+
+libyan_bronze_language = {
+	color = rgb { 189 132 74 }
+	family = semitic_language_family
+
+	male_names = { Meshwesh Meryey Ded Mesis }
+	female_names = { Tia Kasa Tameri }
+	dynasty_names = { Meshwesh Meryey Ded Mesis }
+	lowborn = { Meshwesh Meryey Ded }
+}
+
+sumerian_bronze_language = {
+	color = rgb { 178 136 76 }
+	family = sumerian_language_family
+
+	male_names = { Ur_Nammu Gudea Lugalbanda Enmerkar }
+	female_names = { Kubaba Ninsun Shagshag }
+	dynasty_names = { Ur_Nammu Gudea Lugalbanda Enmerkar }
+	lowborn = { Ur_Nammu Gudea Lugalbanda }
+}
+
+akkadian_bronze_language = {
+	color = rgb { 153 89 56 }
+	family = akkadian_language_family
+
+	male_names = { Hammurabi Kadashman Ashur Tukulti Adad }
+	female_names = { Tashmetu Kubaba Beltani Shibtu }
+	dynasty_names = { Hammurabi Kadashman Ashur Tukulti Adad }
+	lowborn = { Hammurabi Kadashman Ashur }
+}
+
+elamite_bronze_language = {
+	color = rgb { 108 90 82 }
+	family = sumerian_language_family
+
+	male_names = { Untash Shilhak Humban Kidin }
+	female_names = { Napir_Asu Nahhunte Kiririsha }
+	dynasty_names = { Untash Shilhak Humban Kidin }
+	lowborn = { Untash Shilhak Humban }
+}
+
+hurrian_bronze_language = {
+	color = rgb { 104 111 147 }
+	family = hurro_urartian_language_family
+
+	male_names = { Tushratta Shuttarna Artatama Kikkuli }
+	female_names = { Kelu_Heba Tadu_Heba Gilukhepa }
+	dynasty_names = { Tushratta Shuttarna Artatama Kikkuli }
+	lowborn = { Tushratta Shuttarna Artatama }
+}
+
+anatolian_bronze_language = {
+	color = rgb { 171 121 72 }
+	family = anatolian_language_family
+
+	male_names = { Hattusili Tudhaliya Suppiluliuma Muwatalli }
+	female_names = { Puduhepa Danuhepa Asmunikal }
+	dynasty_names = { Hattusili Tudhaliya Suppiluliuma Muwatalli }
+	lowborn = { Hattusili Tudhaliya Suppiluliuma }
+}
+
+luwian_bronze_language = {
+	color = rgb { 191 139 73 }
+	family = anatolian_language_family
+
+	male_names = { Kupanta Piyama Tarkasnawa Walmu }
+	female_names = { Arawanna Massanauzzi Muwatti }
+	dynasty_names = { Kupanta Piyama Tarkasnawa Walmu }
+	lowborn = { Kupanta Piyama Tarkasnawa }
+}
+
+levantine_bronze_language = {
+	color = rgb { 184 144 67 }
+	family = semitic_language_family
+
+	male_names = { Abi_Milku Rib_Hadda Abdi_Ashirta Aziru }
+	female_names = { Batnoam Jezebel Asherah Baalat }
+	dynasty_names = { Abi_Milku Rib_Hadda Abdi_Ashirta Aziru }
+	lowborn = { Abi_Milku Rib_Hadda Abdi_Ashirta }
+}
+
+arabian_bronze_language = {
+	color = rgb { 174 137 78 }
+	family = south_semitic_language_family
+
+	male_names = { Yatha Karib Sumuhu Abiyasa }
+	female_names = { Shamsi Zabiba Tabua }
+	dynasty_names = { Yatha Karib Sumuhu Abiyasa }
+	lowborn = { Yatha Karib Sumuhu }
+}
+
+iranian_bronze_language = {
+	color = rgb { 119 141 89 }
+	family = iranic_language_family
+
+	male_names = { Ariya Vishtaspa Frada Arshaka }
+	female_names = { Atossa Roxana Parysatis }
+	dynasty_names = { Ariya Vishtaspa Frada Arshaka }
+	lowborn = { Ariya Vishtaspa Frada }
+}
+
+caucasian_bronze_language = {
+	color = rgb { 92 139 104 }
+	family = bronze_caucasian_language_family
+
+	male_names = { Argishti Menua Sarduri Aramu }
+	female_names = { Tariria Nana Medea }
+	dynasty_names = { Argishti Menua Sarduri Aramu }
+	lowborn = { Argishti Menua Sarduri }
+}
+
+steppe_bronze_language = {
+	color = rgb { 149 135 91 }
+	family = bronze_steppe_language_family
+
+	male_names = { Arianta Skula Idanthyrsus Spargapises }
+	female_names = { Tomyris Api Targitaia }
+	dynasty_names = { Arianta Skula Idanthyrsus Spargapises }
+	lowborn = { Arianta Skula Idanthyrsus }
+}
+
+aegean_bronze_language = {
+	color = rgb { 75 126 190 }
+	family = aegean_language_family
+
+	male_names = { Agamemnon Atreus Eteocles Alaksandu }
+	female_names = { Helen Clytemnestra Ariadne Phaedra }
+	dynasty_names = { Agamemnon Atreus Eteocles Alaksandu }
+	lowborn = { Agamemnon Atreus Eteocles }
+}
+
+balkanic_bronze_language = {
+	color = rgb { 112 139 121 }
+	family = pre_indo_european_language_family
+
+	male_names = { Teres Dromichaetes Bardylis Pleuratus }
+	female_names = { Bendis Teuta Etuta }
+	dynasty_names = { Teres Dromichaetes Bardylis Pleuratus }
+	lowborn = { Teres Dromichaetes Bardylis }
+}
+
+italic_bronze_language = {
+	color = rgb { 148 111 108 }
+	family = romance_language_family
+
+	male_names = { Tarquinius Numa Titus Tullus }
+	female_names = { Tanaquil Rhea Larthia }
+	dynasty_names = { Tarquinius Numa Titus Tullus }
+	lowborn = { Tarquinius Numa Titus }
+}
+
+iberian_bronze_language = {
+	color = rgb { 180 118 84 }
+	family = pre_indo_european_language_family
+
+	male_names = { Arganthonios Istolatius Indibilis }
+	female_names = { Orissia Balsa Helike }
+	dynasty_names = { Arganthonios Istolatius Indibilis }
+	lowborn = { Arganthonios Istolatius Indibilis }
+}
+
+celtic_bronze_language = {
+	color = rgb { 81 145 91 }
+	family = celtic_language_family
+
+	male_names = { Brennus Ambigatus Segovesus }
+	female_names = { Onomaris Camulata Brigantia }
+	dynasty_names = { Brennus Ambigatus Segovesus }
+	lowborn = { Brennus Ambigatus Segovesus }
+}
+
+germanic_bronze_language = {
+	color = rgb { 95 131 154 }
+	family = germanic_language_family
+
+	male_names = { Hadding Frodi Skjold Hagbard }
+	female_names = { Signe Yrsa Hervor }
+	dynasty_names = { Hadding Frodi Skjold Hagbard }
+	lowborn = { Hadding Frodi Skjold }
+}
+
+brittonic_bronze_language = {
+	color = rgb { 92 130 99 }
+	family = celtic_language_family
+
+	male_names = { Cunobelin Bran Caratacos }
+	female_names = { Cartimandua Boudica Brigantia }
+	dynasty_names = { Cunobelin Bran Caratacos }
+	lowborn = { Cunobelin Bran Caratacos }
+}
+
+indic_bronze_language = {
+	color = rgb { 177 121 64 }
+	family = indic_language_family
+
+	male_names = { Bharata Divodasa Sudas Purukutsa }
+	female_names = { Ghosha Apala Lopamudra }
+	dynasty_names = { Bharata Divodasa Sudas Purukutsa }
+	lowborn = { Bharata Divodasa Sudas }
+}
+
+dravidian_bronze_language = {
+	color = rgb { 136 101 69 }
+	family = dravidian_language_family
+
+	male_names = { Kannan Velan Maran Ariyan }
+	female_names = { Kanni Valli Malli }
+	dynasty_names = { Kannan Velan Maran Ariyan }
+	lowborn = { Kannan Velan Maran }
+}
+
+east_asian_bronze_language = {
+	color = rgb { 180 80 65 }
+	family = chinese_language_family
+
+	male_names = { Wu Ding Wu Yi Di Xin Fa }
+	female_names = { Fu Hao Bi Jiang }
+	dynasty_names = { Wu Ding Wu Yi Di Xin Fa }
+	lowborn = { Wu Ding Wu Yi Di Xin }
+}
+
+southeast_asian_bronze_language = {
+	color = rgb { 77 139 94 }
+	family = austroasiatic_language_family
+
+	male_names = { Kambu Soma Fan Lac }
+	female_names = { Soma Au Co Mera }
+	dynasty_names = { Kambu Soma Fan Lac }
+	lowborn = { Kambu Soma Fan }
+}
+
+siberian_bronze_language = {
+	color = rgb { 118 151 171 }
+	family = bronze_siberian_language_family
+
+	male_names = { Kara Targan Tumen }
+	female_names = { Saran Altana Kara }
+	dynasty_names = { Kara Targan Tumen }
+	lowborn = { Kara Targan Tumen }
+}
+
+african_bronze_language = {
+	color = rgb { 120 104 67 }
+	family = bantu_language_family
+
+	male_names = { Nok Kaya Mansa Tano }
+	female_names = { Amina Sona Nia }
+	dynasty_names = { Nok Kaya Mansa Tano }
+	lowborn = { Nok Kaya Mansa }
+}
+
+american_bronze_language = {
+	color = rgb { 151 90 62 }
+	family = bronze_american_language_family
+
+	male_names = { Ajaw Kuk Nacxit Yohl }
+	female_names = { Ixchel Yohl Atotoztli }
+	dynasty_names = { Ajaw Kuk Nacxit Yohl }
+	lowborn = { Ajaw Kuk Nacxit }
+}
+
+oceanian_bronze_language = {
+	color = rgb { 69 135 147 }
+	family = bronze_oceanian_language_family
+
+	male_names = { Langi Tala Motu Ratu }
+	female_names = { Sina Hina Lina }
+	dynasty_names = { Langi Tala Motu Ratu }
+	lowborn = { Langi Tala Motu }
+}
+
