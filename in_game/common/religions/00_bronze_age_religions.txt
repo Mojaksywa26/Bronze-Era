@@ -1,0 +1,1237 @@
+# Bronze Age religions and temple systems for the 1205 BCE scenario.
+
+kemetic = {
+	color = rgb { 212 174 82 }
+	group = egyptian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_monthly_food_modifier = 0.05
+		global_clergy_estate_power = 0.1
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_african_gfx pagan_gfx }
+}
+
+mesopotamian = {
+	color = rgb { 170 122 75 }
+	group = mesopotamian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+assyrian = {
+	color = rgb { 145 90 58 }
+	group = mesopotamian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+		army_heavy_infantry_power = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+babylonian = {
+	color = rgb { 183 126 72 }
+	group = mesopotamian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+sumerian = {
+	color = rgb { 195 141 79 }
+	group = mesopotamian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+		global_monthly_food_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+hittite = {
+	color = rgb { 164 107 68 }
+	group = anatolian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+		global_defensive = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+luwian = {
+	color = rgb { 189 132 73 }
+	group = anatolian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+hattian = {
+	color = rgb { 128 107 83 }
+	group = anatolian_religion_group
+
+	definition_modifier = {
+		global_defensive = 0.1
+		retreat_delay = -5
+		tolerance_heathen = 0.5
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+canaanite = {
+	color = rgb { 184 143 70 }
+	group = levantine_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+phoenician = {
+	color = rgb { 94 145 166 }
+	group = levantine_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+ugaritic = {
+	color = rgb { 122 128 168 }
+	group = levantine_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+		global_max_literacy = 3
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+arabian_pagan = {
+	color = rgb { 175 137 78 }
+	group = arabian_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+dilmunite = {
+	color = rgb { 78 151 153 }
+	group = arabian_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+sabaean = {
+	color = rgb { 191 146 70 }
+	group = arabian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+elamite = {
+	color = rgb { 109 87 80 }
+	group = iranian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+iranic = {
+	color = rgb { 125 145 86 }
+	group = iranian_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+margian = {
+	color = rgb { 142 126 86 }
+	group = iranian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+kartvelian_pagan = {
+	color = rgb { 94 137 103 }
+	group = caucasian_religion_group
+
+	definition_modifier = {
+		global_defensive = 0.1
+		retreat_delay = -5
+		tolerance_heathen = 0.5
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+urartian = {
+	color = rgb { 90 114 133 }
+	group = caucasian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+caucasian_pagan = {
+	color = rgb { 98 132 112 }
+	group = caucasian_religion_group
+
+	definition_modifier = {
+		global_defensive = 0.1
+		retreat_delay = -5
+		tolerance_heathen = 0.5
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+steppe_pagan = {
+	color = rgb { 146 134 92 }
+	group = steppe_religion_group
+
+	definition_modifier = {
+		army_light_cavalry_power = 0.1
+		movement_speed_if_no_road = 0.05
+		global_levy_size_modifier = 0.05
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+saka_pagan = {
+	color = rgb { 129 135 91 }
+	group = steppe_religion_group
+
+	definition_modifier = {
+		army_light_cavalry_power = 0.1
+		movement_speed_if_no_road = 0.05
+		global_levy_size_modifier = 0.05
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+scythian_pagan = {
+	color = rgb { 116 123 92 }
+	group = steppe_religion_group
+
+	definition_modifier = {
+		army_light_cavalry_power = 0.1
+		movement_speed_if_no_road = 0.05
+		global_levy_size_modifier = 0.05
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+minoan = {
+	color = rgb { 68 150 177 }
+	group = aegean_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+mycenaean = {
+	color = rgb { 76 119 185 }
+	group = aegean_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+		army_heavy_infantry_power = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+hellenic = {
+	color = rgb { 88 133 196 }
+	group = aegean_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+		skill_of_new_artists = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+thracian_pagan = {
+	color = rgb { 111 137 119 }
+	group = balkan_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+illyrian_pagan = {
+	color = rgb { 90 126 124 }
+	group = balkan_religion_group
+
+	definition_modifier = {
+		global_defensive = 0.1
+		retreat_delay = -5
+		tolerance_heathen = 0.5
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+dacian_pagan = {
+	color = rgb { 100 135 98 }
+	group = balkan_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+italic_pagan = {
+	color = rgb { 151 112 106 }
+	group = italic_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+etruscan = {
+	color = rgb { 137 98 105 }
+	group = italic_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+		global_max_literacy = 3
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+nuragic = {
+	color = rgb { 126 119 79 }
+	group = italic_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+iberian_pagan = {
+	color = rgb { 179 117 84 }
+	group = iberian_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+tartessian = {
+	color = rgb { 195 127 72 }
+	group = iberian_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+lusitanian_pagan = {
+	color = rgb { 135 128 88 }
+	group = iberian_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+gaulish_pagan = {
+	color = rgb { 82 145 91 }
+	group = celtic_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+britannic_pagan = {
+	color = rgb { 92 130 99 }
+	group = celtic_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+nordic_pagan = {
+	color = rgb { 95 131 154 }
+	group = nordic_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+vedic = {
+	color = rgb { 177 121 64 }
+	group = indian_religion_group
+
+	definition_modifier = {
+		global_max_literacy = 5
+		global_monthly_food_modifier = 0.05
+		global_clergy_estate_power = 0.05
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { dharmic_gfx pagan_gfx }
+}
+
+dravidian_folk = {
+	color = rgb { 132 95 67 }
+	group = indian_religion_group
+
+	definition_modifier = {
+		global_max_literacy = 5
+		global_monthly_food_modifier = 0.05
+		global_clergy_estate_power = 0.05
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { dharmic_gfx pagan_gfx }
+}
+
+harappan = {
+	color = rgb { 174 116 61 }
+	group = indian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_monthly_food_modifier = 0.05
+		global_clergy_estate_power = 0.1
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_african_gfx pagan_gfx }
+}
+
+berber_pagan = {
+	color = rgb { 174 126 77 }
+	group = african_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+nubian = {
+	color = rgb { 122 78 49 }
+	group = african_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_monthly_food_modifier = 0.05
+		global_clergy_estate_power = 0.1
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_african_gfx pagan_gfx }
+}
+
+garamantian = {
+	color = rgb { 157 111 67 }
+	group = african_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+sea_peoples_cult = {
+	color = rgb { 75 137 166 }
+	group = sea_peoples_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+		auto_slave_raid_different_religion = yes
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+shang_rites = {
+	color = rgb { 180 80 65 }
+	group = east_asian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+zhou_rites = {
+	color = rgb { 165 98 70 }
+	group = east_asian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+sanxingdui_rites = {
+	color = rgb { 154 111 84 }
+	group = east_asian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+baiyue_rites = {
+	color = rgb { 86 141 99 }
+	group = east_asian_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+jomon_rites = {
+	color = rgb { 145 96 73 }
+	group = east_asian_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+mumun_rites = {
+	color = rgb { 120 126 94 }
+	group = east_asian_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+austroasiatic_rites = {
+	color = rgb { 77 139 94 }
+	group = southeast_asian_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+khmer_rites = {
+	color = rgb { 91 132 78 }
+	group = southeast_asian_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_monthly_food_modifier = 0.05
+		global_clergy_estate_power = 0.1
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_african_gfx pagan_gfx }
+}
+
+austronesian_rites = {
+	color = rgb { 68 138 151 }
+	group = southeast_asian_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+karasuk_rites = {
+	color = rgb { 118 151 171 }
+	group = siberian_religion_group
+
+	definition_modifier = {
+		army_light_cavalry_power = 0.1
+		movement_speed_if_no_road = 0.05
+		global_levy_size_modifier = 0.05
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+puntite_rites = {
+	color = rgb { 135 106 72 }
+	group = sub_saharan_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+cushitic_rites = {
+	color = rgb { 130 115 72 }
+	group = sub_saharan_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+nilo_saharan_rites = {
+	color = rgb { 109 114 82 }
+	group = sub_saharan_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_monthly_food_modifier = 0.05
+		global_clergy_estate_power = 0.1
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_african_gfx pagan_gfx }
+}
+
+mande_rites = {
+	color = rgb { 132 102 66 }
+	group = sub_saharan_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+bantu_rites = {
+	color = rgb { 107 119 68 }
+	group = sub_saharan_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+khoisan_rites = {
+	color = rgb { 146 106 72 }
+	group = sub_saharan_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+olmec_rites = {
+	color = rgb { 154 92 62 }
+	group = american_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+mayan_rites = {
+	color = rgb { 130 111 70 }
+	group = american_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+zapotec_rites = {
+	color = rgb { 143 99 64 }
+	group = american_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+puebloan_rites = {
+	color = rgb { 160 112 78 }
+	group = american_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+andean_rites = {
+	color = rgb { 151 105 73 }
+	group = american_religion_group
+
+	definition_modifier = {
+		monthly_legitimacy = 0.1
+		global_clergy_estate_power = 0.1
+		global_build_buildings_cost = -0.03
+		global_pop_conversion_speed_modifier = -0.1
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+woodland_rites = {
+	color = rgb { 103 130 83 }
+	group = american_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+arawak_rites = {
+	color = rgb { 83 139 123 }
+	group = american_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+tupi_rites = {
+	color = rgb { 82 134 84 }
+	group = american_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+saqqaq_rites = {
+	color = rgb { 118 151 171 }
+	group = american_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+lapita_rites = {
+	color = rgb { 69 135 147 }
+	group = oceanian_religion_group
+
+	definition_modifier = {
+		global_maritime_presence_modifier = 0.1
+		global_trade_protection_factor = 0.1
+		ship_build_speed = 0.05
+		naval_morale_attrition_cost = -0.001
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+papuan_rites = {
+	color = rgb { 101 111 142 }
+	group = oceanian_religion_group
+
+	definition_modifier = {
+		global_wild_game_output_modifier = 0.1
+		expand_rgo_forestry_cost_modifier = -0.1
+		global_levy_size_modifier = 0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+dreaming_ways = {
+	color = rgb { 145 98 64 }
+	group = oceanian_religion_group
+
+	definition_modifier = {
+		global_levy_size_modifier = 0.05
+		army_light_infantry_power = 0.05
+		tolerance_heathen = 0.5
+		global_pop_conversion_speed_modifier = -0.05
+	}
+
+	opinions = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+

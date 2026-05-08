@@ -1,0 +1,184 @@
+# Icon-backed deity hooks for Bronze Era religions.
+
+ra_sun_disk = {
+	icon = god_folk_yellow
+
+	religion = {
+		religion = kemetic
+		name_key = ra_sun_disk
+	}
+
+	country_modifier = {
+		monthly_legitimacy = 0.1
+	}
+}
+
+amun_hidden_wind = {
+	icon = god_folk_blue
+
+	religion = {
+		religion = kemetic
+		name_key = amun_hidden_wind
+	}
+
+	country_modifier = {
+		global_clergy_estate_power = 0.05
+	}
+}
+
+enlil_great_mountain = {
+	icon = god_folk_blue
+
+	religion = {
+		religion = mesopotamian
+		name_key = enlil_great_mountain
+	}
+
+	country_modifier = {
+		global_monthly_control = 0.001
+	}
+}
+
+ishtar_evening_star = {
+	icon = god_folk_pink
+
+	religion = {
+		religion = babylonian
+		name_key = ishtar_evening_star
+	}
+
+	country_modifier = {
+		global_population_growth = 0.0001
+	}
+}
+
+ashur_winged_lord = {
+	icon = god_folk_red
+
+	religion = {
+		religion = assyrian
+		name_key = ashur_winged_lord
+	}
+
+	country_modifier = {
+		army_heavy_infantry_power = 0.03
+	}
+}
+
+teshub_storm_lord = {
+	icon = god_folk_blue
+
+	religion = {
+		religion = hittite
+		name_key = teshub_storm_lord
+	}
+
+	country_modifier = {
+		global_defensive = 0.05
+	}
+}
+
+baal_storm_rider = {
+	icon = god_folk_blue
+
+	religion = {
+		religion = canaanite
+		name_key = baal_storm_rider
+	}
+
+	country_modifier = {
+		global_monthly_food_modifier = 0.03
+	}
+}
+
+melqart_harbor_lord = {
+	icon = god_folk_dark_blue
+
+	religion = {
+		religion = phoenician
+		name_key = melqart_harbor_lord
+	}
+
+	country_modifier = {
+		global_maritime_presence_modifier = 0.05
+	}
+}
+
+potnia_labyrinth = {
+	icon = god_folk_green
+
+	religion = {
+		religion = minoan
+		name_key = potnia_labyrinth
+	}
+
+	country_modifier = {
+		global_monthly_food_modifier = 0.03
+	}
+}
+
+poseidon_wanax = {
+	icon = god_folk_dark_blue
+
+	religion = {
+		religion = mycenaean
+		name_key = poseidon_wanax
+	}
+
+	country_modifier = {
+		army_heavy_infantry_power = 0.03
+	}
+}
+
+tinia_sky_judge = {
+	icon = god_folk_blue
+
+	religion = {
+		religion = etruscan
+		name_key = tinia_sky_judge
+	}
+
+	country_modifier = {
+		global_max_literacy = 2
+	}
+}
+
+indra_thunderer = {
+	icon = god_folk_red
+
+	religion = {
+		religion = vedic
+		name_key = indra_thunderer
+	}
+
+	country_modifier = {
+		army_light_infantry_power = 0.03
+	}
+}
+
+tabiti_hearth = {
+	icon = god_folk_red
+
+	religion = {
+		religion = scythian_pagan
+		name_key = tabiti_hearth
+	}
+
+	country_modifier = {
+		army_light_cavalry_power = 0.03
+	}
+}
+
+tanit_sea_star = {
+	icon = god_folk_pink
+
+	religion = {
+		religion = sea_peoples_cult
+		name_key = tanit_sea_star
+	}
+
+	country_modifier = {
+		naval_morale_attrition_cost = -0.001
+	}
+}
+

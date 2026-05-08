@@ -1,0 +1,140 @@
+# Bronze Era religion groups. The 1205 BCE setup uses these instead of medieval world religions.
+
+egyptian_religion_group = {
+	color = rgb { 212 174 82 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+mesopotamian_religion_group = {
+	color = rgb { 170 122 75 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+anatolian_religion_group = {
+	color = rgb { 164 107 68 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+levantine_religion_group = {
+	color = rgb { 184 143 70 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+arabian_religion_group = {
+	color = rgb { 175 137 78 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+iranian_religion_group = {
+	color = rgb { 109 87 80 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+caucasian_religion_group = {
+	color = rgb { 94 137 103 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+steppe_religion_group = {
+	color = rgb { 146 134 92 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+aegean_religion_group = {
+	color = rgb { 68 150 177 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+balkan_religion_group = {
+	color = rgb { 111 137 119 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+italic_religion_group = {
+	color = rgb { 151 112 106 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+iberian_religion_group = {
+	color = rgb { 179 117 84 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+celtic_religion_group = {
+	color = rgb { 82 145 91 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+nordic_religion_group = {
+	color = rgb { 95 131 154 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+indian_religion_group = {
+	color = rgb { 177 121 64 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+african_religion_group = {
+	color = rgb { 174 126 77 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+sea_peoples_religion_group = {
+	color = rgb { 75 137 166 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+east_asian_religion_group = {
+	color = rgb { 180 80 65 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+southeast_asian_religion_group = {
+	color = rgb { 77 139 94 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+siberian_religion_group = {
+	color = rgb { 118 151 171 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+sub_saharan_religion_group = {
+	color = rgb { 135 106 72 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+american_religion_group = {
+	color = rgb { 154 92 62 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+
+oceanian_religion_group = {
+	color = rgb { 69 135 147 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+

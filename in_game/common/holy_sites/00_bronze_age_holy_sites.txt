@@ -1,0 +1,331 @@
+# Bronze Age holy sites. Sites with unavailable map locations are omitted by the generator.
+
+iunu_solar_precinct = {
+	location = giza
+	type = temple
+	importance = 5
+	religions = { kemetic }
+}
+
+waset_estate_of_amun = {
+	location = akhmim
+	type = temple
+	importance = 5
+	religions = { kemetic }
+}
+
+abu_sanctuary = {
+	location = aswan
+	type = shrine
+	importance = 4
+	religions = { kemetic nubian }
+}
+
+eridu_apsu = {
+	location = basra
+	type = temple
+	importance = 5
+	religions = { sumerian mesopotamian }
+}
+
+babylon_esagila = {
+	location = hillah
+	type = city
+	importance = 5
+	religions = { babylonian mesopotamian }
+}
+
+ashur_temple = {
+	location = mosul
+	type = temple
+	importance = 5
+	religions = { assyrian }
+}
+
+susa_high_temple = {
+	location = shush
+	type = temple
+	importance = 5
+	religions = { elamite }
+}
+
+hattusa_storm_temple = {
+	location = corum
+	type = temple
+	importance = 5
+	religions = { hittite hattian }
+}
+
+tarhuntassa_sanctuary = {
+	location = tarsus
+	type = temple
+	importance = 4
+	religions = { luwian sea_peoples_cult }
+}
+
+arinna_sun_house = {
+	location = ankara
+	type = shrine
+	importance = 4
+	religions = { hittite }
+}
+
+ugarit_baal_precinct = {
+	location = latakia
+	type = temple
+	importance = 5
+	religions = { ugaritic canaanite }
+}
+
+byblos_lady_temple = {
+	location = beirut
+	type = temple
+	importance = 4
+	religions = { phoenician canaanite }
+}
+
+sidon_sea_gate = {
+	location = sidon
+	type = shrine
+	importance = 4
+	religions = { phoenician sea_peoples_cult }
+}
+
+dilmun_spring_temple = {
+	location = manama
+	type = temple
+	importance = 5
+	religions = { dilmunite }
+}
+
+saba_moon_temple = {
+	location = nizwa
+	type = temple
+	importance = 4
+	religions = { sabaean arabian_pagan }
+}
+
+bactra_fire_enclosure = {
+	location = balkh
+	type = shrine
+	importance = 4
+	religions = { iranic }
+}
+
+margiana_oasis_temple = {
+	location = merv
+	type = temple
+	importance = 5
+	religions = { margian }
+}
+
+van_rock_sanctuary = {
+	location = erzurum
+	type = mountain
+	importance = 5
+	religions = { urartian }
+}
+
+colchian_grove = {
+	location = batumi
+	type = shrine
+	importance = 4
+	religions = { kartvelian_pagan caucasian_pagan }
+}
+
+steppe_sky_mound = {
+	location = dehistan
+	type = shrine
+	importance = 3
+	religions = { steppe_pagan saka_pagan }
+}
+
+tauric_rider_shrine = {
+	location = cetatea_alba
+	type = shrine
+	importance = 3
+	religions = { scythian_pagan }
+}
+
+knossos_peak_shrine = {
+	location = candia
+	type = temple
+	importance = 5
+	religions = { minoan }
+}
+
+mycenae_palace_shrine = {
+	location = argos
+	type = temple
+	importance = 5
+	religions = { mycenaean }
+}
+
+delos_birth_shrine = {
+	location = mykonos
+	type = shrine
+	importance = 3
+	religions = { hellenic }
+}
+
+thracian_horseman_sanctuary = {
+	location = serres
+	type = shrine
+	importance = 3
+	religions = { thracian_pagan }
+}
+
+illyrian_mountain_grove = {
+	location = ohrid
+	type = mountain
+	importance = 3
+	religions = { illyrian_pagan }
+}
+
+sarmizegetusa_heights = {
+	location = deva
+	type = mountain
+	importance = 4
+	religions = { dacian_pagan }
+}
+
+tiber_hearth = {
+	location = rome
+	type = temple
+	importance = 4
+	religions = { italic_pagan etruscan }
+}
+
+etruscan_haruspex_house = {
+	location = chiusi
+	type = temple
+	importance = 4
+	religions = { etruscan }
+}
+
+nuraghe_high_place = {
+	location = cagliari
+	type = shrine
+	importance = 5
+	religions = { nuragic sea_peoples_cult }
+}
+
+tartessos_river_temple = {
+	location = huelva
+	type = temple
+	importance = 5
+	religions = { tartessian }
+}
+
+iberian_hill_shrine = {
+	location = cartagena
+	type = shrine
+	importance = 3
+	religions = { iberian_pagan }
+}
+
+lusitanian_mountain_grove = {
+	location = tavira
+	type = mountain
+	importance = 3
+	religions = { lusitanian_pagan }
+}
+
+gaulish_oak_grove = {
+	location = paris
+	type = shrine
+	importance = 3
+	religions = { gaulish_pagan }
+}
+
+britannic_stone_circle = {
+	location = london
+	type = shrine
+	importance = 4
+	religions = { britannic_pagan }
+}
+
+nordic_solar_barrows = {
+	location = uppsala
+	type = shrine
+	importance = 4
+	religions = { nordic_pagan }
+}
+
+sarasvati_fire_altar = {
+	location = delhi
+	type = temple
+	importance = 5
+	religions = { vedic }
+}
+
+indus_bath_precinct = {
+	location = sukkur
+	type = temple
+	importance = 5
+	religions = { harappan }
+}
+
+southern_mother_shrine = {
+	location = madurai
+	type = temple
+	importance = 4
+	religions = { dravidian_folk }
+}
+
+napata_river_temple = {
+	location = aswan
+	type = temple
+	importance = 4
+	religions = { nubian kemetic }
+}
+
+siwa_oracle_oasis = {
+	location = siwa
+	type = shrine
+	importance = 4
+	religions = { berber_pagan garamantian }
+}
+
+shang_ancestral_temple = {
+	location = kaifeng
+	type = temple
+	importance = 5
+	religions = { shang_rites zhou_rites }
+}
+
+sanxingdui_bronze_altar = {
+	location = chengdu
+	type = temple
+	importance = 5
+	religions = { sanxingdui_rites }
+}
+
+jomon_shell_shrine = {
+	location = imizu
+	type = shrine
+	importance = 3
+	religions = { jomon_rites }
+}
+
+lapita_sea_shrine = {
+	location = tongatapu
+	type = shrine
+	importance = 3
+	religions = { lapita_rites austronesian_rites }
+}
+
+olmec_jaguar_altar = {
+	location = cempoala
+	type = temple
+	importance = 4
+	religions = { olmec_rites }
+}
+
+andean_mountain_huaca = {
+	location = tiwanaku
+	type = mountain
+	importance = 4
+	religions = { andean_rites }
+}
+

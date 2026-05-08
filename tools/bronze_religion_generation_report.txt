@@ -1,0 +1,83 @@
+Bronze Era religion generation report
+=====================================
+
+Defined religions: 73
+Defined religion groups: 23
+Holy sites written: 47
+Vanilla replacement stubs written: 85
+Location religion overrides: 11
+Religion manager cleared: yes
+
+Top pop religion assignments:
+- shang_rites: 5540
+- nordic_pagan: 4117
+- steppe_pagan: 3938
+- vedic: 2385
+- iranic: 2231
+- austronesian_rites: 1814
+- woodland_rites: 1669
+- austroasiatic_rites: 1528
+- mande_rites: 1354
+- saka_pagan: 1286
+- gaulish_pagan: 1281
+- andean_rites: 1129
+- cushitic_rites: 1103
+- olmec_rites: 1086
+- iberian_pagan: 1007
+- scythian_pagan: 917
+- dravidian_folk: 915
+- berber_pagan: 897
+- arabian_pagan: 865
+- saqqaq_rites: 834
+- italic_pagan: 782
+- britannic_pagan: 766
+- baiyue_rites: 681
+- dacian_pagan: 678
+- arawak_rites: 676
+- hittite: 660
+- zhou_rites: 655
+- bantu_rites: 584
+- sanxingdui_rites: 541
+- jomon_rites: 518
+- lusitanian_pagan: 503
+- etruscan: 480
+- caucasian_pagan: 455
+- dreaming_ways: 449
+- mycenaean: 431
+- thracian_pagan: 419
+- puebloan_rites: 381
+- illyrian_pagan: 319
+- sabaean: 319
+- mumun_rites: 273
+- kemetic: 272
+- assyrian: 225
+- luwian: 210
+- elamite: 210
+- kartvelian_pagan: 207
+- lapita_rites: 194
+- babylonian: 193
+- khoisan_rites: 182
+- puntite_rites: 177
+- canaanite: 172
+- urartian: 169
+- zapotec_rites: 154
+- harappan: 150
+- papuan_rites: 139
+- nubian: 115
+- hellenic: 94
+- khmer_rites: 90
+- tartessian: 85
+- hattian: 77
+- garamantian: 74
+- nuragic: 60
+- sea_peoples_cult: 56
+- mesopotamian: 52
+- sumerian: 37
+- phoenician: 18
+- ugaritic: 16
+- minoan: 13
+- dilmunite: 12
+- margian: 11
+- mayan_rites: 7
+
+Invalid/unconverted references: none
