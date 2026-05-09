@@ -1,0 +1,37 @@
+Newly created Bronze Age countries
+==================================
+
+- AEDUI
+- AEQUI
+- BOLI
+- CAMUN
+- CARNI
+- DAESI
+- ETRUS
+- FALIS
+- HELVE
+- HISTI
+- INSUB
+- LATIN
+- LEPON
+- LIBUR
+- LIGUR
+- MARSI
+- NPICE
+- NORIC
+- OENOT
+- OSCAN
+- PAGON
+- RAETI
+- SCORD
+- SENOM
+- SENON
+- SPICE
+- SURRT
+- TARAN
+- TAURI
+- TORRI
+- UMBRI
+- VENET
+- VESTI
+- VOLSC

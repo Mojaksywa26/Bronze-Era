@@ -15,7 +15,7 @@ current_age = age_1_traditions
 countries = {
 	countries = {
 
-	##0001G
+	##MYCENAE
 	0001G = {
 		capital = amorgos
 
@@ -38,14 +38,14 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { mycenaean }
-		tolerated_cultures = { minoan ionian aeolian dorian arcadian cycladic }
+		accepted_cultures = { mycenaean cycladic }
+		tolerated_cultures = { ionian minoan aeolian arcadian pelasgian dorian }
 	
 	
 	
 	}
 
-	##0002G
+	##EGYPT
 	0002G = {
 		capital = acre
 
@@ -67,13 +67,13 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { upper_egyptian lower_egyptian }
-		tolerated_cultures = { nubian medjay libyan canaanite phoenician peleset }
+		tolerated_cultures = { canaanite libyan medjay peleset phoenician egyptian }
 	
 	
 	
 	}
 
-	##0003G
+	##HATTI
 	0003G = {
 		capital = adana
 
@@ -104,8 +104,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { hittite }
-		tolerated_cultures = { luwian hattian palaic hurrian phrygian lukka }
+		accepted_cultures = { hittite luwian }
+		tolerated_cultures = { hurrian hattian denyen }
 	
 	
 	
@@ -125,14 +125,53 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { phoenician }
-		tolerated_cultures = { canaanite tjekker }
+		accepted_cultures = { tjekker }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##AGRIANES
+	##AEDUI
+	AEDUI = {
+		capital = baume
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			baume bienne burgdorf_emmental delemont montbeliard neuchatel ornans pontarlier
+			salins_les_bains solothurn
+		}
+		accepted_cultures = { gaulish urnfield }
+		tolerated_cultures = {  }
+	}
+
+	##AEQUI
+	AEQUI = {
+		capital = celano
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			celano
+		}
+		accepted_cultures = { apennine }
+		tolerated_cultures = {  }
+	}
+
+	##AGRIA
 	AGRIA = {
 		capital = dupnitsa
 
@@ -146,8 +185,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { thracian }
-		tolerated_cultures = { }
+		accepted_cultures = { ezero }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -168,13 +207,13 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { canaanite }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##ALMOPIANS
+	##ALMOP
 	ALMOP = {
 		capital = debar
 
@@ -195,7 +234,7 @@ countries = {
 	
 	}
 
-	##ALZIYA
+	##ALZIY
 	ALZIY = {
 		capital = ahlat
 
@@ -209,8 +248,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { urartian }
-		tolerated_cultures = { gutian }
+		accepted_cultures = { urartian gutian }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -232,29 +271,31 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { amorite }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##ARDIAIOI
+	##ARDIA
 	ARDIA = {
-		capital = dubrovnik
+		capital = borac
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			dubrovnik gacko gradina konjic kotor mostar nevesinje onogost
-			pljevlja soko_grad trebinje ustikolina
+			borac doboj dubrovnik gacko glaz gradina gradiski_brod jajce
+			kljuc konjic kotor mostar nevesinje olovo onogost pljevlja
+			soko_grad soli srebrenica srebrenik teocak trebinje ustikolina vrhbosna
+			zenica
 		}
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { illyrian triballian }
-		tolerated_cultures = { }
+		accepted_cultures = { glasinac_mati central_bosnian }
+		tolerated_cultures = { cetina triballian }
 	
 	
 	
@@ -276,7 +317,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { iberian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -297,7 +338,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { phoenician }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -323,8 +364,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { assyrian }
-		tolerated_cultures = { hurrian akkadian babylonian }
+		accepted_cultures = { assyrian hurrian }
+		tolerated_cultures = { akkadian babylonian }
 	
 	
 	
@@ -346,7 +387,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { urartian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -367,7 +408,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { iberian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -388,7 +429,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { lusitanian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -409,13 +450,55 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { phoenician }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##BOTTIAEA
+	##BOLI
+	BOLI = {
+		capital = bobbio
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bobbio cremona fiorenzuola lodi pavia piacenza sandonnino soncino
+			voghera
+		}
+		accepted_cultures = { terramare canegrate }
+		tolerated_cultures = {  }
+	}
+
+	##BOSPH
+	BOSPH = {
+		capital = ahtopol
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		own_control_core = {
+			ahtopol atpazari catalca constantinople corlu izmit kirklareli kiyikoy
+			luleburgaz silivri silli sozopol uskudar vize
+		}
+		government = {
+			ruler = random
+		}
+		accepted_cultures = { thracian mycenaean }
+		tolerated_cultures = {  }
+	
+	
+	
+	}
+
+	##BOTTI
 	BOTTI = {
 		capital = edessa
 
@@ -430,14 +513,14 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { mycenaean }
-		tolerated_cultures = { dacian paeonian }
+		accepted_cultures = { mycenaean dacian }
+		tolerated_cultures = { paeonian }
 	
 	
 	
 	}
 
-	##BOULINOI
+	##BOULI
 	BOULI = {
 		capital = glamoc
 
@@ -451,8 +534,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { illyrian }
-		tolerated_cultures = { }
+		accepted_cultures = { glasinac_mati cetina }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -473,13 +556,32 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { phoenician }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##CHAONIA
+	##CAMUNIC
+	CAMUN = {
+		capital = asola
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			asola brescia nozza riva salo_ita
+		}
+		accepted_cultures = { polada urnfield }
+		tolerated_cultures = { camunni }
+	}
+
+	##CAONI
 	CAONI = {
 		capital = avlonya
 
@@ -493,11 +595,30 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { illyrian }
-		tolerated_cultures = { mycenaean }
+		accepted_cultures = { illyrian mycenaean }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##CARNIAN
+	CARNI = {
+		capital = buzet
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			buzet gorizia ilirska_bistrica postojna trieste
+		}
+		accepted_cultures = { castellieri vuchedol }
+		tolerated_cultures = {  }
 	}
 
 	##CARTI
@@ -515,13 +636,33 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { tartessian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##DARDANIANS
+	##DAESITIAN
+	DAESI = {
+		capital = bihac
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bihac bjelovar dubica karlovac kozara kutina metlika petrinja
+			sisak srb virovitica zagreb
+		}
+		accepted_cultures = { vuchedol central_bosnian }
+		tolerated_cultures = {  }
+	}
+
+	##DARDN
 	DARDN = {
 		capital = arilje
 
@@ -540,14 +681,14 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { triballian }
-		tolerated_cultures = { dacian thracian illyrian }
+		accepted_cultures = { vatin ezero }
+		tolerated_cultures = { glasinac_mati cotofeni vuchedol tei }
 	
 	
 	
 	}
 
-	##DERRONES
+	##DERRN
 	DERRN = {
 		capital = glubocica
 
@@ -561,8 +702,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { illyrian triballian }
-		tolerated_cultures = { }
+		accepted_cultures = { vatin }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -583,13 +724,13 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { dilmunite }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##DOBERES
+	##DOBER
 	DOBER = {
 		capital = bansko
 
@@ -603,14 +744,14 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { thracian }
-		tolerated_cultures = { }
+		accepted_cultures = { ezero }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##DOLOPIA
+	##DOLOP
 	DOLOP = {
 		capital = arta
 
@@ -625,7 +766,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { mycenaean }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -648,14 +789,14 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { elamite }
-		tolerated_cultures = { gutian }
+		accepted_cultures = { elamite gutian }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##ELIMIOTIS
+	##ELMIT
 	ELMIT = {
 		capital = grevena
 
@@ -670,7 +811,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { mycenaean }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -690,11 +831,55 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { elymian }
-		tolerated_cultures = { sicanian }
+		accepted_cultures = { elymian sicanian }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##ETRUSCAN
+	ETRUS = {
+		capital = arezzo
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arezzo berceto bologna bracciano canossa casalmaggiore cesena chiusi
+			corneto cortona faenza ficarolo florence fosdinovo frassinoro goito
+			grosseto guastalla imola livorno lucca mangona mantova marsciano
+			massa massamar medicina mirandola modena modigliana montalcino nonantola
+			orte orvietano ostiglia parma pescia piombino pisa pistoia
+			pitigliano poggibonsi pontedera prato ravenna reggioem sanlorenzo sansepolcro
+			siena todi vergato viterbo volterra
+		}
+		accepted_cultures = { proto_villanovan terramare }
+		tolerated_cultures = { apennine rinaldone latial }
+	}
+
+	##FALISCAN
+	FALIS = {
+		capital = narni
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			narni sabina
+		}
+		accepted_cultures = { apennine latial }
+		tolerated_cultures = {  }
 	}
 
 	##HABIR
@@ -712,8 +897,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { aramaean }
-		tolerated_cultures = { moabite }
+		accepted_cultures = { aramaean moabite }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -735,7 +920,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { colchian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -757,13 +942,34 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { luwian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##HIERASTAMNOI
+	##HELVETII
+	HELVE = {
+		capital = altdorf
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			altdorf annecy belley bellinzona bern chambery evian faucigny
+			fribourg frutigen geneve gruyere interlaken la_roche_sur_foron lausanne locarno
+			monthey montreux nyon saanen sallanches sarnen thun yverdon_les_bains
+		}
+		accepted_cultures = { gaulish urnfield }
+		tolerated_cultures = { germanic lepontic polada }
+	}
+
+	##HIERA
 	HIERA = {
 		capital = kaseg
 
@@ -777,14 +983,33 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { illyrian }
-		tolerated_cultures = { }
+		accepted_cultures = { cetina }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##HYLLOI
+	##HISTRIAN
+	HISTI = {
+		capital = pazin
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			pazin pola rovinj
+		}
+		accepted_cultures = { castellieri }
+		tolerated_cultures = {  }
+	}
+
+	##HYLLO
 	HYLLO = {
 		capital = brac
 
@@ -798,8 +1023,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { illyrian }
-		tolerated_cultures = { }
+		accepted_cultures = { cetina }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -821,13 +1046,33 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { iapygian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##KARKAMISSA
+	##INSUBRES
+	INSUB = {
+		capital = alessandria
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alessandria asti carmagnola casale chieri lanzo pinerolo susa
+			tortona turin
+		}
+		accepted_cultures = { canegrate gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##KARKA
 	KARKA = {
 		capital = jabar
 
@@ -863,8 +1108,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { colchian }
-		tolerated_cultures = { hittite kartvelian }
+		accepted_cultures = { colchian hittite }
+		tolerated_cultures = { kartvelian }
 	
 	
 	
@@ -890,8 +1135,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { kassite }
-		tolerated_cultures = { babylonian sumerian }
+		accepted_cultures = { kassite babylonian }
+		tolerated_cultures = { sumerian }
 	
 	
 	
@@ -912,13 +1157,13 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { luwian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##LAEAEANS
+	##LAEAE
 	LAEAE = {
 		capital = kostenets
 
@@ -932,11 +1177,30 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { thracian }
-		tolerated_cultures = { paeonian }
+		accepted_cultures = { ezero }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##LATIN
+	LATIN = {
+		capital = anagni
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			anagni gaeta palestrina rome terracina tivoli velletri
+		}
+		accepted_cultures = { latial ausonian }
+		tolerated_cultures = {  }
 	}
 
 	##LAZPA
@@ -954,10 +1218,49 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { mycenaean }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##LEPONTIC
+	LEPON = {
+		capital = aosta
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aosta arona biella brig chatillonaos domodossola ivrea martigny
+			morgex moutiers sion varallo vercelli
+		}
+		accepted_cultures = { canegrate gaulish }
+		tolerated_cultures = { urnfield polada raeti }
+	}
+
+	##LIBURNIAN
+	LIBUR = {
+		capital = crikvenica
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			crikvenica kocevje krk otocac senj slunj
+		}
+		accepted_cultures = { cetina vuchedol }
+		tolerated_cultures = {  }
 	}
 
 	##LIBYA
@@ -975,11 +1278,33 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { libu }
-		tolerated_cultures = { garamantian }
+		accepted_cultures = { libu garamantian }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##LIGURIAN
+	LIGUR = {
+		capital = acqui
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			acqui alba albenga bardi barjols brignoles cairo_montenotte castellane
+			ceva cuneo draguignan finalborgo frejus genoa grasse lavagna
+			mondovi nice novi puget_theniers rovegno saluzzo sarzana savona
+			toulon ventimiglia
+		}
+		accepted_cultures = { canegrate gaulish }
+		tolerated_cultures = { terramare }
 	}
 
 	##LUKKA
@@ -997,8 +1322,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { lukka }
-		tolerated_cultures = { carian }
+		accepted_cultures = { lukka carian }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -1021,8 +1346,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { arabian }
-		tolerated_cultures = { sabaean }
+		accepted_cultures = { arabian sabaean }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -1043,13 +1368,13 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { tartessian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##MANIOI
+	##MANIO
 	MANIO = {
 		capital = metkovic
 
@@ -1063,11 +1388,30 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { illyrian }
-		tolerated_cultures = { }
+		accepted_cultures = { cetina }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##MARSIAN
+	MARSI = {
+		capital = aquila
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aquila sulmona
+		}
+		accepted_cultures = { apennine }
+		tolerated_cultures = {  }
 	}
 
 	##MASA
@@ -1086,7 +1430,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { phrygian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -1107,8 +1451,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { hittite }
-		tolerated_cultures = { mycenaean }
+		accepted_cultures = { hittite mycenaean }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -1131,13 +1475,13 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { hurrian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##MOLOSSIA
+	##MOLOS
 	MOLOS = {
 		capital = argyrokastro
 
@@ -1151,14 +1495,14 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { mycenaean }
-		tolerated_cultures = { paeonian }
+		accepted_cultures = { mycenaean paeonian }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##NESTIOI
+	##NESTI
 	NESTI = {
 		capital = drijeva
 
@@ -1172,11 +1516,51 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { illyrian }
-		tolerated_cultures = { }
+		accepted_cultures = { cetina glasinac_mati }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##NORTH PICENE
+	NPICE = {
+		capital = ancona
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ancona fermo macerata
+		}
+		accepted_cultures = { apennine }
+		tolerated_cultures = {  }
+	}
+
+	##NORIC
+	NORIC = {
+		capital = celje
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			celje feldbach feldkirchen friesach graz hermagor judenburg klagenfurt
+			kranj leibnitz maribor murau ptuj slovenj_gradec spittal st_veit
+			steinfeld tamsweg voitsberg volkermarkt winklern wolfsberg
+		}
+		accepted_cultures = { urnfield vuchedol }
+		tolerated_cultures = {  }
 	}
 
 	##NURAG
@@ -1196,13 +1580,54 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { nuragic }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##PAEONIA
+	##OENOTRIAN
+	OENOT = {
+		capital = castrovillari
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			castrovillari catanzaro cosenza gerace lagonegro monteleone nicastro palmi
+			paola reggiocal rossano santarcangelo scalea
+		}
+		accepted_cultures = { mycenaean oenotrian }
+		tolerated_cultures = { ausonian gaulish }
+	}
+
+	##OSCAN
+	OSCAN = {
+		capital = acerenza
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			acerenza ariano avellino benevento bojano campagna caserta isernia
+			larino melfi montepeloso nola piedimonte potenza salacon santangelo
+			trivento vallo
+		}
+		accepted_cultures = { ausonian apennine }
+		tolerated_cultures = { oenotrian }
+	}
+
+	##PAEON
 	PAEON = {
 		capital = bitola
 
@@ -1217,14 +1642,14 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { thracian }
-		tolerated_cultures = { paeonian dacian }
+		accepted_cultures = { ezero paeonian }
+		tolerated_cultures = { dacian }
 	
 	
 	
 	}
 
-	##PAEOPLAE
+	##PAEOP
 	PAEOP = {
 		capital = beden
 
@@ -1238,11 +1663,32 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { thracian }
-		tolerated_cultures = { }
+		accepted_cultures = { ezero thracian }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##PAGONIA
+	PAGON = {
+		capital = adony
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			adony cakovec csurgo kaposvar koprivnica lasko mohacs nagykanizsa
+			novo_mesto pecs segesd siklos simontornya somogyvar tolna varazdin
+			veszprem zalaegerszeg
+		}
+		accepted_cultures = { encrusted_pottery vuchedol }
+		tolerated_cultures = { baden urnfield }
 	}
 
 	##PALA
@@ -1262,7 +1708,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { palaic }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -1284,13 +1730,35 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { lycian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##SAHIRIYA
+	##RAETIC
+	RAETI = {
+		capital = bolzano
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bolzano bormio brixen bruneck cavalese cles imst innsbruck
+			kitzbuhel kufstein landeck lienz merano mittersill pieve rovereto
+			schio schwaz silandro sterzing tarasp trento tresivio villandro
+			zell_am_ziller zuoz
+		}
+		accepted_cultures = { urnfield luco }
+		tolerated_cultures = { raeti camunni }
+	}
+
+	##SAHIR
 	SAHIR = {
 		capital = akcasehir
 
@@ -1306,7 +1774,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { mycenaean hittite }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -1327,14 +1795,33 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { edomite }
-		tolerated_cultures = { ammonite }
+		accepted_cultures = { edomite ammonite }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##SEHA RIVER LAND
+	##SCORDISCIAN
+	SCORD = {
+		capital = osijek
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			osijek pakrac pozega vaska
+		}
+		accepted_cultures = { vuchedol }
+		tolerated_cultures = {  }
+	}
+
+	##SEHA
 	SEHA = {
 		capital = akhisar
 
@@ -1349,11 +1836,49 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { hittite }
-		tolerated_cultures = { mycenaean }
+		accepted_cultures = { hittite mycenaean }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##SENOMES
+	SENOM = {
+		capital = argenta
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			argenta comacchio ferrara rovigo
+		}
+		accepted_cultures = { terramare }
+		tolerated_cultures = {  }
+	}
+
+	##SENONIAN
+	SENON = {
+		capital = montefeltro
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			montefeltro pesaro rimini urbino
+		}
+		accepted_cultures = { proto_villanovan }
+		tolerated_cultures = {  }
 	}
 
 	##SICAN
@@ -1371,7 +1896,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { sicanian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -1393,13 +1918,13 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { sicel }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##SIROPAINES
+	##SIROP
 	SIROP = {
 		capital = drama
 
@@ -1413,11 +1938,49 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { paeonian }
-		tolerated_cultures = { mycenaean }
+		accepted_cultures = { paeonian mycenaean }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##SOUTH PICENE
+	SPICE = {
+		capital = ascolipiceno
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ascolipiceno atri chieti csantangelo teramo
+		}
+		accepted_cultures = { apennine }
+		tolerated_cultures = {  }
+	}
+
+	##SURRTENIA
+	SURRT = {
+		capital = naples
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			naples salerno
+		}
+		accepted_cultures = { ausonian }
+		tolerated_cultures = {  }
 	}
 
 	##SUTU
@@ -1436,10 +1999,30 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { aramaean }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##TARANTINE
+	TARAN = {
+		capital = brindisi
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			brindisi cassano cotrone francavilla gallipoliita lecce martinafr matera
+			taranto
+		}
+		accepted_cultures = { mycenaean iapygian }
+		tolerated_cultures = { oenotrian }
 	}
 
 	##TARTS
@@ -1458,13 +2041,13 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { tartessian }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##TAULANTIOI
+	##TAULA
 	TAULA = {
 		capital = bar_cg
 
@@ -1479,14 +2062,34 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { illyrian }
-		tolerated_cultures = { triballian }
+		accepted_cultures = { illyrian vatin }
+		tolerated_cultures = { cetina }
 	
 	
 	
 	}
 
-	##THESPROTIA
+	##TAURISCIAN
+	TAURI = {
+		capital = bled
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bled cividale gemona ljubljana skofja_loka spilimbergo tolmezzo tolmin
+			villach
+		}
+		accepted_cultures = { castellieri vuchedol }
+		tolerated_cultures = { urnfield }
+	}
+
+	##TESPR
 	TESPR = {
 		capital = ioannina
 
@@ -1501,13 +2104,13 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { mycenaean }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##THRACE
+	##THRAC
 	THRAC = {
 		capital = bukelon
 
@@ -1522,33 +2125,30 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { mycenaean }
-		tolerated_cultures = { thracian }
+		accepted_cultures = { thracian }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
 
-	##THRACIAN BOSPORUS
-	BOSPH = {
-		capital = ahtopol
+	##TORRI
+	TORRI = {
+		capital = ajaccio
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
-		own_control_core = {
-			ahtopol atpazari catalca constantinople corlu izmit kirklareli kiyikoy
-			luleburgaz silivri silli sozopol uskudar vize
-		}
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { mycenaean }
-		tolerated_cultures = { }
-	
-	
-	
+
+		own_control_core = {
+			ajaccio aleria bastia bonifacio calvi corte sartene vico
+		}
+		accepted_cultures = { torrean }
+		tolerated_cultures = {  }
 	}
 
 	##TRPOL
@@ -1566,7 +2166,7 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { libu }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
@@ -1587,10 +2187,89 @@ countries = {
 			ruler = random
 		}
 		accepted_cultures = { ugaritic }
-		tolerated_cultures = { }
+		tolerated_cultures = {  }
 	
 	
 	
+	}
+
+	##UMBRIAN
+	UMBRI = {
+		capital = assisi
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			assisi camerino cittacastello cittaducale fabriano gubbio perugia rieti
+			spoleto
+		}
+		accepted_cultures = { apennine proto_villanovan }
+		tolerated_cultures = {  }
+	}
+
+	##VENETIC
+	VENET = {
+		capital = aquileia
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aquileia bassano belluno castelfranco ceneda chioggia conegliano este
+			feltre legnago mestre monselice padova peschiera pordenone treviso
+			udine venice verona vicenza
+		}
+		accepted_cultures = { proto_villanovan castellieri }
+		tolerated_cultures = { polada luco }
+	}
+
+	##VESTINIAN
+	VESTI = {
+		capital = lanciano
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			lanciano vasto
+		}
+		accepted_cultures = { apennine }
+		tolerated_cultures = {  }
+	}
+
+	##VOLSCIAN
+	VOLSC = {
+		capital = sora
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			sora venafro
+		}
+		accepted_cultures = { ausonian }
+		tolerated_cultures = {  }
 	}
 
 	##WILUS
@@ -1609,11 +2288,12 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { luwian }
-		tolerated_cultures = { mycenaean }
+		accepted_cultures = { luwian thracian }
+		tolerated_cultures = {  }
 	
 	
 	
 	}
+
 	}
 }

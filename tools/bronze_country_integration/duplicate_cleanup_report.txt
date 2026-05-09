@@ -1,0 +1,14 @@
+Bronze Era duplicate ownership cleanup
+======================================
+
+Duplicate locations inside same tag removed: 0
+- none
+
+Cross-tag ownership conflicts resolved: 0
+- none
+
+Duplicate tag blocks resolved: 0
+- none
+
+Empty tags skipped after cleanup: 0
+- none

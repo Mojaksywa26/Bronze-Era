@@ -302,3 +302,139 @@ ELIMI = {
 	color = rgb { 83 213 124 }
 	color2 = rgb { 110 27 27 }
 }
+AEDUI = {
+	color = rgb { 224 56 93 }
+	color2 = rgb { 110 27 27 }
+}
+BOLI = {
+	color = rgb { 62 208 89 }
+	color2 = rgb { 110 27 27 }
+}
+LATIN = {
+	color = rgb { 203 145 37 }
+	color2 = rgb { 110 27 27 }
+}
+NORIC = {
+	color = rgb { 57 109 192 }
+	color2 = rgb { 110 27 27 }
+}
+OSCAN = {
+	color = rgb { 221 75 179 }
+	color2 = rgb { 110 27 27 }
+}
+TORRI = {
+	color = rgb { 208 94 62 }
+	color2 = rgb { 110 27 27 }
+}
+AEQUI = {
+	color = rgb { 168 44 195 }
+	color2 = rgb { 110 27 27 }
+}
+CAMUN = {
+	color = rgb { 44 117 195 }
+	color2 = rgb { 110 27 27 }
+}
+CARNI = {
+	color = rgb { 220 182 65 }
+	color2 = rgb { 110 27 27 }
+}
+DAESI = {
+	color = rgb { 202 162 18 }
+	color2 = rgb { 110 27 27 }
+}
+ETRUS = {
+	color = rgb { 212 177 37 }
+	color2 = rgb { 110 27 27 }
+}
+FALIS = {
+	color = rgb { 62 34 206 }
+	color2 = rgb { 110 27 27 }
+}
+HELVE = {
+	color = rgb { 139 242 13 }
+	color2 = rgb { 110 27 27 }
+}
+HISTI = {
+	color = rgb { 129 91 210 }
+	color2 = rgb { 110 27 27 }
+}
+INSUB = {
+	color = rgb { 218 68 163 }
+	color2 = rgb { 110 27 27 }
+}
+LEPON = {
+	color = rgb { 92 209 156 }
+	color2 = rgb { 110 27 27 }
+}
+LIBUR = {
+	color = rgb { 77 209 180 }
+	color2 = rgb { 110 27 27 }
+}
+LIGUR = {
+	color = rgb { 97 204 165 }
+	color2 = rgb { 110 27 27 }
+}
+MARSI = {
+	color = rgb { 206 65 44 }
+	color2 = rgb { 110 27 27 }
+}
+NPICE = {
+	color = rgb { 114 206 75 }
+	color2 = rgb { 110 27 27 }
+}
+OENOT = {
+	color = rgb { 105 82 199 }
+	color2 = rgb { 110 27 27 }
+}
+PAGON = {
+	color = rgb { 100 53 187 }
+	color2 = rgb { 110 27 27 }
+}
+RAETI = {
+	color = rgb { 57 192 141 }
+	color2 = rgb { 110 27 27 }
+}
+SCORD = {
+	color = rgb { 98 180 60 }
+	color2 = rgb { 110 27 27 }
+}
+SENOM = {
+	color = rgb { 133 206 44 }
+	color2 = rgb { 110 27 27 }
+}
+SENON = {
+	color = rgb { 196 59 86 }
+	color2 = rgb { 110 27 27 }
+}
+SPICE = {
+	color = rgb { 162 192 42 }
+	color2 = rgb { 110 27 27 }
+}
+SURRT = {
+	color = rgb { 65 184 61 }
+	color2 = rgb { 110 27 27 }
+}
+TARAN = {
+	color = rgb { 111 56 199 }
+	color2 = rgb { 110 27 27 }
+}
+TAURI = {
+	color = rgb { 93 205 71 }
+	color2 = rgb { 110 27 27 }
+}
+UMBRI = {
+	color = rgb { 105 213 48 }
+	color2 = rgb { 110 27 27 }
+}
+VENET = {
+	color = rgb { 91 54 221 }
+	color2 = rgb { 110 27 27 }
+}
+VESTI = {
+	color = rgb { 82 63 207 }
+	color2 = rgb { 110 27 27 }
+}
+VOLSC = {
+	color = rgb { 91 106 205 }
+	color2 = rgb { 110 27 27 }
+}

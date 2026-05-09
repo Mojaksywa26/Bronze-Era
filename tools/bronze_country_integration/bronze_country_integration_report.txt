@@ -1,0 +1,18 @@
+Bronze Era automated country integration pass
+============================================
+
+Modified source tags: 106
+Original comparison tags: 72
+Final countries: 106
+New countries from modified Bronze source: 34
+New countries inserted into setup this run: 28
+Existing countries updated in setup: 78
+Obsolete current countries removed: 28
+Unique owned locations: 1358
+Invalid locations skipped: 0
+Duplicate conflicts resolved: 0
+Duplicate same-tag locations removed: 0
+
+Final setup review file: tools/bronze_country_integration/final_merged_country_setup.txt
+Normalized painter file: in_game/setup/location_painter/00_location_painter.txt
+EU5 country setup updated: main_menu/setup/start/10_countries.txt

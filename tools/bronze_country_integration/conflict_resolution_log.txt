@@ -1,0 +1,55 @@
+Bronze Era country integration conflict log
+===========================================
+
+Modified assignment tags read: 106
+Original assignment tags read: 72
+Final assignment tags written: 106
+Unique owned locations written: 1358
+
+Comparison summary:
+- new tags in modified source: 34
+- modified existing tags: 1
+- unchanged existing tags: 71
+- removed tags from original source: 0
+
+Modified existing tags:
+ARDIA
+
+Normalized tags:
+- AEQUIAN -> AEQUI
+- CAMUNIC -> CAMUN
+- CARNIAN -> CARNI
+- DAESITIAN -> DAESI
+- ETRUSCAN -> ETRUS
+- FALISCAN -> FALIS
+- HELVETII -> HELVE
+- HISTRIAN -> HISTI
+- INSUBRES -> INSUB
+- LEPONTIC -> LEPON
+- LIBURNIA -> LIBUR
+- LIGURIA -> LIGUR
+- MARSIAN -> MARSI
+- NORD PICENE -> NPICE
+- OENOTRIAN -> OENOT
+- PAGONIA -> PAGON
+- RAETIC -> RAETI
+- SCORDISCIAN -> SCORD
+- SENOMES -> SENOM
+- SENONIAN -> SENON
+- SOUTH PICENE -> SPICE
+- SURRTENIA -> SURRT
+- TARANTINE -> TARAN
+- TAURISCIAN -> TAURI
+- UMBRIAN -> UMBRI
+- VENETIAN -> VENET
+- VESTINIAN -> VESTI
+- VOLSCIAN -> VOLSC
+
+Original-only fallback tags kept:
+none
+
+Original-only tags removed:
+none
+
+Invalid locations skipped:
+- none
