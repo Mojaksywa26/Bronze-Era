@@ -302,6 +302,7 @@ italian_bronze_language = {
 
 
 
+
 alpine_bronze_language = {
 	color = rgb { 104 133 112 }
 	family = alpine_bronze_language_family
@@ -311,6 +312,7 @@ alpine_bronze_language = {
 	dynasty_names = { Camun Raet Lauco Brenno }
 	lowborn = { Camun Raet Lauco }
 }
+
 
 
 
@@ -326,6 +328,7 @@ adriatic_bronze_language = {
 
 
 
+
 island_bronze_language = {
 	color = rgb { 154 122 76 }
 	family = island_bronze_language_family
@@ -334,6 +337,29 @@ island_bronze_language = {
 	female_names = { Sarda Nora Elyma Segesta }
 	dynasty_names = { Nora Sardo Iolaos Eryx }
 	lowborn = { Nora Sardo Iolaos }
+}
+
+
+danubian_bronze_language = {
+	color = rgb { 137 112 96 }
+	family = danubian_bronze_language_family
+
+	male_names = { Danu Vatin Monteor Baden }
+	female_names = { Teia Wieta Cotofa Dava }
+	dynasty_names = { Danu Vatin Monteor Baden }
+	lowborn = { Danu Vatin Monteor }
+}
+
+
+
+central_european_bronze_language = {
+	color = rgb { 126 128 84 }
+	family = central_european_bronze_language_family
+
+	male_names = { Arno Gavo Holigrad Brigo }
+	female_names = { Gava Urna Briga Duna }
+	dynasty_names = { Arno Gavo Holigrad Brigo }
+	lowborn = { Arno Gavo Holigrad }
 }
 
 

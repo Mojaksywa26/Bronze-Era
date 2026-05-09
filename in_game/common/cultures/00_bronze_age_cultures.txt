@@ -762,6 +762,7 @@ sicel = {
 
 
 
+
 nuragic = {
 	language = island_bronze_language
 	color = rgb { 126 119 79 }
@@ -772,6 +773,7 @@ nuragic = {
 		island_bronze_group
 	}
 }
+
 
 
 
@@ -1362,7 +1364,7 @@ khoisan = {
 olmec = {
 	language = american_bronze_language
 	color = rgb { 129 68 40 }
-	tags = { american_gfx }
+	tags = { native_american_tag north_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1373,7 +1375,7 @@ olmec = {
 mayan = {
 	language = american_bronze_language
 	color = rgb { 140 79 51 }
-	tags = { american_gfx }
+	tags = { native_american_tag north_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1384,7 +1386,7 @@ mayan = {
 zapotec = {
 	language = american_bronze_language
 	color = rgb { 151 90 62 }
-	tags = { american_gfx }
+	tags = { native_american_tag north_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1395,7 +1397,7 @@ zapotec = {
 poverty_point = {
 	language = american_bronze_language
 	color = rgb { 162 101 73 }
-	tags = { american_gfx }
+	tags = { native_american_tag north_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1406,7 +1408,7 @@ poverty_point = {
 puebloan = {
 	language = american_bronze_language
 	color = rgb { 173 112 84 }
-	tags = { american_gfx }
+	tags = { native_american_tag north_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1417,7 +1419,7 @@ puebloan = {
 andean = {
 	language = american_bronze_language
 	color = rgb { 184 123 95 }
-	tags = { american_gfx }
+	tags = { native_american_tag south_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1428,7 +1430,7 @@ andean = {
 chorrera = {
 	language = american_bronze_language
 	color = rgb { 195 134 106 }
-	tags = { american_gfx }
+	tags = { native_american_tag south_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1439,7 +1441,7 @@ chorrera = {
 arawak = {
 	language = american_bronze_language
 	color = rgb { 129 68 40 }
-	tags = { american_gfx }
+	tags = { native_american_tag south_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1450,7 +1452,7 @@ arawak = {
 tupi = {
 	language = american_bronze_language
 	color = rgb { 140 79 51 }
-	tags = { american_gfx }
+	tags = { native_american_tag south_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1461,7 +1463,7 @@ tupi = {
 araucanian = {
 	language = american_bronze_language
 	color = rgb { 151 90 62 }
-	tags = { american_gfx }
+	tags = { native_american_tag south_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1472,7 +1474,7 @@ araucanian = {
 saqqaq = {
 	language = american_bronze_language
 	color = rgb { 162 101 73 }
-	tags = { american_gfx }
+	tags = { native_american_tag north_american_gfx american_gfx }
 	opinions = {
 	}
 	culture_groups = {
@@ -1526,6 +1528,7 @@ canegrate = {
 
 
 
+
 terramare = {
 	language = italian_bronze_language
 	color = rgb { 150 100 82 }
@@ -1536,6 +1539,7 @@ terramare = {
 		italian_bronze_group
 	}
 }
+
 
 
 
@@ -1552,6 +1556,7 @@ polada = {
 
 
 
+
 luco = {
 	language = alpine_bronze_language
 	color = rgb { 91 122 98 }
@@ -1562,6 +1567,7 @@ luco = {
 		alpine_bronze_group
 	}
 }
+
 
 
 
@@ -1578,6 +1584,7 @@ castellieri = {
 
 
 
+
 camunni = {
 	language = alpine_bronze_language
 	color = rgb { 82 116 104 }
@@ -1588,6 +1595,7 @@ camunni = {
 		alpine_bronze_group
 	}
 }
+
 
 
 
@@ -1604,6 +1612,7 @@ raeti = {
 
 
 
+
 apennine = {
 	language = italian_bronze_language
 	color = rgb { 137 105 83 }
@@ -1614,6 +1623,7 @@ apennine = {
 		italian_bronze_group
 	}
 }
+
 
 
 
@@ -1630,6 +1640,7 @@ proto_villanovan = {
 
 
 
+
 latial = {
 	language = italian_bronze_language
 	color = rgb { 156 84 76 }
@@ -1640,6 +1651,7 @@ latial = {
 		italian_bronze_group
 	}
 }
+
 
 
 
@@ -1656,6 +1668,7 @@ rinaldone = {
 
 
 
+
 ausonian = {
 	language = italian_bronze_language
 	color = rgb { 174 117 77 }
@@ -1666,6 +1679,7 @@ ausonian = {
 		italian_bronze_group
 	}
 }
+
 
 
 
@@ -1682,6 +1696,7 @@ oenotrian = {
 
 
 
+
 iapygian = {
 	language = adriatic_bronze_language
 	color = rgb { 103 137 151 }
@@ -1692,6 +1707,7 @@ iapygian = {
 		adriatic_bronze_group
 	}
 }
+
 
 
 
@@ -1708,6 +1724,7 @@ sicanian = {
 
 
 
+
 elymian = {
 	language = island_bronze_language
 	color = rgb { 132 100 92 }
@@ -1718,6 +1735,7 @@ elymian = {
 		island_bronze_group
 	}
 }
+
 
 
 
@@ -1734,6 +1752,7 @@ torrean = {
 
 
 
+
 golasecca = {
 	language = alpine_bronze_language
 	color = rgb { 87 126 126 }
@@ -1747,6 +1766,7 @@ golasecca = {
 
 
 
+
 este = {
 	language = adriatic_bronze_language
 	color = rgb { 124 134 109 }
@@ -1755,6 +1775,239 @@ este = {
 	}
 	culture_groups = {
 		adriatic_bronze_group
+	}
+}
+
+
+yamnaya = {
+	language = steppe_bronze_language
+	color = rgb { 145 132 84 }
+	tags = { central_asian_gfx nomad_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+
+
+corded_ware = {
+	language = steppe_bronze_language
+	color = rgb { 116 133 118 }
+	tags = { northern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+
+
+catacomb = {
+	language = steppe_bronze_language
+	color = rgb { 132 116 87 }
+	tags = { central_asian_gfx nomad_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+
+
+noua_sabatinovka = {
+	language = steppe_bronze_language
+	color = rgb { 135 127 96 }
+	tags = { eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		steppe_bronze_group
+	}
+}
+
+
+
+gava_holigrady = {
+	language = central_european_bronze_language
+	color = rgb { 109 124 82 }
+	tags = { eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		central_european_bronze_group
+	}
+}
+
+
+
+baden = {
+	language = danubian_bronze_language
+	color = rgb { 132 100 88 }
+	tags = { eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		danubian_bronze_group
+	}
+}
+
+
+
+cotofeni = {
+	language = danubian_bronze_language
+	color = rgb { 118 104 88 }
+	tags = { eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		danubian_bronze_group
+	}
+}
+
+
+
+wietenberg = {
+	language = danubian_bronze_language
+	color = rgb { 125 111 91 }
+	tags = { eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		danubian_bronze_group
+	}
+}
+
+
+
+monteoru = {
+	language = danubian_bronze_language
+	color = rgb { 144 111 84 }
+	tags = { eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		danubian_bronze_group
+	}
+}
+
+
+
+tei = {
+	language = danubian_bronze_language
+	color = rgb { 151 119 83 }
+	tags = { eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		danubian_bronze_group
+	}
+}
+
+
+
+vatin = {
+	language = danubian_bronze_language
+	color = rgb { 128 117 98 }
+	tags = { eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		danubian_bronze_group
+	}
+}
+
+
+
+encrusted_pottery = {
+	language = danubian_bronze_language
+	color = rgb { 154 128 91 }
+	tags = { eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		danubian_bronze_group
+	}
+}
+
+
+
+vuchedol = {
+	language = balkanic_bronze_language
+	color = rgb { 118 116 101 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+
+
+cetina = {
+	language = balkanic_bronze_language
+	color = rgb { 96 121 132 }
+	tags = { south_slavic_gfx mediterranean_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+
+
+glasinac_mati = {
+	language = balkanic_bronze_language
+	color = rgb { 111 126 107 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+
+
+central_bosnian = {
+	language = balkanic_bronze_language
+	color = rgb { 124 132 101 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+
+
+ezero = {
+	language = balkanic_bronze_language
+	color = rgb { 104 136 104 }
+	tags = { south_slavic_gfx eastern_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		balkans_bronze_group
+	}
+}
+
+
+
+urnfield = {
+	language = central_european_bronze_language
+	color = rgb { 142 128 79 }
+	tags = { central_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		central_european_bronze_group
 	}
 }
 

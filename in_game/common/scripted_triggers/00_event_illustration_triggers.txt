@@ -3,15 +3,15 @@ event_illustration_background_trigger = {
 	trigger_if = {
 		limit = { NOT = { exists = scope:target_location } }
 
-		trigger_if = { limit = { exists = scope:target_pop_bckg } scope:target_pop_bckg.location = { save_scope_as = target_location } }
+		trigger_if = { limit = { exists = scope:target_pop_bckg } scope:target_pop_bckg.location = { save_temporary_scope_as = target_location } }
 
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_location } }
-			trigger_if = { limit = { exists = scope:target_character } scope:target_character.location = { save_scope_as = target_location } }
+			trigger_if = { limit = { exists = scope:target_character } scope:target_character.location = { save_temporary_scope_as = target_location } }
 		}
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_location } }
-			trigger_if = { limit = { exists = capital } capital = { save_scope_as = target_location } }
+			trigger_if = { limit = { exists = capital } capital = { save_temporary_scope_as = target_location } }
 		}
 	}
 
@@ -19,15 +19,15 @@ event_illustration_background_trigger = {
 	trigger_if = {
 		limit = { NOT = { exists = scope:target_culture_bckg } }
 
-		trigger_if = { limit = { exists = scope:target_pop_bckg } scope:target_pop_bckg.culture = { save_scope_as = target_culture_bckg } }
+		trigger_if = { limit = { exists = scope:target_pop_bckg } scope:target_pop_bckg.culture = { save_temporary_scope_as = target_culture_bckg } }
 
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_culture_bckg } }
-			trigger_if = { limit = { exists = scope:target_location } scope:target_location.dominant_culture = { save_scope_as = target_culture_bckg } }
+			trigger_if = { limit = { exists = scope:target_location } scope:target_location.dominant_culture = { save_temporary_scope_as = target_culture_bckg } }
 		}
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_culture_bckg } }
-			root.culture = { save_scope_as = target_culture_bckg }
+			root.culture = { save_temporary_scope_as = target_culture_bckg }
 		}
 	}
 
@@ -35,15 +35,15 @@ event_illustration_background_trigger = {
 	trigger_if = {
 		limit = { NOT = { exists = scope:target_religion_bckg } }
 
-		trigger_if = { limit = { exists = scope:target_pop_bckg } scope:target_pop_bckg.religion = { save_scope_as = target_religion_bckg } }
+		trigger_if = { limit = { exists = scope:target_pop_bckg } scope:target_pop_bckg.religion = { save_temporary_scope_as = target_religion_bckg } }
 
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_religion_bckg } }
-			trigger_if = { limit = { exists = scope:target_location } scope:target_location.dominant_religion = { save_scope_as = target_religion_bckg } }
+			trigger_if = { limit = { exists = scope:target_location } scope:target_location.dominant_religion = { save_temporary_scope_as = target_religion_bckg } }
 		}
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_religion_bckg } }
-			root.religion = { save_scope_as = target_religion_bckg }
+			root.religion = { save_temporary_scope_as = target_religion_bckg }
 		}
 	}
 
@@ -51,7 +51,7 @@ event_illustration_background_trigger = {
 	trigger_if = {
 		limit = { NOT = { exists = scope:target_pop_type_bckg } }
 
-		trigger_if = { limit = { exists = scope:target_pop_bckg } scope:target_pop_bckg.pop_type = { save_scope_as = target_pop_type_bckg } }
+		trigger_if = { limit = { exists = scope:target_pop_bckg } scope:target_pop_bckg.pop_type = { save_temporary_scope_as = target_pop_type_bckg } }
 	}
 }
 
@@ -60,15 +60,15 @@ event_illustration_foreground_trigger = {
 	trigger_if = {
 		limit = { NOT = { exists = scope:target_location } }
 
-		trigger_if = { limit = { exists = scope:target_pop } scope:target_pop.location = { save_scope_as = target_location } }
+		trigger_if = { limit = { exists = scope:target_pop } scope:target_pop.location = { save_temporary_scope_as = target_location } }
 
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_location } }
-			trigger_if = { limit = { exists = scope:target_character } scope:target_character.location = { save_scope_as = target_location } }
+			trigger_if = { limit = { exists = scope:target_character } scope:target_character.location = { save_temporary_scope_as = target_location } }
 		}
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_location } }
-			trigger_if = { limit = { exists = capital } capital = { save_scope_as = target_location } }
+			trigger_if = { limit = { exists = capital } capital = { save_temporary_scope_as = target_location } }
 		}
 	}
 
@@ -76,15 +76,15 @@ event_illustration_foreground_trigger = {
 	trigger_if = {
 		limit = { NOT = { exists = scope:target_culture } }
 
-		trigger_if = { limit = { exists = scope:target_pop } scope:target_pop.culture = { save_scope_as = target_culture } }
+		trigger_if = { limit = { exists = scope:target_pop } scope:target_pop.culture = { save_temporary_scope_as = target_culture } }
 
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_culture } }
-			trigger_if = { limit = { exists = scope:target_location } scope:target_location.dominant_culture = { save_scope_as = target_culture } }
+			trigger_if = { limit = { exists = scope:target_location } scope:target_location.dominant_culture = { save_temporary_scope_as = target_culture } }
 		}
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_culture } }
-			root.culture = { save_scope_as = target_culture }
+			root.culture = { save_temporary_scope_as = target_culture }
 		}
 	}
 
@@ -92,15 +92,15 @@ event_illustration_foreground_trigger = {
 	trigger_if = {
 		limit = { NOT = { exists = scope:target_religion } }
 
-		trigger_if = { limit = { exists = scope:target_pop } scope:target_pop.religion = { save_scope_as = target_religion } }
+		trigger_if = { limit = { exists = scope:target_pop } scope:target_pop.religion = { save_temporary_scope_as = target_religion } }
 
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_religion } }
-			trigger_if = { limit = { exists = scope:target_location } scope:target_location.dominant_religion = { save_scope_as = target_religion } }
+			trigger_if = { limit = { exists = scope:target_location } scope:target_location.dominant_religion = { save_temporary_scope_as = target_religion } }
 		}
 		trigger_if = {
 			limit = { NOT = { exists = scope:target_religion } }
-			root.religion = { save_scope_as = target_religion }
+			root.religion = { save_temporary_scope_as = target_religion }
 		}
 	}
 
@@ -108,6 +108,6 @@ event_illustration_foreground_trigger = {
 	trigger_if = {
 		limit = { NOT = { exists = scope:target_pop_type } }
 
-		trigger_if = { limit = { exists = scope:target_pop } scope:target_pop.pop_type = { save_scope_as = target_pop_type } }
+		trigger_if = { limit = { exists = scope:target_pop } scope:target_pop.pop_type = { save_temporary_scope_as = target_pop_type } }
 	}
 }

@@ -138,3 +138,9 @@ oceanian_religion_group = {
 	allow_slaves_of_same_group = yes
 }
 
+bronze_legacy_reference_religion_group = {
+	color = rgb { 85 85 85 }
+	convert_slaves_at_start = no
+	allow_slaves_of_same_group = yes
+}
+

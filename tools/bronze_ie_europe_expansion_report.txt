@@ -1,0 +1,70 @@
+Bronze Era Indo-European Europe expansion
+=========================================
+
+Added or updated culture groups:
+- danubian_bronze_group
+- central_european_bronze_group
+
+Added or updated cultures:
+- yamnaya (steppe_bronze_group)
+- corded_ware (steppe_bronze_group)
+- catacomb (steppe_bronze_group)
+- noua_sabatinovka (steppe_bronze_group)
+- gava_holigrady (central_european_bronze_group)
+- baden (danubian_bronze_group)
+- cotofeni (danubian_bronze_group)
+- wietenberg (danubian_bronze_group)
+- monteoru (danubian_bronze_group)
+- tei (danubian_bronze_group)
+- vatin (danubian_bronze_group)
+- encrusted_pottery (danubian_bronze_group)
+- vuchedol (balkans_bronze_group)
+- cetina (balkans_bronze_group)
+- glasinac_mati (balkans_bronze_group)
+- central_bosnian (balkans_bronze_group)
+- ezero (balkans_bronze_group)
+- urnfield (central_european_bronze_group)
+
+Province/location culture replacements by new culture:
+- none
+
+Province/location culture replacements by previous dominant culture:
+- none
+
+Current dominant province/location counts for expansion cultures:
+- baden: 28
+- catacomb: 129
+- central_bosnian: 10
+- cetina: 22
+- corded_ware: 687
+- cotofeni: 9
+- encrusted_pottery: 21
+- ezero: 59
+- gava_holigrady: 141
+- glasinac_mati: 21
+- monteoru: 58
+- noua_sabatinovka: 131
+- tei: 27
+- urnfield: 451
+- vatin: 57
+- vuchedol: 27
+- wietenberg: 30
+- yamnaya: 118
+
+Pop-bearing locations parsed: 20803
+
+Sample replacements:
+- none
+
+Duplicate definition checks:
+- cultures: ok
+- culture groups: ok
+- languages: ok
+
+Brace checks:
+- in_game/common/cultures/00_bronze_age_cultures.txt: balance=0, min=0
+- in_game/common/culture_groups/00_bronze_age_culture_groups.txt: balance=0, min=0
+- in_game/common/language_families/00_bronze_age_language_families.txt: balance=0, min=0
+- in_game/common/languages/00_bronze_age_languages.txt: balance=0, min=0
+- main_menu/localization/english/Bronze_cultures_l_english.yml: balance=0, min=0
+- main_menu/setup/start/06_pops.txt: balance=0, min=0

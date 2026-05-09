@@ -1,0 +1,2693 @@
+# Bronze Era compatibility definitions.
+# These legacy keys are not placed by the 1205 BCE setup; they only satisfy hardcoded vanilla references
+# in map templates, monuments, scripted triggers, and old saves so the database does not produce null religions.
+
+a_fat_roog_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+abu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+abwoi_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+adamawa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+adat_musi_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+adat_puun_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ainu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ajok_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+akan_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+akinha_ekugu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+akuj_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+alan_paganism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+aluk_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+andamanese_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+anitism_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+anna_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+arat_sabulungan_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+arutam_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+asis_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+atakapa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+badimo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+bahnar_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+banda_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+bantu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+banunut_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+bathou_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+besavik_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+bimoism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+blang_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+bogomilism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+bori_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+bosnian_church = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+bru_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+bua_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+buton_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+buyli_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+cahita_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+calvinist = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+catharism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+catholic = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+cebil_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+chango_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+chanka_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+cheke_holo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+chibcha_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+chichimecah_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+chincha_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+chukchi_shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+chutia_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+coahuilteco_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+cwezi_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+degar_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+dene_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+dene_shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+dene_totemism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+dimasa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+dogon_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+doi_wahire_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+dongba_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+donyi_polo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+dua_nggae_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ebore_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+emit_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+enggano_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+erzya_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+eso_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+fang_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+fomba_gasy_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+formosan_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+geno_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ghari_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+godala_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+goma_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+gorontalo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+gos_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+gosain_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+great_plains_shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+guanche_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+guasave_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+hani_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+hellenism_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+hmongism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+hussite = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ijaw_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ipok_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+iroquoian_totemism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+irritila_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+isese_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+itaukei_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+jai_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+jain = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+jama_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+jingpo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+jino_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+juang_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+jurema_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ka_niam_khasi_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kachina_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kaggen_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kaharingan_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kajoor_ri_majel_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kalge_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kam_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kan_khwan_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kanak_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+karachay_balkar_paganism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+karama_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+karankawa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+karbi_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+karen_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+khabzeism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kharia_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+khond_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kilyikhama_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kirat_mundhum_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kirin_koda_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+koch_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kolano_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+komi_paganism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+koyapunem_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kundism_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+kuru_masaba_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+lahu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+lamatuan_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+lamoa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+lezgin_paganism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+lisu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+lollardy = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+lugbara_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+lutheran = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+maasai_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mahayana = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+maleiwa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+maleku_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+malesung_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+maonan_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+marapu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mari_paganism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mayan = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mbori_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mesoamerican = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+miaphysite = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+midewiwin_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+minangkabau_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mishmi_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mississippian_ceremonial = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mitu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mizo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+moism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+momolianism_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+monpa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mororuma_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mu_ngava_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+muinaisusko = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+muisca_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+mulam_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+muong_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+muonyjang_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+musala_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+naa_wuni_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nacuco_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+naga_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nallagdigua_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+namandu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+naoma_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+natugu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+naurus_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+naylamp_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nduke_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nestorianism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ngacang_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ngbandi_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nhaala_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nicobarese_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+norse = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nuo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nyama_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nyang_serai_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nyasaye_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+nyesoa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+obian_paganism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+odinala_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+omo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+orang_asli_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+orang_laut_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+orang_rimba_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+ori_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+orthodox = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+pabichu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+paiute_shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+palaung_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+paulicianism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+pava_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+pech_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+pelebegu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+pengarap_asal_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+pi_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+piil_pesenggiri_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+pomo_shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+qat_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+rabha_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+rebba_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+rmaism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+rogo_miki_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+romuva = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+salishan_totemism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+samaritanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sammitiya = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+samoyedic_paganism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sanamahism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sangirese_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sanjiao = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sao_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sapmi_shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sarna_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+satsana_phi = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sedang_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+seri_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+shia = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+shinto = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sikhism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sinu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+songhai_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+songsarek_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sora_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+strigolniki = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sui_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sula_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+sunni = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+suwo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tain_feyentun_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tengri = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tepehuan_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+theravada = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tibetan_buddhism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tiwa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tokelauan_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tokuah_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tolaki_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tolotang_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tomanuru_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+totemism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tungusic_shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+tunpa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+txapakura_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+udmurt_paganism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+umina_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+utaki_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+vaghua_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+vainakh_paganism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+vedda_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+vodun_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+wa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+waaqeffanna_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+waldensian = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+wan_aisa_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+warao_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+wetarese_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+wu_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+yage_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+yanolop_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+yao_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+yastay_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+yopo_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+yukaghir_shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+yuman_religion = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}
+
+yupik_shamanism = {
+	color = rgb { 85 85 85 }
+	group = bronze_legacy_reference_religion_group
+	definition_modifier = {
+	}
+	opinions = {
+	}
+	tags = { pagan_gfx }
+}

@@ -1,0 +1,12 @@
+Bronze Era database stability rebuild
+======================================
+
+Pop identity locations parsed: 20801
+Location template cultures replaced from pops: 20769
+Location template religions replaced from pops: 20799
+Location template fallback cultures: 123
+Location template fallback religions: 130
+Legacy religion compatibility stubs generated: 269
+
+Generated: in_game\map_data\location_templates.txt
+Generated: in_game\common\religions\zz_bronze_legacy_reference_stubs.txt

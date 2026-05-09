@@ -1,0 +1,78 @@
+Bronze Era vanilla compatibility pass
+=====================================
+
+Reused active culture IDs when Bronze-compatible:
+- egyptian
+- nubian
+- berber
+- assyrian
+- babylonian
+- elamite
+- arabian
+- thracian
+- illyrian
+- dacian
+- scythian
+- gaulish
+- iberian
+- aquitanian
+- persian
+
+Reused active religion IDs when Bronze-compatible:
+- hellenic
+- kemetic
+- mesopotamian
+- canaanite
+- phoenician
+- berber_pagan
+- arabian_pagan
+- steppe_pagan
+- nordic_pagan
+
+Vanilla culture IDs deliberately absent from active Bronze setup:
+- roman
+- italian
+- tuscan
+- venetian
+- lombard
+- sicilian
+- neapolitan
+- french
+- occitan
+- german
+- saxon
+- english
+- anglo_saxon
+- dutch
+- castilian
+- portuguese
+- catalan
+- turkish
+- ottoman
+- byzantine
+- serbian
+- croatian
+- bosnian
+- russian
+- polish
+- czech
+- hungarian
+- norse
+- sarmatian
+
+Anachronistic religions remain absent from active province placement.
+Some keys may still exist only as inert legacy reference stubs to prevent null-reference crashes from hardcoded vanilla scripts.
+- catholic
+- orthodox
+- protestant
+- reformed
+- sunni
+- shia
+- ibadi
+- theravada
+- mahayana
+- vajrayana
+- confucian
+- taoism
+- shinto
+- jewish

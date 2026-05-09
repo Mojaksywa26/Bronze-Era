@@ -54,9 +54,11 @@ italian_bronze_language_family = {
 
 
 
+
 alpine_bronze_language_family = {
 	color = rgb { 104 133 112 }
 }
+
 
 
 
@@ -66,8 +68,20 @@ adriatic_bronze_language_family = {
 
 
 
+
 island_bronze_language_family = {
 	color = rgb { 154 122 76 }
+}
+
+
+danubian_bronze_language_family = {
+	color = rgb { 137 112 96 }
+}
+
+
+
+central_european_bronze_language_family = {
+	color = rgb { 126 128 84 }
 }
 
 

@@ -33,6 +33,18 @@ balkans_bronze_group = {
 italic_bronze_group = {
 }
 
+italian_bronze_group = {
+}
+
+alpine_bronze_group = {
+}
+
+adriatic_bronze_group = {
+}
+
+island_bronze_group = {
+}
+
 iberian_bronze_group = {
 }
 
@@ -74,4 +86,14 @@ american_bronze_group = {
 
 oceanian_bronze_group = {
 }
+
+danubian_bronze_group = {
+}
+
+
+
+central_european_bronze_group = {
+}
+
+
 
