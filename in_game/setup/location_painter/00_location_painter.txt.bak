@@ -296,13 +296,6 @@ location_painter_assignments = {
             zile
         }
     }
-    ABRINCATES = {
-        color = { 74 219 222 }
-        locations = {
-            avranches
-            coutances
-        }
-    }
     ACRE = {
         color = { 198 188 47 }
         locations = {
@@ -354,18 +347,6 @@ location_painter_assignments = {
             paphos
         }
     }
-    ALLOBROGES = {
-        color = { 101 47 188 }
-        locations = {
-            die
-            grenoble
-            la_tour_du_pin
-            romans
-            saint_jean_de_maurienne
-            saint_marceilin
-            vienne
-        }
-    }
     ALMOP = {
         color = { 75 203 52 }
         locations = {
@@ -390,13 +371,6 @@ location_painter_assignments = {
             van
         }
     }
-    AMBARRES = {
-        color = { 153 178 138 }
-        locations = {
-            trevoux
-            villars
-        }
-    }
     AMURU = {
         color = { 29 70 114 }
         locations = {
@@ -410,26 +384,6 @@ location_painter_assignments = {
             masyaf
             nabek
             qusayr
-        }
-    }
-    ANDES = {
-        color = { 178 191 59 }
-        locations = {
-            beaupreau
-            passavant
-        }
-    }
-    ARAXES = {
-        color = { 157 144 150 }
-        locations = {
-            hadishahr
-            julfa
-            khoy
-            marand
-            nakhchivan
-            nazok_olya
-            qarahziaoddin
-            tatev
         }
     }
     ARDIA = {
@@ -481,25 +435,6 @@ location_painter_assignments = {
             murcia
             orgiva
             velez_rubio
-        }
-    }
-    ARVERNES = {
-        color = { 206 197 95 }
-        locations = {
-            aubusson
-            chambon
-            clermont
-            herment
-            montaigut
-            montlucon
-            riom
-            st_gerand
-            thiers
-            tour_auvergne
-            ussel
-            vic_le_comte
-            vichy
-            vodable
         }
     }
     ARWAD = {
@@ -588,13 +523,6 @@ location_painter_assignments = {
             varto
         }
     }
-    BAIOCASSES = {
-        color = { 109 209 51 }
-        locations = {
-            caen
-            vire
-        }
-    }
     BALES = {
         color = { 97 41 209 }
         locations = {
@@ -615,16 +543,6 @@ location_painter_assignments = {
         color = { 198 59 47 }
         locations = {
             deir_qamar
-        }
-    }
-    BITURIGES = {
-        color = { 59 159 181 }
-        locations = {
-            benauges
-            bordeaux
-            castelnau_de_medoc
-            lesparre_medoc
-            libourne
         }
     }
     BOLI = {
@@ -695,16 +613,6 @@ location_painter_assignments = {
             beirut
         }
     }
-    CALÈTES = {
-        color = { 223 78 86 }
-        locations = {
-            arques
-            fecamp
-            longueville
-            rouen
-            tancarville
-        }
-    }
     CAMUN = {
         color = { 44 117 195 }
         locations = {
@@ -741,17 +649,6 @@ location_painter_assignments = {
         locations = {
             algeciras
             gibraltar
-        }
-    }
-    CORIOSOLITES = {
-        color = { 217 187 38 }
-        locations = {
-            chatelaudren
-            josselin
-            monfort_sur_meu
-            ploermel
-            saint_brieuc
-            saint_malo
         }
     }
     DAESI = {
@@ -906,14 +803,6 @@ location_painter_assignments = {
             trapani
         }
     }
-    ESUVIEN = {
-        color = { 205 96 172 }
-        locations = {
-            domfront
-            mortain
-            pont_douilly
-        }
-    }
     ETRUS = {
         color = { 212 177 37 }
         locations = {
@@ -977,30 +866,6 @@ location_painter_assignments = {
         locations = {
             narni
             sabina
-        }
-    }
-    GABALES = {
-        color = { 106 58 203 }
-        locations = {
-            chateauneuf_de_randon
-            florac
-            mende
-            peyre
-            st_ambroix
-        }
-    }
-    GETAE = {
-        color = { 47 218 55 }
-        locations = {
-            bucharest
-            cegani
-            cernavoda
-            comana
-            giurgiu
-            harsova
-            lichiresti
-            orasul_de_floci
-            slobozia
         }
     }
     HABIR = {
@@ -1132,15 +997,6 @@ location_painter_assignments = {
             susa
             tortona
             turin
-        }
-    }
-    IONIA = {
-        color = { 205 196 96 }
-        locations = {
-            babadag
-            constanta
-            enisala
-            pangalia
         }
     }
     KARKA = {
@@ -1281,12 +1137,6 @@ location_painter_assignments = {
             vercelli
         }
     }
-    LEXOVIENS = {
-        color = { 77 209 213 }
-        locations = {
-            falaise
-        }
-    }
     LIBUR = {
         color = { 77 209 180 }
         locations = {
@@ -1408,31 +1258,6 @@ location_painter_assignments = {
             slano
         }
     }
-    MANNAEA = {
-        color = { 207 38 106 }
-        locations = {
-            aghkand
-            barza
-            bukan
-            hashtrud
-            khameneh
-            mahabad
-            malekan
-            maragheh
-            miandoab
-            miyaneh
-            osnavieh
-            sain
-            salmas
-            santeh
-            sarab
-            tabriz
-            takht_e_soleyman
-            tufarqan
-            ujan
-            urmia
-        }
-    }
     MARSI = {
         color = { 206 65 44 }
         locations = {
@@ -1496,16 +1321,6 @@ location_painter_assignments = {
             viransehir
         }
     }
-    MOESIA = {
-        color = { 216 151 59 }
-        locations = {
-            cherven
-            drastar
-            razgrad
-            ruse
-            tutrakan
-        }
-    }
     MOLOS = {
         color = { 141 75 195 }
         locations = {
@@ -1518,22 +1333,19 @@ location_painter_assignments = {
             siatista
         }
     }
-    NAMNÈTES = {
-        color = { 199 56 130 }
-        locations = {
-            blain
-            chateaubriant
-            guerande
-            machecoul
-            nantes
-            redon
-        }
-    }
     NESTI = {
         color = { 146 45 205 }
         locations = {
             drijeva
             makarska
+        }
+    }
+    NPICE = {
+        color = { 114 206 75 }
+        locations = {
+            ancona
+            fermo
+            macerata
         }
     }
     NORIC = {
@@ -1561,14 +1373,6 @@ location_painter_assignments = {
             volkermarkt
             winklern
             wolfsberg
-        }
-    }
-    NPICE = {
-        color = { 114 206 75 }
-        locations = {
-            ancona
-            fermo
-            macerata
         }
     }
     NURAG = {
@@ -1638,18 +1442,6 @@ location_painter_assignments = {
             santangelo
             trivento
             vallo
-        }
-    }
-    OSISMES = {
-        color = { 210 99 25 }
-        locations = {
-            brest
-            carhaix
-            chateaulin
-            le_faou
-            quimper
-            st_pol_de_leon
-            treguier
         }
     }
     PAEON = {
@@ -1735,30 +1527,6 @@ location_painter_assignments = {
             seydisehir
         }
     }
-    PICTON = {
-        color = { 70 221 90 }
-        locations = {
-            beauvoir
-            fontenay
-            la_roche_sur_yon
-            mauleon_poitou
-            montaigu
-            niort
-            parthenay
-            talmont
-            thouars
-        }
-    }
-    POTULATENSIS = {
-        color = { 203 87 87 }
-        locations = {
-            bozhenitsa
-            dobrolak
-            hotalich
-            lovech
-            pleven
-        }
-    }
     RAETI = {
         color = { 57 192 141 }
         locations = {
@@ -1790,26 +1558,6 @@ location_painter_assignments = {
             zuoz
         }
     }
-    REDONES = {
-        color = { 65 130 220 }
-        locations = {
-            dol
-            fougeres
-            rennes
-            vitre
-        }
-    }
-    RUTENES = {
-        color = { 208 200 47 }
-        locations = {
-            entraigues
-            millau
-            peyrusse
-            rodez
-            st_affrique
-            villefranche
-        }
-    }
     SAHIR = {
         color = { 197 48 90 }
         locations = {
@@ -1822,31 +1570,6 @@ location_painter_assignments = {
             mudurnu
             nalli
             sogut
-        }
-    }
-    SALLUVIENS = {
-        color = { 213 89 83 }
-        locations = {
-            aix_en_provence
-            apt
-            arles
-            avignon
-            digne
-            forcalquier
-            marseille
-            tarascon
-        }
-    }
-    SANTANS = {
-        color = { 85 216 135 }
-        locations = {
-            jonzac
-            la_rochelle
-            oleron
-            rochefort
-            royan
-            saintes
-            st_jean_dangely
         }
     }
     SASU = {
@@ -1870,81 +1593,6 @@ location_painter_assignments = {
             pakrac
             pozega
             vaska
-        }
-    }
-    SCYTHIANS = {
-        color = { 204 199 56 }
-        locations = {
-            achit_nuur
-            arkat
-            ashchyozek
-            ayagoz
-            bakanas
-            bortala
-            boyauli
-            burqin
-            dagandely
-            dahra_sasykkol
-            dungene
-            espe
-            hoboksar
-            ilanbalyk
-            jeminay
-            kandysu
-            kara_irtysh
-            karamergen
-            kashkanteniz
-            kayalyk
-            kaynar_atbai
-            khurgan
-            kokpekty
-            koksala
-            koktuma
-            kurchum
-            kusak
-            kyzylsay
-            lepsy
-            manas
-            moiynty
-            mukur
-            onguday
-            oskemen
-            sagabuyen
-            sarybulak
-            sayak
-            shar
-            shemonayevskoye
-            takhir
-            tansyk
-            targabatay
-            tekeli
-            tokrau
-            toli
-            tsagaan_usun
-            ulungur
-            urghtbulaq
-            ust_koksa
-            utbulaq
-            zhamankul
-            zhamshy
-            zhanaarka
-            zhekdeliq
-            zmeinogorsk
-            zyryan
-        }
-    }
-    SEGUSIAVES = {
-        color = { 88 62 218 }
-        locations = {
-            beaujeu
-            feurs
-            lyon
-            montbrison
-            perreux
-            riverie
-            roanne
-            saint_etienne
-            semur_en_brionnais
         }
     }
     SEHA = {
@@ -1980,32 +1628,6 @@ location_painter_assignments = {
             urbino
         }
     }
-    SEQUANCES = {
-        color = { 191 49 70 }
-        locations = {
-            auxonne
-            bage
-            besancon
-            bourg_en_bresse
-            dole
-            gex
-            louhans
-            orgelet
-            poligny
-            saint_claude
-            thoire
-        }
-    }
-    SIBUZATES = {
-        color = { 81 204 210 }
-        locations = {
-            bayonne
-            elizondo
-            mauleon
-            orthez
-            saint_jean_pied_de_port
-        }
-    }
     SICAN = {
         color = { 202 78 161 }
         locations = {
@@ -2039,12 +1661,6 @@ location_painter_assignments = {
         locations = {
             drama
             serres
-        }
-    }
-    SOTIATES = {
-        color = { 218 78 155 }
-        locations = {
-            labrit
         }
     }
     SPICE = {
@@ -2090,15 +1706,6 @@ location_painter_assignments = {
             martinafr
             matera
             taranto
-        }
-    }
-    TARDELLE = {
-        color = { 205 100 55 }
-        locations = {
-            dax
-            mimizan
-            tartas
-            tosse
         }
     }
     TARTS = {
@@ -2207,14 +1814,6 @@ location_painter_assignments = {
             latakia
         }
     }
-    ULIBA = {
-        color = { 79 203 42 }
-        locations = {
-            bitlis
-            hizan
-            mus
-        }
-    }
     UMBRI = {
         color = { 105 213 48 }
         locations = {
@@ -2227,57 +1826,6 @@ location_painter_assignments = {
             perugia
             rieti
             spoleto
-        }
-    }
-    UNELLES = {
-        color = { 122 48 213 }
-        locations = {
-            cherbourg
-            jersey
-            st_sauveur
-        }
-    }
-    URATU = {
-        color = { 196 83 79 }
-        locations = {
-            amberd
-            bayazit
-            bjni
-            gladzor
-            igdir
-            kagizman
-            karakilise
-            khor_virap
-            maku
-            malazgirt
-            siah_cheshmeh
-            sotk
-            surmali
-            tutak
-            yerevan
-        }
-    }
-    VASATES = {
-        color = { 204 172 40 }
-        locations = {
-            belin
-            la_teste_de_buch
-        }
-    }
-    VELIOCASSES = {
-        color = { 135 52 183 }
-        locations = {
-            lisieux
-            louviers
-            pont_audemer
-        }
-    }
-    VELLAVES = {
-        color = { 43 106 222 }
-        locations = {
-            allegre
-            chalancon
-            le_puy
         }
     }
     VENET = {
@@ -2305,7 +1853,508 @@ location_painter_assignments = {
             vicenza
         }
     }
-    VENETES = {
+    VESTI = {
+        color = { 82 63 207 }
+        locations = {
+            lanciano
+            vasto
+        }
+    }
+    VOLSC = {
+        color = { 91 106 205 }
+        locations = {
+            sora
+            venafro
+        }
+    }
+    WILUS = {
+        color = { 196 201 49 }
+        locations = {
+            ayvacik
+            balya
+            bandirma
+            bayramic
+            biga
+            can
+            canakkale
+            edremit
+            enez
+            gallipoli
+            gonen
+            imbros
+            kesan
+            lapseki
+            lemnos
+            manyas
+            mihalic
+            rodoscuk
+        }
+    }
+    ARAX = {
+        color = { 157 144 150 }
+        locations = {
+            hadishahr
+            julfa
+            khoy
+            marand
+            nakhchivan
+            nazok_olya
+            qarahziaoddin
+            tatev
+        }
+    }
+    GETAE = {
+        color = { 47 218 55 }
+        locations = {
+            bucharest
+            cegani
+            cernavoda
+            comana
+            giurgiu
+            harsova
+            lichiresti
+            orasul_de_floci
+            slobozia
+        }
+    }
+    IONIA = {
+        color = { 205 196 96 }
+        locations = {
+            babadag
+            constanta
+            enisala
+            pangalia
+        }
+    }
+    MANNA = {
+        color = { 207 38 106 }
+        locations = {
+            aghkand
+            barza
+            bukan
+            hashtrud
+            khameneh
+            mahabad
+            malekan
+            maragheh
+            miandoab
+            miyaneh
+            osnavieh
+            sain
+            salmas
+            santeh
+            sarab
+            tabriz
+            takht_e_soleyman
+            tufarqan
+            ujan
+            urmia
+        }
+    }
+    MOESI = {
+        color = { 216 151 59 }
+        locations = {
+            cherven
+            drastar
+            razgrad
+            ruse
+            tutrakan
+        }
+    }
+    POTUL = {
+        color = { 203 87 87 }
+        locations = {
+            bozhenitsa
+            dobrolak
+            hotalich
+            lovech
+            pleven
+        }
+    }
+    SCYTH = {
+        color = { 204 199 56 }
+        locations = {
+            achit_nuur
+            arkat
+            ashchyozek
+            ayagoz
+            bakanas
+            bortala
+            boyauli
+            burqin
+            dagandely
+            dahra_sasykkol
+            dungene
+            espe
+            hoboksar
+            ilanbalyk
+            jeminay
+            kandysu
+            kara_irtysh
+            karamergen
+            kashkanteniz
+            kayalyk
+            kaynar_atbai
+            khurgan
+            kokpekty
+            koksala
+            koktuma
+            kurchum
+            kusak
+            kyzylsay
+            lepsy
+            manas
+            moiynty
+            mukur
+            onguday
+            oskemen
+            sagabuyen
+            sarybulak
+            sayak
+            shar
+            shemonayevskoye
+            takhir
+            tansyk
+            targabatay
+            tekeli
+            tokrau
+            toli
+            tsagaan_usun
+            ulungur
+            urghtbulaq
+            ust_koksa
+            utbulaq
+            zhamankul
+            zhamshy
+            zhanaarka
+            zhekdeliq
+            zmeinogorsk
+            zyryan
+        }
+    }
+    ULIBA = {
+        color = { 79 203 42 }
+        locations = {
+            bitlis
+            hizan
+            mus
+        }
+    }
+    URATU = {
+        color = { 196 83 79 }
+        locations = {
+            amberd
+            bayazit
+            bjni
+            gladzor
+            igdir
+            kagizman
+            karakilise
+            khor_virap
+            maku
+            malazgirt
+            siah_cheshmeh
+            sotk
+            surmali
+            tutak
+            yerevan
+        }
+    }
+    WALAN = {
+        color = { 155 210 45 }
+        locations = {
+            ahar
+            goris
+            heris
+            kaleybar
+            kapan_armenia
+            mardanaqom
+            qahqaheh
+        }
+    }
+    ABRIN = {
+        color = { 74 219 222 }
+        locations = {
+            avranches
+            coutances
+        }
+    }
+    ALLOB = {
+        color = { 101 47 188 }
+        locations = {
+            die
+            grenoble
+            la_tour_du_pin
+            romans
+            saint_jean_de_maurienne
+            saint_marceilin
+            vienne
+        }
+    }
+    AMBAR = {
+        color = { 153 178 138 }
+        locations = {
+            trevoux
+            villars
+        }
+    }
+    ANDES = {
+        color = { 178 191 59 }
+        locations = {
+            beaupreau
+            passavant
+        }
+    }
+    ARVER = {
+        color = { 206 197 95 }
+        locations = {
+            aubusson
+            chambon
+            clermont
+            herment
+            montaigut
+            montlucon
+            riom
+            st_gerand
+            thiers
+            tour_auvergne
+            ussel
+            vic_le_comte
+            vichy
+            vodable
+        }
+    }
+    BAIOC = {
+        color = { 109 209 51 }
+        locations = {
+            caen
+            vire
+        }
+    }
+    BITUR = {
+        color = { 59 159 181 }
+        locations = {
+            benauges
+            bordeaux
+            castelnau_de_medoc
+            lesparre_medoc
+            libourne
+        }
+    }
+    CALET = {
+        color = { 223 78 86 }
+        locations = {
+            arques
+            fecamp
+            longueville
+            rouen
+            tancarville
+        }
+    }
+    CORIO = {
+        color = { 217 187 38 }
+        locations = {
+            chatelaudren
+            josselin
+            monfort_sur_meu
+            ploermel
+            saint_brieuc
+            saint_malo
+        }
+    }
+    ESUVI = {
+        color = { 205 96 172 }
+        locations = {
+            domfront
+            mortain
+            pont_douilly
+        }
+    }
+    GABAL = {
+        color = { 106 58 203 }
+        locations = {
+            chateauneuf_de_randon
+            florac
+            mende
+            peyre
+            st_ambroix
+        }
+    }
+    LEXOV = {
+        color = { 77 209 213 }
+        locations = {
+            falaise
+        }
+    }
+    NAMNE = {
+        color = { 199 56 130 }
+        locations = {
+            blain
+            chateaubriant
+            guerande
+            machecoul
+            nantes
+            redon
+        }
+    }
+    OSISM = {
+        color = { 210 99 25 }
+        locations = {
+            brest
+            carhaix
+            chateaulin
+            le_faou
+            quimper
+            st_pol_de_leon
+            treguier
+        }
+    }
+    PICTO = {
+        color = { 70 221 90 }
+        locations = {
+            beauvoir
+            fontenay
+            la_roche_sur_yon
+            mauleon_poitou
+            montaigu
+            niort
+            parthenay
+            talmont
+            thouars
+        }
+    }
+    REDON = {
+        color = { 65 130 220 }
+        locations = {
+            dol
+            fougeres
+            rennes
+            vitre
+        }
+    }
+    RUTEN = {
+        color = { 208 200 47 }
+        locations = {
+            entraigues
+            millau
+            peyrusse
+            rodez
+            st_affrique
+            villefranche
+        }
+    }
+    SALLU = {
+        color = { 213 89 83 }
+        locations = {
+            aix_en_provence
+            apt
+            arles
+            avignon
+            digne
+            forcalquier
+            marseille
+            tarascon
+        }
+    }
+    SANTN = {
+        color = { 85 216 135 }
+        locations = {
+            jonzac
+            la_rochelle
+            oleron
+            rochefort
+            royan
+            saintes
+            st_jean_dangely
+        }
+    }
+    SEGUS = {
+        color = { 88 62 218 }
+        locations = {
+            beaujeu
+            feurs
+            lyon
+            montbrison
+            perreux
+            riverie
+            roanne
+            saint_etienne
+            semur_en_brionnais
+        }
+    }
+    SEQUA = {
+        color = { 191 49 70 }
+        locations = {
+            auxonne
+            bage
+            besancon
+            bourg_en_bresse
+            dole
+            gex
+            louhans
+            orgelet
+            poligny
+            saint_claude
+            thoire
+        }
+    }
+    SIBUZ = {
+        color = { 81 204 210 }
+        locations = {
+            bayonne
+            elizondo
+            mauleon
+            orthez
+            saint_jean_pied_de_port
+        }
+    }
+    SOTIA = {
+        color = { 218 78 155 }
+        locations = {
+            labrit
+        }
+    }
+    TARDL = {
+        color = { 205 100 55 }
+        locations = {
+            dax
+            mimizan
+            tartas
+            tosse
+        }
+    }
+    UNELL = {
+        color = { 122 48 213 }
+        locations = {
+            cherbourg
+            jersey
+            st_sauveur
+        }
+    }
+    VASAT = {
+        color = { 204 172 40 }
+        locations = {
+            belin
+            la_teste_de_buch
+        }
+    }
+    VELIO = {
+        color = { 135 52 183 }
+        locations = {
+            lisieux
+            louviers
+            pont_audemer
+        }
+    }
+    VELLA = {
+        color = { 43 106 222 }
+        locations = {
+            allegre
+            chalancon
+            le_puy
+        }
+    }
+    VENES = {
         color = { 86 179 184 }
         locations = {
             hennebont
@@ -2314,20 +2363,13 @@ location_painter_assignments = {
             vannes
         }
     }
-    VESTI = {
-        color = { 82 63 207 }
-        locations = {
-            lanciano
-            vasto
-        }
-    }
-    VIDUCASSES = {
+    VIDUC = {
         color = { 204 178 224 }
         locations = {
             bayeux
         }
     }
-    VOCANCES = {
+    VOCAN = {
         color = { 157 75 216 }
         locations = {
             briancon
@@ -2339,7 +2381,7 @@ location_painter_assignments = {
             sisteron
         }
     }
-    VOLQUES_ARECOMIQUES = {
+    VOLAR = {
         color = { 118 57 192 }
         locations = {
             french_ales
@@ -2351,7 +2393,7 @@ location_painter_assignments = {
             uzes
         }
     }
-    VOLQUES_TECTOSAGES = {
+    VOLTE = {
         color = { 173 221 70 }
         locations = {
             agde
@@ -2378,48 +2420,6 @@ location_painter_assignments = {
             verdun_sur_garonne
             vielha
             villemur
-        }
-    }
-    VOLSC = {
-        color = { 91 106 205 }
-        locations = {
-            sora
-            venafro
-        }
-    }
-    WALAN = {
-        color = { 155 210 45 }
-        locations = {
-            ahar
-            goris
-            heris
-            kaleybar
-            kapan_armenia
-            mardanaqom
-            qahqaheh
-        }
-    }
-    WILUS = {
-        color = { 196 201 49 }
-        locations = {
-            ayvacik
-            balya
-            bandirma
-            bayramic
-            biga
-            can
-            canakkale
-            edremit
-            enez
-            gallipoli
-            gonen
-            imbros
-            kesan
-            lapseki
-            lemnos
-            manyas
-            mihalic
-            rodoscuk
         }
     }
 }

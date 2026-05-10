@@ -15,6 +15,7 @@ const paths = {
   ],
   pops: "main_menu/setup/start/06_pops.txt",
   locationTemplates: "in_game/map_data/location_templates.txt",
+  mapDefinitions: "in_game/map_data/definitions.txt",
   culturesDir: "in_game/common/cultures",
   religionsDir: "in_game/common/religions",
   normalizedPainter: "in_game/setup/location_painter/00_location_painter.txt",
@@ -28,6 +29,7 @@ const reportPaths = {
   removedObsolete: `${paths.outputDir}/removed_obsolete_vanilla_countries.txt`,
   newCountries: `${paths.outputDir}/new_bronze_countries.txt`,
   identityReport: `${paths.outputDir}/country_stability_identity_report.txt`,
+  explorationReport: `${paths.outputDir}/country_exploration_regions_report.txt`,
   summary: `${paths.outputDir}/bronze_country_integration_report.txt`,
 };
 
@@ -44,6 +46,26 @@ function readFirstExisting(rels, fallback = "") {
     if (fs.existsSync(abs(rel))) return readText(rel);
   }
   return fallback;
+}
+
+function candidateGameRoots() {
+  const roots = [];
+  if (process.env.EU5_GAME_DIR) roots.push(process.env.EU5_GAME_DIR);
+  roots.push(
+    "D:/SteamLibrary/steamapps/common/Europa Universalis V/game",
+    "E:/SteamLibrary/steamapps/common/Europa Universalis V/game",
+    "C:/Program Files (x86)/Steam/steamapps/common/Europa Universalis V/game"
+  );
+  return roots;
+}
+
+function findGameFile(relPath) {
+  if (fs.existsSync(abs(relPath))) return abs(relPath);
+  for (const gameRoot of candidateGameRoots()) {
+    const candidate = path.join(gameRoot, relPath);
+    if (fs.existsSync(candidate)) return candidate;
+  }
+  return null;
 }
 
 function writeText(rel, text) {
@@ -374,6 +396,40 @@ function orderedUnique(values) {
   return out;
 }
 
+function parseLocationRegions() {
+  const definitionsPath = findGameFile(paths.mapDefinitions);
+  if (!definitionsPath) {
+    throw new Error(`Could not find map definitions at ${paths.mapDefinitions}. Set EU5_GAME_DIR to the game folder if needed.`);
+  }
+  const text = fs.readFileSync(definitionsPath, "utf8").replace(/#.*$/gm, "");
+  const locationRegions = new Map();
+  const regionLocations = new Map();
+  const regionRe = /([A-Za-z0-9_]+_region)\s*=\s*\{/g;
+  let match;
+  while ((match = regionRe.exec(text))) {
+    const region = match[1];
+    const open = text.indexOf("{", match.index);
+    const close = findBlockEnd(text, open);
+    if (close === -1) continue;
+    const body = text.slice(open + 1, close);
+    const locations = new Set();
+    for (const province of body.matchAll(/([A-Za-z0-9_]+_province)\s*=\s*\{([^}]*)\}/g)) {
+      for (const location of province[2].matchAll(/[A-Za-z0-9_]+/g)) {
+        const name = location[0];
+        locations.add(name);
+        if (!locationRegions.has(name)) locationRegions.set(name, region);
+      }
+    }
+    if (locations.size) regionLocations.set(region, locations);
+    regionRe.lastIndex = close + 1;
+  }
+  return { definitionsPath, locationRegions, regionLocations };
+}
+
+function discoverRegionsForCountry(assignment, locationRegions) {
+  return orderedUnique(assignment.locations.map((location) => locationRegions.get(location)).filter(Boolean)).sort();
+}
+
 function mergeAssignments(modified, original, validLocations) {
   const normalizedWarnings = [];
   const invalidLocations = [];
@@ -510,6 +566,30 @@ function replaceScalarAfter(body, key, value, afterKey) {
   return `${body.slice(0, insertAt)}\t\t${key} = ${value}\n${body.slice(insertAt)}`;
 }
 
+function removeCountryProperty(body, key) {
+  let text = body;
+  const re = new RegExp(`(^|\\n)\\t\\t${key}\\s*=`);
+  let match;
+  while ((match = re.exec(text))) {
+    const lineStart = match.index + (match[1] ? 1 : 0);
+    const equals = text.indexOf("=", lineStart);
+    let valueStart = equals + 1;
+    while (/\s/.test(text[valueStart] || "")) valueStart += 1;
+    let end;
+    if (text[valueStart] === "{") {
+      const close = findBlockEnd(text, valueStart);
+      end = close === -1 ? text.indexOf("\n", lineStart) : close + 1;
+    } else {
+      end = text.indexOf("\n", lineStart);
+    }
+    if (end === -1) end = text.length;
+    if (text[end] === "\r") end += 1;
+    if (text[end] === "\n") end += 1;
+    text = text.slice(0, lineStart) + text.slice(end);
+  }
+  return text.replace(/\n{3,}/g, "\n\n");
+}
+
 function replaceOwnControlCore(body, locations) {
   const block = `\t\town_control_core = {\n${formatLocationList(locations)}\n\t\t}`;
   const re = /(^|\n)\t\town_control_core\s*=\s*\{/;
@@ -525,6 +605,24 @@ function ensureLineBlock(body, key, values) {
   const re = new RegExp(`(^|\\n)\\t\\t${key}\\s*=\\s*\\{[^}]*\\}`);
   if (re.test(body)) return body.replace(re, `$1${line}`);
   return `${body.replace(/\s*$/, "")}\n${line}`;
+}
+
+function ensureMultilineWordBlock(body, key, values) {
+  const cleanValues = orderedUnique(values).filter(Boolean);
+  const blockLines = [`\t\t${key} = {`];
+  if (cleanValues.length) {
+    for (let i = 0; i < cleanValues.length; i += 4) {
+      blockLines.push(`\t\t\t${cleanValues.slice(i, i + 4).join(" ")}`);
+    }
+  }
+  blockLines.push("\t\t}");
+  const block = blockLines.join("\n");
+  const re = new RegExp(`(^|\\n)\\t\\t${key}\\s*=\\s*\\{`);
+  const match = re.exec(body);
+  if (!match) return `${body.replace(/\s*$/, "")}\n${block}`;
+  const open = body.indexOf("{", match.index);
+  const close = findBlockEnd(body, open);
+  return `${body.slice(0, match.index)}${match[1] || ""}${block}${body.slice(close + 1)}`;
 }
 
 function ensureGovernment(body) {
@@ -751,13 +849,17 @@ function adjectiveFromTag(tag, fallbackName) {
   return overrides.get(tag) || adjectiveFromName(fallbackName);
 }
 
-function buildCountryBody(assignment, existingBody, identity) {
+function buildCountryBody(assignment, existingBody, identity, discoveredRegions) {
   let body = existingBody || "";
   if (!body.trim()) {
     body = [
       `\t\tcapital = ${assignment.locations[0]}`,
-      `\t\tprimary_culture = ${identity.primaryCulture}`,
-      `\t\tstate_religion = ${identity.stateReligion}`,
+      `\t\tculture = ${identity.primaryCulture}`,
+      `\t\treligion = ${identity.stateReligion}`,
+      "",
+      "\t\tdiscovered_regions = {",
+      ...discoveredRegions.map((region) => `\t\t\t${region}`),
+      "\t\t}",
       "",
       "\t\tcountry_rank = rank_kingdom",
       "",
@@ -768,14 +870,17 @@ function buildCountryBody(assignment, existingBody, identity) {
       "\t\t}",
     ].join("\n");
   }
+  body = removeCountryProperty(body, "primary_culture");
+  body = removeCountryProperty(body, "state_religion");
+  body = removeCountryProperty(body, "tolerated_religions");
   body = replaceScalar(body, "capital", assignment.locations[0]);
-  body = replaceScalarAfter(body, "primary_culture", identity.primaryCulture, "capital");
-  body = replaceScalarAfter(body, "state_religion", identity.stateReligion, "primary_culture");
+  body = replaceScalarAfter(body, "culture", identity.primaryCulture, "capital");
+  body = replaceScalarAfter(body, "religion", identity.stateReligion, "culture");
+  body = ensureMultilineWordBlock(body, "discovered_regions", discoveredRegions);
   body = replaceOwnControlCore(body, assignment.locations);
   body = ensureGovernment(body);
   body = ensureLineBlock(body, "accepted_cultures", identity.accepted);
   body = ensureLineBlock(body, "tolerated_cultures", identity.tolerated);
-  body = ensureLineBlock(body, "tolerated_religions", identity.toleratedReligions);
   return body.replace(/\n{3,}/g, "\n\n");
 }
 
@@ -787,7 +892,15 @@ function buildCountryIdentities(finalAssignments, popIdentityWeights, locationId
   return identityByTag;
 }
 
-function writeCountries(finalAssignments, identityByTag) {
+function buildCountryExploration(finalAssignments, locationRegions) {
+  const explorationByTag = new Map();
+  for (const assignment of finalAssignments) {
+    explorationByTag.set(assignment.tag, discoverRegionsForCountry(assignment, locationRegions));
+  }
+  return explorationByTag;
+}
+
+function writeCountries(finalAssignments, identityByTag, explorationByTag) {
   const current = readText(paths.countries);
   const existing = parseCountryEntries(current);
   const finalTags = new Set(finalAssignments.map((assignment) => assignment.tag));
@@ -820,7 +933,7 @@ function writeCountries(finalAssignments, identityByTag) {
     const displayName = titleFromTag(assignment.tag).toUpperCase();
     lines.push(`\t##${displayName}`);
     lines.push(`\t${assignment.tag} = {`);
-    lines.push(buildCountryBody(assignment, existing.get(assignment.tag)?.body, identityByTag.get(assignment.tag)));
+    lines.push(buildCountryBody(assignment, existing.get(assignment.tag)?.body, identityByTag.get(assignment.tag), explorationByTag.get(assignment.tag) || []));
     lines.push("\t}");
     lines.push("");
   }
@@ -910,7 +1023,7 @@ function writeNormalizedPainter(finalAssignments) {
   writeText(paths.normalizedPainter, lines.join("\n"));
 }
 
-function writeFinalSetupReviewFile(finalAssignments, identityByTag) {
+function writeFinalSetupReviewFile(finalAssignments, identityByTag, explorationByTag) {
   const lines = [
     "# Final merged Bronze Era ownership setup generated from Location Painter assignments.",
     "# This review file keeps painter colors beside own_control_core blocks.",
@@ -920,9 +1033,9 @@ function writeFinalSetupReviewFile(finalAssignments, identityByTag) {
     const identity = identityByTag.get(assignment.tag);
     lines.push(`${assignment.tag} = {`);
     lines.push(`    color = { ${assignment.color.join(" ")} }`);
-    lines.push(`    primary_culture = ${identity.primaryCulture}`);
-    lines.push(`    state_religion = ${identity.stateReligion}`);
-    lines.push(`    tolerated_religions = { ${identity.toleratedReligions.join(" ")} }`);
+    lines.push(`    culture = ${identity.primaryCulture}`);
+    lines.push(`    religion = ${identity.stateReligion}`);
+    lines.push(`    discovered_regions = { ${(explorationByTag.get(assignment.tag) || []).join(" ")} }`);
     lines.push("");
     lines.push("    own_control_core = {");
     for (const location of assignment.locations) lines.push(`        ${location}`);
@@ -946,7 +1059,7 @@ function writeIdentityReport(finalAssignments, identityByTag, validCultures, val
     "Bronze Era country stability and identity report",
     "================================================",
     "",
-    "Every final country should have a capital, primary_culture, state_religion, accepted_cultures, tolerated_cultures, and tolerated_religions.",
+    "Every final country should have a capital, culture, religion, accepted_cultures, and tolerated_cultures.",
     "",
   ];
   for (const assignment of finalAssignments) {
@@ -962,11 +1075,11 @@ function writeIdentityReport(finalAssignments, identityByTag, validCultures, val
     const cultureRank = identity.rankedCultures.slice(0, 5).map(([key, value]) => `${key}:${Math.round(value * 100) / 100}`).join(" ");
     const religionRank = identity.rankedReligions.slice(0, 5).map(([key, value]) => `${key}:${Math.round(value * 100) / 100}`).join(" ");
     detailLines.push(`${assignment.tag} (${titleFromTag(assignment.tag)})`);
-    detailLines.push(`- primary_culture: ${identity.primaryCulture}${identity.overrideCulture ? " (historical override)" : ""}`);
-    detailLines.push(`- state_religion: ${identity.stateReligion}${identity.overrideReligion ? " (historical override)" : ""}`);
+    detailLines.push(`- culture: ${identity.primaryCulture}${identity.overrideCulture ? " (historical override)" : ""}`);
+    detailLines.push(`- religion: ${identity.stateReligion}${identity.overrideReligion ? " (historical override)" : ""}`);
     detailLines.push(`- accepted_cultures: ${identity.accepted.join(" ") || "none"}`);
     detailLines.push(`- tolerated_cultures: ${identity.tolerated.join(" ") || "none"}`);
-    detailLines.push(`- tolerated_religions: ${identity.toleratedReligions.join(" ") || "none"}`);
+    detailLines.push(`- religion stability candidates: ${identity.toleratedReligions.join(" ") || "none"}`);
     detailLines.push(`- accepted culture coverage: ${formatCoverage(identity.cultureCoverage)}`);
     detailLines.push(`- state religion coverage: ${formatCoverage(identity.religionCoverage)}`);
     detailLines.push(`- religion stability coverage: ${formatCoverage(identity.religionStabilityCoverage)}`);
@@ -994,7 +1107,36 @@ function writeIdentityReport(finalAssignments, identityByTag, validCultures, val
   return { missingIdentity, invalidIdentity, lowCultureCoverage, lowReligionCoverage };
 }
 
-function writeReports(merge, countryStats, finalAssignments, originalAssignments, modifiedAssignments, identityStats) {
+function writeExplorationReport(finalAssignments, explorationByTag, locationRegions, definitionsPath) {
+  const missingCountries = [];
+  const unmappedLocations = [];
+  const lines = [
+    "Bronze Era country explored regions report",
+    "==========================================",
+    "",
+    `Map definitions source: ${definitionsPath}`,
+    `Countries checked: ${finalAssignments.length}`,
+    "",
+  ];
+  for (const assignment of finalAssignments) {
+    const regions = explorationByTag.get(assignment.tag) || [];
+    if (!regions.length) missingCountries.push(assignment.tag);
+    for (const location of assignment.locations) {
+      if (!locationRegions.has(location)) unmappedLocations.push(`${assignment.tag}: ${location}`);
+    }
+    lines.push(`${assignment.tag} (${titleFromTag(assignment.tag)})`);
+    lines.push(`- discovered_regions: ${regions.join(" ") || "none"}`);
+    lines.push("");
+  }
+  lines.push("Validation summary:");
+  lines.push(`- countries without discovered_regions: ${missingCountries.length ? missingCountries.join(" ") : "none"}`);
+  lines.push(`- owned locations not mapped to a region: ${unmappedLocations.length ? unmappedLocations.join("; ") : "none"}`);
+  lines.push("");
+  writeText(reportPaths.explorationReport, lines.join("\n"));
+  return { missingCountries, unmappedLocations };
+}
+
+function writeReports(merge, countryStats, finalAssignments, originalAssignments, modifiedAssignments, identityStats, explorationStats) {
   const finalTags = new Set(finalAssignments.map((assignment) => assignment.tag));
   const originalTags = new Set(originalAssignments.map((assignment) => normalizeTag(assignment.rawTag)));
   const modifiedTags = new Set(modifiedAssignments.map((assignment) => normalizeTag(assignment.rawTag)));
@@ -1101,16 +1243,19 @@ function writeReports(merge, countryStats, finalAssignments, originalAssignments
     `Invalid identity references: ${identityStats.invalidIdentity.length}`,
     `Low accepted-culture coverage warnings: ${identityStats.lowCultureCoverage.length}`,
     `Low religion-stability coverage warnings: ${identityStats.lowReligionCoverage.length}`,
+    `Countries missing discovered regions: ${explorationStats.missingCountries.length}`,
+    `Owned locations missing region mapping: ${explorationStats.unmappedLocations.length}`,
     "",
     `Final setup review file: ${reportPaths.finalSetup}`,
     `Country identity report: ${reportPaths.identityReport}`,
+    `Country explored regions report: ${reportPaths.explorationReport}`,
     `Normalized painter file: ${paths.normalizedPainter}`,
     `EU5 country setup updated: ${paths.countries}`,
     "",
   ].join("\n"));
 }
 
-function validateFinal(finalAssignments, identityByTag, validCultures, validReligions) {
+function validateFinal(finalAssignments, identityByTag, validCultures, validReligions, explorationByTag) {
   const tagCounts = new Map();
   const locationOwners = new Map();
   const duplicatedTags = [];
@@ -1118,11 +1263,13 @@ function validateFinal(finalAssignments, identityByTag, validCultures, validReli
   const emptyTags = [];
   const missingIdentity = [];
   const invalidIdentity = [];
+  const missingExploration = [];
   for (const assignment of finalAssignments) {
     tagCounts.set(assignment.tag, (tagCounts.get(assignment.tag) || 0) + 1);
     if (!assignment.locations.length) emptyTags.push(assignment.tag);
     const identity = identityByTag?.get(assignment.tag);
     if (identityByTag && (!identity?.primaryCulture || !identity?.stateReligion)) missingIdentity.push(assignment.tag);
+    if (explorationByTag && !(explorationByTag.get(assignment.tag) || []).length) missingExploration.push(assignment.tag);
     if (identity?.primaryCulture && !validCultures.has(identity.primaryCulture)) invalidIdentity.push(`${assignment.tag}: ${identity.primaryCulture}`);
     if (identity?.stateReligion && !validReligions.has(identity.stateReligion)) invalidIdentity.push(`${assignment.tag}: ${identity.stateReligion}`);
     for (const religion of identity?.toleratedReligions || []) {
@@ -1139,6 +1286,7 @@ function validateFinal(finalAssignments, identityByTag, validCultures, validReli
   if (emptyTags.length) throw new Error(`Empty final countries: ${emptyTags.join(", ")}`);
   if (missingIdentity.length) throw new Error(`Missing country identity: ${missingIdentity.join(", ")}`);
   if (invalidIdentity.length) throw new Error(`Invalid country identity: ${invalidIdentity.join(", ")}`);
+  if (missingExploration.length) throw new Error(`Missing country discovered regions: ${missingExploration.join(", ")}`);
 }
 
 function main() {
@@ -1153,16 +1301,19 @@ function main() {
   const popIdentityWeights = parsePopIdentityWeights();
   const validCultures = parseTopLevelDefinitionKeys(paths.culturesDir);
   const validReligions = parseTopLevelDefinitionKeys(paths.religionsDir);
+  const regionData = parseLocationRegions();
   const merge = mergeAssignments(sourceAssignments, originalAssignments, validLocations);
   const identityByTag = buildCountryIdentities(merge.finalAssignments, popIdentityWeights, locationIdentities, validCultures, validReligions);
-  validateFinal(merge.finalAssignments, identityByTag, validCultures, validReligions);
-  const countryStats = writeCountries(merge.finalAssignments, identityByTag);
+  const explorationByTag = buildCountryExploration(merge.finalAssignments, regionData.locationRegions);
+  validateFinal(merge.finalAssignments, identityByTag, validCultures, validReligions, explorationByTag);
+  const countryStats = writeCountries(merge.finalAssignments, identityByTag, explorationByTag);
   upsertDefaultCountryBlocks(merge.finalAssignments, countryStats.obsoleteTags);
   upsertLocalization(merge.finalAssignments, countryStats.obsoleteTags);
   writeNormalizedPainter(merge.finalAssignments);
-  writeFinalSetupReviewFile(merge.finalAssignments, identityByTag);
+  writeFinalSetupReviewFile(merge.finalAssignments, identityByTag, explorationByTag);
   const identityStats = writeIdentityReport(merge.finalAssignments, identityByTag, validCultures, validReligions);
-  writeReports(merge, countryStats, merge.finalAssignments, originalAssignments, sourceAssignments, identityStats);
+  const explorationStats = writeExplorationReport(merge.finalAssignments, explorationByTag, regionData.locationRegions, regionData.definitionsPath);
+  writeReports(merge, countryStats, merge.finalAssignments, originalAssignments, sourceAssignments, identityStats, explorationStats);
   console.log(readText(reportPaths.summary));
 }
 

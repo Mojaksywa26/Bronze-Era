@@ -16,8 +16,11 @@ Countries missing identity: 0
 Invalid identity references: 0
 Low accepted-culture coverage warnings: 0
 Low religion-stability coverage warnings: 0
+Countries missing discovered regions: 0
+Owned locations missing region mapping: 0
 
 Final setup review file: tools/bronze_country_integration/final_merged_country_setup.txt
 Country identity report: tools/bronze_country_integration/country_stability_identity_report.txt
+Country explored regions report: tools/bronze_country_integration/country_exploration_regions_report.txt
 Normalized painter file: in_game/setup/location_painter/00_location_painter.txt
 EU5 country setup updated: main_menu/setup/start/10_countries.txt
