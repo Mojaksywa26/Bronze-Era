@@ -610,19 +610,19 @@ VOLTE = {
 	color = rgb { 173 221 70 }
 	color2 = rgb { 110 27 27 }
 }
-ACHAEA = {
+ACHAE = {
 	color = rgb { 89 207 160 }
 	color2 = rgb { 110 27 27 }
 }
-ATHENS = {
+ATHEN = {
 	color = rgb { 76 195 225 }
 	color2 = rgb { 110 27 27 }
 }
-IOLCUS = {
+IOLCU = {
 	color = rgb { 216 85 137 }
 	color2 = rgb { 110 27 27 }
 }
-ORCHOMENUS = {
+ORCHO = {
 	color = rgb { 209 71 61 }
 	color2 = rgb { 110 27 27 }
 }
@@ -630,15 +630,15 @@ PYLOS = {
 	color = rgb { 175 221 49 }
 	color2 = rgb { 110 27 27 }
 }
-RHODES = {
+RHODE = {
 	color = rgb { 77 219 96 }
 	color2 = rgb { 110 27 27 }
 }
-SPARTA = {
+SPART = {
 	color = rgb { 196 54 125 }
 	color2 = rgb { 110 27 27 }
 }
-THEBES = {
+THEBE = {
 	color = rgb { 199 105 87 }
 	color2 = rgb { 110 27 27 }
 }

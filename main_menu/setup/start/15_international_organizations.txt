@@ -7,14 +7,14 @@ international_organization_manager = {
 
 		members = {
 			0001G
-			ACHAEA
-			ATHENS
-			IOLCUS
-			ORCHOMENUS
+			ACHAE
+			ATHEN
+			IOLCU
+			ORCHO
 			PYLOS
-			RHODES
-			SPARTA
-			THEBES
+			RHODE
+			SPART
+			THEBE
 		}
 
 		leader = 0001G

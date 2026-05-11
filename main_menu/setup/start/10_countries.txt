@@ -17,7 +17,7 @@ countries = {
 
 	##MYCENAE
 	0001G = {
-		capital = amorgos
+		capital = argos
 		culture = mycenaean
 		religion = mycenaean
 
@@ -3655,7 +3655,7 @@ countries = {
 	}
 
 	##ACHAEA
-	ACHAEA = {
+	ACHAE = {
 		capital = chalandritsa
 		culture = mycenaean
 		religion = mycenaean
@@ -3680,7 +3680,7 @@ countries = {
 	}
 
 	##ATHENS
-	ATHENS = {
+	ATHEN = {
 		capital = athens
 		culture = ionian
 		religion = hellenic
@@ -3705,7 +3705,7 @@ countries = {
 	}
 
 	##IOLCUS
-	IOLCUS = {
+	IOLCU = {
 		capital = demetrias
 		culture = aeolian
 		religion = hellenic
@@ -3730,7 +3730,7 @@ countries = {
 	}
 
 	##ORCHOMENUS
-	ORCHOMENUS = {
+	ORCHO = {
 		capital = atalanti
 		culture = pelasgian
 		religion = hellenic
@@ -3780,7 +3780,7 @@ countries = {
 	}
 
 	##RHODES
-	RHODES = {
+	RHODE = {
 		capital = karpathos
 		culture = dorian
 		religion = hellenic
@@ -3805,7 +3805,7 @@ countries = {
 	}
 
 	##SPARTA
-	SPARTA = {
+	SPART = {
 		capital = astros
 		culture = mycenaean
 		religion = mycenaean
@@ -3830,7 +3830,7 @@ countries = {
 	}
 
 	##THEBES
-	THEBES = {
+	THEBE = {
 		capital = livadeia
 		culture = mycenaean
 		religion = mycenaean
