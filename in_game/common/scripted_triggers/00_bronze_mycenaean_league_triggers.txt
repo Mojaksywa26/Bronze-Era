@@ -1,0 +1,7 @@
+current_mycenaean_league_authority = {
+	custom_description = {
+		text = current_mycenaean_league_authority_text
+		value = $value$
+		var:mycenaean_league_authority >= $value$
+	}
+}

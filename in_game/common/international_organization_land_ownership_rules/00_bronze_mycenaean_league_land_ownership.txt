@@ -1,0 +1,32 @@
+mycenaean_league_land_ownership = {
+	modifier = {
+		local_separatism = -0.05
+	}
+
+	can_add_trigger = { always = yes }
+	can_remove_trigger = { always = yes }
+
+	can_add_location_trigger = {
+		is_land = yes
+		is_passable = yes
+		owner ?= {
+			is_member_of_international_organization = scope:recipient
+		}
+	}
+
+	can_remove_location_trigger = {
+		owner ?= {
+			NOT = { is_member_of_international_organization = scope:recipient }
+		}
+	}
+
+	on_added = { }
+	on_removed = { }
+
+	ai_desire_to_add = {
+		value = 100
+	}
+
+	owned_location_color = rgb { 176 104 42 }
+	allow_control_propagation = yes
+}

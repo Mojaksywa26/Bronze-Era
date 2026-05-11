@@ -2,7 +2,7 @@ Bronze Era country stability and identity report
 ================================================
 
 Every final country should have a capital, culture, religion, accepted_cultures, and tolerated_cultures.
-Countries checked: 149
+Countries checked: 157
 Missing identity entries: 0
 Invalid identity references: 0
 Low accepted-culture coverage warnings: 0
@@ -15,11 +15,11 @@ Low religion-stability coverage warnings: 0
 - accepted_cultures: mycenaean cycladic ionian minoan
 - tolerated_cultures: aeolian arcadian pelasgian dorian
 - religion stability candidates: hellenic minoan
-- accepted culture coverage: 78.4%
-- state religion coverage: 37.3%
+- accepted culture coverage: 81.9%
+- state religion coverage: 29.3%
 - religion stability coverage: 100%
-- culture weights: mycenaean:38.44 cycladic:21.05 ionian:12.15 minoan:9.04 aeolian:7.08
-- religion weights: hellenic:55.45 mycenaean:38.44 minoan:9.04
+- culture weights: mycenaean:21.3 cycladic:19.05 ionian:10.1 minoan:9.04 aeolian:6.07
+- religion weights: hellenic:42.28 mycenaean:21.3 minoan:9.04
 
 0002G (Egypt)
 - culture: upper_egyptian (historical override)
@@ -1796,6 +1796,102 @@ VOLTE (Volques Tectosages)
 - religion stability coverage: 100%
 - culture weights: gaulish:44.31 iberian:7.08
 - religion weights: gaulish_pagan:44.31 iberian_pagan:7.08
+
+ACHAEA (Achaea)
+- culture: mycenaean (historical override)
+- religion: mycenaean (historical override)
+- accepted_cultures: mycenaean arcadian
+- tolerated_cultures: none
+- religion stability candidates: hellenic
+- accepted culture coverage: 100%
+- state religion coverage: 85.7%
+- religion stability coverage: 100%
+- culture weights: mycenaean:6.06 arcadian:1.01
+- religion weights: mycenaean:6.06 hellenic:1.01
+
+ATHENS (Athens)
+- culture: ionian
+- religion: hellenic
+- accepted_cultures: ionian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ionian:8.2
+- religion weights: hellenic:8.2
+
+IOLCUS (Iolcus)
+- culture: aeolian
+- religion: hellenic
+- accepted_cultures: aeolian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: aeolian:4.04
+- religion weights: hellenic:4.04
+
+ORCHOMENUS (Orchomenus)
+- culture: pelasgian
+- religion: hellenic
+- accepted_cultures: pelasgian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: pelasgian:5.05
+- religion weights: hellenic:5.05
+
+PYLOS (Pylos)
+- culture: mycenaean (historical override)
+- religion: mycenaean (historical override)
+- accepted_cultures: mycenaean
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: mycenaean:17.18
+- religion weights: mycenaean:17.18
+
+RHODES (Rhodes)
+- culture: dorian
+- religion: hellenic
+- accepted_cultures: dorian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: dorian:6.05
+- religion weights: hellenic:6.05
+
+SPARTA (Sparta)
+- culture: mycenaean (historical override)
+- religion: mycenaean (historical override)
+- accepted_cultures: mycenaean cycladic
+- tolerated_cultures: arcadian
+- religion stability candidates: hellenic
+- accepted culture coverage: 90.9%
+- state religion coverage: 72.8%
+- religion stability coverage: 100%
+- culture weights: mycenaean:8.07 cycladic:2 arcadian:1.01
+- religion weights: mycenaean:8.07 hellenic:3.01
+
+THEBES (Thebes)
+- culture: mycenaean (historical override)
+- religion: mycenaean (historical override)
+- accepted_cultures: mycenaean pelasgian
+- tolerated_cultures: none
+- religion stability candidates: hellenic
+- accepted culture coverage: 100%
+- state religion coverage: 79.8%
+- religion stability coverage: 100%
+- culture weights: mycenaean:4.04 pelasgian:1.02
+- religion weights: mycenaean:4.04 hellenic:1.02
 
 Validation summary:
 - missing identity: none

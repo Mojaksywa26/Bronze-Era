@@ -1,0 +1,182 @@
+wanaxate_hegemony = {
+	type = international_organization
+	potential = { international_organization_type = international_organization_type:mycenaean_league }
+	allow = { always = yes }
+	requires_vote = yes
+
+	equal_palaces_policy = {
+		country_modifier = {
+			potential_trigger = {
+				NOT = { is_leader_of_international_organization = scope:recipient }
+			}
+			reject_subjugation_reasons = 20
+		}
+		wants_this_policy_bias = {
+			add = { desc = MYCENAEAN_LEAGUE_MEMBER_AUTONOMY value = 25 }
+		}
+	}
+
+	recognized_high_wanax_policy = {
+		country_modifier = {
+			potential_trigger = {
+				is_leader_of_international_organization = scope:recipient
+			}
+			monthly_prestige = 0.05
+			diplomatic_reputation = diplomatic_reputation_weak_bonus
+		}
+		country_modifier = {
+			potential_trigger = {
+				NOT = { is_leader_of_international_organization = scope:recipient }
+			}
+			reject_subjugation_reasons = 10
+		}
+		wants_this_policy_bias = {
+			add = { desc = MYCENAEAN_LEAGUE_BALANCED_HEGEMONY value = 10 }
+		}
+	}
+
+	great_wanax_policy = {
+		country_modifier = {
+			potential_trigger = {
+				is_leader_of_international_organization = scope:recipient
+			}
+			monthly_prestige = 0.1
+			diplomatic_reputation = diplomatic_reputation_mild_bonus
+			government_size = 1
+		}
+		join_offensive_wars_can_call = {
+			exists = scope:actor
+			scope:actor ?= {
+				is_leader_of_international_organization = root
+			}
+			var:mycenaean_league_authority >= 55
+		}
+		wants_this_policy_bias = {
+			subtract = { desc = MYCENAEAN_LEAGUE_MEMBER_AUTONOMY value = 20 }
+		}
+	}
+}
+
+palace_tribute_law = {
+	type = international_organization
+	potential = { international_organization_type = international_organization_type:mycenaean_league }
+	allow = { always = yes }
+	requires_vote = yes
+
+	gift_exchange_policy = {
+		payments_repealed = { mycenaean_palace_tribute }
+		country_modifier = {
+			monthly_prestige = 0.025
+		}
+	}
+
+	bronze_tribute_policy = {
+		payments_implemented = { mycenaean_palace_tribute }
+		country_modifier = {
+			potential_trigger = {
+				is_leader_of_international_organization = scope:recipient
+			}
+			monthly_prestige = 0.05
+		}
+	}
+
+	palace_levies_policy = {
+		payments_implemented = { mycenaean_palace_tribute }
+		country_modifier = {
+			potential_trigger = {
+				is_leader_of_international_organization = scope:recipient
+			}
+			monthly_prestige = 0.05
+			government_size = 1
+		}
+		country_modifier = {
+			potential_trigger = {
+				NOT = { is_leader_of_international_organization = scope:recipient }
+			}
+			monthly_prestige = -0.025
+		}
+	}
+}
+
+sanctuary_legitimacy_law = {
+	type = international_organization
+	potential = { international_organization_type = international_organization_type:mycenaean_league }
+	allow = { always = yes }
+	requires_vote = yes
+
+	local_sanctuaries_policy = {
+		country_modifier = {
+			monthly_religious_influence = 0.025
+		}
+	}
+
+	shared_festivals_policy = {
+		country_modifier = {
+			monthly_religious_influence = 0.05
+			monthly_prestige = 0.025
+		}
+	}
+
+	divine_omens_policy = {
+		country_modifier = {
+			potential_trigger = {
+				is_leader_of_international_organization = scope:recipient
+			}
+			monthly_religious_influence = 0.1
+			monthly_prestige = 0.05
+		}
+		country_modifier = {
+			potential_trigger = {
+				NOT = { is_leader_of_international_organization = scope:recipient }
+			}
+			monthly_religious_influence = 0.025
+		}
+	}
+}
+
+war_council_law = {
+	type = international_organization
+	potential = { international_organization_type = international_organization_type:mycenaean_league }
+	allow = { always = yes }
+	requires_vote = yes
+
+	local_war_bands_policy = {
+		join_defensive_wars_can_call = {
+			exists = scope:target
+			scope:target ?= {
+				NOT = { is_member_of_international_organization = root }
+			}
+			var:mycenaean_league_authority >= 30
+		}
+	}
+
+	palace_oaths_policy = {
+		join_defensive_wars_auto_call = {
+			exists = scope:target
+			scope:target ?= {
+				NOT = { is_member_of_international_organization = root }
+			}
+			var:mycenaean_league_authority >= 45
+		}
+	}
+
+	pan_achaean_campaign_policy = {
+		join_defensive_wars_auto_call = {
+			exists = scope:target
+			scope:target ?= {
+				NOT = { is_member_of_international_organization = root }
+			}
+			var:mycenaean_league_authority >= 35
+		}
+		join_offensive_wars_can_call = {
+			exists = scope:actor
+			scope:actor ?= {
+				is_leader_of_international_organization = root
+			}
+			var:mycenaean_league_authority >= 60
+		}
+		country_modifier = {
+			monthly_prestige = 0.025
+		}
+	}
+}

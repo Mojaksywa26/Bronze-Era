@@ -1,0 +1,47 @@
+change_mycenaean_league_authority = {
+	international_organization:mycenaean_league ?= {
+		custom_description = {
+			text = change_mycenaean_league_authority_text
+			value = $value$
+			change_variable = {
+				name = mycenaean_league_authority
+				add = $value$
+			}
+			if = {
+				limit = { has_variable = mycenaean_league_authority }
+				if = {
+					limit = { var:mycenaean_league_authority > 100 }
+					set_variable = { name = mycenaean_league_authority value = 100 }
+				}
+				if = {
+					limit = { var:mycenaean_league_authority < 0 }
+					set_variable = { name = mycenaean_league_authority value = 0 }
+				}
+			}
+		}
+	}
+}
+
+subtract_mycenaean_league_authority = {
+	international_organization:mycenaean_league ?= {
+		custom_description = {
+			text = change_mycenaean_league_authority_text
+			value = $value$
+			change_variable = {
+				name = mycenaean_league_authority
+				subtract = $value$
+			}
+			if = {
+				limit = { has_variable = mycenaean_league_authority }
+				if = {
+					limit = { var:mycenaean_league_authority > 100 }
+					set_variable = { name = mycenaean_league_authority value = 100 }
+				}
+				if = {
+					limit = { var:mycenaean_league_authority < 0 }
+					set_variable = { name = mycenaean_league_authority value = 0 }
+				}
+			}
+		}
+	}
+}

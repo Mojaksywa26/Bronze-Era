@@ -1,0 +1,105 @@
+high_wanax = {
+	max_countries = 1
+	priority = 20
+	can_bestow_trigger = {
+		is_leader_of_international_organization = scope:recipient
+	}
+	auto_bestowal_trigger = { always = yes }
+	auto_rescind_trigger = {
+		NOT = { is_leader_of_international_organization = scope:recipient }
+	}
+	leader = yes
+	map_color = define:NMapColors|INTERNATIONAL_ORGANIZATION_LEADER_COLOR
+	special_status_power = { value = 150 }
+	modifier = {
+		monthly_prestige = 0.1
+		diplomatic_reputation = diplomatic_reputation_weak_bonus
+	}
+}
+
+great_palace_candidate = {
+	priority = 12
+	can_bestow_trigger = {
+		is_member_of_international_organization = scope:recipient
+	}
+	auto_rescind_trigger = {
+		NOT = { is_member_of_international_organization = scope:recipient }
+	}
+	special_status_power = { value = 75 }
+	modifier = {
+		monthly_prestige = 0.05
+	}
+}
+
+palace_candidate = {
+	priority = 10
+	can_bestow_trigger = {
+		is_member_of_international_organization = scope:recipient
+	}
+	auto_rescind_trigger = {
+		NOT = { is_member_of_international_organization = scope:recipient }
+	}
+	special_status_power = { value = 40 }
+	modifier = {
+		monthly_prestige = 0.025
+	}
+}
+
+palace_kingdom = {
+	priority = 5
+	can_bestow_trigger = {
+		is_member_of_international_organization = scope:recipient
+		scope:recipient = {
+			NOT = {
+				country_has_special_status = {
+					type = special_status:high_wanax
+					country = root
+				}
+			}
+		}
+	}
+	auto_bestowal_trigger = { always = yes }
+	auto_rescind_trigger = {
+		OR = {
+			NOT = { is_member_of_international_organization = scope:recipient }
+			has_special_status_in_international_organization = {
+				type = special_status:high_wanax
+				international_organization = scope:recipient
+			}
+		}
+	}
+	special_status_power = { value = 15 }
+	modifier = {
+		reject_subjugation_reasons = 10
+	}
+}
+
+sanctuary_patron = {
+	max_countries = 4
+	priority = 8
+	can_bestow_trigger = {
+		is_member_of_international_organization = scope:recipient
+	}
+	auto_rescind_trigger = {
+		NOT = { is_member_of_international_organization = scope:recipient }
+	}
+	special_status_power = { value = 30 }
+	modifier = {
+		monthly_religious_influence = 0.05
+		monthly_prestige = 0.025
+	}
+}
+
+island_wanaxate = {
+	priority = 6
+	can_bestow_trigger = {
+		is_member_of_international_organization = scope:recipient
+	}
+	auto_rescind_trigger = {
+		NOT = { is_member_of_international_organization = scope:recipient }
+	}
+	special_status_power = { value = 20 }
+	modifier = {
+		monthly_prestige = 0.025
+	}
+}

@@ -1,19 +1,19 @@
 Bronze Era country integration conflict log
 ===========================================
 
-Modified assignment tags read: 149
+Modified assignment tags read: 157
 Original assignment tags read: 72
-Final assignment tags written: 149
+Final assignment tags written: 157
 Unique owned locations written: 1675
 
 Comparison summary:
-- new tags in modified source: 77
-- modified existing tags: 1
-- unchanged existing tags: 71
+- new tags in modified source: 85
+- modified existing tags: 2
+- unchanged existing tags: 70
 - removed tags from original source: 0
 
 Modified existing tags:
-ARDIA
+0001G ARDIA
 
 Normalized tags:
 - AEQUIAN -> AEQUI

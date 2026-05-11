@@ -575,4 +575,74 @@ location_painter_assignments = {
             villemur
         }
     }
+
+    ACHAEA = {
+        color = { 89 207 160 }
+        locations = {
+            chalandritsa
+            kalavryta
+            patras
+            vostitsa
+        }
+    }
+
+    ATHENS = {
+        color = { 76 195 225 }
+        locations = {
+            athens
+        }
+    }
+
+    IOLCUS = {
+        color = { 216 85 137 }
+        locations = {
+            demetrias
+        }
+    }
+
+    ORCHOMENUS = {
+        color = { 209 71 61 }
+        locations = {
+            atalanti
+            gravia
+        }
+    }
+
+    PYLOS = {
+        color = { 175 221 49 }
+        locations = {
+            kalamata
+            kyparissia
+            leuktron
+            modon
+        }
+    }
+
+    RHODES = {
+        color = { 77 219 96 }
+        locations = {
+            karpathos
+            rodos
+        }
+    }
+
+    SPARTA = {
+        color = { 196 54 125 }
+        locations = {
+            astros
+            kythira
+            monemvasia
+            mystras
+            oitylo
+            veligosti
+        }
+    }
+
+    THEBES = {
+        color = { 199 105 87 }
+        locations = {
+            livadeia
+            salona
+        }
+    }
 }

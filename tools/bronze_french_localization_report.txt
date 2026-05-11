@@ -2,8 +2,8 @@ Bronze Era French localization sync
 ===================================
 
 localization\french\Bronze_country_names_l_french.yml, main_menu\localization\french\Bronze_country_names_l_french.yml
-- keys: 300
-- manual French values: 300
+- keys: 316
+- manual French values: 316
 - preserved existing French values: 0
 - English fallback values: 0
 - English header valid: yes

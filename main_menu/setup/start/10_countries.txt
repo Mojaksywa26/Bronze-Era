@@ -26,16 +26,13 @@ countries = {
 		include = "catholic_monarchy_not_present"
 
 		own_control_core = {
-			amorgos andravida andritsaina andros angelokastron argos astros atalanti
-			athens balat bodonitsa bodrum candia cephalonia chalandritsa chania
-			chios corinth damala demetrias elounda eretreia ermioni farsala
-			gergeri gravia hagios_pavlos ikaria kalamata kalavryta karpathos karystos
-			karytaina kleisoura kos kymi kyparissia kythira kythnos larissa
-			leukas leuktron livadeia loidoriki megara milos modon monemvasia
-			mykonos mystras nafpaktos nafplio naxos negroponte neopatras oitylo
-			oreos patras pontikokastro rethymno rodos salona samos siteia
-			sporades stomio thebes tripolitsa tyrnavos veligosti viannos vonitsa
-			vostitsa xylokastro zakynthos zetounion
+			amorgos andravida andritsaina andros angelokastron argos balat bodonitsa
+			bodrum candia cephalonia chania chios corinth damala elounda
+			eretreia ermioni farsala gergeri hagios_pavlos ikaria karystos karytaina
+			kleisoura kos kymi kythnos larissa leukas loidoriki megara
+			milos mykonos nafpaktos nafplio naxos negroponte neopatras oreos
+			pontikokastro rethymno samos siteia sporades stomio thebes tripolitsa
+			tyrnavos viannos vonitsa xylokastro zakynthos zetounion
 		}
 		government = {
 			ruler = random
@@ -3655,6 +3652,206 @@ countries = {
 		discovered_regions = {
 			france_region iberia_region
 		}
+	}
+
+	##ACHAEA
+	ACHAEA = {
+		capital = chalandritsa
+		culture = mycenaean
+		religion = mycenaean
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			chalandritsa kalavryta patras vostitsa
+		}
+		accepted_cultures = { mycenaean arcadian }
+		tolerated_cultures = {  }
+	}
+
+	##ATHENS
+	ATHENS = {
+		capital = athens
+		culture = ionian
+		religion = hellenic
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			athens
+		}
+		accepted_cultures = { ionian }
+		tolerated_cultures = {  }
+	}
+
+	##IOLCUS
+	IOLCUS = {
+		capital = demetrias
+		culture = aeolian
+		religion = hellenic
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			demetrias
+		}
+		accepted_cultures = { aeolian }
+		tolerated_cultures = {  }
+	}
+
+	##ORCHOMENUS
+	ORCHOMENUS = {
+		capital = atalanti
+		culture = pelasgian
+		religion = hellenic
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			atalanti gravia
+		}
+		accepted_cultures = { pelasgian }
+		tolerated_cultures = {  }
+	}
+
+	##PYLOS
+	PYLOS = {
+		capital = kalamata
+		culture = mycenaean
+		religion = mycenaean
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			kalamata kyparissia leuktron modon
+		}
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = {  }
+	}
+
+	##RHODES
+	RHODES = {
+		capital = karpathos
+		culture = dorian
+		religion = hellenic
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			karpathos rodos
+		}
+		accepted_cultures = { dorian }
+		tolerated_cultures = {  }
+	}
+
+	##SPARTA
+	SPARTA = {
+		capital = astros
+		culture = mycenaean
+		religion = mycenaean
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			astros kythira monemvasia mystras oitylo veligosti
+		}
+		accepted_cultures = { mycenaean cycladic }
+		tolerated_cultures = { arcadian }
+	}
+
+	##THEBES
+	THEBES = {
+		capital = livadeia
+		culture = mycenaean
+		religion = mycenaean
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			livadeia salona
+		}
+		accepted_cultures = { mycenaean pelasgian }
+		tolerated_cultures = {  }
 	}
 
 	}

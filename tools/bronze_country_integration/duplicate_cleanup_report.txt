@@ -4,8 +4,9 @@ Bronze Era duplicate ownership cleanup
 Duplicate locations inside same tag removed: 0
 - none
 
-Cross-tag ownership conflicts resolved: 0
-- none
+Cross-tag ownership conflicts resolved: 2
+- atalanti: 0001G -> ORCHOMENUS
+- gravia: 0001G -> ORCHOMENUS
 
 Duplicate tag blocks resolved: 0
 - none

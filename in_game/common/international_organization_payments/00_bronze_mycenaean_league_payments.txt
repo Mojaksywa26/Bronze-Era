@@ -1,0 +1,70 @@
+mycenaean_palace_tribute = {
+	get_payer_list = {
+		every_international_organization_member = {
+			limit = {
+				NOT = { is_leader_of_international_organization = root }
+			}
+			add_to_local_variable_list = {
+				name = payers
+				target = this
+			}
+		}
+	}
+
+	get_payee_list = {
+		leader_country ?= {
+			add_to_local_variable_list = {
+				name = payees
+				target = this
+			}
+		}
+	}
+
+	price = mycenaean_palace_tribute_price
+	uses_maintenance = yes
+	min_slider_value = 0.25
+
+	maintenance_modifier = {
+		potential_trigger = {
+			"payment_maintenance(scope:recipient|mycenaean_palace_tribute)" < 0.5
+		}
+		scale = {
+			value = 1
+			subtract = {
+				value = "payment_maintenance(scope:recipient|mycenaean_palace_tribute)"
+				multiply = 2
+			}
+		}
+		monthly_prestige = -0.05
+	}
+
+	price_multiplier = {
+		add = {
+			desc = MYCENAEAN_LEAGUE_TRIBUTE_BASE
+			value = 0
+			every_international_organization_member = {
+				limit = {
+					NOT = { is_leader_of_international_organization = root }
+				}
+				add = {
+					value = monthly_income_trade_and_tax
+					multiply = 0.08
+				}
+			}
+		}
+	}
+
+	proportion_for_payer = {
+		add = {
+			desc = MYCENAEAN_LEAGUE_TRIBUTE_SHARE
+			value = monthly_income_trade_and_tax
+		}
+	}
+
+	proportion_for_payee = {
+		add = {
+			desc = MYCENAEAN_LEAGUE_HIGH_WANAX_SHARE
+			value = 1
+		}
+	}
+}

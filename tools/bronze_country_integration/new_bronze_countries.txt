@@ -78,3 +78,11 @@ Newly created Bronze Age countries
 - VOCAN
 - VOLAR
 - VOLTE
+- ACHAEA
+- ATHENS
+- IOLCUS
+- ORCHOMENUS
+- PYLOS
+- RHODES
+- SPARTA
+- THEBES

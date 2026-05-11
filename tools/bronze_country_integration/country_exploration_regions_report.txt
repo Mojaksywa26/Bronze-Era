@@ -2,7 +2,7 @@ Bronze Era country explored regions report
 ==========================================
 
 Map definitions source: D:\SteamLibrary\steamapps\common\Europa Universalis V\game\in_game\map_data\definitions.txt
-Countries checked: 149
+Countries checked: 157
 
 0001G (Mycenae)
 - discovered_regions: anatolia_region balkan_region
@@ -450,6 +450,30 @@ VOLAR (Volques Arecomiques)
 
 VOLTE (Volques Tectosages)
 - discovered_regions: france_region iberia_region
+
+ACHAEA (Achaea)
+- discovered_regions: balkan_region
+
+ATHENS (Athens)
+- discovered_regions: balkan_region
+
+IOLCUS (Iolcus)
+- discovered_regions: balkan_region
+
+ORCHOMENUS (Orchomenus)
+- discovered_regions: balkan_region
+
+PYLOS (Pylos)
+- discovered_regions: balkan_region
+
+RHODES (Rhodes)
+- discovered_regions: balkan_region
+
+SPARTA (Sparta)
+- discovered_regions: balkan_region
+
+THEBES (Thebes)
+- discovered_regions: balkan_region
 
 Validation summary:
 - countries without discovered_regions: none

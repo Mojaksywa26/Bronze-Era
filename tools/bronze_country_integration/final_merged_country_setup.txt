@@ -14,62 +14,42 @@
         andros
         angelokastron
         argos
-        astros
-        atalanti
-        athens
         balat
         bodonitsa
         bodrum
         candia
         cephalonia
-        chalandritsa
         chania
         chios
         corinth
         damala
-        demetrias
         elounda
         eretreia
         ermioni
         farsala
         gergeri
-        gravia
         hagios_pavlos
         ikaria
-        kalamata
-        kalavryta
-        karpathos
         karystos
         karytaina
         kleisoura
         kos
         kymi
-        kyparissia
-        kythira
         kythnos
         larissa
         leukas
-        leuktron
-        livadeia
         loidoriki
         megara
         milos
-        modon
-        monemvasia
         mykonos
-        mystras
         nafpaktos
         nafplio
         naxos
         negroponte
         neopatras
-        oitylo
         oreos
-        patras
         pontikokastro
         rethymno
-        rodos
-        salona
         samos
         siteia
         sporades
@@ -77,10 +57,8 @@
         thebes
         tripolitsa
         tyrnavos
-        veligosti
         viannos
         vonitsa
-        vostitsa
         xylokastro
         zakynthos
         zetounion
@@ -3163,5 +3141,107 @@ VOLTE = {
         verdun_sur_garonne
         vielha
         villemur
+    }
+}
+
+ACHAEA = {
+    color = { 89 207 160 }
+    culture = mycenaean
+    religion = mycenaean
+    discovered_regions = { balkan_region }
+
+    own_control_core = {
+        chalandritsa
+        kalavryta
+        patras
+        vostitsa
+    }
+}
+
+ATHENS = {
+    color = { 76 195 225 }
+    culture = ionian
+    religion = hellenic
+    discovered_regions = { balkan_region }
+
+    own_control_core = {
+        athens
+    }
+}
+
+IOLCUS = {
+    color = { 216 85 137 }
+    culture = aeolian
+    religion = hellenic
+    discovered_regions = { balkan_region }
+
+    own_control_core = {
+        demetrias
+    }
+}
+
+ORCHOMENUS = {
+    color = { 209 71 61 }
+    culture = pelasgian
+    religion = hellenic
+    discovered_regions = { balkan_region }
+
+    own_control_core = {
+        atalanti
+        gravia
+    }
+}
+
+PYLOS = {
+    color = { 175 221 49 }
+    culture = mycenaean
+    religion = mycenaean
+    discovered_regions = { balkan_region }
+
+    own_control_core = {
+        kalamata
+        kyparissia
+        leuktron
+        modon
+    }
+}
+
+RHODES = {
+    color = { 77 219 96 }
+    culture = dorian
+    religion = hellenic
+    discovered_regions = { balkan_region }
+
+    own_control_core = {
+        karpathos
+        rodos
+    }
+}
+
+SPARTA = {
+    color = { 196 54 125 }
+    culture = mycenaean
+    religion = mycenaean
+    discovered_regions = { balkan_region }
+
+    own_control_core = {
+        astros
+        kythira
+        monemvasia
+        mystras
+        oitylo
+        veligosti
+    }
+}
+
+THEBES = {
+    color = { 199 105 87 }
+    culture = mycenaean
+    religion = mycenaean
+    discovered_regions = { balkan_region }
+
+    own_control_core = {
+        livadeia
+        salona
     }
 }

@@ -1,3 +1,89 @@
 international_organization_manager = {
-	
+	add_international_organization = {
+		type = mycenaean_league
+		creation_date = -1300.1.1
+
+		map_color = hsv360 { 36 72 70 }
+
+		members = {
+			0001G
+			ACHAEA
+			ATHENS
+			IOLCUS
+			ORCHOMENUS
+			PYLOS
+			RHODES
+			SPARTA
+			THEBES
+		}
+
+		leader = 0001G
+
+		locations = {
+			amorgos andravida andritsaina andros angelokastron argos balat bodonitsa bodrum candia
+			cephalonia chania chios corinth damala elounda eretreia ermioni farsala gergeri
+			hagios_pavlos ikaria karystos karytaina kleisoura kos kymi kythnos larissa leukas
+			loidoriki megara milos mykonos nafpaktos nafplio naxos negroponte neopatras oreos
+			pontikokastro rethymno samos siteia sporades stomio thebes tripolitsa tyrnavos viannos
+			vonitsa xylokastro zakynthos zetounion
+			chalandritsa kalavryta patras vostitsa
+			athens
+			demetrias
+			atalanti gravia
+			kalamata kyparissia leuktron modon
+			karpathos rodos
+			astros kythira monemvasia mystras oitylo veligosti
+			livadeia salona
+		}
+
+		high_wanax = {
+			0001G
+		}
+
+		great_palace_candidate = {
+			0001G
+			PYLOS
+			SPARTA
+			THEBES
+		}
+
+		palace_candidate = {
+			ATHENS
+			IOLCUS
+			ORCHOMENUS
+		}
+
+		sanctuary_patron = {
+			0001G
+			ACHAEA
+			ORCHOMENUS
+			THEBES
+		}
+
+		island_wanaxate = {
+			RHODES
+		}
+
+		palace_kingdom = {
+			ACHAEA
+			ATHENS
+			IOLCUS
+			ORCHOMENUS
+			PYLOS
+			RHODES
+			SPARTA
+			THEBES
+		}
+
+		laws = {
+			recognized_high_wanax_policy
+			bronze_tribute_policy
+			shared_festivals_policy
+			palace_oaths_policy
+		}
+
+		variables = {
+			mycenaean_league_authority = 55
+		}
+	}
 }

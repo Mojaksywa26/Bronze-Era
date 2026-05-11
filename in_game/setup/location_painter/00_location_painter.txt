@@ -11,62 +11,42 @@ location_painter_assignments = {
             andros
             angelokastron
             argos
-            astros
-            atalanti
-            athens
             balat
             bodonitsa
             bodrum
             candia
             cephalonia
-            chalandritsa
             chania
             chios
             corinth
             damala
-            demetrias
             elounda
             eretreia
             ermioni
             farsala
             gergeri
-            gravia
             hagios_pavlos
             ikaria
-            kalamata
-            kalavryta
-            karpathos
             karystos
             karytaina
             kleisoura
             kos
             kymi
-            kyparissia
-            kythira
             kythnos
             larissa
             leukas
-            leuktron
-            livadeia
             loidoriki
             megara
             milos
-            modon
-            monemvasia
             mykonos
-            mystras
             nafpaktos
             nafplio
             naxos
             negroponte
             neopatras
-            oitylo
             oreos
-            patras
             pontikokastro
             rethymno
-            rodos
-            salona
             samos
             siteia
             sporades
@@ -74,10 +54,8 @@ location_painter_assignments = {
             thebes
             tripolitsa
             tyrnavos
-            veligosti
             viannos
             vonitsa
-            vostitsa
             xylokastro
             zakynthos
             zetounion
@@ -2420,6 +2398,68 @@ location_painter_assignments = {
             verdun_sur_garonne
             vielha
             villemur
+        }
+    }
+    ACHAEA = {
+        color = { 89 207 160 }
+        locations = {
+            chalandritsa
+            kalavryta
+            patras
+            vostitsa
+        }
+    }
+    ATHENS = {
+        color = { 76 195 225 }
+        locations = {
+            athens
+        }
+    }
+    IOLCUS = {
+        color = { 216 85 137 }
+        locations = {
+            demetrias
+        }
+    }
+    ORCHOMENUS = {
+        color = { 209 71 61 }
+        locations = {
+            atalanti
+            gravia
+        }
+    }
+    PYLOS = {
+        color = { 175 221 49 }
+        locations = {
+            kalamata
+            kyparissia
+            leuktron
+            modon
+        }
+    }
+    RHODES = {
+        color = { 77 219 96 }
+        locations = {
+            karpathos
+            rodos
+        }
+    }
+    SPARTA = {
+        color = { 196 54 125 }
+        locations = {
+            astros
+            kythira
+            monemvasia
+            mystras
+            oitylo
+            veligosti
+        }
+    }
+    THEBES = {
+        color = { 199 105 87 }
+        locations = {
+            livadeia
+            salona
         }
     }
 }

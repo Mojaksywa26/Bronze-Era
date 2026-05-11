@@ -1,0 +1,97 @@
+namespace = mycenaean_league
+
+mycenaean_league.1 = {
+	type = country_event
+	title = mycenaean_league.1.title
+	desc = mycenaean_league.1.desc
+	category = international_organization_event
+	outcome = positive
+	orphan = yes
+
+	trigger = {
+		is_leader_of_international_organization = international_organization:mycenaean_league
+	}
+
+	option = {
+		name = mycenaean_league.1.a
+		change_mycenaean_league_authority = { value = 5 }
+		add_prestige = prestige_weak_bonus
+	}
+	option = {
+		name = mycenaean_league.1.b
+		change_mycenaean_league_authority = { value = 2 }
+	}
+}
+
+mycenaean_league.2 = {
+	type = country_event
+	title = mycenaean_league.2.title
+	desc = mycenaean_league.2.desc
+	category = international_organization_event
+	outcome = neutral
+	orphan = yes
+
+	trigger = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+	}
+
+	option = {
+		name = mycenaean_league.2.a
+		change_mycenaean_league_authority = { value = 3 }
+		add_prestige = prestige_weak_bonus
+	}
+	option = {
+		name = mycenaean_league.2.b
+		subtract_mycenaean_league_authority = { value = 3 }
+	}
+}
+
+mycenaean_league.10 = {
+	type = country_event
+	title = mycenaean_league.10.title
+	desc = mycenaean_league.10.desc
+	category = international_organization_event
+	outcome = negative
+	orphan = yes
+
+	trigger = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+	}
+
+	option = {
+		name = mycenaean_league.10.a
+		subtract_mycenaean_league_authority = { value = 6 }
+	}
+	option = {
+		name = mycenaean_league.10.b
+		subtract_mycenaean_league_authority = { value = 2 }
+		add_prestige = prestige_weak_penalty
+	}
+}
+
+mycenaean_league.100 = {
+	type = country_event
+	title = mycenaean_league.100.title
+	desc = mycenaean_league.100.desc
+	category = disaster_event
+	outcome = negative
+	major = yes
+	orphan = yes
+
+	trigger = {
+		is_leader_of_international_organization = international_organization:mycenaean_league
+		international_organization:mycenaean_league = {
+			var:mycenaean_league_authority <= 10
+		}
+	}
+
+	option = {
+		name = mycenaean_league.100.a
+		subtract_mycenaean_league_authority = { value = 10 }
+	}
+	option = {
+		name = mycenaean_league.100.b
+		change_mycenaean_league_authority = { value = 5 }
+		add_prestige = prestige_mild_penalty
+	}
+}
