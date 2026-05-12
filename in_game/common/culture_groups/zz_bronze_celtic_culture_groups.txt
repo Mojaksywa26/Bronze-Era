@@ -1,4 +1,4 @@
-# Bronze Era Celtic culture hierarchy generated from liste pays.txt.
+# Bronze Era Celtic culture hierarchy 
 
 celtic = {
 }

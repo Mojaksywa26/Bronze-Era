@@ -1,4 +1,4 @@
-# Bronze Era total conversion culture groups. Vanilla medieval groups are not used by scenario pops.
+# Bronze Era total conversion culture groups. 
 
 egypt_nile_group = {
 }
