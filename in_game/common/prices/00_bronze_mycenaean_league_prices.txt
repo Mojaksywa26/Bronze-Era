@@ -1,3 +1,52 @@
 mycenaean_palace_tribute_price = {
 	gold = 1
 }
+
+mycenaean_call_megaron_council_price = {
+	scaled_gold = 0.8
+	government_power = 10
+	prestige = 5
+}
+
+mycenaean_sponsor_shared_sacrifice_price = {
+	religious_influence = 20
+	scaled_gold = 0.6
+	stability = 5
+}
+
+mycenaean_send_linear_b_administrators_price = {
+	government_power = 20
+	scaled_gold = 0.5
+	stability = 5
+}
+
+mycenaean_mediate_palace_rivalry_price = {
+	scaled_gold = 0.7
+	prestige = 10
+	government_power = 10
+}
+
+mycenaean_demand_bronze_tribute_price = {
+	prestige = 5
+	government_power = 10
+	stability = 5
+}
+
+mycenaean_summon_palace_levies_price = {
+	scaled_manpower = 0.12
+	stability = 10
+	prestige = 5
+}
+
+mycenaean_proclaim_pan_achaean_expedition_price = {
+	scaled_gold = 1.2
+	scaled_manpower = 0.15
+	prestige = 15
+	stability = 10
+}
+
+mycenaean_fortify_megara_price = {
+	scaled_gold = 0.9
+	scaled_manpower = 0.08
+	stability = 5
+}

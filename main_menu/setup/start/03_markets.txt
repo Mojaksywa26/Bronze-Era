@@ -2,6 +2,12 @@ market_manager = {
 	#europe
 	
 
+
+
+
+	#GREEK
+	add_market = argos
+
 	
 
 	

@@ -1,0 +1,118 @@
+mycenaean_megaron_council_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_megaron_council
+		var:mycenaean_megaron_council > 0
+	}
+
+	monthly_prestige = 0.04
+	diplomatic_reputation = diplomatic_reputation_weak_bonus
+	global_estate_target_satisfaction = -0.01
+}
+
+mycenaean_shared_sacrifice_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_shared_sacrifice
+		var:mycenaean_shared_sacrifice > 0
+	}
+
+	monthly_religious_influence = 0.05
+	monthly_prestige = 0.02
+	global_trade_center_power = -0.03
+}
+
+mycenaean_linear_b_administration_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_linear_b_administration
+		var:mycenaean_linear_b_administration > 0
+	}
+
+	global_monthly_control_decline = -0.005
+	global_production_efficiency = 0.04
+	global_estate_target_satisfaction = -0.02
+}
+
+mycenaean_palace_mediation_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_palace_mediation
+		var:mycenaean_palace_mediation > 0
+	}
+
+	diplomatic_reputation = diplomatic_reputation_weak_bonus
+	monthly_prestige = 0.03
+	global_estate_target_satisfaction = -0.015
+}
+
+mycenaean_rival_claimant_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_rival_claimant
+		var:mycenaean_rival_claimant > 0
+	}
+
+	monthly_prestige = 0.05
+	diplomatic_reputation = diplomatic_reputation_weak_bonus
+	global_estate_target_satisfaction = -0.025
+}
+
+mycenaean_bronze_tribute_demand_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_bronze_tribute_demand
+		var:mycenaean_bronze_tribute_demand > 0
+	}
+
+	global_production_efficiency = 0.06
+	import_efficiency = 0.05
+	global_estate_target_satisfaction = -0.05
+	monthly_war_exhaustion = 0.02
+}
+
+mycenaean_palace_levies_mustered_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_palace_levies_mustered
+		var:mycenaean_palace_levies_mustered > 0
+	}
+
+	global_levy_size_modifier = 0.12
+	global_defensive = 0.05
+	global_population_growth = -0.0002
+	global_production_efficiency = -0.06
+	global_estate_target_satisfaction = -0.04
+}
+
+mycenaean_pan_achaean_expedition_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_pan_achaean_expedition
+		var:mycenaean_pan_achaean_expedition > 0
+	}
+
+	global_levy_size_modifier = 0.10
+	land_morale_modifier = 0.05
+	naval_morale_modifier = 0.05
+	global_maritime_presence_modifier = 0.05
+	import_efficiency = -0.08
+	global_monthly_food_modifier = -0.03
+}
+
+mycenaean_fortified_megara_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_fortified_megara
+		var:mycenaean_fortified_megara > 0
+	}
+
+	global_defensive = 0.08
+	global_monthly_control_decline = -0.004
+	global_monthly_development = -0.0003
+	global_monthly_food_modifier = -0.02
+}
+
+mycenaean_palaces_burning_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_palaces_burning
+		var:mycenaean_palaces_burning > 0
+	}
+
+	monthly_rebel_growth = 0.002
+	pop_join_rebel_threshold = -0.08
+	global_monthly_control_decline = 0.02
+	global_prosperity_decay = 0.04
+	monthly_war_exhaustion = 0.05
+}

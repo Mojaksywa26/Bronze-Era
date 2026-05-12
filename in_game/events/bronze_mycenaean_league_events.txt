@@ -10,15 +10,19 @@ mycenaean_league.1 = {
 
 	trigger = {
 		is_leader_of_international_organization = international_organization:mycenaean_league
+		NOT = { has_variable = mycenaean_league_council_recently }
 	}
 
 	option = {
 		name = mycenaean_league.1.a
+		set_variable = { name = mycenaean_league_council_recently value = 1 years = 4 }
+		set_variable = { name = mycenaean_megaron_council value = 1 years = 3 }
 		change_mycenaean_league_authority = { value = 5 }
 		add_prestige = prestige_weak_bonus
 	}
 	option = {
 		name = mycenaean_league.1.b
+		set_variable = { name = mycenaean_league_council_recently value = 1 years = 4 }
 		change_mycenaean_league_authority = { value = 2 }
 	}
 }
@@ -33,15 +37,19 @@ mycenaean_league.2 = {
 
 	trigger = {
 		is_member_of_international_organization = international_organization:mycenaean_league
+		NOT = { has_variable = mycenaean_league_omens_recently }
 	}
 
 	option = {
 		name = mycenaean_league.2.a
+		set_variable = { name = mycenaean_league_omens_recently value = 1 years = 3 }
+		set_variable = { name = mycenaean_shared_sacrifice value = 1 years = 2 }
 		change_mycenaean_league_authority = { value = 3 }
 		add_prestige = prestige_weak_bonus
 	}
 	option = {
 		name = mycenaean_league.2.b
+		set_variable = { name = mycenaean_league_omens_recently value = 1 years = 3 }
 		subtract_mycenaean_league_authority = { value = 3 }
 	}
 }
@@ -56,16 +64,252 @@ mycenaean_league.10 = {
 
 	trigger = {
 		is_member_of_international_organization = international_organization:mycenaean_league
+		NOT = { has_variable = mycenaean_league_rivalry_recently }
 	}
 
 	option = {
 		name = mycenaean_league.10.a
+		set_variable = { name = mycenaean_league_rivalry_recently value = 1 years = 4 }
 		subtract_mycenaean_league_authority = { value = 6 }
 	}
 	option = {
 		name = mycenaean_league.10.b
+		set_variable = { name = mycenaean_league_rivalry_recently value = 1 years = 4 }
+		set_variable = { name = mycenaean_palace_mediation value = 1 years = 2 }
 		subtract_mycenaean_league_authority = { value = 2 }
 		add_prestige = prestige_weak_penalty
+	}
+}
+
+mycenaean_league.20 = {
+	type = country_event
+	title = mycenaean_league.20.title
+	desc = mycenaean_league.20.desc
+	category = international_organization_event
+	outcome = neutral
+	orphan = yes
+
+	trigger = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		NOT = { is_leader_of_international_organization = international_organization:mycenaean_league }
+		NOT = { has_variable = mycenaean_league_tribute_recently }
+	}
+
+	option = {
+		name = mycenaean_league.20.a
+		set_variable = { name = mycenaean_league_tribute_recently value = 1 years = 4 }
+		set_variable = { name = mycenaean_bronze_tribute_demand value = 1 years = 2 }
+		change_mycenaean_league_authority = { value = 2 }
+		add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
+	}
+	option = {
+		name = mycenaean_league.20.b
+		set_variable = { name = mycenaean_league_tribute_recently value = 1 years = 4 }
+		subtract_mycenaean_league_authority = { value = 5 }
+		add_prestige = prestige_weak_bonus
+	}
+}
+
+mycenaean_league.30 = {
+	type = country_event
+	title = mycenaean_league.30.title
+	desc = mycenaean_league.30.desc
+	category = international_organization_event
+	outcome = neutral
+	orphan = yes
+
+	trigger = {
+		is_leader_of_international_organization = international_organization:mycenaean_league
+		current_mycenaean_league_authority = { value = 45 }
+		NOT = { has_variable = mycenaean_league_campaign_recently }
+	}
+
+	option = {
+		name = mycenaean_league.30.a
+		set_variable = { name = mycenaean_league_campaign_recently value = 1 years = 5 }
+		set_variable = { name = mycenaean_palace_levies_mustered value = 1 years = 3 }
+		subtract_mycenaean_league_authority = { value = 4 }
+		add_prestige = prestige_weak_bonus
+		add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
+	}
+	option = {
+		name = mycenaean_league.30.b
+		set_variable = { name = mycenaean_league_campaign_recently value = 1 years = 5 }
+		subtract_mycenaean_league_authority = { value = 3 }
+	}
+}
+
+mycenaean_league.40 = {
+	type = country_event
+	title = mycenaean_league.40.title
+	desc = mycenaean_league.40.desc
+	category = international_organization_event
+	outcome = negative
+	orphan = yes
+
+	trigger = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		NOT = { is_leader_of_international_organization = international_organization:mycenaean_league }
+		NOT = { has_variable = mycenaean_rival_claimant }
+		NOT = { has_variable = mycenaean_league_accepted_order }
+		current_mycenaean_league_authority = { value = 30 }
+	}
+
+	option = {
+		name = mycenaean_league.40.a
+		set_variable = { name = mycenaean_rival_claimant value = 1 years = 5 }
+		subtract_mycenaean_league_authority = { value = 6 }
+		add_prestige = prestige_weak_bonus
+	}
+	option = {
+		name = mycenaean_league.40.b
+		set_variable = { name = mycenaean_league_accepted_order value = 1 years = 3 }
+		change_mycenaean_league_authority = { value = 2 }
+		add_prestige = prestige_weak_penalty
+	}
+}
+
+mycenaean_league.50 = {
+	type = country_event
+	title = mycenaean_league.50.title
+	desc = mycenaean_league.50.desc
+	category = international_organization_event
+	outcome = positive
+	orphan = yes
+
+	trigger = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		NOT = { has_variable = mycenaean_league_festival_recently }
+	}
+
+	option = {
+		name = mycenaean_league.50.a
+		set_variable = { name = mycenaean_league_festival_recently value = 1 years = 4 }
+		set_variable = { name = mycenaean_shared_sacrifice value = 1 years = 3 }
+		change_mycenaean_league_authority = { value = 3 }
+		add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_bonus }
+	}
+	option = {
+		name = mycenaean_league.50.b
+		set_variable = { name = mycenaean_league_festival_recently value = 1 years = 4 }
+		subtract_mycenaean_league_authority = { value = 2 }
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_bonus }
+	}
+}
+
+mycenaean_league.60 = {
+	type = country_event
+	title = mycenaean_league.60.title
+	desc = mycenaean_league.60.desc
+	category = international_organization_event
+	outcome = neutral
+	orphan = yes
+
+	trigger = {
+		is_leader_of_international_organization = international_organization:mycenaean_league
+		NOT = { has_variable = mycenaean_league_scribes_recently }
+	}
+
+	option = {
+		name = mycenaean_league.60.a
+		set_variable = { name = mycenaean_league_scribes_recently value = 1 years = 4 }
+		set_variable = { name = mycenaean_linear_b_administration value = 1 years = 3 }
+		change_mycenaean_league_authority = { value = 3 }
+		add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
+	}
+	option = {
+		name = mycenaean_league.60.b
+		set_variable = { name = mycenaean_league_scribes_recently value = 1 years = 4 }
+		add_prestige = prestige_weak_penalty
+	}
+}
+
+mycenaean_league.70 = {
+	type = country_event
+	title = mycenaean_league.70.title
+	desc = mycenaean_league.70.desc
+	category = disaster_event
+	outcome = negative
+	orphan = yes
+
+	trigger = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		sea_peoples_crisis_mycenaean_target = yes
+		OR = {
+			sea_peoples_crisis_active_country = yes
+			international_organization:mycenaean_league = {
+				var:mycenaean_league_authority <= 35
+			}
+		}
+		NOT = { has_variable = mycenaean_league_earthquake_recently }
+	}
+
+	option = {
+		name = mycenaean_league.70.a
+		set_variable = { name = mycenaean_league_earthquake_recently value = 1 years = 6 }
+		set_variable = { name = mycenaean_fortified_megara value = 1 years = 3 }
+		subtract_mycenaean_league_authority = { value = 3 }
+		add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_mild_penalty }
+	}
+	option = {
+		name = mycenaean_league.70.b
+		set_variable = { name = mycenaean_league_earthquake_recently value = 1 years = 6 }
+		set_variable = { name = mycenaean_palaces_burning value = 1 years = 3 }
+		subtract_mycenaean_league_authority = { value = 6 }
+	}
+}
+
+mycenaean_league.80 = {
+	type = country_event
+	title = mycenaean_league.80.title
+	desc = mycenaean_league.80.desc
+	category = international_organization_event
+	outcome = neutral
+	orphan = yes
+
+	trigger = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		has_special_status_in_international_organization = {
+			type = special_status:island_wanaxate
+			international_organization = international_organization:mycenaean_league
+		}
+		NOT = { has_variable = mycenaean_league_sea_roads_recently }
+	}
+
+	option = {
+		name = mycenaean_league.80.a
+		set_variable = { name = mycenaean_league_sea_roads_recently value = 1 years = 5 }
+		set_variable = { name = mycenaean_pan_achaean_expedition value = 1 years = 2 }
+		change_mycenaean_league_authority = { value = 2 }
+		add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_bonus }
+	}
+	option = {
+		name = mycenaean_league.80.b
+		set_variable = { name = mycenaean_league_sea_roads_recently value = 1 years = 5 }
+		subtract_mycenaean_league_authority = { value = 3 }
+		add_prestige = prestige_weak_bonus
+	}
+}
+
+mycenaean_league.90 = {
+	type = country_event
+	title = mycenaean_league.90.title
+	desc = mycenaean_league.90.desc
+	category = international_organization_event
+	outcome = positive
+	orphan = yes
+
+	trigger = {
+		is_leader_of_international_organization = international_organization:mycenaean_league
+		at_war = yes
+		NOT = { has_variable = mycenaean_league_war_glory_recently }
+	}
+
+	option = {
+		name = mycenaean_league.90.a
+		set_variable = { name = mycenaean_league_war_glory_recently value = 1 years = 5 }
+		change_mycenaean_league_authority = { value = 6 }
+		add_prestige = prestige_weak_bonus
 	}
 }
 
@@ -83,15 +327,73 @@ mycenaean_league.100 = {
 		international_organization:mycenaean_league = {
 			var:mycenaean_league_authority <= 10
 		}
+		NOT = { has_variable = mycenaean_palaces_burning }
 	}
 
 	option = {
 		name = mycenaean_league.100.a
+		set_variable = { name = mycenaean_palaces_burning value = 1 years = 6 }
 		subtract_mycenaean_league_authority = { value = 10 }
 	}
 	option = {
 		name = mycenaean_league.100.b
+		set_variable = { name = mycenaean_palaces_burning value = 1 years = 4 }
+		set_variable = { name = mycenaean_megaron_council value = 1 years = 2 }
 		change_mycenaean_league_authority = { value = 5 }
 		add_prestige = prestige_mild_penalty
+	}
+}
+
+mycenaean_league.110 = {
+	type = country_event
+	title = mycenaean_league.110.title
+	desc = mycenaean_league.110.desc
+	category = international_organization_event
+	outcome = positive
+	orphan = yes
+
+	trigger = {
+		is_leader_of_international_organization = international_organization:mycenaean_league
+		international_organization:mycenaean_league = {
+			var:mycenaean_league_authority >= 75
+		}
+		NOT = { has_variable = mycenaean_league_oaths_remembered }
+	}
+
+	option = {
+		name = mycenaean_league.110.a
+		set_variable = { name = mycenaean_league_oaths_remembered value = 1 years = 6 }
+		change_mycenaean_league_authority = { value = 3 }
+		add_prestige = prestige_weak_bonus
+	}
+}
+
+mycenaean_league.120 = {
+	type = country_event
+	title = mycenaean_league.120.title
+	desc = mycenaean_league.120.desc
+	category = disaster_event
+	outcome = negative
+	orphan = yes
+
+	trigger = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		international_organization:mycenaean_league = {
+			var:mycenaean_league_authority <= 25
+		}
+		NOT = { has_variable = mycenaean_league_archive_failing }
+	}
+
+	option = {
+		name = mycenaean_league.120.a
+		set_variable = { name = mycenaean_league_archive_failing value = 1 years = 5 }
+		set_variable = { name = mycenaean_palaces_burning value = 1 years = 2 }
+		subtract_mycenaean_league_authority = { value = 4 }
+	}
+	option = {
+		name = mycenaean_league.120.b
+		set_variable = { name = mycenaean_league_archive_failing value = 1 years = 5 }
+		set_variable = { name = mycenaean_linear_b_administration value = 1 years = 2 }
+		add_prestige = prestige_weak_penalty
 	}
 }

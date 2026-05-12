@@ -1,0 +1,356 @@
+mycenaean_call_megaron_council = {
+	type = owncountry
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 24
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_call_megaron_council_price
+
+	cooldown = {
+		type = mycenaean_call_megaron_council
+		years = 5
+	}
+
+	potential = {
+		scope:actor = {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+			NOT = { has_variable = mycenaean_megaron_council }
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			set_variable = { name = mycenaean_megaron_council value = 1 years = 5 }
+			change_mycenaean_league_authority = { value = 6 }
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_penalty }
+			add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_bonus }
+			custom_tooltip = mycenaean_call_megaron_council_tt
+		}
+	}
+
+	ai_will_do = {
+		add = 8
+		subtract = 2
+	}
+}
+
+mycenaean_sponsor_shared_sacrifice = {
+	type = owncountry
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 30
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_sponsor_shared_sacrifice_price
+
+	cooldown = {
+		type = mycenaean_sponsor_shared_sacrifice
+		years = 4
+	}
+
+	potential = {
+		scope:actor = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+			NOT = { has_variable = mycenaean_shared_sacrifice }
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			set_variable = { name = mycenaean_shared_sacrifice value = 1 years = 4 }
+			change_mycenaean_league_authority = { value = 4 }
+			add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_mild_bonus }
+			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_penalty }
+			custom_tooltip = mycenaean_sponsor_shared_sacrifice_tt
+		}
+	}
+
+	ai_will_do = {
+		add = 7
+		subtract = 2
+	}
+}
+
+mycenaean_send_linear_b_administrators = {
+	type = owncountry
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 24
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_send_linear_b_administrators_price
+
+	cooldown = {
+		type = mycenaean_send_linear_b_administrators
+		years = 5
+	}
+
+	potential = {
+		scope:actor = {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+			NOT = { has_variable = mycenaean_linear_b_administration }
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			set_variable = { name = mycenaean_linear_b_administration value = 1 years = 5 }
+			change_mycenaean_league_authority = { value = 3 }
+			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
+			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_bonus }
+			custom_tooltip = mycenaean_send_linear_b_administrators_tt
+		}
+	}
+
+	ai_will_do = {
+		add = 6
+		subtract = 3
+	}
+}
+
+mycenaean_mediate_palace_rivalry = {
+	type = owncountry
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 24
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_mediate_palace_rivalry_price
+
+	cooldown = {
+		type = mycenaean_mediate_palace_rivalry
+		years = 4
+	}
+
+	potential = {
+		scope:actor = {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+			current_mycenaean_league_authority = { value = 20 }
+			NOT = { has_variable = mycenaean_palace_mediation }
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			set_variable = { name = mycenaean_palace_mediation value = 1 years = 4 }
+			change_mycenaean_league_authority = { value = 5 }
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_mild_penalty }
+			custom_tooltip = mycenaean_mediate_palace_rivalry_tt
+		}
+	}
+
+	ai_will_do = {
+		add = 7
+		subtract = 3
+	}
+}
+
+mycenaean_demand_bronze_tribute = {
+	type = owncountry
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 30
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_demand_bronze_tribute_price
+
+	cooldown = {
+		type = mycenaean_demand_bronze_tribute
+		years = 5
+	}
+
+	potential = {
+		scope:actor = {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+			current_mycenaean_league_authority = { value = 25 }
+			NOT = { has_variable = mycenaean_bronze_tribute_demand }
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			set_variable = { name = mycenaean_bronze_tribute_demand value = 1 years = 5 }
+			subtract_mycenaean_league_authority = { value = 5 }
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_bonus }
+			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_mild_penalty }
+			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_penalty }
+			custom_tooltip = mycenaean_demand_bronze_tribute_tt
+		}
+	}
+
+	ai_will_do = {
+		add = 4
+		subtract = 4
+	}
+}
+
+mycenaean_summon_palace_levies = {
+	type = owncountry
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 18
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_summon_palace_levies_price
+
+	cooldown = {
+		type = mycenaean_summon_palace_levies
+		years = 4
+	}
+
+	potential = {
+		scope:actor = {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+			current_mycenaean_league_authority = { value = 35 }
+			NOT = { has_variable = mycenaean_palace_levies_mustered }
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			set_variable = { name = mycenaean_palace_levies_mustered value = 1 years = 4 }
+			subtract_mycenaean_league_authority = { value = 8 }
+			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_mild_penalty }
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_penalty }
+			custom_tooltip = mycenaean_summon_palace_levies_tt
+		}
+	}
+
+	ai_will_do = {
+		add = 7
+		subtract = 4
+	}
+}
+
+mycenaean_proclaim_pan_achaean_expedition = {
+	type = owncountry
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 36
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_proclaim_pan_achaean_expedition_price
+
+	cooldown = {
+		type = mycenaean_proclaim_pan_achaean_expedition
+		years = 8
+	}
+
+	potential = {
+		scope:actor = {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+			current_mycenaean_league_authority = { value = 65 }
+			NOT = { has_variable = mycenaean_pan_achaean_expedition }
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			set_variable = { name = mycenaean_pan_achaean_expedition value = 1 years = 6 }
+			subtract_mycenaean_league_authority = { value = 12 }
+			add_prestige = prestige_weak_bonus
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_bonus }
+			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_mild_penalty }
+			custom_tooltip = mycenaean_proclaim_pan_achaean_expedition_tt
+		}
+	}
+
+	ai_will_do = {
+		add = 5
+		subtract = 5
+	}
+}
+
+mycenaean_fortify_megara = {
+	type = owncountry
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 24
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_fortify_megara_price
+
+	cooldown = {
+		type = mycenaean_fortify_megara
+		years = 6
+	}
+
+	potential = {
+		scope:actor = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+			NOT = { has_variable = mycenaean_fortified_megara }
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			set_variable = { name = mycenaean_fortified_megara value = 1 years = 6 }
+			subtract_mycenaean_league_authority = { value = 2 }
+			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_bonus }
+			custom_tooltip = mycenaean_fortify_megara_tt
+		}
+	}
+
+	ai_will_do = {
+		add = 8
+		subtract = 3
+	}
+}

@@ -14,6 +14,7 @@ yearly_country_pulse = {
 		yearly_flavor_cop_pulse         # Copernicus date window (>= 1520)
 		yearly_infidel_holds_rome_pulse # catholic + non-Christian owns Rome
 		sea_peoples_crisis_yearly_pulse # Bronze Era collapse chain
+		mycenaean_league_yearly_pulse   # Bronze Era Achaean palace politics
 	}
 	# Tag-locked events - mutually exclusive, so first_valid_on_action pays at most one tag
 	# check per non-matching country instead of evaluating all three event triggers.

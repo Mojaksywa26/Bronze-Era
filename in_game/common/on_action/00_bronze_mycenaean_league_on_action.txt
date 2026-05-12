@@ -1,0 +1,20 @@
+mycenaean_league_yearly_pulse = {
+	random_events = {
+		chance_to_happen = 22
+		100 = 0
+		8 = mycenaean_league.1
+		8 = mycenaean_league.2
+		7 = mycenaean_league.10
+		6 = mycenaean_league.20
+		5 = mycenaean_league.30
+		4 = mycenaean_league.40
+		7 = mycenaean_league.50
+		5 = mycenaean_league.60
+		4 = mycenaean_league.70
+		3 = mycenaean_league.80
+		4 = mycenaean_league.90
+		4 = mycenaean_league.100
+		3 = mycenaean_league.110
+		5 = mycenaean_league.120
+	}
+}

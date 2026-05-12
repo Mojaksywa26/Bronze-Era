@@ -28,14 +28,14 @@ High noble and army title:
 
 The league starts with:
 - 0001G, representing Mycenaea
-- ACHAEA
-- ATHENS
-- IOLCUS
-- ORCHOMENUS
+- ACHAE
+- ATHEN
+- IOLC
+- ORCHO
 - PYLOS
-- RHODES
-- SPARTA
-- THEBES
+- RHODE
+- SPART
+- THEBE
 
 0001G begins as High Wanax.
 
@@ -70,6 +70,13 @@ The score rewards:
 - secondary palace status
 - sanctuary patronage
 - maritime wealth for Rhodes
+- recent councils in the megaron
+- shared sacrifices
+- Linear B administration
+- pan-Achaean expeditions
+- rival wanax claimants
+
+Forced tribute can strengthen the High Wanax materially, but it hurts legitimacy in future leader scoring.
 
 Primary candidates:
 - 0001G
@@ -132,15 +139,15 @@ More decentralized possible policy path:
 
 ## Possible Decisions And Actions
 
-Recommended later generic actions:
-- Call Council in the Megaron: leader action, small authority gain, prestige cost if overused
-- Sponsor Shared Sacrifice: member or leader action, religious influence into authority
-- Demand Bronze Tribute: leader action, authority cost if members dislike the High Wanax
-- Summon Palace Levies: leader action, temporary manpower or army support, authority cost
-- Proclaim Pan-Achaean Expedition: leader action, offensive call enabled only at high authority
-- Mediate Palace Rivalry: leader action, prestige or gold cost to stop member conflicts
-- Fortify the Megara: member action during collapse, improves survival but lowers unity
-- Send Linear B Administrators: leader action, improves tribute and control in loyal members
+Implemented generic actions:
+- Call Council in the Megaron: leader action, raises authority, costs gold, prestige, government power, and noble satisfaction
+- Sponsor Shared Sacrifice: member action, converts religious influence and wealth into authority at a stability cost
+- Send Linear B Administrators: leader action, improves control and production while angering rural households
+- Mediate Palace Rivalry: leader action, raises authority through costly arbitration
+- Demand Bronze Tribute: leader action, improves extraction but lowers authority and satisfaction
+- Summon Palace Levies: leader action, creates temporary military strength while draining farms and unity
+- Proclaim Pan-Achaean Expedition: leader action at high authority, strong military/naval boost with severe costs
+- Fortify the Megara: member action, improves survival but turns the palace inward and lowers unity
 
 ## Collapse Model
 
@@ -150,14 +157,21 @@ Members automatically leave during severe collapse:
 - if they enter civil war
 - if Achaean Unity falls to 5 or lower
 
-Recommended future event hooks:
-- Sea Peoples raids: subtract 10 to 25 authority
-- earthquake sequence: subtract 5 to 20 authority and damage palace locations
-- famine: subtract 5 to 15 authority and lower prosperity
-- trade collapse: subtract 10 authority and reduce maritime/trade modifiers
-- palace destruction: subtract 15 authority and remove sanctuary or palace statuses
-- successful expedition: add 10 to 20 authority
-- shared festival: add 3 to 8 authority
+Implemented event hooks:
+- yearly palace politics pulse
+- council and sanctuary events
+- tribute disputes
+- lawagetas campaign pressure
+- rival High Wanax claims
+- shared Achaean festivals
+- Linear B archive pressure
+- earthquake and palace failure events
+- island sea road events
+- war glory events
+- low-authority archive breakdown
+- burning-palace collapse pressure
+
+The Sea Peoples crisis also damages Mycenaean authority through its own event chain and emergency league levy action.
 
 ## UI Theme
 

@@ -103,6 +103,48 @@ mycenaean_league = {
 				multiply = 20
 			}
 		}
+		if = {
+			limit = { has_variable = mycenaean_megaron_council }
+			add = {
+				desc = MYCENAEAN_LEAGUE_MEGARON_COUNCIL
+				value = 85
+			}
+		}
+		if = {
+			limit = { has_variable = mycenaean_shared_sacrifice }
+			add = {
+				desc = MYCENAEAN_LEAGUE_SHARED_SACRIFICE
+				value = 65
+			}
+		}
+		if = {
+			limit = { has_variable = mycenaean_linear_b_administration }
+			add = {
+				desc = MYCENAEAN_LEAGUE_LINEAR_B
+				value = 55
+			}
+		}
+		if = {
+			limit = { has_variable = mycenaean_pan_achaean_expedition }
+			add = {
+				desc = MYCENAEAN_LEAGUE_PAN_ACHAEAN_EXPEDITION
+				value = 120
+			}
+		}
+		if = {
+			limit = { has_variable = mycenaean_rival_claimant }
+			add = {
+				desc = MYCENAEAN_LEAGUE_RIVAL_CLAIMANT
+				value = 110
+			}
+		}
+		if = {
+			limit = { has_variable = mycenaean_bronze_tribute_demand }
+			subtract = {
+				desc = MYCENAEAN_LEAGUE_FORCED_TRIBUTE
+				value = 70
+			}
+		}
 	}
 
 	land_ownership_rule = mycenaean_league_land_ownership
@@ -258,6 +300,56 @@ mycenaean_league = {
 						subtract = {
 							desc = MYCENAEAN_LEAGUE_FRAGMENTED_PALACES
 							value = 0.25
+						}
+					}
+					if = {
+						limit = {
+							international_organization_has_leader = yes
+							leader_country ?= { has_variable = mycenaean_shared_sacrifice }
+						}
+						add = {
+							desc = MYCENAEAN_LEAGUE_SHARED_SACRIFICE
+							value = 0.06
+						}
+					}
+					if = {
+						limit = {
+							international_organization_has_leader = yes
+							leader_country ?= { has_variable = mycenaean_palace_mediation }
+						}
+						add = {
+							desc = MYCENAEAN_LEAGUE_MEDIATED_RIVALRIES
+							value = 0.05
+						}
+					}
+					if = {
+						limit = {
+							international_organization_has_leader = yes
+							leader_country ?= { has_variable = mycenaean_bronze_tribute_demand }
+						}
+						subtract = {
+							desc = MYCENAEAN_LEAGUE_FORCED_TRIBUTE
+							value = 0.08
+						}
+					}
+					if = {
+						limit = {
+							international_organization_has_leader = yes
+							leader_country ?= { has_variable = mycenaean_palaces_burning }
+						}
+						subtract = {
+							desc = MYCENAEAN_LEAGUE_PALACES_BURNING
+							value = 0.35
+						}
+					}
+					if = {
+						limit = {
+							international_organization_has_leader = yes
+							leader_country ?= { has_variable = sea_peoples_internal_breakdown }
+						}
+						subtract = {
+							desc = MYCENAEAN_LEAGUE_COLLAPSE_PRESSURE
+							value = 0.18
 						}
 					}
 				}
