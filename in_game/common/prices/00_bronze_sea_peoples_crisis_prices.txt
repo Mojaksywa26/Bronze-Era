@@ -1,0 +1,59 @@
+sea_peoples_fortify_coastal_palaces_price = {
+	scaled_gold = 1.5
+	scaled_manpower = 0.05
+	stability = 5
+}
+
+sea_peoples_open_emergency_granaries_price = {
+	scaled_gold = 1.0
+	government_power = 15
+	stability = 10
+}
+
+sea_peoples_escort_bronze_convoys_price = {
+	scaled_gold = 1.2
+	scaled_sailors = 0.20
+	government_power = 10
+}
+
+sea_peoples_raise_palace_levies_price = {
+	scaled_manpower = 0.15
+	stability = 10
+	prestige = 5
+}
+
+sea_peoples_hire_migrant_war_bands_price = {
+	scaled_gold = 0.75
+	prestige = 15
+	stability = 10
+}
+
+sea_peoples_controlled_settlement_price = {
+	government_power = 20
+	stability = 15
+}
+
+sea_peoples_sanctuary_appeasement_price = {
+	religious_influence = 25
+	scaled_gold = 0.5
+	stability = 5
+}
+
+sea_peoples_mycenaean_league_levy_price = {
+	prestige = 10
+	government_power = 15
+	scaled_gold = 0.5
+}
+
+sea_peoples_delta_defense_mobilization_price = {
+	scaled_gold = 2.0
+	scaled_manpower = 0.15
+	stability = 10
+	government_power = 15
+}
+
+sea_peoples_open_phoenician_harbours_price = {
+	stability = 15
+	scaled_sailors = 0.10
+	prestige = 5
+}
