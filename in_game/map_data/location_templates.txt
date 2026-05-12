@@ -2198,9 +2198,9 @@ florac = { topography = hills vegetation = woods climate = oceanic religion = ga
 mende = { topography = hills vegetation = woods climate = oceanic religion = gaulish_pagan culture = gaulish raw_material = lead}
 peyre = { topography = plateau vegetation = woods climate = continental religion = gaulish_pagan culture = gaulish raw_material = lumber}
 massif_central = { topography = hills_wasteland vegetation = woods climate = arctic}
-narbonne = { topography = flatland vegetation = grasslands climate = mediterranean religion = phoenician culture = elisykoi raw_material = salt natural_harbor_suitability = 0.00}
-agde = { topography = flatland vegetation = grasslands climate = mediterranean religion = phoenician culture = elisykoi raw_material = wine natural_harbor_suitability = 0.00}
-beziers = { topography = hills vegetation = grasslands climate = mediterranean religion = phoenician culture = elisykoi raw_material = fruit natural_harbor_suitability = 0.00}
+narbonne = { topography = flatland vegetation = grasslands climate = mediterranean religion = gaulish_pagan culture = elisykoi raw_material = salt natural_harbor_suitability = 0.00}
+agde = { topography = flatland vegetation = grasslands climate = mediterranean religion = gaulish_pagan culture = elisykoi raw_material = wine natural_harbor_suitability = 0.00}
+beziers = { topography = hills vegetation = grasslands climate = mediterranean religion = gaulish_pagan culture = elisykoi raw_material = fruit natural_harbor_suitability = 0.00}
 lodeve = { topography = hills vegetation = grasslands climate = mediterranean religion = gaulish_pagan culture = gaulish raw_material = legumes}
 saint_pons = { topography = hills vegetation = woods climate = mediterranean religion = gaulish_pagan culture = atacini raw_material = wool}
 lagoon_of_bages_sigean = { topography = lakes climate = mediterranean}

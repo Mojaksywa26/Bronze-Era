@@ -2565,7 +2565,7 @@ countries = {
 	ELISY = {
 		capital = agde
 		culture = elisykoi
-		religion = phoenician
+		religion = gaulish_pagan
 
 		discovered_regions = {
 			france_region

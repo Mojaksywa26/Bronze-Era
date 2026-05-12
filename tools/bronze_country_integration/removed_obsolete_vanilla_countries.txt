@@ -1,7 +1,4 @@
 Removed obsolete vanilla/current countries
 ==========================================
 
-- CAMU1
-- MENT1
-- SENO1
-- SUES1
+- none

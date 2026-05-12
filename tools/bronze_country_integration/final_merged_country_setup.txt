@@ -1978,7 +1978,7 @@ ELAM = {
 ELISY = {
     color = { 29 99 129 }
     culture = elisykoi
-    religion = phoenician
+    religion = gaulish_pagan
     discovered_regions = { france_region }
 
     own_control_core = {

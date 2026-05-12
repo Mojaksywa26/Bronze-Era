@@ -5,9 +5,9 @@ Modified source tags: 304
 Original comparison tags: 157
 Final countries: 304
 New countries from modified Bronze source: 148
-New countries inserted into setup this run: 4
-Existing countries updated in setup: 300
-Obsolete current countries removed: 4
+New countries inserted into setup this run: 0
+Existing countries updated in setup: 304
+Obsolete current countries removed: 0
 Unique owned locations: 2371
 Invalid locations skipped: 0
 Duplicate conflicts resolved: 26
@@ -25,7 +25,7 @@ Country explored regions report: tools/bronze_country_integration/country_explor
 Normalized painter file: in_game/setup/location_painter/00_location_painter.txt
 EU5 country setup updated: main_menu/setup/start/10_countries.txt
 Celtic culture definitions generated: 150
-Celtic culture groups tracked: 13
+Celtic culture groups tracked: 12
 Celtic pop locations updated: 726
 Celtic location template entries updated: 726
 Mycenaean League tag references normalized: 0

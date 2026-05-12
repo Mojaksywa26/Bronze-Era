@@ -16,10 +16,6 @@ Modified existing tags:
 LEPON SANTN SOTIA VELIO VOLTE
 
 Normalized tags:
-- CAMU1 -> CMNNI
-- MENT1 -> METSO
-- SENO1 -> SENES
-- SUES1 -> SUESO
 - ACHAEA -> ACHAE
 - ATHENS -> ATHEN
 - IOLCUS -> IOLC

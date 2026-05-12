@@ -1,567 +1,51 @@
 # Bronze Era Celtic subcultures generated from liste pays.txt.
 # These are archaeological and tribal identities, not centralized states.
 
-subinates = {
+brenai = {
 	language = celtic_bronze_language
-	color = rgb { 90 130 142 }
+	color = rgb { 126 123 150 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		lepontic
+		germanic_celtic
 	}
 }
 
-orobli = {
+venostes = {
 	language = celtic_bronze_language
-	color = rgb { 141 143 172 }
+	color = rgb { 122 136 125 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		lepontic
+		germanic_celtic
 	}
 }
 
-ingaumi = {
+aresaces = {
 	language = celtic_bronze_language
-	color = rgb { 70 129 94 }
+	color = rgb { 118 149 155 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		ligurian
+		germanic_celtic
 	}
 }
 
-sabates = {
+ubi = {
 	language = celtic_bronze_language
-	color = rgb { 121 142 124 }
+	color = rgb { 114 162 130 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		ligurian
-	}
-}
-
-tigulin = {
-	language = celtic_bronze_language
-	color = rgb { 117 155 99 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-gennates = {
-	language = celtic_bronze_language
-	color = rgb { 113 168 129 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-lapcini = {
-	language = celtic_bronze_language
-	color = rgb { 109 181 104 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-statielli = {
-	language = celtic_bronze_language
-	color = rgb { 105 139 134 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-pollentini = {
-	language = celtic_bronze_language
-	color = rgb { 101 152 109 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-internelli = {
-	language = celtic_bronze_language
-	color = rgb { 97 165 139 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-epanterri = {
-	language = celtic_bronze_language
-	color = rgb { 93 178 114 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-suelteri = {
-	language = celtic_bronze_language
-	color = rgb { 89 136 144 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-lagami = {
-	language = celtic_bronze_language
-	color = rgb { 85 149 119 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-verucini = {
-	language = celtic_bronze_language
-	color = rgb { 81 162 94 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		ligurian
-	}
-}
-
-uelauii = {
-	language = celtic_bronze_language
-	color = rgb { 85 144 56 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-sardonnes = {
-	language = celtic_bronze_language
-	color = rgb { 136 157 86 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-atacini = {
-	language = celtic_bronze_language
-	color = rgb { 132 170 61 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-bebrykes = {
-	language = celtic_bronze_language
-	color = rgb { 128 183 91 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-garumni = {
-	language = celtic_bronze_language
-	color = rgb { 124 196 66 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-galli = {
-	language = celtic_bronze_language
-	color = rgb { 120 154 96 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-suessetani = {
-	language = celtic_bronze_language
-	color = rgb { 116 167 71 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-sotia = {
-	language = celtic_bronze_language
-	color = rgb { 112 180 101 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-petrocoriis = {
-	language = celtic_bronze_language
-	color = rgb { 108 193 76 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-lemovices = {
-	language = celtic_bronze_language
-	color = rgb { 104 151 106 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-andecamulenses = {
-	language = celtic_bronze_language
-	color = rgb { 100 164 81 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-bituriges_cubi = {
-	language = celtic_bronze_language
-	color = rgb { 96 177 56 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-aicubiduoi = {
-	language = celtic_bronze_language
-	color = rgb { 92 190 86 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-lingones = {
-	language = celtic_bronze_language
-	color = rgb { 88 148 61 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-mandubio = {
-	language = celtic_bronze_language
-	color = rgb { 139 161 91 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-bellouaci = {
-	language = celtic_bronze_language
-	color = rgb { 135 174 66 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-suessiones = {
-	language = celtic_bronze_language
-	color = rgb { 131 187 96 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-tricasses = {
-	language = celtic_bronze_language
-	color = rgb { 127 145 71 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-silvanectes = {
-	language = celtic_bronze_language
-	color = rgb { 123 158 101 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-meldi = {
-	language = celtic_bronze_language
-	color = rgb { 119 171 76 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-catuwellaunoi = {
-	language = celtic_bronze_language
-	color = rgb { 115 184 106 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-remi = {
-	language = celtic_bronze_language
-	color = rgb { 111 197 81 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-setuei = {
-	language = celtic_bronze_language
-	color = rgb { 107 155 56 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-viromandu = {
-	language = celtic_bronze_language
-	color = rgb { 103 168 86 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-parisi = {
-	language = celtic_bronze_language
-	color = rgb { 99 181 61 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-aulerci = {
-	language = celtic_bronze_language
-	color = rgb { 95 194 91 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-carnutes = {
-	language = celtic_bronze_language
-	color = rgb { 91 152 66 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-senones = {
-	language = celtic_bronze_language
-	color = rgb { 87 165 96 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-aulerci_cenomani = {
-	language = celtic_bronze_language
-	color = rgb { 138 178 71 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-turones = {
-	language = celtic_bronze_language
-	color = rgb { 134 191 101 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-aulerci_diablintes = {
-	language = celtic_bronze_language
-	color = rgb { 130 149 76 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-leuci = {
-	language = celtic_bronze_language
-	color = rgb { 126 162 106 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
-	}
-}
-
-mediomateres = {
-	language = celtic_bronze_language
-	color = rgb { 122 175 81 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gaulish
+		germanic_celtic
 	}
 }
 
@@ -697,51 +181,291 @@ caemanar = {
 	}
 }
 
-elisykoi = {
+nerii = {
 	language = celtic_bronze_language
-	color = rgb { 156 98 60 }
+	color = rgb { 67 123 96 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		celtic_phoenician
+		gallaecian
 	}
 }
 
-cantiaci = {
-	language = brittonic_bronze_language
-	color = rgb { 70 104 144 }
+bracari = {
+	language = celtic_bronze_language
+	color = rgb { 118 136 126 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		britannic
+		gallaecian
 	}
 }
 
-regini = {
-	language = brittonic_bronze_language
-	color = rgb { 121 117 174 }
+seurbi = {
+	language = celtic_bronze_language
+	color = rgb { 114 149 101 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		britannic
+		gallaecian
 	}
 }
 
-bibroci = {
-	language = brittonic_bronze_language
-	color = rgb { 117 130 149 }
+grovii = {
+	language = celtic_bronze_language
+	color = rgb { 110 162 131 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		britannic
+		gallaecian
+	}
+}
+
+leuni = {
+	language = celtic_bronze_language
+	color = rgb { 106 175 106 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gallaecian
+	}
+}
+
+quarqueni = {
+	language = celtic_bronze_language
+	color = rgb { 102 133 136 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gallaecian
+	}
+}
+
+baedui = {
+	language = celtic_bronze_language
+	color = rgb { 98 146 111 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gallaecian
+	}
+}
+
+capori = {
+	language = celtic_bronze_language
+	color = rgb { 94 159 141 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gallaecian
+	}
+}
+
+lougei = {
+	language = celtic_bronze_language
+	color = rgb { 90 172 116 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gallaecian
+	}
+}
+
+lemavi = {
+	language = celtic_bronze_language
+	color = rgb { 86 130 146 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gallaecian
+	}
+}
+
+caladoni = {
+	language = celtic_bronze_language
+	color = rgb { 82 143 121 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gallaecian
+	}
+}
+
+oppidani = {
+	language = celtic_bronze_language
+	color = rgb { 115 131 65 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+turdili = {
+	language = celtic_bronze_language
+	color = rgb { 166 144 95 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+bardili = {
+	language = celtic_bronze_language
+	color = rgb { 162 157 70 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+talures = {
+	language = celtic_bronze_language
+	color = rgb { 158 170 100 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+tapori = {
+	language = celtic_bronze_language
+	color = rgb { 154 183 75 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+ilipa = {
+	language = celtic_bronze_language
+	color = rgb { 150 141 105 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+kynetes = {
+	language = celtic_bronze_language
+	color = rgb { 146 154 80 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+turduli_veteres = {
+	language = celtic_bronze_language
+	color = rgb { 142 167 110 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+callaeci = {
+	language = celtic_bronze_language
+	color = rgb { 138 180 85 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+nemetati = {
+	language = celtic_bronze_language
+	color = rgb { 134 138 115 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+araocelenses = {
+	language = celtic_bronze_language
+	color = rgb { 130 151 90 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+seareae = {
+	language = celtic_bronze_language
+	color = rgb { 126 164 65 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
+	}
+}
+
+zoelae = {
+	language = celtic_bronze_language
+	color = rgb { 122 177 95 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lusitanian
 	}
 }
 
@@ -1249,459 +973,783 @@ turduli_artigi = {
 	}
 }
 
-oppidani = {
-	language = celtic_bronze_language
-	color = rgb { 115 131 65 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-turdili = {
-	language = celtic_bronze_language
-	color = rgb { 166 144 95 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-bardili = {
-	language = celtic_bronze_language
-	color = rgb { 162 157 70 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-talures = {
-	language = celtic_bronze_language
-	color = rgb { 158 170 100 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-tapori = {
-	language = celtic_bronze_language
-	color = rgb { 154 183 75 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-ilipa = {
-	language = celtic_bronze_language
-	color = rgb { 150 141 105 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-kynetes = {
-	language = celtic_bronze_language
-	color = rgb { 146 154 80 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-turduli_veteres = {
-	language = celtic_bronze_language
-	color = rgb { 142 167 110 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-callaeci = {
-	language = celtic_bronze_language
-	color = rgb { 138 180 85 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-nemetati = {
-	language = celtic_bronze_language
-	color = rgb { 134 138 115 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-araocelenses = {
-	language = celtic_bronze_language
-	color = rgb { 130 151 90 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-seareae = {
-	language = celtic_bronze_language
-	color = rgb { 126 164 65 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-zoelae = {
-	language = celtic_bronze_language
-	color = rgb { 122 177 95 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		lusitanian
-	}
-}
-
-nerii = {
-	language = celtic_bronze_language
-	color = rgb { 67 123 96 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-bracari = {
-	language = celtic_bronze_language
-	color = rgb { 118 136 126 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-seurbi = {
-	language = celtic_bronze_language
-	color = rgb { 114 149 101 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-grovii = {
-	language = celtic_bronze_language
-	color = rgb { 110 162 131 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-leuni = {
-	language = celtic_bronze_language
-	color = rgb { 106 175 106 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-quarqueni = {
-	language = celtic_bronze_language
-	color = rgb { 102 133 136 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-baedui = {
-	language = celtic_bronze_language
-	color = rgb { 98 146 111 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-capori = {
-	language = celtic_bronze_language
-	color = rgb { 94 159 141 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-lougei = {
-	language = celtic_bronze_language
-	color = rgb { 90 172 116 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-lemavi = {
-	language = celtic_bronze_language
-	color = rgb { 86 130 146 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
-caladoni = {
-	language = celtic_bronze_language
-	color = rgb { 82 143 121 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		gallaecian
-	}
-}
-
 paesici = {
 	language = celtic_bronze_language
-	color = rgb { 58 102 104 }
+	color = rgb { 196 157 108 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 albiones = {
 	language = celtic_bronze_language
-	color = rgb { 109 115 134 }
+	color = rgb { 192 115 83 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 cibarci = {
 	language = celtic_bronze_language
-	color = rgb { 105 128 109 }
+	color = rgb { 188 128 58 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 lapiatinei = {
 	language = celtic_bronze_language
-	color = rgb { 101 141 139 }
+	color = rgb { 184 141 88 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 arrotrebae = {
 	language = celtic_bronze_language
-	color = rgb { 97 154 114 }
+	color = rgb { 180 154 63 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 poemani = {
 	language = celtic_bronze_language
-	color = rgb { 93 112 144 }
+	color = rgb { 176 112 93 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 seurri = {
 	language = celtic_bronze_language
-	color = rgb { 89 125 119 }
+	color = rgb { 172 125 68 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 turmogi = {
 	language = celtic_bronze_language
-	color = rgb { 85 138 149 }
+	color = rgb { 168 138 98 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 vaccaei = {
 	language = celtic_bronze_language
-	color = rgb { 81 151 124 }
+	color = rgb { 164 151 73 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 saelini = {
 	language = celtic_bronze_language
-	color = rgb { 77 109 154 }
+	color = rgb { 160 109 103 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 orniaci = {
 	language = celtic_bronze_language
-	color = rgb { 73 122 129 }
+	color = rgb { 156 122 78 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 coliacini = {
 	language = celtic_bronze_language
-	color = rgb { 69 135 104 }
+	color = rgb { 152 135 108 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 cadabri = {
 	language = celtic_bronze_language
-	color = rgb { 65 148 134 }
+	color = rgb { 148 148 83 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
 	}
 }
 
 cabriangini = {
 	language = celtic_bronze_language
-	color = rgb { 61 106 109 }
+	color = rgb { 144 106 58 }
 	tags = { celtic_gfx western_european_gfx european_gfx }
 	opinions = {
 	}
 	culture_groups = {
 		celtic
-		asturian
+		ibero_celtic
+	}
+}
+
+cantiaci = {
+	language = brittonic_bronze_language
+	color = rgb { 70 104 144 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		britannic
+	}
+}
+
+regini = {
+	language = brittonic_bronze_language
+	color = rgb { 121 117 174 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		britannic
+	}
+}
+
+bibroci = {
+	language = brittonic_bronze_language
+	color = rgb { 117 130 149 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		britannic
+	}
+}
+
+uelauii = {
+	language = celtic_bronze_language
+	color = rgb { 85 144 56 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+sardonnes = {
+	language = celtic_bronze_language
+	color = rgb { 136 157 86 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+atacini = {
+	language = celtic_bronze_language
+	color = rgb { 132 170 61 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+bebrykes = {
+	language = celtic_bronze_language
+	color = rgb { 128 183 91 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+garumni = {
+	language = celtic_bronze_language
+	color = rgb { 124 196 66 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+galli = {
+	language = celtic_bronze_language
+	color = rgb { 120 154 96 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+suessetani = {
+	language = celtic_bronze_language
+	color = rgb { 116 167 71 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+sotia = {
+	language = celtic_bronze_language
+	color = rgb { 112 180 101 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+petrocoriis = {
+	language = celtic_bronze_language
+	color = rgb { 108 193 76 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+lemovices = {
+	language = celtic_bronze_language
+	color = rgb { 104 151 106 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+andecamulenses = {
+	language = celtic_bronze_language
+	color = rgb { 100 164 81 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+bituriges_cubi = {
+	language = celtic_bronze_language
+	color = rgb { 96 177 56 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+aicubiduoi = {
+	language = celtic_bronze_language
+	color = rgb { 92 190 86 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+lingones = {
+	language = celtic_bronze_language
+	color = rgb { 88 148 61 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+mandubio = {
+	language = celtic_bronze_language
+	color = rgb { 139 161 91 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+bellouaci = {
+	language = celtic_bronze_language
+	color = rgb { 135 174 66 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+suessiones = {
+	language = celtic_bronze_language
+	color = rgb { 131 187 96 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+tricasses = {
+	language = celtic_bronze_language
+	color = rgb { 127 145 71 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+silvanectes = {
+	language = celtic_bronze_language
+	color = rgb { 123 158 101 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+meldi = {
+	language = celtic_bronze_language
+	color = rgb { 119 171 76 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+catuwellaunoi = {
+	language = celtic_bronze_language
+	color = rgb { 115 184 106 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+remi = {
+	language = celtic_bronze_language
+	color = rgb { 111 197 81 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+setuei = {
+	language = celtic_bronze_language
+	color = rgb { 107 155 56 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+viromandu = {
+	language = celtic_bronze_language
+	color = rgb { 103 168 86 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+parisi = {
+	language = celtic_bronze_language
+	color = rgb { 99 181 61 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+aulerci = {
+	language = celtic_bronze_language
+	color = rgb { 95 194 91 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+carnutes = {
+	language = celtic_bronze_language
+	color = rgb { 91 152 66 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+senones = {
+	language = celtic_bronze_language
+	color = rgb { 87 165 96 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+aulerci_cenomani = {
+	language = celtic_bronze_language
+	color = rgb { 138 178 71 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+turones = {
+	language = celtic_bronze_language
+	color = rgb { 134 191 101 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+aulerci_diablintes = {
+	language = celtic_bronze_language
+	color = rgb { 130 149 76 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+leuci = {
+	language = celtic_bronze_language
+	color = rgb { 126 162 106 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+mediomateres = {
+	language = celtic_bronze_language
+	color = rgb { 122 175 81 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+elisykoi = {
+	language = celtic_bronze_language
+	color = rgb { 118 188 56 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		gaulish
+	}
+}
+
+ingaumi = {
+	language = celtic_bronze_language
+	color = rgb { 70 129 94 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+sabates = {
+	language = celtic_bronze_language
+	color = rgb { 121 142 124 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+tigulin = {
+	language = celtic_bronze_language
+	color = rgb { 117 155 99 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+gennates = {
+	language = celtic_bronze_language
+	color = rgb { 113 168 129 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+lapcini = {
+	language = celtic_bronze_language
+	color = rgb { 109 181 104 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+statielli = {
+	language = celtic_bronze_language
+	color = rgb { 105 139 134 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+pollentini = {
+	language = celtic_bronze_language
+	color = rgb { 101 152 109 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+internelli = {
+	language = celtic_bronze_language
+	color = rgb { 97 165 139 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+epanterri = {
+	language = celtic_bronze_language
+	color = rgb { 93 178 114 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+suelteri = {
+	language = celtic_bronze_language
+	color = rgb { 89 136 144 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+lagami = {
+	language = celtic_bronze_language
+	color = rgb { 85 149 119 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+verucini = {
+	language = celtic_bronze_language
+	color = rgb { 81 162 94 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		ligurian
+	}
+}
+
+subinates = {
+	language = celtic_bronze_language
+	color = rgb { 90 130 142 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lepontic
+	}
+}
+
+orobli = {
+	language = celtic_bronze_language
+	color = rgb { 141 143 172 }
+	tags = { celtic_gfx western_european_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		celtic
+		lepontic
 	}
 }
 
@@ -1750,53 +1798,5 @@ celegeri = {
 	culture_groups = {
 		celtic
 		balkan_celtic
-	}
-}
-
-brenai = {
-	language = celtic_bronze_language
-	color = rgb { 126 123 150 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		germanic_celtic
-	}
-}
-
-venostes = {
-	language = celtic_bronze_language
-	color = rgb { 122 136 125 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		germanic_celtic
-	}
-}
-
-aresaces = {
-	language = celtic_bronze_language
-	color = rgb { 118 149 155 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		germanic_celtic
-	}
-}
-
-ubi = {
-	language = celtic_bronze_language
-	color = rgb { 114 162 130 }
-	tags = { celtic_gfx western_european_gfx european_gfx }
-	opinions = {
-	}
-	culture_groups = {
-		celtic
-		germanic_celtic
 	}
 }
