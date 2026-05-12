@@ -2,6 +2,10 @@
 # scribal administrations, and organized bronze-working societies.
 starting_technology_level = 3
 
+currency_data = {
+	gold = 200
+}
+
 government = {
 	type = monarchy
 	heir_selection = cognatic_primogeniture

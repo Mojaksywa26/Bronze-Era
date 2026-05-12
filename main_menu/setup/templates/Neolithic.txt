@@ -2,6 +2,10 @@
 # with basic Age 1 knowledge but without palace bureaucracy or urban systems.
 starting_technology_level = 1
 
+currency_data = {
+	gold = 100
+}
+
 government = {
 	type = tribe
 	heir_selection = tribal_oldest_male
