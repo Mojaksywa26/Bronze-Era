@@ -1,0 +1,34 @@
+# Advanced Bronze Age states: palace kingdoms, temple economies, port cities,
+# scribal administrations, and organized bronze-working societies.
+starting_technology_level = 3
+
+government = {
+	type = monarchy
+	heir_selection = cognatic_primogeniture
+
+	centralization_vs_decentralization = 0
+	traditionalist_vs_innovative = -35
+	spiritualist_vs_humanist = -55
+	aristocracy_vs_plutocracy = -45
+	serfdom_vs_free_subjects = 25
+	mercantilism_vs_free_trade = 0
+	belligerent_vs_conciliatory = 10
+	quality_vs_quantity = 0
+	offensive_vs_defensive = 5
+	land_vs_naval = -15
+	capital_economy_vs_traditional_economy = 45
+	individualism_vs_communalism = 25
+	outward_vs_inward = 0
+
+	parliament = {
+		parliament_type = assembly
+	}
+
+	laws = {
+		marriage_law = monogamous_marriage
+		heir_religion_law = heir_same_religion
+		distribution_of_power_law = dop_traditional_distribution_of_power
+		immigration_law = open_borders_law
+		coin_laws = gold_and_silver_coins
+	}
+}
