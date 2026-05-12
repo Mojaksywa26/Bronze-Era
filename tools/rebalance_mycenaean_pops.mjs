@@ -17,75 +17,75 @@ const leagueLocations = [
 const profiles = {
   great_mycenae: {
     label: "Tier 1 great palace - Mycenae/Tiryns sphere",
-    pops: { nobles: 0.150, clergy: 0.090, burghers: 0.180, peasants: 2.350 }
+    pops: { nobles: 0.170, clergy: 0.070, burghers: 0.210, peasants: 3.350 }
   },
   great_thebes: {
     label: "Tier 1 great palace - Thebes",
-    pops: { nobles: 0.130, clergy: 0.080, burghers: 0.150, peasants: 2.000 }
+    pops: { nobles: 0.160, clergy: 0.070, burghers: 0.190, peasants: 3.180 }
   },
   great_athens: {
     label: "Tier 1 palace - Athens, important but still pre-classical",
-    pops: { nobles: 0.060, clergy: 0.040, burghers: 0.090, peasants: 1.370 }
+    pops: { nobles: 0.095, clergy: 0.045, burghers: 0.100, peasants: 2.160 }
   },
   great_pylos: {
     label: "Tier 1 great palace - Pylos agricultural administration",
-    pops: { nobles: 0.100, clergy: 0.070, burghers: 0.100, peasants: 1.650 }
+    pops: { nobles: 0.140, clergy: 0.060, burghers: 0.130, peasants: 2.670 }
   },
   great_sparta: {
     label: "Tier 1 palace - Sparta region, warrior aristocracy",
-    pops: { nobles: 0.090, clergy: 0.040, burghers: 0.030, peasants: 1.370 }
+    pops: { nobles: 0.130, clergy: 0.040, burghers: 0.070, peasants: 2.360 }
   },
   great_rhodes: {
     label: "Tier 1 maritime palace - Rhodes",
-    pops: { nobles: 0.060, clergy: 0.040, burghers: 0.150, peasants: 1.280 }
+    pops: { nobles: 0.080, clergy: 0.040, burghers: 0.160, peasants: 1.720 }
   },
   secondary_port_large: {
     label: "Tier 2 important port and regional center",
-    pops: { nobles: 0.035, clergy: 0.025, burghers: 0.035, peasants: 0.815 }
+    pops: { nobles: 0.060, clergy: 0.035, burghers: 0.065, peasants: 1.940 }
   },
   secondary_port: {
     label: "Tier 2 maritime center",
-    pops: { nobles: 0.025, clergy: 0.018, burghers: 0.025, peasants: 0.645 }
+    pops: { nobles: 0.045, clergy: 0.025, burghers: 0.050, peasants: 1.430 }
   },
   secondary_inland: {
     label: "Tier 2 inland agricultural center",
-    pops: { nobles: 0.035, clergy: 0.020, burghers: 0.020, peasants: 0.820 }
+    pops: { nobles: 0.065, clergy: 0.030, burghers: 0.035, peasants: 1.870 }
   },
   secondary_town: {
     label: "Tier 2 regional town",
-    pops: { nobles: 0.030, clergy: 0.020, burghers: 0.025, peasants: 0.660 }
+    pops: { nobles: 0.050, clergy: 0.025, burghers: 0.040, peasants: 1.585 }
   },
   minor_palace: {
     label: "Tier 3 minor palace or heroic center",
-    pops: { nobles: 0.030, clergy: 0.020, burghers: 0.020, peasants: 0.530 }
+    pops: { nobles: 0.045, clergy: 0.025, burghers: 0.035, peasants: 1.395 }
   },
   rural_center: {
     label: "Tier 3 rural center",
-    pops: { nobles: 0.010, clergy: 0.006, burghers: 0.004, peasants: 0.342 }
+    pops: { nobles: 0.020, clergy: 0.010, burghers: 0.010, peasants: 1.460 }
   },
   rural_port: {
     label: "Tier 3 small port",
-    pops: { nobles: 0.006, clergy: 0.004, burghers: 0.008, peasants: 0.264 }
+    pops: { nobles: 0.014, clergy: 0.007, burghers: 0.014, peasants: 1.115 }
   },
   rural_agricultural: {
     label: "Tier 3 agricultural village",
-    pops: { nobles: 0.008, clergy: 0.006, peasants: 0.320 }
+    pops: { nobles: 0.016, clergy: 0.009, burghers: 0.004, peasants: 1.471 }
   },
   rural: {
     label: "Tier 3 rural village",
-    pops: { nobles: 0.006, clergy: 0.004, peasants: 0.220 }
+    pops: { nobles: 0.009, clergy: 0.005, burghers: 0.002, peasants: 0.984 }
   },
   island_small: {
     label: "Tier 3 small island community",
-    pops: { clergy: 0.002, burghers: 0.002, peasants: 0.122 }
+    pops: { nobles: 0.005, clergy: 0.003, burghers: 0.007, peasants: 0.635 }
   },
   island_port: {
     label: "Tier 3 small maritime island port",
-    pops: { nobles: 0.005, clergy: 0.004, burghers: 0.008, peasants: 0.224 }
+    pops: { nobles: 0.012, clergy: 0.007, burghers: 0.018, peasants: 0.963 }
   },
   mountain: {
     label: "Tier 3 sparse mountain or pastoral community",
-    pops: { nobles: 0.003, clergy: 0.002, peasants: 0.120 }
+    pops: { nobles: 0.005, clergy: 0.003, burghers: 0.001, peasants: 0.741 }
   }
 };
 
@@ -278,15 +278,16 @@ function pct(part, total) {
 }
 
 const lines = [];
-const initialBaselineTotal = 96.930; // First pass baseline: 75 original locations plus untouched nafpaktos.
 lines.push("Mycenaean population rebalance report");
 lines.push("====================================");
 lines.push("");
 lines.push(`Locations rebalanced: ${leagueLocations.length}`);
-lines.push(`Initial pre-rebalance pop size estimate: ${fmt(initialBaselineTotal)}`);
+const historicalTargetTotal = 100.000; // Approx. 1,000,000 inhabitants if one pop-size point is about 10,000 people.
+lines.push(`Historical target pop size estimate: ${fmt(historicalTargetTotal)} (~1,000,000 inhabitants)`);
 lines.push(`Current input pop size before this run: ${fmt(oldGrand.total)}`);
 lines.push(`New total pop size: ${fmt(newGrand.total)}`);
-lines.push(`Reduction from initial estimate: ${fmt(initialBaselineTotal - newGrand.total)} (${pct(initialBaselineTotal - newGrand.total, initialBaselineTotal)})`);
+lines.push(`Change from current input: ${fmt(newGrand.total - oldGrand.total)} (${pct(newGrand.total - oldGrand.total, oldGrand.total)})`);
+lines.push(`Distance from historical target: ${fmt(newGrand.total - historicalTargetTotal)} (${pct(newGrand.total - historicalTargetTotal, historicalTargetTotal)})`);
 lines.push("");
 lines.push("New social structure:");
 for (const type of ["peasants", "nobles", "clergy", "burghers", "tribesmen", "slaves"]) {

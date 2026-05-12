@@ -4,9 +4,9 @@ import path from "node:path";
 const root = path.resolve(".");
 
 const paths = {
-  modifiedPainter: "tools/location_painter_inputs/modified_00_location_painter.txt",
-  manualPainter: "tools/location_painter_inputs/manual_new_bronze_countries.txt",
-  originalPainter: "tools/location_painter_inputs/original_bronze_era_control_core_location_painter_assignments.txt",
+  modifiedPainter: "in_game/setup/location_painter/00_location_painter.txt",
+  manualPainter: "tools/location_painter_inputs/manual_new_bronze_countries.disabled",
+  originalPainter: "../intal.txt",
   countries: "main_menu/setup/start/10_countries.txt",
   defaultCountries: "in_game/setup/countries/_default.txt",
   localizationFiles: [
@@ -17,7 +17,15 @@ const paths = {
   locationTemplates: "in_game/map_data/location_templates.txt",
   mapDefinitions: "in_game/map_data/definitions.txt",
   culturesDir: "in_game/common/cultures",
+  cultureGroupsDir: "in_game/common/culture_groups",
   religionsDir: "in_game/common/religions",
+  internationalOrganizations: "main_menu/setup/start/15_international_organizations.txt",
+  celticCultures: "in_game/common/cultures/zz_bronze_celtic_cultures.txt",
+  celticCultureGroups: "in_game/common/culture_groups/zz_bronze_celtic_culture_groups.txt",
+  celticLocalizationFiles: [
+    "localization/english/zz_bronze_celtic_cultures_l_english.yml",
+    "main_menu/localization/english/zz_bronze_celtic_cultures_l_english.yml",
+  ],
   normalizedPainter: "in_game/setup/location_painter/00_location_painter.txt",
   outputDir: "tools/bronze_country_integration",
 };
@@ -32,6 +40,23 @@ const reportPaths = {
   explorationReport: `${paths.outputDir}/country_exploration_regions_report.txt`,
   summary: `${paths.outputDir}/bronze_country_integration_report.txt`,
 };
+
+const dynamicTagNames = new Map();
+const dynamicTagAdjectives = new Map();
+const tagCache = new Map();
+const tagOwners = new Map();
+let localizationNameCache = null;
+
+const greekTagReplacements = new Map([
+  ["ACHAEA", "ACHAE"],
+  ["ATHENS", "ATHEN"],
+  ["IOLCUS", "IOLC"],
+  ["IOLCU", "IOLC"],
+  ["ORCHOMENUS", "ORCHO"],
+  ["RHODES", "RHODE"],
+  ["SPARTA", "SPART"],
+  ["THEBES", "THEBE"],
+]);
 
 function abs(rel) {
   return path.join(root, rel);
@@ -112,10 +137,12 @@ function parsePainterFile(rel, source) {
     const entryBody = body.slice(open + 1, close);
     const color = wordsFromBlock(entryBody, "color").map(Number).filter((value) => Number.isFinite(value)).slice(0, 3);
     const locations = wordsFromBlock(entryBody, "locations");
+    const tag = normalizeTag(rawTag);
+    rememberDisplayName(rawTag, tag);
     assignments.push({
       source,
       rawTag,
-      tag: normalizeTag(rawTag),
+      tag,
       color: color.length === 3 ? color : [128, 128, 128],
       locations,
       order: assignments.length,
@@ -125,9 +152,92 @@ function parsePainterFile(rel, source) {
   return assignments;
 }
 
+function normalizeNameKey(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[_-]+/g, " ")
+    .replace(/[^A-Za-z0-9 ]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+}
+
+function displayNameFromRaw(rawTag) {
+  const clean = normalizeNameKey(rawTag);
+  if (!clean) return rawTag;
+  return clean
+    .toLowerCase()
+    .split(" ")
+    .map((part) => {
+      if (part === "cubi") return "Cubi";
+      return part.charAt(0).toUpperCase() + part.slice(1);
+    })
+    .join(" ");
+}
+
+function rememberDisplayName(rawTag, tag) {
+  if (!tag || dynamicTagNames.has(tag)) return;
+  const localized = localizedNameForTag(rawTag.trim().toUpperCase());
+  if (localized) {
+    dynamicTagNames.set(tag, localized);
+    return;
+  }
+  const name = displayNameFromRaw(rawTag);
+  if (name && !/^[A-Z0-9_]{1,5}$/.test(rawTag.trim())) dynamicTagNames.set(tag, name);
+}
+
+function localizedTagNames() {
+  if (localizationNameCache) return localizationNameCache;
+  localizationNameCache = new Map();
+  const text = readFirstExisting(paths.localizationFiles, "");
+  for (const match of text.matchAll(/^\s*([A-Z0-9_]+):\s*"([^"]+)"/gm)) {
+    localizationNameCache.set(match[1], match[2]);
+  }
+  return localizationNameCache;
+}
+
+function localizedNameForTag(tag) {
+  return localizedTagNames().get(tag) || null;
+}
+
+function acronymTag(clean) {
+  const parts = clean.split("_").filter(Boolean);
+  if (parts.length > 1) {
+    const firstLetters = parts.map((part) => part[0]).join("");
+    const tail = parts[parts.length - 1].slice(0, Math.max(0, 5 - firstLetters.length));
+    return `${firstLetters}${tail}`.slice(0, 5);
+  }
+  return clean.slice(0, 5);
+}
+
+function uniqueTagFor(clean, base) {
+  if (tagCache.has(clean)) return tagCache.get(clean);
+  let candidate = base.slice(0, 5);
+  if (!candidate) candidate = "TAG";
+  let suffix = 1;
+  while (tagOwners.has(candidate) && tagOwners.get(candidate) !== clean) {
+    const text = String(suffix);
+    candidate = `${base.slice(0, Math.max(1, 5 - text.length))}${text}`.slice(0, 5);
+    suffix += 1;
+  }
+  tagOwners.set(candidate, clean);
+  tagCache.set(clean, candidate);
+  return candidate;
+}
+
 function normalizeTag(rawTag) {
-  const clean = rawTag.trim().replace(/\s+/g, "_").replace(/[^A-Za-z0-9_]/g, "_").toUpperCase();
+  const clean = rawTag
+    .trim()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, "_")
+    .replace(/[^A-Za-z0-9_]/g, "_")
+    .replace(/_+/g, "_")
+    .replace(/^_|_$/g, "")
+    .toUpperCase();
   const tagOverrides = new Map([
+    ...greekTagReplacements,
     ["ABRINCATES", "ABRIN"],
     ["AEQUIAN", "AEQUI"],
     ["ALLOBROGES", "ALLOB"],
@@ -196,9 +306,31 @@ function normalizeTag(rawTag) {
     ["VOLQUES_ARECOMIQUES", "VOLAR"],
     ["VOLQUES_TECTOSAGES", "VOLTE"],
     ["VOLSCIAN", "VOLSC"],
+    ["CAMUNNI", "CMNNI"],
+    ["CAMU1", "CMNNI"],
+    ["MENTESONI", "METSO"],
+    ["MENT1", "METSO"],
+    ["SENONES", "SENES"],
+    ["SENO1", "SENES"],
+    ["SUESSIONES", "SUESO"],
+    ["SUES1", "SUESO"],
+    ["BITURIGES_CUBI", "BITCU"],
+    ["AULERCI_CENOMANI", "ALCEN"],
+    ["AULERCI_DIABLINTES", "ALDIA"],
+    ["TURDULI_BUDANI", "TUBUD"],
+    ["TURDULI_DIPONI", "TUDIP"],
+    ["TURDULI_SOSIPONI", "TUSOS"],
+    ["TURDULI_ARTIGI", "TUART"],
+    ["TURDULI_VETERES", "TUVET"],
   ]);
-  if (tagOverrides.has(clean)) return tagOverrides.get(clean);
-  return clean;
+  if (tagOverrides.has(clean)) {
+    const tag = tagOverrides.get(clean);
+    tagCache.set(clean, tag);
+    if (!tagOwners.has(tag)) tagOwners.set(tag, clean);
+    return tag;
+  }
+  if (/^[A-Z0-9_]{1,5}$/.test(clean)) return uniqueTagFor(clean, clean);
+  return uniqueTagFor(clean, acronymTag(clean));
 }
 
 function parseLocationTemplateIdentities() {
@@ -271,6 +403,237 @@ function parseTopLevelDefinitionKeys(relDir) {
   return keys;
 }
 
+function parseTopLevelDefinitionKeysExcept(relDir, excludedRelPaths) {
+  const excluded = new Set(excludedRelPaths.map((rel) => path.normalize(rel)));
+  const keys = new Set();
+  for (const file of listFilesRecursive(relDir)) {
+    if (excluded.has(path.normalize(file))) continue;
+    const text = readText(file).replace(/#.*$/gm, "");
+    const re = /^([A-Za-z0-9_]+)\s*=\s*\{/gm;
+    let match;
+    while ((match = re.exec(text))) keys.add(match[1]);
+  }
+  return keys;
+}
+
+const celticBranches = [
+  {
+    id: "lepontic",
+    name: "Lepontic",
+    genericCulture: "lepontic",
+    religion: "gaulish_pagan",
+    language: "celtic_bronze_language",
+    color: [112, 152, 164],
+    cultures: ["SUBINATES", "OROBLI"],
+  },
+  {
+    id: "ligurian",
+    name: "Ligurian",
+    genericCulture: "ligurian",
+    religion: "gaulish_pagan",
+    language: "celtic_bronze_language",
+    color: [92, 151, 116],
+    cultures: ["INGAUMI", "SABATES", "TIGULIN", "GENNATES", "LAPCINI", "STATIELLI", "POLLENTINI", "INTERNELLI", "EPANTERRI", "SUELTERI", "LAGAMI", "VERUCINI"],
+  },
+  {
+    id: "gaulish",
+    name: "Gaulish",
+    genericCulture: "gaulish",
+    religion: "gaulish_pagan",
+    language: "celtic_bronze_language",
+    color: [107, 166, 78],
+    cultures: ["UELAUII", "SARDONNES", "ATACINI", "BEBRYKES", "GARUMNI", "GALLI", "SUESSETANI", "SOTIA", "PETROCORIIS", "LEMOVICES", "ANDECAMULENSES", "BITURIGES CUBI", "AICUBIDUOI", "LINGONES", "MANDUBIO", "BELLOUACI", "SUESSIONES", "TRICASSES", "SILVANECTES", "MELDI", "CATUWELLAUNOI", "REMI", "SETUEI", "VIROMANDU", "PARISI", "AULERCI", "CARNUTES", "SENONES", "AULERCI CENOMANI", "TURONES", "AULERCI DIABLINTES", "LEUCI", "MEDIOMATERES"],
+  },
+  {
+    id: "belgica",
+    name: "Belgica",
+    genericCulture: "gaulish",
+    religion: "gaulish_pagan",
+    language: "celtic_bronze_language",
+    color: [88, 144, 176],
+    cultures: ["MENAPII", "NERVII", "MORINI", "ATREBATES", "AMBIANI", "ADUATUCI", "EBURONES", "CAEROSI", "TREWEROI", "TEUCOR", "CAEMANAR"],
+  },
+  {
+    id: "celtic_phoenician",
+    name: "Celtic Phoenician",
+    genericCulture: "gaulish",
+    religion: "phoenician",
+    language: "celtic_bronze_language",
+    color: [178, 120, 82],
+    cultures: ["ELISYKOI"],
+  },
+  {
+    id: "britannic",
+    name: "Britannic",
+    genericCulture: "britannic",
+    religion: "britannic_pagan",
+    language: "brittonic_bronze_language",
+    color: [92, 126, 166],
+    cultures: ["CANTIACI", "REGINI", "BIBROCI"],
+  },
+  {
+    id: "ibero_celtic",
+    name: "Ibero-Celtic",
+    genericCulture: "celtiberian",
+    religion: "iberian_pagan",
+    language: "celtic_bronze_language",
+    color: [166, 128, 80],
+    cultures: ["VADRULI", "CARISTII", "AUTRIGONES", "CONSGI", "CONCANI", "LUSONES", "TITTII", "AREVACI", "CAUCI", "VETTONES", "MIROBRIGENSES", "CELTICI", "CONI", "IREUCUTIONI", "BLETONESSI", "ARUNDA", "ANTICARIA", "URGAPA", "MENTESONI", "URSO", "ACINIPPO", "EPORA", "KARTUBA", "ONUBA", "IBOLCANI", "PALANTI", "TURDULI_BUDANI", "TURDULI_DIPONI", "CALONTIENES", "COERENSES", "CAMAOLENSES", "VOLTICIANI", "LOBETANI", "BELLI", "URACI", "CRATISTII", "OLCADES", "MENTESANI", "VENATISOCI", "ACCIOCI", "TURDULI_SOSIPONI", "TURDULI_ARTIGI"],
+  },
+  {
+    id: "lusitanian_branch",
+    groupId: "lusitanian",
+    name: "Lusitanian",
+    genericCulture: "lusitanian",
+    religion: "lusitanian_pagan",
+    language: "celtic_bronze_language",
+    color: [137, 153, 87],
+    cultures: ["OPPIDANI", "TURDILI", "BARDILI", "TALURES", "TAPORI", "ILIPA", "KYNETES", "TURDULI_VETERES", "CALLAECI", "NEMETATI", "ARAOCELENSES", "SEAREAE", "ZOELAE"],
+  },
+  {
+    id: "gallaecian",
+    name: "Gallaecian",
+    genericCulture: "lusitanian",
+    religion: "lusitanian_pagan",
+    language: "celtic_bronze_language",
+    color: [89, 145, 118],
+    cultures: ["NERII", "BRACARI", "SEURBI", "GROVII", "LEUNI", "QUARQUENI", "BAEDUI", "CAPORI", "LOUGEI", "LEMAVI", "CALADONI"],
+  },
+  {
+    id: "asturian",
+    name: "Asturian",
+    genericCulture: "celtiberian",
+    religion: "iberian_pagan",
+    language: "celtic_bronze_language",
+    color: [80, 124, 126],
+    cultures: ["PAESICI", "ALBIONES", "CIBARCI", "LAPIATINEI", "ARROTREBAE", "POEMANI", "SEURRI", "TURMOGI", "VACCAEI", "SAELINI", "ORNIACI", "COLIACINI", "CADABRI", "CABRIANGINI"],
+  },
+  {
+    id: "balkan_celtic",
+    name: "Balkan Celtic",
+    genericCulture: "gaulish",
+    religion: "gaulish_pagan",
+    language: "celtic_bronze_language",
+    color: [128, 114, 166],
+    cultures: ["TYLE", "DISCODUARTERAE", "TIMACHI", "CELEGERI"],
+  },
+  {
+    id: "germanic_celtic",
+    name: "Germanic Celtic",
+    genericCulture: "gaulish",
+    religion: "gaulish_pagan",
+    language: "celtic_bronze_language",
+    color: [97, 132, 142],
+    cultures: ["CAMUNNI", "BRENAI", "VENOSTES", "ARESACES", "UBI"],
+  },
+];
+
+const celticCultureByName = new Map();
+for (const branch of celticBranches) {
+  const groupId = branch.groupId || branch.id;
+  for (const cultureName of branch.cultures) {
+    const id = normalizeCultureId(cultureName);
+    celticCultureByName.set(normalizeNameKey(cultureName), {
+      id,
+      name: displayNameFromRaw(cultureName),
+      branch: groupId,
+      branchName: branch.name,
+      genericCulture: branch.genericCulture,
+      religion: branch.religion,
+      language: branch.language,
+      color: branch.color,
+    });
+  }
+}
+
+function normalizeCultureId(name) {
+  return normalizeNameKey(name).toLowerCase().replace(/\s+/g, "_");
+}
+
+function colorShift(color, index) {
+  return color.map((value, channel) => {
+    const shifted = value + ((index * (channel + 3) * 17) % 55) - 22;
+    return Math.max(35, Math.min(225, shifted));
+  });
+}
+
+function celticIdentityForAssignment(assignment) {
+  const candidates = [
+    assignment.rawTag,
+    assignment.tag,
+    dynamicTagNames.get(assignment.tag),
+    localizedNameForTag(assignment.tag),
+    titleFromTag(assignment.tag),
+  ].filter(Boolean);
+  for (const candidate of candidates) {
+    const hit = celticCultureByName.get(normalizeNameKey(candidate));
+    if (hit) return hit;
+  }
+  return null;
+}
+
+function writeCelticCultureFiles() {
+  const existingCultures = parseTopLevelDefinitionKeysExcept(paths.culturesDir, [paths.celticCultures]);
+  const existingGroups = parseTopLevelDefinitionKeysExcept(paths.cultureGroupsDir, [paths.celticCultureGroups]);
+  const groupIds = ["celtic", ...celticBranches.map((branch) => branch.groupId || branch.id)];
+  const groupLines = [
+    "# Bronze Era Celtic culture hierarchy generated from liste pays.txt.",
+    "",
+  ];
+  for (const groupId of orderedUnique(groupIds)) {
+    if (!existingGroups.has(groupId)) {
+      groupLines.push(`${groupId} = {`);
+      groupLines.push("}");
+      groupLines.push("");
+    }
+  }
+  writeText(paths.celticCultureGroups, groupLines.join("\n"));
+
+  const cultureLines = [
+    "# Bronze Era Celtic subcultures generated from liste pays.txt.",
+    "# These are archaeological and tribal identities, not centralized states.",
+    "",
+  ];
+  let generated = 0;
+  for (const branch of celticBranches) {
+    const groupId = branch.groupId || branch.id;
+    branch.cultures.forEach((cultureName, index) => {
+      const id = normalizeCultureId(cultureName);
+      if (existingCultures.has(id)) return;
+      const color = colorShift(branch.color, index);
+      cultureLines.push(`${id} = {`);
+      cultureLines.push(`\tlanguage = ${branch.language}`);
+      cultureLines.push(`\tcolor = rgb { ${color.join(" ")} }`);
+      cultureLines.push("\ttags = { celtic_gfx western_european_gfx european_gfx }");
+      cultureLines.push("\topinions = {");
+      cultureLines.push("\t}");
+      cultureLines.push("\tculture_groups = {");
+      cultureLines.push("\t\tceltic");
+      cultureLines.push(`\t\t${groupId}`);
+      cultureLines.push("\t}");
+      cultureLines.push("}");
+      cultureLines.push("");
+      generated += 1;
+    });
+  }
+  writeText(paths.celticCultures, cultureLines.join("\n"));
+
+  const locLines = ["l_english:"];
+  for (const groupId of orderedUnique(groupIds)) {
+    const branch = celticBranches.find((item) => (item.groupId || item.id) === groupId);
+    const name = groupId === "celtic" ? "Celtic" : branch?.name || displayNameFromRaw(groupId);
+    locLines.push(` ${groupId}: "${name}"`);
+  }
+  for (const [key, info] of [...celticCultureByName.entries()].sort((a, b) => a[1].id.localeCompare(b[1].id))) {
+    void key;
+    locLines.push(` ${info.id}: "${info.name}"`);
+    locLines.push(` ${info.id}_ADJ: "${adjectiveFromName(info.name)}"`);
+  }
+  locLines.push("");
+  for (const rel of paths.celticLocalizationFiles) writeText(rel, locLines.join("\n"));
+  return { generated, groups: orderedUnique(groupIds).length };
+}
+
 function rankedWeights(weights) {
   return [...weights.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 }
@@ -299,19 +662,27 @@ function historicalIdentityOverride(tag, validCultures, validReligions) {
     ["0001G", { culture: "mycenaean", religion: "mycenaean" }],
     ["0002G", { culture: "upper_egyptian", religion: "kemetic" }],
     ["0003G", { culture: "hittite", religion: "hittite" }],
+    ["ACHAE", { culture: "mycenaean", religion: "mycenaean" }],
     ["ACHAEA", { culture: "mycenaean", religion: "mycenaean" }],
+    ["ATHEN", { culture: "mycenaean", religion: "mycenaean" }],
     ["ATHENS", { culture: "mycenaean", religion: "mycenaean" }],
     ["BOSPH", { culture: "thracian", religion: "thracian_pagan" }],
     ["ELAM", { culture: "elamite", religion: "elamite" }],
+    ["IOLC", { culture: "mycenaean", religion: "mycenaean" }],
+    ["IOLCU", { culture: "mycenaean", religion: "mycenaean" }],
     ["IOLCUS", { culture: "mycenaean", religion: "mycenaean" }],
     ["KASSI", { culture: "kassite", religion: "babylonian" }],
     ["LATIN", { culture: "latial", religion: "italic_pagan" }],
     ["NURAG", { culture: "nuragic", religion: "nuragic" }],
+    ["ORCHO", { culture: "mycenaean", religion: "mycenaean" }],
     ["ORCHOMENUS", { culture: "mycenaean", religion: "mycenaean" }],
     ["PYLOS", { culture: "mycenaean", religion: "mycenaean" }],
+    ["RHODE", { culture: "mycenaean", religion: "mycenaean" }],
     ["RHODES", { culture: "mycenaean", religion: "mycenaean" }],
     ["SIROP", { culture: "paeonian", religion: "thracian_pagan" }],
+    ["SPART", { culture: "mycenaean", religion: "mycenaean" }],
     ["SPARTA", { culture: "mycenaean", religion: "mycenaean" }],
+    ["THEBE", { culture: "mycenaean", religion: "mycenaean" }],
     ["THEBES", { culture: "mycenaean", religion: "mycenaean" }],
     ["THRAC", { culture: "thracian", religion: "thracian_pagan" }],
     ["WILUS", { culture: "luwian", religion: "luwian" }],
@@ -356,13 +727,18 @@ function inferCountryIdentity(assignment, popIdentityWeights, locationIdentities
   const rankedCultures = rankedWeights(weights);
   const rankedReligions = rankedWeights(religionWeights);
   const capitalIdentity = locationIdentities.get(assignment.locations[0]);
+  const celticIdentity = celticIdentityForAssignment(assignment);
   const override = historicalIdentityOverride(assignment.tag, validCultures, validReligions);
-  const overrideCulture = override.culture && ((weights.get(override.culture) || 0) > 0 || rankedCultures.length === 0)
+  const celticCulture = celticIdentity && validCultures.has(celticIdentity.id) ? celticIdentity.id : null;
+  const celticReligion = celticIdentity && validReligions.has(celticIdentity.religion) ? celticIdentity.religion : null;
+  const overrideCulture = celticCulture
+    || (override.culture && ((weights.get(override.culture) || 0) > 0 || rankedCultures.length === 0)
     ? override.culture
-    : null;
-  const overrideReligion = override.religion && ((religionWeights.get(override.religion) || 0) > 0 || rankedReligions.length === 0)
+    : null);
+  const overrideReligion = celticReligion
+    || (override.religion && ((religionWeights.get(override.religion) || 0) > 0 || rankedReligions.length === 0)
     ? override.religion
-    : null;
+    : null);
   const primaryCulture = overrideCulture
     || rankedCultures.find(([culture]) => validCultures.has(culture))?.[0]
     || validOverride(capitalIdentity?.culture, validCultures)
@@ -371,7 +747,15 @@ function inferCountryIdentity(assignment, popIdentityWeights, locationIdentities
     || rankedReligions.find(([religion]) => validReligions.has(religion))?.[0]
     || validOverride(capitalIdentity?.religion, validReligions)
     || "gaulish_pagan";
-  const cultures = acceptedCulturesForCountry(primaryCulture, weights);
+  const cultures = celticIdentity
+    ? {
+      accepted: orderedUnique([
+        primaryCulture,
+        validCultures.has(celticIdentity.genericCulture) ? celticIdentity.genericCulture : null,
+      ].filter(Boolean)),
+      tolerated: [],
+    }
+    : acceptedCulturesForCountry(primaryCulture, weights);
   const toleratedReligions = toleratedReligionsForCountry(stateReligion, religionWeights);
   const cultureTotal = sumWeights(weights);
   const religionTotal = sumWeights(religionWeights);
@@ -645,6 +1029,7 @@ function titleFromTag(tag) {
     ["0003G", "Hatti"],
     ["ACRE", "Acre"],
     ["ABRIN", "Abrincates"],
+    ["ACHAE", "Achaea"],
     ["ACHAEA", "Achaea"],
     ["AEDUI", "Aedui"],
     ["AEQUI", "Aequi"],
@@ -662,6 +1047,7 @@ function titleFromTag(tag) {
     ["ARVER", "Arvernes"],
     ["ARWAD", "Arwad"],
     ["ASYRI", "Assyria"],
+    ["ATHEN", "Athens"],
     ["ATHENS", "Athens"],
     ["AZZI", "Azzi"],
     ["BAIOC", "Baiocasses"],
@@ -703,6 +1089,7 @@ function titleFromTag(tag) {
     ["HISTI", "Histrian"],
     ["HYLLO", "Hylloi"],
     ["IAPYG", "Iapygia"],
+    ["IOLC", "Iolcus"],
     ["IOLCUS", "Iolcus"],
     ["IONIA", "Ionia"],
     ["INSUB", "Insubres"],
@@ -735,6 +1122,7 @@ function titleFromTag(tag) {
     ["NORIC", "Norici"],
     ["NURAG", "Nuragic Sardinia"],
     ["OENOT", "Oenotrian"],
+    ["ORCHO", "Orchomenus"],
     ["ORCHOMENUS", "Orchomenus"],
     ["OSCAN", "Osci"],
     ["OSISM", "Osismes"],
@@ -748,6 +1136,7 @@ function titleFromTag(tag) {
     ["PYLOS", "Pylos"],
     ["RAETI", "Raetic"],
     ["REDON", "Redones"],
+    ["RHODE", "Rhodes"],
     ["RHODES", "Rhodes"],
     ["RUTEN", "Rutenes"],
     ["SAHIR", "Sahiriya"],
@@ -766,6 +1155,7 @@ function titleFromTag(tag) {
     ["SIBUZ", "Sibuzates"],
     ["SIROP", "Siropaines"],
     ["SOTIA", "Sotiates"],
+    ["SPART", "Sparta"],
     ["SPICE", "South Picene"],
     ["SPARTA", "Sparta"],
     ["SURRT", "Surrtenia"],
@@ -776,6 +1166,7 @@ function titleFromTag(tag) {
     ["TAULA", "Taulantioi"],
     ["TAURI", "Tauriscian"],
     ["TESPR", "Thesprotia"],
+    ["THEBE", "Thebes"],
     ["THEBES", "Thebes"],
     ["THRAC", "Thrace"],
     ["TORRI", "Torrean Corsica"],
@@ -800,6 +1191,8 @@ function titleFromTag(tag) {
     ["WILUS", "Wilusa"],
   ]);
   if (overrides.has(tag)) return overrides.get(tag);
+  if (dynamicTagNames.has(tag)) return dynamicTagNames.get(tag);
+  if (localizedNameForTag(tag)) return localizedNameForTag(tag);
   return tag
     .toLowerCase()
     .split("_")
@@ -808,20 +1201,38 @@ function titleFromTag(tag) {
 }
 
 function adjectiveFromName(name) {
-  if (/(ian|ean|ic|ite|i|n)$/i.test(name)) return name;
-  return `${name}ian`;
+  const clean = name.trim();
+  const overrides = new Map([
+    ["Bituriges Cubi", "Biturigan"],
+    ["Aulerci Cenomani", "Aulercian"],
+    ["Aulerci Diablintes", "Aulercian"],
+    ["Turduli Budani", "Turdulian"],
+    ["Turduli Diponi", "Turdulian"],
+    ["Turduli Sosiponi", "Turdulian"],
+    ["Turduli Artigi", "Turdulian"],
+    ["Turduli Veteres", "Turdulian"],
+  ]);
+  if (overrides.has(clean)) return overrides.get(clean);
+  if (clean.includes(" ")) return adjectiveFromName(clean.split(/\s+/)[0]);
+  if (/iges$/i.test(clean)) return `${clean.slice(0, -4)}igan`;
+  if (/ci$/i.test(clean)) return `${clean}an`;
+  if (/ii$/i.test(clean)) return `${clean.slice(0, -2)}ian`;
+  if (/i$/i.test(clean)) return `${clean}an`;
+  if (/es$/i.test(clean)) return `${clean.slice(0, -2)}ian`;
+  if (/(ian|ean|ic|ite|an|n)$/i.test(clean)) return clean;
+  return `${clean}ian`;
 }
 
 function adjectiveFromTag(tag, fallbackName) {
   const overrides = new Map([
     ["0001G", "Mycenaean"], ["0002G", "Egyptian"], ["0003G", "Hittite"],
-    ["ABRIN", "Abrincatian"], ["ACHAEA", "Achaean"],
+    ["ABRIN", "Abrincatian"], ["ACHAE", "Achaean"], ["ACHAEA", "Achaean"],
     ["ACRE", "Acrean"], ["AEDUI", "Aeduan"], ["AEQUI", "Aequian"],
     ["AGRIA", "Agrianian"], ["ALASI", "Alashiyan"], ["ALMOP", "Almopian"],
     ["ALLOB", "Allobrogian"], ["ALZIY", "Alziyan"], ["AMBAR", "Ambarrian"],
     ["AMURU", "Amurrite"], ["ANDES", "Andean"], ["ARAX", "Araxian"],
     ["ARDIA", "Ardiaean"], ["ARGAR", "Argaric"], ["ARVER", "Arvernian"],
-    ["ARWAD", "Arwadian"], ["ASYRI", "Assyrian"], ["ATHENS", "Athenian"], ["AZZI", "Azzian"],
+    ["ARWAD", "Arwadian"], ["ASYRI", "Assyrian"], ["ATHEN", "Athenian"], ["ATHENS", "Athenian"], ["AZZI", "Azzian"],
     ["BAIOC", "Baiocassian"], ["BALES", "Balearic"],
     ["BALSA", "Balsan"], ["BERIT", "Beritian"], ["BITUR", "Biturigan"], ["BOLI", "Boian"],
     ["BOSPH", "Bosphoran"], ["BOTTI", "Bottiaean"], ["BOULI", "Boulinian"],
@@ -834,7 +1245,7 @@ function adjectiveFromTag(tag, fallbackName) {
     ["GABAL", "Gabalian"], ["GETAE", "Getic"],
     ["HABIR", "Habiru"], ["HAJAS", "Hayasan"], ["HAPAL", "Hapallan"],
     ["HELVE", "Helvetian"], ["HIERA", "Hierastamnian"], ["HISTI", "Histrian"],
-    ["HYLLO", "Hyllian"], ["IAPYG", "Iapygian"], ["IOLCUS", "Iolcian"], ["IONIA", "Ionian"],
+    ["HYLLO", "Hyllian"], ["IAPYG", "Iapygian"], ["IOLC", "Iolcian"], ["IOLCUS", "Iolcian"], ["IONIA", "Ionian"],
     ["INSUB", "Insubrian"], ["KARKA", "Karkamissan"], ["KASKA", "Kaskan"],
     ["KASSI", "Kassite"], ["KUWAL", "Kuwalian"], ["LAEAE", "Laeaean"],
     ["LATIN", "Latin"], ["LAZPA", "Lazpan"], ["LEPON", "Lepontic"], ["LEXOV", "Lexovian"],
@@ -844,16 +1255,16 @@ function adjectiveFromTag(tag, fallbackName) {
     ["MASA", "Masan"], ["MIRA", "Miran"], ["MITAN", "Mitannian"],
     ["MOESI", "Moesian"], ["MOLOS", "Molossian"], ["NAMNE", "Namnetian"], ["NESTI", "Nestian"],
     ["NPICE", "North Picene"], ["NORIC", "Noric"], ["NURAG", "Nuragic"],
-    ["OENOT", "Oenotrian"], ["ORCHOMENUS", "Orchomenian"], ["OSCAN", "Oscan"], ["OSISM", "Osismian"], ["PAEON", "Paeonian"],
+    ["OENOT", "Oenotrian"], ["ORCHO", "Orchomenian"], ["ORCHOMENUS", "Orchomenian"], ["OSCAN", "Oscan"], ["OSISM", "Osismian"], ["PAEON", "Paeonian"],
     ["PAEOP", "Paeoplaean"], ["PAGON", "Pagonian"], ["PALA", "Palaic"],
     ["PARTH", "Parthan"], ["PICTO", "Pictonian"], ["POTUL", "Potulatensian"], ["PYLOS", "Pylian"], ["RAETI", "Raetian"],
-    ["REDON", "Redonian"], ["RHODES", "Rhodian"], ["RUTEN", "Rutenian"], ["SAHIR", "Sahiriyan"],
+    ["REDON", "Redonian"], ["RHODE", "Rhodian"], ["RHODES", "Rhodian"], ["RUTEN", "Rutenian"], ["SAHIR", "Sahiriyan"],
     ["SALLU", "Salluvian"], ["SANTN", "Santanian"], ["SASU", "Sasuan"], ["SCORD", "Scordiscian"],
     ["SCYTH", "Scythian"], ["SEHA", "Sehan"], ["SEGUS", "Segusiavian"], ["SENOM", "Senomanian"],
     ["SENON", "Senonian"], ["SEQUA", "Sequanian"], ["SIBUZ", "Sibuzatian"], ["SICAN", "Sicanian"], ["SICEL", "Sicel"],
-    ["SIROP", "Siropainian"], ["SOTIA", "Sotiatian"], ["SPARTA", "Spartan"], ["SPICE", "South Picene"], ["SURRT", "Surrtenian"],
+    ["SIROP", "Siropainian"], ["SOTIA", "Sotiatian"], ["SPART", "Spartan"], ["SPARTA", "Spartan"], ["SPICE", "South Picene"], ["SURRT", "Surrtenian"],
     ["SUTU", "Sutuan"], ["TARAN", "Tarantine"], ["TARDL", "Tardellian"], ["TARTS", "Tartessian"],
-    ["TAULA", "Taulantian"], ["TAURI", "Tauriscian"], ["TESPR", "Thesprotian"], ["THEBES", "Theban"],
+    ["TAULA", "Taulantian"], ["TAURI", "Tauriscian"], ["TESPR", "Thesprotian"], ["THEBE", "Theban"], ["THEBES", "Theban"],
     ["THRAC", "Thracian"], ["TORRI", "Torrean"], ["TRPOL", "Tripolitan"],
     ["UGART", "Ugaritic"], ["ULIBA", "Uliban"], ["UMBRI", "Umbrian"],
     ["UNELL", "Unellian"], ["URATU", "Urartian"], ["VASAT", "Vasatian"],
@@ -862,7 +1273,7 @@ function adjectiveFromTag(tag, fallbackName) {
     ["VOCAN", "Vocontian"], ["VOLAR", "Arecomic"], ["VOLTE", "Tectosagian"],
     ["VOLSC", "Volscian"], ["WALAN", "Walan"], ["WILUS", "Wilusan"],
   ]);
-  return overrides.get(tag) || adjectiveFromName(fallbackName);
+  return overrides.get(tag) || dynamicTagAdjectives.get(tag) || adjectiveFromName(fallbackName);
 }
 
 function buildCountryBody(assignment, existingBody, identity, discoveredRegions) {
@@ -1037,6 +1448,79 @@ function writeNormalizedPainter(finalAssignments) {
   lines.push("}");
   lines.push("");
   writeText(paths.normalizedPainter, lines.join("\n"));
+}
+
+function celticLocationTargets(finalAssignments, validCultures, validReligions) {
+  const targets = new Map();
+  for (const assignment of finalAssignments) {
+    const info = celticIdentityForAssignment(assignment);
+    if (!info) continue;
+    if (!validCultures.has(info.id) || !validReligions.has(info.religion)) continue;
+    for (const location of assignment.locations) targets.set(location, info);
+  }
+  return targets;
+}
+
+function updateCelticPopsAndTemplates(finalAssignments, validCultures, validReligions) {
+  const targets = celticLocationTargets(finalAssignments, validCultures, validReligions);
+  if (!targets.size) return { popLocations: 0, templateLocations: 0 };
+
+  let popText = readText(paths.pops);
+  let popUpdates = 0;
+  const popRe = /^([A-Za-z0-9_]+)\s*=\s*\{/gm;
+  let popMatch;
+  const popEdits = [];
+  while ((popMatch = popRe.exec(popText))) {
+    const location = popMatch[1];
+    const target = targets.get(location);
+    if (!target) continue;
+    const open = popText.indexOf("{", popMatch.index);
+    const close = findBlockEnd(popText, open);
+    if (close === -1) continue;
+    const body = popText
+      .slice(open + 1, close)
+      .replace(/\bculture\s*=\s*[A-Za-z0-9_]+/g, `culture = ${target.id}`)
+      .replace(/\breligion\s*=\s*[A-Za-z0-9_]+/g, `religion = ${target.religion}`);
+    popEdits.push([open + 1, close, body]);
+    popUpdates += 1;
+    popRe.lastIndex = close + 1;
+  }
+  for (const [start, end, body] of popEdits.reverse()) {
+    popText = `${popText.slice(0, start)}${body}${popText.slice(end)}`;
+  }
+  writeText(paths.pops, popText);
+
+  let templateText = readText(paths.locationTemplates);
+  let templateUpdates = 0;
+  const lines = templateText.split("\n");
+  for (let i = 0; i < lines.length; i += 1) {
+    const match = /^([A-Za-z0-9_]+)\s*=\s*\{/.exec(lines[i]);
+    if (!match) continue;
+    const target = targets.get(match[1]);
+    if (!target) continue;
+    lines[i] = lines[i]
+      .replace(/\bculture\s*=\s*[A-Za-z0-9_]+/, `culture = ${target.id}`)
+      .replace(/\breligion\s*=\s*[A-Za-z0-9_]+/, `religion = ${target.religion}`);
+    templateUpdates += 1;
+  }
+  templateText = lines.join("\n");
+  writeText(paths.locationTemplates, templateText);
+  return { popLocations: popUpdates, templateLocations: templateUpdates };
+}
+
+function normalizeInternationalOrganizationTags() {
+  if (!fs.existsSync(abs(paths.internationalOrganizations))) return 0;
+  let text = readText(paths.internationalOrganizations);
+  let count = 0;
+  for (const [from, to] of greekTagReplacements.entries()) {
+    const re = new RegExp(`\\b${from}\\b`, "g");
+    text = text.replace(re, () => {
+      count += 1;
+      return to;
+    });
+  }
+  writeText(paths.internationalOrganizations, text);
+  return count;
 }
 
 function writeFinalSetupReviewFile(finalAssignments, identityByTag, explorationByTag) {
@@ -1306,6 +1790,7 @@ function validateFinal(finalAssignments, identityByTag, validCultures, validReli
 }
 
 function main() {
+  const celticDefinitionStats = writeCelticCultureFiles();
   const modifiedAssignments = parsePainterFile(paths.modifiedPainter, "modified");
   const manualAssignments = fs.existsSync(abs(paths.manualPainter))
     ? parsePainterFile(paths.manualPainter, "manual")
@@ -1326,10 +1811,20 @@ function main() {
   upsertDefaultCountryBlocks(merge.finalAssignments, countryStats.obsoleteTags);
   upsertLocalization(merge.finalAssignments, countryStats.obsoleteTags);
   writeNormalizedPainter(merge.finalAssignments);
+  const celticProvinceStats = updateCelticPopsAndTemplates(merge.finalAssignments, validCultures, validReligions);
+  const internationalTagUpdates = normalizeInternationalOrganizationTags();
   writeFinalSetupReviewFile(merge.finalAssignments, identityByTag, explorationByTag);
   const identityStats = writeIdentityReport(merge.finalAssignments, identityByTag, validCultures, validReligions);
   const explorationStats = writeExplorationReport(merge.finalAssignments, explorationByTag, regionData.locationRegions, regionData.definitionsPath);
   writeReports(merge, countryStats, merge.finalAssignments, originalAssignments, sourceAssignments, identityStats, explorationStats);
+  fs.appendFileSync(abs(reportPaths.summary), [
+    `Celtic culture definitions generated: ${celticDefinitionStats.generated}`,
+    `Celtic culture groups tracked: ${celticDefinitionStats.groups}`,
+    `Celtic pop locations updated: ${celticProvinceStats.popLocations}`,
+    `Celtic location template entries updated: ${celticProvinceStats.templateLocations}`,
+    `Mycenaean League tag references normalized: ${internationalTagUpdates}`,
+    "",
+  ].join("\r\n"), "utf8");
   console.log(readText(reportPaths.summary));
 }
 

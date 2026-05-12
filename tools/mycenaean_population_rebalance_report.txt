@@ -2,101 +2,102 @@ Mycenaean population rebalance report
 ====================================
 
 Locations rebalanced: 76
-Initial pre-rebalance pop size estimate: 96.930
-Current input pop size before this run: 34.148
-New total pop size: 34.148
-Reduction from initial estimate: 62.782 (64.8%)
+Historical target pop size estimate: 100.000 (~1,000,000 inhabitants)
+Current input pop size before this run: 99.350
+New total pop size: 99.350
+Change from current input: 0.000 (0.0%)
+Distance from historical target: -0.650 (-0.6%)
 
 New social structure:
-- peasants: 30.898 (90.5%)
-- nobles: 1.224 (3.6%)
-- clergy: 0.808 (2.4%)
-- burghers: 1.218 (3.6%)
+- peasants: 94.419 (95.0%)
+- nobles: 2.025 (2.0%)
+- clergy: 0.995 (1.0%)
+- burghers: 1.911 (1.9%)
 - tribesmen: 0.000 (0.0%)
 - slaves: 0.000 (0.0%)
 
 Location details:
-- amorgos: Tier 3 small island community; cycladic/hellenic; 0.126 -> 0.126 total
-- andravida: Tier 3 rural center; mycenaean/mycenaean; 0.362 -> 0.362 total
-- andritsaina: Tier 3 sparse mountain or pastoral community; arcadian/hellenic; 0.125 -> 0.125 total
-- andros: Tier 3 small island community; cycladic/hellenic; 0.126 -> 0.126 total
-- angelokastron: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.125 -> 0.125 total
-- argos: Tier 1 great palace - Mycenae/Tiryns sphere; mycenaean/mycenaean; 2.770 -> 2.770 total
-- balat: Tier 3 minor palace or heroic center; ionian/hellenic; 0.600 -> 0.600 total
-- bodonitsa: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.125 -> 0.125 total
-- bodrum: Tier 3 small port; ionian/hellenic; 0.282 -> 0.282 total
-- candia: Tier 2 important port and regional center; minoan/minoan; 0.910 -> 0.910 total
-- cephalonia: Tier 3 small maritime island port; mycenaean/mycenaean; 0.241 -> 0.241 total
-- chania: Tier 2 maritime center; minoan/minoan; 0.713 -> 0.713 total
-- chios: Tier 2 maritime center; ionian/hellenic; 0.713 -> 0.713 total
-- corinth: Tier 2 important port and regional center; mycenaean/mycenaean; 0.910 -> 0.910 total
-- damala: Tier 3 agricultural village; mycenaean/mycenaean; 0.334 -> 0.334 total
-- elounda: Tier 3 small port; minoan/minoan; 0.282 -> 0.282 total
-- eretreia: Tier 3 small maritime island port; ionian/hellenic; 0.241 -> 0.241 total
-- ermioni: Tier 3 small port; mycenaean/mycenaean; 0.282 -> 0.282 total
-- farsala: Tier 3 rural center; aeolian/hellenic; 0.362 -> 0.362 total
-- gergeri: Tier 3 agricultural village; minoan/minoan; 0.334 -> 0.334 total
-- hagios_pavlos: Tier 3 rural village; minoan/minoan; 0.230 -> 0.230 total
-- ikaria: Tier 3 small island community; cycladic/hellenic; 0.126 -> 0.126 total
-- karystos: Tier 3 small maritime island port; ionian/hellenic; 0.241 -> 0.241 total
-- karytaina: Tier 3 sparse mountain or pastoral community; arcadian/hellenic; 0.125 -> 0.125 total
-- kleisoura: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.125 -> 0.125 total
-- kos: Tier 3 small port; dorian/hellenic; 0.282 -> 0.282 total
-- kymi: Tier 3 small port; mycenaean/mycenaean; 0.282 -> 0.282 total
-- kythnos: Tier 3 small island community; cycladic/hellenic; 0.126 -> 0.126 total
-- larissa: Tier 2 inland agricultural center; aeolian/hellenic; 0.895 -> 0.895 total
-- leukas: Tier 3 small maritime island port; mycenaean/mycenaean; 0.241 -> 0.241 total
-- loidoriki: Tier 3 sparse mountain or pastoral community; pelasgian/hellenic; 0.125 -> 0.125 total
-- megara: Tier 3 rural center; mycenaean/mycenaean; 0.362 -> 0.362 total
-- milos: Tier 3 small island community; cycladic/hellenic; 0.126 -> 0.126 total
-- mykonos: Tier 3 small island community; cycladic/hellenic; 0.126 -> 0.126 total
-- nafpaktos: Tier 3 small port; mycenaean/mycenaean; 0.282 -> 0.282 total
-- nafplio: Tier 2 regional town; mycenaean/mycenaean; 0.735 -> 0.735 total
-- naxos: Tier 2 maritime center; cycladic/hellenic; 0.713 -> 0.713 total
-- negroponte: Tier 3 small maritime island port; ionian/hellenic; 0.241 -> 0.241 total
-- neopatras: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.125 -> 0.125 total
-- oreos: Tier 3 small port; ionian/hellenic; 0.282 -> 0.282 total
-- pontikokastro: Tier 3 small port; mycenaean/mycenaean; 0.282 -> 0.282 total
-- rethymno: Tier 3 small port; minoan/minoan; 0.282 -> 0.282 total
-- samos: Tier 2 maritime center; ionian/hellenic; 0.713 -> 0.713 total
-- siteia: Tier 3 small port; minoan/minoan; 0.282 -> 0.282 total
-- sporades: Tier 3 small island community; cycladic/hellenic; 0.126 -> 0.126 total
-- stomio: Tier 3 small port; aeolian/hellenic; 0.282 -> 0.282 total
-- thebes: Tier 1 great palace - Thebes; mycenaean/mycenaean; 2.360 -> 2.360 total
-- tripolitsa: Tier 3 rural center; arcadian/hellenic; 0.362 -> 0.362 total
-- tyrnavos: Tier 3 rural center; aeolian/hellenic; 0.362 -> 0.362 total
-- viannos: Tier 3 agricultural village; minoan/minoan; 0.334 -> 0.334 total
-- vonitsa: Tier 3 small port; mycenaean/mycenaean; 0.282 -> 0.282 total
-- xylokastro: Tier 3 small port; mycenaean/mycenaean; 0.282 -> 0.282 total
-- zakynthos: Tier 3 small maritime island port; mycenaean/mycenaean; 0.241 -> 0.241 total
-- zetounion: Tier 3 small port; pelasgian/hellenic; 0.282 -> 0.282 total
-- chalandritsa: Tier 3 rural center; mycenaean/mycenaean; 0.362 -> 0.362 total
-- kalavryta: Tier 3 rural center; arcadian/hellenic; 0.362 -> 0.362 total
-- patras: Tier 2 regional town; mycenaean/mycenaean; 0.735 -> 0.735 total
-- vostitsa: Tier 3 small port; mycenaean/mycenaean; 0.282 -> 0.282 total
-- athens: Tier 1 palace - Athens, important but still pre-classical; ionian/hellenic; 1.560 -> 1.560 total
-- demetrias: Tier 3 minor palace or heroic center; aeolian/hellenic; 0.600 -> 0.600 total
-- atalanti: Tier 3 agricultural village; pelasgian/hellenic; 0.334 -> 0.334 total
-- gravia: Tier 3 sparse mountain or pastoral community; pelasgian/hellenic; 0.125 -> 0.125 total
-- kalamata: Tier 1 great palace - Pylos agricultural administration; mycenaean/mycenaean; 1.920 -> 1.920 total
-- kyparissia: Tier 3 rural center; mycenaean/mycenaean; 0.362 -> 0.362 total
-- leuktron: Tier 3 agricultural village; mycenaean/mycenaean; 0.334 -> 0.334 total
-- modon: Tier 3 small port; mycenaean/mycenaean; 0.282 -> 0.282 total
-- karpathos: Tier 3 small island community; dorian/hellenic; 0.126 -> 0.126 total
-- rodos: Tier 1 maritime palace - Rhodes; dorian/hellenic; 1.530 -> 1.530 total
-- astros: Tier 3 agricultural village; mycenaean/mycenaean; 0.334 -> 0.334 total
-- kythira: Tier 3 small island community; cycladic/hellenic; 0.126 -> 0.126 total
-- monemvasia: Tier 3 small port; mycenaean/mycenaean; 0.282 -> 0.282 total
-- mystras: Tier 1 palace - Sparta region, warrior aristocracy; mycenaean/mycenaean; 1.530 -> 1.530 total
-- oitylo: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.125 -> 0.125 total
-- veligosti: Tier 3 sparse mountain or pastoral community; arcadian/hellenic; 0.125 -> 0.125 total
-- livadeia: Tier 3 rural center; mycenaean/mycenaean; 0.362 -> 0.362 total
-- salona: Tier 3 sparse mountain or pastoral community; pelasgian/hellenic; 0.125 -> 0.125 total
+- amorgos: Tier 3 small island community; cycladic/hellenic; 0.650 -> 0.650 total
+- andravida: Tier 3 rural center; mycenaean/mycenaean; 1.500 -> 1.500 total
+- andritsaina: Tier 3 sparse mountain or pastoral community; arcadian/hellenic; 0.750 -> 0.750 total
+- andros: Tier 3 small island community; cycladic/hellenic; 0.650 -> 0.650 total
+- angelokastron: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.750 -> 0.750 total
+- argos: Tier 1 great palace - Mycenae/Tiryns sphere; mycenaean/mycenaean; 3.800 -> 3.800 total
+- balat: Tier 3 minor palace or heroic center; ionian/hellenic; 1.500 -> 1.500 total
+- bodonitsa: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.750 -> 0.750 total
+- bodrum: Tier 3 small port; ionian/hellenic; 1.150 -> 1.150 total
+- candia: Tier 2 important port and regional center; minoan/minoan; 2.100 -> 2.100 total
+- cephalonia: Tier 3 small maritime island port; mycenaean/mycenaean; 1.000 -> 1.000 total
+- chania: Tier 2 maritime center; minoan/minoan; 1.550 -> 1.550 total
+- chios: Tier 2 maritime center; ionian/hellenic; 1.550 -> 1.550 total
+- corinth: Tier 2 important port and regional center; mycenaean/mycenaean; 2.100 -> 2.100 total
+- damala: Tier 3 agricultural village; mycenaean/mycenaean; 1.500 -> 1.500 total
+- elounda: Tier 3 small port; minoan/minoan; 1.150 -> 1.150 total
+- eretreia: Tier 3 small maritime island port; ionian/hellenic; 1.000 -> 1.000 total
+- ermioni: Tier 3 small port; mycenaean/mycenaean; 1.150 -> 1.150 total
+- farsala: Tier 3 rural center; aeolian/hellenic; 1.500 -> 1.500 total
+- gergeri: Tier 3 agricultural village; minoan/minoan; 1.500 -> 1.500 total
+- hagios_pavlos: Tier 3 rural village; minoan/minoan; 1.000 -> 1.000 total
+- ikaria: Tier 3 small island community; cycladic/hellenic; 0.650 -> 0.650 total
+- karystos: Tier 3 small maritime island port; ionian/hellenic; 1.000 -> 1.000 total
+- karytaina: Tier 3 sparse mountain or pastoral community; arcadian/hellenic; 0.750 -> 0.750 total
+- kleisoura: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.750 -> 0.750 total
+- kos: Tier 3 small port; dorian/hellenic; 1.150 -> 1.150 total
+- kymi: Tier 3 small port; mycenaean/mycenaean; 1.150 -> 1.150 total
+- kythnos: Tier 3 small island community; cycladic/hellenic; 0.650 -> 0.650 total
+- larissa: Tier 2 inland agricultural center; aeolian/hellenic; 2.000 -> 2.000 total
+- leukas: Tier 3 small maritime island port; mycenaean/mycenaean; 1.000 -> 1.000 total
+- loidoriki: Tier 3 sparse mountain or pastoral community; pelasgian/hellenic; 0.750 -> 0.750 total
+- megara: Tier 3 rural center; mycenaean/mycenaean; 1.500 -> 1.500 total
+- milos: Tier 3 small island community; cycladic/hellenic; 0.650 -> 0.650 total
+- mykonos: Tier 3 small island community; cycladic/hellenic; 0.650 -> 0.650 total
+- nafpaktos: Tier 3 small port; mycenaean/mycenaean; 1.150 -> 1.150 total
+- nafplio: Tier 2 regional town; mycenaean/mycenaean; 1.700 -> 1.700 total
+- naxos: Tier 2 maritime center; cycladic/hellenic; 1.550 -> 1.550 total
+- negroponte: Tier 3 small maritime island port; ionian/hellenic; 1.000 -> 1.000 total
+- neopatras: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.750 -> 0.750 total
+- oreos: Tier 3 small port; ionian/hellenic; 1.150 -> 1.150 total
+- pontikokastro: Tier 3 small port; mycenaean/mycenaean; 1.150 -> 1.150 total
+- rethymno: Tier 3 small port; minoan/minoan; 1.150 -> 1.150 total
+- samos: Tier 2 maritime center; ionian/hellenic; 1.550 -> 1.550 total
+- siteia: Tier 3 small port; minoan/minoan; 1.150 -> 1.150 total
+- sporades: Tier 3 small island community; cycladic/hellenic; 0.650 -> 0.650 total
+- stomio: Tier 3 small port; aeolian/hellenic; 1.150 -> 1.150 total
+- thebes: Tier 1 great palace - Thebes; mycenaean/mycenaean; 3.600 -> 3.600 total
+- tripolitsa: Tier 3 rural center; arcadian/hellenic; 1.500 -> 1.500 total
+- tyrnavos: Tier 3 rural center; aeolian/hellenic; 1.500 -> 1.500 total
+- viannos: Tier 3 agricultural village; minoan/minoan; 1.500 -> 1.500 total
+- vonitsa: Tier 3 small port; mycenaean/mycenaean; 1.150 -> 1.150 total
+- xylokastro: Tier 3 small port; mycenaean/mycenaean; 1.150 -> 1.150 total
+- zakynthos: Tier 3 small maritime island port; mycenaean/mycenaean; 1.000 -> 1.000 total
+- zetounion: Tier 3 small port; pelasgian/hellenic; 1.150 -> 1.150 total
+- chalandritsa: Tier 3 rural center; mycenaean/mycenaean; 1.500 -> 1.500 total
+- kalavryta: Tier 3 rural center; arcadian/hellenic; 1.500 -> 1.500 total
+- patras: Tier 2 regional town; mycenaean/mycenaean; 1.700 -> 1.700 total
+- vostitsa: Tier 3 small port; mycenaean/mycenaean; 1.150 -> 1.150 total
+- athens: Tier 1 palace - Athens, important but still pre-classical; ionian/hellenic; 2.400 -> 2.400 total
+- demetrias: Tier 3 minor palace or heroic center; aeolian/hellenic; 1.500 -> 1.500 total
+- atalanti: Tier 3 agricultural village; pelasgian/hellenic; 1.500 -> 1.500 total
+- gravia: Tier 3 sparse mountain or pastoral community; pelasgian/hellenic; 0.750 -> 0.750 total
+- kalamata: Tier 1 great palace - Pylos agricultural administration; mycenaean/mycenaean; 3.000 -> 3.000 total
+- kyparissia: Tier 3 rural center; mycenaean/mycenaean; 1.500 -> 1.500 total
+- leuktron: Tier 3 agricultural village; mycenaean/mycenaean; 1.500 -> 1.500 total
+- modon: Tier 3 small port; mycenaean/mycenaean; 1.150 -> 1.150 total
+- karpathos: Tier 3 small island community; dorian/hellenic; 0.650 -> 0.650 total
+- rodos: Tier 1 maritime palace - Rhodes; dorian/hellenic; 2.000 -> 2.000 total
+- astros: Tier 3 agricultural village; mycenaean/mycenaean; 1.500 -> 1.500 total
+- kythira: Tier 3 small island community; cycladic/hellenic; 0.650 -> 0.650 total
+- monemvasia: Tier 3 small port; mycenaean/mycenaean; 1.150 -> 1.150 total
+- mystras: Tier 1 palace - Sparta region, warrior aristocracy; mycenaean/mycenaean; 2.600 -> 2.600 total
+- oitylo: Tier 3 sparse mountain or pastoral community; mycenaean/mycenaean; 0.750 -> 0.750 total
+- veligosti: Tier 3 sparse mountain or pastoral community; arcadian/hellenic; 0.750 -> 0.750 total
+- livadeia: Tier 3 rural center; mycenaean/mycenaean; 1.500 -> 1.500 total
+- salona: Tier 3 sparse mountain or pastoral community; pelasgian/hellenic; 0.750 -> 0.750 total
 
 Tier 1 palace centers:
-- argos: 2.770 total, peasants 84.8%, nobles 5.4%, clergy 3.2%, burghers 6.5%
-- thebes: 2.360 total, peasants 84.7%, nobles 5.5%, clergy 3.4%, burghers 6.4%
-- athens: 1.560 total, peasants 87.8%, nobles 3.8%, clergy 2.6%, burghers 5.8%
-- kalamata: 1.920 total, peasants 85.9%, nobles 5.2%, clergy 3.6%, burghers 5.2%
-- mystras: 1.530 total, peasants 89.5%, nobles 5.9%, clergy 2.6%, burghers 2.0%
-- rodos: 1.530 total, peasants 83.7%, nobles 3.9%, clergy 2.6%, burghers 9.8%
+- argos: 3.800 total, peasants 88.2%, nobles 4.5%, clergy 1.8%, burghers 5.5%
+- thebes: 3.600 total, peasants 88.3%, nobles 4.4%, clergy 1.9%, burghers 5.3%
+- athens: 2.400 total, peasants 90.0%, nobles 4.0%, clergy 1.9%, burghers 4.2%
+- kalamata: 3.000 total, peasants 89.0%, nobles 4.7%, clergy 2.0%, burghers 4.3%
+- mystras: 2.600 total, peasants 90.8%, nobles 5.0%, clergy 1.5%, burghers 2.7%
+- rodos: 2.000 total, peasants 86.0%, nobles 4.0%, clergy 2.0%, burghers 8.0%

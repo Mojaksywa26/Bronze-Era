@@ -1,0 +1,36 @@
+malaria = {
+	# Bronze Era safety override: disabled until a Bronze Age endemic disease model is added.
+	potential = { always = no }
+	monthly_spawn_chance = { value = 0 }
+	monthly_resistance_reduction = 0
+
+	spawn = {
+	}
+
+	r0 = { value = 0 }
+	environmental_infection = { value = 0 }
+	location_spread_threshold = { value = 1 }
+	calc_interval_days = 30
+	location_stagnation_chance = { value = 1 }
+	percentage_to_meet_their_fate_on_calc = { value = 0 }
+
+	location_modifier = {
+	}
+
+	mortality_rate = { value = 0 }
+	character_mortality_chance = { value = 0 }
+
+	map_color = {
+		lerp = {
+			min_color = rgb { 155 170 88 }
+			max_color = rgb { 87 124 42 }
+			factor = "disease_presence(scope:disease)"
+		}
+	}
+	secondary_map_color = {
+		if = {
+			limit = { disease_affects_pops_here = scope:disease }
+			value = rgb { 91 116 52 }
+		}
+	}
+}

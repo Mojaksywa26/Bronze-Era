@@ -17,7 +17,7 @@ countries = {
 
 	##MYCENAE
 	0001G = {
-		capital = argos
+		capital = amorgos
 		culture = mycenaean
 		religion = mycenaean
 
@@ -37,8 +37,8 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { mycenaean cycladic ionian minoan }
-		tolerated_cultures = { aeolian arcadian pelasgian dorian }
+		accepted_cultures = { mycenaean minoan ionian }
+		tolerated_cultures = { cycladic aeolian arcadian pelasgian dorian }
 		discovered_regions = {
 			anatolia_region balkan_region
 		}
@@ -114,6 +114,105 @@ countries = {
 		}
 	}
 
+	##ABRINCATES
+	ABRIN = {
+		capital = avranches
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			avranches coutances
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##ACCIOCI
+	ACCIO = {
+		capital = adrada
+		culture = accioci
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			adrada talavera_de_la_reina
+		}
+		accepted_cultures = { accioci celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ACHAEA
+	ACHAE = {
+		capital = chalandritsa
+		culture = mycenaean
+		religion = mycenaean
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			chalandritsa kalavryta patras vostitsa
+		}
+		accepted_cultures = { mycenaean arcadian }
+		tolerated_cultures = {  }
+	}
+
+	##ACINIPPO
+	ACINI = {
+		capital = olvera
+		culture = acinippo
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			olvera
+		}
+		accepted_cultures = { acinippo celtiberian }
+		tolerated_cultures = {  }
+	}
+
 	##ACRE
 	ACRE = {
 		capital = sidon
@@ -135,6 +234,31 @@ countries = {
 		discovered_regions = {
 			crescent_region
 		}
+	}
+
+	##ADUATUCI
+	ADUAT = {
+		capital = borgloon
+		culture = aduatuci
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			north_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			borgloon dinant la_roche liege limbourg namur stavelot
+		}
+		accepted_cultures = { aduatuci gaulish }
+		tolerated_cultures = {  }
 	}
 
 	##AEDUI
@@ -209,6 +333,32 @@ countries = {
 		}
 	}
 
+	##AICUBIDUOI
+	AICUB = {
+		capital = aignay
+		culture = aicubiduoi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aignay arnay autun beaune cercy chalon_sur_saone chateau_chinon dijon
+			montcenis montreuillon nevers sancoins semur_en_auxois st_pierre_de_moutier
+		}
+		accepted_cultures = { aicubiduoi gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##ALASHIYA
 	ALASI = {
 		capital = famagusta
@@ -229,6 +379,55 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			anatolia_region
+		}
+	}
+
+	##ALBIONES
+	ALBIO = {
+		capital = castropol
+		culture = albiones
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			castropol
+		}
+		accepted_cultures = { albiones celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ALLOBROGES
+	ALLOB = {
+		capital = die
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			die grenoble la_tour_du_pin romans saint_jean_de_maurienne saint_marceilin vienne
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
 		}
 	}
 
@@ -278,6 +477,55 @@ countries = {
 		}
 	}
 
+	##AMBARRES
+	AMBAR = {
+		capital = trevoux
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			trevoux villars
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##AMBIANI
+	AMBIA = {
+		capital = abbeville
+		culture = ambiani
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			abbeville amiens aumale breteuil corbie hesdin montreuil peronne
+		}
+		accepted_cultures = { ambiani gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##AMURRU
 	AMURU = {
 		capital = baalbek
@@ -299,6 +547,129 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			crescent_region
+		}
+	}
+
+	##ANDECAMULENSES
+	ANDEC = {
+		capital = aulnay
+		culture = andecamulenses
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aulnay bellac charroux limoges lusignan rochechouart
+		}
+		accepted_cultures = { andecamulenses gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##ANDES
+	ANDES = {
+		capital = beaupreau
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			beaupreau passavant
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##ANTICARIA
+	ANTIC = {
+		capital = antequera
+		culture = anticaria
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			antequera
+		}
+		accepted_cultures = { anticaria celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ARAOCELENSES
+	ARAOC = {
+		capital = seia
+		culture = araocelenses
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			seia
+		}
+		accepted_cultures = { araocelenses lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##ARAXES
+	ARAX = {
+		capital = hadishahr
+		culture = saka
+		religion = saka_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			hadishahr julfa khoy marand nakhchivan nazok_olya qarahziaoddin tatev
+		}
+		accepted_cultures = { saka gutian }
+		tolerated_cultures = { urartian }
+		discovered_regions = {
+			caucasus_region persia_region
 		}
 	}
 
@@ -328,6 +699,57 @@ countries = {
 		}
 	}
 
+	##ARESACES
+	ARESA = {
+		capital = backnang
+		culture = aresaces
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			backnang bruchsal durlach heidelberg heilbronn ohringen sinsheim vaihingen
+		}
+		accepted_cultures = { aresaces gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##AREVACI
+	AREVA = {
+		capital = avila
+		culture = arevaci
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			avila burgo_de_osma cuellar fuentiduena medina_de_rioseco palencia pedraza penafiel
+			segovia sepulveda tordesillas valladolid villatoro
+		}
+		accepted_cultures = { arevaci celtiberian }
+		tolerated_cultures = {  }
+	}
+
 	##EL ARGAR
 	ARGAR = {
 		capital = adra
@@ -349,6 +771,81 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			iberia_region
+		}
+	}
+
+	##ARROTREBAE
+	ARROT = {
+		capital = villalba
+		culture = arrotrebae
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			villalba
+		}
+		accepted_cultures = { arrotrebae celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ARUNDA
+	ARUND = {
+		capital = marbella
+		culture = arunda
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			marbella ronda
+		}
+		accepted_cultures = { arunda celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ARVERNES
+	ARVER = {
+		capital = aubusson
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aubusson chambon clermont herment montaigut montlucon riom st_gerand
+			thiers tour_auvergne ussel vic_le_comte vichy vodable
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
 		}
 	}
 
@@ -404,6 +901,181 @@ countries = {
 		}
 	}
 
+	##ATACINI
+	ATACI = {
+		capital = carcassonne
+		culture = atacini
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			carcassonne limoux saint_pons
+		}
+		accepted_cultures = { atacini gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##ATHENS
+	ATHEN = {
+		capital = athens
+		culture = ionian
+		religion = hellenic
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			athens
+		}
+		accepted_cultures = { ionian }
+		tolerated_cultures = {  }
+	}
+
+	##ATREBATES
+	ATREB = {
+		capital = arras
+		culture = atrebates
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region north_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arras bapaume bethune douai lens lille saint_pol
+		}
+		accepted_cultures = { atrebates gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##AULERCI
+	AULER = {
+		capital = alencon
+		culture = aulerci
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alencon argentan beaumont_au_maine le_mans villaines
+		}
+		accepted_cultures = { aulerci gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##AULERCI CENOMANI
+	ALCEN = {
+		capital = bauge
+		culture = aulerci_cenomani
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bauge le_lude sable sainte_suzanne
+		}
+		accepted_cultures = { aulerci_cenomani gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##AULERCI DIABLINTES
+	ALDIA = {
+		capital = angers
+		culture = aulerci_diablintes
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			angers chateau_gontier laval mayenne
+		}
+		accepted_cultures = { aulerci_diablintes gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##AUTRIGONES
+	AUTRI = {
+		capital = anana
+		culture = autrigones
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			anana briviesca miranda_de_ebro valmaseda villarcayo
+		}
+		accepted_cultures = { autrigones celtiberian }
+		tolerated_cultures = {  }
+	}
+
 	##AZZI
 	AZZI = {
 		capital = bayburt
@@ -425,6 +1097,55 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			anatolia_region caucasus_region
+		}
+	}
+
+	##BAEDUI
+	BAEDU = {
+		capital = betanzos
+		culture = baedui
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			betanzos coruna
+		}
+		accepted_cultures = { baedui lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##BAIOCASSES
+	BAIOC = {
+		capital = caen
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			caen vire
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
 		}
 	}
 
@@ -474,6 +1195,107 @@ countries = {
 		}
 	}
 
+	##BARDILI
+	BARDI = {
+		capital = montemor
+		culture = bardili
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			montemor mora_portugal salvaterra setubal
+		}
+		accepted_cultures = { bardili lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##BEBRYKES
+	BEBRY = {
+		capital = besalu
+		culture = bebrykes
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			besalu castellon_ampurias prades puigcerda ripoll
+		}
+		accepted_cultures = { bebrykes gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##BELLI
+	BELLI = {
+		capital = alfambra
+		culture = belli
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alfambra ariza beteta brihuega cantavieja carinena cobeta daroca
+			medinaceli molina_de_aragon montalban siguenza
+		}
+		accepted_cultures = { belli celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##BELLOUACI
+	BELLO = {
+		capital = beauvais
+		culture = bellouaci
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			beauvais chaumont_vexin gisors senlis
+		}
+		accepted_cultures = { bellouaci gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##BERIT
 	BERIT = {
 		capital = deir_qamar
@@ -495,6 +1317,106 @@ countries = {
 		discovered_regions = {
 			crescent_region
 		}
+	}
+
+	##BIBROCI
+	BIBRO = {
+		capital = barking
+		culture = bibroci
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			barking harrow london
+		}
+		accepted_cultures = { bibroci britannic }
+		tolerated_cultures = {  }
+	}
+
+	##BITURIGES
+	BITUR = {
+		capital = benauges
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			benauges bordeaux castelnau_de_medoc lesparre_medoc libourne
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##BITURIGES CUBI
+	BITCU = {
+		capital = bourges
+		culture = bituriges_cubi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bourges boussac brosse chateauroux chatellerault chatillon_sur_indre gueret huriel
+			issoudun lignieres loches montmorillon poitiers romorantin st_aignan vierzon
+		}
+		accepted_cultures = { bituriges_cubi gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##BLETONESSI
+	BLETO = {
+		capital = miranda_de_i_douro
+		culture = bletonessi
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			miranda_de_i_douro moncorvo yecla_de_yeltes
+		}
+		accepted_cultures = { bletonessi celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##BOII
@@ -593,6 +1515,56 @@ countries = {
 		}
 	}
 
+	##BRACARI
+	BRACA = {
+		capital = aguiar
+		culture = bracari
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aguiar braga chaves montalegre vila_real
+		}
+		accepted_cultures = { bracari lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##BRENAI
+	BRENA = {
+		capital = illereichen
+		culture = brenai
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			illereichen kempten memmingen oberdorf ravensburg waldburg waldsee
+		}
+		accepted_cultures = { brenai gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##BYBLOS
 	BYBLO = {
 		capital = beirut
@@ -614,6 +1586,231 @@ countries = {
 		discovered_regions = {
 			crescent_region
 		}
+	}
+
+	##CABRIANGINI
+	CABRI = {
+		capital = oviedo
+		culture = cabriangini
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			oviedo villaviciosa
+		}
+		accepted_cultures = { cabriangini celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CADABRI
+	CADAB = {
+		capital = cangas
+		culture = cadabri
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			cangas
+		}
+		accepted_cultures = { cadabri celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CAEMANAR
+	CAEMA = {
+		capital = bastogne
+		culture = caemanar
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region north_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bastogne bouillon chateau_porcien orchimont prum st_vith vianden
+		}
+		accepted_cultures = { caemanar gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##CAEROSI
+	CAERO = {
+		capital = arlon
+		culture = caerosi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			north_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arlon birkenfeld bitburg castellaun cochem daun katzenelnbogen kreuznach
+			luxembourg mainz saarburg simmern trier wittlich
+		}
+		accepted_cultures = { caerosi gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##CALADONI
+	CALAD = {
+		capital = monterrey
+		culture = caladoni
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			monterrey ourense ribadavia
+		}
+		accepted_cultures = { caladoni lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##CALETES
+	CALET = {
+		capital = arques
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arques fecamp longueville rouen tancarville
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##CALLAECI
+	CALLA = {
+		capital = porto
+		culture = callaeci
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			porto
+		}
+		accepted_cultures = { callaeci lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##CALONTIENES
+	CALON = {
+		capital = arroyo
+		culture = calontienes
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arroyo trujillo
+		}
+		accepted_cultures = { calontienes celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CAMAOLENSES
+	CAMAO = {
+		capital = albuquerque
+		culture = camaolenses
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			albuquerque brozas caceres
+		}
+		accepted_cultures = { camaolenses celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##CAMUNIC
@@ -640,6 +1837,58 @@ countries = {
 		}
 	}
 
+	##CAMUNNI
+	CMNNI = {
+		capital = chiavenna
+		culture = camunni
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region south_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			chiavenna chur como davos disentis ilanz lugano mesocco
+			monza
+		}
+		accepted_cultures = { camunni gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##CANTIACI
+	CANTI = {
+		capital = canterbury
+		culture = cantiaci
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			canterbury chichester dover guildford hastings hythe kingston lewes
+			reigate rochester shoreham tonbridge
+		}
+		accepted_cultures = { cantiaci britannic }
+		tolerated_cultures = {  }
+	}
+
 	##CHAONIA
 	CAONI = {
 		capital = avlonya
@@ -661,6 +1910,56 @@ countries = {
 		discovered_regions = {
 			balkan_region
 		}
+	}
+
+	##CAPORI
+	CAPOR = {
+		capital = lalin
+		culture = capori
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			lalin lugo mellid noya pontevedra santiago_compostela
+		}
+		accepted_cultures = { capori lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##CARISTII
+	CARIS = {
+		capital = bilbao
+		culture = caristii
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bilbao durango vitoria
+		}
+		accepted_cultures = { caristii celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##CARNIAN
@@ -687,6 +1986,32 @@ countries = {
 		}
 	}
 
+	##CARNUTES
+	CARNU = {
+		capital = alluyes
+		culture = carnutes
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alluyes amboise belleme blois chateau_du_loir chateaudun st_calais tours
+			vendome
+		}
+		accepted_cultures = { carnutes gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##CARTEIA
 	CARTI = {
 		capital = algeciras
@@ -708,6 +2033,308 @@ countries = {
 		discovered_regions = {
 			iberia_region
 		}
+	}
+
+	##CATUWELLAUNOI
+	CATUW = {
+		capital = broyes
+		culture = catuwellaunoi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			broyes chateau_thierry provins rosnay vertus
+		}
+		accepted_cultures = { catuwellaunoi gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##CAUCI
+	CAUCI = {
+		capital = arevalo
+		culture = cauci
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arevalo medina_del_campo salamanca toro
+		}
+		accepted_cultures = { cauci celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CELEGERI
+	CELEG = {
+		capital = caracal
+		culture = celegeri
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			balkan_region carpathia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			caracal corabia craiova dragasani gigen radovanu ramnicu_valcea targu_bengai
+		}
+		accepted_cultures = { celegeri gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##CELTICI
+	CELTI = {
+		capital = almonaster_la_real
+		culture = celtici
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			almonaster_la_real aracena aroche avis azuaga badajoz barcarrota elvas
+			estremoz evora jerez_de_los_caballeros llerena merida monesterio moura portel
+			vila_vicosa villanueva_del_fresno zafra
+		}
+		accepted_cultures = { celtici celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CIBARCI
+	CIBAR = {
+		capital = mondonedo
+		culture = cibarci
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			mondonedo
+		}
+		accepted_cultures = { cibarci celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##COERENSES
+	COERE = {
+		capital = jaraicejo
+		culture = coerenses
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			jaraicejo
+		}
+		accepted_cultures = { coerenses celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##COLIACINI
+	COLIA = {
+		capital = llanes
+		culture = coliacini
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			llanes riano
+		}
+		accepted_cultures = { coliacini celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CONCANI
+	CONCA = {
+		capital = potes
+		culture = concani
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			potes san_vicente_barquera
+		}
+		accepted_cultures = { concani celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CONI
+	CONI = {
+		capital = mertola
+		culture = coni
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			mertola puebla_de_guzman serpa
+		}
+		accepted_cultures = { coni celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CONSGI
+	CONSG = {
+		capital = laredo
+		culture = consgi
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			laredo santander
+		}
+		accepted_cultures = { consgi celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CORIOSOLITES
+	CORIO = {
+		capital = chatelaudren
+		culture = armorican
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			chatelaudren josselin monfort_sur_meu ploermel saint_brieuc saint_malo
+		}
+		accepted_cultures = { armorican }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##CRATISTII
+	CRATI = {
+		capital = huete
+		culture = cratistii
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			huete illescas las_navas maqueda ocana pareja toledo ucles
+			zorita
+		}
+		accepted_cultures = { cratistii celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##DAESITIAN
@@ -809,6 +2436,31 @@ countries = {
 		}
 	}
 
+	##DISCODUARTERAE
+	DISCO = {
+		capital = tryavna
+		culture = discoduarterae
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			tryavna
+		}
+		accepted_cultures = { discoduarterae gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##DOBERES
 	DOBER = {
 		capital = bansko
@@ -855,6 +2507,34 @@ countries = {
 		}
 	}
 
+	##EBURONES
+	EBURO = {
+		capital = aachen
+		culture = eburones
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			north_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aachen ahrweiler bergheim bonn bree coblenz cologne duren
+			dusseldorf eindhoven geldern hasselt heinsberg helmond maastricht mayen
+			monchengladbach neuss roermond schleiden siegburg solingen venlo weert
+			wied
+		}
+		accepted_cultures = { eburones gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##ELAM
 	ELAM = {
 		capital = bagh_malek
@@ -879,6 +2559,31 @@ countries = {
 		discovered_regions = {
 			persia_region
 		}
+	}
+
+	##ELISYKOI
+	ELISY = {
+		capital = agde
+		culture = elisykoi
+		religion = phoenician
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			agde beziers narbonne
+		}
+		accepted_cultures = { elisykoi gaulish }
+		tolerated_cultures = {  }
 	}
 
 	##ELIMIOTIS
@@ -924,6 +2629,80 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			italy_region
+		}
+	}
+
+	##EPANTERRI
+	EPANT = {
+		capital = barcelonnette
+		culture = epanterri
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			barcelonnette cuneo saluzzo
+		}
+		accepted_cultures = { epanterri ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##EPORA
+	EPORA = {
+		capital = almodovar_del_campo
+		culture = epora
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			almodovar_del_campo calatrava puertollano
+		}
+		accepted_cultures = { epora celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ESUVIEN
+	ESUVI = {
+		capital = domfront
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			domfront mortain pont_douilly
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
 		}
 	}
 
@@ -979,6 +2758,155 @@ countries = {
 		discovered_regions = {
 			italy_region
 		}
+	}
+
+	##GABALES
+	GABAL = {
+		capital = chateauneuf_de_randon
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			chateauneuf_de_randon florac mende peyre st_ambroix
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##GALLI
+	GALLI = {
+		capital = ejea_de_los_caballeros
+		culture = galli
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ejea_de_los_caballeros jaca sos tudela
+		}
+		accepted_cultures = { galli gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##GARUMNI
+	GARUM = {
+		capital = benabarre
+		culture = garumni
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			benabarre talarn
+		}
+		accepted_cultures = { garumni gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##GENNATES
+	GENNA = {
+		capital = genoa
+		culture = gennates
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			genoa
+		}
+		accepted_cultures = { gennates ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##GETAE
+	GETAE = {
+		capital = bucharest
+		culture = tei
+		religion = dacian_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bucharest cegani cernavoda comana giurgiu harsova lichiresti orasul_de_floci
+			slobozia
+		}
+		accepted_cultures = { tei }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			balkan_region carpathia_region
+		}
+	}
+
+	##GROVII
+	GROVI = {
+		capital = tuy
+		culture = grovii
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			tuy
+		}
+		accepted_cultures = { grovii lusitanian }
+		tolerated_cultures = {  }
 	}
 
 	##HABIRU
@@ -1173,6 +3101,81 @@ countries = {
 		}
 	}
 
+	##IBOLCANI
+	IBOLC = {
+		capital = alhambra_location
+		culture = ibolcani
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alhambra_location baeza manzanares montiel ubeda
+		}
+		accepted_cultures = { ibolcani celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ILIPA
+	ILIPA = {
+		capital = constantina
+		culture = ilipa
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			constantina ecija palma_del_rio
+		}
+		accepted_cultures = { ilipa lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##INGAUMI
+	INGAU = {
+		capital = albenga
+		culture = ingaumi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			albenga ventimiglia
+		}
+		accepted_cultures = { ingaumi ligurian }
+		tolerated_cultures = {  }
+	}
+
 	##INSUBRES
 	INSUB = {
 		capital = alessandria
@@ -1198,6 +3201,105 @@ countries = {
 		}
 	}
 
+	##INTERNELLI
+	INTER = {
+		capital = grasse
+		culture = internelli
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			grasse nice puget_theniers
+		}
+		accepted_cultures = { internelli ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##IOLCUS
+	IOLC = {
+		capital = demetrias
+		culture = aeolian
+		religion = hellenic
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			demetrias
+		}
+		accepted_cultures = { aeolian }
+		tolerated_cultures = {  }
+	}
+
+	##IONIA
+	IONIA = {
+		capital = babadag
+		culture = tei
+		religion = dacian_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			babadag constanta enisala pangalia
+		}
+		accepted_cultures = { tei ezero }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			balkan_region
+		}
+	}
+
+	##IREUCUTIONI
+	IREUC = {
+		capital = meda
+		culture = ireucutioni
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			meda trancoso
+		}
+		accepted_cultures = { ireucutioni celtiberian }
+		tolerated_cultures = {  }
+	}
+
 	##KARKAMISSA
 	KARKA = {
 		capital = jabar
@@ -1219,6 +3321,31 @@ countries = {
 		discovered_regions = {
 			crescent_region
 		}
+	}
+
+	##KARTUBA
+	KARTU = {
+		capital = belalcazar
+		culture = kartuba
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			belalcazar carpio pedroche santa_eufemia
+		}
+		accepted_cultures = { kartuba celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##KASKA
@@ -1297,6 +3424,31 @@ countries = {
 		}
 	}
 
+	##KYNETES
+	KYNET = {
+		capital = faro
+		culture = kynetes
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			faro lagos odemira ourique silves
+		}
+		accepted_cultures = { kynetes lusitanian }
+		tolerated_cultures = {  }
+	}
+
 	##LAEAEANS
 	LAEAE = {
 		capital = kostenets
@@ -1318,6 +3470,81 @@ countries = {
 		discovered_regions = {
 			balkan_region
 		}
+	}
+
+	##LAGAMI
+	LAGAM = {
+		capital = castellane
+		culture = lagami
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			castellane draguignan
+		}
+		accepted_cultures = { lagami ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##LAPCINI
+	LAPCI = {
+		capital = bardi
+		culture = lapcini
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bardi novi rovegno
+		}
+		accepted_cultures = { lapcini ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##LAPIATINEI
+	LAPIA = {
+		capital = ferrol
+		culture = lapiatinei
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ferrol vivero
+		}
+		accepted_cultures = { lapiatinei celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##LATINS
@@ -1367,6 +3594,57 @@ countries = {
 		}
 	}
 
+	##LEMAVI
+	LEMAV = {
+		capital = monforte_de_lemos
+		culture = lemavi
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			monforte_de_lemos
+		}
+		accepted_cultures = { lemavi lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##LEMOVICES
+	LEMOV = {
+		capital = aixe
+		culture = lemovices
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aixe bourganeuf perigueux sarlat segur st_leonard thiviers tulle
+			turenne ventadour
+		}
+		accepted_cultures = { lemovices gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##LEPONTIC
 	LEPON = {
 		capital = aosta
@@ -1382,13 +3660,62 @@ countries = {
 		}
 
 		own_control_core = {
-			aosta arona biella brig chatillonaos domodossola ivrea martigny
-			morgex moutiers sion varallo vercelli
+			aosta biella brig chatillonaos domodossola ivrea martigny morgex
+			moutiers sion varallo vercelli
 		}
 		accepted_cultures = { gaulish canegrate }
-		tolerated_cultures = { urnfield polada raeti }
+		tolerated_cultures = { urnfield raeti }
 		discovered_regions = {
 			france_region italy_region south_german_region
+		}
+	}
+
+	##LEUNI
+	LEUNI = {
+		capital = valenca
+		culture = leuni
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			valenca
+		}
+		accepted_cultures = { leuni lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##LEXOVIENS
+	LEXOV = {
+		capital = falaise
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			falaise
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
 		}
 	}
 
@@ -1440,11 +3767,15 @@ countries = {
 		}
 	}
 
-	##LIGURIAN
-	LIGUR = {
-		capital = acqui
-		culture = canegrate
-		religion = italic_pagan
+	##LINGONES
+	LINGO = {
+		capital = auxerre
+		culture = lingones
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
 
 		country_rank = rank_kingdom
 
@@ -1455,16 +3786,61 @@ countries = {
 		}
 
 		own_control_core = {
-			acqui alba albenga bardi barjols brignoles cairo_montenotte castellane
-			ceva cuneo draguignan finalborgo frejus genoa grasse lavagna
-			mondovi nice novi puget_theniers rovegno saluzzo sarzana savona
-			toulon ventimiglia
+			auxerre avallon chatillon_sur_seine donzy joigny nemours nogent_sur_seine saint_florentin
+			sens tonnerre villemaur
 		}
-		accepted_cultures = { canegrate gaulish }
-		tolerated_cultures = { terramare }
+		accepted_cultures = { lingones gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##LOBETANI
+	LOBET = {
+		capital = albarracin
+		culture = lobetani
+		religion = iberian_pagan
+
 		discovered_regions = {
-			france_region italy_region
+			iberia_region
 		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			albarracin canete cuenca mora_de_rubielos teruel torralba
+		}
+		accepted_cultures = { lobetani celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##LOUGEI
+	LOUGE = {
+		capital = barco_de_valdeorras
+		culture = lougei
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			barco_de_valdeorras ponferrada viana_bolo villafranca_bierzo
+		}
+		accepted_cultures = { lougei lusitanian }
+		tolerated_cultures = {  }
 	}
 
 	##LUKKA
@@ -1489,6 +3865,31 @@ countries = {
 		discovered_regions = {
 			anatolia_region
 		}
+	}
+
+	##LUSONES
+	LUSON = {
+		capital = calatanazor
+		culture = lusones
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			calatanazor soria sto_domingo_silos
+		}
+		accepted_cultures = { lusones celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##MAGAN
@@ -1540,6 +3941,31 @@ countries = {
 		}
 	}
 
+	##MANDUBIO
+	MANDU = {
+		capital = gien
+		culture = mandubio
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			gien montargis sancerre
+		}
+		accepted_cultures = { mandubio gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##MANIOI
 	MANIO = {
 		capital = metkovic
@@ -1560,6 +3986,32 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			balkan_region
+		}
+	}
+
+	##MANNAEA
+	MANNA = {
+		capital = aghkand
+		culture = mede
+		religion = iranic
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aghkand barza bukan hashtrud khameneh mahabad malekan maragheh
+			miandoab miyaneh osnavieh sain salmas santeh sarab tabriz
+			takht_e_soleyman tufarqan ujan urmia
+		}
+		accepted_cultures = { mede gutian }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			persia_region
 		}
 	}
 
@@ -1611,6 +4063,108 @@ countries = {
 		}
 	}
 
+	##MELDI
+	MELDI = {
+		capital = brie_comte_robert
+		culture = meldi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			brie_comte_robert
+		}
+		accepted_cultures = { meldi gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##MENAPII
+	MENAP = {
+		capital = aalst
+		culture = menapii
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			north_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aalst antwerp bergen_zoom breda bruges brussels cassel dunkirk
+			ghent hulst kortriik mechelen middelburg ostend oudenaarde sint_niklaas
+			turnhout veurne ypres
+		}
+		accepted_cultures = { menapii gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##MENTESANI
+	MENTE = {
+		capital = alcaraz
+		culture = mentesani
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alcaraz cazorla segura_de_la_sierra villapalacios
+		}
+		accepted_cultures = { mentesani celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##MENTESONI
+	METSO = {
+		capital = jodar
+		culture = mentesoni
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			jodar
+		}
+		accepted_cultures = { mentesoni celtiberian }
+		tolerated_cultures = {  }
+	}
+
 	##MIRA
 	MIRA = {
 		capital = ayasuluk
@@ -1633,6 +4187,31 @@ countries = {
 		discovered_regions = {
 			anatolia_region
 		}
+	}
+
+	##MIROBRIGENSES
+	MIROB = {
+		capital = alcacer_do_sal
+		culture = mirobrigenses
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alcacer_do_sal alvalade alvito beja sines
+		}
+		accepted_cultures = { mirobrigenses celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##MITANNI
@@ -1660,6 +4239,30 @@ countries = {
 		}
 	}
 
+	##MOESIA
+	MOESI = {
+		capital = cherven
+		culture = ezero
+		religion = thracian_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			cherven drastar razgrad ruse tutrakan
+		}
+		accepted_cultures = { ezero }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			balkan_region
+		}
+	}
+
 	##MOLOSSIA
 	MOLOS = {
 		capital = argyrokastro
@@ -1683,6 +4286,131 @@ countries = {
 		}
 	}
 
+	##MORINI
+	MORIN = {
+		capital = boulogne_sur_mer
+		culture = morini
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			boulogne_sur_mer calais saint_omer
+		}
+		accepted_cultures = { morini gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##NAMNETES
+	NAMNE = {
+		capital = blain
+		culture = armorican
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			blain chateaubriant guerande machecoul nantes redon
+		}
+		accepted_cultures = { armorican }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##NEMETATI
+	NEMET = {
+		capital = barcelos
+		culture = nemetati
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			barcelos guimaraes
+		}
+		accepted_cultures = { nemetati lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##NERII
+	NERII = {
+		capital = finisterre
+		culture = nerii
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			finisterre
+		}
+		accepted_cultures = { nerii lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##NERVII
+	NERVI = {
+		capital = ath
+		culture = nervii
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region north_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ath cambrai chimay enghien guise hirson leuven marle
+			maubeuge mons nivelles tournai valenciennes walcourt
+		}
+		accepted_cultures = { nervii gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##NESTIOI
 	NESTI = {
 		capital = drijeva
@@ -1703,30 +4431,6 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			balkan_region
-		}
-	}
-
-	##NORTH PICENE
-	NPICE = {
-		capital = ancona
-		culture = apennine
-		religion = italic_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			ancona fermo macerata
-		}
-		accepted_cultures = { apennine }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			italy_region
 		}
 	}
 
@@ -1753,6 +4457,30 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			balkan_region south_german_region
+		}
+	}
+
+	##NORTH PICENE
+	NPICE = {
+		capital = ancona
+		culture = apennine
+		religion = italic_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ancona fermo macerata
+		}
+		accepted_cultures = { apennine }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			italy_region
 		}
 	}
 
@@ -1806,6 +4534,157 @@ countries = {
 		}
 	}
 
+	##OLCADES
+	OLCAD = {
+		capital = alarcon
+		culture = olcades
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alarcon albacete belmonte iniesta lezuza san_clemente tomelloso villarobledo
+		}
+		accepted_cultures = { olcades celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ONUBA
+	ONUBA = {
+		capital = andujar
+		culture = onuba
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			andujar
+		}
+		accepted_cultures = { onuba celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##OPPIDANI
+	OPPID = {
+		capital = alcobaca
+		culture = oppidani
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alcobaca torres_vedras
+		}
+		accepted_cultures = { oppidani lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##ORCHOMENUS
+	ORCHO = {
+		capital = atalanti
+		culture = pelasgian
+		religion = hellenic
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			atalanti gravia
+		}
+		accepted_cultures = { pelasgian }
+		tolerated_cultures = {  }
+	}
+
+	##ORNIACI
+	ORNIA = {
+		capital = mieres
+		culture = orniaci
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			mieres
+		}
+		accepted_cultures = { orniaci celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##OROBLI
+	OROBL = {
+		capital = bergamo
+		culture = orobli
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bergamo breno clusone cortenuova lecco legnano milano rho
+			treviglio zogno
+		}
+		accepted_cultures = { orobli lepontic }
+		tolerated_cultures = {  }
+	}
+
 	##OSCI
 	OSCAN = {
 		capital = acerenza
@@ -1829,6 +4708,30 @@ countries = {
 		tolerated_cultures = { apennine }
 		discovered_regions = {
 			italy_region
+		}
+	}
+
+	##OSISMES
+	OSISM = {
+		capital = brest
+		culture = armorican
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			brest carhaix chateaulin le_faou quimper st_pol_de_leon treguier
+		}
+		accepted_cultures = { armorican }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
 		}
 	}
 
@@ -1877,6 +4780,31 @@ countries = {
 		discovered_regions = {
 			balkan_region
 		}
+	}
+
+	##PAESICI
+	PAESI = {
+		capital = aviles
+		culture = paesici
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aviles
+		}
+		accepted_cultures = { paesici celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##PAGONIA
@@ -1930,6 +4858,56 @@ countries = {
 		}
 	}
 
+	##PALANTI
+	PALAN = {
+		capital = coria
+		culture = palanti
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			coria galisteo guadalupe oropesa plasencia puente_arzobispo valverde
+		}
+		accepted_cultures = { palanti celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##PARISI
+	PARIS = {
+		capital = auneau
+		culture = parisi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			auneau chartres dreux evreux laigle monfort_lamaury mortagne senonches
+		}
+		accepted_cultures = { parisi gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##PARTHA
 	PARTH = {
 		capital = alaiye
@@ -1952,6 +4930,180 @@ countries = {
 		discovered_regions = {
 			anatolia_region
 		}
+	}
+
+	##PETROCORIIS
+	PETRO = {
+		capital = bergerac
+		culture = petrocoriis
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bergerac limeuil marmande montflanquin sauveterre_de_guyenne
+		}
+		accepted_cultures = { petrocoriis gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##PICTON
+	PICTO = {
+		capital = beauvoir
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			beauvoir fontenay la_roche_sur_yon mauleon_poitou montaigu niort parthenay talmont
+			thouars
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##POEMANI
+	POEMA = {
+		capital = navia_de_suarna
+		culture = poemani
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			navia_de_suarna
+		}
+		accepted_cultures = { poemani celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##POLLENTINI
+	POLLE = {
+		capital = cairo_montenotte
+		culture = pollentini
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			cairo_montenotte
+		}
+		accepted_cultures = { pollentini ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##POTULATENSIS
+	POTUL = {
+		capital = bozhenitsa
+		culture = ezero
+		religion = thracian_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bozhenitsa dobrolak hotalich lovech pleven
+		}
+		accepted_cultures = { ezero }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			balkan_region
+		}
+	}
+
+	##PYLOS
+	PYLOS = {
+		capital = kalamata
+		culture = mycenaean
+		religion = mycenaean
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			kalamata kyparissia leuktron modon
+		}
+		accepted_cultures = { mycenaean }
+		tolerated_cultures = {  }
+	}
+
+	##QUARQUENI
+	QUARQ = {
+		capital = ginzo_de_limia
+		culture = quarqueni
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ginzo_de_limia
+		}
+		accepted_cultures = { quarqueni lusitanian }
+		tolerated_cultures = {  }
 	}
 
 	##RAETIC
@@ -1981,6 +5133,180 @@ countries = {
 		}
 	}
 
+	##REDONES
+	REDON = {
+		capital = dol
+		culture = armorican
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			dol fougeres rennes vitre
+		}
+		accepted_cultures = { armorican }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##REGINI
+	REGIN = {
+		capital = amesbury
+		culture = regini
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			amesbury basingstoke chippenham portsmouth salisbury southampton wight winchester
+			woking
+		}
+		accepted_cultures = { regini britannic }
+		tolerated_cultures = {  }
+	}
+
+	##REMI
+	REMI = {
+		capital = epernay
+		culture = remi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			epernay reims roucy
+		}
+		accepted_cultures = { remi gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##RHODES
+	RHODE = {
+		capital = karpathos
+		culture = dorian
+		religion = hellenic
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			karpathos rodos
+		}
+		accepted_cultures = { dorian }
+		tolerated_cultures = {  }
+	}
+
+	##RUTENES
+	RUTEN = {
+		capital = entraigues
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			entraigues millau peyrusse rodez st_affrique villefranche
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##SABATES
+	SABAT = {
+		capital = finalborgo
+		culture = sabates
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			finalborgo savona
+		}
+		accepted_cultures = { sabates ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##SAELINI
+	SAELI = {
+		capital = villablino
+		culture = saelini
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			villablino
+		}
+		accepted_cultures = { saelini celtiberian }
+		tolerated_cultures = {  }
+	}
+
 	##SAHIRIYA
 	SAHIR = {
 		capital = akcasehir
@@ -2003,6 +5329,80 @@ countries = {
 		discovered_regions = {
 			anatolia_region
 		}
+	}
+
+	##SALLUVIENS
+	SALLU = {
+		capital = aix_en_provence
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aix_en_provence apt arles avignon digne forcalquier marseille tarascon
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##SANTANS
+	SANTN = {
+		capital = angouleme
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			angouleme chabanais cognac jonzac la_rochelle montendre nontron oleron
+			riberac rochefort royan saintes st_jean_dangely
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##SARDONNES
+	SARDO = {
+		capital = fenouillet
+		culture = sardonnes
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			fenouillet perpignan
+		}
+		accepted_cultures = { sardonnes gaulish }
+		tolerated_cultures = {  }
 	}
 
 	##SASU
@@ -2050,6 +5450,86 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			balkan_region
+		}
+	}
+
+	##SCYTHIANS
+	SCYTH = {
+		capital = achit_nuur
+		culture = saka
+		religion = saka_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			achit_nuur arkat ashchyozek ayagoz bakanas bortala boyauli burqin
+			dagandely dahra_sasykkol dungene espe hoboksar ilanbalyk jeminay kandysu
+			kara_irtysh karamergen kashkanteniz kayalyk kaynar_atbai khurgan kokpekty koksala
+			koktuma kurchum kusak kyzylsay lepsy manas moiynty mukur
+			onguday oskemen sagabuyen sarybulak sayak shar shemonayevskoye takhir
+			tansyk targabatay tekeli tokrau toli tsagaan_usun ulungur urghtbulaq
+			ust_koksa utbulaq zhamankul zhamshy zhanaarka zhekdeliq zmeinogorsk zyryan
+		}
+		accepted_cultures = { saka ferghana }
+		tolerated_cultures = { andronovo }
+		discovered_regions = {
+			khorasan_region mongolia_region west_siberia_region xinjiang_region
+		}
+	}
+
+	##SEAREAE
+	SEARE = {
+		capital = lamego
+		culture = seareae
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			lamego viseu
+		}
+		accepted_cultures = { seareae lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##SEGUSIAVES
+	SEGUS = {
+		capital = beaujeu
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			beaujeu feurs lyon montbrison perreux riverie roanne saint_etienne
+			semur_en_brionnais
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
 		}
 	}
 
@@ -2125,6 +5605,155 @@ countries = {
 		}
 	}
 
+	##SENONES
+	SENES = {
+		capital = beaugency
+		culture = senones
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			beaugency orleans sully vitry_aux_loges
+		}
+		accepted_cultures = { senones gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##SEQUANCES
+	SEQUA = {
+		capital = auxonne
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			auxonne bage besancon bourg_en_bresse dole gex louhans orgelet
+			poligny saint_claude thoire
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##SETUEI
+	SETUE = {
+		capital = nesle
+		culture = setuei
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			nesle saint_quentin
+		}
+		accepted_cultures = { setuei gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##SEURBI
+	SEURB = {
+		capital = viana_do_castelo
+		culture = seurbi
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			viana_do_castelo
+		}
+		accepted_cultures = { seurbi lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##SEURRI
+	SEURR = {
+		capital = sarria
+		culture = seurri
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			sarria
+		}
+		accepted_cultures = { seurri celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##SIBUZATES
+	SIBUZ = {
+		capital = bayonne
+		culture = aquitanian
+		religion = iberian_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bayonne elizondo mauleon orthez saint_jean_pied_de_port
+		}
+		accepted_cultures = { aquitanian }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region iberia_region
+		}
+	}
+
 	##SICANIA
 	SICAN = {
 		capital = bivona
@@ -2172,6 +5801,31 @@ countries = {
 		}
 	}
 
+	##SILVANECTES
+	SILVA = {
+		capital = corbeil
+		culture = silvanectes
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			corbeil mantes meaux montmorency paris
+		}
+		accepted_cultures = { silvanectes gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##SIROPAINES
 	SIROP = {
 		capital = drama
@@ -2193,6 +5847,55 @@ countries = {
 		discovered_regions = {
 			balkan_region
 		}
+	}
+
+	##SOTIATES
+	SOTIA = {
+		capital = aire
+		culture = sotia
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aire auch condom lectoure nogaro
+		}
+		accepted_cultures = { sotia gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
+		}
+	}
+
+	##SPARTA
+	SPART = {
+		capital = astros
+		culture = mycenaean
+		religion = mycenaean
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			astros kythira monemvasia mystras oitylo veligosti
+		}
+		accepted_cultures = { mycenaean arcadian }
+		tolerated_cultures = { cycladic }
 	}
 
 	##SOUTH PICENE
@@ -2217,6 +5920,131 @@ countries = {
 		discovered_regions = {
 			italy_region
 		}
+	}
+
+	##STATIELLI
+	STATI = {
+		capital = acqui
+		culture = statielli
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			acqui alba ceva mondovi
+		}
+		accepted_cultures = { statielli ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##SUBINATES
+	SUBIN = {
+		capital = arona
+		culture = subinates
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arona varese
+		}
+		accepted_cultures = { subinates lepontic }
+		tolerated_cultures = {  }
+	}
+
+	##SUELTERI
+	SUELT = {
+		capital = brignoles
+		culture = suelteri
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			brignoles frejus toulon
+		}
+		accepted_cultures = { suelteri ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##SUESSETANI
+	SUESS = {
+		capital = anso
+		culture = suessetani
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			anso olite roncesvalles sanguesa viana
+		}
+		accepted_cultures = { suessetani gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##SUESSIONES
+	SUESO = {
+		capital = braine
+		culture = suessiones
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			braine crepy soissons
+		}
+		accepted_cultures = { suessiones gaulish }
+		tolerated_cultures = {  }
 	}
 
 	##SURRTENIA
@@ -2267,6 +6095,56 @@ countries = {
 		}
 	}
 
+	##TALURES
+	TALUR = {
+		capital = ponte_sor
+		culture = talures
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ponte_sor proenca_nova santarem tomar torres_novas
+		}
+		accepted_cultures = { talures lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##TAPORI
+	TAPOR = {
+		capital = castelo_branco
+		culture = tapori
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			castelo_branco covilha crato idanha portalegre valencia_de_alcantara
+		}
+		accepted_cultures = { tapori lusitanian }
+		tolerated_cultures = {  }
+	}
+
 	##TARANTINE
 	TARAN = {
 		capital = brindisi
@@ -2289,6 +6167,30 @@ countries = {
 		tolerated_cultures = { oenotrian }
 		discovered_regions = {
 			italy_region
+		}
+	}
+
+	##TARDELLE
+	TARDL = {
+		capital = dax
+		culture = gaulish
+		religion = gaulish_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			dax mimizan tartas tosse
+		}
+		accepted_cultures = { gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			france_region
 		}
 	}
 
@@ -2388,6 +6290,56 @@ countries = {
 		}
 	}
 
+	##TEUCOR
+	TEUCO = {
+		capital = saint_avold
+		culture = teucor
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			saint_avold sarreguemines
+		}
+		accepted_cultures = { teucor gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##THEBES
+	THEBE = {
+		capital = livadeia
+		culture = mycenaean
+		religion = mycenaean
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			livadeia salona
+		}
+		accepted_cultures = { mycenaean pelasgian }
+		tolerated_cultures = {  }
+	}
+
 	##THRACE
 	THRAC = {
 		capital = bukelon
@@ -2410,6 +6362,81 @@ countries = {
 		discovered_regions = {
 			balkan_region
 		}
+	}
+
+	##TIGULIN
+	TIGUL = {
+		capital = lavagna
+		culture = tigulin
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			lavagna sarzana
+		}
+		accepted_cultures = { tigulin ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##TIMACHI
+	TIMAC = {
+		capital = archar
+		culture = timachi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			balkan_region carpathia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			archar calafat kutlovitsa lom oryahovo vratsa
+		}
+		accepted_cultures = { timachi gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##TITTII
+	TITTI = {
+		capital = almazan
+		culture = tittii
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			almazan berlanga
+		}
+		accepted_cultures = { tittii celtiberian }
+		tolerated_cultures = {  }
 	}
 
 	##TORREAN CORSICA
@@ -2436,6 +6463,58 @@ countries = {
 		}
 	}
 
+	##TREWEROI
+	TREWE = {
+		capital = chalons_champagne
+		culture = treweroi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region north_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			chalons_champagne clermont_en_argonne etain fresnes grandpre lichtenberg_veldenz longwy meisenheim
+			menehould merzig metz montmedy mouzon neufchateau_luxembourg oppenheim rethel
+			saarbrucken thionville verdun wallerfangen
+		}
+		accepted_cultures = { treweroi gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##TRICASSES
+	TRICA = {
+		capital = etampes
+		culture = tricasses
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			etampes melun
+		}
+		accepted_cultures = { tricasses gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##TRIPOLI
 	TRPOL = {
 		capital = baniyas
@@ -2459,6 +6538,286 @@ countries = {
 		}
 	}
 
+	##TURDILI
+	TURDI = {
+		capital = chao_de_couce
+		culture = turdili
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			chao_de_couce leiria
+		}
+		accepted_cultures = { turdili lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##TURDULI ARTIGI
+	TUART = {
+		capital = almaden
+		culture = turduli_artigi
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			almaden ciudad_real
+		}
+		accepted_cultures = { turduli_artigi celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##TURDULI BUDANI
+	TUBUD = {
+		capital = escurial
+		culture = turduli_budani
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			escurial herrera medellin montanchez puebla_de_alcocer
+		}
+		accepted_cultures = { turduli_budani celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##TURDULI DIPONI
+	TUDIP = {
+		capital = villanueva_de_la_serena
+		culture = turduli_diponi
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			villanueva_de_la_serena zalamea
+		}
+		accepted_cultures = { turduli_diponi celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##TURDULI SOSIPONI
+	TUSOS = {
+		capital = alcazar_de_san_juan
+		culture = turduli_sosiponi
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alcazar_de_san_juan consuegra malagon
+		}
+		accepted_cultures = { turduli_sosiponi celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##TURDULI VETERES
+	TUVET = {
+		capital = besteiros
+		culture = turduli_veteres
+		religion = lusitanian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			besteiros coimbra esgueira feira figueira
+		}
+		accepted_cultures = { turduli_veteres lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##TURMOGI
+	TURMO = {
+		capital = aranda_de_duero
+		culture = turmogi
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aranda_de_duero burgos carrion_de_los_condes castrojeriz lerma monzon_campos palenzuela saldana
+			villadiego
+		}
+		accepted_cultures = { turmogi celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##TURONES
+	TURON = {
+		capital = chinon
+		culture = turones
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			chinon loudun saumur
+		}
+		accepted_cultures = { turones gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##TYLE
+	TYLE = {
+		capital = boruy
+		culture = tyle
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			balkan_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			boruy constantia_bul hiambouli kran lardeja plovdiv sliven stanimaka
+		}
+		accepted_cultures = { tyle gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##UBI
+	UBI = {
+		capital = aschach
+		culture = ubi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			north_german_region south_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aschach aschaffenburg bensheim bruckenau buchen budingen coburg darmstadt
+			diez erbach frankfurt friedberg_hesse fulda giessen hadamar hanau
+			hassfurt hildburghausen hunfeld karlstadt konigshofen lauterbach lichtenfels lohr
+			meiningen mellrichstadt miltenberg mosbach nidda offenbach schleusingen schweinfurt
+			tauberbischofsheim usingen wetzlar wiesbaden wurzburg
+		}
+		accepted_cultures = { ubi gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##UELAUII
+	UELAU = {
+		capital = brioude
+		culture = uelauii
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			brioude saint_flour
+		}
+		accepted_cultures = { uelauii gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##UGARIT
 	UGART = {
 		capital = antioch
@@ -2479,6 +6838,30 @@ countries = {
 		tolerated_cultures = {  }
 		discovered_regions = {
 			crescent_region
+		}
+	}
+
+	##ULIBA
+	ULIBA = {
+		capital = bitlis
+		culture = gutian
+		religion = caucasian_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bitlis hizan mus
+		}
+		accepted_cultures = { gutian urartian }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			caucasus_region
 		}
 	}
 
@@ -2507,11 +6890,11 @@ countries = {
 		}
 	}
 
-	##VENETIC
-	VENET = {
-		capital = aquileia
-		culture = castellieri
-		religion = italic_pagan
+	##UNELLES
+	UNELL = {
+		capital = cherbourg
+		culture = gaulish
+		religion = gaulish_pagan
 
 		country_rank = rank_kingdom
 
@@ -2522,46 +6905,24 @@ countries = {
 		}
 
 		own_control_core = {
-			aquileia bassano belluno castelfranco ceneda chioggia conegliano este
-			feltre legnago mestre monselice padova peschiera pordenone treviso
-			udine venice verona vicenza
+			cherbourg jersey st_sauveur
 		}
-		accepted_cultures = { castellieri proto_villanovan }
-		tolerated_cultures = { polada luco }
-		discovered_regions = {
-			italy_region
-		}
-	}
-
-	##VESTINIAN
-	VESTI = {
-		capital = lanciano
-		culture = apennine
-		religion = italic_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			lanciano vasto
-		}
-		accepted_cultures = { apennine }
+		accepted_cultures = { gaulish }
 		tolerated_cultures = {  }
 		discovered_regions = {
-			italy_region
+			france_region
 		}
 	}
 
-	##VOLSCIAN
-	VOLSC = {
-		capital = sora
-		culture = ausonian
-		religion = italic_pagan
+	##URACI
+	URACI = {
+		capital = alcala_de_henares
+		culture = uraci
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
 
 		country_rank = rank_kingdom
 
@@ -2572,239 +6933,10 @@ countries = {
 		}
 
 		own_control_core = {
-			sora venafro
+			alcala_de_henares buitrago_de_lozoya chinchon colmenar el_escorial guadalajara madrid
 		}
-		accepted_cultures = { ausonian }
+		accepted_cultures = { uraci celtiberian }
 		tolerated_cultures = {  }
-		discovered_regions = {
-			italy_region
-		}
-	}
-
-	##WILUSA
-	WILUS = {
-		capital = ayvacik
-		culture = luwian
-		religion = luwian
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		own_control_core = {
-			ayvacik balya bandirma bayramic biga can canakkale edremit
-			enez gallipoli gonen imbros kesan lapseki lemnos manyas
-			mihalic rodoscuk
-		}
-		government = {
-			ruler = random
-		}
-		accepted_cultures = { luwian thracian }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			anatolia_region balkan_region
-		}
-	}
-
-	##ARAXES
-	ARAX = {
-		capital = hadishahr
-		culture = saka
-		religion = saka_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			hadishahr julfa khoy marand nakhchivan nazok_olya qarahziaoddin tatev
-		}
-		accepted_cultures = { saka gutian }
-		tolerated_cultures = { urartian }
-		discovered_regions = {
-			caucasus_region persia_region
-		}
-	}
-
-	##GETAE
-	GETAE = {
-		capital = bucharest
-		culture = tei
-		religion = dacian_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			bucharest cegani cernavoda comana giurgiu harsova lichiresti orasul_de_floci
-			slobozia
-		}
-		accepted_cultures = { tei }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			balkan_region carpathia_region
-		}
-	}
-
-	##IONIA
-	IONIA = {
-		capital = babadag
-		culture = tei
-		religion = dacian_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			babadag constanta enisala pangalia
-		}
-		accepted_cultures = { tei ezero }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			balkan_region
-		}
-	}
-
-	##MANNAEA
-	MANNA = {
-		capital = aghkand
-		culture = mede
-		religion = iranic
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			aghkand barza bukan hashtrud khameneh mahabad malekan maragheh
-			miandoab miyaneh osnavieh sain salmas santeh sarab tabriz
-			takht_e_soleyman tufarqan ujan urmia
-		}
-		accepted_cultures = { mede gutian }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			persia_region
-		}
-	}
-
-	##MOESIA
-	MOESI = {
-		capital = cherven
-		culture = ezero
-		religion = thracian_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			cherven drastar razgrad ruse tutrakan
-		}
-		accepted_cultures = { ezero }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			balkan_region
-		}
-	}
-
-	##POTULATENSIS
-	POTUL = {
-		capital = bozhenitsa
-		culture = ezero
-		religion = thracian_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			bozhenitsa dobrolak hotalich lovech pleven
-		}
-		accepted_cultures = { ezero }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			balkan_region
-		}
-	}
-
-	##SCYTHIANS
-	SCYTH = {
-		capital = achit_nuur
-		culture = saka
-		religion = saka_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			achit_nuur arkat ashchyozek ayagoz bakanas bortala boyauli burqin
-			dagandely dahra_sasykkol dungene espe hoboksar ilanbalyk jeminay kandysu
-			kara_irtysh karamergen kashkanteniz kayalyk kaynar_atbai khurgan kokpekty koksala
-			koktuma kurchum kusak kyzylsay lepsy manas moiynty mukur
-			onguday oskemen sagabuyen sarybulak sayak shar shemonayevskoye takhir
-			tansyk targabatay tekeli tokrau toli tsagaan_usun ulungur urghtbulaq
-			ust_koksa utbulaq zhamankul zhamshy zhanaarka zhekdeliq zmeinogorsk zyryan
-		}
-		accepted_cultures = { saka ferghana }
-		tolerated_cultures = { andronovo }
-		discovered_regions = {
-			khorasan_region mongolia_region west_siberia_region xinjiang_region
-		}
-	}
-
-	##ULIBA
-	ULIBA = {
-		capital = bitlis
-		culture = gutian
-		religion = caucasian_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			bitlis hizan mus
-		}
-		accepted_cultures = { gutian urartian }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			caucasus_region
-		}
 	}
 
 	##URARTU
@@ -2832,544 +6964,16 @@ countries = {
 		}
 	}
 
-	##WALAN
-	WALAN = {
-		capital = ahar
-		culture = mede
-		religion = iranic
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			ahar goris heris kaleybar kapan_armenia mardanaqom qahqaheh
-		}
-		accepted_cultures = { mede urartian }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			caucasus_region persia_region
-		}
-	}
-
-	##ABRINCATES
-	ABRIN = {
-		capital = avranches
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			avranches coutances
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##ALLOBROGES
-	ALLOB = {
-		capital = die
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			die grenoble la_tour_du_pin romans saint_jean_de_maurienne saint_marceilin vienne
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##AMBARRES
-	AMBAR = {
-		capital = trevoux
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			trevoux villars
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##ANDES
-	ANDES = {
-		capital = beaupreau
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			beaupreau passavant
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##ARVERNES
-	ARVER = {
-		capital = aubusson
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			aubusson chambon clermont herment montaigut montlucon riom st_gerand
-			thiers tour_auvergne ussel vic_le_comte vichy vodable
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##BAIOCASSES
-	BAIOC = {
-		capital = caen
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			caen vire
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##BITURIGES
-	BITUR = {
-		capital = benauges
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			benauges bordeaux castelnau_de_medoc lesparre_medoc libourne
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##CALETES
-	CALET = {
-		capital = arques
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			arques fecamp longueville rouen tancarville
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##CORIOSOLITES
-	CORIO = {
-		capital = chatelaudren
-		culture = armorican
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			chatelaudren josselin monfort_sur_meu ploermel saint_brieuc saint_malo
-		}
-		accepted_cultures = { armorican }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##ESUVIEN
-	ESUVI = {
-		capital = domfront
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			domfront mortain pont_douilly
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##GABALES
-	GABAL = {
-		capital = chateauneuf_de_randon
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			chateauneuf_de_randon florac mende peyre st_ambroix
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##LEXOVIENS
-	LEXOV = {
-		capital = falaise
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			falaise
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##NAMNETES
-	NAMNE = {
-		capital = blain
-		culture = armorican
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			blain chateaubriant guerande machecoul nantes redon
-		}
-		accepted_cultures = { armorican }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##OSISMES
-	OSISM = {
-		capital = brest
-		culture = armorican
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			brest carhaix chateaulin le_faou quimper st_pol_de_leon treguier
-		}
-		accepted_cultures = { armorican }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##PICTON
-	PICTO = {
-		capital = beauvoir
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			beauvoir fontenay la_roche_sur_yon mauleon_poitou montaigu niort parthenay talmont
-			thouars
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##REDONES
-	REDON = {
-		capital = dol
-		culture = armorican
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			dol fougeres rennes vitre
-		}
-		accepted_cultures = { armorican }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##RUTENES
-	RUTEN = {
-		capital = entraigues
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			entraigues millau peyrusse rodez st_affrique villefranche
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##SALLUVIENS
-	SALLU = {
-		capital = aix_en_provence
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			aix_en_provence apt arles avignon digne forcalquier marseille tarascon
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##SANTANS
-	SANTN = {
-		capital = jonzac
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			jonzac la_rochelle oleron rochefort royan saintes st_jean_dangely
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##SEGUSIAVES
-	SEGUS = {
-		capital = beaujeu
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			beaujeu feurs lyon montbrison perreux riverie roanne saint_etienne
-			semur_en_brionnais
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##SEQUANCES
-	SEQUA = {
-		capital = auxonne
-		culture = gaulish
-		religion = gaulish_pagan
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			auxonne bage besancon bourg_en_bresse dole gex louhans orgelet
-			poligny saint_claude thoire
-		}
-		accepted_cultures = { gaulish }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
-	}
-
-	##SIBUZATES
-	SIBUZ = {
-		capital = bayonne
-		culture = aquitanian
+	##URGAPA
+	URGAP = {
+		capital = lucena
+		culture = urgapa
 		religion = iberian_pagan
 
+		discovered_regions = {
+			iberia_region
+		}
+
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
@@ -3379,20 +6983,21 @@ countries = {
 		}
 
 		own_control_core = {
-			bayonne elizondo mauleon orthez saint_jean_pied_de_port
+			lucena
 		}
-		accepted_cultures = { aquitanian }
+		accepted_cultures = { urgapa celtiberian }
 		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region iberia_region
-		}
 	}
 
-	##SOTIATES
-	SOTIA = {
-		capital = labrit
-		culture = gaulish
-		religion = gaulish_pagan
+	##URSO
+	URSO = {
+		capital = moron
+		culture = urso
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
 
 		country_rank = rank_kingdom
 
@@ -3403,20 +7008,21 @@ countries = {
 		}
 
 		own_control_core = {
-			labrit
+			moron osuna
 		}
-		accepted_cultures = { gaulish }
+		accepted_cultures = { urso celtiberian }
 		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
 	}
 
-	##TARDELLE
-	TARDL = {
-		capital = dax
-		culture = gaulish
-		religion = gaulish_pagan
+	##VACCAEI
+	VACCA = {
+		capital = alba_de_aliste
+		culture = vaccaei
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
 
 		country_rank = rank_kingdom
 
@@ -3427,20 +7033,22 @@ countries = {
 		}
 
 		own_control_core = {
-			dax mimizan tartas tosse
+			alba_de_aliste alcanices benavente fermoselle leon mansilla sahagun villalpando
+			zamora
 		}
-		accepted_cultures = { gaulish }
+		accepted_cultures = { vaccaei celtiberian }
 		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
 	}
 
-	##UNELLES
-	UNELL = {
-		capital = cherbourg
-		culture = gaulish
-		religion = gaulish_pagan
+	##VADRULI
+	VADRU = {
+		capital = estella
+		culture = vadruli
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
 
 		country_rank = rank_kingdom
 
@@ -3451,13 +7059,10 @@ countries = {
 		}
 
 		own_control_core = {
-			cherbourg jersey st_sauveur
+			estella onate pamplona salvatierra san_sebastian tolosa
 		}
-		accepted_cultures = { gaulish }
+		accepted_cultures = { vadruli celtiberian }
 		tolerated_cultures = {  }
-		discovered_regions = {
-			france_region
-		}
 	}
 
 	##VASATES
@@ -3486,7 +7091,7 @@ countries = {
 
 	##VELIOCASSES
 	VELIO = {
-		capital = lisieux
+		capital = bernay
 		culture = gaulish
 		religion = gaulish_pagan
 
@@ -3499,7 +7104,7 @@ countries = {
 		}
 
 		own_control_core = {
-			lisieux louviers pont_audemer
+			bernay harcourt lisieux louviers pont_audemer
 		}
 		accepted_cultures = { gaulish }
 		tolerated_cultures = {  }
@@ -3532,6 +7137,31 @@ countries = {
 		}
 	}
 
+	##VENATISOCI
+	VENAT = {
+		capital = los_yebenes
+		culture = venatisoci
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			los_yebenes navalucillos puebla_de_montalban
+		}
+		accepted_cultures = { venatisoci celtiberian }
+		tolerated_cultures = {  }
+	}
+
 	##VENETES
 	VENES = {
 		capital = hennebont
@@ -3556,6 +7186,132 @@ countries = {
 		}
 	}
 
+	##VENETIC
+	VENET = {
+		capital = aquileia
+		culture = castellieri
+		religion = italic_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aquileia bassano belluno castelfranco ceneda chioggia conegliano este
+			feltre legnago mestre monselice padova peschiera pordenone treviso
+			udine venice verona vicenza
+		}
+		accepted_cultures = { castellieri proto_villanovan }
+		tolerated_cultures = { polada luco }
+		discovered_regions = {
+			italy_region
+		}
+	}
+
+	##VENOSTES
+	VENOS = {
+		capital = bludenz
+		culture = venostes
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bludenz bregenz feldkirch glarus schwyz werdenberg
+		}
+		accepted_cultures = { venostes gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##VERUCINI
+	VERUC = {
+		capital = barjols
+		culture = verucini
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			barjols
+		}
+		accepted_cultures = { verucini ligurian }
+		tolerated_cultures = {  }
+	}
+
+	##VESTINIAN
+	VESTI = {
+		capital = lanciano
+		culture = apennine
+		religion = italic_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			lanciano vasto
+		}
+		accepted_cultures = { apennine }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			italy_region
+		}
+	}
+
+	##VETTONES
+	VETTO = {
+		capital = alba_de_tormes
+		culture = vettones
+		religion = iberian_pagan
+
+		discovered_regions = {
+			iberia_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alba_de_tormes alcantara bejar ciudad_rodrigo granadilla guarda ledesma matilla_de_canos
+			piedrahita pinhel sabugal san_felices
+		}
+		accepted_cultures = { vettones celtiberian }
+		tolerated_cultures = {  }
+	}
+
 	##VIDUCASSES
 	VIDUC = {
 		capital = bayeux
@@ -3578,6 +7334,31 @@ countries = {
 		discovered_regions = {
 			france_region
 		}
+	}
+
+	##VIROMANDU
+	VIROM = {
+		capital = clermont_en_beauvaisis
+		culture = viromandu
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			clermont_en_beauvaisis coucy laon noyon ribemont
+		}
+		accepted_cultures = { viromandu gaulish }
+		tolerated_cultures = {  }
 	}
 
 	##VOCANCES
@@ -3628,9 +7409,33 @@ countries = {
 		}
 	}
 
+	##VOLSCIAN
+	VOLSC = {
+		capital = sora
+		culture = ausonian
+		religion = italic_pagan
+
+		country_rank = rank_kingdom
+
+		include = "catholic_monarchy_not_present"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			sora venafro
+		}
+		accepted_cultures = { ausonian }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			italy_region
+		}
+	}
+
 	##VOLQUES TECTOSAGES
 	VOLTE = {
-		capital = agde
+		capital = albi
 		culture = gaulish
 		religion = gaulish_pagan
 
@@ -3643,25 +7448,24 @@ countries = {
 		}
 
 		own_control_core = {
-			agde albi aspet beziers carcassonne castellon_ampurias castelnaudary castres
-			fenouillet foix lautrec lavaur limoux mirepoix narbonne pamiers
-			perpignan prades saint_lizier saint_pons toulouse verdun_sur_garonne vielha villemur
+			albi aspet castelnaudary castres foix lautrec lavaur mirepoix
+			pamiers saint_lizier toulouse verdun_sur_garonne vielha villemur
 		}
-		accepted_cultures = { gaulish iberian }
+		accepted_cultures = { gaulish }
 		tolerated_cultures = {  }
 		discovered_regions = {
 			france_region iberia_region
 		}
 	}
 
-	##ACHAEA
-	ACHAE = {
-		capital = chalandritsa
-		culture = mycenaean
-		religion = mycenaean
+	##VOLTICIANI
+	VOLTI = {
+		capital = caspe
+		culture = volticiani
+		religion = iberian_pagan
 
 		discovered_regions = {
-			balkan_region
+			iberia_region
 		}
 
 		country_rank = rank_kingdom
@@ -3673,21 +7477,17 @@ countries = {
 		}
 
 		own_control_core = {
-			chalandritsa kalavryta patras vostitsa
+			caspe flix
 		}
-		accepted_cultures = { mycenaean arcadian }
+		accepted_cultures = { volticiani celtiberian }
 		tolerated_cultures = {  }
 	}
 
-	##ATHENS
-	ATHEN = {
-		capital = athens
-		culture = ionian
-		religion = hellenic
-
-		discovered_regions = {
-			balkan_region
-		}
+	##WALAN
+	WALAN = {
+		capital = ahar
+		culture = mede
+		religion = iranic
 
 		country_rank = rank_kingdom
 
@@ -3698,45 +7498,48 @@ countries = {
 		}
 
 		own_control_core = {
-			athens
+			ahar goris heris kaleybar kapan_armenia mardanaqom qahqaheh
 		}
-		accepted_cultures = { ionian }
+		accepted_cultures = { mede urartian }
 		tolerated_cultures = {  }
+		discovered_regions = {
+			caucasus_region persia_region
+		}
 	}
 
-	##IOLCUS
-	IOLCU = {
-		capital = demetrias
-		culture = aeolian
-		religion = hellenic
-
-		discovered_regions = {
-			balkan_region
-		}
+	##WILUSA
+	WILUS = {
+		capital = ayvacik
+		culture = luwian
+		religion = luwian
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy_not_present"
 
+		own_control_core = {
+			ayvacik balya bandirma bayramic biga can canakkale edremit
+			enez gallipoli gonen imbros kesan lapseki lemnos manyas
+			mihalic rodoscuk
+		}
 		government = {
 			ruler = random
 		}
-
-		own_control_core = {
-			demetrias
-		}
-		accepted_cultures = { aeolian }
+		accepted_cultures = { luwian thracian }
 		tolerated_cultures = {  }
+		discovered_regions = {
+			anatolia_region balkan_region
+		}
 	}
 
-	##ORCHOMENUS
-	ORCHO = {
-		capital = atalanti
-		culture = pelasgian
-		religion = hellenic
+	##ZOELAE
+	ZOELA = {
+		capital = braganca
+		culture = zoelae
+		religion = lusitanian_pagan
 
 		discovered_regions = {
-			balkan_region
+			iberia_region
 		}
 
 		country_rank = rank_kingdom
@@ -3748,109 +7551,9 @@ countries = {
 		}
 
 		own_control_core = {
-			atalanti gravia
+			braganca macedo mirandela puebla_de_sanabria
 		}
-		accepted_cultures = { pelasgian }
-		tolerated_cultures = {  }
-	}
-
-	##PYLOS
-	PYLOS = {
-		capital = kalamata
-		culture = mycenaean
-		religion = mycenaean
-
-		discovered_regions = {
-			balkan_region
-		}
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			kalamata kyparissia leuktron modon
-		}
-		accepted_cultures = { mycenaean }
-		tolerated_cultures = {  }
-	}
-
-	##RHODES
-	RHODE = {
-		capital = karpathos
-		culture = dorian
-		religion = hellenic
-
-		discovered_regions = {
-			balkan_region
-		}
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			karpathos rodos
-		}
-		accepted_cultures = { dorian }
-		tolerated_cultures = {  }
-	}
-
-	##SPARTA
-	SPART = {
-		capital = astros
-		culture = mycenaean
-		religion = mycenaean
-
-		discovered_regions = {
-			balkan_region
-		}
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			astros kythira monemvasia mystras oitylo veligosti
-		}
-		accepted_cultures = { mycenaean cycladic }
-		tolerated_cultures = { arcadian }
-	}
-
-	##THEBES
-	THEBE = {
-		capital = livadeia
-		culture = mycenaean
-		religion = mycenaean
-
-		discovered_regions = {
-			balkan_region
-		}
-
-		country_rank = rank_kingdom
-
-		include = "catholic_monarchy_not_present"
-
-		government = {
-			ruler = random
-		}
-
-		own_control_core = {
-			livadeia salona
-		}
-		accepted_cultures = { mycenaean pelasgian }
+		accepted_cultures = { zoelae lusitanian }
 		tolerated_cultures = {  }
 	}
 

@@ -1,92 +1,38 @@
 Bronze Era country integration conflict log
 ===========================================
 
-Modified assignment tags read: 157
-Original assignment tags read: 72
-Final assignment tags written: 157
-Unique owned locations written: 1675
+Modified assignment tags read: 304
+Original assignment tags read: 157
+Final assignment tags written: 304
+Unique owned locations written: 2371
 
 Comparison summary:
-- new tags in modified source: 85
-- modified existing tags: 2
-- unchanged existing tags: 70
-- removed tags from original source: 0
+- new tags in modified source: 148
+- modified existing tags: 5
+- unchanged existing tags: 151
+- removed tags from original source: 1
 
 Modified existing tags:
-0001G ARDIA
+LEPON SANTN SOTIA VELIO VOLTE
 
 Normalized tags:
-- AEQUIAN -> AEQUI
-- CAMUNIC -> CAMUN
-- CARNIAN -> CARNI
-- DAESITIAN -> DAESI
-- ETRUSCAN -> ETRUS
-- FALISCAN -> FALIS
-- HELVETII -> HELVE
-- HISTRIAN -> HISTI
-- INSUBRES -> INSUB
-- LEPONTIC -> LEPON
-- LIBURNIA -> LIBUR
-- LIGURIA -> LIGUR
-- MARSIAN -> MARSI
-- NORD PICENE -> NPICE
-- OENOTRIAN -> OENOT
-- PAGONIA -> PAGON
-- RAETIC -> RAETI
-- SCORDISCIAN -> SCORD
-- SENOMES -> SENOM
-- SENONIAN -> SENON
-- SOUTH PICENE -> SPICE
-- SURRTENIA -> SURRT
-- TARANTINE -> TARAN
-- TAURISCIAN -> TAURI
-- UMBRIAN -> UMBRI
-- VENETIAN -> VENET
-- VESTINIAN -> VESTI
-- VOLSCIAN -> VOLSC
-- ARAXES -> ARAX
-- MANNAEA -> MANNA
-- MOESIA -> MOESI
-- POTULATENSIS -> POTUL
-- SCYTHIANS -> SCYTH
-- ABRINCATES -> ABRIN
-- ALLOBROGES -> ALLOB
-- AMBARRES -> AMBAR
-- ARVERNES -> ARVER
-- BAIOCASSES -> BAIOC
-- BITURIGES -> BITUR
-- CALETES -> CALET
-- CORIOSOLITES -> CORIO
-- ESUVIEN -> ESUVI
-- GABALES -> GABAL
-- LEXOVIENS -> LEXOV
-- NAMNETES -> NAMNE
-- OSISMES -> OSISM
-- PICTON -> PICTO
-- REDONES -> REDON
-- RUTENES -> RUTEN
-- SALLUVIENS -> SALLU
-- SANTANS -> SANTN
-- SEGUSIAVES -> SEGUS
-- SEQUANCES -> SEQUA
-- SIBUZATES -> SIBUZ
-- SOTIATES -> SOTIA
-- TARDELLE -> TARDL
-- UNELLES -> UNELL
-- VASATES -> VASAT
-- VELIOCASSES -> VELIO
-- VELLAVES -> VELLA
-- VENETES -> VENES
-- VIDUCASSES -> VIDUC
-- VOCANCES -> VOCAN
-- VOLQUES_ARECOMIQUES -> VOLAR
-- VOLQUES_TECTOSAGES -> VOLTE
+- CAMU1 -> CMNNI
+- MENT1 -> METSO
+- SENO1 -> SENES
+- SUES1 -> SUESO
+- ACHAEA -> ACHAE
+- ATHENS -> ATHEN
+- IOLCUS -> IOLC
+- ORCHOMENUS -> ORCHO
+- RHODES -> RHODE
+- SPARTA -> SPART
+- THEBES -> THEBE
 
 Original-only fallback tags kept:
 none
 
 Original-only tags removed:
-none
+LIGUR
 
 Invalid locations skipped:
 - none

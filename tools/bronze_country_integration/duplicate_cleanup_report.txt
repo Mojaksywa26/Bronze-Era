@@ -4,12 +4,36 @@ Bronze Era duplicate ownership cleanup
 Duplicate locations inside same tag removed: 0
 - none
 
-Cross-tag ownership conflicts resolved: 2
-- atalanti: 0001G -> ORCHOMENUS
-- gravia: 0001G -> ORCHOMENUS
+Cross-tag ownership conflicts resolved: 26
+- acqui: kept STATI, removed from LIGUR
+- alba: kept STATI, removed from LIGUR
+- albenga: kept INGAU, removed from LIGUR
+- bardi: kept LAPCI, removed from LIGUR
+- barjols: kept VERUC, removed from LIGUR
+- brignoles: kept SUELT, removed from LIGUR
+- cairo_montenotte: kept POLLE, removed from LIGUR
+- castellane: kept LAGAM, removed from LIGUR
+- ceva: kept STATI, removed from LIGUR
+- cuneo: kept EPANT, removed from LIGUR
+- draguignan: kept LAGAM, removed from LIGUR
+- finalborgo: kept SABAT, removed from LIGUR
+- frejus: kept SUELT, removed from LIGUR
+- genoa: kept GENNA, removed from LIGUR
+- grasse: kept INTER, removed from LIGUR
+- lavagna: kept TIGUL, removed from LIGUR
+- mondovi: kept STATI, removed from LIGUR
+- nice: kept INTER, removed from LIGUR
+- novi: kept LAPCI, removed from LIGUR
+- puget_theniers: kept INTER, removed from LIGUR
+- rovegno: kept LAPCI, removed from LIGUR
+- saluzzo: kept EPANT, removed from LIGUR
+- sarzana: kept TIGUL, removed from LIGUR
+- savona: kept SABAT, removed from LIGUR
+- toulon: kept SUELT, removed from LIGUR
+- ventimiglia: kept INGAU, removed from LIGUR
 
 Duplicate tag blocks resolved: 0
 - none
 
-Empty tags skipped after cleanup: 0
-- none
+Empty tags skipped after cleanup: 1
+- LIGUR

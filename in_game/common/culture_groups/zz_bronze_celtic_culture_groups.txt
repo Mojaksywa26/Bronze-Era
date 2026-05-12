@@ -1,0 +1,40 @@
+# Bronze Era Celtic culture hierarchy generated from liste pays.txt.
+
+celtic = {
+}
+
+lepontic = {
+}
+
+ligurian = {
+}
+
+gaulish = {
+}
+
+belgica = {
+}
+
+celtic_phoenician = {
+}
+
+britannic = {
+}
+
+ibero_celtic = {
+}
+
+lusitanian = {
+}
+
+gallaecian = {
+}
+
+asturian = {
+}
+
+balkan_celtic = {
+}
+
+germanic_celtic = {
+}

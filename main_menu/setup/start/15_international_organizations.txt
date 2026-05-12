@@ -9,7 +9,7 @@ international_organization_manager = {
 			0001G
 			ACHAE
 			ATHEN
-			IOLCU
+			IOLC
 			ORCHO
 			PYLOS
 			RHODE
@@ -43,36 +43,36 @@ international_organization_manager = {
 		great_palace_candidate = {
 			0001G
 			PYLOS
-			SPARTA
-			THEBES
+			SPART
+			THEBE
 		}
 
 		palace_candidate = {
-			ATHENS
-			IOLCUS
-			ORCHOMENUS
+			ATHEN
+			IOLC
+			ORCHO
 		}
 
 		sanctuary_patron = {
 			0001G
-			ACHAEA
-			ORCHOMENUS
-			THEBES
+			ACHAE
+			ORCHO
+			THEBE
 		}
 
 		island_wanaxate = {
-			RHODES
+			RHODE
 		}
 
 		palace_kingdom = {
-			ACHAEA
-			ATHENS
-			IOLCUS
-			ORCHOMENUS
+			ACHAE
+			ATHEN
+			IOLC
+			ORCHO
 			PYLOS
-			RHODES
-			SPARTA
-			THEBES
+			RHODE
+			SPART
+			THEBE
 		}
 
 		laws = {

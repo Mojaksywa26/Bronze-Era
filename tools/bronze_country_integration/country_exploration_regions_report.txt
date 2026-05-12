@@ -2,7 +2,7 @@ Bronze Era country explored regions report
 ==========================================
 
 Map definitions source: D:\SteamLibrary\steamapps\common\Europa Universalis V\game\in_game\map_data\definitions.txt
-Countries checked: 157
+Countries checked: 304
 
 0001G (Mycenae)
 - discovered_regions: anatolia_region balkan_region
@@ -13,8 +13,23 @@ Countries checked: 157
 0003G (Hatti)
 - discovered_regions: anatolia_region caucasus_region crescent_region
 
+ABRIN (Abrincates)
+- discovered_regions: france_region
+
+ACCIO (Accioci)
+- discovered_regions: iberia_region
+
+ACHAE (Achaea)
+- discovered_regions: balkan_region
+
+ACINI (Acinippo)
+- discovered_regions: iberia_region
+
 ACRE (Acre)
 - discovered_regions: crescent_region
+
+ADUAT (Aduatuci)
+- discovered_regions: north_german_region
 
 AEDUI (Aedui)
 - discovered_regions: france_region south_german_region
@@ -25,8 +40,17 @@ AEQUI (Aequi)
 AGRIA (Agrianes)
 - discovered_regions: balkan_region
 
+AICUB (Aicubiduoi)
+- discovered_regions: france_region
+
 ALASI (Alashiya)
 - discovered_regions: anatolia_region
+
+ALBIO (Albiones)
+- discovered_regions: iberia_region
+
+ALLOB (Allobroges)
+- discovered_regions: france_region
 
 ALMOP (Almopians)
 - discovered_regions: balkan_region
@@ -34,14 +58,50 @@ ALMOP (Almopians)
 ALZIY (Alziya)
 - discovered_regions: caucasus_region
 
+AMBAR (Ambarres)
+- discovered_regions: france_region
+
+AMBIA (Ambiani)
+- discovered_regions: france_region
+
 AMURU (Amurru)
 - discovered_regions: crescent_region
+
+ANDEC (Andecamulenses)
+- discovered_regions: france_region
+
+ANDES (Andes)
+- discovered_regions: france_region
+
+ANTIC (Anticaria)
+- discovered_regions: iberia_region
+
+ARAOC (Araocelenses)
+- discovered_regions: iberia_region
+
+ARAX (Araxes)
+- discovered_regions: caucasus_region persia_region
 
 ARDIA (Ardiaioi)
 - discovered_regions: balkan_region
 
+ARESA (Aresaces)
+- discovered_regions: south_german_region
+
+AREVA (Arevaci)
+- discovered_regions: iberia_region
+
 ARGAR (El Argar)
 - discovered_regions: iberia_region
+
+ARROT (Arrotrebae)
+- discovered_regions: iberia_region
+
+ARUND (Arunda)
+- discovered_regions: iberia_region
+
+ARVER (Arvernes)
+- discovered_regions: france_region
 
 ARWAD (Arwad)
 - discovered_regions: crescent_region
@@ -49,8 +109,35 @@ ARWAD (Arwad)
 ASYRI (Assyria)
 - discovered_regions: caucasus_region crescent_region persia_region
 
+ATACI (Atacini)
+- discovered_regions: france_region
+
+ATHEN (Athens)
+- discovered_regions: balkan_region
+
+ATREB (Atrebates)
+- discovered_regions: france_region north_german_region
+
+AULER (Aulerci)
+- discovered_regions: france_region
+
+ALCEN (Aulerci Cenomani)
+- discovered_regions: france_region
+
+ALDIA (Aulerci Diablintes)
+- discovered_regions: france_region
+
+AUTRI (Autrigones)
+- discovered_regions: iberia_region
+
 AZZI (Azzi)
 - discovered_regions: anatolia_region caucasus_region
+
+BAEDU (Baedui)
+- discovered_regions: iberia_region
+
+BAIOC (Baiocasses)
+- discovered_regions: france_region
 
 BALES (Balearic Isles)
 - discovered_regions: iberia_region
@@ -58,8 +145,32 @@ BALES (Balearic Isles)
 BALSA (Balsa)
 - discovered_regions: iberia_region
 
+BARDI (Bardili)
+- discovered_regions: iberia_region
+
+BEBRY (Bebrykes)
+- discovered_regions: iberia_region
+
+BELLI (Belli)
+- discovered_regions: iberia_region
+
+BELLO (Bellouaci)
+- discovered_regions: france_region
+
 BERIT (Berit)
 - discovered_regions: crescent_region
+
+BIBRO (Bibroci)
+- discovered_regions: great_britain_region
+
+BITUR (Bituriges)
+- discovered_regions: france_region
+
+BITCU (Bituriges Cubi)
+- discovered_regions: france_region
+
+BLETO (Bletonessi)
+- discovered_regions: iberia_region
 
 BOLI (Boii)
 - discovered_regions: italy_region
@@ -73,19 +184,103 @@ BOTTI (Bottiaea)
 BOULI (Boulinoi)
 - discovered_regions: balkan_region
 
+BRACA (Bracari)
+- discovered_regions: iberia_region
+
+BRENA (Brenai)
+- discovered_regions: south_german_region
+
 BYBLO (Byblos)
 - discovered_regions: crescent_region
+
+CABRI (Cabriangini)
+- discovered_regions: iberia_region
+
+CADAB (Cadabri)
+- discovered_regions: iberia_region
+
+CAEMA (Caemanar)
+- discovered_regions: france_region north_german_region
+
+CAERO (Caerosi)
+- discovered_regions: north_german_region
+
+CALAD (Caladoni)
+- discovered_regions: iberia_region
+
+CALET (Caletes)
+- discovered_regions: france_region
+
+CALLA (Callaeci)
+- discovered_regions: iberia_region
+
+CALON (Calontienes)
+- discovered_regions: iberia_region
+
+CAMAO (Camaolenses)
+- discovered_regions: iberia_region
 
 CAMUN (Camunic)
 - discovered_regions: italy_region south_german_region
 
+CMNNI (Camunni)
+- discovered_regions: italy_region south_german_region
+
+CANTI (Cantiaci)
+- discovered_regions: great_britain_region
+
 CAONI (Chaonia)
 - discovered_regions: balkan_region
+
+CAPOR (Capori)
+- discovered_regions: iberia_region
+
+CARIS (Caristii)
+- discovered_regions: iberia_region
 
 CARNI (Carnian)
 - discovered_regions: balkan_region
 
+CARNU (Carnutes)
+- discovered_regions: france_region
+
 CARTI (Carteia)
+- discovered_regions: iberia_region
+
+CATUW (Catuwellaunoi)
+- discovered_regions: france_region
+
+CAUCI (Cauci)
+- discovered_regions: iberia_region
+
+CELEG (Celegeri)
+- discovered_regions: balkan_region carpathia_region
+
+CELTI (Celtici)
+- discovered_regions: iberia_region
+
+CIBAR (Cibarci)
+- discovered_regions: iberia_region
+
+COERE (Coerenses)
+- discovered_regions: iberia_region
+
+COLIA (Coliacini)
+- discovered_regions: iberia_region
+
+CONCA (Concani)
+- discovered_regions: iberia_region
+
+CONI (Coni)
+- discovered_regions: iberia_region
+
+CONSG (Consgi)
+- discovered_regions: iberia_region
+
+CORIO (Coriosolites)
+- discovered_regions: france_region
+
+CRATI (Cratistii)
 - discovered_regions: iberia_region
 
 DAESI (Daesitian)
@@ -100,14 +295,23 @@ DERRN (Derrones)
 DIMUN (Dilmun)
 - discovered_regions: arabia_region
 
+DISCO (Discoduarterae)
+- discovered_regions: balkan_region
+
 DOBER (Doberes)
 - discovered_regions: balkan_region
 
 DOLOP (Dolopia)
 - discovered_regions: balkan_region
 
+EBURO (Eburones)
+- discovered_regions: north_german_region
+
 ELAM (Elam)
 - discovered_regions: persia_region
+
+ELISY (Elisykoi)
+- discovered_regions: france_region
 
 ELMIT (Elimiotis)
 - discovered_regions: balkan_region
@@ -115,11 +319,38 @@ ELMIT (Elimiotis)
 ELYMI (Elymians)
 - discovered_regions: italy_region
 
+EPANT (Epanterri)
+- discovered_regions: france_region italy_region
+
+EPORA (Epora)
+- discovered_regions: iberia_region
+
+ESUVI (Esuvien)
+- discovered_regions: france_region
+
 ETRUS (Etruria)
 - discovered_regions: italy_region
 
 FALIS (Faliscan)
 - discovered_regions: italy_region
+
+GABAL (Gabales)
+- discovered_regions: france_region
+
+GALLI (Galli)
+- discovered_regions: iberia_region
+
+GARUM (Garumni)
+- discovered_regions: iberia_region
+
+GENNA (Gennates)
+- discovered_regions: italy_region
+
+GETAE (Getae)
+- discovered_regions: balkan_region carpathia_region
+
+GROVI (Grovii)
+- discovered_regions: iberia_region
 
 HABIR (Habiru)
 - discovered_regions: arabia_region crescent_region
@@ -145,11 +376,35 @@ HYLLO (Hylloi)
 IAPYG (Iapygia)
 - discovered_regions: italy_region
 
+IBOLC (Ibolcani)
+- discovered_regions: iberia_region
+
+ILIPA (Ilipa)
+- discovered_regions: iberia_region
+
+INGAU (Ingaumi)
+- discovered_regions: italy_region
+
 INSUB (Insubres)
 - discovered_regions: italy_region
 
+INTER (Internelli)
+- discovered_regions: france_region
+
+IOLC (Iolcus)
+- discovered_regions: balkan_region
+
+IONIA (Ionia)
+- discovered_regions: balkan_region
+
+IREUC (Ireucutioni)
+- discovered_regions: iberia_region
+
 KARKA (Karkamissa)
 - discovered_regions: crescent_region
+
+KARTU (Kartuba)
+- discovered_regions: iberia_region
 
 KASKA (Kaska)
 - discovered_regions: anatolia_region
@@ -160,8 +415,20 @@ KASSI (Kassites)
 KUWAL (Kuwal)
 - discovered_regions: anatolia_region
 
+KYNET (Kynetes)
+- discovered_regions: iberia_region
+
 LAEAE (Laeaeans)
 - discovered_regions: balkan_region
+
+LAGAM (Lagami)
+- discovered_regions: france_region
+
+LAPCI (Lapcini)
+- discovered_regions: italy_region
+
+LAPIA (Lapiatinei)
+- discovered_regions: iberia_region
 
 LATIN (Latins)
 - discovered_regions: italy_region
@@ -169,8 +436,20 @@ LATIN (Latins)
 LAZPA (Lazpa)
 - discovered_regions: balkan_region
 
+LEMAV (Lemavi)
+- discovered_regions: iberia_region
+
+LEMOV (Lemovices)
+- discovered_regions: france_region
+
 LEPON (Lepontic)
 - discovered_regions: france_region italy_region south_german_region
+
+LEUNI (Leuni)
+- discovered_regions: iberia_region
+
+LEXOV (Lexoviens)
+- discovered_regions: france_region
 
 LIBUR (Liburnian)
 - discovered_regions: balkan_region
@@ -178,11 +457,20 @@ LIBUR (Liburnian)
 LIBYA (Libya)
 - discovered_regions: egypt_region maghreb_region
 
-LIGUR (Ligurian)
-- discovered_regions: france_region italy_region
+LINGO (Lingones)
+- discovered_regions: france_region
+
+LOBET (Lobetani)
+- discovered_regions: iberia_region
+
+LOUGE (Lougei)
+- discovered_regions: iberia_region
 
 LUKKA (Lukka)
 - discovered_regions: anatolia_region
+
+LUSON (Lusones)
+- discovered_regions: iberia_region
 
 MAGAN (Magan)
 - discovered_regions: arabia_region
@@ -190,8 +478,14 @@ MAGAN (Magan)
 MALAK (Malaka)
 - discovered_regions: iberia_region
 
+MANDU (Mandubio)
+- discovered_regions: france_region
+
 MANIO (Manioi)
 - discovered_regions: balkan_region
+
+MANNA (Mannaea)
+- discovered_regions: persia_region
 
 MARSI (Marsian)
 - discovered_regions: italy_region
@@ -199,23 +493,56 @@ MARSI (Marsian)
 MASA (Masa)
 - discovered_regions: anatolia_region
 
+MELDI (Meldi)
+- discovered_regions: france_region
+
+MENAP (Menapii)
+- discovered_regions: north_german_region
+
+MENTE (Mentesani)
+- discovered_regions: iberia_region
+
+METSO (Mentesoni)
+- discovered_regions: iberia_region
+
 MIRA (Mira)
 - discovered_regions: anatolia_region
+
+MIROB (Mirobrigenses)
+- discovered_regions: iberia_region
 
 MITAN (Mitanni)
 - discovered_regions: caucasus_region crescent_region
 
+MOESI (Moesia)
+- discovered_regions: balkan_region
+
 MOLOS (Molossia)
 - discovered_regions: balkan_region
+
+MORIN (Morini)
+- discovered_regions: france_region
+
+NAMNE (Namnetes)
+- discovered_regions: france_region
+
+NEMET (Nemetati)
+- discovered_regions: iberia_region
+
+NERII (Nerii)
+- discovered_regions: iberia_region
+
+NERVI (Nervii)
+- discovered_regions: france_region north_german_region
 
 NESTI (Nestioi)
 - discovered_regions: balkan_region
 
-NPICE (North Picene)
-- discovered_regions: italy_region
-
 NORIC (Norici)
 - discovered_regions: balkan_region south_german_region
+
+NPICE (North Picene)
+- discovered_regions: italy_region
 
 NURAG (Nuragic Sardinia)
 - discovered_regions: italy_region
@@ -223,8 +550,29 @@ NURAG (Nuragic Sardinia)
 OENOT (Oenotrian)
 - discovered_regions: italy_region
 
+OLCAD (Olcades)
+- discovered_regions: iberia_region
+
+ONUBA (Onuba)
+- discovered_regions: iberia_region
+
+OPPID (Oppidani)
+- discovered_regions: iberia_region
+
+ORCHO (Orchomenus)
+- discovered_regions: balkan_region
+
+ORNIA (Orniaci)
+- discovered_regions: iberia_region
+
+OROBL (Orobli)
+- discovered_regions: italy_region
+
 OSCAN (Osci)
 - discovered_regions: italy_region
+
+OSISM (Osismes)
+- discovered_regions: france_region
 
 PAEON (Paeonia)
 - discovered_regions: balkan_region
@@ -232,26 +580,95 @@ PAEON (Paeonia)
 PAEOP (Paeoplae)
 - discovered_regions: balkan_region
 
+PAESI (Paesici)
+- discovered_regions: iberia_region
+
 PAGON (Pagonia)
 - discovered_regions: balkan_region carpathia_region south_german_region
 
 PALA (Pala)
 - discovered_regions: anatolia_region
 
+PALAN (Palanti)
+- discovered_regions: iberia_region
+
+PARIS (Parisi)
+- discovered_regions: france_region
+
 PARTH (Partha)
 - discovered_regions: anatolia_region
+
+PETRO (Petrocoriis)
+- discovered_regions: france_region
+
+PICTO (Picton)
+- discovered_regions: france_region
+
+POEMA (Poemani)
+- discovered_regions: iberia_region
+
+POLLE (Pollentini)
+- discovered_regions: italy_region
+
+POTUL (Potulatensis)
+- discovered_regions: balkan_region
+
+PYLOS (Pylos)
+- discovered_regions: balkan_region
+
+QUARQ (Quarqueni)
+- discovered_regions: iberia_region
 
 RAETI (Raetic)
 - discovered_regions: italy_region south_german_region
 
+REDON (Redones)
+- discovered_regions: france_region
+
+REGIN (Regini)
+- discovered_regions: great_britain_region
+
+REMI (Remi)
+- discovered_regions: france_region
+
+RHODE (Rhodes)
+- discovered_regions: balkan_region
+
+RUTEN (Rutenes)
+- discovered_regions: france_region
+
+SABAT (Sabates)
+- discovered_regions: italy_region
+
+SAELI (Saelini)
+- discovered_regions: iberia_region
+
 SAHIR (Sahiriya)
 - discovered_regions: anatolia_region
+
+SALLU (Salluviens)
+- discovered_regions: france_region
+
+SANTN (Santans)
+- discovered_regions: france_region
+
+SARDO (Sardonnes)
+- discovered_regions: france_region iberia_region
 
 SASU (Sasu)
 - discovered_regions: arabia_region crescent_region
 
 SCORD (Scordiscian)
 - discovered_regions: balkan_region
+
+SCYTH (Scythians)
+- discovered_regions: khorasan_region mongolia_region west_siberia_region xinjiang_region
+
+SEARE (Seareae)
+- discovered_regions: iberia_region
+
+SEGUS (Segusiaves)
+- discovered_regions: france_region
 
 SEHA (Seha River Land)
 - discovered_regions: anatolia_region
@@ -262,17 +679,59 @@ SENOM (Senomes)
 SENON (Senonian)
 - discovered_regions: italy_region
 
+SENES (Senones)
+- discovered_regions: france_region
+
+SEQUA (Sequances)
+- discovered_regions: france_region
+
+SETUE (Setuei)
+- discovered_regions: france_region
+
+SEURB (Seurbi)
+- discovered_regions: iberia_region
+
+SEURR (Seurri)
+- discovered_regions: iberia_region
+
+SIBUZ (Sibuzates)
+- discovered_regions: france_region iberia_region
+
 SICAN (Sicania)
 - discovered_regions: italy_region
 
 SICEL (Sicels)
 - discovered_regions: italy_region
 
+SILVA (Silvanectes)
+- discovered_regions: france_region
+
 SIROP (Siropaines)
+- discovered_regions: balkan_region
+
+SOTIA (Sotiates)
+- discovered_regions: france_region
+
+SPART (Sparta)
 - discovered_regions: balkan_region
 
 SPICE (South Picene)
 - discovered_regions: italy_region
+
+STATI (Statielli)
+- discovered_regions: italy_region
+
+SUBIN (Subinates)
+- discovered_regions: italy_region
+
+SUELT (Suelteri)
+- discovered_regions: france_region
+
+SUESS (Suessetani)
+- discovered_regions: iberia_region
+
+SUESO (Suessiones)
+- discovered_regions: france_region
 
 SURRT (Surrtenia)
 - discovered_regions: italy_region
@@ -280,8 +739,17 @@ SURRT (Surrtenia)
 SUTU (Sutu)
 - discovered_regions: crescent_region
 
+TALUR (Talures)
+- discovered_regions: iberia_region
+
+TAPOR (Tapori)
+- discovered_regions: iberia_region
+
 TARAN (Tarantine)
 - discovered_regions: italy_region
+
+TARDL (Tardelle)
+- discovered_regions: france_region
 
 TARTS (Tartessos)
 - discovered_regions: iberia_region
@@ -295,137 +763,98 @@ TAURI (Tauriscian)
 TESPR (Thesprotia)
 - discovered_regions: balkan_region
 
+TEUCO (Teucor)
+- discovered_regions: france_region
+
+THEBE (Thebes)
+- discovered_regions: balkan_region
+
 THRAC (Thrace)
 - discovered_regions: balkan_region
+
+TIGUL (Tigulin)
+- discovered_regions: italy_region
+
+TIMAC (Timachi)
+- discovered_regions: balkan_region carpathia_region
+
+TITTI (Tittii)
+- discovered_regions: iberia_region
 
 TORRI (Torrean Corsica)
 - discovered_regions: italy_region
 
+TREWE (Treweroi)
+- discovered_regions: france_region north_german_region
+
+TRICA (Tricasses)
+- discovered_regions: france_region
+
 TRPOL (Tripoli)
 - discovered_regions: crescent_region
+
+TURDI (Turdili)
+- discovered_regions: iberia_region
+
+TUART (Turduli Artigi)
+- discovered_regions: iberia_region
+
+TUBUD (Turduli Budani)
+- discovered_regions: iberia_region
+
+TUDIP (Turduli Diponi)
+- discovered_regions: iberia_region
+
+TUSOS (Turduli Sosiponi)
+- discovered_regions: iberia_region
+
+TUVET (Turduli Veteres)
+- discovered_regions: iberia_region
+
+TURMO (Turmogi)
+- discovered_regions: iberia_region
+
+TURON (Turones)
+- discovered_regions: france_region
+
+TYLE (Tyle)
+- discovered_regions: balkan_region
+
+UBI (Ubi)
+- discovered_regions: north_german_region south_german_region
+
+UELAU (Uelauii)
+- discovered_regions: france_region
 
 UGART (Ugarit)
 - discovered_regions: crescent_region
 
+ULIBA (Uliba)
+- discovered_regions: caucasus_region
+
 UMBRI (Umbrian)
 - discovered_regions: italy_region
 
-VENET (Venetic)
-- discovered_regions: italy_region
+UNELL (Unelles)
+- discovered_regions: france_region
 
-VESTI (Vestinian)
-- discovered_regions: italy_region
-
-VOLSC (Volscian)
-- discovered_regions: italy_region
-
-WILUS (Wilusa)
-- discovered_regions: anatolia_region balkan_region
-
-ARAX (Araxes)
-- discovered_regions: caucasus_region persia_region
-
-GETAE (Getae)
-- discovered_regions: balkan_region carpathia_region
-
-IONIA (Ionia)
-- discovered_regions: balkan_region
-
-MANNA (Mannaea)
-- discovered_regions: persia_region
-
-MOESI (Moesia)
-- discovered_regions: balkan_region
-
-POTUL (Potulatensis)
-- discovered_regions: balkan_region
-
-SCYTH (Scythians)
-- discovered_regions: khorasan_region mongolia_region west_siberia_region xinjiang_region
-
-ULIBA (Uliba)
-- discovered_regions: caucasus_region
+URACI (Uraci)
+- discovered_regions: iberia_region
 
 URATU (Urartu)
 - discovered_regions: caucasus_region persia_region
 
-WALAN (Walan)
-- discovered_regions: caucasus_region persia_region
+URGAP (Urgapa)
+- discovered_regions: iberia_region
 
-ABRIN (Abrincates)
-- discovered_regions: france_region
+URSO (Urso)
+- discovered_regions: iberia_region
 
-ALLOB (Allobroges)
-- discovered_regions: france_region
+VACCA (Vaccaei)
+- discovered_regions: iberia_region
 
-AMBAR (Ambarres)
-- discovered_regions: france_region
-
-ANDES (Andes)
-- discovered_regions: france_region
-
-ARVER (Arvernes)
-- discovered_regions: france_region
-
-BAIOC (Baiocasses)
-- discovered_regions: france_region
-
-BITUR (Bituriges)
-- discovered_regions: france_region
-
-CALET (Caletes)
-- discovered_regions: france_region
-
-CORIO (Coriosolites)
-- discovered_regions: france_region
-
-ESUVI (Esuvien)
-- discovered_regions: france_region
-
-GABAL (Gabales)
-- discovered_regions: france_region
-
-LEXOV (Lexoviens)
-- discovered_regions: france_region
-
-NAMNE (Namnetes)
-- discovered_regions: france_region
-
-OSISM (Osismes)
-- discovered_regions: france_region
-
-PICTO (Picton)
-- discovered_regions: france_region
-
-REDON (Redones)
-- discovered_regions: france_region
-
-RUTEN (Rutenes)
-- discovered_regions: france_region
-
-SALLU (Salluviens)
-- discovered_regions: france_region
-
-SANTN (Santans)
-- discovered_regions: france_region
-
-SEGUS (Segusiaves)
-- discovered_regions: france_region
-
-SEQUA (Sequances)
-- discovered_regions: france_region
-
-SIBUZ (Sibuzates)
-- discovered_regions: france_region iberia_region
-
-SOTIA (Sotiates)
-- discovered_regions: france_region
-
-TARDL (Tardelle)
-- discovered_regions: france_region
-
-UNELL (Unelles)
-- discovered_regions: france_region
+VADRU (Vadruli)
+- discovered_regions: iberia_region
 
 VASAT (Vasates)
 - discovered_regions: france_region
@@ -436,10 +865,31 @@ VELIO (Veliocasses)
 VELLA (Vellaves)
 - discovered_regions: france_region
 
+VENAT (Venatisoci)
+- discovered_regions: iberia_region
+
 VENES (Venetes)
 - discovered_regions: france_region
 
+VENET (Venetic)
+- discovered_regions: italy_region
+
+VENOS (Venostes)
+- discovered_regions: south_german_region
+
+VERUC (Verucini)
+- discovered_regions: france_region
+
+VESTI (Vestinian)
+- discovered_regions: italy_region
+
+VETTO (Vettones)
+- discovered_regions: iberia_region
+
 VIDUC (Viducasses)
+- discovered_regions: france_region
+
+VIROM (Viromandu)
 - discovered_regions: france_region
 
 VOCAN (Vocances)
@@ -448,33 +898,24 @@ VOCAN (Vocances)
 VOLAR (Volques Arecomiques)
 - discovered_regions: france_region
 
+VOLSC (Volscian)
+- discovered_regions: italy_region
+
 VOLTE (Volques Tectosages)
 - discovered_regions: france_region iberia_region
 
-ACHAEA (Achaea)
-- discovered_regions: balkan_region
+VOLTI (Volticiani)
+- discovered_regions: iberia_region
 
-ATHENS (Athens)
-- discovered_regions: balkan_region
+WALAN (Walan)
+- discovered_regions: caucasus_region persia_region
 
-IOLCUS (Iolcus)
-- discovered_regions: balkan_region
+WILUS (Wilusa)
+- discovered_regions: anatolia_region balkan_region
 
-ORCHOMENUS (Orchomenus)
-- discovered_regions: balkan_region
-
-PYLOS (Pylos)
-- discovered_regions: balkan_region
-
-RHODES (Rhodes)
-- discovered_regions: balkan_region
-
-SPARTA (Sparta)
-- discovered_regions: balkan_region
-
-THEBES (Thebes)
-- discovered_regions: balkan_region
+ZOELA (Zoelae)
+- discovered_regions: iberia_region
 
 Validation summary:
 - countries without discovered_regions: none
-- owned locations not mapped to a region: none
+- owned locations not mapped to a region: BLETO: miranda_de_i_douro; BLETO: moncorvo; BRACA: aguiar; BRACA: chaves; BRACA: montalegre; BRACA: vila_real; EBURO: coblenz; EBURO: wied; ZOELA: braganca; ZOELA: macedo; ZOELA: mirandela

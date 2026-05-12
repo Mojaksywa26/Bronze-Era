@@ -2,7 +2,7 @@ Bronze Era country stability and identity report
 ================================================
 
 Every final country should have a capital, culture, religion, accepted_cultures, and tolerated_cultures.
-Countries checked: 157
+Countries checked: 304
 Missing identity entries: 0
 Invalid identity references: 0
 Low accepted-culture coverage warnings: 0
@@ -12,14 +12,14 @@ Low religion-stability coverage warnings: 0
 0001G (Mycenae)
 - culture: mycenaean (historical override)
 - religion: mycenaean (historical override)
-- accepted_cultures: mycenaean cycladic ionian minoan
-- tolerated_cultures: aeolian arcadian pelasgian dorian
+- accepted_cultures: mycenaean minoan ionian
+- tolerated_cultures: cycladic aeolian arcadian pelasgian dorian
 - religion stability candidates: hellenic minoan
-- accepted culture coverage: 81.9%
-- state religion coverage: 29.3%
+- accepted culture coverage: 71%
+- state religion coverage: 40.9%
 - religion stability coverage: 100%
-- culture weights: mycenaean:21.3 cycladic:19.05 ionian:10.1 minoan:9.04 aeolian:6.07
-- religion weights: hellenic:42.28 mycenaean:21.3 minoan:9.04
+- culture weights: mycenaean:28.6 minoan:11.1 ionian:9.9 cycladic:8.05 aeolian:6.15
+- religion weights: hellenic:30.15 mycenaean:28.6 minoan:11.1
 
 0002G (Egypt)
 - culture: upper_egyptian (historical override)
@@ -45,6 +45,54 @@ Low religion-stability coverage warnings: 0
 - culture weights: hittite:151.85 luwian:14.23 hurrian:13.27 denyen:10.14 hattian:6.16
 - religion weights: hittite:151.85 luwian:14.23 caucasian_pagan:13.27 sea_peoples_cult:10.14 hattian:6.16
 
+ABRIN (Abrincates)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:9.05
+- religion weights: gaulish_pagan:9.05
+
+ACCIO (Accioci)
+- culture: accioci (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: accioci celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: accioci:7.05
+- religion weights: iberian_pagan:7.05
+
+ACHAE (Achaea)
+- culture: mycenaean (historical override)
+- religion: mycenaean (historical override)
+- accepted_cultures: mycenaean arcadian
+- tolerated_cultures: none
+- religion stability candidates: hellenic
+- accepted culture coverage: 100%
+- state religion coverage: 85.5%
+- religion stability coverage: 100%
+- culture weights: mycenaean:8.85 arcadian:1.5
+- religion weights: mycenaean:8.85 hellenic:1.5
+
+ACINI (Acinippo)
+- culture: acinippo (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: acinippo celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: acinippo:4.04
+- religion weights: iberian_pagan:4.04
+
 ACRE (Acre)
 - culture: tjekker
 - religion: sea_peoples_cult
@@ -56,6 +104,18 @@ ACRE (Acre)
 - religion stability coverage: 100%
 - culture weights: tjekker:4.12
 - religion weights: sea_peoples_cult:4.12
+
+ADUAT (Aduatuci)
+- culture: aduatuci (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: aduatuci gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: aduatuci:18.24
+- religion weights: gaulish_pagan:18.24
 
 AEDUI (Aedui)
 - culture: gaulish
@@ -93,6 +153,18 @@ AGRIA (Agrianes)
 - culture weights: ezero:12.12
 - religion weights: thracian_pagan:12.12
 
+AICUB (Aicubiduoi)
+- culture: aicubiduoi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: aicubiduoi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: aicubiduoi:23.12
+- religion weights: gaulish_pagan:23.12
+
 ALASI (Alashiya)
 - culture: canaanite
 - religion: canaanite
@@ -104,6 +176,30 @@ ALASI (Alashiya)
 - religion stability coverage: 100%
 - culture weights: canaanite:12.19
 - religion weights: canaanite:12.19
+
+ALBIO (Albiones)
+- culture: albiones (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: albiones celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: albiones:8.04
+- religion weights: iberian_pagan:8.04
+
+ALLOB (Allobroges)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:22.11
+- religion weights: gaulish_pagan:22.11
 
 ALMOP (Almopians)
 - culture: paeonian
@@ -129,6 +225,30 @@ ALZIY (Alziya)
 - culture weights: urartian:11.3 gutian:2.03
 - religion weights: urartian:11.3 caucasian_pagan:2.03
 
+AMBAR (Ambarres)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:9.04
+- religion weights: gaulish_pagan:9.04
+
+AMBIA (Ambiani)
+- culture: ambiani (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: ambiani gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ambiani:11.09
+- religion weights: gaulish_pagan:11.09
+
 AMURU (Amurru)
 - culture: amorite
 - religion: mesopotamian
@@ -140,6 +260,66 @@ AMURU (Amurru)
 - religion stability coverage: 100%
 - culture weights: amorite:18.37
 - religion weights: mesopotamian:18.37
+
+ANDEC (Andecamulenses)
+- culture: andecamulenses (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: andecamulenses gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: andecamulenses:12.03
+- religion weights: gaulish_pagan:12.03
+
+ANDES (Andes)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:5
+- religion weights: gaulish_pagan:5
+
+ANTIC (Anticaria)
+- culture: anticaria (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: anticaria celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: anticaria:4.04
+- religion weights: iberian_pagan:4.04
+
+ARAOC (Araocelenses)
+- culture: araocelenses (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: araocelenses lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: araocelenses:8.04
+- religion weights: lusitanian_pagan:8.04
+
+ARAX (Araxes)
+- culture: saka
+- religion: saka_pagan
+- accepted_cultures: saka gutian
+- tolerated_cultures: urartian
+- religion stability candidates: caucasian_pagan urartian
+- accepted culture coverage: 93.4%
+- state religion coverage: 73.4%
+- religion stability coverage: 100%
+- culture weights: saka:11.18 gutian:3.05 urartian:1.01
+- religion weights: saka_pagan:11.18 caucasian_pagan:3.05 urartian:1.01
 
 ARDIA (Ardiaioi)
 - culture: glasinac_mati
@@ -153,6 +333,30 @@ ARDIA (Ardiaioi)
 - culture weights: glasinac_mati:35.2 central_bosnian:9.06 cetina:6.06 triballian:6.02
 - religion weights: illyrian_pagan:46.29 thracian_pagan:10.05
 
+ARESA (Aresaces)
+- culture: aresaces (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: aresaces gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: aresaces:22.15
+- religion weights: gaulish_pagan:22.15
+
+AREVA (Arevaci)
+- culture: arevaci (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: arevaci celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: arevaci:43.23
+- religion weights: iberian_pagan:43.23
+
 ARGAR (El Argar)
 - culture: iberian
 - religion: iberian_pagan
@@ -164,6 +368,42 @@ ARGAR (El Argar)
 - religion stability coverage: 100%
 - culture weights: iberian:28.33
 - religion weights: iberian_pagan:28.33
+
+ARROT (Arrotrebae)
+- culture: arrotrebae (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: arrotrebae celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: arrotrebae:4.04
+- religion weights: iberian_pagan:4.04
+
+ARUND (Arunda)
+- culture: arunda (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: arunda celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: arunda:5.05
+- religion weights: iberian_pagan:5.05
+
+ARVER (Arvernes)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:23.14
+- religion weights: gaulish_pagan:23.14
 
 ARWAD (Arwad)
 - culture: phoenician
@@ -189,6 +429,90 @@ ASYRI (Assyria)
 - culture weights: assyrian:78.57 hurrian:16.37 akkadian:4.08 babylonian:2.04
 - religion weights: assyrian:78.57 caucasian_pagan:16.37 mesopotamian:4.08 babylonian:2.04
 
+ATACI (Atacini)
+- culture: atacini (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: atacini gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: atacini:15.15
+- religion weights: gaulish_pagan:15.15
+
+ATHEN (Athens)
+- culture: ionian
+- religion: hellenic
+- accepted_cultures: ionian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ionian:9.6
+- religion weights: hellenic:9.6
+
+ATREB (Atrebates)
+- culture: atrebates (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: atrebates gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: atrebates:15.21
+- religion weights: gaulish_pagan:15.21
+
+AULER (Aulerci)
+- culture: aulerci (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: aulerci gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: aulerci:13.11
+- religion weights: gaulish_pagan:13.11
+
+ALCEN (Aulerci Cenomani)
+- culture: aulerci_cenomani (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: aulerci_cenomani gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: aulerci_cenomani:7.05
+- religion weights: gaulish_pagan:7.05
+
+ALDIA (Aulerci Diablintes)
+- culture: aulerci_diablintes (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: aulerci_diablintes gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: aulerci_diablintes:7.16
+- religion weights: gaulish_pagan:7.16
+
+AUTRI (Autrigones)
+- culture: autrigones (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: autrigones celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: autrigones:19.09
+- religion weights: iberian_pagan:19.09
+
 AZZI (Azzi)
 - culture: urartian
 - religion: urartian
@@ -200,6 +524,30 @@ AZZI (Azzi)
 - religion stability coverage: 100%
 - culture weights: urartian:25.24
 - religion weights: urartian:25.24
+
+BAEDU (Baedui)
+- culture: baedui (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: baedui lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: baedui:9.05
+- religion weights: lusitanian_pagan:9.05
+
+BAIOC (Baiocasses)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:9.13
+- religion weights: gaulish_pagan:9.13
 
 BALES (Balearic Isles)
 - culture: iberian
@@ -225,6 +573,54 @@ BALSA (Balsa)
 - culture weights: lusitanian:12
 - religion weights: lusitanian_pagan:12
 
+BARDI (Bardili)
+- culture: bardili (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: bardili lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: bardili:21.07
+- religion weights: lusitanian_pagan:21.07
+
+BEBRY (Bebrykes)
+- culture: bebrykes (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: bebrykes gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: bebrykes:15.11
+- religion weights: gaulish_pagan:15.11
+
+BELLI (Belli)
+- culture: belli (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: belli celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: belli:37.18
+- religion weights: iberian_pagan:37.18
+
+BELLO (Bellouaci)
+- culture: bellouaci (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: bellouaci gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: bellouaci:13.13
+- religion weights: gaulish_pagan:13.13
+
 BERIT (Berit)
 - culture: phoenician
 - religion: phoenician
@@ -236,6 +632,54 @@ BERIT (Berit)
 - religion stability coverage: 100%
 - culture weights: phoenician:4.12
 - religion weights: phoenician:4.12
+
+BIBRO (Bibroci)
+- culture: bibroci (historical override)
+- religion: britannic_pagan (historical override)
+- accepted_cultures: bibroci britannic
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: bibroci:6.02
+- religion weights: britannic_pagan:6.02
+
+BITUR (Bituriges)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:14.05
+- religion weights: gaulish_pagan:14.05
+
+BITCU (Bituriges Cubi)
+- culture: bituriges_cubi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: bituriges_cubi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: bituriges_cubi:29.19
+- religion weights: gaulish_pagan:29.19
+
+BLETO (Bletonessi)
+- culture: bletonessi (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: bletonessi celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: bletonessi:11.06
+- religion weights: iberian_pagan:11.06
 
 BOLI (Boii)
 - culture: terramare
@@ -285,6 +729,30 @@ BOULI (Boulinoi)
 - culture weights: glasinac_mati:15.05 cetina:2.01
 - religion weights: illyrian_pagan:17.06
 
+BRACA (Bracari)
+- culture: bracari (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: bracari lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: bracari:16.08
+- religion weights: lusitanian_pagan:16.08
+
+BRENA (Brenai)
+- culture: brenai (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: brenai gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: brenai:13.11
+- religion weights: gaulish_pagan:13.11
+
 BYBLO (Byblos)
 - culture: phoenician
 - religion: phoenician
@@ -296,6 +764,114 @@ BYBLO (Byblos)
 - religion stability coverage: 100%
 - culture weights: phoenician:4.12
 - religion weights: phoenician:4.12
+
+CABRI (Cabriangini)
+- culture: cabriangini (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: cabriangini celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: cabriangini:13.1
+- religion weights: iberian_pagan:13.1
+
+CADAB (Cadabri)
+- culture: cadabri (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: cadabri celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: cadabri:4.04
+- religion weights: iberian_pagan:4.04
+
+CAEMA (Caemanar)
+- culture: caemanar (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: caemanar gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: caemanar:13.14
+- religion weights: gaulish_pagan:13.14
+
+CAERO (Caerosi)
+- culture: caerosi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: caerosi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: caerosi:29.27
+- religion weights: gaulish_pagan:29.27
+
+CALAD (Caladoni)
+- culture: caladoni (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: caladoni lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: caladoni:8.06
+- religion weights: lusitanian_pagan:8.06
+
+CALET (Caletes)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:9.09
+- religion weights: gaulish_pagan:9.09
+
+CALLA (Callaeci)
+- culture: callaeci (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: callaeci lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: callaeci:8.28
+- religion weights: lusitanian_pagan:8.28
+
+CALON (Calontienes)
+- culture: calontienes (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: calontienes celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: calontienes:15.05
+- religion weights: iberian_pagan:15.05
+
+CAMAO (Camaolenses)
+- culture: camaolenses (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: camaolenses celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: camaolenses:17.06
+- religion weights: iberian_pagan:17.06
 
 CAMUN (Camunic)
 - culture: polada
@@ -309,6 +885,30 @@ CAMUN (Camunic)
 - culture weights: polada:13.11 urnfield:3.01 camunni:2.01
 - religion weights: italic_pagan:15.12 nordic_pagan:3.01
 
+CMNNI (Camunni)
+- culture: camunni (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: camunni gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: camunni:16.19
+- religion weights: gaulish_pagan:16.19
+
+CANTI (Cantiaci)
+- culture: cantiaci (historical override)
+- religion: britannic_pagan (historical override)
+- accepted_cultures: cantiaci britannic
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: cantiaci:15
+- religion weights: britannic_pagan:15
+
 CAONI (Chaonia)
 - culture: mycenaean
 - religion: mycenaean
@@ -320,6 +920,30 @@ CAONI (Chaonia)
 - religion stability coverage: 100%
 - culture weights: mycenaean:16.05 illyrian:11.05
 - religion weights: mycenaean:16.05 illyrian_pagan:11.05
+
+CAPOR (Capori)
+- culture: capori (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: capori lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: capori:12.15
+- religion weights: lusitanian_pagan:12.15
+
+CARIS (Caristii)
+- culture: caristii (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: caristii celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: caristii:30.15
+- religion weights: iberian_pagan:30.15
 
 CARNI (Carnian)
 - culture: castellieri
@@ -333,6 +957,18 @@ CARNI (Carnian)
 - culture weights: castellieri:16.1 vuchedol:3.02
 - religion weights: italic_pagan:16.1 illyrian_pagan:3.02
 
+CARNU (Carnutes)
+- culture: carnutes (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: carnutes gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: carnutes:18.08
+- religion weights: gaulish_pagan:18.08
+
 CARTI (Carteia)
 - culture: tartessian
 - religion: tartessian
@@ -344,6 +980,150 @@ CARTI (Carteia)
 - religion stability coverage: 100%
 - culture weights: tartessian:5.05
 - religion weights: tartessian:5.05
+
+CATUW (Catuwellaunoi)
+- culture: catuwellaunoi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: catuwellaunoi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: catuwellaunoi:12.07
+- religion weights: gaulish_pagan:12.07
+
+CAUCI (Cauci)
+- culture: cauci (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: cauci celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: cauci:23.13
+- religion weights: iberian_pagan:23.13
+
+CELEG (Celegeri)
+- culture: celegeri (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: celegeri gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: celegeri:18.11
+- religion weights: gaulish_pagan:18.11
+
+CELTI (Celtici)
+- culture: celtici (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: celtici celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: celtici:52.33
+- religion weights: iberian_pagan:52.33
+
+CIBAR (Cibarci)
+- culture: cibarci (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: cibarci celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: cibarci:4.04
+- religion weights: iberian_pagan:4.04
+
+COERE (Coerenses)
+- culture: coerenses (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: coerenses celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: coerenses:12.04
+- religion weights: iberian_pagan:12.04
+
+COLIA (Coliacini)
+- culture: coliacini (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: coliacini celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: coliacini:5.05
+- religion weights: iberian_pagan:5.05
+
+CONCA (Concani)
+- culture: concani (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: concani celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: concani:10.06
+- religion weights: iberian_pagan:10.06
+
+CONI (Coni)
+- culture: coni (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: coni celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: coni:16.06
+- religion weights: iberian_pagan:16.06
+
+CONSG (Consgi)
+- culture: consgi (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: consgi celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: consgi:26.14
+- religion weights: iberian_pagan:26.14
+
+CORIO (Coriosolites)
+- culture: armorican
+- religion: gaulish_pagan
+- accepted_cultures: armorican
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: armorican:18.05
+- religion weights: gaulish_pagan:18.05
+
+CRATI (Cratistii)
+- culture: cratistii (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: cratistii celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: cratistii:30.21
+- religion weights: iberian_pagan:30.21
 
 DAESI (Daesitian)
 - culture: central_bosnian
@@ -393,6 +1173,18 @@ DIMUN (Dilmun)
 - culture weights: dilmunite:9.09
 - religion weights: dilmunite:9.09
 
+DISCO (Discoduarterae)
+- culture: discoduarterae (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: discoduarterae gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: discoduarterae:4.04
+- religion weights: gaulish_pagan:4.04
+
 DOBER (Doberes)
 - culture: ezero
 - religion: thracian_pagan
@@ -417,6 +1209,18 @@ DOLOP (Dolopia)
 - culture weights: mycenaean:17.11
 - religion weights: mycenaean:17.11
 
+EBURO (Eburones)
+- culture: eburones (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: eburones gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: eburones:48.46
+- religion weights: gaulish_pagan:48.46
+
 ELAM (Elam)
 - culture: elamite (historical override)
 - religion: elamite (historical override)
@@ -428,6 +1232,18 @@ ELAM (Elam)
 - religion stability coverage: 100%
 - culture weights: elamite:58.33 gutian:15.09
 - religion weights: elamite:64.37 caucasian_pagan:9.05
+
+ELISY (Elisykoi)
+- culture: elisykoi (historical override)
+- religion: phoenician (historical override)
+- accepted_cultures: elisykoi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: elisykoi:12.1
+- religion weights: phoenician:12.1
 
 ELMIT (Elimiotis)
 - culture: mycenaean
@@ -453,6 +1269,42 @@ ELYMI (Elymians)
 - culture weights: elymian:6.16 sicanian:1.03
 - religion weights: italic_pagan:7.19
 
+EPANT (Epanterri)
+- culture: epanterri (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: epanterri ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: epanterri:10.08
+- religion weights: gaulish_pagan:10.08
+
+EPORA (Epora)
+- culture: epora (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: epora celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: epora:11.06
+- religion weights: iberian_pagan:11.06
+
+ESUVI (Esuvien)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:6.05
+- religion weights: gaulish_pagan:6.05
+
 ETRUS (Etruria)
 - culture: proto_villanovan
 - religion: italic_pagan
@@ -476,6 +1328,78 @@ FALIS (Faliscan)
 - religion stability coverage: 100%
 - culture weights: apennine:4.12 latial:1.01
 - religion weights: italic_pagan:5.13
+
+GABAL (Gabales)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:10.01
+- religion weights: gaulish_pagan:10.01
+
+GALLI (Galli)
+- culture: galli (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: galli gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: galli:23.15
+- religion weights: gaulish_pagan:23.15
+
+GARUM (Garumni)
+- culture: garumni (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: garumni gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: garumni:9.1
+- religion weights: gaulish_pagan:9.1
+
+GENNA (Gennates)
+- culture: gennates (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: gennates ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gennates:16.24
+- religion weights: gaulish_pagan:16.24
+
+GETAE (Getae)
+- culture: tei
+- religion: dacian_pagan
+- accepted_cultures: tei
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: tei:22.2
+- religion weights: dacian_pagan:22.2
+
+GROVI (Grovii)
+- culture: grovii (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: grovii lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: grovii:8.04
+- religion weights: lusitanian_pagan:8.04
 
 HABIR (Habiru)
 - culture: aramaean
@@ -573,6 +1497,42 @@ IAPYG (Iapygia)
 - culture weights: iapygian:44.86
 - religion weights: italic_pagan:44.86
 
+IBOLC (Ibolcani)
+- culture: ibolcani (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: ibolcani celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ibolcani:10.09
+- religion weights: iberian_pagan:10.09
+
+ILIPA (Ilipa)
+- culture: ilipa (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: ilipa lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ilipa:11.09
+- religion weights: lusitanian_pagan:11.09
+
+INGAU (Ingaumi)
+- culture: ingaumi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: ingaumi ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ingaumi:5.01
+- religion weights: gaulish_pagan:5.01
+
 INSUB (Insubres)
 - culture: canegrate
 - religion: italic_pagan
@@ -585,6 +1545,54 @@ INSUB (Insubres)
 - culture weights: canegrate:31.41 gaulish:10.06
 - religion weights: italic_pagan:31.41 gaulish_pagan:10.06
 
+INTER (Internelli)
+- culture: internelli (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: internelli ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: internelli:8.07
+- religion weights: gaulish_pagan:8.07
+
+IOLC (Iolcus)
+- culture: aeolian
+- religion: hellenic
+- accepted_cultures: aeolian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: aeolian:6
+- religion weights: hellenic:6
+
+IONIA (Ionia)
+- culture: tei
+- religion: dacian_pagan
+- accepted_cultures: tei ezero
+- tolerated_cultures: none
+- religion stability candidates: mycenaean
+- accepted culture coverage: 100%
+- state religion coverage: 62.5%
+- religion stability coverage: 100%
+- culture weights: tei:13.06 ezero:3.01
+- religion weights: dacian_pagan:10.05 mycenaean:6.02
+
+IREUC (Ireucutioni)
+- culture: ireucutioni (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: ireucutioni celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ireucutioni:10.06
+- religion weights: iberian_pagan:10.06
+
 KARKA (Karkamissa)
 - culture: aramaean
 - religion: canaanite
@@ -596,6 +1604,18 @@ KARKA (Karkamissa)
 - religion stability coverage: 100%
 - culture weights: aramaean:12.04 babylonian:3.07 canaanite:1.03
 - religion weights: canaanite:13.07 babylonian:3.07
+
+KARTU (Kartuba)
+- culture: kartuba (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: kartuba celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: kartuba:8.07
+- religion weights: iberian_pagan:8.07
 
 KASKA (Kaska)
 - culture: colchian
@@ -633,6 +1653,18 @@ KUWAL (Kuwal)
 - culture weights: luwian:15.21
 - religion weights: luwian:15.21
 
+KYNET (Kynetes)
+- culture: kynetes (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: kynetes lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: kynetes:28.17
+- religion weights: lusitanian_pagan:28.17
+
 LAEAE (Laeaeans)
 - culture: ezero
 - religion: thracian_pagan
@@ -644,6 +1676,42 @@ LAEAE (Laeaeans)
 - religion stability coverage: 100%
 - culture weights: ezero:9.08
 - religion weights: thracian_pagan:9.08
+
+LAGAM (Lagami)
+- culture: lagami (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: lagami ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: lagami:9
+- religion weights: gaulish_pagan:9
+
+LAPCI (Lapcini)
+- culture: lapcini (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: lapcini ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: lapcini:8.06
+- religion weights: gaulish_pagan:8.06
+
+LAPIA (Lapiatinei)
+- culture: lapiatinei (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: lapiatinei celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: lapiatinei:21.09
+- religion weights: iberian_pagan:21.09
 
 LATIN (Latins)
 - culture: latial (historical override)
@@ -669,17 +1737,65 @@ LAZPA (Lazpa)
 - culture weights: mycenaean:5.05
 - religion weights: mycenaean:5.05
 
+LEMAV (Lemavi)
+- culture: lemavi (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: lemavi lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: lemavi:8.08
+- religion weights: lusitanian_pagan:8.08
+
+LEMOV (Lemovices)
+- culture: lemovices (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: lemovices gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: lemovices:15.08
+- religion weights: gaulish_pagan:15.08
+
 LEPON (Lepontic)
 - culture: gaulish
 - religion: gaulish_pagan
 - accepted_cultures: gaulish canegrate
-- tolerated_cultures: urnfield polada raeti
+- tolerated_cultures: urnfield raeti
 - religion stability candidates: italic_pagan nordic_pagan
-- accepted culture coverage: 75.8%
-- state religion coverage: 51.7%
+- accepted culture coverage: 81.4%
+- state religion coverage: 55.5%
 - religion stability coverage: 100%
-- culture weights: gaulish:13.07 canegrate:9.09 urnfield:3.04 polada:2.01 raeti:2.01
-- religion weights: gaulish_pagan:15.1 italic_pagan:13.11 nordic_pagan:1.01
+- culture weights: gaulish:13.07 canegrate:9.09 urnfield:3.04 raeti:2.01
+- religion weights: gaulish_pagan:15.1 italic_pagan:11.1 nordic_pagan:1.01
+
+LEUNI (Leuni)
+- culture: leuni (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: leuni lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: leuni:8.08
+- religion weights: lusitanian_pagan:8.08
+
+LEXOV (Lexoviens)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:8.04
+- religion weights: gaulish_pagan:8.04
 
 LIBUR (Liburnian)
 - culture: cetina
@@ -705,17 +1821,41 @@ LIBYA (Libya)
 - culture weights: libu:15.23 garamantian:2.04
 - religion weights: berber_pagan:15.23 garamantian:2.04
 
-LIGUR (Ligurian)
-- culture: canegrate
-- religion: italic_pagan
-- accepted_cultures: canegrate gaulish
-- tolerated_cultures: terramare
-- religion stability candidates: gaulish_pagan
-- accepted culture coverage: 98%
-- state religion coverage: 70.6%
+LINGO (Lingones)
+- culture: lingones (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: lingones gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: canegrate:35.29 gaulish:15.09 terramare:1.01
-- religion weights: italic_pagan:36.3 gaulish_pagan:15.09
+- culture weights: lingones:26.17
+- religion weights: gaulish_pagan:26.17
+
+LOBET (Lobetani)
+- culture: lobetani (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: lobetani celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: lobetani:24.13
+- religion weights: iberian_pagan:24.13
+
+LOUGE (Lougei)
+- culture: lougei (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: lougei lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: lougei:12.07
+- religion weights: lusitanian_pagan:12.07
 
 LUKKA (Lukka)
 - culture: lukka
@@ -728,6 +1868,18 @@ LUKKA (Lukka)
 - religion stability coverage: 100%
 - culture weights: lukka:18.1 carian:8.08
 - religion weights: sea_peoples_cult:18.1 luwian:8.08
+
+LUSON (Lusones)
+- culture: lusones (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: lusones celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: lusones:12.06
+- religion weights: iberian_pagan:12.06
 
 MAGAN (Magan)
 - culture: arabian
@@ -753,6 +1905,18 @@ MALAK (Malaka)
 - culture weights: tartessian:4.24
 - religion weights: tartessian:4.24
 
+MANDU (Mandubio)
+- culture: mandubio (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: mandubio gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: mandubio:8.02
+- religion weights: gaulish_pagan:8.02
+
 MANIO (Manioi)
 - culture: cetina
 - religion: illyrian_pagan
@@ -764,6 +1928,18 @@ MANIO (Manioi)
 - religion stability coverage: 100%
 - culture weights: cetina:10.04
 - religion weights: illyrian_pagan:10.04
+
+MANNA (Mannaea)
+- culture: mede
+- religion: iranic
+- accepted_cultures: mede gutian
+- tolerated_cultures: none
+- religion stability candidates: caucasian_pagan
+- accepted culture coverage: 100%
+- state religion coverage: 79.7%
+- religion stability coverage: 100%
+- culture weights: mede:43.78 gutian:11.16
+- religion weights: iranic:43.78 caucasian_pagan:11.16
 
 MARSI (Marsian)
 - culture: apennine
@@ -789,6 +1965,54 @@ MASA (Masa)
 - culture weights: phrygian:31.32
 - religion weights: hittite:31.32
 
+MELDI (Meldi)
+- culture: meldi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: meldi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: meldi:4.04
+- religion weights: gaulish_pagan:4.04
+
+MENAP (Menapii)
+- culture: menapii (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: menapii gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: menapii:32.4
+- religion weights: gaulish_pagan:32.4
+
+MENTE (Mentesani)
+- culture: mentesani (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: mentesani celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: mentesani:9.07
+- religion weights: iberian_pagan:9.07
+
+METSO (Mentesoni)
+- culture: mentesoni (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: mentesoni celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: mentesoni:8.04
+- religion weights: iberian_pagan:8.04
+
 MIRA (Mira)
 - culture: hittite
 - religion: hittite
@@ -800,6 +2024,18 @@ MIRA (Mira)
 - religion stability coverage: 100%
 - culture weights: hittite:18.22 mycenaean:5.09
 - religion weights: hittite:18.22 mycenaean:5.09
+
+MIROB (Mirobrigenses)
+- culture: mirobrigenses (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: mirobrigenses celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: mirobrigenses:24.09
+- religion weights: iberian_pagan:24.09
 
 MITAN (Mitanni)
 - culture: hurrian
@@ -813,6 +2049,18 @@ MITAN (Mitanni)
 - culture weights: hurrian:48.86
 - religion weights: caucasian_pagan:48.86
 
+MOESI (Moesia)
+- culture: ezero
+- religion: thracian_pagan
+- accepted_cultures: ezero
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ezero:15.1
+- religion weights: thracian_pagan:15.1
+
 MOLOS (Molossia)
 - culture: mycenaean
 - religion: mycenaean
@@ -824,6 +2072,66 @@ MOLOS (Molossia)
 - religion stability coverage: 100%
 - culture weights: mycenaean:21.08 paeonian:5.01
 - religion weights: mycenaean:21.08 thracian_pagan:5.01
+
+MORIN (Morini)
+- culture: morini (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: morini gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: morini:13.12
+- religion weights: gaulish_pagan:13.12
+
+NAMNE (Namnetes)
+- culture: armorican
+- religion: gaulish_pagan
+- accepted_cultures: armorican
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: armorican:17.08
+- religion weights: gaulish_pagan:17.08
+
+NEMET (Nemetati)
+- culture: nemetati (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: nemetati lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: nemetati:10.05
+- religion weights: lusitanian_pagan:10.05
+
+NERII (Nerii)
+- culture: nerii (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: nerii lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: nerii:4.04
+- religion weights: lusitanian_pagan:4.04
+
+NERVI (Nervii)
+- culture: nervii (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: nervii gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: nervii:34.26
+- religion weights: gaulish_pagan:34.26
 
 NESTI (Nestioi)
 - culture: glasinac_mati
@@ -837,18 +2145,6 @@ NESTI (Nestioi)
 - culture weights: glasinac_mati:4.04 cetina:3.01
 - religion weights: illyrian_pagan:7.05
 
-NPICE (North Picene)
-- culture: apennine
-- religion: italic_pagan
-- accepted_cultures: apennine
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: apennine:14.18
-- religion weights: italic_pagan:14.18
-
 NORIC (Norici)
 - culture: urnfield
 - religion: nordic_pagan
@@ -860,6 +2156,18 @@ NORIC (Norici)
 - religion stability coverage: 100%
 - culture weights: urnfield:44.31 vuchedol:2.01
 - religion weights: nordic_pagan:30.2 illyrian_pagan:16.12
+
+NPICE (North Picene)
+- culture: apennine
+- religion: italic_pagan
+- accepted_cultures: apennine
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: apennine:14.18
+- religion weights: italic_pagan:14.18
 
 NURAG (Nuragic Sardinia)
 - culture: nuragic (historical override)
@@ -885,6 +2193,78 @@ OENOT (Oenotrian)
 - culture weights: mycenaean:23.18 oenotrian:23.07 ausonian:6.09 gaulish:5.02
 - religion weights: italic_pagan:29.16 mycenaean:23.18 gaulish_pagan:5.02
 
+OLCAD (Olcades)
+- culture: olcades (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: olcades celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: olcades:19.11
+- religion weights: iberian_pagan:19.11
+
+ONUBA (Onuba)
+- culture: onuba (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: onuba celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: onuba:8.04
+- religion weights: iberian_pagan:8.04
+
+OPPID (Oppidani)
+- culture: oppidani (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: oppidani lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: oppidani:15.05
+- religion weights: lusitanian_pagan:15.05
+
+ORCHO (Orchomenus)
+- culture: pelasgian
+- religion: hellenic
+- accepted_cultures: pelasgian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: pelasgian:6.75
+- religion weights: hellenic:6.75
+
+ORNIA (Orniaci)
+- culture: orniaci (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: orniaci celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: orniaci:4.04
+- religion weights: iberian_pagan:4.04
+
+OROBL (Orobli)
+- culture: orobli (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: orobli lepontic
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: orobli:28.34
+- religion weights: gaulish_pagan:28.34
+
 OSCAN (Osci)
 - culture: ausonian
 - religion: italic_pagan
@@ -896,6 +2276,18 @@ OSCAN (Osci)
 - religion stability coverage: 100%
 - culture weights: ausonian:22.15 oenotrian:20.24 apennine:13.1
 - religion weights: italic_pagan:55.49
+
+OSISM (Osismes)
+- culture: armorican
+- religion: gaulish_pagan
+- accepted_cultures: armorican
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: armorican:10.06
+- religion weights: gaulish_pagan:10.06
 
 PAEON (Paeonia)
 - culture: ezero
@@ -921,6 +2313,18 @@ PAEOP (Paeoplae)
 - culture weights: thracian:8.04 ezero:4.02
 - religion weights: thracian_pagan:12.06
 
+PAESI (Paesici)
+- culture: paesici (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: paesici celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: paesici:16.04
+- religion weights: iberian_pagan:16.04
+
 PAGON (Pagonia)
 - culture: encrusted_pottery
 - religion: dacian_pagan
@@ -945,6 +2349,30 @@ PALA (Pala)
 - culture weights: palaic:24.34
 - religion weights: hattian:24.34
 
+PALAN (Palanti)
+- culture: palanti (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: palanti celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: palanti:26.1
+- religion weights: iberian_pagan:26.1
+
+PARIS (Parisi)
+- culture: parisi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: parisi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: parisi:17.07
+- religion weights: gaulish_pagan:17.07
+
 PARTH (Partha)
 - culture: lycian
 - religion: luwian
@@ -956,6 +2384,90 @@ PARTH (Partha)
 - religion stability coverage: 100%
 - culture weights: lycian:24.35
 - religion weights: luwian:24.35
+
+PETRO (Petrocoriis)
+- culture: petrocoriis (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: petrocoriis gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: petrocoriis:10.05
+- religion weights: gaulish_pagan:10.05
+
+PICTO (Picton)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:16.06
+- religion weights: gaulish_pagan:16.06
+
+POEMA (Poemani)
+- culture: poemani (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: poemani celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: poemani:4.04
+- religion weights: iberian_pagan:4.04
+
+POLLE (Pollentini)
+- culture: pollentini (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: pollentini ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: pollentini:4.08
+- religion weights: gaulish_pagan:4.08
+
+POTUL (Potulatensis)
+- culture: ezero
+- religion: thracian_pagan
+- accepted_cultures: ezero
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ezero:10.08
+- religion weights: thracian_pagan:10.08
+
+PYLOS (Pylos)
+- culture: mycenaean (historical override)
+- religion: mycenaean (historical override)
+- accepted_cultures: mycenaean
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: mycenaean:16.15
+- religion weights: mycenaean:16.15
+
+QUARQ (Quarqueni)
+- culture: quarqueni (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: quarqueni lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: quarqueni:4.04
+- religion weights: lusitanian_pagan:4.04
 
 RAETI (Raetic)
 - culture: urnfield
@@ -969,6 +2481,90 @@ RAETI (Raetic)
 - culture weights: urnfield:37.28 luco:9.05 raeti:4.02 camunni:3.02
 - religion weights: nordic_pagan:37.28 italic_pagan:16.09
 
+REDON (Redones)
+- culture: armorican
+- religion: gaulish_pagan
+- accepted_cultures: armorican
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: armorican:12.08
+- religion weights: gaulish_pagan:12.08
+
+REGIN (Regini)
+- culture: regini (historical override)
+- religion: britannic_pagan (historical override)
+- accepted_cultures: regini britannic
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: regini:12
+- religion weights: britannic_pagan:12
+
+REMI (Remi)
+- culture: remi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: remi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: remi:6.13
+- religion weights: gaulish_pagan:6.13
+
+RHODE (Rhodes)
+- culture: dorian
+- religion: hellenic
+- accepted_cultures: dorian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: dorian:4.6
+- religion weights: hellenic:4.6
+
+RUTEN (Rutenes)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:10.05
+- religion weights: gaulish_pagan:10.05
+
+SABAT (Sabates)
+- culture: sabates (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: sabates ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: sabates:6.11
+- religion weights: gaulish_pagan:6.11
+
+SAELI (Saelini)
+- culture: saelini (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: saelini celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: saelini:4.04
+- religion weights: iberian_pagan:4.04
+
 SAHIR (Sahiriya)
 - culture: mycenaean
 - religion: mycenaean
@@ -980,6 +2576,42 @@ SAHIR (Sahiriya)
 - religion stability coverage: 100%
 - culture weights: mycenaean:14.08 hittite:7.1
 - religion weights: mycenaean:14.08 hittite:7.1
+
+SALLU (Salluviens)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:22.23
+- religion weights: gaulish_pagan:22.23
+
+SANTN (Santans)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:26.22
+- religion weights: gaulish_pagan:26.22
+
+SARDO (Sardonnes)
+- culture: sardonnes (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: sardonnes gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: sardonnes:11.05
+- religion weights: gaulish_pagan:11.05
 
 SASU (Sasu)
 - culture: edomite
@@ -1004,6 +2636,42 @@ SCORD (Scordiscian)
 - religion stability coverage: 100%
 - culture weights: vuchedol:12.07
 - religion weights: illyrian_pagan:12.07
+
+SCYTH (Scythians)
+- culture: saka
+- religion: saka_pagan
+- accepted_cultures: saka ferghana
+- tolerated_cultures: andronovo
+- religion stability candidates: steppe_pagan
+- accepted culture coverage: 98.6%
+- state religion coverage: 98.6%
+- religion stability coverage: 100%
+- culture weights: saka:69.08 ferghana:8.15 andronovo:1.09
+- religion weights: saka_pagan:77.23 steppe_pagan:1.09
+
+SEARE (Seareae)
+- culture: seareae (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: seareae lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: seareae:10.06
+- religion weights: lusitanian_pagan:10.06
+
+SEGUS (Segusiaves)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:28.13
+- religion weights: gaulish_pagan:28.13
 
 SEHA (Seha River Land)
 - culture: hittite
@@ -1041,6 +2709,78 @@ SENON (Senonian)
 - culture weights: proto_villanovan:16.21
 - religion weights: italic_pagan:16.21
 
+SENES (Senones)
+- culture: senones (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: senones gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: senones:8
+- religion weights: gaulish_pagan:8
+
+SEQUA (Sequances)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:16.11
+- religion weights: gaulish_pagan:16.11
+
+SETUE (Setuei)
+- culture: setuei (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: setuei gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: setuei:5.01
+- religion weights: gaulish_pagan:5.01
+
+SEURB (Seurbi)
+- culture: seurbi (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: seurbi lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: seurbi:8.08
+- religion weights: lusitanian_pagan:8.08
+
+SEURR (Seurri)
+- culture: seurri (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: seurri celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: seurri:4.04
+- religion weights: iberian_pagan:4.04
+
+SIBUZ (Sibuzates)
+- culture: aquitanian
+- religion: iberian_pagan
+- accepted_cultures: aquitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: aquitanian:18.29
+- religion weights: iberian_pagan:18.29
+
 SICAN (Sicania)
 - culture: sicanian
 - religion: italic_pagan
@@ -1065,6 +2805,18 @@ SICEL (Sicels)
 - culture weights: sicel:24.39
 - religion weights: italic_pagan:24.39
 
+SILVA (Silvanectes)
+- culture: silvanectes (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: silvanectes gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: silvanectes:8.09
+- religion weights: gaulish_pagan:8.09
+
 SIROP (Siropaines)
 - culture: paeonian (historical override)
 - religion: thracian_pagan (historical override)
@@ -1077,6 +2829,30 @@ SIROP (Siropaines)
 - culture weights: mycenaean:8.04 paeonian:3.01
 - religion weights: mycenaean:8.04 thracian_pagan:3.01
 
+SOTIA (Sotiates)
+- culture: sotia (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: sotia gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: sotia:9.04
+- religion weights: gaulish_pagan:9.04
+
+SPART (Sparta)
+- culture: mycenaean (historical override)
+- religion: mycenaean (historical override)
+- accepted_cultures: mycenaean arcadian
+- tolerated_cultures: cycladic
+- religion stability candidates: hellenic
+- accepted culture coverage: 94.5%
+- state religion coverage: 88.2%
+- religion stability coverage: 100%
+- culture weights: mycenaean:10.5 arcadian:0.75 cycladic:0.65
+- religion weights: mycenaean:10.5 hellenic:1.4
+
 SPICE (South Picene)
 - culture: apennine
 - religion: italic_pagan
@@ -1088,6 +2864,66 @@ SPICE (South Picene)
 - religion stability coverage: 100%
 - culture weights: apennine:13.27
 - religion weights: italic_pagan:13.27
+
+STATI (Statielli)
+- culture: statielli (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: statielli ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: statielli:15.1
+- religion weights: gaulish_pagan:15.1
+
+SUBIN (Subinates)
+- culture: subinates (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: subinates lepontic
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: subinates:9.06
+- religion weights: gaulish_pagan:9.06
+
+SUELT (Suelteri)
+- culture: suelteri (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: suelteri ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: suelteri:6.03
+- religion weights: gaulish_pagan:6.03
+
+SUESS (Suessetani)
+- culture: suessetani (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: suessetani gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: suessetani:23.09
+- religion weights: gaulish_pagan:23.09
+
+SUESO (Suessiones)
+- culture: suessiones (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: suessiones gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: suessiones:13.04
+- religion weights: gaulish_pagan:13.04
 
 SURRT (Surrtenia)
 - culture: ausonian
@@ -1113,6 +2949,30 @@ SUTU (Sutu)
 - culture weights: aramaean:13.29
 - religion weights: canaanite:13.29
 
+TALUR (Talures)
+- culture: talures (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: talures lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: talures:24.11
+- religion weights: lusitanian_pagan:24.11
+
+TAPOR (Tapori)
+- culture: tapori (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: tapori lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: tapori:20.11
+- religion weights: lusitanian_pagan:20.11
+
 TARAN (Tarantine)
 - culture: iapygian
 - religion: italic_pagan
@@ -1124,6 +2984,18 @@ TARAN (Tarantine)
 - religion stability coverage: 100%
 - culture weights: iapygian:19.28 mycenaean:13.19 oenotrian:7.09
 - religion weights: italic_pagan:26.37 mycenaean:13.19
+
+TARDL (Tardelle)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: gaulish:8.07
+- religion weights: gaulish_pagan:8.07
 
 TARTS (Tartessos)
 - culture: tartessian
@@ -1173,6 +3045,30 @@ TESPR (Thesprotia)
 - culture weights: mycenaean:19.18
 - religion weights: mycenaean:19.18
 
+TEUCO (Teucor)
+- culture: teucor (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: teucor gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: teucor:5.04
+- religion weights: gaulish_pagan:5.04
+
+THEBE (Thebes)
+- culture: mycenaean (historical override)
+- religion: mycenaean (historical override)
+- accepted_cultures: mycenaean pelasgian
+- tolerated_cultures: none
+- religion stability candidates: hellenic
+- accepted culture coverage: 100%
+- state religion coverage: 88.9%
+- religion stability coverage: 100%
+- culture weights: mycenaean:6 pelasgian:0.75
+- religion weights: mycenaean:6 hellenic:0.75
+
 THRAC (Thrace)
 - culture: thracian (historical override)
 - religion: thracian_pagan (historical override)
@@ -1184,6 +3080,42 @@ THRAC (Thrace)
 - religion stability coverage: 100%
 - culture weights: thracian:37.22
 - religion weights: mycenaean:29.18 thracian_pagan:8.04
+
+TIGUL (Tigulin)
+- culture: tigulin (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: tigulin ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: tigulin:6.04
+- religion weights: gaulish_pagan:6.04
+
+TIMAC (Timachi)
+- culture: timachi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: timachi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: timachi:19.09
+- religion weights: gaulish_pagan:19.09
+
+TITTI (Tittii)
+- culture: tittii (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: tittii celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: tittii:10.05
+- religion weights: iberian_pagan:10.05
 
 TORRI (Torrean Corsica)
 - culture: torrean
@@ -1197,6 +3129,30 @@ TORRI (Torrean Corsica)
 - culture weights: torrean:13
 - religion weights: nuragic:13
 
+TREWE (Treweroi)
+- culture: treweroi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: treweroi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: treweroi:33.34
+- religion weights: gaulish_pagan:33.34
+
+TRICA (Tricasses)
+- culture: tricasses (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: tricasses gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: tricasses:10.04
+- religion weights: gaulish_pagan:10.04
+
 TRPOL (Tripoli)
 - culture: libu
 - religion: berber_pagan
@@ -1208,6 +3164,138 @@ TRPOL (Tripoli)
 - religion stability coverage: 100%
 - culture weights: libu:11.13
 - religion weights: berber_pagan:11.13
+
+TURDI (Turdili)
+- culture: turdili (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: turdili lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: turdili:11.05
+- religion weights: lusitanian_pagan:11.05
+
+TUART (Turduli Artigi)
+- culture: turduli_artigi (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: turduli_artigi celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: turduli_artigi:10.04
+- religion weights: iberian_pagan:10.04
+
+TUBUD (Turduli Budani)
+- culture: turduli_budani (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: turduli_budani celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: turduli_budani:12.08
+- religion weights: iberian_pagan:12.08
+
+TUDIP (Turduli Diponi)
+- culture: turduli_diponi (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: turduli_diponi celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: turduli_diponi:5.05
+- religion weights: iberian_pagan:5.05
+
+TUSOS (Turduli Sosiponi)
+- culture: turduli_sosiponi (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: turduli_sosiponi celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: turduli_sosiponi:16.06
+- religion weights: iberian_pagan:16.06
+
+TUVET (Turduli Veteres)
+- culture: turduli_veteres (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: turduli_veteres lusitanian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: turduli_veteres:16.14
+- religion weights: lusitanian_pagan:16.14
+
+TURMO (Turmogi)
+- culture: turmogi (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: turmogi celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: turmogi:29.17
+- religion weights: iberian_pagan:29.17
+
+TURON (Turones)
+- culture: turones (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: turones gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: turones:11.02
+- religion weights: gaulish_pagan:11.02
+
+TYLE (Tyle)
+- culture: tyle (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: tyle gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: tyle:25.18
+- religion weights: gaulish_pagan:25.18
+
+UBI (Ubi)
+- culture: ubi (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: ubi gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ubi:51.6
+- religion weights: gaulish_pagan:51.6
+
+UELAU (Uelauii)
+- culture: uelauii (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: uelauii gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: uelauii:5.07
+- religion weights: gaulish_pagan:5.07
 
 UGART (Ugarit)
 - culture: ugaritic
@@ -1221,6 +3309,18 @@ UGART (Ugarit)
 - culture weights: ugaritic:6.46
 - religion weights: ugaritic:6.46
 
+ULIBA (Uliba)
+- culture: gutian
+- religion: caucasian_pagan
+- accepted_cultures: gutian urartian
+- tolerated_cultures: none
+- religion stability candidates: urartian
+- accepted culture coverage: 100%
+- state religion coverage: 83.4%
+- religion stability coverage: 100%
+- culture weights: gutian:10.2 urartian:2.03
+- religion weights: caucasian_pagan:10.2 urartian:2.03
+
 UMBRI (Umbrian)
 - culture: apennine
 - religion: italic_pagan
@@ -1233,149 +3333,29 @@ UMBRI (Umbrian)
 - culture weights: apennine:16.32 proto_villanovan:7.05
 - religion weights: italic_pagan:23.37
 
-VENET (Venetic)
-- culture: castellieri
-- religion: italic_pagan
-- accepted_cultures: castellieri proto_villanovan
-- tolerated_cultures: polada luco
-- religion stability candidates: none
-- accepted culture coverage: 75.1%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: castellieri:17.12 proto_villanovan:13.25 polada:6.06 luco:4.03
-- religion weights: italic_pagan:40.46
-
-VESTI (Vestinian)
-- culture: apennine
-- religion: italic_pagan
-- accepted_cultures: apennine
+UNELL (Unelles)
+- culture: gaulish
+- religion: gaulish_pagan
+- accepted_cultures: gaulish
 - tolerated_cultures: none
 - religion stability candidates: none
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: apennine:10.22
-- religion weights: italic_pagan:10.22
+- culture weights: gaulish:6.06
+- religion weights: gaulish_pagan:6.06
 
-VOLSC (Volscian)
-- culture: ausonian
-- religion: italic_pagan
-- accepted_cultures: ausonian
+URACI (Uraci)
+- culture: uraci (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: uraci celtiberian
 - tolerated_cultures: none
 - religion stability candidates: none
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: ausonian:9.09
-- religion weights: italic_pagan:9.09
-
-WILUS (Wilusa)
-- culture: luwian (historical override)
-- religion: luwian (historical override)
-- accepted_cultures: luwian thracian
-- tolerated_cultures: none
-- religion stability candidates: mycenaean
-- accepted culture coverage: 100%
-- state religion coverage: 85.6%
-- religion stability coverage: 100%
-- culture weights: luwian:30.12 thracian:5.07
-- religion weights: luwian:30.12 mycenaean:5.07
-
-ARAX (Araxes)
-- culture: saka
-- religion: saka_pagan
-- accepted_cultures: saka gutian
-- tolerated_cultures: urartian
-- religion stability candidates: caucasian_pagan urartian
-- accepted culture coverage: 93.4%
-- state religion coverage: 73.4%
-- religion stability coverage: 100%
-- culture weights: saka:11.18 gutian:3.05 urartian:1.01
-- religion weights: saka_pagan:11.18 caucasian_pagan:3.05 urartian:1.01
-
-GETAE (Getae)
-- culture: tei
-- religion: dacian_pagan
-- accepted_cultures: tei
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: tei:22.2
-- religion weights: dacian_pagan:22.2
-
-IONIA (Ionia)
-- culture: tei
-- religion: dacian_pagan
-- accepted_cultures: tei ezero
-- tolerated_cultures: none
-- religion stability candidates: mycenaean
-- accepted culture coverage: 100%
-- state religion coverage: 62.5%
-- religion stability coverage: 100%
-- culture weights: tei:13.06 ezero:3.01
-- religion weights: dacian_pagan:10.05 mycenaean:6.02
-
-MANNA (Mannaea)
-- culture: mede
-- religion: iranic
-- accepted_cultures: mede gutian
-- tolerated_cultures: none
-- religion stability candidates: caucasian_pagan
-- accepted culture coverage: 100%
-- state religion coverage: 79.7%
-- religion stability coverage: 100%
-- culture weights: mede:43.78 gutian:11.16
-- religion weights: iranic:43.78 caucasian_pagan:11.16
-
-MOESI (Moesia)
-- culture: ezero
-- religion: thracian_pagan
-- accepted_cultures: ezero
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: ezero:15.1
-- religion weights: thracian_pagan:15.1
-
-POTUL (Potulatensis)
-- culture: ezero
-- religion: thracian_pagan
-- accepted_cultures: ezero
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: ezero:10.08
-- religion weights: thracian_pagan:10.08
-
-SCYTH (Scythians)
-- culture: saka
-- religion: saka_pagan
-- accepted_cultures: saka ferghana
-- tolerated_cultures: andronovo
-- religion stability candidates: steppe_pagan
-- accepted culture coverage: 98.6%
-- state religion coverage: 98.6%
-- religion stability coverage: 100%
-- culture weights: saka:69.08 ferghana:8.15 andronovo:1.09
-- religion weights: saka_pagan:77.23 steppe_pagan:1.09
-
-ULIBA (Uliba)
-- culture: gutian
-- religion: caucasian_pagan
-- accepted_cultures: gutian urartian
-- tolerated_cultures: none
-- religion stability candidates: urartian
-- accepted culture coverage: 100%
-- state religion coverage: 83.4%
-- religion stability coverage: 100%
-- culture weights: gutian:10.2 urartian:2.03
-- religion weights: caucasian_pagan:10.2 urartian:2.03
+- culture weights: uraci:19.2
+- religion weights: iberian_pagan:19.2
 
 URATU (Urartu)
 - culture: urartian
@@ -1389,317 +3369,53 @@ URATU (Urartu)
 - culture weights: urartian:15.21 gutian:3.06
 - religion weights: urartian:15.21 caucasian_pagan:3.06
 
-WALAN (Walan)
-- culture: mede
-- religion: iranic
-- accepted_cultures: mede urartian
-- tolerated_cultures: none
-- religion stability candidates: urartian
-- accepted culture coverage: 100%
-- state religion coverage: 77.5%
-- religion stability coverage: 100%
-- culture weights: mede:17.32 urartian:5.03
-- religion weights: iranic:17.32 urartian:5.03
-
-ABRIN (Abrincates)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
+URGAP (Urgapa)
+- culture: urgapa (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: urgapa celtiberian
 - tolerated_cultures: none
 - religion stability candidates: none
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: gaulish:9.05
-- religion weights: gaulish_pagan:9.05
+- culture weights: urgapa:8.04
+- religion weights: iberian_pagan:8.04
 
-ALLOB (Allobroges)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
+URSO (Urso)
+- culture: urso (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: urso celtiberian
 - tolerated_cultures: none
 - religion stability candidates: none
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: gaulish:22.11
-- religion weights: gaulish_pagan:22.11
+- culture weights: urso:6.05
+- religion weights: iberian_pagan:6.05
 
-AMBAR (Ambarres)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
+VACCA (Vaccaei)
+- culture: vaccaei (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: vaccaei celtiberian
 - tolerated_cultures: none
 - religion stability candidates: none
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: gaulish:9.04
-- religion weights: gaulish_pagan:9.04
+- culture weights: vaccaei:21.21
+- religion weights: iberian_pagan:21.21
 
-ANDES (Andes)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
+VADRU (Vadruli)
+- culture: vadruli (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: vadruli celtiberian
 - tolerated_cultures: none
 - religion stability candidates: none
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: gaulish:5
-- religion weights: gaulish_pagan:5
-
-ARVER (Arvernes)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:23.14
-- religion weights: gaulish_pagan:23.14
-
-BAIOC (Baiocasses)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:9.13
-- religion weights: gaulish_pagan:9.13
-
-BITUR (Bituriges)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:14.05
-- religion weights: gaulish_pagan:14.05
-
-CALET (Caletes)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:9.09
-- religion weights: gaulish_pagan:9.09
-
-CORIO (Coriosolites)
-- culture: armorican
-- religion: gaulish_pagan
-- accepted_cultures: armorican
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: armorican:18.05
-- religion weights: gaulish_pagan:18.05
-
-ESUVI (Esuvien)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:6.05
-- religion weights: gaulish_pagan:6.05
-
-GABAL (Gabales)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:10.01
-- religion weights: gaulish_pagan:10.01
-
-LEXOV (Lexoviens)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:8.04
-- religion weights: gaulish_pagan:8.04
-
-NAMNE (Namnetes)
-- culture: armorican
-- religion: gaulish_pagan
-- accepted_cultures: armorican
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: armorican:17.08
-- religion weights: gaulish_pagan:17.08
-
-OSISM (Osismes)
-- culture: armorican
-- religion: gaulish_pagan
-- accepted_cultures: armorican
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: armorican:10.06
-- religion weights: gaulish_pagan:10.06
-
-PICTO (Picton)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:16.06
-- religion weights: gaulish_pagan:16.06
-
-REDON (Redones)
-- culture: armorican
-- religion: gaulish_pagan
-- accepted_cultures: armorican
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: armorican:12.08
-- religion weights: gaulish_pagan:12.08
-
-RUTEN (Rutenes)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:10.05
-- religion weights: gaulish_pagan:10.05
-
-SALLU (Salluviens)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:22.23
-- religion weights: gaulish_pagan:22.23
-
-SANTN (Santans)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:13.04
-- religion weights: gaulish_pagan:13.04
-
-SEGUS (Segusiaves)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:28.13
-- religion weights: gaulish_pagan:28.13
-
-SEQUA (Sequances)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:16.11
-- religion weights: gaulish_pagan:16.11
-
-SIBUZ (Sibuzates)
-- culture: aquitanian
-- religion: iberian_pagan
-- accepted_cultures: aquitanian
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: aquitanian:18.29
-- religion weights: iberian_pagan:18.29
-
-SOTIA (Sotiates)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:4.08
-- religion weights: gaulish_pagan:4.08
-
-TARDL (Tardelle)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:8.07
-- religion weights: gaulish_pagan:8.07
-
-UNELL (Unelles)
-- culture: gaulish
-- religion: gaulish_pagan
-- accepted_cultures: gaulish
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: gaulish:6.06
-- religion weights: gaulish_pagan:6.06
+- culture weights: vadruli:26.2
+- religion weights: iberian_pagan:26.2
 
 VASAT (Vasates)
 - culture: gaulish
@@ -1722,8 +3438,8 @@ VELIO (Veliocasses)
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: gaulish:7.05
-- religion weights: gaulish_pagan:7.05
+- culture weights: gaulish:9.03
+- religion weights: gaulish_pagan:9.03
 
 VELLA (Vellaves)
 - culture: gaulish
@@ -1737,6 +3453,18 @@ VELLA (Vellaves)
 - culture weights: gaulish:6.03
 - religion weights: gaulish_pagan:6.03
 
+VENAT (Venatisoci)
+- culture: venatisoci (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: venatisoci celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: venatisoci:12.06
+- religion weights: iberian_pagan:12.06
+
 VENES (Venetes)
 - culture: armorican
 - religion: gaulish_pagan
@@ -1749,6 +3477,66 @@ VENES (Venetes)
 - culture weights: armorican:13.03
 - religion weights: gaulish_pagan:13.03
 
+VENET (Venetic)
+- culture: castellieri
+- religion: italic_pagan
+- accepted_cultures: castellieri proto_villanovan
+- tolerated_cultures: polada luco
+- religion stability candidates: none
+- accepted culture coverage: 75.1%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: castellieri:17.12 proto_villanovan:13.25 polada:6.06 luco:4.03
+- religion weights: italic_pagan:40.46
+
+VENOS (Venostes)
+- culture: venostes (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: venostes gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: venostes:16.13
+- religion weights: gaulish_pagan:16.13
+
+VERUC (Verucini)
+- culture: verucini (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: verucini ligurian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: verucini:4
+- religion weights: gaulish_pagan:4
+
+VESTI (Vestinian)
+- culture: apennine
+- religion: italic_pagan
+- accepted_cultures: apennine
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: apennine:10.22
+- religion weights: italic_pagan:10.22
+
+VETTO (Vettones)
+- culture: vettones (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: vettones celtiberian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: vettones:44.23
+- religion weights: iberian_pagan:44.23
+
 VIDUC (Viducasses)
 - culture: gaulish
 - religion: gaulish_pagan
@@ -1760,6 +3548,18 @@ VIDUC (Viducasses)
 - religion stability coverage: 100%
 - culture weights: gaulish:4.04
 - religion weights: gaulish_pagan:4.04
+
+VIROM (Viromandu)
+- culture: viromandu (historical override)
+- religion: gaulish_pagan (historical override)
+- accepted_cultures: viromandu gaulish
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: viromandu:16.1
+- religion weights: gaulish_pagan:16.1
 
 VOCAN (Vocances)
 - culture: gaulish
@@ -1785,113 +3585,77 @@ VOLAR (Volques Arecomiques)
 - culture weights: gaulish:23.15
 - religion weights: gaulish_pagan:23.15
 
+VOLSC (Volscian)
+- culture: ausonian
+- religion: italic_pagan
+- accepted_cultures: ausonian
+- tolerated_cultures: none
+- religion stability candidates: none
+- accepted culture coverage: 100%
+- state religion coverage: 100%
+- religion stability coverage: 100%
+- culture weights: ausonian:9.09
+- religion weights: italic_pagan:9.09
+
 VOLTE (Volques Tectosages)
 - culture: gaulish
 - religion: gaulish_pagan
-- accepted_cultures: gaulish iberian
-- tolerated_cultures: none
-- religion stability candidates: iberian_pagan
-- accepted culture coverage: 100%
-- state religion coverage: 86.2%
-- religion stability coverage: 100%
-- culture weights: gaulish:44.31 iberian:7.08
-- religion weights: gaulish_pagan:44.31 iberian_pagan:7.08
-
-ACHAEA (Achaea)
-- culture: mycenaean (historical override)
-- religion: mycenaean (historical override)
-- accepted_cultures: mycenaean arcadian
-- tolerated_cultures: none
-- religion stability candidates: hellenic
-- accepted culture coverage: 100%
-- state religion coverage: 85.7%
-- religion stability coverage: 100%
-- culture weights: mycenaean:6.06 arcadian:1.01
-- religion weights: mycenaean:6.06 hellenic:1.01
-
-ATHENS (Athens)
-- culture: ionian
-- religion: hellenic
-- accepted_cultures: ionian
+- accepted_cultures: gaulish
 - tolerated_cultures: none
 - religion stability candidates: none
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: ionian:8.2
-- religion weights: hellenic:8.2
+- culture weights: gaulish:27.24
+- religion weights: gaulish_pagan:27.24
 
-IOLCUS (Iolcus)
-- culture: aeolian
-- religion: hellenic
-- accepted_cultures: aeolian
+VOLTI (Volticiani)
+- culture: volticiani (historical override)
+- religion: iberian_pagan (historical override)
+- accepted_cultures: volticiani celtiberian
 - tolerated_cultures: none
 - religion stability candidates: none
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: aeolian:4.04
-- religion weights: hellenic:4.04
+- culture weights: volticiani:14.09
+- religion weights: iberian_pagan:14.09
 
-ORCHOMENUS (Orchomenus)
-- culture: pelasgian
-- religion: hellenic
-- accepted_cultures: pelasgian
+WALAN (Walan)
+- culture: mede
+- religion: iranic
+- accepted_cultures: mede urartian
+- tolerated_cultures: none
+- religion stability candidates: urartian
+- accepted culture coverage: 100%
+- state religion coverage: 77.5%
+- religion stability coverage: 100%
+- culture weights: mede:17.32 urartian:5.03
+- religion weights: iranic:17.32 urartian:5.03
+
+WILUS (Wilusa)
+- culture: luwian (historical override)
+- religion: luwian (historical override)
+- accepted_cultures: luwian thracian
+- tolerated_cultures: none
+- religion stability candidates: mycenaean
+- accepted culture coverage: 100%
+- state religion coverage: 85.6%
+- religion stability coverage: 100%
+- culture weights: luwian:30.12 thracian:5.07
+- religion weights: luwian:30.12 mycenaean:5.07
+
+ZOELA (Zoelae)
+- culture: zoelae (historical override)
+- religion: lusitanian_pagan (historical override)
+- accepted_cultures: zoelae lusitanian
 - tolerated_cultures: none
 - religion stability candidates: none
 - accepted culture coverage: 100%
 - state religion coverage: 100%
 - religion stability coverage: 100%
-- culture weights: pelasgian:5.05
-- religion weights: hellenic:5.05
-
-PYLOS (Pylos)
-- culture: mycenaean (historical override)
-- religion: mycenaean (historical override)
-- accepted_cultures: mycenaean
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: mycenaean:17.18
-- religion weights: mycenaean:17.18
-
-RHODES (Rhodes)
-- culture: dorian
-- religion: hellenic
-- accepted_cultures: dorian
-- tolerated_cultures: none
-- religion stability candidates: none
-- accepted culture coverage: 100%
-- state religion coverage: 100%
-- religion stability coverage: 100%
-- culture weights: dorian:6.05
-- religion weights: hellenic:6.05
-
-SPARTA (Sparta)
-- culture: mycenaean (historical override)
-- religion: mycenaean (historical override)
-- accepted_cultures: mycenaean cycladic
-- tolerated_cultures: arcadian
-- religion stability candidates: hellenic
-- accepted culture coverage: 90.9%
-- state religion coverage: 72.8%
-- religion stability coverage: 100%
-- culture weights: mycenaean:8.07 cycladic:2 arcadian:1.01
-- religion weights: mycenaean:8.07 hellenic:3.01
-
-THEBES (Thebes)
-- culture: mycenaean (historical override)
-- religion: mycenaean (historical override)
-- accepted_cultures: mycenaean pelasgian
-- tolerated_cultures: none
-- religion stability candidates: hellenic
-- accepted culture coverage: 100%
-- state religion coverage: 79.8%
-- religion stability coverage: 100%
-- culture weights: mycenaean:4.04 pelasgian:1.02
-- religion weights: mycenaean:4.04 hellenic:1.02
+- culture weights: zoelae:14.11
+- religion weights: lusitanian_pagan:14.11
 
 Validation summary:
 - missing identity: none
