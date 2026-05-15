@@ -15,5 +15,10 @@ sea_peoples_crisis_yearly_pulse = {
 		4 = sea_peoples_crisis.90
 		4 = sea_peoples_crisis.100
 		3 = sea_peoples_crisis.110
+		8 = sea_peoples_crisis.120
+		8 = sea_peoples_crisis.130
+		8 = sea_peoples_crisis.140
+		12 = sea_peoples_crisis.150
+		5 = sea_peoples_crisis.160
 	}
 }

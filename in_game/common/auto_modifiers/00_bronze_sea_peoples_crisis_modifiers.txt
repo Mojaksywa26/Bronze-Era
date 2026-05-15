@@ -92,6 +92,56 @@ sea_peoples_refugee_pressure_modifier = {
 	global_population_growth = -0.0002
 }
 
+sea_peoples_refugee_artisans_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_refugee_artisans
+		var:sea_peoples_refugee_artisans > 0
+	}
+
+	global_trade_center_power = 0.03
+	global_production_efficiency = 0.03
+	global_pop_food_consumption = 0.04
+	pop_join_rebel_threshold = -0.02
+}
+
+sea_peoples_supervised_refugees_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_supervised_refugees
+		var:sea_peoples_supervised_refugees > 0
+	}
+
+	global_pop_assimilation_speed = 0.001
+	global_monthly_control = 0.003
+	global_pop_food_consumption = 0.03
+	global_estate_target_satisfaction = -0.02
+}
+
+sea_peoples_refugee_corridor_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_refugee_corridor
+		var:sea_peoples_refugee_corridor > 0
+	}
+
+	global_migration_speed = 0.0008
+	global_pop_food_consumption = 0.06
+	global_pop_assimilation_speed = 0.001
+	pop_join_rebel_threshold = -0.04
+	global_monthly_control_decline = 0.006
+}
+
+sea_peoples_levantine_displacement_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_levantine_displacement
+		var:sea_peoples_levantine_displacement > 0
+	}
+
+	global_migration_speed = 0.0007
+	global_pop_food_consumption = 0.07
+	global_trade_center_power = -0.04
+	global_pop_assimilation_speed = 0.001
+	pop_join_rebel_threshold = -0.03
+}
+
 sea_peoples_palace_economy_collapse_modifier = {
 	potential_trigger = {
 		has_variable = sea_peoples_palace_economy_collapse
@@ -128,6 +178,31 @@ sea_peoples_settlement_pressure_modifier = {
 	pop_leave_rebels_threshold = -0.03
 }
 
+sea_peoples_mediterranean_enclave_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_mediterranean_enclave
+		var:sea_peoples_mediterranean_enclave > 0
+	}
+
+	global_pop_assimilation_speed = 0.001
+	global_maritime_presence_modifier = 0.04
+	global_trade_center_power = 0.02
+	global_pop_food_consumption = 0.05
+	pop_join_rebel_threshold = -0.04
+}
+
+sea_peoples_phoenicianized_settlers_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_phoenicianized_settlers
+		var:sea_peoples_phoenicianized_settlers > 0
+	}
+
+	global_pop_assimilation_speed = 0.002
+	global_trade_center_power = 0.06
+	global_maritime_presence_modifier = 0.05
+	global_pop_food_consumption = 0.02
+}
+
 sea_peoples_assimilation_pressure_modifier = {
 	potential_trigger = {
 		has_variable = sea_peoples_assimilation_pressure
@@ -137,6 +212,30 @@ sea_peoples_assimilation_pressure_modifier = {
 	global_pop_assimilation_speed = 0.002
 	global_integration_speed_modifier = 0.10
 	global_trade_center_power = 0.05
+}
+
+sea_peoples_assimilation_open_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_assimilation_open
+		var:sea_peoples_assimilation_open > 0
+	}
+
+	global_pop_assimilation_speed = 0.0025
+	global_pop_conversion_speed = 0.0005
+	global_pop_food_consumption = 0.03
+	global_estate_target_satisfaction = -0.02
+}
+
+sea_peoples_service_trade_integration_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_service_trade_integration
+		var:sea_peoples_service_trade_integration > 0
+	}
+
+	global_trade_center_power = 0.08
+	global_maritime_presence_modifier = 0.05
+	global_pop_assimilation_speed = 0.0015
+	global_monthly_control_decline = 0.005
 }
 
 sea_peoples_port_defense_preparations_modifier = {
@@ -312,4 +411,18 @@ sea_peoples_open_phoenician_harbours_modifier = {
 	pop_join_rebel_threshold = -0.04
 	global_pop_food_consumption = 0.05
 	global_monthly_control_decline = 0.008
+}
+
+sea_peoples_anatolian_recomposition_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_anatolian_recomposition
+		var:sea_peoples_anatolian_recomposition > 0
+	}
+
+	global_pop_assimilation_speed = 0.002
+	global_integration_speed_modifier = -0.05
+	global_pop_food_consumption = 0.08
+	pop_join_rebel_threshold = -0.06
+	global_monthly_control_decline = 0.01
+	global_trade_center_power = 0.04
 }

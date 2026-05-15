@@ -35,6 +35,10 @@ sea_peoples_crisis = {
 		set_variable = { name = sea_peoples_global_raids value = 0 }
 		set_variable = { name = sea_peoples_global_repulsed_raids value = 0 }
 		set_variable = { name = sea_peoples_global_market_damage value = 0 }
+		set_variable = { name = sea_peoples_global_refugee_movements value = 0 }
+		set_variable = { name = sea_peoples_global_migrant_enclaves value = 0 }
+		set_variable = { name = sea_peoples_global_phoenicianized_enclaves value = 0 }
+		set_variable = { name = sea_peoples_global_anatolian_recompositions value = 0 }
 
 		every_country = {
 			limit = {
@@ -74,6 +78,22 @@ sea_peoples_crisis = {
 			limit = { NOT = { has_variable = sea_peoples_global_market_damage } }
 			set_variable = { name = sea_peoples_global_market_damage value = 0 }
 		}
+		if = {
+			limit = { NOT = { has_variable = sea_peoples_global_refugee_movements } }
+			set_variable = { name = sea_peoples_global_refugee_movements value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = sea_peoples_global_migrant_enclaves } }
+			set_variable = { name = sea_peoples_global_migrant_enclaves value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = sea_peoples_global_phoenicianized_enclaves } }
+			set_variable = { name = sea_peoples_global_phoenicianized_enclaves value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = sea_peoples_global_anatolian_recompositions } }
+			set_variable = { name = sea_peoples_global_anatolian_recompositions value = 0 }
+		}
 
 		change_variable = { name = sea_peoples_situation_months add = 1 }
 
@@ -104,6 +124,75 @@ sea_peoples_crisis = {
 				var:sea_peoples_global_phase < 5
 			}
 			set_variable = { name = sea_peoples_global_phase value = 5 }
+		}
+
+		# The displayed situation pressure is global collapse momentum. Local country actions
+		# reduce local damage, but they should not let the whole Mediterranean crisis vanish.
+		if = {
+			limit = { var:sea_peoples_global_phase >= 5 }
+			if = {
+				limit = { var:sea_peoples_global_pressure < 35 }
+				set_variable = { name = sea_peoples_global_pressure value = 35 }
+			}
+			if = {
+				limit = { var:sea_peoples_global_famine_pressure < 20 }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 20 }
+			}
+		}
+		else_if = {
+			limit = { var:sea_peoples_global_phase >= 4 }
+			if = {
+				limit = { var:sea_peoples_global_pressure < 60 }
+				set_variable = { name = sea_peoples_global_pressure value = 60 }
+			}
+			if = {
+				limit = { var:sea_peoples_global_famine_pressure < 35 }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 35 }
+			}
+			change_variable = { name = sea_peoples_global_pressure add = 1 }
+		}
+		else_if = {
+			limit = { var:sea_peoples_global_phase >= 3 }
+			if = {
+				limit = { var:sea_peoples_global_pressure < 40 }
+				set_variable = { name = sea_peoples_global_pressure value = 40 }
+			}
+			if = {
+				limit = { var:sea_peoples_global_famine_pressure < 30 }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 30 }
+			}
+			change_variable = { name = sea_peoples_global_pressure add = 1 }
+			change_variable = { name = sea_peoples_global_famine_pressure add = 1 }
+		}
+		else_if = {
+			limit = { var:sea_peoples_global_phase >= 2 }
+			if = {
+				limit = { var:sea_peoples_global_pressure < 25 }
+				set_variable = { name = sea_peoples_global_pressure value = 25 }
+			}
+			if = {
+				limit = { var:sea_peoples_global_famine_pressure < 18 }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 18 }
+			}
+			change_variable = { name = sea_peoples_global_pressure add = 1 }
+		}
+		else = {
+			if = {
+				limit = { var:sea_peoples_global_pressure < 10 }
+				set_variable = { name = sea_peoples_global_pressure value = 10 }
+			}
+			if = {
+				limit = { var:sea_peoples_global_famine_pressure < 10 }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 10 }
+			}
+		}
+		if = {
+			limit = { var:sea_peoples_global_pressure > 100 }
+			set_variable = { name = sea_peoples_global_pressure value = 100 }
+		}
+		if = {
+			limit = { var:sea_peoples_global_famine_pressure > 100 }
+			set_variable = { name = sea_peoples_global_famine_pressure value = 100 }
 		}
 
 		every_country = {
@@ -148,7 +237,7 @@ sea_peoples_crisis = {
 			}
 
 			random_list = {
-				450 = { }
+				330 = { }
 				3 = { trigger_event_non_silently = sea_peoples_crisis.10 }
 				5 = {
 					trigger = {
@@ -197,6 +286,48 @@ sea_peoples_crisis = {
 						has_variable = sea_peoples_settlement_pressure
 					}
 					trigger_event_non_silently = sea_peoples_crisis.70
+				}
+				6 = {
+					trigger = {
+						sea_peoples_crisis_phase_at_least = { value = 2 }
+						sea_peoples_crisis_european_corridor_target = yes
+					}
+					trigger_event_non_silently = sea_peoples_crisis.120
+				}
+				6 = {
+					trigger = {
+						sea_peoples_crisis_phase_at_least = { value = 2 }
+						sea_peoples_crisis_levantine_displacement_target = yes
+					}
+					trigger_event_non_silently = sea_peoples_crisis.130
+				}
+				7 = {
+					trigger = {
+						sea_peoples_crisis_phase_at_least = { value = 3 }
+						sea_peoples_crisis_maritime_target = yes
+					}
+					trigger_event_non_silently = sea_peoples_crisis.140
+				}
+				80 = {
+					trigger = {
+						sea_peoples_crisis_phase_at_least = { value = 3 }
+						has_variable = sea_peoples_recent_migrant_enclave
+						var:sea_peoples_recent_migrant_enclave > 0
+						any_port_in_country = {
+							is_coastal = yes
+							has_variable = sea_peoples_recent_migrant_enclave_location
+							var:sea_peoples_recent_migrant_enclave_location > 0
+						}
+					}
+					trigger_event_non_silently = sea_peoples_crisis.150
+				}
+				5 = {
+					trigger = {
+						sea_peoples_crisis_phase_at_least = { value = 5 }
+						sea_peoples_crisis_anatolian_recomposition_target = yes
+						NOT = { has_variable = sea_peoples_anatolian_recomposition }
+					}
+					trigger_event_non_silently = sea_peoples_crisis.160
 				}
 				1 = {
 					trigger = {

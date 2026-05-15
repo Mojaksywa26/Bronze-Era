@@ -120,3 +120,54 @@ sea_peoples_crisis_mycenaean_target = {
 		}
 	}
 }
+
+sea_peoples_crisis_european_corridor_target = {
+	custom_description = {
+		text = sea_peoples_crisis_european_corridor_target_text
+		OR = {
+			capital ?= { region = region:balkan_region }
+			capital ?= { region = region:anatolia_region }
+			is_member_of_international_organization = international_organization:mycenaean_league
+			culture = culture:mycenaean
+			culture = culture:minoan
+			culture = culture:cycladic
+			culture = culture:thracian
+			culture = culture:illyrian
+			culture = culture:paeonian
+			culture = culture:triballian
+			culture = culture:luwian
+			culture = culture:hittite
+			culture = culture:lycian
+			culture = culture:carian
+		}
+	}
+}
+
+sea_peoples_crisis_levantine_displacement_target = {
+	custom_description = {
+		text = sea_peoples_crisis_levantine_displacement_target_text
+		OR = {
+			capital ?= { region = region:crescent_region }
+			culture = culture:canaanite
+			culture = culture:phoenician
+			culture = culture:ugaritic
+			culture = culture:aramaean
+			culture = culture:peleset
+			culture = culture:tjekker
+		}
+	}
+}
+
+sea_peoples_crisis_anatolian_recomposition_target = {
+	custom_description = {
+		text = sea_peoples_crisis_anatolian_recomposition_target_text
+		OR = {
+			capital ?= { region = region:anatolia_region }
+			culture = culture:hittite
+			culture = culture:luwian
+			culture = culture:lycian
+			culture = culture:carian
+			culture = culture:lukka
+		}
+	}
+}

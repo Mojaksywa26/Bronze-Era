@@ -92,21 +92,6 @@ sea_peoples_add_pressure = {
 			limit = { var:sea_peoples_crisis_pressure < 0 }
 			set_variable = { name = sea_peoples_crisis_pressure value = 0 }
 		}
-		situation:sea_peoples_crisis ?= {
-			if = {
-				limit = { NOT = { has_variable = sea_peoples_global_pressure } }
-				set_variable = { name = sea_peoples_global_pressure value = 0 }
-			}
-			change_variable = { name = sea_peoples_global_pressure add = $value$ }
-			if = {
-				limit = { var:sea_peoples_global_pressure > 100 }
-				set_variable = { name = sea_peoples_global_pressure value = 100 }
-			}
-			if = {
-				limit = { var:sea_peoples_global_pressure < 0 }
-				set_variable = { name = sea_peoples_global_pressure value = 0 }
-			}
-		}
 	}
 }
 
@@ -127,21 +112,6 @@ sea_peoples_add_famine_pressure = {
 			limit = { var:sea_peoples_famine_pressure < 0 }
 			set_variable = { name = sea_peoples_famine_pressure value = 0 }
 		}
-		situation:sea_peoples_crisis ?= {
-			if = {
-				limit = { NOT = { has_variable = sea_peoples_global_famine_pressure } }
-				set_variable = { name = sea_peoples_global_famine_pressure value = 0 }
-			}
-			change_variable = { name = sea_peoples_global_famine_pressure add = $value$ }
-			if = {
-				limit = { var:sea_peoples_global_famine_pressure > 100 }
-				set_variable = { name = sea_peoples_global_famine_pressure value = 100 }
-			}
-			if = {
-				limit = { var:sea_peoples_global_famine_pressure < 0 }
-				set_variable = { name = sea_peoples_global_famine_pressure value = 0 }
-			}
-		}
 	}
 }
 
@@ -160,6 +130,7 @@ sea_peoples_coastal_raid_damage = {
 		set_variable = { name = sea_peoples_market_disrupted value = 1 years = 5 }
 		sea_peoples_add_pressure = { value = 10 }
 		sea_peoples_add_famine_pressure = { value = 8 }
+		sea_peoples_apply_raid_stability_shock = yes
 
 		situation:sea_peoples_crisis ?= {
 			if = {
@@ -172,6 +143,16 @@ sea_peoples_coastal_raid_damage = {
 			}
 			change_variable = { name = sea_peoples_global_raids add = 1 }
 			change_variable = { name = sea_peoples_global_market_damage add = 1 }
+			change_variable = { name = sea_peoples_global_pressure add = 2 }
+			change_variable = { name = sea_peoples_global_famine_pressure add = 2 }
+			if = {
+				limit = { var:sea_peoples_global_pressure > 100 }
+				set_variable = { name = sea_peoples_global_pressure value = 100 }
+			}
+			if = {
+				limit = { var:sea_peoples_global_famine_pressure > 100 }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 100 }
+			}
 		}
 
 		scope:target_location ?= {
@@ -206,9 +187,54 @@ sea_peoples_coastal_raid_damage = {
 
 		scope:target_province ?= {
 			every_location_in_province = {
+				limit = {
+					has_owner = yes
+					owner = root
+				}
+				every_pop = {
+					limit = {
+						owner = root
+						pop_size > 0.02
+					}
+					add_pop_size = {
+						value = pop_size
+						multiply = -0.005
+					}
+				}
+			}
+			every_location_in_province = {
 				limit = { is_port = yes }
 				change_prosperity = prosperity_weak_penalty
 			}
+		}
+	}
+}
+
+sea_peoples_apply_raid_stability_shock = {
+	custom_description = {
+		text = sea_peoples_apply_raid_stability_shock_text
+		add_stability = stability_weak_penalty
+		if = {
+			limit = {
+				scope:target_location ?= {
+					OR = {
+						development >= 25
+						population >= 5
+					}
+				}
+			}
+			add_stability = stability_weak_penalty
+		}
+		if = {
+			limit = {
+				scope:target_location ?= {
+					OR = {
+						development >= 45
+						population >= 12
+					}
+				}
+			}
+			add_stability = stability_weak_penalty
 		}
 	}
 }
@@ -245,6 +271,177 @@ sea_peoples_mark_refugee_wave = {
 	}
 }
 
+sea_peoples_refugees_admitted = {
+	custom_description = {
+		text = sea_peoples_refugees_admitted_text
+		sea_peoples_mark_refugee_wave = yes
+		set_variable = { name = sea_peoples_refugee_artisans value = 1 years = 4 }
+		add_stability = stability_weak_penalty
+		add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
+		add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_bonus }
+
+		scope:target_location ?= {
+			random_pop = {
+				limit = {
+					pop_type = pop_type:peasants
+					pop_size > 0.03
+				}
+				add_pop_size = {
+					value = pop_size
+					multiply = 0.015
+				}
+			}
+			random_pop = {
+				limit = {
+					pop_type = pop_type:burghers
+					pop_size > 0.01
+				}
+				add_pop_size = {
+					value = pop_size
+					multiply = 0.01
+				}
+			}
+			province = {
+				change_province_food_percentage = -0.08
+			}
+		}
+	}
+}
+
+sea_peoples_refugees_supervised = {
+	custom_description = {
+		text = sea_peoples_refugees_supervised_text
+		sea_peoples_mark_refugee_wave = yes
+		sea_peoples_add_pressure = { value = -3 }
+		set_variable = { name = sea_peoples_supervised_refugees value = 1 years = 5 }
+		add_stability = stability_weak_penalty
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_penalty }
+		add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_penalty }
+
+		scope:target_location ?= {
+			random_pop = {
+				limit = {
+					pop_type = pop_type:peasants
+					pop_size > 0.03
+				}
+				add_pop_size = {
+					value = pop_size
+					multiply = 0.01
+				}
+			}
+			province = {
+				change_province_food_percentage = -0.05
+			}
+		}
+	}
+}
+
+sea_peoples_add_european_corridor_migrants = {
+	custom_description = {
+		text = sea_peoples_add_european_corridor_migrants_text
+		set_variable = { name = sea_peoples_refugee_corridor value = 1 years = 5 }
+		sea_peoples_add_pressure = { value = 4 }
+		sea_peoples_add_famine_pressure = { value = 3 }
+		add_stability = stability_weak_penalty
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_refugee_movements } }
+				set_variable = { name = sea_peoples_global_refugee_movements value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_refugee_movements add = 1 }
+		}
+
+		scope:target_location ?= {
+			random_list = {
+				18 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:thracian religion = religion:thracian_pagan } }
+				16 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:illyrian religion = religion:illyrian_pagan } }
+				14 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:paeonian religion = religion:thracian_pagan } }
+				12 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:triballian religion = religion:thracian_pagan } }
+				10 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:dacian religion = religion:dacian_pagan } }
+				8 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:urnfield religion = religion:gaulish_pagan } }
+				6 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:gava_holigrady religion = religion:gaulish_pagan } }
+			}
+			random_list = {
+				30 = { add_pop = { type = pop_type:tribesmen size = 0.020 culture = culture:thracian religion = religion:thracian_pagan } }
+				25 = { add_pop = { type = pop_type:tribesmen size = 0.020 culture = culture:illyrian religion = religion:illyrian_pagan } }
+				20 = { add_pop = { type = pop_type:tribesmen size = 0.020 culture = culture:paeonian religion = religion:thracian_pagan } }
+				15 = { add_pop = { type = pop_type:tribesmen size = 0.020 culture = culture:triballian religion = religion:thracian_pagan } }
+				10 = { add_pop = { type = pop_type:tribesmen size = 0.020 culture = culture:dacian religion = religion:dacian_pagan } }
+			}
+			if = {
+				limit = { root = { sea_peoples_crisis_phase_at_least = { value = 3 } } }
+				random_list = {
+					25 = { add_pop = { type = pop_type:peasants size = 0.060 culture = culture:thracian religion = religion:thracian_pagan } }
+					20 = { add_pop = { type = pop_type:peasants size = 0.060 culture = culture:illyrian religion = religion:illyrian_pagan } }
+					18 = { add_pop = { type = pop_type:peasants size = 0.060 culture = culture:paeonian religion = religion:thracian_pagan } }
+					15 = { add_pop = { type = pop_type:peasants size = 0.060 culture = culture:triballian religion = religion:thracian_pagan } }
+					12 = { add_pop = { type = pop_type:peasants size = 0.060 culture = culture:urnfield religion = religion:gaulish_pagan } }
+				}
+			}
+			if = {
+				limit = { root = { sea_peoples_crisis_phase_at_least = { value = 4 } } }
+				random_list = {
+					25 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:thracian religion = religion:thracian_pagan } }
+					20 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:illyrian religion = religion:illyrian_pagan } }
+					18 = { add_pop = { type = pop_type:tribesmen size = 0.040 culture = culture:paeonian religion = religion:thracian_pagan } }
+					15 = { add_pop = { type = pop_type:tribesmen size = 0.040 culture = culture:triballian religion = religion:thracian_pagan } }
+					12 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:dacian religion = religion:dacian_pagan } }
+				}
+			}
+			province = {
+				change_province_food_percentage = -0.10
+			}
+		}
+	}
+}
+
+sea_peoples_add_levantine_coastal_flight = {
+	custom_description = {
+		text = sea_peoples_add_levantine_coastal_flight_text
+		set_variable = { name = sea_peoples_levantine_displacement value = 1 years = 5 }
+		sea_peoples_mark_refugee_wave = yes
+		sea_peoples_add_famine_pressure = { value = 2 }
+		add_stability = stability_weak_penalty
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_refugee_movements } }
+				set_variable = { name = sea_peoples_global_refugee_movements value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_refugee_movements add = 1 }
+		}
+
+		scope:target_location ?= {
+			random_list = {
+				25 = { add_pop = { type = pop_type:peasants size = 0.090 culture = culture:canaanite religion = religion:canaanite } }
+				20 = { add_pop = { type = pop_type:peasants size = 0.090 culture = culture:phoenician religion = religion:phoenician } }
+				18 = { add_pop = { type = pop_type:peasants size = 0.090 culture = culture:ugaritic religion = religion:canaanite } }
+				16 = { add_pop = { type = pop_type:peasants size = 0.090 culture = culture:aramaean religion = religion:canaanite } }
+				12 = { add_pop = { type = pop_type:peasants size = 0.090 culture = culture:peleset religion = religion:sea_peoples_cult } }
+				9 = { add_pop = { type = pop_type:peasants size = 0.090 culture = culture:tjekker religion = religion:sea_peoples_cult } }
+			}
+			random_list = {
+				35 = { add_pop = { type = pop_type:burghers size = 0.015 culture = culture:phoenician religion = religion:phoenician } }
+				25 = { add_pop = { type = pop_type:burghers size = 0.015 culture = culture:canaanite religion = religion:canaanite } }
+				20 = { add_pop = { type = pop_type:clergy size = 0.010 culture = culture:canaanite religion = religion:canaanite } }
+				20 = { add_pop = { type = pop_type:tribesmen size = 0.020 culture = culture:aramaean religion = religion:canaanite } }
+			}
+			if = {
+				limit = { root = { sea_peoples_crisis_phase_at_least = { value = 4 } } }
+				random_list = {
+					30 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:phoenician religion = religion:phoenician } }
+					25 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:canaanite religion = religion:canaanite } }
+					20 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:aramaean religion = religion:canaanite } }
+					15 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:peleset religion = religion:sea_peoples_cult } }
+					10 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:tjekker religion = religion:sea_peoples_cult } }
+				}
+			}
+			province = {
+				change_province_food_percentage = -0.12
+			}
+		}
+	}
+}
+
 sea_peoples_mark_trade_collapse = {
 	custom_description = {
 		text = sea_peoples_mark_trade_collapse_text
@@ -271,11 +468,274 @@ sea_peoples_mark_settlement_pressure = {
 	}
 }
 
+sea_peoples_unmanaged_settlement = {
+	custom_description = {
+		text = sea_peoples_unmanaged_settlement_text
+		sea_peoples_mark_settlement_pressure = yes
+		sea_peoples_add_famine_pressure = { value = 3 }
+		add_stability = stability_weak_penalty
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_migrant_enclaves } }
+				set_variable = { name = sea_peoples_global_migrant_enclaves value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_migrant_enclaves add = 1 }
+		}
+		add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
+
+		scope:target_location ?= {
+			random_pop = {
+				limit = {
+					pop_size > 0.03
+				}
+				add_pop_size = {
+					value = pop_size
+					multiply = 0.012
+				}
+			}
+			change_prosperity = prosperity_weak_penalty
+			province = {
+				change_province_food_percentage = -0.08
+			}
+		}
+	}
+}
+
+sea_peoples_watched_settlement = {
+	custom_description = {
+		text = sea_peoples_watched_settlement_text
+		sea_peoples_mark_settlement_pressure = yes
+		sea_peoples_mark_assimilation = yes
+		sea_peoples_add_pressure = { value = -4 }
+		sea_peoples_add_famine_pressure = { value = 1 }
+		add_stability = stability_weak_penalty
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_mild_penalty }
+		add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_penalty }
+
+		scope:target_location ?= {
+			random_pop = {
+				limit = {
+					pop_size > 0.03
+				}
+				add_pop_size = {
+					value = pop_size
+					multiply = 0.008
+				}
+			}
+			province = {
+				change_province_food_percentage = -0.05
+			}
+		}
+	}
+}
+
+sea_peoples_add_mediterranean_coastal_enclave = {
+	custom_description = {
+		text = sea_peoples_add_mediterranean_coastal_enclave_text
+		set_variable = { name = sea_peoples_mediterranean_enclave value = 1 years = 6 }
+		set_variable = { name = sea_peoples_recent_migrant_enclave value = 1 years = 2 }
+		sea_peoples_mark_settlement_pressure = yes
+		sea_peoples_add_famine_pressure = { value = 3 }
+		add_stability = stability_weak_penalty
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_migrant_enclaves } }
+				set_variable = { name = sea_peoples_global_migrant_enclaves value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_migrant_enclaves add = 1 }
+		}
+
+		scope:target_location ?= {
+			set_variable = { name = sea_peoples_recent_migrant_enclave_location value = 1 years = 2 }
+			set_variable = { name = sea_peoples_mediterranean_enclave_location value = 1 years = 6 }
+			random_list = {
+				16 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:sherden religion = religion:sea_peoples_cult } }
+				16 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:peleset religion = religion:sea_peoples_cult } }
+				14 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:tjekker religion = religion:sea_peoples_cult } }
+				14 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:denyen religion = religion:sea_peoples_cult } }
+				12 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:lukka religion = religion:sea_peoples_cult } }
+				10 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:nuragic religion = religion:nuragic } }
+				8 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:sicel religion = religion:italic_pagan } }
+				6 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:minoan religion = religion:minoan } }
+				6 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:mycenaean religion = religion:mycenaean } }
+			}
+			random_list = {
+				22 = { add_pop = { type = pop_type:burghers size = 0.020 culture = culture:phoenician religion = religion:phoenician } }
+				18 = { add_pop = { type = pop_type:burghers size = 0.020 culture = culture:canaanite religion = religion:canaanite } }
+				16 = { add_pop = { type = pop_type:tribesmen size = 0.030 culture = culture:sherden religion = religion:sea_peoples_cult } }
+				16 = { add_pop = { type = pop_type:tribesmen size = 0.030 culture = culture:peleset religion = religion:sea_peoples_cult } }
+				14 = { add_pop = { type = pop_type:tribesmen size = 0.030 culture = culture:lukka religion = religion:sea_peoples_cult } }
+				14 = { add_pop = { type = pop_type:tribesmen size = 0.030 culture = culture:tjekker religion = religion:sea_peoples_cult } }
+			}
+			if = {
+				limit = { root = { sea_peoples_crisis_phase_at_least = { value = 4 } } }
+				random_list = {
+					20 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:peleset religion = religion:sea_peoples_cult } }
+					18 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:tjekker religion = religion:sea_peoples_cult } }
+					16 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:denyen religion = religion:sea_peoples_cult } }
+					16 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:lukka religion = religion:sea_peoples_cult } }
+					14 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:sherden religion = religion:sea_peoples_cult } }
+					10 = { add_pop = { type = pop_type:peasants size = 0.080 culture = culture:phoenician religion = religion:phoenician } }
+				}
+			}
+			change_prosperity = prosperity_weak_penalty
+			province = {
+				change_province_food_percentage = -0.10
+			}
+		}
+	}
+}
+
 sea_peoples_mark_assimilation = {
 	custom_description = {
 		text = sea_peoples_mark_assimilation_text
 		set_variable = { name = sea_peoples_assimilation_pressure value = 1 }
 		sea_peoples_add_pressure = { value = -4 }
+	}
+}
+
+sea_peoples_assimilation_open = {
+	custom_description = {
+		text = sea_peoples_assimilation_open_text
+		sea_peoples_mark_assimilation = yes
+		set_variable = { name = sea_peoples_assimilation_open value = 1 years = 5 }
+		sea_peoples_add_famine_pressure = { value = 1 }
+		add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_penalty }
+
+		scope:target_location ?= {
+			random_pop = {
+				limit = {
+					pop_size > 0.03
+				}
+				add_pop_size = {
+					value = pop_size
+					multiply = 0.006
+				}
+			}
+		}
+	}
+}
+
+sea_peoples_service_trade_integration = {
+	custom_description = {
+		text = sea_peoples_service_trade_integration_text
+		sea_peoples_mark_assimilation = yes
+		sea_peoples_add_pressure = { value = -2 }
+		set_variable = { name = sea_peoples_service_trade_integration value = 1 years = 5 }
+		add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_bonus }
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_penalty }
+
+		scope:target_location ?= {
+			random_pop = {
+				limit = {
+					pop_type = pop_type:burghers
+					pop_size > 0.01
+				}
+				add_pop_size = {
+					value = pop_size
+					multiply = 0.01
+				}
+			}
+		}
+	}
+}
+
+sea_peoples_phoenicianize_recent_settlers = {
+	custom_description = {
+		text = sea_peoples_phoenicianize_recent_settlers_text
+		set_variable = { name = sea_peoples_phoenicianized_settlers value = 1 years = 6 }
+		set_variable = { name = sea_peoples_recent_migrant_enclave value = 0 }
+		sea_peoples_mark_assimilation = yes
+		sea_peoples_add_pressure = { value = -4 }
+		add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_bonus }
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_phoenicianized_enclaves } }
+				set_variable = { name = sea_peoples_global_phoenicianized_enclaves value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_phoenicianized_enclaves add = 1 }
+		}
+
+		scope:target_location ?= {
+			set_variable = { name = sea_peoples_recent_migrant_enclave_location value = 0 }
+			set_variable = { name = sea_peoples_phoenicianized_settlers_location value = 1 years = 6 }
+			random_pop = {
+				limit = {
+					OR = {
+						culture = culture:sherden
+						culture = culture:peleset
+						culture = culture:tjekker
+						culture = culture:denyen
+						culture = culture:lukka
+					}
+					pop_size > 0.030
+				}
+				set_local_variable = {
+					name = pops_to_phoenicianize
+					value = {
+						value = pop_size
+						multiply = 0.500
+					}
+				}
+				add_pop_size = {
+					value = local_var:pops_to_phoenicianize
+					multiply = -1
+				}
+				location = {
+					add_pop = {
+						type = prev.pop_type
+						size = local_var:pops_to_phoenicianize
+						culture = culture:phoenician
+						religion = religion:phoenician
+					}
+				}
+			}
+			add_pop = { type = pop_type:burghers size = 0.030 culture = culture:phoenician religion = religion:phoenician }
+		}
+	}
+}
+
+sea_peoples_anatolian_recomposition = {
+	custom_description = {
+		text = sea_peoples_anatolian_recomposition_text
+		set_variable = { name = sea_peoples_anatolian_recomposition value = 1 years = 100 }
+		sea_peoples_mark_settlement_pressure = yes
+		sea_peoples_mark_assimilation = yes
+		sea_peoples_add_pressure = { value = 8 }
+		sea_peoples_add_famine_pressure = { value = 6 }
+		add_stability = stability_weak_penalty
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_mild_penalty }
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_anatolian_recompositions } }
+				set_variable = { name = sea_peoples_global_anatolian_recompositions value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_anatolian_recompositions add = 1 }
+		}
+
+		scope:target_location ?= {
+			random_list = {
+				24 = { add_pop = { type = pop_type:peasants size = 0.150 culture = culture:luwian religion = religion:luwian } }
+				18 = { add_pop = { type = pop_type:peasants size = 0.150 culture = culture:lukka religion = religion:sea_peoples_cult } }
+				16 = { add_pop = { type = pop_type:peasants size = 0.150 culture = culture:peleset religion = religion:sea_peoples_cult } }
+				14 = { add_pop = { type = pop_type:peasants size = 0.150 culture = culture:denyen religion = religion:sea_peoples_cult } }
+				12 = { add_pop = { type = pop_type:peasants size = 0.150 culture = culture:tjekker religion = religion:sea_peoples_cult } }
+				10 = { add_pop = { type = pop_type:peasants size = 0.150 culture = culture:phoenician religion = religion:phoenician } }
+				6 = { add_pop = { type = pop_type:peasants size = 0.150 culture = culture:thracian religion = religion:thracian_pagan } }
+			}
+			random_list = {
+				25 = { add_pop = { type = pop_type:tribesmen size = 0.050 culture = culture:lukka religion = religion:sea_peoples_cult } }
+				20 = { add_pop = { type = pop_type:tribesmen size = 0.050 culture = culture:peleset religion = religion:sea_peoples_cult } }
+				20 = { add_pop = { type = pop_type:burghers size = 0.030 culture = culture:phoenician religion = religion:phoenician } }
+				15 = { add_pop = { type = pop_type:clergy size = 0.015 culture = culture:phoenician religion = religion:phoenician } }
+				12 = { add_pop = { type = pop_type:tribesmen size = 0.050 culture = culture:thracian religion = religion:thracian_pagan } }
+				8 = { add_pop = { type = pop_type:tribesmen size = 0.050 culture = culture:illyrian religion = religion:illyrian_pagan } }
+			}
+			change_prosperity = prosperity_weak_penalty
+			province = {
+				change_province_food_percentage = -0.18
+			}
+		}
 	}
 }
 
@@ -300,6 +760,19 @@ sea_peoples_phoenician_opening = {
 		text = sea_peoples_phoenician_opening_text
 		set_variable = { name = sea_peoples_phoenician_opening value = 1 }
 		sea_peoples_add_pressure = { value = -4 }
+	}
+}
+
+sea_peoples_phoenician_opening_event = {
+	custom_description = {
+		text = sea_peoples_phoenician_opening_event_text
+		sea_peoples_phoenician_opening = yes
+		sea_peoples_mark_assimilation = yes
+		sea_peoples_mark_settlement_pressure = yes
+		sea_peoples_add_famine_pressure = { value = 2 }
+		add_stability = stability_weak_penalty
+		add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_mild_bonus }
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_mild_penalty }
 	}
 }
 

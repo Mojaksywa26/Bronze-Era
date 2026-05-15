@@ -17,13 +17,18 @@ sea_peoples_crisis.1 = {
 
 	option = {
 		name = sea_peoples_crisis.1.a
+		custom_tooltip = sea_peoples_crisis_1a_tt
 		sea_peoples_begin_crisis = yes
 		add_prestige = prestige_weak_penalty
 	}
 	option = {
 		name = sea_peoples_crisis.1.b
+		custom_tooltip = sea_peoples_crisis_1b_tt
 		sea_peoples_begin_crisis = yes
 		sea_peoples_prepare_port_defense = yes
+		sea_peoples_add_famine_pressure = { value = 2 }
+		add_prestige = prestige_weak_penalty
+		add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_penalty }
 	}
 }
 
@@ -43,11 +48,14 @@ sea_peoples_crisis.5 = {
 
 	option = {
 		name = sea_peoples_crisis.5.a
+		custom_tooltip = sea_peoples_crisis_5a_tt
 		sea_peoples_advance_phase = yes
 	}
 	option = {
 		name = sea_peoples_crisis.5.b
+		custom_tooltip = sea_peoples_crisis_5b_tt
 		sea_peoples_add_pressure = { value = 8 }
+		add_prestige = prestige_weak_penalty
 	}
 }
 
@@ -67,13 +75,18 @@ sea_peoples_crisis.10 = {
 
 	option = {
 		name = sea_peoples_crisis.10.a
+		custom_tooltip = sea_peoples_crisis_10a_tt
 		sea_peoples_add_famine_pressure = { value = 7 }
 		sea_peoples_add_pressure = { value = 4 }
+		add_stability = stability_weak_penalty
 	}
 	option = {
 		name = sea_peoples_crisis.10.b
+		custom_tooltip = sea_peoples_crisis_10b_tt
 		sea_peoples_add_famine_pressure = { value = 3 }
 		add_prestige = prestige_weak_penalty
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_penalty }
+		add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_penalty }
 	}
 }
 
@@ -228,14 +241,43 @@ sea_peoples_crisis.30 = {
 		sea_peoples_crisis_phase_at_least = { value = 2 }
 	}
 
+	immediate = {
+		if = {
+			limit = {
+				any_port_in_country = {
+					is_coastal = yes
+				}
+			}
+			random_port_in_country = {
+				limit = {
+					is_coastal = yes
+				}
+				save_scope_as = target_location
+				province = {
+					save_scope_as = target_province
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { exists = scope:target_location } }
+			capital ?= {
+				save_scope_as = target_location
+				province = {
+					save_scope_as = target_province
+				}
+			}
+		}
+	}
+
 	option = {
 		name = sea_peoples_crisis.30.a
-		sea_peoples_mark_refugee_wave = yes
+		custom_tooltip = sea_peoples_crisis_30a_tt
+		sea_peoples_refugees_admitted = yes
 	}
 	option = {
 		name = sea_peoples_crisis.30.b
-		sea_peoples_mark_refugee_wave = yes
-		sea_peoples_add_pressure = { value = -2 }
+		custom_tooltip = sea_peoples_crisis_30b_tt
+		sea_peoples_refugees_supervised = yes
 	}
 }
 
@@ -255,12 +297,17 @@ sea_peoples_crisis.40 = {
 
 	option = {
 		name = sea_peoples_crisis.40.a
+		custom_tooltip = sea_peoples_crisis_40a_tt
 		sea_peoples_mark_trade_collapse = yes
 	}
 	option = {
 		name = sea_peoples_crisis.40.b
+		custom_tooltip = sea_peoples_crisis_40b_tt
 		sea_peoples_mark_trade_collapse = yes
+		sea_peoples_add_famine_pressure = { value = -3 }
 		add_prestige = prestige_mild_penalty
+		add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_mild_penalty }
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_penalty }
 	}
 }
 
@@ -280,12 +327,17 @@ sea_peoples_crisis.50 = {
 
 	option = {
 		name = sea_peoples_crisis.50.a
+		custom_tooltip = sea_peoples_crisis_50a_tt
 		sea_peoples_mark_internal_breakdown = yes
 	}
 	option = {
 		name = sea_peoples_crisis.50.b
+		custom_tooltip = sea_peoples_crisis_50b_tt
 		sea_peoples_add_pressure = { value = 6 }
 		add_prestige = prestige_weak_penalty
+		add_stability = stability_weak_penalty
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_bonus }
+		add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
 	}
 }
 
@@ -304,14 +356,43 @@ sea_peoples_crisis.60 = {
 		sea_peoples_crisis_maritime_target = yes
 	}
 
+	immediate = {
+		if = {
+			limit = {
+				any_port_in_country = {
+					is_coastal = yes
+				}
+			}
+			random_port_in_country = {
+				limit = {
+					is_coastal = yes
+				}
+				save_scope_as = target_location
+				province = {
+					save_scope_as = target_province
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { exists = scope:target_location } }
+			capital ?= {
+				save_scope_as = target_location
+				province = {
+					save_scope_as = target_province
+				}
+			}
+		}
+	}
+
 	option = {
 		name = sea_peoples_crisis.60.a
-		sea_peoples_mark_settlement_pressure = yes
+		custom_tooltip = sea_peoples_crisis_60a_tt
+		sea_peoples_unmanaged_settlement = yes
 	}
 	option = {
 		name = sea_peoples_crisis.60.b
-		sea_peoples_prepare_port_defense = yes
-		sea_peoples_add_pressure = { value = 2 }
+		custom_tooltip = sea_peoples_crisis_60b_tt
+		sea_peoples_watched_settlement = yes
 	}
 }
 
@@ -331,13 +412,43 @@ sea_peoples_crisis.70 = {
 		has_variable = sea_peoples_settlement_pressure
 	}
 
+	immediate = {
+		if = {
+			limit = {
+				any_port_in_country = {
+					is_coastal = yes
+				}
+			}
+			random_port_in_country = {
+				limit = {
+					is_coastal = yes
+				}
+				save_scope_as = target_location
+				province = {
+					save_scope_as = target_province
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { exists = scope:target_location } }
+			capital ?= {
+				save_scope_as = target_location
+				province = {
+					save_scope_as = target_province
+				}
+			}
+		}
+	}
+
 	option = {
 		name = sea_peoples_crisis.70.a
-		sea_peoples_mark_assimilation = yes
+		custom_tooltip = sea_peoples_crisis_70a_tt
+		sea_peoples_assimilation_open = yes
 	}
 	option = {
 		name = sea_peoples_crisis.70.b
-		sea_peoples_mark_assimilation = yes
+		custom_tooltip = sea_peoples_crisis_70b_tt
+		sea_peoples_service_trade_integration = yes
 		add_prestige = prestige_weak_bonus
 	}
 }
@@ -363,7 +474,8 @@ sea_peoples_crisis.80 = {
 
 	option = {
 		name = sea_peoples_crisis.80.a
-		sea_peoples_phoenician_opening = yes
+		custom_tooltip = sea_peoples_crisis_80a_tt
+		sea_peoples_phoenician_opening_event = yes
 		add_prestige = prestige_weak_bonus
 	}
 }
@@ -386,13 +498,17 @@ sea_peoples_crisis.90 = {
 
 	option = {
 		name = sea_peoples_crisis.90.a
+		custom_tooltip = sea_peoples_crisis_90a_tt
 		sea_peoples_egypt_mobilization = yes
 		add_prestige = prestige_mild_penalty
 	}
 	option = {
 		name = sea_peoples_crisis.90.b
+		custom_tooltip = sea_peoples_crisis_90b_tt
 		sea_peoples_egypt_mobilization = yes
 		sea_peoples_add_pressure = { value = -4 }
+		sea_peoples_add_famine_pressure = { value = 4 }
+		add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
 	}
 }
 
@@ -414,12 +530,16 @@ sea_peoples_crisis.100 = {
 
 	option = {
 		name = sea_peoples_crisis.100.a
+		custom_tooltip = sea_peoples_crisis_100a_tt
 		sea_peoples_mark_internal_breakdown = yes
+		add_stability = stability_weak_penalty
 		subtract_mycenaean_league_authority = { value = 8 }
 	}
 	option = {
 		name = sea_peoples_crisis.100.b
+		custom_tooltip = sea_peoples_crisis_100b_tt
 		sea_peoples_mark_trade_collapse = yes
+		sea_peoples_add_famine_pressure = { value = 3 }
 		subtract_mycenaean_league_authority = { value = 4 }
 	}
 }
@@ -440,8 +560,202 @@ sea_peoples_crisis.110 = {
 
 	option = {
 		name = sea_peoples_crisis.110.a
+		custom_tooltip = sea_peoples_crisis_110a_tt
 		sea_peoples_clear_acute_damage = yes
 		add_prestige = prestige_weak_bonus
+	}
+}
+
+sea_peoples_crisis.120 = {
+	type = country_event
+	title = sea_peoples_crisis.120.title
+	desc = sea_peoples_crisis.120.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = negative
+	orphan = yes
+
+	trigger = {
+		sea_peoples_crisis_active_country = yes
+		sea_peoples_crisis_phase_at_least = { value = 2 }
+		sea_peoples_crisis_european_corridor_target = yes
+	}
+
+	immediate = {
+		capital ?= {
+			save_scope_as = target_location
+			province = {
+				save_scope_as = target_province
+			}
+		}
+	}
+
+	option = {
+		name = sea_peoples_crisis.120.a
+		custom_tooltip = sea_peoples_crisis_120a_tt
+		sea_peoples_add_european_corridor_migrants = yes
+	}
+}
+
+sea_peoples_crisis.130 = {
+	type = country_event
+	title = sea_peoples_crisis.130.title
+	desc = sea_peoples_crisis.130.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = negative
+	orphan = yes
+
+	trigger = {
+		sea_peoples_crisis_active_country = yes
+		sea_peoples_crisis_phase_at_least = { value = 2 }
+		sea_peoples_crisis_levantine_displacement_target = yes
+	}
+
+	immediate = {
+		capital ?= {
+			save_scope_as = target_location
+			province = {
+				save_scope_as = target_province
+			}
+		}
+	}
+
+	option = {
+		name = sea_peoples_crisis.130.a
+		custom_tooltip = sea_peoples_crisis_130a_tt
+		sea_peoples_add_levantine_coastal_flight = yes
+	}
+}
+
+sea_peoples_crisis.140 = {
+	type = country_event
+	title = sea_peoples_crisis.140.title
+	desc = sea_peoples_crisis.140.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = negative
+	orphan = yes
+
+	trigger = {
+		sea_peoples_crisis_active_country = yes
+		sea_peoples_crisis_phase_at_least = { value = 3 }
+		sea_peoples_crisis_maritime_target = yes
+		any_port_in_country = {
+			is_coastal = yes
+		}
+	}
+
+	immediate = {
+		random_port_in_country = {
+			limit = {
+				is_coastal = yes
+			}
+			save_scope_as = target_location
+			province = {
+				save_scope_as = target_province
+			}
+		}
+	}
+
+	option = {
+		name = sea_peoples_crisis.140.a
+		custom_tooltip = sea_peoples_crisis_140a_tt
+		sea_peoples_add_mediterranean_coastal_enclave = yes
+	}
+}
+
+sea_peoples_crisis.150 = {
+	type = country_event
+	title = sea_peoples_crisis.150.title
+	desc = sea_peoples_crisis.150.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = neutral
+	orphan = yes
+
+	trigger = {
+		sea_peoples_crisis_active_country = yes
+		sea_peoples_crisis_phase_at_least = { value = 3 }
+		has_variable = sea_peoples_recent_migrant_enclave
+		var:sea_peoples_recent_migrant_enclave > 0
+		any_port_in_country = {
+			is_coastal = yes
+			has_variable = sea_peoples_recent_migrant_enclave_location
+			var:sea_peoples_recent_migrant_enclave_location > 0
+		}
+	}
+
+	immediate = {
+		random_port_in_country = {
+			limit = {
+				is_coastal = yes
+				has_variable = sea_peoples_recent_migrant_enclave_location
+				var:sea_peoples_recent_migrant_enclave_location > 0
+			}
+			save_scope_as = target_location
+			province = {
+				save_scope_as = target_province
+			}
+		}
+	}
+
+	option = {
+		name = sea_peoples_crisis.150.a
+		custom_tooltip = sea_peoples_crisis_150a_tt
+		sea_peoples_phoenicianize_recent_settlers = yes
+	}
+}
+
+sea_peoples_crisis.160 = {
+	type = country_event
+	title = sea_peoples_crisis.160.title
+	desc = sea_peoples_crisis.160.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
+	outcome = negative
+	major = yes
+	orphan = yes
+
+	trigger = {
+		sea_peoples_crisis_active_country = yes
+		sea_peoples_crisis_phase_at_least = { value = 5 }
+		sea_peoples_crisis_anatolian_recomposition_target = yes
+		NOT = { has_variable = sea_peoples_anatolian_recomposition }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				any_port_in_country = {
+					is_coastal = yes
+				}
+			}
+			random_port_in_country = {
+				limit = {
+					is_coastal = yes
+				}
+				save_scope_as = target_location
+				province = {
+					save_scope_as = target_province
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { exists = scope:target_location } }
+			capital ?= {
+				save_scope_as = target_location
+				province = {
+					save_scope_as = target_province
+				}
+			}
+		}
+	}
+
+	option = {
+		name = sea_peoples_crisis.160.a
+		custom_tooltip = sea_peoples_crisis_160a_tt
+		sea_peoples_anatolian_recomposition = yes
 	}
 }
 
