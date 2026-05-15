@@ -1,5 +1,5 @@
-sea_peoples_fortify_coastal_palaces = {
-	type = owncountry
+﻿sea_peoples_fortify_coastal_palaces = {
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -13,8 +13,21 @@ sea_peoples_fortify_coastal_palaces = {
 		years = 6
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_maritime_target = yes
 			NOT = { has_variable = sea_peoples_coastal_palaces_fortified }
@@ -22,13 +35,13 @@ sea_peoples_fortify_coastal_palaces = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_coastal_palaces_fortified value = 1 years = 6 }
 			sea_peoples_prepare_port_defense = yes
 			sea_peoples_add_pressure = { value = -6 }
@@ -44,7 +57,7 @@ sea_peoples_fortify_coastal_palaces = {
 }
 
 sea_peoples_open_emergency_granaries = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 18
@@ -58,8 +71,21 @@ sea_peoples_open_emergency_granaries = {
 		years = 5
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 1 }
 			NOT = { has_variable = sea_peoples_emergency_granaries }
@@ -67,13 +93,13 @@ sea_peoples_open_emergency_granaries = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_emergency_granaries value = 1 years = 5 }
 			sea_peoples_add_famine_pressure = { value = -10 }
 			sea_peoples_add_pressure = { value = -4 }
@@ -90,7 +116,7 @@ sea_peoples_open_emergency_granaries = {
 }
 
 sea_peoples_escort_bronze_convoys = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -104,8 +130,21 @@ sea_peoples_escort_bronze_convoys = {
 		years = 4
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			sea_peoples_crisis_maritime_target = yes
@@ -114,13 +153,13 @@ sea_peoples_escort_bronze_convoys = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_bronze_convoys value = 1 years = 4 }
 			sea_peoples_add_pressure = { value = -5 }
 			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_bonus }
@@ -136,7 +175,7 @@ sea_peoples_escort_bronze_convoys = {
 }
 
 sea_peoples_raise_palace_levies = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 18
@@ -150,8 +189,21 @@ sea_peoples_raise_palace_levies = {
 		years = 3
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			NOT = { has_variable = sea_peoples_palace_levies }
@@ -159,13 +211,13 @@ sea_peoples_raise_palace_levies = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_palace_levies value = 1 years = 3 }
 			sea_peoples_add_pressure = { value = -4 }
 			sea_peoples_add_famine_pressure = { value = 4 }
@@ -181,7 +233,7 @@ sea_peoples_raise_palace_levies = {
 }
 
 sea_peoples_hire_migrant_war_bands = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -195,8 +247,21 @@ sea_peoples_hire_migrant_war_bands = {
 		years = 3
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			NOT = { has_variable = sea_peoples_migrant_war_bands }
@@ -204,13 +269,13 @@ sea_peoples_hire_migrant_war_bands = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_migrant_war_bands value = 1 years = 3 }
 			sea_peoples_add_pressure = { value = -8 }
 			sea_peoples_mark_settlement_pressure = yes
@@ -226,7 +291,7 @@ sea_peoples_hire_migrant_war_bands = {
 }
 
 sea_peoples_controlled_settlement = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -240,8 +305,21 @@ sea_peoples_controlled_settlement = {
 		years = 8
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 3 }
 			sea_peoples_crisis_high_assimilation_zone = yes
@@ -250,13 +328,13 @@ sea_peoples_controlled_settlement = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_controlled_settlement value = 1 years = 8 }
 			sea_peoples_mark_assimilation = yes
 			sea_peoples_mark_settlement_pressure = yes
@@ -274,7 +352,7 @@ sea_peoples_controlled_settlement = {
 }
 
 sea_peoples_sanctuary_appeasement = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 30
@@ -288,8 +366,21 @@ sea_peoples_sanctuary_appeasement = {
 		years = 4
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 1 }
 			NOT = { has_variable = sea_peoples_sanctuary_appeasement }
@@ -297,13 +388,13 @@ sea_peoples_sanctuary_appeasement = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_sanctuary_appeasement value = 1 years = 4 }
 			sea_peoples_add_pressure = { value = -6 }
 			sea_peoples_add_famine_pressure = { value = -3 }
@@ -320,7 +411,7 @@ sea_peoples_sanctuary_appeasement = {
 }
 
 sea_peoples_mycenaean_league_levy = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -334,8 +425,21 @@ sea_peoples_mycenaean_league_levy = {
 		years = 4
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			is_member_of_international_organization = international_organization:mycenaean_league
@@ -344,13 +448,13 @@ sea_peoples_mycenaean_league_levy = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_league_emergency_levy value = 1 years = 4 }
 			sea_peoples_add_pressure = { value = -6 }
 			subtract_mycenaean_league_authority = { value = 6 }
@@ -366,7 +470,7 @@ sea_peoples_mycenaean_league_levy = {
 }
 
 sea_peoples_delta_defense_mobilization = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 18
@@ -380,8 +484,21 @@ sea_peoples_delta_defense_mobilization = {
 		years = 5
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			sea_peoples_crisis_egyptian_target = yes
@@ -390,13 +507,13 @@ sea_peoples_delta_defense_mobilization = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_delta_defense value = 1 years = 5 }
 			sea_peoples_egypt_mobilization = yes
 			sea_peoples_add_pressure = { value = -10 }
@@ -412,7 +529,7 @@ sea_peoples_delta_defense_mobilization = {
 }
 
 sea_peoples_open_phoenician_harbours = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -426,8 +543,21 @@ sea_peoples_open_phoenician_harbours = {
 		years = 8
 	}
 
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:sea_peoples_crisis = this
+			situation_is_active = yes
+			scope:actor ?= {
+				sea_peoples_crisis_active_country = yes
+			}
+		}
+	}
 	potential = {
-		scope:actor = {
+		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 4 }
 			OR = {
@@ -440,13 +570,13 @@ sea_peoples_open_phoenician_harbours = {
 	}
 
 	allow = {
-		scope:actor = {
+		scope:actor ?= {
 			is_during_bankruptcy = no
 		}
 	}
 
 	effect = {
-		scope:actor = {
+		scope:actor ?= {
 			set_variable = { name = sea_peoples_open_phoenician_harbours value = 1 years = 8 }
 			sea_peoples_phoenician_opening = yes
 			sea_peoples_mark_assimilation = yes
@@ -462,3 +592,5 @@ sea_peoples_open_phoenician_harbours = {
 		subtract = 4
 	}
 }
+
+

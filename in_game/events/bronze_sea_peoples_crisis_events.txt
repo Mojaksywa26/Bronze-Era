@@ -90,16 +90,127 @@ sea_peoples_crisis.20 = {
 		sea_peoples_crisis_active_country = yes
 		sea_peoples_crisis_phase_at_least = { value = 2 }
 		sea_peoples_crisis_maritime_target = yes
+		any_port_in_country = {
+			is_coastal = yes
+		}
+	}
+
+	immediate = {
+		random_port_in_country = {
+			limit = {
+				is_coastal = yes
+				NOT = { has_location_modifier = recently_raided_by_horde }
+			}
+			save_scope_as = target_location
+			province = {
+				save_scope_as = target_province
+			}
+		}
+		if = {
+			limit = { NOT = { exists = scope:target_location } }
+			random_port_in_country = {
+				limit = {
+					is_coastal = yes
+				}
+				save_scope_as = target_location
+				province = {
+					save_scope_as = target_province
+				}
+			}
+		}
 	}
 
 	option = {
 		name = sea_peoples_crisis.20.a
-		sea_peoples_mark_raided_coast = yes
+		custom_tooltip = sea_peoples_crisis_20_unprepared_tt
+		random_list = {
+			18 = {
+				trigger = { has_variable = sea_peoples_port_defense_preparations }
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			16 = {
+				trigger = { has_variable = sea_peoples_coastal_palaces_fortified }
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			16 = {
+				trigger = {
+					scope:target_location ?= {
+						modifier:fort_level > 0
+					}
+				}
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			12 = {
+				trigger = {
+					any_army = {
+						count > 0
+						unit_location = {
+							is_coastal = yes
+						}
+					}
+				}
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			14 = {
+				trigger = {
+					OR = {
+						navy_size_percentage >= 0.25
+						any_navy = { count > 0 }
+					}
+				}
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			60 = {
+				sea_peoples_coastal_raid_damage = yes
+			}
+		}
 	}
 	option = {
 		name = sea_peoples_crisis.20.b
 		sea_peoples_prepare_port_defense = yes
-		sea_peoples_add_pressure = { value = 3 }
+		sea_peoples_add_famine_pressure = { value = 2 }
+		custom_tooltip = sea_peoples_crisis_20_defended_tt
+		random_list = {
+			30 = {
+				trigger = { has_variable = sea_peoples_port_defense_preparations }
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			20 = {
+				trigger = { has_variable = sea_peoples_coastal_palaces_fortified }
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			20 = {
+				trigger = {
+					scope:target_location ?= {
+						modifier:fort_level > 0
+					}
+				}
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			16 = {
+				trigger = {
+					any_army = {
+						count > 0
+						unit_location = {
+							is_coastal = yes
+						}
+					}
+				}
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			20 = {
+				trigger = {
+					OR = {
+						navy_size_percentage >= 0.25
+						any_navy = { count > 0 }
+					}
+				}
+				sea_peoples_coastal_raid_repulsed = yes
+			}
+			35 = {
+				sea_peoples_coastal_raid_damage = yes
+			}
+		}
 	}
 }
 

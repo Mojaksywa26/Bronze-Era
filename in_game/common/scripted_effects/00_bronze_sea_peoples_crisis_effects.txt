@@ -148,8 +148,91 @@ sea_peoples_add_famine_pressure = {
 sea_peoples_mark_raided_coast = {
 	custom_description = {
 		text = sea_peoples_mark_raided_coast_text
-		set_variable = { name = sea_peoples_raided_coast value = 1 }
+		set_variable = { name = sea_peoples_raided_coast value = 1 years = 5 }
 		sea_peoples_add_pressure = { value = 8 }
+	}
+}
+
+sea_peoples_coastal_raid_damage = {
+	custom_description = {
+		text = sea_peoples_coastal_raid_damage_text
+		set_variable = { name = sea_peoples_raided_coast value = 1 years = 5 }
+		set_variable = { name = sea_peoples_market_disrupted value = 1 years = 5 }
+		sea_peoples_add_pressure = { value = 10 }
+		sea_peoples_add_famine_pressure = { value = 8 }
+
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_raids } }
+				set_variable = { name = sea_peoples_global_raids value = 0 }
+			}
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_market_damage } }
+				set_variable = { name = sea_peoples_global_market_damage value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_raids add = 1 }
+			change_variable = { name = sea_peoples_global_market_damage add = 1 }
+		}
+
+		scope:target_location ?= {
+			change_prosperity = prosperity_severe_penalty
+			change_development = development_weak_penalty
+			add_location_modifier = {
+				modifier = recently_raided_by_horde
+				years = 5
+				mode = add_and_extend
+			}
+			market = {
+				add_goods_supply = { goods = goods:wheat amount = market_goods_mild_loss }
+				add_goods_supply = { goods = goods:fish amount = market_goods_weak_loss }
+				add_goods_supply = { goods = goods:copper amount = market_goods_weak_loss }
+				add_goods_supply = { goods = goods:tin amount = market_goods_weak_loss }
+				add_goods_supply = { goods = goods:lumber amount = market_goods_weak_loss }
+			}
+			province = {
+				change_province_food_percentage = -0.25
+			}
+			random_pop = {
+				limit = {
+					pop_type = pop_type:peasants
+					pop_size > 0.05
+				}
+				add_pop_size = {
+					value = pop_size
+					multiply = -0.02
+				}
+			}
+		}
+
+		scope:target_province ?= {
+			every_location_in_province = {
+				limit = { is_port = yes }
+				change_prosperity = prosperity_weak_penalty
+			}
+		}
+	}
+}
+
+sea_peoples_coastal_raid_repulsed = {
+	custom_description = {
+		text = sea_peoples_coastal_raid_repulsed_text
+		set_variable = { name = sea_peoples_recently_repulsed_raid value = 1 years = 2 }
+		sea_peoples_add_pressure = { value = -2 }
+
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_repulsed_raids } }
+				set_variable = { name = sea_peoples_global_repulsed_raids value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_repulsed_raids add = 1 }
+		}
+
+		scope:target_location ?= {
+			change_prosperity = prosperity_very_weak_penalty
+			province = {
+				change_province_food_percentage = -0.05
+			}
+		}
 	}
 }
 
@@ -167,6 +250,7 @@ sea_peoples_mark_trade_collapse = {
 		text = sea_peoples_mark_trade_collapse_text
 		set_variable = { name = sea_peoples_trade_collapse value = 1 }
 		set_variable = { name = sea_peoples_palace_economy_collapse value = 1 }
+		set_variable = { name = sea_peoples_market_disrupted value = 1 years = 6 }
 		sea_peoples_add_pressure = { value = 10 }
 	}
 }

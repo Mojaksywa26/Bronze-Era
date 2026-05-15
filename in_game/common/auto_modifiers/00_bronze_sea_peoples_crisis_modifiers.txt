@@ -67,6 +67,19 @@ sea_peoples_raided_coast_modifier = {
 	navy_tradition_decay = 0.02
 }
 
+sea_peoples_market_disrupted_modifier = {
+	potential_trigger = {
+		has_variable = sea_peoples_market_disrupted
+		var:sea_peoples_market_disrupted > 0
+	}
+
+	import_efficiency = -0.12
+	global_trade_center_power = -0.08
+	global_maritime_presence_modifier = -0.08
+	global_monthly_food_modifier = -0.04
+	global_prosperity_decay = 0.02
+}
+
 sea_peoples_refugee_pressure_modifier = {
 	potential_trigger = {
 		has_variable = sea_peoples_refugee_pressure

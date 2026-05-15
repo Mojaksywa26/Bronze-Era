@@ -32,6 +32,9 @@ sea_peoples_crisis = {
 		set_variable = { name = sea_peoples_global_pressure value = 10 }
 		set_variable = { name = sea_peoples_global_famine_pressure value = 10 }
 		set_variable = { name = sea_peoples_situation_months value = 0 }
+		set_variable = { name = sea_peoples_global_raids value = 0 }
+		set_variable = { name = sea_peoples_global_repulsed_raids value = 0 }
+		set_variable = { name = sea_peoples_global_market_damage value = 0 }
 
 		every_country = {
 			limit = {
@@ -58,6 +61,18 @@ sea_peoples_crisis = {
 		if = {
 			limit = { NOT = { has_variable = sea_peoples_situation_months } }
 			set_variable = { name = sea_peoples_situation_months value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = sea_peoples_global_raids } }
+			set_variable = { name = sea_peoples_global_raids value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = sea_peoples_global_repulsed_raids } }
+			set_variable = { name = sea_peoples_global_repulsed_raids value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = sea_peoples_global_market_damage } }
+			set_variable = { name = sea_peoples_global_market_damage value = 0 }
 		}
 
 		change_variable = { name = sea_peoples_situation_months add = 1 }
@@ -135,9 +150,23 @@ sea_peoples_crisis = {
 			random_list = {
 				450 = { }
 				3 = { trigger_event_non_silently = sea_peoples_crisis.10 }
-				2 = {
+				5 = {
 					trigger = {
 						sea_peoples_crisis_phase_at_least = { value = 2 }
+						sea_peoples_crisis_maritime_target = yes
+					}
+					trigger_event_non_silently = sea_peoples_crisis.20
+				}
+				3 = {
+					trigger = {
+						sea_peoples_crisis_phase_at_least = { value = 3 }
+						sea_peoples_crisis_maritime_target = yes
+					}
+					trigger_event_non_silently = sea_peoples_crisis.20
+				}
+				2 = {
+					trigger = {
+						sea_peoples_crisis_phase_at_least = { value = 4 }
 						sea_peoples_crisis_maritime_target = yes
 					}
 					trigger_event_non_silently = sea_peoples_crisis.20
@@ -205,6 +234,12 @@ sea_peoples_crisis = {
 	tooltip = {
 		if = {
 			limit = {
+				has_location_modifier = recently_raided_by_horde
+			}
+			custom_tooltip = sea_peoples_situation_location_port_hit_tt
+		}
+		if = {
+			limit = {
 				has_owner = yes
 				owner ?= { sea_peoples_crisis_active_country = yes }
 			}
@@ -238,6 +273,12 @@ sea_peoples_crisis = {
 	map_color = {
 		if = {
 			limit = {
+				has_location_modifier = recently_raided_by_horde
+			}
+			value = rgb { 128 24 18 }
+		}
+		else_if = {
+			limit = {
 				has_owner = yes
 				owner ?= { has_variable = sea_peoples_internal_breakdown }
 			}
@@ -267,6 +308,11 @@ sea_peoples_crisis = {
 		else = {
 			value = define:NMapColors|DEFAULT_COLOR
 		}
+	}
+
+	legend_key = {
+		desc = sea_peoples_situation_legend_burned_port
+		color = rgb { 128 24 18 }
 	}
 
 	legend_key = {
