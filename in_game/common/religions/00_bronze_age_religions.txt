@@ -758,6 +758,10 @@ sea_peoples_cult = {
 		ship_build_speed = 0.05
 		naval_morale_attrition_cost = -0.001
 		auto_slave_raid_different_religion = yes
+		allow_privateers_slave_raid = yes
+		can_hire_privateers = yes
+		privateer_maintenance_cost_modifier = -0.10
+		can_be_target_of_anti_piracy_cb = yes
 	}
 
 	opinions = {

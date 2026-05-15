@@ -57,3 +57,9 @@ sea_peoples_open_phoenician_harbours_price = {
 	scaled_sailors = 0.10
 	prestige = 5
 }
+
+sea_peoples_raid_coastal_settlements_price = {
+	scaled_sailors = 0.10
+	scaled_manpower = 0.04
+	stability = 5
+}

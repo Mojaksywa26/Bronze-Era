@@ -1,0 +1,283 @@
+sea_peoples_raid_coastal_settlements = {
+	type = owncountry
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 18
+	automation_tick = never
+	automation_tick_frequency = 12
+	player_automated_category = privateers
+
+	price = price:sea_peoples_raid_coastal_settlements_price
+
+	cooldown = {
+		type = sea_peoples_raid_coastal_settlements
+		years = 3
+	}
+
+	potential = {
+		scope:actor ?= {
+			religion = religion:sea_peoples_cult
+			num_of_ports > 0
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			is_during_bankruptcy = no
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = country
+		source = actor
+		source_flags = diplomatic_range
+		target_flag = target_country
+		name = "sea_peoples_choose_raid_target"
+		none_available_msg_key = "sea_peoples_no_valid_raid_targets"
+		column = { data = name }
+		column = { data = population }
+		visible = {
+			NOT = { this = scope:actor }
+			NOT = { religion = religion:sea_peoples_cult }
+			num_of_ports > 0
+			capital ?= { is_discovered_by = scope:actor }
+		}
+		enabled = {
+			NOT = { is_at_war_with = scope:actor }
+			NOT = { has_truce_with = scope:actor }
+			any_port_in_country = {
+				NOT = { has_location_modifier = recently_raided_by_horde }
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { exists = scope:target_country }
+			scope:target_country = {
+				random_port_in_country = {
+					limit = {
+						NOT = { has_location_modifier = recently_raided_by_horde }
+					}
+					save_scope_as = sea_peoples_raid_target_location
+				}
+				if = {
+					limit = { NOT = { exists = scope:sea_peoples_raid_target_location } }
+					random_port_in_country = {
+						save_scope_as = sea_peoples_raid_target_location
+					}
+				}
+			}
+
+			random_list = {
+				65 = {
+					custom_tooltip = sea_peoples_raid_success_tt
+
+					scope:actor = {
+						if = {
+							limit = { NOT = { has_variable = sea_peoples_raid_infamy } }
+							set_variable = { name = sea_peoples_raid_infamy value = 0 years = 12 }
+						}
+						change_variable = { name = sea_peoples_raid_infamy add = 1 }
+						add_gold = {
+							value = scope:target_country.monthly_income_trade_and_tax
+							multiply = 4
+							min = 8
+							max = 90
+						}
+						add_prestige = prestige_weak_bonus
+						capital = {
+							add_pop = {
+								type = pop_type:slaves
+								size = 0.050
+								culture = scope:target_country.culture
+								religion = scope:target_country.religion
+							}
+							province = {
+								change_province_food_percentage = 0.10
+							}
+							market = {
+								add_goods_supply = { goods = goods:wheat amount = market_goods_weak_gain }
+								add_goods_supply = { goods = goods:fish amount = market_goods_weak_gain }
+								add_goods_supply = { goods = goods:copper amount = market_goods_weak_gain }
+							}
+						}
+					}
+
+					scope:target_country = {
+						set_variable = { name = sea_peoples_recently_raid_victim value = 1 years = 5 }
+						add_stability = stability_weak_penalty
+						add_casus_belli = {
+							target = scope:actor
+							type = casus_belli:cb_sea_peoples_punitive_raid
+						}
+						scope:sea_peoples_raid_target_location ?= {
+							add_location_modifier = {
+								modifier = recently_raided_by_horde
+								years = 5
+								mode = add_and_extend
+							}
+							change_prosperity = prosperity_mild_penalty
+							province = {
+								change_province_food_percentage = -0.12
+							}
+							market = {
+								add_goods_supply = { goods = goods:wheat amount = market_goods_weak_loss }
+								add_goods_supply = { goods = goods:fish amount = market_goods_weak_loss }
+								add_goods_supply = { goods = goods:copper amount = market_goods_weak_loss }
+							}
+							random_pop = {
+								limit = {
+									pop_type = pop_type:peasants
+									pop_size > 0.05
+								}
+								add_pop_size = {
+									value = pop_size
+									multiply = -0.01
+								}
+							}
+						}
+					}
+				}
+
+				25 = {
+					custom_tooltip = sea_peoples_raid_rich_success_tt
+
+					scope:actor = {
+						if = {
+							limit = { NOT = { has_variable = sea_peoples_raid_infamy } }
+							set_variable = { name = sea_peoples_raid_infamy value = 0 years = 12 }
+						}
+						change_variable = { name = sea_peoples_raid_infamy add = 2 }
+						add_gold = {
+							value = scope:target_country.monthly_income_trade_and_tax
+							multiply = 7
+							min = 15
+							max = 140
+						}
+						add_prestige = prestige_mild_bonus
+						capital = {
+							add_pop = {
+								type = pop_type:slaves
+								size = 0.090
+								culture = scope:target_country.culture
+								religion = scope:target_country.religion
+							}
+							province = {
+								change_province_food_percentage = 0.18
+							}
+							market = {
+								add_goods_supply = { goods = goods:wheat amount = market_goods_mild_gain }
+								add_goods_supply = { goods = goods:fish amount = market_goods_weak_gain }
+								add_goods_supply = { goods = goods:copper amount = market_goods_weak_gain }
+								add_goods_supply = { goods = goods:tin amount = market_goods_weak_gain }
+								add_goods_supply = { goods = goods:lumber amount = market_goods_weak_gain }
+							}
+						}
+					}
+
+					scope:target_country = {
+						set_variable = { name = sea_peoples_recently_raid_victim value = 1 years = 5 }
+						add_stability = stability_mild_penalty
+						add_casus_belli = {
+							target = scope:actor
+							type = casus_belli:cb_sea_peoples_punitive_raid
+						}
+						scope:sea_peoples_raid_target_location ?= {
+							add_location_modifier = {
+								modifier = recently_raided_by_horde
+								years = 6
+								mode = add_and_extend
+							}
+							change_prosperity = prosperity_severe_penalty
+							change_development = development_weak_penalty
+							province = {
+								change_province_food_percentage = -0.20
+							}
+							market = {
+								add_goods_supply = { goods = goods:wheat amount = market_goods_mild_loss }
+								add_goods_supply = { goods = goods:fish amount = market_goods_weak_loss }
+								add_goods_supply = { goods = goods:copper amount = market_goods_weak_loss }
+								add_goods_supply = { goods = goods:tin amount = market_goods_weak_loss }
+								add_goods_supply = { goods = goods:lumber amount = market_goods_weak_loss }
+							}
+							random_pop = {
+								limit = {
+									pop_type = pop_type:peasants
+									pop_size > 0.05
+								}
+								add_pop_size = {
+									value = pop_size
+									multiply = -0.02
+								}
+							}
+						}
+					}
+				}
+
+				10 = {
+					custom_tooltip = sea_peoples_raid_repulsed_tt
+					scope:actor = {
+						add_prestige = prestige_weak_penalty
+						add_sailors = {
+							value = monthly_sailors
+							multiply = -2
+						}
+						add_manpower = {
+							value = monthly_manpower
+							multiply = -1
+						}
+					}
+					scope:target_country = {
+						add_prestige = prestige_weak_bonus
+						add_casus_belli = {
+							target = scope:actor
+							type = casus_belli:cb_sea_peoples_punitive_raid
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					scope:actor = {
+						has_variable = sea_peoples_raid_infamy
+						var:sea_peoples_raid_infamy >= 3
+					}
+				}
+				custom_tooltip = sea_peoples_raid_punitive_cb_tt
+				scope:actor = {
+					every_known_country = {
+						limit = {
+							NOT = { this = scope:actor }
+							NOT = { religion = religion:sea_peoples_cult }
+							OR = {
+								num_of_ports > 0
+								sea_peoples_crisis_maritime_target = yes
+							}
+						}
+						add_casus_belli = {
+							target = scope:actor
+							type = casus_belli:cb_sea_peoples_punitive_raid
+						}
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = sea_peoples_raid_no_target_tt
+		}
+	}
+
+	ai_will_do = {
+		add = 4
+		if = {
+			limit = {
+				scope:actor = {
+					gold < 20
+				}
+			}
+			add = 6
+		}
+	}
+}

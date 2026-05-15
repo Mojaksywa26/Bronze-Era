@@ -10,6 +10,7 @@ sea_peoples_crisis_phase_at_least = {
 sea_peoples_crisis_active_country = {
 	custom_description = {
 		text = sea_peoples_crisis_active_country_text
+		NOT = { religion = religion:sea_peoples_cult }
 		has_variable = sea_peoples_crisis_active
 	}
 }
@@ -17,6 +18,7 @@ sea_peoples_crisis_active_country = {
 sea_peoples_crisis_eastern_mediterranean_country = {
 	custom_description = {
 		text = sea_peoples_crisis_eastern_mediterranean_country_text
+		NOT = { religion = religion:sea_peoples_cult }
 		OR = {
 			capital ?= { region = region:anatolia_region }
 			capital ?= { region = region:balkan_region }
@@ -42,11 +44,6 @@ sea_peoples_crisis_eastern_mediterranean_country = {
 			culture = culture:tjekker
 			culture = culture:denyen
 			culture = culture:lukka
-			culture = culture:nuragic
-			culture = culture:torrean
-			culture = culture:sicel
-			culture = culture:sicanian
-			culture = culture:elymian
 		}
 	}
 }
@@ -54,6 +51,7 @@ sea_peoples_crisis_eastern_mediterranean_country = {
 sea_peoples_crisis_maritime_target = {
 	custom_description = {
 		text = sea_peoples_crisis_maritime_target_text
+		NOT = { religion = religion:sea_peoples_cult }
 		OR = {
 			culture = culture:phoenician
 			culture = culture:ugaritic
@@ -65,10 +63,6 @@ sea_peoples_crisis_maritime_target = {
 			culture = culture:lycian
 			culture = culture:carian
 			culture = culture:lower_egyptian
-			culture = culture:nuragic
-			culture = culture:sicel
-			culture = culture:sicanian
-			culture = culture:elymian
 			capital ?= { region = region:crescent_region }
 			capital ?= { region = region:anatolia_region }
 			capital ?= { region = region:balkan_region }
@@ -80,6 +74,7 @@ sea_peoples_crisis_maritime_target = {
 sea_peoples_crisis_high_assimilation_zone = {
 	custom_description = {
 		text = sea_peoples_crisis_high_assimilation_zone_text
+		NOT = { religion = religion:sea_peoples_cult }
 		OR = {
 			culture = culture:phoenician
 			culture = culture:ugaritic
@@ -99,6 +94,7 @@ sea_peoples_crisis_high_assimilation_zone = {
 sea_peoples_crisis_egyptian_target = {
 	custom_description = {
 		text = sea_peoples_crisis_egyptian_target_text
+		NOT = { religion = religion:sea_peoples_cult }
 		OR = {
 			capital ?= { region = region:egypt_region }
 			culture = culture:egyptian
@@ -111,6 +107,7 @@ sea_peoples_crisis_egyptian_target = {
 sea_peoples_crisis_mycenaean_target = {
 	custom_description = {
 		text = sea_peoples_crisis_mycenaean_target_text
+		NOT = { religion = religion:sea_peoples_cult }
 		OR = {
 			is_member_of_international_organization = international_organization:mycenaean_league
 			culture = culture:mycenaean
@@ -123,6 +120,7 @@ sea_peoples_crisis_mycenaean_target = {
 sea_peoples_crisis_european_corridor_target = {
 	custom_description = {
 		text = sea_peoples_crisis_european_corridor_target_text
+		NOT = { religion = religion:sea_peoples_cult }
 		OR = {
 			capital ?= { region = region:balkan_region }
 			capital ?= { region = region:anatolia_region }
@@ -145,6 +143,7 @@ sea_peoples_crisis_european_corridor_target = {
 sea_peoples_crisis_levantine_displacement_target = {
 	custom_description = {
 		text = sea_peoples_crisis_levantine_displacement_target_text
+		NOT = { religion = religion:sea_peoples_cult }
 		OR = {
 			capital ?= { region = region:crescent_region }
 			culture = culture:canaanite
@@ -160,6 +159,7 @@ sea_peoples_crisis_levantine_displacement_target = {
 sea_peoples_crisis_anatolian_recomposition_target = {
 	custom_description = {
 		text = sea_peoples_crisis_anatolian_recomposition_target_text
+		NOT = { religion = religion:sea_peoples_cult }
 		OR = {
 			capital ?= { region = region:anatolia_region }
 			culture = culture:hittite

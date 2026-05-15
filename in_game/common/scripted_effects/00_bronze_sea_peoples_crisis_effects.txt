@@ -554,8 +554,13 @@ sea_peoples_add_mediterranean_coastal_enclave = {
 				14 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:tjekker religion = religion:sea_peoples_cult } }
 				14 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:denyen religion = religion:sea_peoples_cult } }
 				12 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:lukka religion = religion:sea_peoples_cult } }
-				10 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:nuragic religion = religion:nuragic } }
-				8 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:sicel religion = religion:italic_pagan } }
+				10 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:ugaritic religion = religion:ugaritic } }
+				8 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:phoenician religion = religion:phoenician } }
+				8 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:nuragic religion = religion:nuragic } }
+				6 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:sicel religion = religion:italic_pagan } }
+				5 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:sicanian religion = religion:italic_pagan } }
+				4 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:elymian religion = religion:italic_pagan } }
+				3 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:torrean religion = religion:nuragic } }
 				6 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:minoan religion = religion:minoan } }
 				6 = { add_pop = { type = pop_type:peasants size = 0.100 culture = culture:mycenaean religion = religion:mycenaean } }
 			}

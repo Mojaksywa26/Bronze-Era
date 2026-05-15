@@ -50,6 +50,24 @@ sea_peoples_crisis = {
 	}
 
 	on_monthly = {
+		# Sea Peoples polities are actors of the collapse, not victims tracked by the crisis UI.
+		every_country = {
+			limit = {
+				religion = religion:sea_peoples_cult
+			}
+			remove_variable = sea_peoples_crisis_active
+			remove_variable = sea_peoples_situation_intro_seen
+			remove_variable = sea_peoples_crisis_phase
+			remove_variable = sea_peoples_crisis_pressure
+			remove_variable = sea_peoples_famine_pressure
+			remove_variable = sea_peoples_raided_coast
+			remove_variable = sea_peoples_refugee_pressure
+			remove_variable = sea_peoples_palace_economy_collapse
+			remove_variable = sea_peoples_internal_breakdown
+			remove_variable = sea_peoples_settlement_pressure
+			remove_variable = sea_peoples_assimilation_pressure
+		}
+
 		if = {
 			limit = { NOT = { has_variable = sea_peoples_global_phase } }
 			set_variable = { name = sea_peoples_global_phase value = 1 }

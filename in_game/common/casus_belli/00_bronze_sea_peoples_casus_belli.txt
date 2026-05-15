@@ -1,0 +1,29 @@
+# Root is the country creating the CB.
+# scope:target is the repeated Sea Peoples raider.
+
+cb_sea_peoples_punitive_raid = {
+	trade = yes
+	no_spy_network_cost = yes
+
+	create_visible = {
+		scope:target = {
+			religion = religion:sea_peoples_cult
+			has_variable = sea_peoples_raid_infamy
+		}
+	}
+
+	create_enabled = {
+		NOT = { has_truce_with = scope:target }
+		scope:target = {
+			religion = religion:sea_peoples_cult
+			var:sea_peoples_raid_infamy >= 3
+		}
+		OR = {
+			num_of_ports > 0
+			sea_peoples_crisis_maritime_target = yes
+		}
+	}
+
+	speed = 12
+	war_goal_type = naval
+}

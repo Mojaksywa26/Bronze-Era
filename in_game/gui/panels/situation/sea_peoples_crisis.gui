@@ -1,0 +1,325 @@
+situation_panel = {
+
+	##################################### TOP HEADER #####################################
+
+	blockoverride "situation_header_left" {
+		icon = {
+			size = { 32 32 }
+			texture = "gfx/interface/icons/situations/sea_peoples_crisis.dds"
+		}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				fontsize = 13
+				text = "sea_peoples_crisis_panel_phase"
+				default_format = "#subtle_name"
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				fontsize = 13
+				text = "sea_peoples_crisis_panel_phase_value"
+				default_format = "#Y"
+			}
+		}
+
+		expand = {}
+	}
+
+	blockoverride "situation_header_right" {
+		expand = {}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				fontsize = 13
+				text = "sea_peoples_crisis_panel_pressure"
+				default_format = "#subtle_name"
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				fontsize = 13
+				text = "sea_peoples_crisis_panel_pressure_value"
+				default_format = "#R"
+			}
+		}
+
+		icon = {
+			size = { 32 32 }
+			texture = "gfx/interface/icons/flat_icons/geopolitics/privateer.dds"
+		}
+	}
+
+	##################################### SUBHEADER #####################################
+
+	blockoverride "situation_subheader_content" {}
+
+	##################################### MAIN CONTENT #####################################
+
+	blockoverride "situation_panel_main_content" {
+
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'sea_peoples_overview_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "sea_peoples_crisis_overview_card"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/situations/sea_peoples_crisis.dds"
+			}
+			blockoverride "bottom_content" {
+				text_multi = {
+					autoresize = no
+					multiline = yes
+					size = { 470 110 }
+					text = "sea_peoples_crisis_overview_card_desc"
+				}
+			}
+			blockoverride "visible_hint" {}
+			blockoverride "onaction_hint" {
+				action_tooltip = {
+					title = "OPEN_HINT"
+					on_action = "[OpenLateralViewWithParams('hints', 'selected_hint = hint_sea_peoples_crisis')]"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'sea_peoples_overview_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'sea_peoples_overview_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'sea_peoples_overview_toggled' ))]"
+			}
+		}
+
+		situation_fancy_two_line_card = {
+			block "card_datacontext" {}
+
+			blockoverride "left_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/situations/sea_peoples_crisis.dds"
+				}
+			}
+			blockoverride "left_bottom_flag" {}
+			blockoverride "left_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "sea_peoples_crisis_panel_phase"
+			}
+			blockoverride "left_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = left|nobaseline
+				text = "sea_peoples_crisis_panel_phase_value"
+			}
+
+			blockoverride "right_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/flat_icons/geopolitics/privateer.dds"
+				}
+			}
+			blockoverride "right_bottom_flag" {}
+			blockoverride "right_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "sea_peoples_crisis_panel_pressure"
+			}
+			blockoverride "right_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				text = "sea_peoples_crisis_panel_pressure_value"
+			}
+		}
+
+		situation_fancy_two_line_card = {
+			block "card_datacontext" {}
+
+			blockoverride "left_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/flat_icons/balance/food.dds"
+				}
+			}
+			blockoverride "left_bottom_flag" {}
+			blockoverride "left_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "sea_peoples_crisis_panel_famine"
+			}
+			blockoverride "left_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = left|nobaseline
+				text = "sea_peoples_crisis_panel_famine_value"
+			}
+
+			blockoverride "right_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/outliner/categories/sieges.dds"
+				}
+			}
+			blockoverride "right_bottom_flag" {}
+			blockoverride "right_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "sea_peoples_crisis_panel_raids"
+			}
+			blockoverride "right_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				text = "sea_peoples_crisis_panel_raids_value"
+			}
+		}
+
+		situation_fancy_two_line_card = {
+			block "card_datacontext" {}
+
+			blockoverride "left_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/map_subdivisons/location.dds"
+				}
+			}
+			blockoverride "left_bottom_flag" {}
+			blockoverride "left_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "sea_peoples_crisis_panel_refugees"
+			}
+			blockoverride "left_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = left|nobaseline
+				text = "sea_peoples_crisis_panel_refugees_value"
+			}
+
+			blockoverride "right_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/laws/resolutions/law_voting.dds"
+				}
+			}
+			blockoverride "right_bottom_flag" {}
+			blockoverride "right_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "sea_peoples_crisis_panel_enclaves"
+			}
+			blockoverride "right_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				text = "sea_peoples_crisis_panel_enclaves_value"
+			}
+		}
+
+		situation_fancy_two_line_card = {
+			block "card_datacontext" {}
+
+			blockoverride "left_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/flat_icons/home_market.dds"
+				}
+			}
+			blockoverride "left_bottom_flag" {}
+			blockoverride "left_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "sea_peoples_crisis_panel_phoenicianized"
+			}
+			blockoverride "left_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = left|nobaseline
+				text = "sea_peoples_crisis_panel_phoenicianized_value"
+			}
+
+			blockoverride "right_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/buildings/marketplace.dds"
+				}
+			}
+			blockoverride "right_bottom_flag" {}
+			blockoverride "right_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "sea_peoples_crisis_panel_anatolia"
+			}
+			blockoverride "right_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				text = "sea_peoples_crisis_panel_anatolia_value"
+			}
+		}
+
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'sea_peoples_actions_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "sea_peoples_crisis_actions_card"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/religious_doctrines/catholic/religious_actions.dds"
+			}
+			blockoverride "bottom_content" {
+				text_multi = {
+					autoresize = no
+					multiline = yes
+					size = { 470 80 }
+					text = "sea_peoples_crisis_actions_card_desc"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'sea_peoples_actions_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'sea_peoples_actions_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'sea_peoples_actions_toggled' ))]"
+			}
+		}
+	}
+
+	blockoverride "situation_panel_main_content_bottom" {
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'sea_peoples_map_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "sea_peoples_crisis_map_card"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/map_modes/political.dds"
+			}
+			blockoverride "bottom_content" {
+				text_multi = {
+					autoresize = no
+					multiline = yes
+					size = { 470 75 }
+					text = "sea_peoples_crisis_map_card_desc"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'sea_peoples_map_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'sea_peoples_map_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'sea_peoples_map_toggled' ))]"
+			}
+		}
+	}
+}
