@@ -22,7 +22,6 @@ sea_peoples_crisis_eastern_mediterranean_country = {
 			capital ?= { region = region:balkan_region }
 			capital ?= { region = region:crescent_region }
 			capital ?= { region = region:egypt_region }
-			capital ?= { region = region:italy_region }
 			culture = culture:mycenaean
 			culture = culture:minoan
 			culture = culture:cycladic
