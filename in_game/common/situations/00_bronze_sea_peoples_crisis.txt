@@ -53,7 +53,7 @@ sea_peoples_crisis = {
 		# Sea Peoples polities are actors of the collapse, not victims tracked by the crisis UI.
 		every_country = {
 			limit = {
-				religion = religion:sea_peoples_cult
+				sea_peoples_raider_country_identity = yes
 			}
 			remove_variable = sea_peoples_crisis_active
 			remove_variable = sea_peoples_situation_intro_seen

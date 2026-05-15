@@ -1,6 +1,6 @@
 ﻿l_french:
  mycenaean_league: "Ligue mycenienne"
- mycenaean_league_desc: "La $mycenaean_league$ est un ordre hegemonique souple de royaumes palatiaux acheens. Son Haut Wanax est le premier parmi des souverains rivaux, non un empereur absolu, et lie les palais par le prestige, le tribut, les sanctuaires et les serments de guerre.\n\nUnite acheenne actuelle : #Y [GetUniqueInternationalOrganization('mycenaean_league').MakeScope.GetVariable('mycenaean_league_authority').GetValue|V0]#!/100"
+ mycenaean_league_desc: "La $mycenaean_league$ est un ordre hegemonique souple de royaumes palatiaux acheens. Son Haut Wanax est le premier parmi des souverains rivaux, non un empereur absolu, et lie les palais par le prestige, le tribut, les sanctuaires et les serments de guerre.\n\nUnite acheenne actuelle : #Y [GetUniqueInternationalOrganization('mycenaean_league').MakeScope.GetVariable('mycenaean_league_authority').GetValue|V0]#! /100"
  MYCENAEAN_LEAGUE_LEADER_MALE: "Haut Wanax"
  MYCENAEAN_LEAGUE_LEADER_MALE.long: "Haut Wanax des Acheens"
  MYCENAEAN_LEAGUE_LEADER_MALE.short: "Wanax"
@@ -111,7 +111,7 @@
  MYCENAEAN_LEAGUE_MEDIATED_RIVALRIES: "Rivalites mediees"
  MYCENAEAN_LEAGUE_PALACES_BURNING: "Palais en flammes"
  MYCENAEAN_LEAGUE_COLLAPSE_PRESSURE: "Pression d'effondrement"
- mycenaean_league_current_authority_tt: "Unite acheenne actuelle : #Y [GetUniqueInternationalOrganization('mycenaean_league').MakeScope.GetVariable('mycenaean_league_authority').GetValue|V0]#!/100"
+ mycenaean_league_current_authority_tt: "Unite acheenne actuelle : #Y [GetUniqueInternationalOrganization('mycenaean_league').MakeScope.GetVariable('mycenaean_league_authority').GetValue|V0]#! /100"
  mycenaean_call_megaron_council: "Convoquer le conseil du megaron"
  mycenaean_call_megaron_council_desc: "Rassembler les souverains acheens, les scribes, les pretres et les lawagetas devant le foyer du Haut Wanax. Les serments et les dons renforcent l'Unite acheenne, mais les maisons nobles refusent d'etre trop liees."
  mycenaean_call_megaron_council_price: "Conseil du megaron"

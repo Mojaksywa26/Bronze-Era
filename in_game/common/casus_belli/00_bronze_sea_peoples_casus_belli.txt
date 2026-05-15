@@ -7,7 +7,7 @@ cb_sea_peoples_punitive_raid = {
 
 	create_visible = {
 		scope:target = {
-			religion = religion:sea_peoples_cult
+			sea_peoples_raider_country_identity = yes
 			has_variable = sea_peoples_raid_infamy
 		}
 	}
@@ -15,7 +15,7 @@ cb_sea_peoples_punitive_raid = {
 	create_enabled = {
 		NOT = { has_truce_with = scope:target }
 		scope:target = {
-			religion = religion:sea_peoples_cult
+			sea_peoples_raider_country_identity = yes
 			var:sea_peoples_raid_infamy >= 3
 		}
 		OR = {

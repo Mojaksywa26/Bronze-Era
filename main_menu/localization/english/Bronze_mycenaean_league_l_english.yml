@@ -1,6 +1,6 @@
 ﻿l_english:
  mycenaean_league: "Mycenaean League"
- mycenaean_league_desc: "The $mycenaean_league$ is a loose hegemonic order of Achaean palace kingdoms. Its High Wanax is first among rival rulers rather than an absolute emperor, binding the palaces through prestige, tribute, sanctuaries, and war oaths.\n\nCurrent Achaean Unity: #Y [GetUniqueInternationalOrganization('mycenaean_league').MakeScope.GetVariable('mycenaean_league_authority').GetValue|V0]#!/100"
+ mycenaean_league_desc: "The $mycenaean_league$ is a loose hegemonic order of Achaean palace kingdoms. Its High Wanax is first among rival rulers rather than an absolute emperor, binding the palaces through prestige, tribute, sanctuaries, and war oaths.\n\nCurrent Achaean Unity: #Y [GetUniqueInternationalOrganization('mycenaean_league').MakeScope.GetVariable('mycenaean_league_authority').GetValue|V0]#! /100"
  MYCENAEAN_LEAGUE_LEADER_MALE: "High Wanax"
  MYCENAEAN_LEAGUE_LEADER_MALE.long: "High Wanax of the Achaeans"
  MYCENAEAN_LEAGUE_LEADER_MALE.short: "Wanax"
@@ -111,7 +111,7 @@
  MYCENAEAN_LEAGUE_MEDIATED_RIVALRIES: "Mediated rivalries"
  MYCENAEAN_LEAGUE_PALACES_BURNING: "Burning palaces"
  MYCENAEAN_LEAGUE_COLLAPSE_PRESSURE: "Collapse pressure"
- mycenaean_league_current_authority_tt: "Current Achaean Unity: #Y [GetUniqueInternationalOrganization('mycenaean_league').MakeScope.GetVariable('mycenaean_league_authority').GetValue|V0]#!/100"
+ mycenaean_league_current_authority_tt: "Current Achaean Unity: #Y [GetUniqueInternationalOrganization('mycenaean_league').MakeScope.GetVariable('mycenaean_league_authority').GetValue|V0]#! /100"
  mycenaean_call_megaron_council: "Call Council in the Megaron"
  mycenaean_call_megaron_council_desc: "Summon the Achaean rulers, scribes, priests, and lawagetas before the hearth of the High Wanax. Oaths and gifts raise Achaean Unity, but the noble houses resent being bound too tightly."
  mycenaean_call_megaron_council_price: "Council in the Megaron"

@@ -16,8 +16,10 @@ sea_peoples_raid_coastal_settlements = {
 
 	potential = {
 		scope:actor ?= {
-			religion = religion:sea_peoples_cult
-			num_of_ports > 0
+			sea_peoples_raider_country_identity = yes
+			any_port_in_country = {
+				always = yes
+			}
 		}
 	}
 
@@ -38,9 +40,10 @@ sea_peoples_raid_coastal_settlements = {
 		column = { data = population }
 		visible = {
 			NOT = { this = scope:actor }
-			NOT = { religion = religion:sea_peoples_cult }
-			num_of_ports > 0
-			capital ?= { is_discovered_by = scope:actor }
+			NOT = { sea_peoples_raider_country_identity = yes }
+			any_port_in_country = {
+				is_discovered_by = scope:actor
+			}
 		}
 		enabled = {
 			NOT = { is_at_war_with = scope:actor }
@@ -96,20 +99,23 @@ sea_peoples_raid_coastal_settlements = {
 							province = {
 								change_province_food_percentage = 0.10
 							}
-							market = {
-								add_goods_supply = { goods = goods:wheat amount = market_goods_weak_gain }
-								add_goods_supply = { goods = goods:fish amount = market_goods_weak_gain }
-								add_goods_supply = { goods = goods:copper amount = market_goods_weak_gain }
-							}
 						}
 					}
 
 					scope:target_country = {
 						set_variable = { name = sea_peoples_recently_raid_victim value = 1 years = 5 }
+						set_variable = { name = sea_peoples_market_disrupted value = 1 years = 5 }
 						add_stability = stability_weak_penalty
 						add_casus_belli = {
 							target = scope:actor
 							type = casus_belli:cb_sea_peoples_punitive_raid
+						}
+						situation:sea_peoples_crisis ?= {
+							if = {
+								limit = { NOT = { has_variable = sea_peoples_global_market_damage } }
+								set_variable = { name = sea_peoples_global_market_damage value = 0 }
+							}
+							change_variable = { name = sea_peoples_global_market_damage add = 1 }
 						}
 						scope:sea_peoples_raid_target_location ?= {
 							add_location_modifier = {
@@ -120,11 +126,6 @@ sea_peoples_raid_coastal_settlements = {
 							change_prosperity = prosperity_mild_penalty
 							province = {
 								change_province_food_percentage = -0.12
-							}
-							market = {
-								add_goods_supply = { goods = goods:wheat amount = market_goods_weak_loss }
-								add_goods_supply = { goods = goods:fish amount = market_goods_weak_loss }
-								add_goods_supply = { goods = goods:copper amount = market_goods_weak_loss }
 							}
 							random_pop = {
 								limit = {
@@ -166,22 +167,23 @@ sea_peoples_raid_coastal_settlements = {
 							province = {
 								change_province_food_percentage = 0.18
 							}
-							market = {
-								add_goods_supply = { goods = goods:wheat amount = market_goods_mild_gain }
-								add_goods_supply = { goods = goods:fish amount = market_goods_weak_gain }
-								add_goods_supply = { goods = goods:copper amount = market_goods_weak_gain }
-								add_goods_supply = { goods = goods:tin amount = market_goods_weak_gain }
-								add_goods_supply = { goods = goods:lumber amount = market_goods_weak_gain }
-							}
 						}
 					}
 
 					scope:target_country = {
 						set_variable = { name = sea_peoples_recently_raid_victim value = 1 years = 5 }
+						set_variable = { name = sea_peoples_market_disrupted value = 1 years = 6 }
 						add_stability = stability_mild_penalty
 						add_casus_belli = {
 							target = scope:actor
 							type = casus_belli:cb_sea_peoples_punitive_raid
+						}
+						situation:sea_peoples_crisis ?= {
+							if = {
+								limit = { NOT = { has_variable = sea_peoples_global_market_damage } }
+								set_variable = { name = sea_peoples_global_market_damage value = 0 }
+							}
+							change_variable = { name = sea_peoples_global_market_damage add = 2 }
 						}
 						scope:sea_peoples_raid_target_location ?= {
 							add_location_modifier = {
@@ -193,13 +195,6 @@ sea_peoples_raid_coastal_settlements = {
 							change_development = development_weak_penalty
 							province = {
 								change_province_food_percentage = -0.20
-							}
-							market = {
-								add_goods_supply = { goods = goods:wheat amount = market_goods_mild_loss }
-								add_goods_supply = { goods = goods:fish amount = market_goods_weak_loss }
-								add_goods_supply = { goods = goods:copper amount = market_goods_weak_loss }
-								add_goods_supply = { goods = goods:tin amount = market_goods_weak_loss }
-								add_goods_supply = { goods = goods:lumber amount = market_goods_weak_loss }
 							}
 							random_pop = {
 								limit = {
@@ -250,7 +245,7 @@ sea_peoples_raid_coastal_settlements = {
 					every_known_country = {
 						limit = {
 							NOT = { this = scope:actor }
-							NOT = { religion = religion:sea_peoples_cult }
+							NOT = { sea_peoples_raider_country_identity = yes }
 							OR = {
 								num_of_ports > 0
 								sea_peoples_crisis_maritime_target = yes
