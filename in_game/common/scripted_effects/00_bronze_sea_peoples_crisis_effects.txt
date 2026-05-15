@@ -1,10 +1,34 @@
 sea_peoples_begin_crisis = {
 	custom_description = {
 		text = sea_peoples_begin_crisis_text
+		if = {
+			limit = {
+				situation:sea_peoples_crisis = {
+					situation_is_active = no
+					situation_has_ended = no
+				}
+			}
+			activate_situation = situation:sea_peoples_crisis
+		}
 		set_variable = { name = sea_peoples_crisis_active value = 1 }
+		set_variable = { name = sea_peoples_situation_intro_seen value = 1 years = 100 }
 		set_variable = { name = sea_peoples_crisis_phase value = 1 }
 		set_variable = { name = sea_peoples_crisis_pressure value = 10 }
 		set_variable = { name = sea_peoples_famine_pressure value = 10 }
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_phase } }
+				set_variable = { name = sea_peoples_global_phase value = 1 }
+			}
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_pressure } }
+				set_variable = { name = sea_peoples_global_pressure value = 10 }
+			}
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_famine_pressure } }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 10 }
+			}
+		}
 	}
 }
 
@@ -14,6 +38,16 @@ sea_peoples_set_phase = {
 		value = $value$
 		set_variable = { name = sea_peoples_crisis_active value = 1 }
 		set_variable = { name = sea_peoples_crisis_phase value = $value$ }
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_phase } }
+				set_variable = { name = sea_peoples_global_phase value = $value$ }
+			}
+			if = {
+				limit = { var:sea_peoples_global_phase < $value$ }
+				set_variable = { name = sea_peoples_global_phase value = $value$ }
+			}
+		}
 		if = {
 			limit = { var:sea_peoples_crisis_phase > 5 }
 			set_variable = { name = sea_peoples_crisis_phase value = 5 }
@@ -58,6 +92,21 @@ sea_peoples_add_pressure = {
 			limit = { var:sea_peoples_crisis_pressure < 0 }
 			set_variable = { name = sea_peoples_crisis_pressure value = 0 }
 		}
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_pressure } }
+				set_variable = { name = sea_peoples_global_pressure value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_pressure add = $value$ }
+			if = {
+				limit = { var:sea_peoples_global_pressure > 100 }
+				set_variable = { name = sea_peoples_global_pressure value = 100 }
+			}
+			if = {
+				limit = { var:sea_peoples_global_pressure < 0 }
+				set_variable = { name = sea_peoples_global_pressure value = 0 }
+			}
+		}
 	}
 }
 
@@ -77,6 +126,21 @@ sea_peoples_add_famine_pressure = {
 		if = {
 			limit = { var:sea_peoples_famine_pressure < 0 }
 			set_variable = { name = sea_peoples_famine_pressure value = 0 }
+		}
+		situation:sea_peoples_crisis ?= {
+			if = {
+				limit = { NOT = { has_variable = sea_peoples_global_famine_pressure } }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 0 }
+			}
+			change_variable = { name = sea_peoples_global_famine_pressure add = $value$ }
+			if = {
+				limit = { var:sea_peoples_global_famine_pressure > 100 }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 100 }
+			}
+			if = {
+				limit = { var:sea_peoples_global_famine_pressure < 0 }
+				set_variable = { name = sea_peoples_global_famine_pressure value = 0 }
+			}
 		}
 	}
 }

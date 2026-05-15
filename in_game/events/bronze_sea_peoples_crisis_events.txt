@@ -1,10 +1,11 @@
-namespace = sea_peoples_crisis
+﻿namespace = sea_peoples_crisis
 
 sea_peoples_crisis.1 = {
 	type = country_event
 	title = sea_peoples_crisis.1.title
 	desc = sea_peoples_crisis.1.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = negative
 	major = yes
 	orphan = yes
@@ -30,7 +31,8 @@ sea_peoples_crisis.5 = {
 	type = country_event
 	title = sea_peoples_crisis.5.title
 	desc = sea_peoples_crisis.5.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = negative
 	orphan = yes
 
@@ -53,7 +55,8 @@ sea_peoples_crisis.10 = {
 	type = country_event
 	title = sea_peoples_crisis.10.title
 	desc = sea_peoples_crisis.10.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = negative
 	orphan = yes
 
@@ -78,7 +81,8 @@ sea_peoples_crisis.20 = {
 	type = country_event
 	title = sea_peoples_crisis.20.title
 	desc = sea_peoples_crisis.20.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = negative
 	orphan = yes
 
@@ -103,7 +107,8 @@ sea_peoples_crisis.30 = {
 	type = country_event
 	title = sea_peoples_crisis.30.title
 	desc = sea_peoples_crisis.30.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = negative
 	orphan = yes
 
@@ -127,7 +132,8 @@ sea_peoples_crisis.40 = {
 	type = country_event
 	title = sea_peoples_crisis.40.title
 	desc = sea_peoples_crisis.40.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = negative
 	orphan = yes
 
@@ -151,7 +157,8 @@ sea_peoples_crisis.50 = {
 	type = country_event
 	title = sea_peoples_crisis.50.title
 	desc = sea_peoples_crisis.50.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = negative
 	orphan = yes
 
@@ -175,7 +182,8 @@ sea_peoples_crisis.60 = {
 	type = country_event
 	title = sea_peoples_crisis.60.title
 	desc = sea_peoples_crisis.60.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = neutral
 	orphan = yes
 
@@ -200,7 +208,8 @@ sea_peoples_crisis.70 = {
 	type = country_event
 	title = sea_peoples_crisis.70.title
 	desc = sea_peoples_crisis.70.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = positive
 	orphan = yes
 
@@ -226,7 +235,8 @@ sea_peoples_crisis.80 = {
 	type = country_event
 	title = sea_peoples_crisis.80.title
 	desc = sea_peoples_crisis.80.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = positive
 	orphan = yes
 
@@ -251,7 +261,8 @@ sea_peoples_crisis.90 = {
 	type = country_event
 	title = sea_peoples_crisis.90.title
 	desc = sea_peoples_crisis.90.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = negative
 	major = yes
 	orphan = yes
@@ -278,7 +289,8 @@ sea_peoples_crisis.100 = {
 	type = country_event
 	title = sea_peoples_crisis.100.title
 	desc = sea_peoples_crisis.100.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = negative
 	major = yes
 	orphan = yes
@@ -305,7 +317,8 @@ sea_peoples_crisis.110 = {
 	type = country_event
 	title = sea_peoples_crisis.110.title
 	desc = sea_peoples_crisis.110.desc
-	category = disaster_event
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/_default.dds"
 	outcome = positive
 	orphan = yes
 
@@ -320,3 +333,4 @@ sea_peoples_crisis.110 = {
 		add_prestige = prestige_weak_bonus
 	}
 }
+

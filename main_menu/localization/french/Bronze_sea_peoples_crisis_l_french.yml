@@ -1,4 +1,17 @@
 ﻿l_french:
+ sea_peoples_crisis: "Crise des Peuples de la mer"
+ sea_peoples_crisis_desc: "Une [situation_with_icon|e] visible de la fin de l'age du bronze, suivant l'effondrement des economies palatiales, la famine, les refugies, les raids et les installations cotieres.\n\n#T Situation actuelle#!\nPhase : #Y [GetSituationByKey('sea_peoples_crisis').MakeScope.GetVariable('sea_peoples_global_phase').GetValue|V0]#!/5\nPression de crise : #R [GetSituationByKey('sea_peoples_crisis').MakeScope.GetVariable('sea_peoples_global_pressure').GetValue|V0]#!/100\nPression de famine : #R [GetSituationByKey('sea_peoples_crisis').MakeScope.GetVariable('sea_peoples_global_famine_pressure').GetValue|V0]#!/100\n\nLes pays de Mediterranee orientale, de l'Egee, d'Anatolie, d'Egypte, de Chypre et du Levant peuvent utiliser des actions couteuses pour limiter les degats locaux, mais aucune reponse n'est gratuite."
+ hint_sea_peoples_crisis: "[GetSituationByKey('sea_peoples_crisis').GetNameWithNoTooltip]"
+ hint_sea_peoples_crisis_hint_text: "$hint_sea_peoples_crisis_hint_text_1$\n\n$hint_sea_peoples_crisis_hint_text_2$"
+ hint_sea_peoples_crisis_hint_text_1: "La Crise des Peuples de la mer est une [situation_with_icon|e], pas un pays normal. Elle suit famine, raids, refugies, effondrement du commerce et pression d'installation sur la Mediterranee orientale."
+ hint_sea_peoples_crisis_hint_text_2: "#T Reponse conseillee :#!\n@arrow_bonus_tier_2! Utilise les [actions_with_icon|e] de crise tot, mais attends-toi a de vrais couts en grain, prestige, stabilite, hommes, marins et satisfaction des estates.\n@arrow_bonus_tier_1! Les Etats cotiers et palatiaux doivent fortifier les ports, escorter les convois de bronze, ouvrir les greniers avec prudence et se preparer a la pression d'installation plutot que viser une victoire propre."
+ sea_peoples_situation_location_active_tt: "Cette location appartient a un pays touche par la Crise des Peuples de la mer."
+ sea_peoples_situation_location_raided_tt: "Le proprietaire a subi des raids cotiers."
+ sea_peoples_situation_location_refugees_tt: "Le proprietaire subit une pression de refugies."
+ sea_peoples_situation_location_breakdown_tt: "Le proprietaire subit un effondrement interne."
+ sea_peoples_situation_legend_active: "Touche par la crise"
+ sea_peoples_situation_legend_raided: "Cote pillee"
+ sea_peoples_situation_legend_breakdown: "Effondrement interne"
  sea_peoples_crisis_name: "Crise des Peuples de la Mer"
  sea_peoples_crisis_name_desc: "Une longue chaine d'effondrement de l'age du bronze tardif, portee par la famine, la rupture du commerce, les raids cotiers, les refugies, la faillite des palais et les migrations maritimes."
  sea_peoples_crisis_phase_at_least_text: "La Crise des Peuples de la Mer est au moins en phase $VALUE|0$"
@@ -151,3 +164,4 @@
  sea_peoples_crisis.110.title: "Apres l'incendie"
  sea_peoples_crisis.110.desc: "Les pires feux sont passes, meme si rien ne redevient comme avant. Certains refugies sont devenus voisins, certains palais n'ont jamais rouvert et de nouvelles puissances cotieres commencent a ecrire l'age suivant."
  sea_peoples_crisis.110.a: "Le monde a change."
+

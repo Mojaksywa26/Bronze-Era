@@ -32,6 +32,7 @@ mycenaean_call_megaron_council = {
 			change_mycenaean_league_authority = { value = 6 }
 			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_penalty }
 			add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_weak_bonus }
+			custom_tooltip = mycenaean_league_current_authority_tt
 			custom_tooltip = mycenaean_call_megaron_council_tt
 		}
 	}
@@ -76,6 +77,7 @@ mycenaean_sponsor_shared_sacrifice = {
 			change_mycenaean_league_authority = { value = 4 }
 			add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_mild_bonus }
 			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_penalty }
+			custom_tooltip = mycenaean_league_current_authority_tt
 			custom_tooltip = mycenaean_sponsor_shared_sacrifice_tt
 		}
 	}
@@ -120,6 +122,7 @@ mycenaean_send_linear_b_administrators = {
 			change_mycenaean_league_authority = { value = 3 }
 			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
 			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_bonus }
+			custom_tooltip = mycenaean_league_current_authority_tt
 			custom_tooltip = mycenaean_send_linear_b_administrators_tt
 		}
 	}
@@ -164,6 +167,7 @@ mycenaean_mediate_palace_rivalry = {
 			set_variable = { name = mycenaean_palace_mediation value = 1 years = 4 }
 			change_mycenaean_league_authority = { value = 5 }
 			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_mild_penalty }
+			custom_tooltip = mycenaean_league_current_authority_tt
 			custom_tooltip = mycenaean_mediate_palace_rivalry_tt
 		}
 	}
@@ -210,6 +214,7 @@ mycenaean_demand_bronze_tribute = {
 			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_bonus }
 			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_mild_penalty }
 			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_weak_penalty }
+			custom_tooltip = mycenaean_league_current_authority_tt
 			custom_tooltip = mycenaean_demand_bronze_tribute_tt
 		}
 	}
@@ -255,6 +260,7 @@ mycenaean_summon_palace_levies = {
 			subtract_mycenaean_league_authority = { value = 8 }
 			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_mild_penalty }
 			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_penalty }
+			custom_tooltip = mycenaean_league_current_authority_tt
 			custom_tooltip = mycenaean_summon_palace_levies_tt
 		}
 	}
@@ -301,6 +307,7 @@ mycenaean_proclaim_pan_achaean_expedition = {
 			add_prestige = prestige_weak_bonus
 			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_bonus }
 			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_mild_penalty }
+			custom_tooltip = mycenaean_league_current_authority_tt
 			custom_tooltip = mycenaean_proclaim_pan_achaean_expedition_tt
 		}
 	}
@@ -345,6 +352,7 @@ mycenaean_fortify_megara = {
 			subtract_mycenaean_league_authority = { value = 2 }
 			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_penalty }
 			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_bonus }
+			custom_tooltip = mycenaean_league_current_authority_tt
 			custom_tooltip = mycenaean_fortify_megara_tt
 		}
 	}

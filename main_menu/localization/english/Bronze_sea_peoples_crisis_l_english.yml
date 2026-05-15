@@ -1,4 +1,17 @@
 ﻿l_english:
+ sea_peoples_crisis: "The Sea Peoples Crisis"
+ sea_peoples_crisis_desc: "A visible Late Bronze Age [situation_with_icon|e] tracking the collapse of palace economies, famine, refugee movement, raiding, and coastal settlement.\n\n#T Current Situation#!\nPhase: #Y [GetSituationByKey('sea_peoples_crisis').MakeScope.GetVariable('sea_peoples_global_phase').GetValue|V0]#!/5\nCrisis Pressure: #R [GetSituationByKey('sea_peoples_crisis').MakeScope.GetVariable('sea_peoples_global_pressure').GetValue|V0]#!/100\nFamine Pressure: #R [GetSituationByKey('sea_peoples_crisis').MakeScope.GetVariable('sea_peoples_global_famine_pressure').GetValue|V0]#!/100\n\nCountries in the eastern Mediterranean, Aegean, Anatolia, Egypt, Cyprus, and the Levant can use costly actions to reduce local damage, but no response is painless."
+ hint_sea_peoples_crisis: "[GetSituationByKey('sea_peoples_crisis').GetNameWithNoTooltip]"
+ hint_sea_peoples_crisis_hint_text: "$hint_sea_peoples_crisis_hint_text_1$\n\n$hint_sea_peoples_crisis_hint_text_2$"
+ hint_sea_peoples_crisis_hint_text_1: "The Sea Peoples Crisis is a [situation_with_icon|e], not a normal country. It tracks famine, raids, refugee movement, trade collapse, and settlement pressure across the eastern Mediterranean."
+ hint_sea_peoples_crisis_hint_text_2: "#T Suggested Response:#!\n@arrow_bonus_tier_2! Use crisis [actions_with_icon|e] early, but expect real costs in grain, prestige, stability, manpower, sailors, and estate satisfaction.\n@arrow_bonus_tier_1! Coastal and palace states should fortify harbors, protect bronze convoys, open granaries carefully, and prepare for settlement pressure rather than expecting a clean victory."
+ sea_peoples_situation_location_active_tt: "This location belongs to a country currently affected by the Sea Peoples Crisis."
+ sea_peoples_situation_location_raided_tt: "The owner has suffered coastal raids."
+ sea_peoples_situation_location_refugees_tt: "The owner is under refugee pressure."
+ sea_peoples_situation_location_breakdown_tt: "The owner is suffering internal breakdown."
+ sea_peoples_situation_legend_active: "Crisis affected"
+ sea_peoples_situation_legend_raided: "Raided coast"
+ sea_peoples_situation_legend_breakdown: "Internal breakdown"
  sea_peoples_crisis_name: "The Sea Peoples Crisis"
  sea_peoples_crisis_name_desc: "A long Late Bronze Age collapse chain driven by famine, broken trade, coastal raiding, refugees, palace failures, and maritime migration."
  sea_peoples_crisis_phase_at_least_text: "The Sea Peoples Crisis is at least phase $VALUE|0$"
@@ -151,3 +164,4 @@
  sea_peoples_crisis.110.title: "After the Burning"
  sea_peoples_crisis.110.desc: "The worst fires have passed, though nothing returns as it was. Some refugees have become neighbors, some palaces never reopened, and new coastal powers begin writing the next age."
  sea_peoples_crisis.110.a: "The world has changed."
+
