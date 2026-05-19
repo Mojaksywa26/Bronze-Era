@@ -14,7 +14,10 @@ bronze_hatti_collapse = {
 	can_end = {
 		OR = {
 			NOT = { country_exists = c:0003G }
-			years_since_situation_start >= 35
+			AND = {
+				has_variable = bronze_hatti_situation_months
+				var:bronze_hatti_situation_months >= 420
+			}
 			c:0003G = {
 				has_variable = bronze_hatti_collapse_active
 				var:bronze_hatti_collapse_phase >= 3
@@ -159,6 +162,8 @@ bronze_hatti_collapse = {
 		}
 	}
 
+	is_data_map = yes
+
 	map_color = {
 		if = {
 			limit = {
@@ -193,5 +198,20 @@ bronze_hatti_collapse = {
 			}
 			value = orange
 		}
+	}
+
+	legend_key = {
+		desc = bronze_hatti_collapse_legend_hatti
+		color = yellow
+	}
+
+	legend_key = {
+		desc = bronze_hatti_collapse_legend_successor_pressure
+		color = orange
+	}
+
+	legend_key = {
+		desc = bronze_hatti_collapse_legend_raided
+		color = red
 	}
 }

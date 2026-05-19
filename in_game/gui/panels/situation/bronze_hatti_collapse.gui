@@ -1,0 +1,239 @@
+situation_panel = {
+
+	blockoverride "situation_header_left" {
+		icon = {
+			size = { 32 32 }
+			texture = "gfx/interface/icons/situations/sea_peoples_crisis.dds"
+		}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				fontsize = 13
+				text = "bronze_hatti_collapse_panel_phase"
+				default_format = "#subtle_name"
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				fontsize = 13
+				text = "bronze_hatti_collapse_panel_phase_value"
+				default_format = "#Y"
+			}
+		}
+
+		expand = {}
+	}
+
+	blockoverride "situation_header_right" {
+		expand = {}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				fontsize = 13
+				text = "bronze_hatti_collapse_panel_pressure"
+				default_format = "#subtle_name"
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				fontsize = 13
+				text = "bronze_hatti_collapse_panel_pressure_value"
+				default_format = "#R"
+			}
+		}
+
+		icon = {
+			size = { 32 32 }
+			texture = "gfx/interface/icons/flat_icons/balance/food.dds"
+		}
+	}
+
+	blockoverride "situation_subheader_content" {}
+
+	blockoverride "situation_panel_main_content" {
+
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'bronze_hatti_overview_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "bronze_hatti_collapse_overview_card"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/situations/sea_peoples_crisis.dds"
+			}
+			blockoverride "bottom_content" {
+				text_multi = {
+					autoresize = no
+					multiline = yes
+					size = { 470 115 }
+					text = "bronze_hatti_collapse_overview_card_desc"
+				}
+			}
+			blockoverride "visible_hint" {}
+			blockoverride "onaction_hint" {
+				action_tooltip = {
+					title = "OPEN_HINT"
+					on_action = "[OpenLateralViewWithParams('hints', 'selected_hint = hint_bronze_hatti_collapse')]"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'bronze_hatti_overview_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'bronze_hatti_overview_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'bronze_hatti_overview_toggled' ))]"
+			}
+		}
+
+		situation_fancy_two_line_card = {
+			block "card_datacontext" {}
+
+			blockoverride "left_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/situations/sea_peoples_crisis.dds"
+				}
+			}
+			blockoverride "left_bottom_flag" {}
+			blockoverride "left_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "bronze_hatti_collapse_panel_phase"
+			}
+			blockoverride "left_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = left|nobaseline
+				text = "bronze_hatti_collapse_panel_phase_value"
+			}
+
+			blockoverride "right_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/flat_icons/geopolitics/privateer.dds"
+				}
+			}
+			blockoverride "right_bottom_flag" {}
+			blockoverride "right_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "bronze_hatti_collapse_panel_pressure"
+			}
+			blockoverride "right_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				text = "bronze_hatti_collapse_panel_pressure_value"
+			}
+		}
+
+		situation_fancy_two_line_card = {
+			block "card_datacontext" {}
+
+			blockoverride "left_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/flat_icons/balance/food.dds"
+				}
+			}
+			blockoverride "left_bottom_flag" {}
+			blockoverride "left_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "bronze_hatti_collapse_panel_famine"
+			}
+			blockoverride "left_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = left|nobaseline
+				text = "bronze_hatti_collapse_panel_famine_value"
+			}
+
+			blockoverride "right_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/laws/resolutions/law_voting.dds"
+				}
+			}
+			blockoverride "right_bottom_flag" {}
+			blockoverride "right_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "bronze_hatti_collapse_panel_months"
+			}
+			blockoverride "right_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				text = "bronze_hatti_collapse_panel_months_value"
+			}
+		}
+
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'bronze_hatti_actions_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "bronze_hatti_collapse_actions_card"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/religious_doctrines/catholic/religious_actions.dds"
+			}
+			blockoverride "bottom_content" {
+				text_multi = {
+					autoresize = no
+					multiline = yes
+					size = { 470 95 }
+					text = "bronze_hatti_collapse_actions_card_desc"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'bronze_hatti_actions_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'bronze_hatti_actions_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'bronze_hatti_actions_toggled' ))]"
+			}
+		}
+	}
+
+	blockoverride "situation_panel_main_content_bottom" {
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'bronze_hatti_map_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "bronze_hatti_collapse_map_card"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/map_modes/political.dds"
+			}
+			blockoverride "bottom_content" {
+				text_multi = {
+					autoresize = no
+					multiline = yes
+					size = { 470 80 }
+					text = "bronze_hatti_collapse_map_card_desc"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'bronze_hatti_map_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'bronze_hatti_map_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'bronze_hatti_map_toggled' ))]"
+			}
+		}
+	}
+}

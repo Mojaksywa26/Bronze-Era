@@ -11,8 +11,8 @@ sea_peoples_crisis = {
 	}
 
 	can_end = {
-		OR = {
-			years_since_situation_start >= 30
+		AND = {
+			has_variable = sea_peoples_situation_months
 			var:sea_peoples_situation_months >= 360
 		}
 	}

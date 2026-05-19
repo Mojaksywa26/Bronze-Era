@@ -1,8 +1,24 @@
 situation_manager = {
 	sea_peoples_crisis = {
 		status = active
+		variables = {
+			data = { { flag = "sea_peoples_global_phase" tick = 0 data = { type = value identity = 1 } } }
+			data = { { flag = "sea_peoples_global_pressure" tick = 0 data = { type = value identity = 10 } } }
+			data = { { flag = "sea_peoples_global_famine_pressure" tick = 0 data = { type = value identity = 10 } } }
+			data = { { flag = "sea_peoples_situation_months" tick = 0 data = { type = value identity = 0 } } }
+			data = { { flag = "sea_peoples_global_raids" tick = 0 data = { type = value identity = 0 } } }
+			data = { { flag = "sea_peoples_global_repulsed_raids" tick = 0 data = { type = value identity = 0 } } }
+			data = { { flag = "sea_peoples_global_market_damage" tick = 0 data = { type = value identity = 0 } } }
+			data = { { flag = "sea_peoples_global_refugee_movements" tick = 0 data = { type = value identity = 0 } } }
+			data = { { flag = "sea_peoples_global_migrant_enclaves" tick = 0 data = { type = value identity = 0 } } }
+			data = { { flag = "sea_peoples_global_phoenicianized_enclaves" tick = 0 data = { type = value identity = 0 } } }
+			data = { { flag = "sea_peoples_global_anatolian_recompositions" tick = 0 data = { type = value identity = 0 } } }
+		}
 	}
 	bronze_hatti_collapse = {
 		status = active
+		variables = {
+			data = { { flag = "bronze_hatti_situation_months" tick = 0 data = { type = value identity = 0 } } }
+		}
 	}
 }

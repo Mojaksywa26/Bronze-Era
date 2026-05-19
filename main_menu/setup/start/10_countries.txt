@@ -112,6 +112,12 @@ countries = {
 		discovered_regions = {
 			anatolia_region caucasus_region crescent_region
 		}
+		variables = {
+			data = { { flag = "bronze_hatti_collapse_active" data = { type = value identity = 1 } } }
+			data = { { flag = "bronze_hatti_collapse_phase" data = { type = value identity = 1 } } }
+			data = { { flag = "bronze_hatti_collapse_pressure" data = { type = value identity = 10 } } }
+			data = { { flag = "bronze_hatti_famine_pressure" data = { type = value identity = 10 } } }
+		}
 	}
 
 	##ABRINCATES
