@@ -1,0 +1,4 @@
+NGame = {
+	START_DATE = "-1209.1.1"
+	END_DATE = "120.12.31"
+}

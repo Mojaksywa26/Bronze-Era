@@ -1,0 +1,51 @@
+# Bronze Era technology chronology.
+# EU5 advances still use the vanilla age IDs, so those IDs are kept and retimed.
+# The bronze_age_* IDs are kept as compatibility aliases for custom institutions.
+
+bronze_age_1_bronze = {
+	year = -1209
+}
+
+bronze_age_2_iron = {
+	year = -1050
+}
+
+bronze_age_3_archaic = {
+	year = -800
+}
+
+bronze_age_4_classic = {
+	year = -500
+}
+
+bronze_age_5_hellenistic = {
+	year = -323
+}
+
+bronze_age_6_roman = {
+	year = -147
+}
+
+age_1_traditions = {
+	year = -1209
+}
+
+age_2_renaissance = {
+	year = -1050
+}
+
+age_3_discovery = {
+	year = -800
+}
+
+age_4_reformation = {
+	year = -500
+}
+
+age_5_absolutism = {
+	year = -323
+}
+
+age_6_revolutions = {
+	year = -147
+}
