@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-05-17T16:59:02",
+  "files": [
+    "common/technologies/eu5te_technologies.txt",
+    "common/technology_eras/eu5te_eras.txt",
+    "common/institutions/eu5te_institutions.txt",
+    "localisation/english/eu5te_l_english.yml",
+    "localisation/french/eu5te_l_french.yml",
+    "eu5te_export_manifest.json"
+  ]
+}
