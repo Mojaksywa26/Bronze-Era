@@ -55,7 +55,6 @@ confessionalism = {
 }
 
 enlightenment = {
-    age = age_6_revolutions
 }
 
 feudalism = {
@@ -92,7 +91,6 @@ imperial_administration = {
 }
 
 industrialization = {
-    age = age_6_revolutions
 }
 
 iron_metallurgy = {
@@ -114,11 +112,9 @@ legions = {
 }
 
 levee_en_masse = {
-    age = age_6_revolutions
 }
 
 manufactories = {
-    age = age_5_absolutism
 }
 
 mediterranean_colonization = {
@@ -133,7 +129,6 @@ meritocracy = {
 }
 
 military_revolution = {
-    age = age_5_absolutism
 }
 
 new_world = {
@@ -185,7 +180,6 @@ roman_law = {
 }
 
 scientific_revolution = {
-    age = age_5_absolutism
 }
 
 standardized_currency = {

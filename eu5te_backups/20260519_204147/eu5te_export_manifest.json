@@ -1,0 +1,11 @@
+{
+  "tool": "EU5 Technology Editor",
+  "generated_at": "2026-05-19T19:17:58",
+  "files": [
+    "in_game/common/advances/eu5te_advances.txt",
+    "in_game/common/age/eu5te_ages.txt",
+    "in_game/common/institution/eu5te_institutions.txt",
+    "main_menu/localization/english/eu5te_l_english.yml",
+    "main_menu/localization/french/eu5te_l_french.yml"
+  ]
+}
