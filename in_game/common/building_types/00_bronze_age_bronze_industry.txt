@@ -75,15 +75,6 @@ tools_guild = {
 			category = guild_input
 		}
 
-		bronze_tools_guild_maintenance = {
-			copper = 0.5
-			tin = 0.04
-			produced = tools
-			output = 0.6
-			debug_max_profit = 0.2
-
-			category = guild_input
-		}
 		bronze_age_tools_bronze_recipe = {
 			bronze_age_bronze = 0.45
 			produced = tools

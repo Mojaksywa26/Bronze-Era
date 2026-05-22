@@ -1,0 +1,8 @@
+bronze_age_palatial_complex_construction = {
+	masonry = 3.0
+	lumber = 2.0
+	tools = 0.75
+	goods_gold = 0.5
+
+	category = building_construction
+}
