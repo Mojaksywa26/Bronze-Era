@@ -7,7 +7,7 @@ settlements_advance = {
 	
 	food_purchase_cost = -0.1
 	
-	starting_technology_level = 2
+	starting_technology_level = 1
 	
 }
 

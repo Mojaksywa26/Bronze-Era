@@ -23,6 +23,32 @@
  	requires = workforce_specialization_advance
  }
 
+ tools_maker_advance = {
+ 	age = age_1_traditions
+	icon = sculptor
+	
+ 	unlock_building = tools_maker
+	
+ 	requires = settlements_advance
+
+	starting_technology_level = 1
+ }
+
+ royal_tools_workshop_advance = {
+ 	age = age_1_traditions
+	
+ 	unlock_building = tools_guild
+	
+ 	requires = workforce_specialization_advance
+ }
+
+ royal_weapon_workshop_advance = {
+ 	age = age_1_traditions
+	
+ 	unlock_building = weapon_guild
+	
+ 	requires = workforce_specialization_advance
+ }
 
 # ###############################
 # # Basic Buildings
