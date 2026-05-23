@@ -1,4 +1,6 @@
 diplomacy_manager = {
-	# England-France needs no introduction
+	# mycenae and hatti are rivals.
+	rival = { first = 0001G second = HATTI }
+	rival = { first = HATTI second = 0001G }
 	
 }

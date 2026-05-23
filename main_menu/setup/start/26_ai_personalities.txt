@@ -14,7 +14,7 @@ countries = {
 
 		# Defensive: nations content to hold their ground
 		#BYZ = { ai_personality = ai_defensive }  # Byzantium
-		hatti = { ai_personality = ai_defensive }  # Hatti
+		HATTI = { ai_personality = ai_defensive }  # Hatti
 
 		# Cautious: risk-averse, prefer safe diplomacy over war
 		#HAB = { ai_personality = ai_cautious }  # Austria / Habsburgs
