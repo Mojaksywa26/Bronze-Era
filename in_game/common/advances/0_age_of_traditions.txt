@@ -51,7 +51,7 @@ written_alphabet = {
 	global_max_literacy = 5
 	global_monthly_literacy = 0.01
 	
-	starting_technology_level = 3
+	starting_technology_level = 2
 	requires = palace_economy_advance
 }
 
