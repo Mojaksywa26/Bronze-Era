@@ -49,6 +49,7 @@ palace_kingdom = {
 	priority = 5
 	can_bestow_trigger = {
 		is_member_of_international_organization = scope:recipient
+		mycenaean_league_palace_network_identity = yes
 		scope:recipient = {
 			NOT = {
 				country_has_special_status = {
@@ -58,7 +59,9 @@ palace_kingdom = {
 			}
 		}
 	}
-	auto_bestowal_trigger = { always = yes }
+	auto_bestowal_trigger = {
+		mycenaean_league_palace_network_identity = yes
+	}
 	auto_rescind_trigger = {
 		OR = {
 			NOT = { is_member_of_international_organization = scope:recipient }
@@ -75,7 +78,7 @@ palace_kingdom = {
 }
 
 sanctuary_patron = {
-	max_countries = 4
+	max_countries = 8
 	priority = 8
 	can_bestow_trigger = {
 		is_member_of_international_organization = scope:recipient

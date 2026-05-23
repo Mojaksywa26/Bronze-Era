@@ -116,3 +116,104 @@ mycenaean_palaces_burning_modifier = {
 	global_prosperity_decay = 0.04
 	monthly_war_exhaustion = 0.05
 }
+
+mycenaean_landed_palace_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_landed_palace
+		var:mycenaean_landed_palace > 0
+	}
+
+	monthly_prestige = 0.03
+	global_monthly_control_decline = 0.006
+	global_estate_target_satisfaction = -0.02
+}
+
+mycenaean_palace_autonomy_claimed_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_palace_autonomy_claimed
+		var:mycenaean_palace_autonomy_claimed > 0
+	}
+
+	monthly_prestige = 0.04
+	diplomatic_reputation = diplomatic_reputation_weak_penalty
+	global_levy_size_modifier = 0.04
+}
+
+mycenaean_high_wanax_fragmentation_council_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_high_wanax_fragmentation_council
+		var:mycenaean_high_wanax_fragmentation_council > 0
+	}
+
+	diplomatic_reputation = diplomatic_reputation_weak_bonus
+	global_estate_target_satisfaction = -0.02
+	monthly_prestige = 0.02
+}
+
+mycenaean_palace_privileges_granted_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_palace_privileges_granted
+		var:mycenaean_palace_privileges_granted > 0
+	}
+
+	global_estate_target_satisfaction = 0.02
+	global_monthly_control_decline = -0.003
+	monthly_prestige = 0.01
+}
+
+mycenaean_palace_redistribution_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_palace_redistribution
+		var:mycenaean_palace_redistribution > 0
+	}
+
+	global_monthly_food_modifier = 0.02
+	global_production_efficiency = -0.03
+	import_efficiency = -0.04
+	global_estate_target_satisfaction = 0.01
+}
+
+mycenaean_palace_hostages_taken_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_palace_hostages_taken
+		var:mycenaean_palace_hostages_taken > 0
+	}
+
+	monthly_prestige = -0.01
+	diplomatic_reputation = diplomatic_reputation_weak_penalty
+	global_estate_target_satisfaction = -0.02
+}
+
+mycenaean_league_oath_summoned_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_league_oath_summoned_recently
+		var:mycenaean_league_oath_summoned_recently > 0
+	}
+
+	monthly_prestige = -0.01
+	global_estate_target_satisfaction = -0.01
+}
+
+mycenaean_rising_palace_influence_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_palace_influence
+		var:mycenaean_palace_influence >= 25
+		var:mycenaean_palace_influence < 50
+	}
+
+	monthly_prestige = 0.01
+	reject_subjugation_reasons = 3
+	global_estate_target_satisfaction = -0.005
+}
+
+mycenaean_dominant_palace_influence_modifier = {
+	potential_trigger = {
+		has_variable = mycenaean_palace_influence
+		var:mycenaean_palace_influence >= 50
+	}
+
+	monthly_prestige = 0.03
+	reject_subjugation_reasons = 8
+	diplomatic_reputation = diplomatic_reputation_weak_bonus
+	global_estate_target_satisfaction = -0.015
+}

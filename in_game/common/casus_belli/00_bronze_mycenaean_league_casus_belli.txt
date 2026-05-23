@@ -1,0 +1,71 @@
+# Internal Mycenaean League wars. These mirror the vanilla Japanese clan CBs
+# but use Bronze Age palace authority instead of shogunate terminology.
+
+cb_mycenaean_palace_rebel_against_high_wanax = {
+	create_visible = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		NOT = { is_leader_of_international_organization = international_organization:mycenaean_league }
+	}
+
+	declare_enabled = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		NOT = { is_leader_of_international_organization = international_organization:mycenaean_league }
+	}
+
+	create_enabled = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		scope:target = {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+		}
+	}
+
+	speed = 10
+	max_warscore_from_battles = 100
+	war_goal_type = clan_expansion_wargoal
+}
+
+cb_mycenaean_high_wanax_reassert_authority = {
+	create_visible = {
+		is_leader_of_international_organization = international_organization:mycenaean_league
+	}
+
+	declare_enabled = {
+		is_leader_of_international_organization = international_organization:mycenaean_league
+	}
+
+	create_enabled = {
+		is_leader_of_international_organization = international_organization:mycenaean_league
+		scope:target = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+			NOT = { is_leader_of_international_organization = international_organization:mycenaean_league }
+		}
+	}
+
+	speed = 10
+	max_warscore_from_battles = 100
+	war_goal_type = clan_expansion_wargoal
+}
+
+cb_mycenaean_palace_struggle = {
+	create_visible = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		is_situation_active = situation:mycenaean_fragmentation
+	}
+
+	declare_enabled = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		is_situation_active = situation:mycenaean_fragmentation
+	}
+
+	create_enabled = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+		is_situation_active = situation:mycenaean_fragmentation
+		scope:target = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+		}
+	}
+
+	speed = 10
+	max_warscore_from_battles = 100
+	war_goal_type = clan_expansion_wargoal
+}

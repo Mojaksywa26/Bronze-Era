@@ -1,0 +1,153 @@
+mycenaean_fragmentation = {
+	monthly_spawn_chance = monthly_spawn_chance_unique
+	hint_tag = hint_mycenaean_fragmentation
+
+	content_trigger = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+	}
+
+	can_start = {
+		exists = international_organization:mycenaean_league
+		NOT = { has_global_variable = mycenaean_fragmentation_ended }
+		international_organization:mycenaean_league = {
+			any_international_organization_member = {
+				mycenaean_palace_is_valid_landable_member = yes
+			}
+			OR = {
+				var:mycenaean_league_authority <= 8
+				AND = {
+					var:mycenaean_league_authority <= 25
+					leader_country ?= {
+						OR = {
+							government_power <= 35
+							stability <= 15
+							in_civil_war = yes
+							has_variable = mycenaean_palaces_burning
+						}
+					}
+				}
+				AND = {
+					var:mycenaean_league_authority <= 35
+					is_situation_active = situation:sea_peoples_crisis
+					situation:sea_peoples_crisis ?= {
+						has_variable = sea_peoples_global_phase
+						var:sea_peoples_global_phase >= 3
+					}
+				}
+			}
+		}
+	}
+
+	can_end = {
+		mycenaean_fragmentation_end_trigger = yes
+	}
+
+	visible = {
+		is_member_of_international_organization = international_organization:mycenaean_league
+	}
+
+	on_start = {
+		set_variable = { name = mycenaean_fragmentation_months value = 0 }
+		international_organization:mycenaean_league = {
+			ordered_international_organization_member = {
+				limit = { mycenaean_palace_is_fragmentation_vanguard = yes }
+				max = 12
+				check_range_bounds = no
+				order_by = total_foreign_buildings_levels
+				turn_mycenaean_palace_into_normal_tag = yes
+			}
+			mycenaean_fragmentation_reevaluate_strongest_palaces = yes
+			every_international_organization_member = {
+				trigger_event_non_silently = mycenaean_league.200
+			}
+		}
+	}
+
+	on_monthly = {
+		if = {
+			limit = { NOT = { has_variable = mycenaean_fragmentation_months } }
+			set_variable = { name = mycenaean_fragmentation_months value = 0 }
+		}
+		change_variable = { name = mycenaean_fragmentation_months add = 1 }
+
+		mycenaean_fragmentation_reevaluate_strongest_palaces = yes
+
+		random_list = {
+			20 = {
+				trigger = {
+					international_organization:mycenaean_league = {
+						any_international_organization_member = {
+							mycenaean_palace_is_valid_landable_member = yes
+							OR = {
+								var:mycenaean_palace_influence >= 15
+								international_organization:mycenaean_league = {
+									var:mycenaean_league_authority <= 10
+								}
+							}
+						}
+					}
+				}
+				international_organization:mycenaean_league = {
+					random_international_organization_member = {
+						limit = {
+							mycenaean_palace_is_valid_landable_member = yes
+							OR = {
+								var:mycenaean_palace_influence >= 15
+								international_organization:mycenaean_league = {
+									var:mycenaean_league_authority <= 10
+								}
+							}
+						}
+						trigger_event_non_silently = mycenaean_league.210
+					}
+				}
+			}
+			12 = {
+				trigger = {
+					exists = international_organization:mycenaean_league.leader_country
+				}
+				international_organization:mycenaean_league.leader_country = {
+					trigger_event_non_silently = mycenaean_league.220
+				}
+			}
+			220 = { }
+		}
+	}
+
+	map_color = {
+		if = {
+			limit = {
+				OR = {
+					international_organization:mycenaean_league.leader_country = prev.owner
+					situation:mycenaean_fragmentation.var:mycenaean_fragmentation_strongest_palace = prev.owner
+					situation:mycenaean_fragmentation.var:mycenaean_fragmentation_second_palace = prev.owner
+				}
+			}
+			value = owner.country_color
+		}
+		else = {
+			value = define:NMapColors|DEFAULT_COLOR
+		}
+	}
+
+	legend_key = {
+		limit = {
+			OR = {
+				international_organization:mycenaean_league.leader_country = prev.owner
+				situation:mycenaean_fragmentation.var:mycenaean_fragmentation_strongest_palace = prev.owner
+				situation:mycenaean_fragmentation.var:mycenaean_fragmentation_second_palace = prev.owner
+			}
+		}
+		desc = "LOCATION_OWNER_NAME"
+		color = owner.country_color
+	}
+
+	on_ending = {
+		set_global_variable = { name = mycenaean_fragmentation_ended value = 1 }
+		international_organization:mycenaean_league ?= {
+			every_international_organization_member = {
+				trigger_event_non_silently = mycenaean_league.250
+			}
+		}
+	}
+}

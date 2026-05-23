@@ -4,6 +4,10 @@
 
  bronze_age_palatial_complex_construction: "Palatial Complex Construction"
 
+ bronze_age_palace_house: "Palace House"
+ bronze_age_palace_house_desc: "A regional Mycenaean palace household: scribes, retainers, storerooms and aristocratic dependents who preserve local authority under the High Wanax."
+ bronze_age_palace_house_setup_only_tt: "Palace houses are placed by scenario setup and represent extraterritorial Mycenaean political entities."
+
  bronze_age_palace_administration: "Administrative Palace"
  bronze_age_palace_administration_desc: "Scribes, seal-bearers and palace officials record labor obligations, tribute, land grants and royal decrees on clay tablets."
 

@@ -50,3 +50,45 @@ mycenaean_fortify_megara_price = {
 	scaled_manpower = 0.08
 	stability = 5
 }
+
+mycenaean_proclaim_palace_autonomy_price = {
+	prestige = 10
+	stability = 10
+}
+
+mycenaean_reassert_palace_authority_price = {
+	scaled_gold = 0.7
+	government_power = 15
+	prestige = 10
+}
+
+mycenaean_summon_oath_to_mycenae_price = {
+	scaled_gold = 0.5
+	government_power = 10
+	prestige = 5
+}
+
+mycenaean_grant_palace_privileges_price = {
+	scaled_gold = 0.6
+	government_power = 10
+	prestige = 5
+}
+
+mycenaean_redistribute_palace_stores_price = {
+	scaled_gold = 1.2
+	government_power = 20
+	stability = 5
+}
+
+mycenaean_demand_palace_hostages_price = {
+	scaled_gold = 0.4
+	government_power = 15
+	stability = 5
+}
+
+mycenaean_restore_palace_network_price = {
+	scaled_gold = 1.0
+	government_power = 25
+	prestige = 10
+	stability = 5
+}

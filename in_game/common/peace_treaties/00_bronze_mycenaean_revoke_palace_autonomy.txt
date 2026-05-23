@@ -1,0 +1,54 @@
+peace_mycenaean_revoke_palace_autonomy = {
+	cost = {
+		add = {
+			desc = "DIPLOREASON_BASE"
+			value = 50
+		}
+		add = {
+			desc = "game_concept_population"
+			value = scope:loser.total_population
+			multiply = 0.009
+		}
+	}
+
+	potential = {
+		scope:loser = {
+			country_type = location
+			is_member_of_international_organization = international_organization:mycenaean_league
+			num_locations < 5
+		}
+		scope:winner = {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+		}
+		scope:war = {
+			OR = {
+				is_no_cb_war = yes
+				casus_belli ?= casus_belli:cb_mycenaean_high_wanax_reassert_authority
+			}
+		}
+	}
+
+	allow = {
+	}
+
+	effect = {
+		scope:loser = {
+			turn_mycenaean_palace_into_building_based = yes
+			change_mycenaean_league_authority = { value = 6 }
+		}
+	}
+
+	ai_desire = {
+		if = {
+			limit = {
+				scope:winner = {
+					is_rival_of = scope:loser
+				}
+			}
+			add = {
+				desc = "game_concept_rival"
+				value = 10
+			}
+		}
+	}
+}

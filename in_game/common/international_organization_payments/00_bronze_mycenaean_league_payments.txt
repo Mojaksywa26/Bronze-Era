@@ -60,6 +60,13 @@ mycenaean_palace_tribute = {
 					value = gold
 					multiply = 0.0005
 				}
+				if = {
+					limit = { mycenaean_league_has_palace_house = yes }
+					add = {
+						desc = MYCENAEAN_LEAGUE_PALACE_HOUSE_TRIBUTE
+						value = 0.25
+					}
+				}
 			}
 		}
 	}
@@ -73,6 +80,13 @@ mycenaean_palace_tribute = {
 			desc = MYCENAEAN_LEAGUE_TRIBUTE_STORED_WEALTH
 			value = gold
 			multiply = 0.005
+		}
+		if = {
+			limit = { mycenaean_league_has_palace_house = yes }
+			add = {
+				desc = MYCENAEAN_LEAGUE_PALACE_HOUSE_TRIBUTE
+				value = 0.5
+			}
 		}
 	}
 
