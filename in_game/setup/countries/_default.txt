@@ -339,7 +339,7 @@ AEDUI = {
 	color2 = rgb { 110 27 27 }
 }
 BOLI = {
-	color = rgb { 62 208 89 }
+	color = rgb { 22 60 22 }
 	color2 = rgb { 110 27 27 }
 }
 LATIN = {
@@ -1260,5 +1260,321 @@ SENES = {
 }
 SUESO = {
 	color = rgb { 106 193 62 }
+	color2 = rgb { 110 27 27 }
+}
+ANART = {
+	color = rgb { 199 67 93 }
+	color2 = rgb { 110 27 27 }
+}
+ANCAL = {
+	color = rgb { 72 199 192 }
+	color2 = rgb { 110 27 27 }
+}
+AUTEN = {
+	color = rgb { 98 126 203 }
+	color2 = rgb { 110 27 27 }
+}
+BAETA = {
+	color = rgb { 42 47 203 }
+	color2 = rgb { 110 27 27 }
+}
+BOLI1 = {
+	color = rgb { 62 208 89 }
+	color2 = rgb { 110 27 27 }
+}
+BRIGA = {
+	color = rgb { 87 195 65 }
+	color2 = rgb { 110 27 27 }
+}
+CAERA = {
+	color = rgb { 79 216 191 }
+	color2 = rgb { 110 27 27 }
+}
+CAERE = {
+	color = rgb { 54 206 135 }
+	color2 = rgb { 110 27 27 }
+}
+CALED = {
+	color = rgb { 68 96 207 }
+	color2 = rgb { 110 27 27 }
+}
+CARNO = {
+	color = rgb { 77 49 216 }
+	color2 = rgb { 110 27 27 }
+}
+CARWE = {
+	color = rgb { 67 79 214 }
+	color2 = rgb { 110 27 27 }
+}
+CASSI = {
+	color = rgb { 107 40 195 }
+	color2 = rgb { 110 27 27 }
+}
+CENOM = {
+	color = rgb { 220 67 56 }
+	color2 = rgb { 110 27 27 }
+}
+CLAHI = {
+	color = rgb { 54 191 186 }
+	color2 = rgb { 110 27 27 }
+}
+CORIE = {
+	color = rgb { 200 76 187 }
+	color2 = rgb { 110 27 27 }
+}
+CORI1 = {
+	color = rgb { 212 109 84 }
+	color2 = rgb { 110 27 27 }
+}
+CORNO = {
+	color = rgb { 213 83 126 }
+	color2 = rgb { 110 27 27 }
+}
+CORN1 = {
+	color = rgb { 169 75 206 }
+	color2 = rgb { 110 27 27 }
+}
+CREON = {
+	color = rgb { 63 198 175 }
+	color2 = rgb { 110 27 27 }
+}
+DALIT = {
+	color = rgb { 179 66 205 }
+	color2 = rgb { 110 27 27 }
+}
+DAMNO = {
+	color = rgb { 68 218 213 }
+	color2 = rgb { 110 27 27 }
+}
+DARIN = {
+	color = rgb { 141 51 209 }
+	color2 = rgb { 110 27 27 }
+}
+DECAN = {
+	color = rgb { 203 58 130 }
+	color2 = rgb { 110 27 27 }
+}
+DECEA = {
+	color = rgb { 115 214 61 }
+	color2 = rgb { 110 27 27 }
+}
+DEMET = {
+	color = rgb { 197 135 73 }
+	color2 = rgb { 110 27 27 }
+}
+DOBUN = {
+	color = rgb { 176 216 65 }
+	color2 = rgb { 110 27 27 }
+}
+DUMNA = {
+	color = rgb { 89 89 207 }
+	color2 = rgb { 110 27 27 }
+}
+DUMNO = {
+	color = rgb { 201 168 89 }
+	color2 = rgb { 110 27 27 }
+}
+DUROT = {
+	color = rgb { 157 53 222 }
+	color2 = rgb { 110 27 27 }
+}
+EBODA = {
+	color = rgb { 59 178 196 }
+	color2 = rgb { 110 27 27 }
+}
+EPIDI = {
+	color = rgb { 37 203 40 }
+	color2 = rgb { 110 27 27 }
+}
+ERAVI = {
+	color = rgb { 211 74 86 }
+	color2 = rgb { 110 27 27 }
+}
+ERDIN = {
+	color = rgb { 205 133 45 }
+	color2 = rgb { 110 27 27 }
+}
+GABRA = {
+	color = rgb { 157 76 214 }
+	color2 = rgb { 110 27 27 }
+}
+GANGA = {
+	color = rgb { 202 181 43 }
+	color2 = rgb { 110 27 27 }
+}
+HAEMO = {
+	color = rgb { 163 81 205 }
+	color2 = rgb { 110 27 27 }
+}
+ICENE = {
+	color = rgb { 61 51 193 }
+	color2 = rgb { 110 27 27 }
+}
+IWERN = {
+	color = rgb { 203 77 126 }
+	color2 = rgb { 110 27 27 }
+}
+LEUCI = {
+	color = rgb { 95 218 73 }
+	color2 = rgb { 110 27 27 }
+}
+LOPOC = {
+	color = rgb { 112 74 227 }
+	color2 = rgb { 110 27 27 }
+}
+LUGI = {
+	color = rgb { 155 60 195 }
+	color2 = rgb { 110 27 27 }
+}
+MANAK = {
+	color = rgb { 204 213 48 }
+	color2 = rgb { 110 27 27 }
+}
+MEDIO = {
+	color = rgb { 39 75 196 }
+	color2 = rgb { 110 27 27 }
+}
+METAN = {
+	color = rgb { 59 95 196 }
+	color2 = rgb { 110 27 27 }
+}
+MONAK = {
+	color = rgb { 211 49 160 }
+	color2 = rgb { 110 27 27 }
+}
+MONE = {
+	color = rgb { 63 52 223 }
+	color2 = rgb { 110 27 27 }
+}
+NAGNA = {
+	color = rgb { 78 128 212 }
+	color2 = rgb { 110 27 27 }
+}
+NEME1 = {
+	color = rgb { 132 207 89 }
+	color2 = rgb { 110 27 27 }
+}
+NOVAN = {
+	color = rgb { 20 108 21 }
+	color2 = rgb { 110 27 27 }
+}
+ORCII = {
+	color = rgb { 64 206 180 }
+	color2 = rgb { 110 27 27 }
+}
+ORDOW = {
+	color = rgb { 159 52 183 }
+	color2 = rgb { 110 27 27 }
+}
+OSII = {
+	color = rgb { 197 50 210 }
+	color2 = rgb { 110 27 27 }
+}
+RAURA = {
+	color = rgb { 51 204 196 }
+	color2 = rgb { 110 27 27 }
+}
+RODOG = {
+	color = rgb { 85 154 211 }
+	color2 = rgb { 110 27 27 }
+}
+SEGON = {
+	color = rgb { 204 202 40 }
+	color2 = rgb { 110 27 27 }
+}
+SELGO = {
+	color = rgb { 210 91 107 }
+	color2 = rgb { 110 27 27 }
+}
+SILOR = {
+	color = rgb { 61 214 155 }
+	color2 = rgb { 110 27 27 }
+}
+TAEXA = {
+	color = rgb { 159 46 204 }
+	color2 = rgb { 110 27 27 }
+}
+TEKTO = {
+	color = rgb { 34 58 24 }
+	color2 = rgb { 110 27 27 }
+}
+TENCT = {
+	color = rgb { 190 60 157 }
+	color2 = rgb { 110 27 27 }
+}
+TESTW = {
+	color = rgb { 214 41 151 }
+	color2 = rgb { 110 27 27 }
+}
+TEURI = {
+	color = rgb { 140 205 55 }
+	color2 = rgb { 110 27 27 }
+}
+THULE = {
+	color = rgb { 51 167 193 }
+	color2 = rgb { 110 27 27 }
+}
+TOLIS = {
+	color = rgb { 41 219 62 }
+	color2 = rgb { 110 27 27 }
+}
+TRIBO = {
+	color = rgb { 40 173 210 }
+	color2 = rgb { 110 27 27 }
+}
+TRINO = {
+	color = rgb { 76 225 150 }
+	color2 = rgb { 110 27 27 }
+}
+TROKM = {
+	color = rgb { 197 52 81 }
+	color2 = rgb { 110 27 27 }
+}
+TULIN = {
+	color = rgb { 56 178 127 }
+	color2 = rgb { 110 27 27 }
+}
+TUNGR = {
+	color = rgb { 40 200 40 }
+	color2 = rgb { 110 27 27 }
+}
+UELLA = {
+	color = rgb { 86 210 111 }
+	color2 = rgb { 110 27 27 }
+}
+UENNI = {
+	color = rgb { 65 198 63 }
+	color2 = rgb { 110 27 27 }
+}
+ULUTI = {
+	color = rgb { 202 181 43 }
+	color2 = rgb { 110 27 27 }
+}
+UPERA = {
+	color = rgb { 188 199 92 }
+	color2 = rgb { 110 27 27 }
+}
+USDIA = {
+	color = rgb { 58 207 68 }
+	color2 = rgb { 110 27 27 }
+}
+VANGI = {
+	color = rgb { 166 199 82 }
+	color2 = rgb { 110 27 27 }
+}
+VENIC = {
+	color = rgb { 42 170 213 }
+	color2 = rgb { 110 27 27 }
+}
+VOLCA = {
+	color = rgb { 210 40 40 }
+	color2 = rgb { 110 27 27 }
+}
+VOTAD = {
+	color = rgb { 71 138 215 }
+	color2 = rgb { 110 27 27 }
+}
+WOCOM = {
+	color = rgb { 193 218 68 }
 	color2 = rgb { 110 27 27 }
 }

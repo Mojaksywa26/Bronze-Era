@@ -1,14 +1,14 @@
 Bronze Era automated country integration pass
 ============================================
 
-Modified source tags: 304
+Modified source tags: 383
 Original comparison tags: 157
-Final countries: 304
-New countries from modified Bronze source: 148
+Final countries: 383
+New countries from modified Bronze source: 227
 New countries inserted into setup this run: 0
-Existing countries updated in setup: 304
+Existing countries updated in setup: 383
 Obsolete current countries removed: 0
-Unique owned locations: 2371
+Unique owned locations: 2907
 Invalid locations skipped: 0
 Duplicate conflicts resolved: 26
 Duplicate same-tag locations removed: 0
@@ -17,15 +17,15 @@ Invalid identity references: 0
 Low accepted-culture coverage warnings: 0
 Low religion-stability coverage warnings: 0
 Countries missing discovered regions: 0
-Owned locations missing region mapping: 11
+Owned locations missing region mapping: 12
 
 Final setup review file: tools/bronze_country_integration/final_merged_country_setup.txt
 Country identity report: tools/bronze_country_integration/country_stability_identity_report.txt
 Country explored regions report: tools/bronze_country_integration/country_exploration_regions_report.txt
 Normalized painter file: in_game/setup/location_painter/00_location_painter.txt
 EU5 country setup updated: main_menu/setup/start/10_countries.txt
-Celtic culture definitions generated: 150
+Celtic culture definitions generated: 227
 Celtic culture groups tracked: 12
-Celtic pop locations updated: 726
-Celtic location template entries updated: 726
+Celtic pop locations updated: 1262
+Celtic location template entries updated: 1262
 Mycenaean League tag references normalized: 0

@@ -594,6 +594,58 @@ AMURU = {
     }
 }
 
+ANART = {
+    color = { 199 67 93 }
+    culture = anarto
+    religion = gaulish_pagan
+    discovered_regions = { carpathia_region }
+
+    own_control_core = {
+        balassagyarmat
+        borsod
+        buda
+        carei
+        eger
+        esztergom
+        gemer
+        gonc
+        hajduszoboszlo
+        heves
+        hont
+        jaszbereny
+        kosice
+        krupina
+        miskolc
+        nagyboszormeny
+        nagykallo
+        nograd
+        pest
+        podmuran
+        rimavska_sobota
+        roznava
+        salgotarjan
+        satoraljaujhely
+        szabolcs
+        turna
+        zvolen
+    }
+}
+
+ANCAL = {
+    color = { 72 199 192 }
+    culture = ancalites
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        abingdon
+        henley
+        reading
+        windsor
+        wycombe
+    }
+}
+
 ANDEC = {
     color = { 221 148 70 }
     culture = andecamulenses
@@ -701,17 +753,19 @@ ARESA = {
     color = { 74 114 207 }
     culture = aresaces
     religion = gaulish_pagan
-    discovered_regions = { south_german_region }
+    discovered_regions = { france_region north_german_region south_german_region }
 
     own_control_core = {
-        backnang
-        bruchsal
-        durlach
+        bitche
         heidelberg
-        heilbronn
-        ohringen
-        sinsheim
-        vaihingen
+        kaiserslautern
+        landau_rhineland
+        leiningen
+        neustadt_an_der_haardt
+        pirmasens
+        speyer
+        worms
+        zweibrucken
     }
 }
 
@@ -947,6 +1001,21 @@ AULER = {
     }
 }
 
+AUTEN = {
+    color = { 98 126 203 }
+    culture = autenii
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        athenry
+        clifden
+        galway
+        kilconnell
+        tuam
+    }
+}
+
 AUTRI = {
     color = { 147 48 197 }
     culture = autrigones
@@ -995,6 +1064,23 @@ BAEDU = {
     own_control_core = {
         betanzos
         coruna
+    }
+}
+
+BAETA = {
+    color = { 42 47 203 }
+    culture = baetasii
+    religion = gaulish_pagan
+    discovered_regions = { north_german_region }
+
+    own_control_core = {
+        cuijk
+        eindhoven
+        geldern
+        helmond
+        hertogenbosch
+        neuss
+        venlo
     }
 }
 
@@ -1180,9 +1266,60 @@ BLETO = {
 }
 
 BOLI = {
+    color = { 22 60 22 }
+    culture = boii
+    religion = gaulish_pagan
+    discovered_regions = { north_german_region south_german_region }
+
+    own_control_core = {
+        bad_ischl
+        bechyne
+        benesov
+        beroun
+        bischofshofen
+        caslav
+        decin
+        domazlice
+        frydlant
+        gmunden
+        hallein
+        kirchdorf
+        klatovy
+        kourim
+        kutna_hora
+        liezen
+        linz
+        litomerice
+        loket
+        mlada_boleslav
+        most
+        nemecky_brod
+        passau
+        pernstejn
+        pisek
+        plzen
+        prachen
+        prague
+        rakovnik
+        salzburg
+        schladming
+        slany
+        st_georgen
+        steyr
+        tachov
+        tepla
+        turnov
+        usti_nad_labem
+        wels
+        zatec
+        zittau
+    }
+}
+
+BOLI1 = {
     color = { 62 208 89 }
-    culture = terramare
-    religion = italic_pagan
+    culture = boii
+    religion = gaulish_pagan
     discovered_regions = { italy_region }
 
     own_control_core = {
@@ -1293,6 +1430,30 @@ BRENA = {
     }
 }
 
+BRIGA = {
+    color = { 87 195 65 }
+    culture = brigantes
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region ireland_region }
+
+    own_control_core = {
+        bedale
+        carrickbeg
+        chesterfield
+        doncaster
+        glossop
+        leeds
+        pontefract
+        retford
+        richmond
+        ripon
+        selby
+        wakefield
+        waterford
+        york
+    }
+}
+
 BYBLO = {
     color = { 220 56 176 }
     culture = phoenician
@@ -1344,6 +1505,32 @@ CAEMA = {
     }
 }
 
+CAERA = {
+    color = { 79 216 191 }
+    culture = caeracatis
+    religion = britannic_pagan
+    discovered_regions = { south_german_region }
+
+    own_control_core = {
+        germersheim
+        haguenau
+        lichtenberg
+    }
+}
+
+CAERE = {
+    color = { 54 206 135 }
+    culture = caereni
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        durness
+        thurso
+        tongue
+    }
+}
+
 CAERO = {
     color = { 202 177 63 }
     culture = caerosi
@@ -1357,10 +1544,8 @@ CAERO = {
         castellaun
         cochem
         daun
-        katzenelnbogen
         kreuznach
         luxembourg
-        mainz
         saarburg
         simmern
         trier
@@ -1378,6 +1563,25 @@ CALAD = {
         monterrey
         ourense
         ribadavia
+    }
+}
+
+CALED = {
+    color = { 68 96 207 }
+    culture = caledones
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        aberfeldy
+        badenoch
+        dumbarton
+        forfar
+        inverness
+        lochaber
+        scone
+        stirling
+        strathearn
     }
 }
 
@@ -1529,6 +1733,18 @@ CARNI = {
     }
 }
 
+CARNO = {
+    color = { 77 49 216 }
+    culture = carnonacae
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        gairloch
+        ullapool
+    }
+}
+
 CARNU = {
     color = { 189 61 95 }
     culture = carnutes
@@ -1560,6 +1776,35 @@ CARTI = {
     }
 }
 
+CARWE = {
+    color = { 67 79 214 }
+    culture = carwetii
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        cockermouth
+        egremont
+        kendal
+        lancaster
+        skipton
+    }
+}
+
+CASSI = {
+    color = { 107 40 195 }
+    culture = cassi
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        bedford
+        dunstable
+        huntingdon
+        kettering
+    }
+}
+
 CATUW = {
     color = { 32 203 163 }
     culture = catuwellaunoi
@@ -1579,11 +1824,17 @@ CAUCI = {
     color = { 74 222 123 }
     culture = cauci
     religion = iberian_pagan
-    discovered_regions = { iberia_region }
+    discovered_regions = { iberia_region ireland_region }
 
     own_control_core = {
         arevalo
+        drogheda
+        dublin
+        fingal
+        kildare
         medina_del_campo
+        naas
+        navan
         salamanca
         toro
     }
@@ -1636,6 +1887,21 @@ CELTI = {
     }
 }
 
+CENOM = {
+    color = { 220 67 56 }
+    culture = cenomagni
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        cambridge
+        hertford
+        royston
+        st_albans
+        walden
+    }
+}
+
 CIBAR = {
     color = { 155 48 217 }
     culture = cibarci
@@ -1644,6 +1910,19 @@ CIBAR = {
 
     own_control_core = {
         mondonedo
+    }
+}
+
+CLAHI = {
+    color = { 54 191 186 }
+    culture = clahilic
+    religion = britannic_pagan
+    discovered_regions = { south_german_region }
+
+    own_control_core = {
+        erbach_swabia
+        riedlingen
+        urach
     }
 }
 
@@ -1726,6 +2005,26 @@ CONSG = {
     }
 }
 
+CORIE = {
+    color = { 200 76 187 }
+    culture = corieltauvi
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        boston
+        grantham
+        grimsby
+        leicester
+        lincoln
+        loughborough
+        louth
+        newark
+        nottingham
+        rutland
+    }
+}
+
 CORIO = {
     color = { 217 187 38 }
     culture = armorican
@@ -1739,6 +2038,54 @@ CORIO = {
         ploermel
         saint_brieuc
         saint_malo
+    }
+}
+
+CORI1 = {
+    color = { 212 109 84 }
+    culture = coriondi
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        carlow
+        ferns
+        new_ross
+        wexford
+    }
+}
+
+CORNO = {
+    color = { 213 83 126 }
+    culture = cornovii
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        bideford
+        bodmin
+        launceston
+        truro
+    }
+}
+
+CORN1 = {
+    color = { 169 75 206 }
+    culture = cornowii
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        birmingham
+        bosworth
+        chester
+        derby
+        macclesfield
+        nantwich
+        shrewsbury
+        stafford
+        stoke
+        tamworth
     }
 }
 
@@ -1761,6 +2108,19 @@ CRATI = {
     }
 }
 
+CREON = {
+    color = { 63 198 175 }
+    culture = creones
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        ardtornish
+        mull
+        skye
+    }
+}
+
 DAESI = {
     color = { 202 162 18 }
     culture = central_bosnian
@@ -1780,6 +2140,38 @@ DAESI = {
         srb
         virovitica
         zagreb
+    }
+}
+
+DALIT = {
+    color = { 179 66 205 }
+    culture = daliterni
+    religion = britannic_pagan
+    discovered_regions = { south_german_region }
+
+    own_control_core = {
+        hachberg
+        oberkirch
+        oberndorf
+        offenburg
+        villingen
+    }
+}
+
+DAMNO = {
+    color = { 68 218 213 }
+    culture = damnonii
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        edinburgh
+        glasgow
+        irvine
+        lanark
+        linlithgow
+        paisley
+        selkirk
     }
 }
 
@@ -1834,6 +2226,62 @@ DARDN = {
         visegrad
         visesav
         zica
+    }
+}
+
+DARIN = {
+    color = { 141 51 209 }
+    culture = darini
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        ballymena
+        belfast
+        carrickfergus
+        downpatrick
+        newtownards
+    }
+}
+
+DECAN = {
+    color = { 203 58 130 }
+    culture = decantae
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        dingwall
+        urquhart
+    }
+}
+
+DECEA = {
+    color = { 115 214 61 }
+    culture = deceangli
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        flint
+        llangollen
+        oswestry
+    }
+}
+
+DEMET = {
+    color = { 197 135 73 }
+    culture = demetae
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        aberystwyth
+        cardigan
+        carmarthen
+        fishguard
+        kidwelly
+        pembroke
     }
 }
 
@@ -1892,6 +2340,28 @@ DOBER = {
     }
 }
 
+DOBUN = {
+    color = { 176 216 65 }
+    culture = dobunni
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        banbury
+        bristol
+        cheltenham
+        cirencester
+        coventry
+        ewyas
+        gloucester
+        hereford
+        kidderminster
+        monmouth
+        stratford
+        worcester
+    }
+}
+
 DOLOP = {
     color = { 182 58 60 }
     culture = mycenaean
@@ -1903,6 +2373,67 @@ DOLOP = {
         karditsa
         karpenisi
         pyli
+    }
+}
+
+DUMNA = {
+    color = { 89 89 207 }
+    culture = dumnanii
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        harris
+        lewis
+        uist
+    }
+}
+
+DUMNO = {
+    color = { 201 168 89 }
+    culture = dumnonii
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        bampton
+        barnstaple
+        exeter
+        minehead
+        okehampton
+        plymouth
+        taunton
+    }
+}
+
+DUROT = {
+    color = { 157 53 222 }
+    culture = durotriges
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        bath
+        dorchester
+        lymington
+        poole
+        shaftesbury
+        trowbridge
+        wells
+        weymouth
+    }
+}
+
+EBODA = {
+    color = { 59 178 196 }
+    culture = ebodanii
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        carrickmacross
+        dundalk
+        oriel
     }
 }
 
@@ -1918,26 +2449,16 @@ EBURO = {
         bergheim
         bonn
         bree
-        coblenz
         cologne
         duren
-        dusseldorf
-        eindhoven
-        geldern
         hasselt
         heinsberg
-        helmond
         maastricht
         mayen
         monchengladbach
-        neuss
         roermond
         schleiden
-        siegburg
-        solingen
-        venlo
         weert
-        wied
     }
 }
 
@@ -2030,6 +2551,22 @@ EPANT = {
     }
 }
 
+EPIDI = {
+    color = { 37 203 40 }
+    culture = epidii
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        arran
+        cowal
+        inverary
+        islay
+        kintyre
+        oban
+    }
+}
+
 EPORA = {
     color = { 72 82 224 }
     culture = epora
@@ -2040,6 +2577,44 @@ EPORA = {
         almodovar_del_campo
         calatrava
         puertollano
+    }
+}
+
+ERAVI = {
+    color = { 211 74 86 }
+    culture = eravisci
+    religion = gaulish_pagan
+    discovered_regions = { carpathia_region south_german_region }
+
+    own_control_core = {
+        fehervar
+        furstenfeld
+        gyor
+        kapuvar
+        kormend
+        olsnica
+        papa
+        szombathely
+        tata
+        vasvar
+        zalavar
+    }
+}
+
+ERDIN = {
+    color = { 205 133 45 }
+    culture = erdin
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        belcoo
+        dromahair
+        enniskillen
+        killeshandra
+        leitrim
+        skreen
+        sligo
     }
 }
 
@@ -2146,6 +2721,21 @@ GABAL = {
     }
 }
 
+GABRA = {
+    color = { 157 76 214 }
+    culture = gabrantovices
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        bridlington
+        hull
+        norton
+        scarborough
+        whitby
+    }
+}
+
 GALLI = {
     color = { 42 213 45 }
     culture = galli
@@ -2157,6 +2747,21 @@ GALLI = {
         jaca
         sos
         tudela
+    }
+}
+
+GANGA = {
+    color = { 202 181 43 }
+    culture = gangani
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        adare
+        bunratty
+        ennis
+        limerick
+        moyarta
     }
 }
 
@@ -2229,6 +2834,17 @@ HABIR = {
         qutayfah
         salkhad
         suwayda
+    }
+}
+
+HAEMO = {
+    color = { 163 81 205 }
+    culture = haemodaei
+    religion = britannic_pagan
+    discovered_regions = { north_atlantic_islands_region }
+
+    own_control_core = {
+        shetland
     }
 }
 
@@ -2384,6 +3000,24 @@ IBOLC = {
     }
 }
 
+ICENE = {
+    color = { 61 51 193 }
+    culture = icenes
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        ely
+        fakenham
+        lowestoft
+        lynn
+        norwich
+        spalding
+        thetford
+        yarmouth
+    }
+}
+
 ILIPA = {
     color = { 218 82 191 }
     culture = ilipa
@@ -2476,6 +3110,38 @@ IREUC = {
     own_control_core = {
         meda
         trancoso
+    }
+}
+
+IWERN = {
+    color = { 203 77 126 }
+    culture = iwerni
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        ardagh
+        ballymore
+        cashel
+        castleconnell
+        clonmel
+        cullahill
+        daingean
+        dunamase
+        dunhallow
+        fermoy
+        kilbrittain
+        kilkenny
+        killmallock
+        longford
+        moycarn
+        mullingar
+        muskerry
+        nenagh
+        roscrea
+        tipperary
+        trim
+        tullamore
     }
 }
 
@@ -2753,6 +3419,25 @@ LEPON = {
     }
 }
 
+LEUCI = {
+    color = { 95 218 73 }
+    culture = leuci
+    religion = gaulish_pagan
+    discovered_regions = { france_region }
+
+    own_control_core = {
+        bar_sur_aube
+        bar_sur_seine
+        brienne
+        chaumont
+        choiseul
+        grancey
+        la_mothe_en_bassigny
+        langres
+        troyes
+    }
+}
+
 LEUNI = {
     color = { 53 182 70 }
     culture = leuni
@@ -2852,6 +3537,19 @@ LOBET = {
     }
 }
 
+LOPOC = {
+    color = { 112 74 227 }
+    culture = lopocares
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        darlington
+        durham
+        stockton
+    }
+}
+
 LOUGE = {
     color = { 147 199 56 }
     culture = lougei
@@ -2863,6 +3561,17 @@ LOUGE = {
         ponferrada
         viana_bolo
         villafranca_bierzo
+    }
+}
+
+LUGI = {
+    color = { 155 60 195 }
+    culture = lugi
+    religion = gaulish_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        dornoch
     }
 }
 
@@ -2944,6 +3653,19 @@ MALAK = {
 
     own_control_core = {
         malaga
+    }
+}
+
+MANAK = {
+    color = { 204 213 48 }
+    culture = manakwi
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        athy
+        glendalough
+        wicklow
     }
 }
 
@@ -3037,6 +3759,37 @@ MASA = {
     }
 }
 
+MEDIO = {
+    color = { 39 75 196 }
+    culture = mediomateres
+    religion = gaulish_pagan
+    discovered_regions = { france_region south_german_region }
+
+    own_control_core = {
+        bar_le_duc
+        benfeld
+        epinal
+        joinville
+        ligny
+        luneville
+        mirecourt
+        morhange
+        nancy
+        neufchateau_des_vosges
+        saarwerden
+        saint_die
+        saint_mihiel
+        salm
+        sarrebourg
+        strasbourg
+        toul
+        vaucouleurs
+        vic_sur_seille
+        vitry_en_pertois
+        zabern
+    }
+}
+
 MELDI = {
     color = { 112 48 197 }
     culture = meldi
@@ -3088,6 +3841,20 @@ MENTE = {
         cazorla
         segura_de_la_sierra
         villapalacios
+    }
+}
+
+METAN = {
+    color = { 59 95 196 }
+    culture = metantii
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        blackburn
+        liverpool
+        manchester
+        preston
     }
 }
 
@@ -3197,6 +3964,28 @@ MOLOS = {
     }
 }
 
+MONAK = {
+    color = { 211 49 160 }
+    culture = monakwi
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        mann
+    }
+}
+
+MONE = {
+    color = { 63 52 223 }
+    culture = mone
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        anglesey
+    }
+}
+
 MORIN = {
     color = { 194 64 196 }
     culture = morini
@@ -3207,6 +3996,23 @@ MORIN = {
         boulogne_sur_mer
         calais
         saint_omer
+    }
+}
+
+NAGNA = {
+    color = { 78 128 212 }
+    culture = nagnatae
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        athlone
+        ballaghaderreen
+        burrishoole
+        castlebar
+        castlereagh
+        erris
+        roscommon
     }
 }
 
@@ -3235,6 +4041,28 @@ NEMET = {
     own_control_core = {
         barcelos
         guimaraes
+    }
+}
+
+NEME1 = {
+    color = { 132 207 89 }
+    culture = nemetes
+    religion = gaulish_pagan
+    discovered_regions = { south_german_region }
+
+    own_control_core = {
+        ansbach
+        beilngries
+        dillingen
+        dinkelsbuhl
+        eichstatt
+        gunzburg
+        neuburg_an_der_donau
+        neumarkt
+        nuremberg
+        schwabach
+        ulm
+        weissenburg
     }
 }
 
@@ -3314,6 +4142,21 @@ NORIC = {
         volkermarkt
         winklern
         wolfsberg
+    }
+}
+
+NOVAN = {
+    color = { 20 108 21 }
+    culture = novantae
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        ayr
+        dumfries
+        kenmure
+        kirkcudbright
+        stranraer
     }
 }
 
@@ -3439,6 +4282,39 @@ ORCHO = {
     }
 }
 
+ORCII = {
+    color = { 64 206 180 }
+    culture = orcii
+    religion = britannic_pagan
+    discovered_regions = { north_atlantic_islands_region }
+
+    own_control_core = {
+        orkney
+    }
+}
+
+ORDOW = {
+    color = { 159 52 183 }
+    culture = ordowici
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        brecknock
+        builth
+        carnarvon
+        conwy
+        denbigh
+        harlech
+        ludlow
+        machynlleth
+        montgomery
+        penllyn
+        radnor
+        wigmore
+    }
+}
+
 ORNIA = {
     color = { 208 185 37 }
     culture = orniaci
@@ -3495,6 +4371,26 @@ OSCAN = {
         santangelo
         trivento
         vallo
+    }
+}
+
+OSII = {
+    color = { 197 50 210 }
+    culture = osii
+    religion = gaulish_pagan
+    discovered_regions = { carpathia_region south_german_region }
+
+    own_control_core = {
+        bratislava
+        bruck_leitha
+        ganserndorf
+        komarom
+        magyarovar
+        mistelbach
+        nitra
+        samorin
+        stary_tekov
+        trnava
     }
 }
 
@@ -3801,6 +4697,24 @@ RAETI = {
     }
 }
 
+RAURA = {
+    color = { 51 204 196 }
+    culture = raurac
+    religion = gaulish_pagan
+    discovered_regions = { france_region south_german_region }
+
+    own_control_core = {
+        arches
+        belfort
+        darney
+        ferrette
+        gray
+        luxeuil
+        montbozon
+        vesoul
+    }
+}
+
 REDON = {
     color = { 65 130 220 }
     culture = armorican
@@ -3856,6 +4770,21 @@ RHODE = {
     own_control_core = {
         karpathos
         rodos
+    }
+}
+
+RODOG = {
+    color = { 85 154 211 }
+    culture = rodogbi
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        ballycastle
+        coleraine
+        derry
+        dunluce
+        magherafelt
     }
 }
 
@@ -4081,6 +5010,21 @@ SEARE = {
     }
 }
 
+SEGON = {
+    color = { 204 202 40 }
+    culture = segontiaci
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        aylesbury
+        buckingham
+        daventry
+        northampton
+        oxford
+    }
+}
+
 SEGUS = {
     color = { 88 62 218 }
     culture = gaulish
@@ -4117,6 +5061,19 @@ SEHA = {
         menemen
         soma
         susurluk
+    }
+}
+
+SELGO = {
+    color = { 210 91 107 }
+    culture = selgowii
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        billingham
+        carlisle
+        roxburgh
     }
 }
 
@@ -4267,6 +5224,21 @@ SICEL = {
         piazza
         syracuse
         terranovasic
+    }
+}
+
+SILOR = {
+    color = { 61 214 155 }
+    culture = siloriks
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        caerphilly
+        cardiff
+        neath
+        newport
+        swansea
     }
 }
 
@@ -4438,6 +5410,19 @@ SUTU = {
     }
 }
 
+TAEXA = {
+    color = { 159 46 204 }
+    culture = taexali
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        aberdeen
+        buchan
+        inverurie
+    }
+}
+
 TALUR = {
     color = { 200 40 112 }
     culture = talures
@@ -4566,6 +5551,40 @@ TAURI = {
     }
 }
 
+TEKTO = {
+    color = { 34 58 24 }
+    culture = tektosages
+    religion = gaulish_pagan
+    discovered_regions = { carpathia_region }
+
+    own_control_core = {
+        abrahamtelke
+        felegyhaza
+        halas
+        kalocsa
+        karcag
+        kecskemet
+        solt
+        szeged
+        szolnok
+    }
+}
+
+TENCT = {
+    color = { 190 60 157 }
+    culture = tencteri
+    religion = gaulish_pagan
+    discovered_regions = { north_german_region }
+
+    own_control_core = {
+        dulmen
+        horstmar
+        munster
+        rheine
+        tecklenburg
+    }
+}
+
 TESPR = {
     color = { 82 201 64 }
     culture = mycenaean
@@ -4579,6 +5598,19 @@ TESPR = {
     }
 }
 
+TESTW = {
+    color = { 214 41 151 }
+    culture = testwerdi
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        appleby
+        hexham
+        penrith
+    }
+}
+
 TEUCO = {
     color = { 32 207 59 }
     culture = teucor
@@ -4588,6 +5620,36 @@ TEUCO = {
     own_control_core = {
         saint_avold
         sarreguemines
+    }
+}
+
+TEURI = {
+    color = { 140 205 55 }
+    culture = teurisc
+    religion = gaulish_pagan
+    discovered_regions = { carpathia_region }
+
+    own_control_core = {
+        baia_mare
+        baita
+        beregovo
+        bistrita
+        cuhea
+        dej
+        hodod
+        khust
+        mezhorje
+        mukachevo
+        nagyecsed
+        rakhiv
+        sighet
+        syvlyush
+        szatmar
+        uzhorod
+        varda
+        vatra_dornei
+        velikyi_bereznyi
+        zemplin
     }
 }
 
@@ -4629,6 +5691,17 @@ THRAC = {
     }
 }
 
+THULE = {
+    color = { 51 167 193 }
+    culture = thule
+    religion = britannic_pagan
+    discovered_regions = { north_atlantic_islands_region }
+
+    own_control_core = {
+        torshavn
+    }
+}
+
 TIGUL = {
     color = { 206 111 59 }
     culture = tigulin
@@ -4666,6 +5739,19 @@ TITTI = {
     own_control_core = {
         almazan
         berlanga
+    }
+}
+
+TOLIS = {
+    color = { 41 219 62 }
+    culture = tolistoboioi
+    religion = gaulish_pagan
+    discovered_regions = { carpathia_region }
+
+    own_control_core = {
+        baja_hungary
+        titel
+        zenta
     }
 }
 
@@ -4717,6 +5803,29 @@ TREWE = {
     }
 }
 
+TRIBO = {
+    color = { 40 173 210 }
+    culture = tribocc
+    religion = gaulish_pagan
+    discovered_regions = { south_german_region }
+
+    own_control_core = {
+        baden
+        calw
+        durlach
+        ellwangen
+        goppingen
+        heidenheim
+        helfenstein
+        horb
+        nagold
+        oettingen
+        stuttgart
+        tubingen
+        welzheim
+    }
+}
+
 TRICA = {
     color = { 205 98 71 }
     culture = tricasses
@@ -4726,6 +5835,36 @@ TRICA = {
     own_control_core = {
         etampes
         melun
+    }
+}
+
+TRINO = {
+    color = { 76 225 150 }
+    culture = trinovantes
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        bury
+        chelmsford
+        colchester
+        hedingham
+        ipswich
+        lavenham
+        prittlewell
+    }
+}
+
+TROKM = {
+    color = { 197 52 81 }
+    culture = trokmoi
+    religion = gaulish_pagan
+    discovered_regions = { balkan_region carpathia_region }
+
+    own_control_core = {
+        bacs
+        ilok
+        vukovar
     }
 }
 
@@ -4778,6 +5917,37 @@ TUDIP = {
     own_control_core = {
         villanueva_de_la_serena
         zalamea
+    }
+}
+
+TULIN = {
+    color = { 56 178 127 }
+    culture = tulingi
+    religion = gaulish_pagan
+    discovered_regions = { south_german_region }
+
+    own_control_core = {
+        balingen
+        biberach
+        hohenberg
+        saulgau
+        sigmaringen
+    }
+}
+
+TUNGR = {
+    color = { 40 200 40 }
+    culture = tungri
+    religion = gaulish_pagan
+    discovered_regions = { north_german_region }
+
+    own_control_core = {
+        ahaus
+        doetinchem
+        kleve
+        mors
+        recklinghausen
+        wesel
     }
 }
 
@@ -4878,41 +6048,25 @@ UBI = {
     discovered_regions = { north_german_region south_german_region }
 
     own_control_core = {
-        aschach
         aschaffenburg
         bensheim
-        bruckenau
         buchen
         budingen
-        coburg
+        coblenz
         darmstadt
         diez
         erbach
         frankfurt
-        friedberg_hesse
-        fulda
-        giessen
-        hadamar
         hanau
-        hassfurt
-        hildburghausen
-        hunfeld
         karlstadt
-        konigshofen
-        lauterbach
-        lichtenfels
+        katzenelnbogen
         lohr
-        meiningen
-        mellrichstadt
+        mainz
         miltenberg
         mosbach
-        nidda
         offenbach
-        schleusingen
-        schweinfurt
         tauberbischofsheim
         usingen
-        wetzlar
         wiesbaden
         wurzburg
     }
@@ -4927,6 +6081,35 @@ UELAU = {
     own_control_core = {
         brioude
         saint_flour
+    }
+}
+
+UELLA = {
+    color = { 86 210 111 }
+    culture = uellabori
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        carbery
+        dingle
+        killarney
+        tralee
+    }
+}
+
+UENNI = {
+    color = { 65 198 63 }
+    culture = uennicnii
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        donegal
+        inishowen
+        kilmacrennan
+        raphoe
+        strabane
     }
 }
 
@@ -4952,6 +6135,24 @@ ULIBA = {
         bitlis
         hizan
         mus
+    }
+}
+
+ULUTI = {
+    color = { 202 181 43 }
+    culture = uluti
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        armagh
+        cavan
+        clogher
+        dungannon
+        iveagh
+        kells
+        killycolly
+        monaghan
     }
 }
 
@@ -4984,6 +6185,20 @@ UNELL = {
         cherbourg
         jersey
         st_sauveur
+    }
+}
+
+UPERA = {
+    color = { 188 199 92 }
+    culture = uperaci
+    religion = britannic_pagan
+    discovered_regions = { south_german_region }
+
+    own_control_core = {
+        berchtesgaden
+        saalfelden
+        st_johann
+        zell_am_see
     }
 }
 
@@ -5052,6 +6267,20 @@ URSO = {
     }
 }
 
+USDIA = {
+    color = { 58 207 68 }
+    culture = usdiae
+    religion = britannic_pagan
+    discovered_regions = { ireland_region }
+
+    own_control_core = {
+        cork
+        dungarvan
+        kinsale
+        youghal
+    }
+}
+
 VACCA = {
     color = { 187 102 62 }
     culture = vaccaei
@@ -5084,6 +6313,29 @@ VADRU = {
         salvatierra
         san_sebastian
         tolosa
+    }
+}
+
+VANGI = {
+    color = { 166 199 82 }
+    culture = vangiones
+    religion = gaulish_pagan
+    discovered_regions = { south_german_region }
+
+    own_control_core = {
+        backnang
+        bruchsal
+        crailsheim
+        hall
+        heilbronn
+        kitzingen
+        mergentheim
+        neustadt
+        ohringen
+        rothenburg
+        sinsheim
+        uffenheim
+        vaihingen
     }
 }
 
@@ -5181,6 +6433,24 @@ VENET = {
         venice
         verona
         vicenza
+    }
+}
+
+VENIC = {
+    color = { 42 170 213 }
+    culture = venicones
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        arbroath
+        clackmannan
+        cupar
+        dundee
+        dunfermline
+        perth
+        st_andrews
+        stonehaven
     }
 }
 
@@ -5305,6 +6575,33 @@ VOLAR = {
     }
 }
 
+VOLCA = {
+    color = { 210 40 40 }
+    culture = volcae
+    religion = gaulish_pagan
+    discovered_regions = { north_german_region south_german_region }
+
+    own_control_core = {
+        bautzen
+        bitov
+        budejovice
+        dacice
+        dresden
+        freiberg
+        husinec
+        j_hradec
+        jihlava
+        krumlov
+        marienstern
+        meissen
+        pirna
+        rohrbach
+        sayda
+        trebon
+        waidhofen_an_der_thaya
+    }
+}
+
 VOLSC = {
     color = { 91 106 205 }
     culture = ausonian
@@ -5353,6 +6650,22 @@ VOLTI = {
     }
 }
 
+VOTAD = {
+    color = { 71 138 215 }
+    culture = votadin
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        alnwick
+        berwick
+        dunbar
+        duns
+        morpeth
+        newcastle
+    }
+}
+
 WALAN = {
     color = { 155 210 45 }
     culture = mede
@@ -5395,6 +6708,19 @@ WILUS = {
         manyas
         mihalic
         rodoscuk
+    }
+}
+
+WOCOM = {
+    color = { 193 218 68 }
+    culture = wocomiugi
+    religion = britannic_pagan
+    discovered_regions = { great_britain_region }
+
+    own_control_core = {
+        banff
+        elgin
+        mar
     }
 }
 
