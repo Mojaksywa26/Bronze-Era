@@ -158,7 +158,7 @@ warrior_aristocracy_advance = {
 	icon = a_footmen
 		
 	unlock_unit = a_champions
-	unlock_estate_privilege = warrior_elites
+	unlock_estate_privilege = noble_leaders_only
 	
 	depth = 0
 
