@@ -41,6 +41,38 @@ bronze_age_bronze_foundry = {
 	custom_tags = { workshop bronze_age_industry }
 }
 
+# A lower-tier bronze production building for low-development areas. Employs peasants.
+bronze_age_bronze_forge = {
+	is_foreign = no
+	pop_type = peasants
+	max_levels = workshop_max_level
+
+	category = basic_industry_category
+	employment_size = workshop_employment
+
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	build_time = workshop_build_time
+	construction_demand = workshop_construction
+
+	unique_production_methods = {
+		bronze_age_small_scale_bronze_prod = {
+			copper = 0.5
+			tin = 0.04
+			produced = bronze_age_bronze
+			output = 0.05
+
+			debug_max_profit = 0.30
+			category = workshop_input
+		}
+
+	}
+
+	custom_tags = { workshop bronze_age_industry }
+}
+
 # Vanilla tools buildings with Bronze Age recipes added.  These overrides keep
 # the vanilla recipes intact while adding a true Bronze -> Tools chain.
 tools_guild = {
