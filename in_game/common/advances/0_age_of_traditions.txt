@@ -13,6 +13,20 @@ written_alphabet = {
 	
 }
 
+#This tech's effects are a placeholder, please ignore or advise better
+settlements_advance = {
+	age = age_1_traditions
+	icon = town_rights_advance
+	depth = 0
+	research_cost = 2.0
+	
+	food_purchase_cost = -0.1
+	
+	starting_technology_level = 2
+	
+}
+
+
 cultural_traditions_law_advance = {
 	age = age_1_traditions
 	requires = written_alphabet
@@ -121,6 +135,17 @@ palace_economy_advance = {
 	potential = {
 		has_tribal_government = no
 	}
+
+}
+
+workforce_specialization_advance = {
+	age = age_1_traditions
+	icon = meritocracy
+	
+	global_max_literacy = 2
+	global_monthly_literacy = 0.01
+
+	requires = palace_economy_advance
 
 }
 
