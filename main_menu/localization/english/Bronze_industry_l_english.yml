@@ -2,6 +2,9 @@
  bronze_age_bronze_foundry: "Bronze Foundry"
  bronze_age_bronze_foundry_desc: "A workshop of furnaces, crucibles and molds where copper is alloyed with precious tin to create bronze for palace economies, artisans and armorers."
 
+ bronze_age_bronze_forge: "Bronze Forge"
+ bronze_age_bronze_forge_desc: "In early Bronze Age societies, metalworking was still a household craft, with villagers casting tools and weapons for their own use rather than relying on professional smiths."
+
  bronze_age_bronze: "Bronze"
  bronze_age_bronze_desc: "Bronze is an alloy of copper and tin, prized for tools, weapons, fittings and prestige objects. Its production depends on fragile long-distance tin routes."
 
@@ -14,6 +17,15 @@
  bronze_age_bronze_shortage: "Tin Shortage Smelting"
  bronze_age_bronze_shortage_desc: "Tin routes are unreliable. The foundry stretches copper stocks, recycles scrap and produces only a small quantity of usable bronze."
 
+ tools_maker: "Local Tools Maker"
+ tools_maker_desc: "In the early Bronze Age, tool production is a household craft. Villagers cast simple tools for their own use, without the specialization or scale of organized labor."
+
+ tools_guild: "Royal Tools Workshop"
+ tools_guild_desc: "The great task of building a prosperous domain requires the finest tools and equipment. The royal tools workshop is a dedicated facility where skilled craftsmen and artisans create high-quality tools and implements for distribution according to the orders from the Palace."
+
+ weapon_guild: "Royal Weapon Workshop"  
+ weapon_guild_desc: "The great task of building a prosperous domain requires the finest weapons and equipment. The royal weapon workshop is a dedicated facility where skilled craftsmen and artisans create high-quality weapons and implements for distribution according to the orders from the Palace."
+
  bronze_age_tools_bronze_recipe: "Bronze Tool Production"
  bronze_age_tools_bronze_recipe_desc: "Artisans cast bronze blades, chisels, awls and agricultural tools. The method is effective for the Bronze Age, but less scalable than later iron industries."
 
@@ -25,3 +37,18 @@
 
  bronze_age_weapons_workshop_bronze_recipe: "Bronze Weapons Workshop"
  bronze_age_weapons_workshop_bronze_recipe_desc: "Specialized smiths shape bronze into weapons for palace arsenals and aristocratic retinues."
+
+ metalwork_tools_maker_maintenance: "Local Iron Tools Production"
+ metalwork_tools_maker_maintenance_desc: "The local tools maker produces iron tools, but the quality is inconsistent and the output is limited by the scarcity of iron ore and the lack of advanced smelting oven."
+
+ bronze_tools_maker_maintenance: "Local Bronze Tools Production"
+ bronze_tools_maker_maintenance_desc: "The local tools maker produces bronze tools, but the output is limited by the supply of imported tin and the lack of advanced smelting ovens."
+
+ stone_tools_maker_maintenance: "Local Stone Tools Production"
+ stone_tools_maker_maintenance_desc: "The local tools maker produces stone tools."
+
+ copper_tools_maker_maintenance: "Local Copper Tools Production" 
+ copper_tools_maker_maintenance_desc: "The local tools maker produces copper tools."
+
+ bronze_age_small_scale_bronze_prod: "Local Bronze Smelting"
+ bronze_age_small_scale_bronze_prod_desc: "The local forge produces a small quantity of bronze."

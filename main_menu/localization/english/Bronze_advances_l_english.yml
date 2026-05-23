@@ -11,7 +11,7 @@
  long_distance_trade_advance: "Long-Distance Trade Networks"
  long_distance_trade_advance_desc: "Long-distance trade networks refer to the complex systems of trade and commerce that connect different regions and civilizations across vast distances. These networks facilitate the exchange of goods, ideas, and cultural influences between societies."
 
- bronze_forge_advance: "Metalworking Craftsmenship"
+ bronze_forge_advance: "Metalworking Craftsmanship"
  bronze_forge_advance_desc: "In early Bronze Age societies, metalworking was still a household craft, with villagers casting tools and weapons for their own use rather than relying on professional smiths."
 
  bronze_foundry_advance: "Bronze Foundry"
@@ -22,3 +22,12 @@
 
  settlements_advance: "Settlements"
  settlements_advance_desc: "Settlements refer to the establishment of permanent or semi-permanent communities where people live, work, and interact. These can range from small villages to large cities and are often characterized by the presence of infrastructure, social organization, and economic activities."
+
+ tools_maker_advance: "Toolmaking Traditions"
+ tools_maker_advance_desc: "In the early Bronze Age, tool production is a household craft. Villagers cast simple tools for their own use, without the specialization or scale of organized labor."
+
+ royal_tools_workshop_advance: "Royal Tools Workshop"
+ royal_tools_workshop_advance_desc: "The great task of building a prosperous domain requires the finest tools and equipment. The royal tools workshop is a dedicated facility where skilled craftsmen and artisans create high-quality tools and implements for distribution according to the orders from the Palace."
+
+ royal_weapon_workshop_advance: "Royal Weapon Workshop"
+ royal_weapon_workshop_advance_desc: "The great task of building a prosperous domain requires the finest weapons and equipment. The royal weapon workshop is a dedicated facility where skilled craftsmen and artisans create high-quality weapons and implements for distribution according to the orders from the Palace."
