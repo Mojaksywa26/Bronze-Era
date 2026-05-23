@@ -100,27 +100,5 @@ mycenaean_palace_is_fragmentation_vanguard = {
 }
 
 mycenaean_fragmentation_end_trigger = {
-	trigger_if = {
-		limit = {
-			exists = international_organization:mycenaean_league
-		}
-		international_organization:mycenaean_league = {
-			OR = {
-				total_members < 2
-				AND = {
-					var:mycenaean_league_authority >= 45
-					any_international_organization_member = {
-						mycenaean_palace_is_valid_landable_member = yes
-						count < 1
-					}
-				}
-				situation:mycenaean_fragmentation = {
-					years_since_situation_start > 25
-				}
-			}
-		}
-	}
-	trigger_else = {
-		NOT = { exists = international_organization:mycenaean_league }
-	}
+	NOT = { exists = international_organization:mycenaean_league }
 }

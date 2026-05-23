@@ -49,17 +49,23 @@ cb_mycenaean_high_wanax_reassert_authority = {
 cb_mycenaean_palace_struggle = {
 	create_visible = {
 		is_member_of_international_organization = international_organization:mycenaean_league
-		is_situation_active = situation:mycenaean_fragmentation
+		situation:mycenaean_fragmentation ?= {
+			has_variable = mycenaean_fragmentation_crisis_active
+		}
 	}
 
 	declare_enabled = {
 		is_member_of_international_organization = international_organization:mycenaean_league
-		is_situation_active = situation:mycenaean_fragmentation
+		situation:mycenaean_fragmentation ?= {
+			has_variable = mycenaean_fragmentation_crisis_active
+		}
 	}
 
 	create_enabled = {
 		is_member_of_international_organization = international_organization:mycenaean_league
-		is_situation_active = situation:mycenaean_fragmentation
+		situation:mycenaean_fragmentation ?= {
+			has_variable = mycenaean_fragmentation_crisis_active
+		}
 		scope:target = {
 			is_member_of_international_organization = international_organization:mycenaean_league
 		}

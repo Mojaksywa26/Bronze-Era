@@ -220,7 +220,11 @@ mycenaean_league = {
 	}
 
 	can_leave_trigger = {
-		NOT = { is_situation_active = situation:mycenaean_fragmentation }
+		NOT = {
+			situation:mycenaean_fragmentation ?= {
+				has_variable = mycenaean_fragmentation_crisis_active
+			}
+		}
 		NOT = { mycenaean_league_has_palace_house = yes }
 		scope:recipient = {
 			var:mycenaean_league_authority < 25
@@ -228,7 +232,11 @@ mycenaean_league = {
 	}
 
 	auto_leave_trigger = {
-		NOT = { is_situation_active = situation:mycenaean_fragmentation }
+		NOT = {
+			situation:mycenaean_fragmentation ?= {
+				has_variable = mycenaean_fragmentation_crisis_active
+			}
+		}
 		NOT = { mycenaean_league_has_palace_house = yes }
 		OR = {
 			in_civil_war = yes
@@ -262,6 +270,15 @@ mycenaean_league = {
 	}
 
 	monthly_effect = {
+		if = {
+			limit = {
+				situation:mycenaean_fragmentation = {
+					situation_is_active = no
+					situation_has_ended = no
+				}
+			}
+			activate_situation = situation:mycenaean_fragmentation
+		}
 		if = {
 			limit = { var:mycenaean_league_authority > 100 }
 			set_variable = { name = mycenaean_league_authority value = 100 }
@@ -448,7 +465,9 @@ mycenaean_league = {
 					}
 					if = {
 						limit = {
-							is_situation_active = situation:mycenaean_fragmentation
+							situation:mycenaean_fragmentation ?= {
+								has_variable = mycenaean_fragmentation_crisis_active
+							}
 						}
 						subtract = {
 							desc = MYCENAEAN_LEAGUE_FRAGMENTATION_CRISIS

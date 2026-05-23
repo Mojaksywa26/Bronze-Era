@@ -1,5 +1,5 @@
 mycenaean_call_megaron_council = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -7,6 +7,17 @@ mycenaean_call_megaron_council = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_call_megaron_council_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_call_megaron_council
@@ -44,7 +55,7 @@ mycenaean_call_megaron_council = {
 }
 
 mycenaean_sponsor_shared_sacrifice = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 30
@@ -52,6 +63,17 @@ mycenaean_sponsor_shared_sacrifice = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_sponsor_shared_sacrifice_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_sponsor_shared_sacrifice
@@ -89,7 +111,7 @@ mycenaean_sponsor_shared_sacrifice = {
 }
 
 mycenaean_send_linear_b_administrators = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -97,6 +119,17 @@ mycenaean_send_linear_b_administrators = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_send_linear_b_administrators_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_send_linear_b_administrators
@@ -134,7 +167,7 @@ mycenaean_send_linear_b_administrators = {
 }
 
 mycenaean_mediate_palace_rivalry = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -142,6 +175,17 @@ mycenaean_mediate_palace_rivalry = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_mediate_palace_rivalry_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_mediate_palace_rivalry
@@ -179,7 +223,7 @@ mycenaean_mediate_palace_rivalry = {
 }
 
 mycenaean_demand_bronze_tribute = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 30
@@ -187,6 +231,17 @@ mycenaean_demand_bronze_tribute = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_demand_bronze_tribute_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_demand_bronze_tribute
@@ -226,7 +281,7 @@ mycenaean_demand_bronze_tribute = {
 }
 
 mycenaean_summon_palace_levies = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 18
@@ -234,6 +289,17 @@ mycenaean_summon_palace_levies = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_summon_palace_levies_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_summon_palace_levies
@@ -272,7 +338,7 @@ mycenaean_summon_palace_levies = {
 }
 
 mycenaean_proclaim_pan_achaean_expedition = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 36
@@ -280,6 +346,17 @@ mycenaean_proclaim_pan_achaean_expedition = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_proclaim_pan_achaean_expedition_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_proclaim_pan_achaean_expedition
@@ -319,7 +396,7 @@ mycenaean_proclaim_pan_achaean_expedition = {
 }
 
 mycenaean_fortify_megara = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -327,6 +404,17 @@ mycenaean_fortify_megara = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_fortify_megara_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_fortify_megara
@@ -396,6 +484,18 @@ mycenaean_proclaim_palace_autonomy = {
 			at_war = no
 			is_subject = no
 			mycenaean_palace_has_valid_landable_location = yes
+			OR = {
+				situation:mycenaean_fragmentation ?= {
+					has_variable = mycenaean_fragmentation_crisis_active
+				}
+				international_organization:mycenaean_league = {
+					var:mycenaean_league_authority <= 25
+				}
+				AND = {
+					has_variable = mycenaean_palace_influence
+					var:mycenaean_palace_influence >= 45
+				}
+			}
 		}
 		trigger_if = {
 			limit = {
