@@ -6833,7 +6833,7 @@ countries = {
 
 		country_rank = rank_county
 
-		include = "Neolithic"
+		include = "eurasian_horde_no_muslim"
 
 		government = {
 			ruler = random
