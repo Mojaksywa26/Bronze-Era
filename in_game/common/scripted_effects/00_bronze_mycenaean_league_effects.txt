@@ -45,3 +45,159 @@ subtract_mycenaean_league_authority = {
 		}
 	}
 }
+
+# Converts an extraterritorial palace house into a normal country by handing
+# over the locations where it already owns the dominant palace-building network.
+# This mirrors the vanilla Japanese clan -> daimyo conversion flow.
+turn_mycenaean_palace_into_normal_tag = {
+	custom_tooltip = {
+		text = turn_mycenaean_palace_into_normal_tag.tt
+		change_country_type = location
+		save_temporary_scope_as = target_palace
+		every_owned_foreign_building_location = {
+			limit = {
+				mycenaean_palace_house_can_take_location = yes
+			}
+			change_location_owner = prev
+			add_core = prev
+			change_integration_level = core
+			if = {
+				limit = {
+					NOR = {
+						has_building = building_type:stockade
+						has_building = building_type:castle
+					}
+				}
+				change_building_level_in_location = {
+					building = building_type:stockade
+					value = 1
+				}
+			}
+		}
+		set_variable = { name = mycenaean_landed_palace value = 1 years = 30 }
+		set_variable = { name = mycenaean_palace_autonomy_claimed value = 1 years = 8 }
+		change_variable = { name = mycenaean_palace_influence add = 10 }
+	}
+	reverse_add_opinion = { modifier = bronze_mycenaean_palace_autonomy target = international_organization:mycenaean_league.leader_country }
+}
+
+# Reverses the process for small palace states defeated or reconciled by the
+# High Wanax: land returns to the league leader, while the old palace survives
+# as an extraterritorial political house.
+turn_mycenaean_palace_into_building_based = {
+	custom_tooltip = {
+		text = turn_mycenaean_palace_into_building_based.tt
+		save_temporary_scope_as = target_palace
+		every_owned_location = {
+			change_location_owner = international_organization:mycenaean_league.leader_country
+			add_core = international_organization:mycenaean_league.leader_country
+			change_building_level_in_location = {
+				building = building_type:bronze_age_palace_house
+				value = 1
+				owner = prev
+			}
+		}
+		change_country_type = building
+		remove_variable = mycenaean_landed_palace
+		remove_variable = mycenaean_palace_autonomy_claimed
+		if = {
+			limit = { NOT = { has_variable = mycenaean_palace_influence } }
+			set_variable = { name = mycenaean_palace_influence value = 0 }
+		}
+		change_variable = { name = mycenaean_palace_influence subtract = 20 }
+		if = {
+			limit = { var:mycenaean_palace_influence < 0 }
+			set_variable = { name = mycenaean_palace_influence value = 0 }
+		}
+	}
+	add_opinion = { modifier = bronze_mycenaean_reconciled_palace target = international_organization:mycenaean_league.leader_country }
+}
+
+mycenaean_fragmentation_reevaluate_strongest_palaces = {
+	international_organization:mycenaean_league ?= {
+		ordered_international_organization_member = {
+			order_by = {
+				add = { value = country_total_army_levy_size }
+				multiply = country_rank_level
+				add = {
+					value = army_size
+					multiply = 10
+				}
+				add = {
+					value = country_total_navy_levy_size
+					divide = 2
+				}
+				add = {
+					value = monthly_income_trade_and_tax
+					divide = 10
+				}
+				if = {
+					limit = { has_variable = mycenaean_palace_influence }
+					add = var:mycenaean_palace_influence
+				}
+				if = {
+					limit = {
+						has_special_status_in_international_organization = {
+							type = special_status:great_palace_candidate
+							international_organization = international_organization:mycenaean_league
+						}
+					}
+					add = 100
+				}
+				if = {
+					limit = {
+						has_special_status_in_international_organization = {
+							type = special_status:palace_candidate
+							international_organization = international_organization:mycenaean_league
+						}
+					}
+					add = 50
+				}
+			}
+			limit = {
+				this != international_organization:mycenaean_league.leader_country
+			}
+			max = 1
+			check_range_bounds = no
+			situation:mycenaean_fragmentation = {
+				set_variable = {
+					name = mycenaean_fragmentation_strongest_palace
+					value = prev
+				}
+			}
+		}
+		ordered_international_organization_member = {
+			order_by = {
+				add = { value = country_total_army_levy_size }
+				multiply = country_rank_level
+				add = {
+					value = army_size
+					multiply = 10
+				}
+				add = {
+					value = country_total_navy_levy_size
+					divide = 2
+				}
+				add = {
+					value = monthly_income_trade_and_tax
+					divide = 10
+				}
+				if = {
+					limit = { has_variable = mycenaean_palace_influence }
+					add = var:mycenaean_palace_influence
+				}
+			}
+			limit = {
+				this != international_organization:mycenaean_league.leader_country
+			}
+			position = 1
+			check_range_bounds = no
+			situation:mycenaean_fragmentation = {
+				set_variable = {
+					name = mycenaean_fragmentation_second_palace
+					value = prev
+				}
+			}
+		}
+	}
+}

@@ -17,6 +17,37 @@ international_organization_manager = {
 			RHODE
 			SPART
 			THEBE
+			ARGOS
+			TIRYN
+			CORIN
+			MEGAR
+			KNOSS
+			KYDON
+			ERETR
+			LARIS
+			SAMOS
+			CHIOS
+			NAXOS
+			MILET
+			KOS
+			CEPHA
+			ZAKYN
+			MILOS
+			MIDEA
+			GLA
+			IKLAI
+			NICHO
+			ASINE
+			AMYCL
+			PHAIS
+			MALIA
+			ZAKRO
+			KYTHR
+			LEFKA
+			ELEON
+			PHERA
+			PYTHO
+			OLYMP
 		}
 
 		leader = 0001G
@@ -44,6 +75,10 @@ international_organization_manager = {
 
 		great_palace_candidate = {
 			0001G
+			ARGOS
+			TIRYN
+			CORIN
+			KNOSS
 			PYLOS
 			SPART
 			THEBE
@@ -53,17 +88,48 @@ international_organization_manager = {
 			ATHEN
 			IOLC
 			ORCHO
+			MEGAR
+			KYDON
+			ERETR
+			LARIS
+			MILET
+			MIDEA
+			GLA
+			IKLAI
+			PHAIS
+			MALIA
+			ZAKRO
+			LEFKA
+			ELEON
+			PHERA
 		}
 
 		sanctuary_patron = {
 			0001G
 			ACHAE
+			ARGOS
+			CORIN
 			ORCHO
 			THEBE
+			PYTHO
+			OLYMP
 		}
 
 		island_wanaxate = {
+			KNOSS
+			KYDON
 			RHODE
+			SAMOS
+			CHIOS
+			NAXOS
+			KOS
+			CEPHA
+			ZAKYN
+			MILOS
+			PHAIS
+			MALIA
+			ZAKRO
+			KYTHR
 		}
 
 		palace_kingdom = {
@@ -75,6 +141,37 @@ international_organization_manager = {
 			RHODE
 			SPART
 			THEBE
+			ARGOS
+			TIRYN
+			CORIN
+			MEGAR
+			KNOSS
+			KYDON
+			ERETR
+			LARIS
+			SAMOS
+			CHIOS
+			NAXOS
+			MILET
+			KOS
+			CEPHA
+			ZAKYN
+			MILOS
+			MIDEA
+			GLA
+			IKLAI
+			NICHO
+			ASINE
+			AMYCL
+			PHAIS
+			MALIA
+			ZAKRO
+			KYTHR
+			LEFKA
+			ELEON
+			PHERA
+			PYTHO
+			OLYMP
 		}
 
 		laws = {

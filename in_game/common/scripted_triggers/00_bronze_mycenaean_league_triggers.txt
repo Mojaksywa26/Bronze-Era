@@ -2,6 +2,103 @@ current_mycenaean_league_authority = {
 	custom_description = {
 		text = current_mycenaean_league_authority_text
 		value = $value$
-		var:mycenaean_league_authority >= $value$
+		international_organization:mycenaean_league ?= {
+			var:mycenaean_league_authority >= $value$
+		}
 	}
+}
+
+# Common compatibility trigger for the palace-network model.
+# In the starting setup, most Mycenaean member states are type = building
+# countries with a bronze_age_palace_house instead of direct land ownership.
+mycenaean_league_has_palace_house = {
+	country_type = building
+	any_owned_foreign_building = {
+		building_type = building_type:bronze_age_palace_house
+	}
+}
+
+# Use inside international organization scopes where scope:recipient is the
+# Mycenaean League. This keeps the old league logic compatible with both
+# landed Mycenae and extraterritorial palace houses.
+mycenaean_league_palace_network_identity = {
+	OR = {
+		culture = culture:mycenaean
+		culture = culture:ionian
+		culture = culture:aeolian
+		culture = culture:dorian
+		culture = culture:arcadian
+		culture = culture:cycladic
+		culture = culture:minoan
+		mycenaean_league_has_palace_house = yes
+		any_owned_location = {
+			is_owned_by_international_organization = scope:recipient
+		}
+		AND = {
+			country_type = building
+			capital ?= {
+				is_owned_by_international_organization = scope:recipient
+			}
+		}
+	}
+}
+
+# Mycenaean version of the vanilla Japanese clan landing logic.
+# Building-based palace houses can become normal territorial countries only
+# where they already hold the strongest palace-building presence.
+mycenaean_palace_house_can_take_location = {
+	OR = {
+		has_owner = no
+		owner ?= {
+			OR = {
+				is_member_of_international_organization = international_organization:mycenaean_league
+				AND = {
+					exists = scope:loser
+					this = scope:loser
+				}
+			}
+		}
+	}
+	scope:target_palace = {
+		owns_most_foreign_buildings_in_location = prev
+	}
+}
+
+mycenaean_palace_has_valid_landable_location = {
+	custom_tooltip = {
+		text = mycenaean_palace_has_valid_landable_location.tt
+		save_temporary_scope_as = target_palace
+		any_owned_foreign_building_location = {
+			mycenaean_palace_house_can_take_location = yes
+		}
+	}
+}
+
+mycenaean_palace_is_valid_landable_member = {
+	country_type = building
+	is_subject = no
+	mycenaean_league_has_palace_house = yes
+	mycenaean_palace_has_valid_landable_location = yes
+}
+
+mycenaean_palace_is_fragmentation_vanguard = {
+	mycenaean_palace_is_valid_landable_member = yes
+	OR = {
+		has_special_status_in_international_organization = {
+			type = special_status:great_palace_candidate
+			international_organization = international_organization:mycenaean_league
+		}
+		has_special_status_in_international_organization = {
+			type = special_status:palace_candidate
+			international_organization = international_organization:mycenaean_league
+		}
+		AND = {
+			has_variable = mycenaean_palace_influence
+			var:mycenaean_palace_influence >= 25
+		}
+	}
+}
+
+mycenaean_fragmentation_end_trigger = {
+	NOT = { exists = international_organization:mycenaean_league }
 }

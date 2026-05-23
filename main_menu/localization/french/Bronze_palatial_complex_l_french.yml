@@ -1,0 +1,33 @@
+﻿l_french:
+ bronze_age_palatial_complex: "Complexe palatial"
+ bronze_age_palatial_complex_desc: "Le coeur administratif d'un Etat de l'age du Bronze : salles fortifiees, archives, greniers, ateliers et cours royales ou grain, travail, impots et biens de prestige sont comptes puis redistribues sous l'autorite du palais."
+
+ bronze_age_palatial_complex_construction: "Construction de complexe palatial"
+
+ bronze_age_palace_house: "Maison palatiale"
+ bronze_age_palace_house_desc: "Une maison palatiale mycenienne regionale : scribes, serviteurs, magasins et dependants aristocratiques qui maintiennent une autorite locale sous le Haut Wanax."
+ bronze_age_palace_house_setup_only_tt: "Les maisons palatiales sont placees par le scenario et representent des entites politiques myceniennes extraterritoriales."
+
+ bronze_age_palace_administration: "Palais administratif"
+ bronze_age_palace_administration_desc: "Scribes, porteurs de sceaux et officiers palatiaux enregistrent obligations de travail, tributs, concessions de terres et decrets royaux sur des tablettes d'argile."
+
+ bronze_age_palace_trade: "Palais marchand"
+ bronze_age_palace_trade_desc: "Les officiers palatiaux surveillent les marchands, pesent les metaux, reglent les magasins et relient la cour aux reseaux d'echange lointains."
+
+ bronze_age_palace_storage: "Palais de stockage"
+ bronze_age_palace_storage_desc: "Greniers et magasins centralises collectent les recoltes, rationnent les travailleurs et protegent la cite contre la famine et le siege."
+
+ bronze_age_palace_sacred: "Palais sacre"
+ bronze_age_palace_sacred_desc: "Rituels royaux, service sacerdotal et offrandes sacrees lient l'autorite du palais aux dieux et a la vie ceremonielle de la cite."
+
+ bronze_age_palace_military: "Palais militaire"
+ bronze_age_palace_military_desc: "Un quartier palatial fortifie entretient gardes, equipement de chars, arsenaux et reserves d'urgence pour defendre la ville royale."
+
+ bronze_age_palace_bureaucracy: "Bureaucratie palatiale"
+ bronze_age_palace_bureaucracy_desc: "Une classe de scribes, surveillants et administrateurs maintient les registres et obligations de l'economie palatiale."
+
+ bronze_age_palace_redistribution: "Redistribution palatiale"
+ bronze_age_palace_redistribution_desc: "Grain, textiles, metaux et travail sont rassembles par le palais puis redistribues aux travailleurs, soldats, temples et ateliers royaux."
+
+ bronze_age_centralized_granaries: "Greniers centralises"
+ bronze_age_centralized_granaries_desc: "De grands magasins controles par le palais conservent les recoltes, nourrissent les dependants et attenuent les mauvaises saisons."

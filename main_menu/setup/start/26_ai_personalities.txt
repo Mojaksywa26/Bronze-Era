@@ -2,7 +2,34 @@
 
 
 countries = {
-	countries = {
+countries = {
+
+		# Aggressive: militarist nations that pursue wars without hesitation
+		#TUR = { ai_personality = ai_aggressive }  # Ottoman Empire
+
+
+		# Expansionist: nations with clear territorial ambitions but follow casus belli
+		#FRA = { ai_personality = ai_expansionist }  # France
+		0001G = { ai_personality = ai_expansionist }  # mycenae
+
+		# Defensive: nations content to hold their ground
+		#BYZ = { ai_personality = ai_defensive }  # Byzantium
+		HATTI = { ai_personality = ai_defensive }  # Hatti
+
+		# Cautious: risk-averse, prefer safe diplomacy over war
+		#HAB = { ai_personality = ai_cautious }  # Austria / Habsburgs
+
+
+		# Opportunistic: exploit others' weaknesses; trade-focused
+		#POR = { ai_personality = ai_opportunistic }  # Portugal
+		0002G = { ai_personality = ai_opportunistic }  # egypt
+
+		# Isolationist: internally focused, avoid foreign entanglement
+		#MNG = { ai_personality = ai_isolationist }  # Ming China
+
+
+		# Friendly: diplomacy-first, build alliances and accept fair peace
+		#PAP = { ai_personality = ai_friendly }  # Papal States
 
 
 	}

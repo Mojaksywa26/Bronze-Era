@@ -5,5 +5,46 @@ locations={
 # for the unique and special buildings
 
 building_manager = {
-
+	# Mycenaean League palace houses.
+	# These are foreign buildings owned by type = building countries; they keep
+	# regional palace elites politically present while 0001G owns the land.
+	bronze_age_palace_house = { tag = ACHAE level = 1 location = chalandritsa }
+	bronze_age_palace_house = { tag = ATHEN level = 1 location = athens }
+	bronze_age_palace_house = { tag = IOLC level = 1 location = demetrias }
+	bronze_age_palace_house = { tag = ORCHO level = 1 location = livadeia }
+	bronze_age_palace_house = { tag = PYLOS level = 1 location = kalamata }
+	bronze_age_palace_house = { tag = RHODE level = 1 location = rodos }
+	bronze_age_palace_house = { tag = SPART level = 1 location = mystras }
+	bronze_age_palace_house = { tag = THEBE level = 1 location = thebes }
+	bronze_age_palace_house = { tag = ARGOS level = 1 location = argos }
+	bronze_age_palace_house = { tag = TIRYN level = 1 location = nafplio }
+	bronze_age_palace_house = { tag = CORIN level = 1 location = corinth }
+	bronze_age_palace_house = { tag = MEGAR level = 1 location = megara }
+	bronze_age_palace_house = { tag = KNOSS level = 1 location = candia }
+	bronze_age_palace_house = { tag = KYDON level = 1 location = chania }
+	bronze_age_palace_house = { tag = ERETR level = 1 location = eretreia }
+	bronze_age_palace_house = { tag = LARIS level = 1 location = larissa }
+	bronze_age_palace_house = { tag = SAMOS level = 1 location = samos }
+	bronze_age_palace_house = { tag = CHIOS level = 1 location = chios }
+	bronze_age_palace_house = { tag = NAXOS level = 1 location = naxos }
+	bronze_age_palace_house = { tag = MILET level = 1 location = balat }
+	bronze_age_palace_house = { tag = KOS level = 1 location = kos }
+	bronze_age_palace_house = { tag = CEPHA level = 1 location = cephalonia }
+	bronze_age_palace_house = { tag = ZAKYN level = 1 location = zakynthos }
+	bronze_age_palace_house = { tag = MILOS level = 1 location = milos }
+	bronze_age_palace_house = { tag = MIDEA level = 1 location = ermioni }
+	bronze_age_palace_house = { tag = GLA level = 1 location = atalanti }
+	bronze_age_palace_house = { tag = IKLAI level = 1 location = modon }
+	bronze_age_palace_house = { tag = NICHO level = 1 location = leuktron }
+	bronze_age_palace_house = { tag = ASINE level = 1 location = damala }
+	bronze_age_palace_house = { tag = AMYCL level = 1 location = veligosti }
+	bronze_age_palace_house = { tag = PHAIS level = 1 location = gergeri }
+	bronze_age_palace_house = { tag = MALIA level = 1 location = elounda }
+	bronze_age_palace_house = { tag = ZAKRO level = 1 location = siteia }
+	bronze_age_palace_house = { tag = KYTHR level = 1 location = kythira }
+	bronze_age_palace_house = { tag = LEFKA level = 1 location = kymi }
+	bronze_age_palace_house = { tag = ELEON level = 1 location = negroponte }
+	bronze_age_palace_house = { tag = PHERA level = 1 location = farsala }
+	bronze_age_palace_house = { tag = PYTHO level = 1 location = salona }
+	bronze_age_palace_house = { tag = OLYMP level = 1 location = andritsaina }
 }

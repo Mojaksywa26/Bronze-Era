@@ -666,6 +666,130 @@ THEBE = {
 	color = rgb { 199 105 87 }
 	color2 = rgb { 110 27 27 }
 }
+ARGOS = {
+	color = rgb { 203 111 58 }
+	color2 = rgb { 110 27 27 }
+}
+TIRYN = {
+	color = rgb { 140 90 210 }
+	color2 = rgb { 110 27 27 }
+}
+CORIN = {
+	color = rgb { 223 168 66 }
+	color2 = rgb { 110 27 27 }
+}
+MEGAR = {
+	color = rgb { 94 183 206 }
+	color2 = rgb { 110 27 27 }
+}
+KNOSS = {
+	color = rgb { 193 72 46 }
+	color2 = rgb { 110 27 27 }
+}
+KYDON = {
+	color = rgb { 97 203 165 }
+	color2 = rgb { 110 27 27 }
+}
+ERETR = {
+	color = rgb { 72 166 222 }
+	color2 = rgb { 110 27 27 }
+}
+LARIS = {
+	color = rgb { 176 205 83 }
+	color2 = rgb { 110 27 27 }
+}
+SAMOS = {
+	color = rgb { 84 211 118 }
+	color2 = rgb { 110 27 27 }
+}
+CHIOS = {
+	color = rgb { 213 94 168 }
+	color2 = rgb { 110 27 27 }
+}
+NAXOS = {
+	color = rgb { 210 201 82 }
+	color2 = rgb { 110 27 27 }
+}
+MILET = {
+	color = rgb { 66 180 187 }
+	color2 = rgb { 110 27 27 }
+}
+KOS = {
+	color = rgb { 112 208 73 }
+	color2 = rgb { 110 27 27 }
+}
+CEPHA = {
+	color = rgb { 196 91 219 }
+	color2 = rgb { 110 27 27 }
+}
+ZAKYN = {
+	color = rgb { 83 95 210 }
+	color2 = rgb { 110 27 27 }
+}
+MILOS = {
+	color = rgb { 224 138 55 }
+	color2 = rgb { 110 27 27 }
+}
+MIDEA = {
+	color = rgb { 183 77 64 }
+	color2 = rgb { 110 27 27 }
+}
+GLA = {
+	color = rgb { 92 177 213 }
+	color2 = rgb { 110 27 27 }
+}
+IKLAI = {
+	color = rgb { 211 157 83 }
+	color2 = rgb { 110 27 27 }
+}
+NICHO = {
+	color = rgb { 119 205 94 }
+	color2 = rgb { 110 27 27 }
+}
+ASINE = {
+	color = rgb { 167 94 215 }
+	color2 = rgb { 110 27 27 }
+}
+AMYCL = {
+	color = rgb { 205 83 139 }
+	color2 = rgb { 110 27 27 }
+}
+PHAIS = {
+	color = rgb { 198 127 52 }
+	color2 = rgb { 110 27 27 }
+}
+MALIA = {
+	color = rgb { 86 190 158 }
+	color2 = rgb { 110 27 27 }
+}
+ZAKRO = {
+	color = rgb { 212 91 74 }
+	color2 = rgb { 110 27 27 }
+}
+KYTHR = {
+	color = rgb { 98 146 217 }
+	color2 = rgb { 110 27 27 }
+}
+LEFKA = {
+	color = rgb { 74 202 205 }
+	color2 = rgb { 110 27 27 }
+}
+ELEON = {
+	color = rgb { 214 186 83 }
+	color2 = rgb { 110 27 27 }
+}
+PHERA = {
+	color = rgb { 125 211 82 }
+	color2 = rgb { 110 27 27 }
+}
+PYTHO = {
+	color = rgb { 154 101 216 }
+	color2 = rgb { 110 27 27 }
+}
+OLYMP = {
+	color = rgb { 222 138 89 }
+	color2 = rgb { 110 27 27 }
+}
 ACCIO = {
 	color = rgb { 209 162 51 }
 	color2 = rgb { 110 27 27 }

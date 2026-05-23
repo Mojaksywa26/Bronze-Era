@@ -1,5 +1,5 @@
 mycenaean_call_megaron_council = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -7,6 +7,17 @@ mycenaean_call_megaron_council = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_call_megaron_council_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_call_megaron_council
@@ -44,7 +55,7 @@ mycenaean_call_megaron_council = {
 }
 
 mycenaean_sponsor_shared_sacrifice = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 30
@@ -52,6 +63,17 @@ mycenaean_sponsor_shared_sacrifice = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_sponsor_shared_sacrifice_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_sponsor_shared_sacrifice
@@ -89,7 +111,7 @@ mycenaean_sponsor_shared_sacrifice = {
 }
 
 mycenaean_send_linear_b_administrators = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -97,6 +119,17 @@ mycenaean_send_linear_b_administrators = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_send_linear_b_administrators_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_send_linear_b_administrators
@@ -134,7 +167,7 @@ mycenaean_send_linear_b_administrators = {
 }
 
 mycenaean_mediate_palace_rivalry = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -142,6 +175,17 @@ mycenaean_mediate_palace_rivalry = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_mediate_palace_rivalry_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_mediate_palace_rivalry
@@ -179,7 +223,7 @@ mycenaean_mediate_palace_rivalry = {
 }
 
 mycenaean_demand_bronze_tribute = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 30
@@ -187,6 +231,17 @@ mycenaean_demand_bronze_tribute = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_demand_bronze_tribute_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_demand_bronze_tribute
@@ -226,7 +281,7 @@ mycenaean_demand_bronze_tribute = {
 }
 
 mycenaean_summon_palace_levies = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 18
@@ -234,6 +289,17 @@ mycenaean_summon_palace_levies = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_summon_palace_levies_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_summon_palace_levies
@@ -272,7 +338,7 @@ mycenaean_summon_palace_levies = {
 }
 
 mycenaean_proclaim_pan_achaean_expedition = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 36
@@ -280,6 +346,17 @@ mycenaean_proclaim_pan_achaean_expedition = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_proclaim_pan_achaean_expedition_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_proclaim_pan_achaean_expedition
@@ -319,7 +396,7 @@ mycenaean_proclaim_pan_achaean_expedition = {
 }
 
 mycenaean_fortify_megara = {
-	type = owncountry
+	type = situation
 	show_message = yes
 	ai_tick = monthly
 	ai_tick_frequency = 24
@@ -327,6 +404,17 @@ mycenaean_fortify_megara = {
 	automation_tick_frequency = 12
 
 	price = price:mycenaean_fortify_megara_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
 
 	cooldown = {
 		type = mycenaean_fortify_megara
@@ -360,5 +448,600 @@ mycenaean_fortify_megara = {
 	ai_will_do = {
 		add = 8
 		subtract = 3
+	}
+}
+
+mycenaean_proclaim_palace_autonomy = {
+	icon = mycenaean_fortify_megara
+	type = situation
+	show_message = yes
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_proclaim_palace_autonomy_price
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
+
+	potential = {
+		scope:actor ?= {
+			is_member_of_international_organization = international_organization:mycenaean_league
+			country_type = building
+			NOT = { is_leader_of_international_organization = international_organization:mycenaean_league }
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			at_war = no
+			is_subject = no
+			mycenaean_palace_has_valid_landable_location = yes
+			OR = {
+				situation:mycenaean_fragmentation ?= {
+					has_variable = mycenaean_fragmentation_crisis_active
+				}
+				international_organization:mycenaean_league = {
+					var:mycenaean_league_authority <= 25
+				}
+				AND = {
+					has_variable = mycenaean_palace_influence
+					var:mycenaean_palace_influence >= 45
+				}
+			}
+		}
+		trigger_if = {
+			limit = {
+				exists = international_organization:mycenaean_league.leader_country
+			}
+			international_organization:mycenaean_league.leader_country = {
+				scope:actor = { NOT = { has_truce_with = prev } }
+			}
+		}
+	}
+
+	effect = {
+		scope:actor ?= {
+			turn_mycenaean_palace_into_normal_tag = yes
+			subtract_mycenaean_league_authority = { value = 10 }
+			custom_tooltip = mycenaean_proclaim_palace_autonomy_tt
+		}
+		international_organization:mycenaean_league.leader_country ?= {
+			add_casus_belli = { type = casus_belli:cb_mycenaean_high_wanax_reassert_authority target = scope:actor }
+			trigger_event_silently = mycenaean_league.225
+		}
+	}
+
+	ai_will_do = {
+		add = -6
+		international_organization:mycenaean_league.leader_country ?= {
+			scope:actor = {
+				add = {
+					value = this_opinion_of_prev
+					multiply = -0.1
+				}
+			}
+		}
+	}
+}
+
+mycenaean_reassert_palace_authority = {
+	icon = mycenaean_call_megaron_council
+	type = situation
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 12
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_reassert_palace_authority_price
+
+	cooldown = {
+		type = mycenaean_reassert_palace_authority
+		months = 8
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = country
+		target_flag = target_country
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = { data = name }
+		visible = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+			this != scope:actor
+			country_type = location
+			num_locations < 6
+			NOT = {
+				scope:actor = {
+					has_casus_belli_of_type_on = { type = casus_belli:cb_mycenaean_high_wanax_reassert_authority target = prev }
+				}
+			}
+		}
+	}
+
+	potential = {
+		scope:actor ?= {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			at_war = no
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor ?= {
+			add_casus_belli = { type = casus_belli:cb_mycenaean_high_wanax_reassert_authority target = scope:target_country }
+			subtract_mycenaean_league_authority = { value = 3 }
+			custom_tooltip = mycenaean_reassert_palace_authority_tt
+		}
+		scope:target_country ?= {
+			trigger_event_non_silently = mycenaean_league.230
+		}
+	}
+
+	ai_will_do = {
+		add = 6
+	}
+}
+
+mycenaean_summon_oath_to_mycenae = {
+	icon = mycenaean_sponsor_shared_sacrifice
+	type = situation
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 18
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_summon_oath_to_mycenae_price
+
+	cooldown = {
+		type = mycenaean_summon_oath_to_mycenae
+		months = 8
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = country
+		target_flag = target_country
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = { data = name }
+		column = { data = select_target_acceptance_total }
+		visible = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+			this != scope:actor
+			at_war = no
+			NOT = { has_variable = mycenaean_league_oath_summoned_recently }
+		}
+	}
+
+	potential = {
+		scope:actor ?= {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			at_war = no
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:target_country ?= {
+			trigger_event_non_silently = mycenaean_league.240
+		}
+	}
+
+	ai_will_do = {
+		add = 7
+	}
+
+	ai_acceptance = {
+		add = {
+			value = "scope:target_country.opinion(scope:actor)"
+			multiply = 0.15
+			desc = OPINION_OF_ACTOR
+		}
+		add = {
+			value = scope:actor.modifier:diplomatic_reputation
+			multiply = 0.5
+			min = -15
+			max = 15
+			desc = DIPLOMATIC_REPUTATION
+		}
+	}
+}
+
+mycenaean_grant_palace_privileges = {
+	icon = mycenaean_mediate_palace_rivalry
+	type = situation
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 24
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_grant_palace_privileges_price
+
+	cooldown = {
+		type = mycenaean_grant_palace_privileges
+		years = 3
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = country
+		target_flag = target_country
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = { data = name }
+		column = { data = select_target_acceptance_total }
+		visible = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+			this != scope:actor
+			at_war = no
+			NOT = { has_variable = mycenaean_palace_privileges_granted }
+		}
+	}
+
+	potential = {
+		scope:actor ?= {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			at_war = no
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor ?= {
+			subtract_mycenaean_league_authority = { value = 4 }
+			custom_tooltip = mycenaean_grant_palace_privileges_tt
+		}
+		scope:target_country ?= {
+			set_variable = { name = mycenaean_palace_privileges_granted value = 1 years = 5 }
+			if = {
+				limit = { NOT = { has_variable = mycenaean_palace_influence } }
+				set_variable = { name = mycenaean_palace_influence value = 0 }
+			}
+			change_variable = { name = mycenaean_palace_influence subtract = 8 }
+			if = {
+				limit = { var:mycenaean_palace_influence < 0 }
+				set_variable = { name = mycenaean_palace_influence value = 0 }
+			}
+			add_opinion = { modifier = bronze_mycenaean_reconciled_palace target = scope:actor }
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_weak_bonus }
+		}
+	}
+
+	ai_will_do = {
+		add = 5
+	}
+
+	ai_acceptance = {
+		add = {
+			value = "scope:target_country.opinion(scope:actor)"
+			multiply = 0.12
+			desc = OPINION_OF_ACTOR
+		}
+		add = {
+			value = scope:actor.modifier:diplomatic_reputation
+			multiply = 0.5
+			min = -15
+			max = 15
+			desc = DIPLOMATIC_REPUTATION
+		}
+	}
+}
+
+mycenaean_redistribute_palace_stores = {
+	icon = mycenaean_send_linear_b_administrators
+	type = situation
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 18
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_redistribute_palace_stores_price
+
+	cooldown = {
+		type = mycenaean_redistribute_palace_stores
+		years = 3
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
+
+	potential = {
+		scope:actor ?= {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+			NOT = { has_variable = mycenaean_palace_redistribution }
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor ?= {
+			set_variable = { name = mycenaean_palace_redistribution value = 1 years = 3 }
+			change_mycenaean_league_authority = { value = 5 }
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_mild_penalty }
+			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_weak_bonus }
+			custom_tooltip = mycenaean_league_current_authority_tt
+			custom_tooltip = mycenaean_redistribute_palace_stores_tt
+		}
+		international_organization:mycenaean_league ?= {
+			every_international_organization_member = {
+				if = {
+					limit = { NOT = { has_variable = mycenaean_palace_influence } }
+					set_variable = { name = mycenaean_palace_influence value = 0 }
+				}
+				change_variable = { name = mycenaean_palace_influence subtract = 3 }
+				if = {
+					limit = { var:mycenaean_palace_influence < 0 }
+					set_variable = { name = mycenaean_palace_influence value = 0 }
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = 7
+	}
+}
+
+mycenaean_demand_palace_hostages = {
+	icon = mycenaean_summon_oath_to_mycenae
+	type = situation
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 24
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_demand_palace_hostages_price
+
+	cooldown = {
+		type = mycenaean_demand_palace_hostages
+		years = 3
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = country
+		target_flag = target_country
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = { data = name }
+		column = { data = select_target_acceptance_total }
+		visible = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+			this != scope:actor
+			at_war = no
+			NOT = { has_variable = mycenaean_palace_hostages_taken }
+		}
+	}
+
+	potential = {
+		scope:actor ?= {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			at_war = no
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor ?= {
+			change_mycenaean_league_authority = { value = 3 }
+			custom_tooltip = mycenaean_league_current_authority_tt
+			custom_tooltip = mycenaean_demand_palace_hostages_tt
+		}
+		scope:target_country ?= {
+			set_variable = { name = mycenaean_palace_hostages_taken value = 1 years = 5 }
+			if = {
+				limit = { NOT = { has_variable = mycenaean_palace_influence } }
+				set_variable = { name = mycenaean_palace_influence value = 0 }
+			}
+			change_variable = { name = mycenaean_palace_influence subtract = 12 }
+			if = {
+				limit = { var:mycenaean_palace_influence < 0 }
+				set_variable = { name = mycenaean_palace_influence value = 0 }
+			}
+			add_opinion = { modifier = bronze_mycenaean_hostages_taken target = scope:actor }
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_mild_penalty }
+		}
+	}
+
+	ai_will_do = {
+		add = 4
+	}
+
+	ai_acceptance = {
+		add = {
+			value = "scope:target_country.opinion(scope:actor)"
+			multiply = 0.1
+			desc = OPINION_OF_ACTOR
+		}
+		add = {
+			value = scope:actor.modifier:diplomatic_reputation
+			multiply = 0.5
+			min = -15
+			max = 15
+			desc = DIPLOMATIC_REPUTATION
+		}
+	}
+}
+
+mycenaean_restore_palace_network = {
+	icon = mycenaean_mediate_palace_rivalry
+	type = situation
+	show_message = yes
+	ai_tick = monthly
+	ai_tick_frequency = 24
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:mycenaean_restore_palace_network_price
+
+	cooldown = {
+		type = mycenaean_restore_palace_network
+		years = 4
+	}
+
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:mycenaean_fragmentation = this
+			situation_is_active = yes
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = country
+		target_flag = target_country
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = { data = name }
+		column = { data = select_target_acceptance_total }
+		visible = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+			this != scope:actor
+			country_type = location
+			at_war = no
+			num_locations < 4
+			NOT = { has_variable = mycenaean_restoration_offer_recently }
+			OR = {
+				has_variable = mycenaean_league_accepted_order
+				has_variable = mycenaean_palace_privileges_granted
+				NOT = { has_variable = mycenaean_palace_influence }
+				AND = {
+					has_variable = mycenaean_palace_influence
+					var:mycenaean_palace_influence < 30
+				}
+			}
+		}
+	}
+
+	potential = {
+		scope:actor ?= {
+			is_leader_of_international_organization = international_organization:mycenaean_league
+		}
+	}
+
+	allow = {
+		scope:actor ?= {
+			at_war = no
+			is_during_bankruptcy = no
+		}
+	}
+
+	effect = {
+		scope:actor ?= {
+			custom_tooltip = mycenaean_restore_palace_network_tt
+		}
+		scope:target_country ?= {
+			set_variable = { name = mycenaean_restoration_offer_recently value = 1 years = 2 }
+			trigger_event_non_silently = mycenaean_league.260
+		}
+	}
+
+	ai_will_do = {
+		add = 5
+	}
+
+	ai_acceptance = {
+		add = {
+			value = "scope:target_country.opinion(scope:actor)"
+			multiply = 0.12
+			desc = OPINION_OF_ACTOR
+		}
+		add = {
+			value = scope:actor.modifier:diplomatic_reputation
+			multiply = 0.5
+			min = -15
+			max = 15
+			desc = DIPLOMATIC_REPUTATION
+		}
 	}
 }

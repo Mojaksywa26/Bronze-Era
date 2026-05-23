@@ -1,0 +1,24 @@
+bronze_mycenaean_oath_sworn = {
+	value = 30
+	yearly_decay = 2
+}
+
+bronze_mycenaean_oath_refused = {
+	value = -50
+	yearly_decay = 3
+}
+
+bronze_mycenaean_palace_autonomy = {
+	value = -75
+	yearly_decay = 3
+}
+
+bronze_mycenaean_reconciled_palace = {
+	value = 25
+	yearly_decay = 2
+}
+
+bronze_mycenaean_hostages_taken = {
+	value = -35
+	yearly_decay = 3
+}

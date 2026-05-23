@@ -59,6 +59,28 @@ location_painter_assignments = {
             xylokastro
             zakynthos
             zetounion
+            chalandritsa
+            kalavryta
+            patras
+            vostitsa
+            athens
+            demetrias
+            atalanti
+            gravia
+            kalamata
+            kyparissia
+            leuktron
+            modon
+            karpathos
+            rodos
+            astros
+            kythira
+            monemvasia
+            mystras
+            oitylo
+            veligosti
+            livadeia
+            salona
         }
     }
     0002G = {
@@ -286,15 +308,6 @@ location_painter_assignments = {
         locations = {
             adrada
             talavera_de_la_reina
-        }
-    }
-    ACHAE = {
-        color = { 89 207 160 }
-        locations = {
-            chalandritsa
-            kalavryta
-            patras
-            vostitsa
         }
     }
     ACINI = {
@@ -754,12 +767,6 @@ location_painter_assignments = {
             carcassonne
             limoux
             saint_pons
-        }
-    }
-    ATHEN = {
-        color = { 76 195 225 }
-        locations = {
-            athens
         }
     }
     ATREB = {
@@ -2247,12 +2254,6 @@ location_painter_assignments = {
             puget_theniers
         }
     }
-    IOLC = {
-        color = { 216 85 137 }
-        locations = {
-            demetrias
-        }
-    }
     IONIA = {
         color = { 205 196 96 }
         locations = {
@@ -3101,13 +3102,6 @@ location_painter_assignments = {
             torres_vedras
         }
     }
-    ORCHO = {
-        color = { 209 71 61 }
-        locations = {
-            atalanti
-            gravia
-        }
-    }
     ORCII = {
         color = { 64 206 180 }
         locations = {
@@ -3362,15 +3356,6 @@ location_painter_assignments = {
             pleven
         }
     }
-    PYLOS = {
-        color = { 175 221 49 }
-        locations = {
-            kalamata
-            kyparissia
-            leuktron
-            modon
-        }
-    }
     QUARQ = {
         color = { 66 209 76 }
         locations = {
@@ -3450,13 +3435,6 @@ location_painter_assignments = {
             epernay
             reims
             roucy
-        }
-    }
-    RHODE = {
-        color = { 77 219 96 }
-        locations = {
-            karpathos
-            rodos
         }
     }
     RODOG = {
@@ -3817,17 +3795,6 @@ location_painter_assignments = {
             nogaro
         }
     }
-    SPART = {
-        color = { 196 54 125 }
-        locations = {
-            astros
-            kythira
-            monemvasia
-            mystras
-            oitylo
-            veligosti
-        }
-    }
     SPICE = {
         color = { 162 192 42 }
         locations = {
@@ -4072,13 +4039,6 @@ location_painter_assignments = {
             vatra_dornei
             velikyi_bereznyi
             zemplin
-        }
-    }
-    THEBE = {
-        color = { 199 105 87 }
-        locations = {
-            livadeia
-            salona
         }
     }
     THRAC = {

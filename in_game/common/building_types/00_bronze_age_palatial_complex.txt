@@ -88,3 +88,57 @@ bronze_age_palatial_complex = {
 
 	custom_tags = { palace bronze_age_palace_economy }
 }
+
+# Extraterritorial Mycenaean palace houses.
+# These are setup-only foreign buildings owned by type = building countries,
+# similar in role to Japanese clan offices. They let palace elites exist
+# politically while Mycenae keeps direct territorial ownership at game start.
+bronze_age_palace_house = {
+	is_special = yes
+	is_foreign = yes
+	stronger_power_projection = no
+	need_good_relation = no
+	pop_type = nobles
+
+	category = government_category
+
+	max_levels = 1
+	employment_size = large_noble_employment
+	pop_size_created = large_noble_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	ai_foreign_ignore_naval_range = yes
+
+	country_potential = {
+		country_type = building
+	}
+
+	build_time = soldier_building
+
+	allow = {
+		custom_tooltip = {
+			text = bronze_age_palace_house_setup_only_tt
+			always = no
+		}
+	}
+
+	modifier = {
+		manpower_to_building_owner = 0.0005
+		can_recruit_regiment_in_this_location = yes
+		gold_to_building_owner = 0.15
+		merchant_power_from_building = 0.1
+		building_owner_maritime_presence = 0.03
+	}
+
+	possible_production_methods = {
+		estate_building_input
+	}
+
+	construction_demand = early_soldier_building_construction
+
+	custom_tags = { palace bronze_age_palace_network }
+}

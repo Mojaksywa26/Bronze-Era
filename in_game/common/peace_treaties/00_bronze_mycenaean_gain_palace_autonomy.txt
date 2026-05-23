@@ -1,0 +1,55 @@
+peace_mycenaean_gain_palace_autonomy = {
+	cost = {
+		add = {
+			desc = "DIPLOREASON_BASE"
+			value = 5
+		}
+		add = {
+			desc = "game_concept_population"
+			value = scope:loser.total_population
+			multiply = 0.009
+		}
+	}
+
+	potential = {
+		scope:winner = {
+			country_type = building
+			is_member_of_international_organization = international_organization:mycenaean_league
+			mycenaean_palace_has_valid_landable_location = yes
+		}
+		scope:loser = {
+			is_member_of_international_organization = international_organization:mycenaean_league
+		}
+		scope:war = {
+			OR = {
+				is_no_cb_war = yes
+				casus_belli ?= casus_belli:cb_mycenaean_palace_rebel_against_high_wanax
+				casus_belli ?= casus_belli:cb_mycenaean_palace_struggle
+			}
+		}
+	}
+
+	allow = {
+	}
+
+	effect = {
+		scope:winner = {
+			turn_mycenaean_palace_into_normal_tag = yes
+			subtract_mycenaean_league_authority = { value = 8 }
+		}
+	}
+
+	ai_desire = {
+		if = {
+			limit = {
+				scope:winner = {
+					is_rival_of = scope:loser
+				}
+			}
+			add = {
+				desc = "game_concept_rival"
+				value = 10
+			}
+		}
+	}
+}
