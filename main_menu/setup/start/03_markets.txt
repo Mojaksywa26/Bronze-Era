@@ -87,7 +87,7 @@ market_manager = {
 
 	# Bronze Era generated Neolithic capital markets
 	# Generated from countries using include = "Neolithic"; existing markets are preserved.
-	add_market = aachen # EBURO
+		add_market = aachen # EBURO
 	add_market = aalst # MENAP
 	add_market = abbeville # AMBIA
 	add_market = acerenza # OSCAN
@@ -348,6 +348,5 @@ market_manager = {
 	add_market = villablino # SAELI
 	add_market = villalba # ARROT
 	add_market = villanueva_de_la_serena # TUDIP
-	# End Bronze Era generated Neolithic capital markets
 }
 
