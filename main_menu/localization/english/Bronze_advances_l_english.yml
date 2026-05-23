@@ -1,12 +1,25 @@
 l_english:
-  palace_economy_advance: "Palace Economy Advancement"
+  palace_economy_advance: "Palace Economy"
   palace_economy_advance_desc: "The palace economy is a system of economic organization in which the ruling elite, often centered around a palace or royal court, controls and manages the production and distribution of goods and resources."
 
-  warrior_aristocracy_advance: "Warrior Aristocracy Advancement"
+  warrior_aristocracy_advance: "Warrior Aristocracy"
   warrior_aristocracy_advance_desc: "The warrior aristocracy is a social class or group of individuals who hold power and influence primarily through their military prowess and leadership."
 
+  #PLACEHOLDER#
   cathedral_advance: "Monumental Temple Construction"
   cathedral_advance_desc: "We shall build a dedicated place of worship to our gods, a temple that will stand as a testament to our devotion and faith. This grand structure will not only serve as a spiritual center for our people but also as a symbol of our cultural and religious identity."
 
   long_distance_trade_advance: "Long-Distance Trade Networks"
   long_distance_trade_advance_desc: "Long-distance trade networks refer to the complex systems of trade and commerce that connect different regions and civilizations across vast distances. These networks facilitate the exchange of goods, ideas, and cultural influences between societies."
+
+  bronze_forge_advance: "Metalworking Craftsmenship"
+  bronze_forge_advance_desc: "In early Bronze Age societies, metalworking was still a household craft, with villagers casting tools and weapons for their own use rather than relying on professional smiths."
+
+  bronze_foundry_advance: "Bronze Foundry"
+  bronze_foundry_advance_desc: "A bronze foundry is a facility where bronze is melted and cast into various shapes and forms. It is a crucial part of the metalworking process, allowing for the production of tools, weapons, and other objects made from bronze."
+
+  workforce_specialization_advance: "Workforce Specialization"
+  workforce_specialization_advance_desc: "Workforce specialization became possible with the surplus of food administered by the palace economy, allowing individuals to focus on specific tasks and develop expertise in their chosen fields. This specialization led to increased efficiency and productivity, as workers could dedicate their time and energy to mastering their craft or trade."
+
+  settlements_advance: "Settlements"
+  settlements_advance_desc: "Settlements refer to the establishment of permanent or semi-permanent communities where people live, work, and interact. These can range from small villages to large cities and are often characterized by the presence of infrastructure, social organization, and economic activities."
