@@ -111,6 +111,8 @@ palace_economy_advance = {
 	icon = meritocracy
 		
 	country_cabinet_efficiency = 0.03
+
+	unlock_building = bronze_age_palatial_complex
 	
 	depth = 0
 
@@ -128,7 +130,7 @@ palace_economy_advance = {
 
 warrior_aristocracy_advance = {
 	age = age_1_traditions
-	icon = diplomatic_influence
+	icon = a_footmen
 		
 	unlock_unit = a_champions
 	
@@ -136,8 +138,21 @@ warrior_aristocracy_advance = {
 
 	allow = { has_embraced_institution = institution:chariot_warfare }
 
-	# potential = {
-	# 	has_tribal_government = no
-	# }
+
+}
+
+#####################################
+# Long Distance Trade
+#####################################
+
+long_distance_trade_advance = {
+	age = age_1_traditions
+	icon = diplomatic_influence
+		
+	trade_range = 150
+	
+	depth = 0
+
+	allow = { has_embraced_institution = institution:bronze_routes }
 
 }
