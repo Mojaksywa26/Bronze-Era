@@ -1,4 +1,4 @@
-﻿###############################
+###############################
 # Basic Buildings
 ###############################
 
@@ -6,9 +6,7 @@ cathedral_advance = {
 	age = age_1_traditions
 	
 	unlock_building = cathedral
-	requires = city_building_advance
-	
-	potential = { religion.group = religion_group:christian }
+	requires = palace_economy_advance
 
 	ai_weight = { add = 3 }
 }
