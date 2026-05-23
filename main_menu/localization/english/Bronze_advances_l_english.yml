@@ -1,2 +1,9 @@
-﻿l_english:
- palace_economy_advance: "Palace Economy Advancement"
+l_english:
+  palace_economy_advance: "Palace Economy Advancement"
+  palace_economy_advance_desc: "The palace economy is a system of economic organization in which the ruling elite, often centered around a palace or royal court, controls and manages the production and distribution of goods and resources."
+
+  warrior_aristocracy_advance: "Warrior Aristocracy Advancement"
+  warrior_aristocracy_advance_desc: "The warrior aristocracy is a social class or group of individuals who hold power and influence primarily through their military prowess and leadership."
+
+  cathedral_advance: "Monumental Temple Construction"
+  cathedral_advance_desc: "We shall build a dedicated place of worship to our gods, a temple that will stand as a testament to our devotion and faith. This grand structure will not only serve as a spiritual center for our people but also as a symbol of our cultural and religious identity."
