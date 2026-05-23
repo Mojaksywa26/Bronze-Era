@@ -38,11 +38,12 @@ government = {
 	privilege = {
 		# Nobility
 		favor_the_elites
-		traditional_distribution
 
 		# Burghers
-		building_rights
 		trade_monopolies
+		commercial_advisory_council
+		building_rights
+		sponsored_maritime_contracts
 
 		# Clergy
 		religious_advisory_council

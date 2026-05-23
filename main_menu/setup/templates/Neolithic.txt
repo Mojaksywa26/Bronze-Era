@@ -32,4 +32,13 @@ government = {
 		marriage_law = polygyny
 		heir_religion_law = heir_same_religion
 	}
+	privilege = {
+		# Peasants
+		common_militias
+
+		# Nobility
+		local_clan_authority
+		warrior_elites
+
+	}
 }
