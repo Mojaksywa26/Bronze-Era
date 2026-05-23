@@ -97,7 +97,17 @@ function writeText(rel, text) {
   fs.mkdirSync(path.dirname(abs(rel)), { recursive: true });
   const normalized = text.replace(/^\uFEFF/, "").replace(/\n/g, "\r\n");
   const content = rel.includes("localization/") && rel.endsWith(".yml") ? `\uFEFF${normalized}` : normalized;
-  fs.writeFileSync(abs(rel), content, "utf8");
+  const target = abs(rel);
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    try {
+      fs.writeFileSync(target, content, "utf8");
+      return;
+    } catch (error) {
+      if (attempt === 4) throw error;
+      // Windows can briefly lock large setup files while the launcher/editor indexes them.
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 150);
+    }
+  }
 }
 
 function findBlockEnd(text, openIndex) {
@@ -315,6 +325,7 @@ function normalizeTag(rawTag) {
     ["SUESSIONES", "SUESO"],
     ["SUES1", "SUESO"],
     ["BITURIGES_CUBI", "BITCU"],
+    ["BOII", "BOLI"],
     ["AULERCI_CENOMANI", "ALCEN"],
     ["AULERCI_DIABLINTES", "ALDIA"],
     ["TURDULI_BUDANI", "TUBUD"],
@@ -424,7 +435,7 @@ const celticBranches = [
     religion: "gaulish_pagan",
     language: "celtic_bronze_language",
     color: [97, 132, 142],
-    cultures: ["CAMUNNI", "BRENAI", "VENOSTES", "ARESACES", "UBI"],
+    cultures: ["CAMUNNI", "BRENAI", "VENOSTES", "ARESACES", "UBI", "LUGI", "BOII", "TULINGI"],
   },
   {
     id: "belgica",
@@ -433,7 +444,7 @@ const celticBranches = [
     religion: "gaulish_pagan",
     language: "celtic_bronze_language",
     color: [88, 144, 176],
-    cultures: ["MENAPII", "NERVII", "MORINI", "ATREBATES", "AMBIANI", "ADUATUCI", "EBURONES", "CAEROSI", "TREWEROI", "TEUCOR", "CAEMANAR"],
+    cultures: ["MENAPII", "NERVII", "MORINI", "ATREBATES", "AMBIANI", "ADUATUCI", "EBURONES", "CAEROSI", "TREWEROI", "TEUCOR", "CAEMANAR", "BAETASII", "NEMETES", "RAURAC", "TENCTERI", "TRIBOCC", "TUNGRI", "VANGIONES"],
   },
   {
     id: "gallaecian",
@@ -470,7 +481,7 @@ const celticBranches = [
     religion: "britannic_pagan",
     language: "brittonic_bronze_language",
     color: [92, 126, 166],
-    cultures: ["CANTIACI", "REGINI", "BIBROCI"],
+    cultures: ["CANTIACI", "REGINI", "BIBROCI", "ANCALITES", "AUTENII", "BRIGANTES", "CAERACATIS", "CAERENI", "CALEDONES", "CARNONACAE", "CARWETII", "CASSI", "CENOMAGNI", "CLAHILIC", "CORIELTAUVI", "CORIONDI", "CORNOVII", "CORNOWII", "CREONES", "DALITERNI", "DAMNONII", "DARINI", "DECANTAE", "DECEANGLI", "DEMETAE", "DOBUNNI", "DUMNANII", "DUMNONII", "DUROTRIGES", "EBODANII", "EPIDII", "ERDIN", "GABRANTOVICES", "GANGANI", "HAEMODAEI", "ICENES", "IWERNI", "LOPOCARES", "MANAKWI", "METANTII", "MONAKWI", "MONE", "NAGNATAE", "NOVANTAE", "ORCII", "ORDOWICI", "RODOGBI", "SEGONTIACI", "SELGOWII", "SILORIKS", "TAEXALI", "TESTWERDI", "THULE", "TRINOVANTES", "UELLABORI", "UENNICNII", "ULUTI", "UPERACI", "USDIAE", "VENICONES", "VOTADIN", "WOCOMIUGI"],
   },
   {
     id: "gaulish",
@@ -479,7 +490,7 @@ const celticBranches = [
     religion: "gaulish_pagan",
     language: "celtic_bronze_language",
     color: [107, 166, 78],
-    cultures: ["UELAUII", "SARDONNES", "ATACINI", "BEBRYKES", "GARUMNI", "GALLI", "SUESSETANI", "SOTIA", "PETROCORIIS", "LEMOVICES", "ANDECAMULENSES", "BITURIGES CUBI", "AICUBIDUOI", "LINGONES", "MANDUBIO", "BELLOUACI", "SUESSIONES", "TRICASSES", "SILVANECTES", "MELDI", "CATUWELLAUNOI", "REMI", "SETUEI", "VIROMANDU", "PARISI", "AULERCI", "CARNUTES", "SENONES", "AULERCI CENOMANI", "TURONES", "AULERCI DIABLINTES", "LEUCI", "MEDIOMATERES", "ELISYKOI"],
+    cultures: ["UELAUII", "SARDONNES", "ATACINI", "BEBRYKES", "GARUMNI", "GALLI", "SUESSETANI", "SOTIA", "PETROCORIIS", "LEMOVICES", "ANDECAMULENSES", "BITURIGES CUBI", "AICUBIDUOI", "LINGONES", "MANDUBIO", "BELLOUACI", "SUESSIONES", "TRICASSES", "SILVANECTES", "MELDI", "CATUWELLAUNOI", "REMI", "SETUEI", "VIROMANDU", "PARISI", "AULERCI", "CARNUTES", "SENONES", "AULERCI CENOMANI", "TURONES", "AULERCI DIABLINTES", "LEUCI", "MEDIOMATERES", "ELISYKOI", "VOLCAE"],
   },
   {
     id: "ligurian",
@@ -506,7 +517,7 @@ const celticBranches = [
     religion: "gaulish_pagan",
     language: "celtic_bronze_language",
     color: [128, 114, 166],
-    cultures: ["TYLE", "DISCODUARTERAE", "TIMACHI", "CELEGERI"],
+    cultures: ["TYLE", "DISCODUARTERAE", "TIMACHI", "CELEGERI", "ANARTO", "ERAVISCI", "OSII", "TEURISC"],
   },
   {
     id: "anatolia_celtic",
@@ -515,7 +526,7 @@ const celticBranches = [
     religion: "gaulish_pagan",
     language: "celtic_bronze_language",
     color: [150, 121, 93],
-    cultures: [],
+    cultures: ["TEKTOSAGES", "TOLISTOBOIOI", "TROKMOI"],
   },
 ];
 
@@ -1048,6 +1059,7 @@ function titleFromTag(tag) {
     ["BERIT", "Berit"],
     ["BITUR", "Bituriges"],
     ["BOLI", "Boii"],
+    ["BOLI1", "Cisalpine Boii"],
     ["BOSPH", "Thracian Bosporus"],
     ["BOTTI", "Bottiaea"],
     ["BOULI", "Boulinoi"],
@@ -1226,7 +1238,7 @@ function adjectiveFromTag(tag, fallbackName) {
     ["ARDIA", "Ardiaean"], ["ARGAR", "Argaric"], ["ARVER", "Arvernian"],
     ["ARWAD", "Arwadian"], ["ASYRI", "Assyrian"], ["ATHEN", "Athenian"], ["ATHENS", "Athenian"], ["AZZI", "Azzian"],
     ["BAIOC", "Baiocassian"], ["BALES", "Balearic"],
-    ["BALSA", "Balsan"], ["BERIT", "Beritian"], ["BITUR", "Biturigan"], ["BOLI", "Boian"],
+    ["BALSA", "Balsan"], ["BERIT", "Beritian"], ["BITUR", "Biturigan"], ["BOLI", "Boian"], ["BOLI1", "Boian"],
     ["BOSPH", "Bosphoran"], ["BOTTI", "Bottiaean"], ["BOULI", "Boulinian"],
     ["BYBLO", "Byblian"], ["CALET", "Caletian"], ["CAMUN", "Camunnian"], ["CAONI", "Chaonian"],
     ["CARNI", "Carnian"], ["CARTI", "Carteian"], ["CORIO", "Coriosolitian"], ["DAESI", "Daesitiate"],
@@ -1292,6 +1304,10 @@ function buildCountryBody(assignment, existingBody, identity, discoveredRegions)
   body = removeCountryProperty(body, "primary_culture");
   body = removeCountryProperty(body, "state_religion");
   body = removeCountryProperty(body, "tolerated_religions");
+  if (celticIdentityForAssignment(assignment)) {
+    body = replaceScalar(body, "country_rank", "rank_county");
+    body = replaceScalar(body, "include", "\"Neolithic\"");
+  }
   body = replaceScalar(body, "capital", assignment.locations[0]);
   body = replaceScalarAfter(body, "culture", identity.primaryCulture, "capital");
   body = replaceScalarAfter(body, "religion", identity.stateReligion, "culture");

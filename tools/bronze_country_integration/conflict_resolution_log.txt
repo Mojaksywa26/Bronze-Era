@@ -1,19 +1,19 @@
 Bronze Era country integration conflict log
 ===========================================
 
-Modified assignment tags read: 304
+Modified assignment tags read: 383
 Original assignment tags read: 157
-Final assignment tags written: 304
-Unique owned locations written: 2371
+Final assignment tags written: 383
+Unique owned locations written: 2907
 
 Comparison summary:
-- new tags in modified source: 148
-- modified existing tags: 5
-- unchanged existing tags: 151
+- new tags in modified source: 227
+- modified existing tags: 6
+- unchanged existing tags: 150
 - removed tags from original source: 1
 
 Modified existing tags:
-LEPON SANTN SOTIA VELIO VOLTE
+BOLI LEPON SANTN SOTIA VELIO VOLTE
 
 Normalized tags:
 - ACHAEA -> ACHAE

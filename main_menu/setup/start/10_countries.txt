@@ -17,7 +17,7 @@ countries = {
 
 	##MYCENAE
 	0001G = {
-		capital = argos
+		capital = amorgos
 		culture = mycenaean
 		religion = hellenic
 
@@ -107,7 +107,7 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { luwian }
+		accepted_cultures = { hittite luwian }
 		tolerated_cultures = { hurrian denyen hattian }
 		discovered_regions = {
 			anatolia_region caucasus_region crescent_region
@@ -600,6 +600,59 @@ countries = {
 		}
 	}
 
+	##ANARTO
+	ANART = {
+		capital = balassagyarmat
+		culture = anarto
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			carpathia_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			balassagyarmat borsod buda carei eger esztergom gemer gonc
+			hajduszoboszlo heves hont jaszbereny kosice krupina miskolc nagyboszormeny
+			nagykallo nograd pest podmuran rimavska_sobota roznava salgotarjan satoraljaujhely
+			szabolcs turna zvolen
+		}
+		accepted_cultures = { anarto gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##ANCALITES
+	ANCAL = {
+		capital = abingdon
+		culture = ancalites
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			abingdon henley reading windsor wycombe
+		}
+		accepted_cultures = { ancalites britannic }
+		tolerated_cultures = {  }
+	}
+
 	##ANDECAMULENSES
 	ANDEC = {
 		capital = aulnay
@@ -751,12 +804,12 @@ countries = {
 
 	##ARESACES
 	ARESA = {
-		capital = backnang
+		capital = bitche
 		culture = aresaces
 		religion = gaulish_pagan
 
 		discovered_regions = {
-			south_german_region
+			france_region north_german_region south_german_region
 		}
 
 		country_rank = rank_county
@@ -768,7 +821,8 @@ countries = {
 		}
 
 		own_control_core = {
-			backnang bruchsal durlach heidelberg heilbronn ohringen sinsheim vaihingen
+			bitche heidelberg kaiserslautern landau_rhineland leiningen neustadt_an_der_haardt pirmasens speyer
+			worms zweibrucken
 		}
 		accepted_cultures = { aresaces gaulish }
 		tolerated_cultures = {  }
@@ -1051,6 +1105,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##AUTENII
+	AUTEN = {
+		capital = athenry
+		culture = autenii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			athenry clifden galway kilconnell tuam
+		}
+		accepted_cultures = { autenii britannic }
+		tolerated_cultures = {  }
+	}
+
 	##AUTRIGONES
 	AUTRI = {
 		capital = anana
@@ -1122,6 +1201,31 @@ countries = {
 			betanzos coruna
 		}
 		accepted_cultures = { baedui lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##BAETASII
+	BAETA = {
+		capital = cuijk
+		culture = baetasii
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			north_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			cuijk eindhoven geldern helmond hertogenbosch neuss venlo
+		}
+		accepted_cultures = { baetasii gaulish }
 		tolerated_cultures = {  }
 	}
 
@@ -1421,9 +1525,42 @@ countries = {
 
 	##BOII
 	BOLI = {
+		capital = bad_ischl
+		culture = boii
+		religion = gaulish_pagan
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bad_ischl bechyne benesov beroun bischofshofen caslav decin domazlice
+			frydlant gmunden hallein kirchdorf klatovy kourim kutna_hora liezen
+			linz litomerice loket mlada_boleslav most nemecky_brod passau pernstejn
+			pisek plzen prachen prague rakovnik salzburg schladming slany
+			st_georgen steyr tachov tepla turnov usti_nad_labem wels zatec
+			zittau
+		}
+		accepted_cultures = { boii gaulish }
+		tolerated_cultures = {  }
+		discovered_regions = {
+			north_german_region south_german_region
+		}
+	}
+
+	##CISALPINE BOII
+	BOLI1 = {
 		capital = bobbio
-		culture = terramare
-		religion = italic_pagan
+		culture = boii
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			italy_region
+		}
 
 		country_rank = rank_county
 
@@ -1437,11 +1574,8 @@ countries = {
 			bobbio cremona fiorenzuola lodi pavia piacenza sandonnino soncino
 			voghera
 		}
-		accepted_cultures = { terramare canegrate }
+		accepted_cultures = { boii }
 		tolerated_cultures = {  }
-		discovered_regions = {
-			italy_region
-		}
 	}
 
 	##THRACIAN BOSPORUS
@@ -1565,6 +1699,32 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##BRIGANTES
+	BRIGA = {
+		capital = bedale
+		culture = brigantes
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bedale carrickbeg chesterfield doncaster glossop leeds pontefract retford
+			richmond ripon selby wakefield waterford york
+		}
+		accepted_cultures = { brigantes britannic }
+		tolerated_cultures = {  }
+	}
+
 	##BYBLOS
 	BYBLO = {
 		capital = beirut
@@ -1663,6 +1823,56 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##CAERACATIS
+	CAERA = {
+		capital = germersheim
+		culture = caeracatis
+		religion = britannic_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			germersheim haguenau lichtenberg
+		}
+		accepted_cultures = { caeracatis britannic }
+		tolerated_cultures = {  }
+	}
+
+	##CAERENI
+	CAERE = {
+		capital = durness
+		culture = caereni
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			durness thurso tongue
+		}
+		accepted_cultures = { caereni britannic }
+		tolerated_cultures = {  }
+	}
+
 	##CAEROSI
 	CAERO = {
 		capital = arlon
@@ -1682,8 +1892,8 @@ countries = {
 		}
 
 		own_control_core = {
-			arlon birkenfeld bitburg castellaun cochem daun katzenelnbogen kreuznach
-			luxembourg mainz saarburg simmern trier wittlich
+			arlon birkenfeld bitburg castellaun cochem daun kreuznach luxembourg
+			saarburg simmern trier wittlich
 		}
 		accepted_cultures = { caerosi gaulish }
 		tolerated_cultures = {  }
@@ -1711,6 +1921,32 @@ countries = {
 			monterrey ourense ribadavia
 		}
 		accepted_cultures = { caladoni lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##CALEDONES
+	CALED = {
+		capital = aberfeldy
+		culture = caledones
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aberfeldy badenoch dumbarton forfar inverness lochaber scone stirling
+			strathearn
+		}
+		accepted_cultures = { caledones britannic }
 		tolerated_cultures = {  }
 	}
 
@@ -1960,6 +2196,31 @@ countries = {
 		}
 	}
 
+	##CARNONACAE
+	CARNO = {
+		capital = gairloch
+		culture = carnonacae
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			gairloch ullapool
+		}
+		accepted_cultures = { carnonacae britannic }
+		tolerated_cultures = {  }
+	}
+
 	##CARNUTES
 	CARNU = {
 		capital = alluyes
@@ -2009,6 +2270,56 @@ countries = {
 		}
 	}
 
+	##CARWETII
+	CARWE = {
+		capital = cockermouth
+		culture = carwetii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			cockermouth egremont kendal lancaster skipton
+		}
+		accepted_cultures = { carwetii britannic }
+		tolerated_cultures = {  }
+	}
+
+	##CASSI
+	CASSI = {
+		capital = bedford
+		culture = cassi
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bedford dunstable huntingdon kettering
+		}
+		accepted_cultures = { cassi britannic }
+		tolerated_cultures = {  }
+	}
+
 	##CATUWELLAUNOI
 	CATUW = {
 		capital = broyes
@@ -2041,7 +2352,7 @@ countries = {
 		religion = iberian_pagan
 
 		discovered_regions = {
-			iberia_region
+			iberia_region ireland_region
 		}
 
 		country_rank = rank_county
@@ -2053,7 +2364,8 @@ countries = {
 		}
 
 		own_control_core = {
-			arevalo medina_del_campo salamanca toro
+			arevalo drogheda dublin fingal kildare medina_del_campo naas navan
+			salamanca toro
 		}
 		accepted_cultures = { cauci celtiberian }
 		tolerated_cultures = {  }
@@ -2111,6 +2423,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##CENOMAGNI
+	CENOM = {
+		capital = cambridge
+		culture = cenomagni
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			cambridge hertford royston st_albans walden
+		}
+		accepted_cultures = { cenomagni britannic }
+		tolerated_cultures = {  }
+	}
+
 	##CIBARCI
 	CIBAR = {
 		capital = mondonedo
@@ -2133,6 +2470,31 @@ countries = {
 			mondonedo
 		}
 		accepted_cultures = { cibarci celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##CLAHILIC
+	CLAHI = {
+		capital = erbach_swabia
+		culture = clahilic
+		religion = britannic_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			erbach_swabia riedlingen urach
+		}
+		accepted_cultures = { clahilic britannic }
 		tolerated_cultures = {  }
 	}
 
@@ -2287,6 +2649,32 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##CORIELTAUVI
+	CORIE = {
+		capital = boston
+		culture = corieltauvi
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			boston grantham grimsby leicester lincoln loughborough louth newark
+			nottingham rutland
+		}
+		accepted_cultures = { corieltauvi britannic }
+		tolerated_cultures = {  }
+	}
+
 	##CORIOSOLITES
 	CORIO = {
 		capital = chatelaudren
@@ -2309,6 +2697,82 @@ countries = {
 		discovered_regions = {
 			france_region
 		}
+	}
+
+	##CORIONDI
+	CORI1 = {
+		capital = carlow
+		culture = coriondi
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			carlow ferns new_ross wexford
+		}
+		accepted_cultures = { coriondi britannic }
+		tolerated_cultures = {  }
+	}
+
+	##CORNOVII
+	CORNO = {
+		capital = bideford
+		culture = cornovii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bideford bodmin launceston truro
+		}
+		accepted_cultures = { cornovii britannic }
+		tolerated_cultures = {  }
+	}
+
+	##CORNOWII
+	CORN1 = {
+		capital = birmingham
+		culture = cornowii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			birmingham bosworth chester derby macclesfield nantwich shrewsbury stafford
+			stoke tamworth
+		}
+		accepted_cultures = { cornowii britannic }
+		tolerated_cultures = {  }
 	}
 
 	##CRATISTII
@@ -2337,6 +2801,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##CREONES
+	CREON = {
+		capital = ardtornish
+		culture = creones
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ardtornish mull skye
+		}
+		accepted_cultures = { creones britannic }
+		tolerated_cultures = {  }
+	}
+
 	##DAESITIAN
 	DAESI = {
 		capital = bihac
@@ -2360,6 +2849,56 @@ countries = {
 		discovered_regions = {
 			balkan_region
 		}
+	}
+
+	##DALITERNI
+	DALIT = {
+		capital = hachberg
+		culture = daliterni
+		religion = britannic_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			hachberg oberkirch oberndorf offenburg villingen
+		}
+		accepted_cultures = { daliterni britannic }
+		tolerated_cultures = {  }
+	}
+
+	##DAMNONII
+	DAMNO = {
+		capital = edinburgh
+		culture = damnonii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			edinburgh glasgow irvine lanark linlithgow paisley selkirk
+		}
+		accepted_cultures = { damnonii britannic }
+		tolerated_cultures = {  }
 	}
 
 	##DARDANIANS
@@ -2388,6 +2927,106 @@ countries = {
 		discovered_regions = {
 			balkan_region carpathia_region
 		}
+	}
+
+	##DARINI
+	DARIN = {
+		capital = ballymena
+		culture = darini
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ballymena belfast carrickfergus downpatrick newtownards
+		}
+		accepted_cultures = { darini britannic }
+		tolerated_cultures = {  }
+	}
+
+	##DECANTAE
+	DECAN = {
+		capital = dingwall
+		culture = decantae
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			dingwall urquhart
+		}
+		accepted_cultures = { decantae britannic }
+		tolerated_cultures = {  }
+	}
+
+	##DECEANGLI
+	DECEA = {
+		capital = flint
+		culture = deceangli
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			flint llangollen oswestry
+		}
+		accepted_cultures = { deceangli britannic }
+		tolerated_cultures = {  }
+	}
+
+	##DEMETAE
+	DEMET = {
+		capital = aberystwyth
+		culture = demetae
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aberystwyth cardigan carmarthen fishguard kidwelly pembroke
+		}
+		accepted_cultures = { demetae britannic }
+		tolerated_cultures = {  }
 	}
 
 	##DERRONES
@@ -2484,6 +3123,32 @@ countries = {
 		}
 	}
 
+	##DOBUNNI
+	DOBUN = {
+		capital = banbury
+		culture = dobunni
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			banbury bristol cheltenham cirencester coventry ewyas gloucester hereford
+			kidderminster monmouth stratford worcester
+		}
+		accepted_cultures = { dobunni britannic }
+		tolerated_cultures = {  }
+	}
+
 	##DOLOPIA
 	DOLOP = {
 		capital = arta
@@ -2507,6 +3172,106 @@ countries = {
 		}
 	}
 
+	##DUMNANII
+	DUMNA = {
+		capital = harris
+		culture = dumnanii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			harris lewis uist
+		}
+		accepted_cultures = { dumnanii britannic }
+		tolerated_cultures = {  }
+	}
+
+	##DUMNONII
+	DUMNO = {
+		capital = bampton
+		culture = dumnonii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bampton barnstaple exeter minehead okehampton plymouth taunton
+		}
+		accepted_cultures = { dumnonii britannic }
+		tolerated_cultures = {  }
+	}
+
+	##DUROTRIGES
+	DUROT = {
+		capital = bath
+		culture = durotriges
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bath dorchester lymington poole shaftesbury trowbridge wells weymouth
+		}
+		accepted_cultures = { durotriges britannic }
+		tolerated_cultures = {  }
+	}
+
+	##EBODANII
+	EBODA = {
+		capital = carrickmacross
+		culture = ebodanii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			carrickmacross dundalk oriel
+		}
+		accepted_cultures = { ebodanii britannic }
+		tolerated_cultures = {  }
+	}
+
 	##EBURONES
 	EBURO = {
 		capital = aachen
@@ -2526,10 +3291,8 @@ countries = {
 		}
 
 		own_control_core = {
-			aachen ahrweiler bergheim bonn bree coblenz cologne duren
-			dusseldorf eindhoven geldern hasselt heinsberg helmond maastricht mayen
-			monchengladbach neuss roermond schleiden siegburg solingen venlo weert
-			wied
+			aachen ahrweiler bergheim bonn bree cologne duren hasselt
+			heinsberg maastricht mayen monchengladbach roermond schleiden weert
 		}
 		accepted_cultures = { eburones gaulish }
 		tolerated_cultures = {  }
@@ -2657,6 +3420,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##EPIDII
+	EPIDI = {
+		capital = arran
+		culture = epidii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arran cowal inverary islay kintyre oban
+		}
+		accepted_cultures = { epidii britannic }
+		tolerated_cultures = {  }
+	}
+
 	##EPORA
 	EPORA = {
 		capital = almodovar_del_campo
@@ -2679,6 +3467,57 @@ countries = {
 			almodovar_del_campo calatrava puertollano
 		}
 		accepted_cultures = { epora celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ERAVISCI
+	ERAVI = {
+		capital = fehervar
+		culture = eravisci
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			carpathia_region south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			fehervar furstenfeld gyor kapuvar kormend olsnica papa szombathely
+			tata vasvar zalavar
+		}
+		accepted_cultures = { eravisci gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##ERDIN
+	ERDIN = {
+		capital = belcoo
+		culture = erdin
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			belcoo dromahair enniskillen killeshandra leitrim skreen sligo
+		}
+		accepted_cultures = { erdin britannic }
 		tolerated_cultures = {  }
 	}
 
@@ -2784,6 +3623,31 @@ countries = {
 		}
 	}
 
+	##GABRANTOVICES
+	GABRA = {
+		capital = bridlington
+		culture = gabrantovices
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bridlington hull norton scarborough whitby
+		}
+		accepted_cultures = { gabrantovices britannic }
+		tolerated_cultures = {  }
+	}
+
 	##GALLI
 	GALLI = {
 		capital = ejea_de_los_caballeros
@@ -2806,6 +3670,31 @@ countries = {
 			ejea_de_los_caballeros jaca sos tudela
 		}
 		accepted_cultures = { galli gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##GANGANI
+	GANGA = {
+		capital = adare
+		culture = gangani
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			adare bunratty ennis limerick moyarta
+		}
+		accepted_cultures = { gangani britannic }
 		tolerated_cultures = {  }
 	}
 
@@ -2933,6 +3822,31 @@ countries = {
 		}
 	}
 
+	##HAEMODAEI
+	HAEMO = {
+		capital = shetland
+		culture = haemodaei
+		religion = britannic_pagan
+
+		discovered_regions = {
+			north_atlantic_islands_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			shetland
+		}
+		accepted_cultures = { haemodaei britannic }
+		tolerated_cultures = {  }
+	}
+
 	##HAYASA
 	HAJAS = {
 		capital = artanuji
@@ -2974,7 +3888,7 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { hittite }
+		accepted_cultures = { luwian }
 		tolerated_cultures = {  }
 		discovered_regions = {
 			anatolia_region
@@ -3123,6 +4037,31 @@ countries = {
 			alhambra_location baeza manzanares montiel ubeda
 		}
 		accepted_cultures = { ibolcani celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##ICENES
+	ICENE = {
+		capital = ely
+		culture = icenes
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ely fakenham lowestoft lynn norwich spalding thetford yarmouth
+		}
+		accepted_cultures = { icenes britannic }
 		tolerated_cultures = {  }
 	}
 
@@ -3297,6 +4236,33 @@ countries = {
 			meda trancoso
 		}
 		accepted_cultures = { ireucutioni celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##IWERNI
+	IWERN = {
+		capital = ardagh
+		culture = iwerni
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ardagh ballymore cashel castleconnell clonmel cullahill daingean dunamase
+			dunhallow fermoy kilbrittain kilkenny killmallock longford moycarn mullingar
+			muskerry nenagh roscrea tipperary trim tullamore
+		}
+		accepted_cultures = { iwerni britannic }
 		tolerated_cultures = {  }
 	}
 
@@ -3670,6 +4636,32 @@ countries = {
 		}
 	}
 
+	##LEUCI
+	LEUCI = {
+		capital = bar_sur_aube
+		culture = leuci
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bar_sur_aube bar_sur_seine brienne chaumont choiseul grancey la_mothe_en_bassigny langres
+			troyes
+		}
+		accepted_cultures = { leuci gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##LEUNI
 	LEUNI = {
 		capital = valenca
@@ -3818,6 +4810,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##LOPOCARES
+	LOPOC = {
+		capital = darlington
+		culture = lopocares
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			darlington durham stockton
+		}
+		accepted_cultures = { lopocares britannic }
+		tolerated_cultures = {  }
+	}
+
 	##LOUGEI
 	LOUGE = {
 		capital = barco_de_valdeorras
@@ -3840,6 +4857,31 @@ countries = {
 			barco_de_valdeorras ponferrada viana_bolo villafranca_bierzo
 		}
 		accepted_cultures = { lougei lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##LUGI
+	LUGI = {
+		capital = dornoch
+		culture = lugi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			dornoch
+		}
+		accepted_cultures = { lugi gaulish }
 		tolerated_cultures = {  }
 	}
 
@@ -3939,6 +4981,31 @@ countries = {
 		discovered_regions = {
 			iberia_region
 		}
+	}
+
+	##MANAKWI
+	MANAK = {
+		capital = athy
+		culture = manakwi
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			athy glendalough wicklow
+		}
+		accepted_cultures = { manakwi britannic }
+		tolerated_cultures = {  }
 	}
 
 	##MANDUBIO
@@ -4063,6 +5130,33 @@ countries = {
 		}
 	}
 
+	##MEDIOMATERES
+	MEDIO = {
+		capital = bar_le_duc
+		culture = mediomateres
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bar_le_duc benfeld epinal joinville ligny luneville mirecourt morhange
+			nancy neufchateau_des_vosges saarwerden saint_die saint_mihiel salm sarrebourg strasbourg
+			toul vaucouleurs vic_sur_seille vitry_en_pertois zabern
+		}
+		accepted_cultures = { mediomateres gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##MELDI
 	MELDI = {
 		capital = brie_comte_robert
@@ -4140,6 +5234,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##METANTII
+	METAN = {
+		capital = blackburn
+		culture = metantii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			blackburn liverpool manchester preston
+		}
+		accepted_cultures = { metantii britannic }
+		tolerated_cultures = {  }
+	}
+
 	##MENTESONI
 	METSO = {
 		capital = jodar
@@ -4182,7 +5301,7 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { luwian mycenaean }
+		accepted_cultures = { hittite mycenaean }
 		tolerated_cultures = {  }
 		discovered_regions = {
 			anatolia_region
@@ -4286,6 +5405,56 @@ countries = {
 		}
 	}
 
+	##MONAKWI
+	MONAK = {
+		capital = mann
+		culture = monakwi
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			mann
+		}
+		accepted_cultures = { monakwi britannic }
+		tolerated_cultures = {  }
+	}
+
+	##MONE
+	MONE = {
+		capital = anglesey
+		culture = mone
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			anglesey
+		}
+		accepted_cultures = { mone britannic }
+		tolerated_cultures = {  }
+	}
+
 	##MORINI
 	MORIN = {
 		capital = boulogne_sur_mer
@@ -4308,6 +5477,31 @@ countries = {
 			boulogne_sur_mer calais saint_omer
 		}
 		accepted_cultures = { morini gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##NAGNATAE
+	NAGNA = {
+		capital = athlone
+		culture = nagnatae
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			athlone ballaghaderreen burrishoole castlebar castlereagh erris roscommon
+		}
+		accepted_cultures = { nagnatae britannic }
 		tolerated_cultures = {  }
 	}
 
@@ -4357,6 +5551,32 @@ countries = {
 			barcelos guimaraes
 		}
 		accepted_cultures = { nemetati lusitanian }
+		tolerated_cultures = {  }
+	}
+
+	##NEMETES
+	NEME1 = {
+		capital = ansbach
+		culture = nemetes
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ansbach beilngries dillingen dinkelsbuhl eichstatt gunzburg neuburg_an_der_donau neumarkt
+			nuremberg schwabach ulm weissenburg
+		}
+		accepted_cultures = { nemetes gaulish }
 		tolerated_cultures = {  }
 	}
 
@@ -4458,6 +5678,31 @@ countries = {
 		discovered_regions = {
 			balkan_region south_german_region
 		}
+	}
+
+	##NOVANTAE
+	NOVAN = {
+		capital = ayr
+		culture = novantae
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ayr dumfries kenmure kirkcudbright stranraer
+		}
+		accepted_cultures = { novantae britannic }
+		tolerated_cultures = {  }
 	}
 
 	##NORTH PICENE
@@ -4634,6 +5879,57 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##ORCII
+	ORCII = {
+		capital = orkney
+		culture = orcii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			north_atlantic_islands_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			orkney
+		}
+		accepted_cultures = { orcii britannic }
+		tolerated_cultures = {  }
+	}
+
+	##ORDOWICI
+	ORDOW = {
+		capital = brecknock
+		culture = ordowici
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			brecknock builth carnarvon conwy denbigh harlech ludlow machynlleth
+			montgomery penllyn radnor wigmore
+		}
+		accepted_cultures = { ordowici britannic }
+		tolerated_cultures = {  }
+	}
+
 	##ORNIACI
 	ORNIA = {
 		capital = mieres
@@ -4709,6 +6005,32 @@ countries = {
 		discovered_regions = {
 			italy_region
 		}
+	}
+
+	##OSII
+	OSII = {
+		capital = bratislava
+		culture = osii
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			carpathia_region south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bratislava bruck_leitha ganserndorf komarom magyarovar mistelbach nitra samorin
+			stary_tekov trnava
+		}
+		accepted_cultures = { osii gaulish }
+		tolerated_cultures = {  }
 	}
 
 	##OSISMES
@@ -5133,6 +6455,31 @@ countries = {
 		}
 	}
 
+	##RAURAC
+	RAURA = {
+		capital = arches
+		culture = raurac
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			france_region south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arches belfort darney ferrette gray luxeuil montbozon vesoul
+		}
+		accepted_cultures = { raurac gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##REDONES
 	REDON = {
 		capital = dol
@@ -5230,6 +6577,31 @@ countries = {
 			karpathos rodos
 		}
 		accepted_cultures = { dorian }
+		tolerated_cultures = {  }
+	}
+
+	##RODOGBI
+	RODOG = {
+		capital = ballycastle
+		culture = rodogbi
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ballycastle coleraine derry dunluce magherafelt
+		}
+		accepted_cultures = { rodogbi britannic }
 		tolerated_cultures = {  }
 	}
 
@@ -5508,6 +6880,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##SEGONTIACI
+	SEGON = {
+		capital = aylesbury
+		culture = segontiaci
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aylesbury buckingham daventry northampton oxford
+		}
+		accepted_cultures = { segontiaci britannic }
+		tolerated_cultures = {  }
+	}
+
 	##SEGUSIAVES
 	SEGUS = {
 		capital = beaujeu
@@ -5550,11 +6947,36 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { luwian mycenaean }
+		accepted_cultures = { hittite mycenaean }
 		tolerated_cultures = {  }
 		discovered_regions = {
 			anatolia_region
 		}
+	}
+
+	##SELGOWII
+	SELGO = {
+		capital = billingham
+		culture = selgowii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			billingham carlisle roxburgh
+		}
+		accepted_cultures = { selgowii britannic }
+		tolerated_cultures = {  }
 	}
 
 	##SENONES
@@ -5799,6 +7221,31 @@ countries = {
 		discovered_regions = {
 			italy_region
 		}
+	}
+
+	##SILORIKS
+	SILOR = {
+		capital = caerphilly
+		culture = siloriks
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			caerphilly cardiff neath newport swansea
+		}
+		accepted_cultures = { siloriks britannic }
+		tolerated_cultures = {  }
 	}
 
 	##SILVANECTES
@@ -6095,6 +7542,31 @@ countries = {
 		}
 	}
 
+	##TAEXALI
+	TAEXA = {
+		capital = aberdeen
+		culture = taexali
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			aberdeen buchan inverurie
+		}
+		accepted_cultures = { taexali britannic }
+		tolerated_cultures = {  }
+	}
+
 	##TALURES
 	TALUR = {
 		capital = ponte_sor
@@ -6267,6 +7739,57 @@ countries = {
 		}
 	}
 
+	##TEKTOSAGES
+	TEKTO = {
+		capital = abrahamtelke
+		culture = tektosages
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			carpathia_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			abrahamtelke felegyhaza halas kalocsa karcag kecskemet solt szeged
+			szolnok
+		}
+		accepted_cultures = { tektosages gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##TENCTERI
+	TENCT = {
+		capital = dulmen
+		culture = tencteri
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			north_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			dulmen horstmar munster rheine tecklenburg
+		}
+		accepted_cultures = { tencteri gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##THESPROTIA
 	TESPR = {
 		capital = ioannina
@@ -6288,6 +7811,31 @@ countries = {
 		discovered_regions = {
 			balkan_region
 		}
+	}
+
+	##TESTWERDI
+	TESTW = {
+		capital = appleby
+		culture = testwerdi
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			appleby hexham penrith
+		}
+		accepted_cultures = { testwerdi britannic }
+		tolerated_cultures = {  }
 	}
 
 	##TEUCOR
@@ -6312,6 +7860,33 @@ countries = {
 			saint_avold sarreguemines
 		}
 		accepted_cultures = { teucor gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##TEURISC
+	TEURI = {
+		capital = baia_mare
+		culture = teurisc
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			carpathia_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			baia_mare baita beregovo bistrita cuhea dej hodod khust
+			mezhorje mukachevo nagyecsed rakhiv sighet syvlyush szatmar uzhorod
+			varda vatra_dornei velikyi_bereznyi zemplin
+		}
+		accepted_cultures = { teurisc gaulish }
 		tolerated_cultures = {  }
 	}
 
@@ -6362,6 +7937,31 @@ countries = {
 		discovered_regions = {
 			balkan_region
 		}
+	}
+
+	##THULE
+	THULE = {
+		capital = torshavn
+		culture = thule
+		religion = britannic_pagan
+
+		discovered_regions = {
+			north_atlantic_islands_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			torshavn
+		}
+		accepted_cultures = { thule britannic }
+		tolerated_cultures = {  }
 	}
 
 	##TIGULIN
@@ -6439,6 +8039,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##TOLISTOBOIOI
+	TOLIS = {
+		capital = baja_hungary
+		culture = tolistoboioi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			carpathia_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			baja_hungary titel zenta
+		}
+		accepted_cultures = { tolistoboioi gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##TORREAN CORSICA
 	TORRI = {
 		capital = ajaccio
@@ -6490,6 +8115,32 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##TRIBOCC
+	TRIBO = {
+		capital = baden
+		culture = tribocc
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			baden calw durlach ellwangen goppingen heidenheim helfenstein horb
+			nagold oettingen stuttgart tubingen welzheim
+		}
+		accepted_cultures = { tribocc gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##TRICASSES
 	TRICA = {
 		capital = etampes
@@ -6512,6 +8163,56 @@ countries = {
 			etampes melun
 		}
 		accepted_cultures = { tricasses gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##TRINOVANTES
+	TRINO = {
+		capital = bury
+		culture = trinovantes
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bury chelmsford colchester hedingham ipswich lavenham prittlewell
+		}
+		accepted_cultures = { trinovantes britannic }
+		tolerated_cultures = {  }
+	}
+
+	##TROKMOI
+	TROKM = {
+		capital = bacs
+		culture = trokmoi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			balkan_region carpathia_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bacs ilok vukovar
+		}
+		accepted_cultures = { trokmoi gaulish }
 		tolerated_cultures = {  }
 	}
 
@@ -6610,6 +8311,56 @@ countries = {
 			villanueva_de_la_serena zalamea
 		}
 		accepted_cultures = { turduli_diponi celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##TULINGI
+	TULIN = {
+		capital = balingen
+		culture = tulingi
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			balingen biberach hohenberg saulgau sigmaringen
+		}
+		accepted_cultures = { tulingi gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##TUNGRI
+	TUNGR = {
+		capital = ahaus
+		culture = tungri
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			north_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ahaus doetinchem kleve mors recklinghausen wesel
+		}
+		accepted_cultures = { tungri gaulish }
 		tolerated_cultures = {  }
 	}
 
@@ -6766,7 +8517,7 @@ countries = {
 
 	##UBI
 	UBI = {
-		capital = aschach
+		capital = aschaffenburg
 		culture = ubi
 		religion = gaulish_pagan
 
@@ -6783,11 +8534,9 @@ countries = {
 		}
 
 		own_control_core = {
-			aschach aschaffenburg bensheim bruckenau buchen budingen coburg darmstadt
-			diez erbach frankfurt friedberg_hesse fulda giessen hadamar hanau
-			hassfurt hildburghausen hunfeld karlstadt konigshofen lauterbach lichtenfels lohr
-			meiningen mellrichstadt miltenberg mosbach nidda offenbach schleusingen schweinfurt
-			tauberbischofsheim usingen wetzlar wiesbaden wurzburg
+			aschaffenburg bensheim buchen budingen coblenz darmstadt diez erbach
+			frankfurt hanau karlstadt katzenelnbogen lohr mainz miltenberg mosbach
+			offenbach tauberbischofsheim usingen wiesbaden wurzburg
 		}
 		accepted_cultures = { ubi gaulish }
 		tolerated_cultures = {  }
@@ -6815,6 +8564,56 @@ countries = {
 			brioude saint_flour
 		}
 		accepted_cultures = { uelauii gaulish }
+		tolerated_cultures = {  }
+	}
+
+	##UELLABORI
+	UELLA = {
+		capital = carbery
+		culture = uellabori
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			carbery dingle killarney tralee
+		}
+		accepted_cultures = { uellabori britannic }
+		tolerated_cultures = {  }
+	}
+
+	##UENNICNII
+	UENNI = {
+		capital = donegal
+		culture = uennicnii
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			donegal inishowen kilmacrennan raphoe strabane
+		}
+		accepted_cultures = { uennicnii britannic }
 		tolerated_cultures = {  }
 	}
 
@@ -6865,6 +8664,31 @@ countries = {
 		}
 	}
 
+	##ULUTI
+	ULUTI = {
+		capital = armagh
+		culture = uluti
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			armagh cavan clogher dungannon iveagh kells killycolly monaghan
+		}
+		accepted_cultures = { uluti britannic }
+		tolerated_cultures = {  }
+	}
+
 	##UMBRIAN
 	UMBRI = {
 		capital = assisi
@@ -6912,6 +8736,31 @@ countries = {
 		discovered_regions = {
 			france_region
 		}
+	}
+
+	##UPERACI
+	UPERA = {
+		capital = berchtesgaden
+		culture = uperaci
+		religion = britannic_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			berchtesgaden saalfelden st_johann zell_am_see
+		}
+		accepted_cultures = { uperaci britannic }
+		tolerated_cultures = {  }
 	}
 
 	##URACI
@@ -7014,6 +8863,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##USDIAE
+	USDIA = {
+		capital = cork
+		culture = usdiae
+		religion = britannic_pagan
+
+		discovered_regions = {
+			ireland_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			cork dungarvan kinsale youghal
+		}
+		accepted_cultures = { usdiae britannic }
+		tolerated_cultures = {  }
+	}
+
 	##VACCAEI
 	VACCA = {
 		capital = alba_de_aliste
@@ -7062,6 +8936,32 @@ countries = {
 			estella onate pamplona salvatierra san_sebastian tolosa
 		}
 		accepted_cultures = { vadruli celtiberian }
+		tolerated_cultures = {  }
+	}
+
+	##VANGIONES
+	VANGI = {
+		capital = backnang
+		culture = vangiones
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			backnang bruchsal crailsheim hall heilbronn kitzingen mergentheim neustadt
+			ohringen rothenburg sinsheim uffenheim vaihingen
+		}
+		accepted_cultures = { vangiones gaulish }
 		tolerated_cultures = {  }
 	}
 
@@ -7210,6 +9110,31 @@ countries = {
 		discovered_regions = {
 			italy_region
 		}
+	}
+
+	##VENICONES
+	VENIC = {
+		capital = arbroath
+		culture = venicones
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			arbroath clackmannan cupar dundee dunfermline perth st_andrews stonehaven
+		}
+		accepted_cultures = { venicones britannic }
+		tolerated_cultures = {  }
 	}
 
 	##VENOSTES
@@ -7409,6 +9334,33 @@ countries = {
 		}
 	}
 
+	##VOLCAE
+	VOLCA = {
+		capital = bautzen
+		culture = volcae
+		religion = gaulish_pagan
+
+		discovered_regions = {
+			north_german_region south_german_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bautzen bitov budejovice dacice dresden freiberg husinec j_hradec
+			jihlava krumlov marienstern meissen pirna rohrbach sayda trebon
+			waidhofen_an_der_thaya
+		}
+		accepted_cultures = { volcae gaulish }
+		tolerated_cultures = {  }
+	}
+
 	##VOLSCIAN
 	VOLSC = {
 		capital = sora
@@ -7483,6 +9435,31 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##VOTADIN
+	VOTAD = {
+		capital = alnwick
+		culture = votadin
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			alnwick berwick dunbar duns morpeth newcastle
+		}
+		accepted_cultures = { votadin britannic }
+		tolerated_cultures = {  }
+	}
+
 	##WALAN
 	WALAN = {
 		capital = ahar
@@ -7525,11 +9502,36 @@ countries = {
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { hittite thracian }
+		accepted_cultures = { luwian thracian }
 		tolerated_cultures = {  }
 		discovered_regions = {
 			anatolia_region balkan_region
 		}
+	}
+
+	##WOCOMIUGI
+	WOCOM = {
+		capital = banff
+		culture = wocomiugi
+		religion = britannic_pagan
+
+		discovered_regions = {
+			great_britain_region
+		}
+
+		country_rank = rank_county
+
+		include = "Neolithic"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			banff elgin mar
+		}
+		accepted_cultures = { wocomiugi britannic }
+		tolerated_cultures = {  }
 	}
 
 	##ZOELAE
@@ -7559,4 +9561,3 @@ countries = {
 
 	}
 }
-

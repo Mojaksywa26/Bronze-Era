@@ -1,0 +1,4 @@
+Removed obsolete vanilla/current countries
+==========================================
+
+- none

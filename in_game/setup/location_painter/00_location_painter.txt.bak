@@ -391,6 +391,24 @@ location_painter_assignments = {
             castropol
         }
     }
+    ALCEN = {
+        color = { 35 97 205 }
+        locations = {
+            bauge
+            le_lude
+            sable
+            sainte_suzanne
+        }
+    }
+    ALDIA = {
+        color = { 192 42 50 }
+        locations = {
+            angers
+            chateau_gontier
+            laval
+            mayenne
+        }
+    }
     ALLOB = {
         color = { 101 47 188 }
         locations = {
@@ -460,6 +478,48 @@ location_painter_assignments = {
             masyaf
             nabek
             qusayr
+        }
+    }
+    ANARTO = {
+        color = { 199 67 93 }
+        locations = {
+            balassagyarmat
+            borsod
+            buda
+            carei
+            eger
+            esztergom
+            gemer
+            gonc
+            hajduszoboszlo
+            heves
+            hont
+            jaszbereny
+            kosice
+            krupina
+            miskolc
+            nagyboszormeny
+            nagykallo
+            nograd
+            pest
+            podmuran
+            rimavska_sobota
+            roznava
+            salgotarjan
+            satoraljaujhely
+            szabolcs
+            turna
+            zvolen
+        }
+    }
+    ANCALITES = {
+        color = { 72 199 192 }
+        locations = {
+            abingdon
+            henley
+            reading
+            windsor
+            wycombe
         }
     }
     ANDEC = {
@@ -538,14 +598,21 @@ location_painter_assignments = {
     ARESA = {
         color = { 74 114 207 }
         locations = {
-            backnang
-            bruchsal
-            durlach
+            bitche
             heidelberg
-            heilbronn
-            ohringen
-            sinsheim
-            vaihingen
+            kaiserslautern
+            landau_rhineland
+            leiningen
+            neustadt_an_der_haardt
+            pirmasens
+            speyer
+            worms
+            zweibrucken
+        }
+    }
+    ARESACES = {
+        color = { 74 114 207 }
+        locations = {
         }
     }
     AREVA = {
@@ -718,26 +785,21 @@ location_painter_assignments = {
             alencon
             argentan
             beaumont_au_maine
+            laigle
             le_mans
+            mortagne
+            senonches
             villaines
         }
     }
-    ALCEN = {
-        color = { 35 97 205 }
+    AUTENII = {
+        color = { 98 126 203 }
         locations = {
-            bauge
-            le_lude
-            sable
-            sainte_suzanne
-        }
-    }
-    ALDIA = {
-        color = { 192 42 50 }
-        locations = {
-            angers
-            chateau_gontier
-            laval
-            mayenne
+            athenry
+            clifden
+            galway
+            kilconnell
+            tuam
         }
     }
     AUTRI = {
@@ -858,16 +920,6 @@ location_painter_assignments = {
             london
         }
     }
-    BITUR = {
-        color = { 59 159 181 }
-        locations = {
-            benauges
-            bordeaux
-            castelnau_de_medoc
-            lesparre_medoc
-            libourne
-        }
-    }
     BITCU = {
         color = { 173 54 217 }
         locations = {
@@ -889,12 +941,68 @@ location_painter_assignments = {
             vierzon
         }
     }
+    BITUR = {
+        color = { 59 159 181 }
+        locations = {
+            benauges
+            bordeaux
+            castelnau_de_medoc
+            lesparre_medoc
+            libourne
+        }
+    }
     BLETO = {
         color = { 35 209 114 }
         locations = {
             miranda_de_i_douro
             moncorvo
             yecla_de_yeltes
+        }
+    }
+    BOII = {
+        color = { 22 60 22 }
+        locations = {
+            bad_ischl
+            bechyne
+            benesov
+            beroun
+            bischofshofen
+            caslav
+            decin
+            domazlice
+            frydlant
+            gmunden
+            hallein
+            kirchdorf
+            klatovy
+            kourim
+            kutna_hora
+            liezen
+            linz
+            litomerice
+            loket
+            mlada_boleslav
+            most
+            nemecky_brod
+            passau
+            pernstejn
+            pisek
+            plzen
+            prachen
+            prague
+            rakovnik
+            salzburg
+            schladming
+            slany
+            st_georgen
+            steyr
+            tachov
+            tepla
+            turnov
+            usti_nad_labem
+            wels
+            zatec
+            zittau
         }
     }
     BOLI = {
@@ -981,6 +1089,25 @@ location_painter_assignments = {
             waldsee
         }
     }
+    BRIGANTES = {
+        color = { 87 195 65 }
+        locations = {
+            bedale
+            carrickbeg
+            chesterfield
+            doncaster
+            glossop
+            leeds
+            pontefract
+            retford
+            richmond
+            ripon
+            selby
+            wakefield
+            waterford
+            york
+        }
+    }
     BYBLO = {
         color = { 220 56 176 }
         locations = {
@@ -1012,6 +1139,22 @@ location_painter_assignments = {
             vianden
         }
     }
+    CAERACATIS = {
+        color = { 79 216 191 }
+        locations = {
+            germersheim
+            haguenau
+            lichtenberg
+        }
+    }
+    CAERENI = {
+        color = { 54 206 135 }
+        locations = {
+            durness
+            thurso
+            tongue
+        }
+    }
     CAERO = {
         color = { 202 177 63 }
         locations = {
@@ -1021,10 +1164,8 @@ location_painter_assignments = {
             castellaun
             cochem
             daun
-            katzenelnbogen
             kreuznach
             luxembourg
-            mainz
             saarburg
             simmern
             trier
@@ -1037,6 +1178,20 @@ location_painter_assignments = {
             monterrey
             ourense
             ribadavia
+        }
+    }
+    CALEDONES = {
+        color = { 68 96 207 }
+        locations = {
+            aberfeldy
+            badenoch
+            dumbarton
+            forfar
+            inverness
+            lochaber
+            scone
+            stirling
+            strathearn
         }
     }
     CALET = {
@@ -1078,20 +1233,6 @@ location_painter_assignments = {
             nozza
             riva
             salo_ita
-        }
-    }
-    CMNNI = {
-        color = { 208 212 73 }
-        locations = {
-            chiavenna
-            chur
-            como
-            davos
-            disentis
-            ilanz
-            lugano
-            mesocco
-            monza
         }
     }
     CANTI = {
@@ -1151,6 +1292,13 @@ location_painter_assignments = {
             trieste
         }
     }
+    CARNONACAE = {
+        color = { 77 49 216 }
+        locations = {
+            gairloch
+            ullapool
+        }
+    }
     CARNU = {
         color = { 189 61 95 }
         locations = {
@@ -1172,6 +1320,25 @@ location_painter_assignments = {
             gibraltar
         }
     }
+    CARWETII = {
+        color = { 67 79 214 }
+        locations = {
+            cockermouth
+            egremont
+            kendal
+            lancaster
+            skipton
+        }
+    }
+    CASSI = {
+        color = { 107 40 195 }
+        locations = {
+            bedford
+            dunstable
+            huntingdon
+            kettering
+        }
+    }
     CATUW = {
         color = { 32 203 163 }
         locations = {
@@ -1186,7 +1353,13 @@ location_painter_assignments = {
         color = { 74 222 123 }
         locations = {
             arevalo
+            drogheda
+            dublin
+            fingal
+            kildare
             medina_del_campo
+            naas
+            navan
             salamanca
             toro
         }
@@ -1228,10 +1401,34 @@ location_painter_assignments = {
             zafra
         }
     }
+    CENOMAGNI = {
+        color = { 220 67 56 }
+        locations = {
+            cambridge
+            hertford
+            royston
+            st_albans
+            walden
+        }
+    }
     CIBAR = {
         color = { 155 48 217 }
         locations = {
             mondonedo
+        }
+    }
+    CMNNI = {
+        color = { 208 212 73 }
+        locations = {
+            chiavenna
+            chur
+            como
+            davos
+            disentis
+            ilanz
+            lugano
+            mesocco
+            monza
         }
     }
     COERE = {
@@ -1269,6 +1466,21 @@ location_painter_assignments = {
             santander
         }
     }
+    CORIELTAUVI = {
+        color = { 200 76 187 }
+        locations = {
+            boston
+            grantham
+            grimsby
+            leicester
+            lincoln
+            loughborough
+            louth
+            newark
+            nottingham
+            rutland
+        }
+    }
     CORIO = {
         color = { 217 187 38 }
         locations = {
@@ -1278,6 +1490,39 @@ location_painter_assignments = {
             ploermel
             saint_brieuc
             saint_malo
+        }
+    }
+    CORIONDI = {
+        color = { 212 109 84 }
+        locations = {
+            carlow
+            ferns
+            new_ross
+            wexford
+        }
+    }
+    CORNOVII = {
+        color = { 213 83 126 }
+        locations = {
+            bideford
+            bodmin
+            launceston
+            truro
+        }
+    }
+    CORNOWII = {
+        color = { 169 75 206 }
+        locations = {
+            birmingham
+            bosworth
+            chester
+            derby
+            macclesfield
+            nantwich
+            shrewsbury
+            stafford
+            stoke
+            tamworth
         }
     }
     CRATI = {
@@ -1292,6 +1537,14 @@ location_painter_assignments = {
             toledo
             ucles
             zorita
+        }
+    }
+    CREONES = {
+        color = { 63 198 175 }
+        locations = {
+            ardtornish
+            mull
+            skye
         }
     }
     DAESI = {
@@ -1309,6 +1562,18 @@ location_painter_assignments = {
             srb
             virovitica
             zagreb
+        }
+    }
+    DAMNONII = {
+        color = { 68 218 213 }
+        locations = {
+            edinburgh
+            glasgow
+            irvine
+            lanark
+            linlithgow
+            paisley
+            selkirk
         }
     }
     DARDN = {
@@ -1360,6 +1625,42 @@ location_painter_assignments = {
             zica
         }
     }
+    DARINI = {
+        color = { 141 51 209 }
+        locations = {
+            ballymena
+            belfast
+            carrickfergus
+            downpatrick
+            newtownards
+        }
+    }
+    DECANTAE = {
+        color = { 203 58 130 }
+        locations = {
+            dingwall
+            urquhart
+        }
+    }
+    DECEANGLI = {
+        color = { 115 214 61 }
+        locations = {
+            flint
+            llangollen
+            oswestry
+        }
+    }
+    DEMETAE = {
+        color = { 197 135 73 }
+        locations = {
+            aberystwyth
+            cardigan
+            carmarthen
+            fishguard
+            kidwelly
+            pembroke
+        }
+    }
     DERRN = {
         color = { 127 218 62 }
         locations = {
@@ -1395,6 +1696,23 @@ location_painter_assignments = {
             melnik
         }
     }
+    DOBUNNI = {
+        color = { 176 216 65 }
+        locations = {
+            banbury
+            bristol
+            cheltenham
+            cirencester
+            coventry
+            ewyas
+            gloucester
+            hereford
+            kidderminster
+            monmouth
+            stratford
+            worcester
+        }
+    }
     DOLOP = {
         color = { 182 58 60 }
         locations = {
@@ -1402,6 +1720,47 @@ location_painter_assignments = {
             karditsa
             karpenisi
             pyli
+        }
+    }
+    DUMNANII = {
+        color = { 89 89 207 }
+        locations = {
+            harris
+            lewis
+            uist
+        }
+    }
+    DUMNONII = {
+        color = { 201 168 89 }
+        locations = {
+            bampton
+            barnstaple
+            exeter
+            minehead
+            okehampton
+            plymouth
+            taunton
+        }
+    }
+    DUROTRIGES = {
+        color = { 157 53 222 }
+        locations = {
+            bath
+            dorchester
+            lymington
+            poole
+            shaftesbury
+            trowbridge
+            wells
+            weymouth
+        }
+    }
+    EBODANII = {
+        color = { 59 178 196 }
+        locations = {
+            carrickmacross
+            dundalk
+            oriel
         }
     }
     EBURO = {
@@ -1412,10 +1771,8 @@ location_painter_assignments = {
             bergheim
             bonn
             bree
-            coblenz
             cologne
             duren
-            dusseldorf
             eindhoven
             geldern
             hasselt
@@ -1427,11 +1784,8 @@ location_painter_assignments = {
             neuss
             roermond
             schleiden
-            siegburg
-            solingen
             venlo
             weert
-            wied
         }
     }
     ELAM = {
@@ -1498,12 +1852,51 @@ location_painter_assignments = {
             saluzzo
         }
     }
+    EPIDII = {
+        color = { 37 203 40 }
+        locations = {
+            arran
+            cowal
+            inverary
+            islay
+            kintyre
+            oban
+        }
+    }
     EPORA = {
         color = { 72 82 224 }
         locations = {
             almodovar_del_campo
             calatrava
             puertollano
+        }
+    }
+    ERAVISCI = {
+        color = { 211 74 86 }
+        locations = {
+            fehervar
+            furstenfeld
+            gyor
+            kapuvar
+            kormend
+            olsnica
+            papa
+            szombathely
+            tata
+            vasvar
+            zalavar
+        }
+    }
+    ERDIN = {
+        color = { 205 133 45 }
+        locations = {
+            belcoo
+            dromahair
+            enniskillen
+            killeshandra
+            leitrim
+            skreen
+            sligo
         }
     }
     ESUVI = {
@@ -1589,6 +1982,16 @@ location_painter_assignments = {
             st_ambroix
         }
     }
+    GABRANTOVICES = {
+        color = { 157 76 214 }
+        locations = {
+            bridlington
+            hull
+            norton
+            scarborough
+            whitby
+        }
+    }
     GALLI = {
         color = { 42 213 45 }
         locations = {
@@ -1596,6 +1999,16 @@ location_painter_assignments = {
             jaca
             sos
             tudela
+        }
+    }
+    GANGANI = {
+        color = { 202 181 43 }
+        locations = {
+            adare
+            bunratty
+            ennis
+            limerick
+            moyarta
         }
     }
     GARUM = {
@@ -1643,6 +2056,12 @@ location_painter_assignments = {
             qutayfah
             salkhad
             suwayda
+        }
+    }
+    HAEMODAEI = {
+        color = { 163 81 205 }
+        locations = {
+            shetland
         }
     }
     HAJAS = {
@@ -1757,6 +2176,19 @@ location_painter_assignments = {
             ubeda
         }
     }
+    ICENES = {
+        color = { 61 51 193 }
+        locations = {
+            ely
+            fakenham
+            lowestoft
+            lynn
+            norwich
+            spalding
+            thetford
+            yarmouth
+        }
+    }
     ILIPA = {
         color = { 218 82 191 }
         locations = {
@@ -1815,6 +2247,33 @@ location_painter_assignments = {
         locations = {
             meda
             trancoso
+        }
+    }
+    IWERNI = {
+        color = { 203 77 126 }
+        locations = {
+            ardagh
+            ballymore
+            cashel
+            castleconnell
+            clonmel
+            cullahill
+            daingean
+            dunamase
+            dunhallow
+            fermoy
+            kilbrittain
+            kilkenny
+            killmallock
+            longford
+            moycarn
+            mullingar
+            muskerry
+            nenagh
+            roscrea
+            tipperary
+            trim
+            tullamore
         }
     }
     KARKA = {
@@ -2085,6 +2544,14 @@ location_painter_assignments = {
             torralba
         }
     }
+    LOPOCARES = {
+        color = { 112 74 227 }
+        locations = {
+            darlington
+            durham
+            stockton
+        }
+    }
     LOUGE = {
         color = { 147 199 56 }
         locations = {
@@ -2092,6 +2559,12 @@ location_painter_assignments = {
             ponferrada
             viana_bolo
             villafranca_bierzo
+        }
+    }
+    LUGI = {
+        color = { 155 60 195 }
+        locations = {
+            dornoch
         }
     }
     LUKKA = {
@@ -2153,6 +2626,14 @@ location_painter_assignments = {
         color = { 41 199 115 }
         locations = {
             malaga
+        }
+    }
+    MANAKWI = {
+        color = { 204 213 48 }
+        locations = {
+            athy
+            glendalough
+            wicklow
         }
     }
     MANDU = {
@@ -2220,6 +2701,32 @@ location_painter_assignments = {
             sultanonu
         }
     }
+    MEDIOMATERES = {
+        color = { 39 75 196 }
+        locations = {
+            bar_le_duc
+            benfeld
+            epinal
+            joinville
+            ligny
+            luneville
+            mirecourt
+            morhange
+            nancy
+            neufchateau_des_vosges
+            saarwerden
+            saint_die
+            saint_mihiel
+            salm
+            sarrebourg
+            strasbourg
+            toul
+            vaucouleurs
+            vic_sur_seille
+            vitry_en_pertois
+            zabern
+        }
+    }
     MELDI = {
         color = { 112 48 197 }
         locations = {
@@ -2257,6 +2764,15 @@ location_painter_assignments = {
             cazorla
             segura_de_la_sierra
             villapalacios
+        }
+    }
+    METANTII = {
+        color = { 59 95 196 }
+        locations = {
+            blackburn
+            liverpool
+            manchester
+            preston
         }
     }
     METSO = {
@@ -2335,12 +2851,36 @@ location_painter_assignments = {
             siatista
         }
     }
+    MONAKWI = {
+        color = { 211 49 160 }
+        locations = {
+            mann
+        }
+    }
+    MONE = {
+        color = { 63 52 223 }
+        locations = {
+            anglesey
+        }
+    }
     MORIN = {
         color = { 194 64 196 }
         locations = {
             boulogne_sur_mer
             calais
             saint_omer
+        }
+    }
+    NAGNATAE = {
+        color = { 78 128 212 }
+        locations = {
+            athlone
+            ballaghaderreen
+            burrishoole
+            castlebar
+            castlereagh
+            erris
+            roscommon
         }
     }
     NAMNE = {
@@ -2359,6 +2899,23 @@ location_painter_assignments = {
         locations = {
             barcelos
             guimaraes
+        }
+    }
+    NEMETES = {
+        color = { 132 207 89 }
+        locations = {
+            ansbach
+            beilngries
+            dillingen
+            dinkelsbuhl
+            eichstatt
+            gunzburg
+            neuburg_an_der_donau
+            neumarkt
+            nuremberg
+            schwabach
+            ulm
+            weissenburg
         }
     }
     NERII = {
@@ -2418,6 +2975,16 @@ location_painter_assignments = {
             volkermarkt
             winklern
             wolfsberg
+        }
+    }
+    NOVANTAE = {
+        color = { 20 108 21 }
+        locations = {
+            ayr
+            dumfries
+            kenmure
+            kirkcudbright
+            stranraer
         }
     }
     NPICE = {
@@ -2507,6 +3074,29 @@ location_painter_assignments = {
             gravia
         }
     }
+    ORCII = {
+        color = { 64 206 180 }
+        locations = {
+            orkney
+        }
+    }
+    ORDOWICI = {
+        color = { 159 52 183 }
+        locations = {
+            brecknock
+            builth
+            carnarvon
+            conwy
+            denbigh
+            harlech
+            ludlow
+            machynlleth
+            montgomery
+            penllyn
+            radnor
+            wigmore
+        }
+    }
     ORNIA = {
         color = { 208 185 37 }
         locations = {
@@ -2549,6 +3139,21 @@ location_painter_assignments = {
             santangelo
             trivento
             vallo
+        }
+    }
+    OSII = {
+        color = { 197 50 210 }
+        locations = {
+            bratislava
+            bruck_leitha
+            ganserndorf
+            komarom
+            magyarovar
+            mistelbach
+            nitra
+            samorin
+            stary_tekov
+            trnava
         }
     }
     OSISM = {
@@ -2654,12 +3259,12 @@ location_painter_assignments = {
         locations = {
             auneau
             chartres
+            corbeil
             dreux
             evreux
-            laigle
+            mantes
             monfort_lamaury
-            mortagne
-            senonches
+            paris
         }
     }
     PARTH = {
@@ -2805,6 +3410,16 @@ location_painter_assignments = {
         locations = {
             karpathos
             rodos
+        }
+    }
+    RODOGBI = {
+        color = { 85 154 211 }
+        locations = {
+            ballycastle
+            coleraine
+            derry
+            dunluce
+            magherafelt
         }
     }
     RUTEN = {
@@ -2974,6 +3589,16 @@ location_painter_assignments = {
             viseu
         }
     }
+    SEGONTIACI = {
+        color = { 204 202 40 }
+        locations = {
+            aylesbury
+            buckingham
+            daventry
+            northampton
+            oxford
+        }
+    }
     SEGUS = {
         color = { 88 62 218 }
         locations = {
@@ -3003,6 +3628,23 @@ location_painter_assignments = {
             susurluk
         }
     }
+    SELGOWII = {
+        color = { 210 91 107 }
+        locations = {
+            billingham
+            carlisle
+            roxburgh
+        }
+    }
+    SENES = {
+        color = { 205 71 215 }
+        locations = {
+            beaugency
+            orleans
+            sully
+            vitry_aux_loges
+        }
+    }
     SENOM = {
         color = { 133 206 44 }
         locations = {
@@ -3019,15 +3661,6 @@ location_painter_assignments = {
             pesaro
             rimini
             urbino
-        }
-    }
-    SENES = {
-        color = { 205 71 215 }
-        locations = {
-            beaugency
-            orleans
-            sully
-            vitry_aux_loges
         }
     }
     SEQUA = {
@@ -3103,14 +3736,21 @@ location_painter_assignments = {
             terranovasic
         }
     }
+    SILORIKS = {
+        color = { 61 214 155 }
+        locations = {
+            caerphilly
+            cardiff
+            neath
+            newport
+            swansea
+        }
+    }
     SILVA = {
         color = { 198 220 56 }
         locations = {
-            corbeil
-            mantes
             meaux
             montmorency
-            paris
         }
     }
     SIROP = {
@@ -3175,6 +3815,14 @@ location_painter_assignments = {
             toulon
         }
     }
+    SUESO = {
+        color = { 106 193 62 }
+        locations = {
+            braine
+            crepy
+            soissons
+        }
+    }
     SUESS = {
         color = { 107 47 202 }
         locations = {
@@ -3183,14 +3831,6 @@ location_painter_assignments = {
             roncesvalles
             sanguesa
             viana
-        }
-    }
-    SUESO = {
-        color = { 106 193 62 }
-        locations = {
-            braine
-            crepy
-            soissons
         }
     }
     SURRT = {
@@ -3212,6 +3852,14 @@ location_painter_assignments = {
             sukhnah
             tadmur
             taybah
+        }
+    }
+    TAEXALI = {
+        color = { 159 46 204 }
+        locations = {
+            aberdeen
+            buchan
+            inverurie
         }
     }
     TALUR = {
@@ -3307,6 +3955,20 @@ location_painter_assignments = {
             villach
         }
     }
+    TEKTOSAGES = {
+        color = { 34 58 24 }
+        locations = {
+            abrahamtelke
+            felegyhaza
+            halas
+            kalocsa
+            karcag
+            kecskemet
+            solt
+            szeged
+            szolnok
+        }
+    }
     TESPR = {
         color = { 82 201 64 }
         locations = {
@@ -3315,11 +3977,44 @@ location_painter_assignments = {
             preveza
         }
     }
+    TESTWERDI = {
+        color = { 214 41 151 }
+        locations = {
+            appleby
+            hexham
+            penrith
+        }
+    }
     TEUCO = {
         color = { 32 207 59 }
         locations = {
             saint_avold
             sarreguemines
+        }
+    }
+    TEURISC = {
+        color = { 140 205 55 }
+        locations = {
+            baia_mare
+            baita
+            beregovo
+            bistrita
+            cuhea
+            dej
+            hodod
+            khust
+            mezhorje
+            mukachevo
+            nagyecsed
+            rakhiv
+            sighet
+            syvlyush
+            szatmar
+            uzhorod
+            varda
+            vatra_dornei
+            velikyi_bereznyi
+            zemplin
         }
     }
     THEBE = {
@@ -3350,6 +4045,12 @@ location_painter_assignments = {
             xanthia
         }
     }
+    THULE = {
+        color = { 51 167 193 }
+        locations = {
+            torshavn
+        }
+    }
     TIGUL = {
         color = { 206 111 59 }
         locations = {
@@ -3373,6 +4074,14 @@ location_painter_assignments = {
         locations = {
             almazan
             berlanga
+        }
+    }
+    TOLISTOBOIOI = {
+        color = { 41 219 62 }
+        locations = {
+            baja_hungary
+            titel
+            zenta
         }
     }
     TORRI = {
@@ -3420,19 +4129,32 @@ location_painter_assignments = {
             melun
         }
     }
+    TRINOVANTES = {
+        color = { 76 225 150 }
+        locations = {
+            bury
+            chelmsford
+            colchester
+            hedingham
+            ipswich
+            lavenham
+            prittlewell
+        }
+    }
+    TROKMOI = {
+        color = { 197 52 81 }
+        locations = {
+            bacs
+            ilok
+            vukovar
+        }
+    }
     TRPOL = {
         color = { 224 72 92 }
         locations = {
             baniyas
             tartus
             tripoli_syria
-        }
-    }
-    TURDI = {
-        color = { 38 207 106 }
-        locations = {
-            chao_de_couce
-            leiria
         }
     }
     TUART = {
@@ -3459,22 +4181,11 @@ location_painter_assignments = {
             zalamea
         }
     }
-    TUSOS = {
-        color = { 77 203 132 }
+    TURDI = {
+        color = { 38 207 106 }
         locations = {
-            alcazar_de_san_juan
-            consuegra
-            malagon
-        }
-    }
-    TUVET = {
-        color = { 121 53 222 }
-        locations = {
-            besteiros
-            coimbra
-            esgueira
-            feira
-            figueira
+            chao_de_couce
+            leiria
         }
     }
     TURMO = {
@@ -3499,6 +4210,24 @@ location_painter_assignments = {
             saumur
         }
     }
+    TUSOS = {
+        color = { 77 203 132 }
+        locations = {
+            alcazar_de_san_juan
+            consuegra
+            malagon
+        }
+    }
+    TUVET = {
+        color = { 121 53 222 }
+        locations = {
+            besteiros
+            coimbra
+            esgueira
+            feira
+            figueira
+        }
+    }
     TYLE = {
         color = { 68 207 96 }
         locations = {
@@ -3515,43 +4244,21 @@ location_painter_assignments = {
     UBI = {
         color = { 35 35 36 }
         locations = {
-            aschach
             aschaffenburg
             bensheim
-            bruckenau
             buchen
-            budingen
-            coburg
             darmstadt
             diez
             erbach
             frankfurt
-            friedberg_hesse
-            fulda
-            giessen
             hadamar
             hanau
-            hassfurt
-            hildburghausen
-            hunfeld
-            karlstadt
-            konigshofen
-            lauterbach
-            lichtenfels
-            lohr
-            meiningen
-            mellrichstadt
             miltenberg
             mosbach
-            nidda
             offenbach
-            schleusingen
-            schweinfurt
             tauberbischofsheim
             usingen
-            wetzlar
             wiesbaden
-            wurzburg
         }
     }
     UELAU = {
@@ -3559,6 +4266,25 @@ location_painter_assignments = {
         locations = {
             brioude
             saint_flour
+        }
+    }
+    UELLABORI = {
+        color = { 86 210 111 }
+        locations = {
+            carbery
+            dingle
+            killarney
+            tralee
+        }
+    }
+    UENNICNII = {
+        color = { 65 198 63 }
+        locations = {
+            donegal
+            inishowen
+            kilmacrennan
+            raphoe
+            strabane
         }
     }
     UGART = {
@@ -3574,6 +4300,19 @@ location_painter_assignments = {
             bitlis
             hizan
             mus
+        }
+    }
+    ULUTI = {
+        color = { 202 181 43 }
+        locations = {
+            armagh
+            cavan
+            clogher
+            dungannon
+            iveagh
+            kells
+            killycolly
+            monaghan
         }
     }
     UMBRI = {
@@ -3596,6 +4335,15 @@ location_painter_assignments = {
             cherbourg
             jersey
             st_sauveur
+        }
+    }
+    UPERACI = {
+        color = { 188 199 92 }
+        locations = {
+            berchtesgaden
+            saalfelden
+            st_johann
+            zell_am_see
         }
     }
     URACI = {
@@ -3643,6 +4391,15 @@ location_painter_assignments = {
             osuna
         }
     }
+    USDIAE = {
+        color = { 58 207 68 }
+        locations = {
+            cork
+            dungarvan
+            kinsale
+            youghal
+        }
+    }
     VACCA = {
         color = { 187 102 62 }
         locations = {
@@ -3666,6 +4423,24 @@ location_painter_assignments = {
             salvatierra
             san_sebastian
             tolosa
+        }
+    }
+    VANGIONES = {
+        color = { 166 199 82 }
+        locations = {
+            backnang
+            bruchsal
+            crailsheim
+            hall
+            heilbronn
+            kitzingen
+            mergentheim
+            neustadt
+            ohringen
+            rothenburg
+            sinsheim
+            uffenheim
+            vaihingen
         }
     }
     VASAT = {
@@ -3733,6 +4508,19 @@ location_painter_assignments = {
             venice
             verona
             vicenza
+        }
+    }
+    VENICONES = {
+        color = { 42 170 213 }
+        locations = {
+            arbroath
+            clackmannan
+            cupar
+            dundee
+            dunfermline
+            perth
+            st_andrews
+            stonehaven
         }
     }
     VENOS = {
@@ -3816,6 +4604,28 @@ location_painter_assignments = {
             uzes
         }
     }
+    VOLCAE = {
+        color = { 210 40 40 }
+        locations = {
+            bautzen
+            bitov
+            budejovice
+            dacice
+            dresden
+            freiberg
+            husinec
+            j_hradec
+            jihlava
+            krumlov
+            marienstern
+            meissen
+            pirna
+            rohrbach
+            sayda
+            trebon
+            waidhofen_an_der_thaya
+        }
+    }
     VOLSC = {
         color = { 91 106 205 }
         locations = {
@@ -3847,6 +4657,17 @@ location_painter_assignments = {
         locations = {
             caspe
             flix
+        }
+    }
+    VOTADIN = {
+        color = { 71 138 215 }
+        locations = {
+            alnwick
+            berwick
+            dunbar
+            duns
+            morpeth
+            newcastle
         }
     }
     WALAN = {
@@ -3882,6 +4703,14 @@ location_painter_assignments = {
             manyas
             mihalic
             rodoscuk
+        }
+    }
+    WOCOMIUGI = {
+        color = { 193 218 68 }
+        locations = {
+            banff
+            elgin
+            mar
         }
     }
     ZOELA = {
