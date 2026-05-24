@@ -1,6 +1,19 @@
 dynasty_manager = {
 	default_dynasty = { name = { name = default_dynasty } home = vattnajokull }				#just for default coat of arms
 
+	# 19th Dynasty of Egypt
+	ramessid_dynasty = {
+		name = { name = name_ramessid_dynasty }
+		dynasty_name_type = location
+		home = esna 
+		male_names = {
+			name_ramesses name_seti name_merneptah name_amenmesse
+		}
+		female_names = {
+			name_isetnofret name_tia name_henutmire name_takhat
+		}
+	}
+
 	bjalbo_atten_dynasty = {
 		name = { name = bjalbo_atten_dynasty }
 		dynasty_name_type = location
