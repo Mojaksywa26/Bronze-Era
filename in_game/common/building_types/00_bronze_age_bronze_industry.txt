@@ -87,6 +87,8 @@ tools_guild = {
 	city = yes
 	megalopolis = yes
 
+	forbidden_for_estates = yes
+
 	build_time = guild_build_time
 
 	unique_production_methods = {
@@ -177,6 +179,8 @@ weapon_guild = {
 	town = yes
 	city = yes
 	megalopolis = yes
+
+	forbidden_for_estates = yes
 
 	build_time = guild_build_time
 
@@ -362,6 +366,8 @@ tablets_guild = {
 	city = yes
 	megalopolis = yes
 
+	forbidden_for_estates = yes
+
 	build_time = guild_build_time
 
 	unique_production_methods = {
@@ -383,6 +389,36 @@ tablets_guild = {
 
 			debug_max_profit = 0.5
 		}		
+
+	}
+
+	custom_tags = { guild }
+	construction_demand = guild_construction
+}
+
+royal_scribe_guild = {
+	is_foreign = no
+	pop_type = burghers
+	max_levels = guild_max_level
+
+	category = basic_industry_category
+	employment_size = guild_employment
+
+	town = no
+	city = yes
+	megalopolis = yes
+
+	AI_ignore_available_worker_flag = yes #since we may build this to increase pop promotion we don't want lack of workers to block it
+	forbidden_for_estates = yes
+
+	build_time = guild_build_time
+
+	unique_production_methods = {
+		scribe_tablets_maintenance = {
+			bronze_age_tablets = 1
+			lumber = 0.1
+			category = guild_input
+		}	
 
 	}
 
