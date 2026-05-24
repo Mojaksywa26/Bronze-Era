@@ -1,0 +1,59 @@
+﻿l_english:
+ palace_economy_advance: "Palace Economy"
+ palace_economy_advance_desc: "The palace economy is a system of economic organization in which the ruling elite, often centered around a palace or royal court, controls and manages the production and distribution of goods and resources."
+
+ warrior_aristocracy_advance: "Warrior Aristocracy"
+ warrior_aristocracy_advance_desc: "The warrior aristocracy is a social class or group of individuals who hold power and influence primarily through their military prowess and leadership."
+
+ cathedral_advance: "Monumental Temple Construction"
+ cathedral_advance_desc: "We shall build a dedicated place of worship to our gods, a temple that will stand as a testament to our devotion and faith. This grand structure will not only serve as a spiritual center for our people but also as a symbol of our cultural and religious identity."
+
+ long_distance_trade_advance: "Long-Distance Trade Networks"
+ long_distance_trade_advance_desc: "Long-distance trade networks refer to the complex systems of trade and commerce that connect different regions and civilizations across vast distances. These networks facilitate the exchange of goods, ideas, and cultural influences between societies."
+
+ bronze_forge_advance: "Metalworking Craftsmanship"
+ bronze_forge_advance_desc: "In early Bronze Age societies, metalworking was still a household craft, with villagers casting tools and weapons for their own use rather than relying on professional smiths."
+
+ bronze_foundry_advance: "Bronze Foundry"
+ bronze_foundry_advance_desc: "A bronze foundry is a facility where bronze is melted and cast into various shapes and forms. It is a crucial part of the metalworking process, allowing for the production of tools, weapons, and other objects made from bronze."
+
+ workforce_specialization_advance: "Workforce Specialization"
+ workforce_specialization_advance_desc: "Workforce specialization became possible with the surplus of food administered by the palace economy, allowing individuals to focus on specific tasks and develop expertise in their chosen fields. This specialization led to increased efficiency and productivity, as workers could dedicate their time and energy to mastering their craft or trade."
+
+ contract_law_advance: "Contract Law"
+ contract_law_advance_desc: "Contract law is a legal framework that governs the formation, execution, and enforcement of agreements between parties. It provides a set of rules and principles that help ensure the validity and enforceability of contracts, which are essential for facilitating trade, commerce, and various transactions in society."
+
+ commodity_money_advance: "Commodity Money"
+ commodity_money_advance_desc: "The introduction of commodity money in Bronze Age societies allowed for more efficient trade and economic transactions, replacing barter systems with a standardized medium of exchange."
+
+ commodity_weaponry_advance: "Weaponry as Currency"
+ commodity_weaponry_advance_desc: "In some Bronze Age societies, weaponry was used as a form of currency. The value of weapons, such as swords, spears, or axes, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
+
+# ##########################
+# BUILDINGS
+# ##########################
+
+ settlements_advance: "Settlements"
+ settlements_advance_desc: "Settlements refer to the establishment of permanent or semi-permanent communities where people live, work, and interact. These can range from small villages to large cities and are often characterized by the presence of infrastructure, social organization, and economic activities."
+
+ tools_maker_advance: "Toolmaking Traditions"
+ tools_maker_advance_desc: "In the early Bronze Age, tool production is a household craft. Villagers cast simple tools for their own use, without the specialization or scale of organized labor."
+
+ pottery_maker_advance: "Domestic Pottery Making"
+ pottery_maker_advance_desc: "In the early Bronze Age, pottery production is a household craft. Villagers create simple pottery for their own use, without the specialization or scale of organized labor."
+
+ royal_tools_workshop_advance: "Royal Tools Workshop"
+ royal_tools_workshop_advance_desc: "The great task of building a prosperous domain requires the finest tools and equipment. The royal tools workshop is a dedicated facility where skilled craftsmen and artisans create high-quality tools and implements for distribution according to the orders from the Palace."
+
+ royal_weapon_workshop_advance: "Royal Weapon Workshop"
+ royal_weapon_workshop_advance_desc: "The great task of building a prosperous domain requires the finest weapons and equipment. The royal weapon workshop is a dedicated facility where skilled craftsmen and artisans create high-quality weapons and implements for distribution according to the orders from the Palace."
+
+ royal_tablets_workshop_advance: "Royal Tablets Workshop"
+ royal_tablets_workshop_advance_desc: "The invention of writing tablets allows for the recording of information, communication, and the development of complex administrative systems in Bronze Age societies."
+
+# ##########################
+# PRODUCTION METHODS
+# ##########################
+
+ bronze_tools_maker_maintenance_maintenance_advance: "Bronze Tools"
+ bronze_tools_maker_maintenance_maintenance_advance_desc: "Tools made of bronze are more durable and efficient than those made of stone or copper, allowing for improved productivity and craftsmanship in various tasks and industries."

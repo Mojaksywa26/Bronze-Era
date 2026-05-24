@@ -1,0 +1,10 @@
+﻿# Bronzeworking
+
+bronze_tools_maker_maintenance_maintenance_advance = {
+	age = age_1_traditions
+	
+	unlock_production_method = bronze_tools_maker_maintenance
+	
+	requires = bronze_forge_advance
+}
+

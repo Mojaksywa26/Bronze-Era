@@ -41,6 +41,38 @@ bronze_age_bronze_foundry = {
 	custom_tags = { workshop bronze_age_industry }
 }
 
+# A lower-tier bronze production building for low-development areas. Employs peasants.
+bronze_age_bronze_forge = {
+	is_foreign = no
+	pop_type = peasants
+	max_levels = workshop_max_level
+
+	category = basic_industry_category
+	employment_size = workshop_employment
+
+	town = yes
+	city = no
+	megalopolis = no
+
+	build_time = workshop_build_time
+	construction_demand = workshop_construction
+
+	unique_production_methods = {
+		bronze_age_small_scale_bronze_prod = {
+			copper = 0.5
+			tin = 0.04
+			produced = bronze_age_bronze
+			output = 0.05
+
+			debug_max_profit = 0.30
+			category = workshop_input
+		}
+
+	}
+
+	custom_tags = { workshop bronze_age_industry }
+}
+
 # Vanilla tools buildings with Bronze Age recipes added.  These overrides keep
 # the vanilla recipes intact while adding a true Bronze -> Tools chain.
 tools_guild = {
@@ -234,4 +266,126 @@ weapon_workshop = {
 
 	custom_tags = { workshop }
 	construction_demand = workshop_construction
+}
+
+# Pre-Palatial tools production.  This is a peasant industry with very low output.
+tools_maker = {
+	is_foreign = no
+	pop_type = peasants
+	max_levels = guild_max_level
+
+	category = basic_industry_category
+	employment_size = guild_employment
+
+	town = yes
+	city = no
+	megalopolis = no
+
+	build_time = guild_build_time
+
+	unique_production_methods = {
+		metalwork_tools_maker_maintenance = {
+			iron = 0.5
+			produced = tools
+			output = 0.5
+
+			debug_max_profit = 0.2
+			category = guild_input
+		}
+		stone_tools_maker_maintenance = {
+			stone = 0.70
+			produced = tools
+			output = 0.25
+			debug_max_profit = 0.1
+
+			category = guild_input
+		}
+
+		bronze_tools_maker_maintenance = {
+			bronze_age_bronze = 0.25
+			produced = tools
+			output = 0.4
+			debug_max_profit = 0.15
+
+			category = guild_input
+		}
+		copper_tools_maker_maintenance = {
+			copper = 0.5
+			produced = tools
+			output = 0.55
+			debug_max_profit = 0.15
+
+			category = guild_input
+		}
+	}
+
+	construction_demand = guild_construction
+}
+
+pottery_maker = {
+	is_foreign = no
+	pop_type = peasants
+	max_levels = guild_max_level
+
+	category = basic_industry_category
+	employment_size = guild_employment
+
+	town = yes
+	city = no
+	megalopolis = no
+
+	build_time = guild_build_time
+
+	unique_production_methods = {
+		pottery_maker_maintenance = {
+			clay = 0.3
+			produced = pottery
+			output = 0.2
+
+			debug_max_profit = 0.2
+			category = guild_input
+		}
+	}
+
+	construction_demand = guild_construction
+}
+
+tablets_guild = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = guild_max_level
+
+	category = basic_industry_category
+	employment_size = guild_employment
+
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	build_time = guild_build_time
+
+	unique_production_methods = {
+		clay_tablets_maintenance = {
+			lumber = 0.02
+			clay = 1.0
+			produced = bronze_age_tablets
+			output = 0.4
+			category = guild_input
+
+			debug_max_profit = 0.3
+		}
+
+		copper_tablets_maintenance = {
+			copper = 1.0
+			produced = bronze_age_tablets
+			output = 0.65
+			category = guild_input
+
+			debug_max_profit = 0.5
+		}		
+
+	}
+
+	custom_tags = { guild }
+	construction_demand = guild_construction
 }
