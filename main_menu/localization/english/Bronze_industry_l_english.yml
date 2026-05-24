@@ -38,6 +38,10 @@
  copper_tablets_maintenance: "Copper Tablets Production"
  copper_tablets_maintenance_desc: "The local tablets workshop produces copper tablets for record-keeping and communication."
 
+ royal_scribe_guild: "Royal Scribe School"
+ royal_scribe_guild_desc: "The royal scribe school is a prestigious institution where the most talented individuals are trained in the art of writing and record-keeping. The school produces highly skilled scribes who serve the administrative needs of the palace and contribute to the development of complex bureaucratic systems in Bronze Age societies."
+
+
 # ########################
 # PRODUCTION METHODS
 # ########################
@@ -71,3 +75,9 @@
 
  pottery_maker_maintenance: "Local Pottery Production"
  pottery_maker_maintenance_desc: "The local pottery maker produces simple clay vessels for household use."
+
+ scribe_tablets_maintenance: "Tablet Writing Materials"
+ scribe_tablets_maintenance_desc: "The royal scribes use tablets for their work."
+
+ scribe_paper_maintenance: "Paper Writing Materials"
+ scribe_paper_maintenance_desc: "The royal scribes use paper for their work."

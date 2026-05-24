@@ -72,6 +72,14 @@
  	requires = workforce_specialization_advance
  }
 
+ royal_scribe_guild_advance = {
+ 	age = age_1_traditions
+	
+ 	unlock_building = royal_scribe_guild
+	
+ 	requires = royal_tablets_workshop_advance
+ }
+
 # ###############################
 # # Basic Buildings
 # ###############################

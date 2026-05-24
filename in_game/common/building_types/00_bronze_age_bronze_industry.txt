@@ -413,12 +413,36 @@ royal_scribe_guild = {
 
 	build_time = guild_build_time
 
+	modifier = {
+	 local_cultural_influence = 0.3
+	 local_nobles_max_literacy = 10
+	 local_clergy_max_literacy = 10
+	 local_monthly_literacy = 0.05
+	 local_pop_promotion_speed = 0.001
+	 local_institution_growth_modifier = 0.1
+	 local_monthly_food_modifier = 0.05
+	}
+
 	unique_production_methods = {
 		scribe_tablets_maintenance = {
 			bronze_age_tablets = 1
 			lumber = 0.1
-			category = guild_input
+			beeswax = 0.1
+			category = building_maintenance
 		}	
+
+		scribe_paper_maintenance = {
+			paper = 1
+			lumber = 0.1
+			beeswax = 0.1
+			category = building_maintenance
+		}			
+
+		#scribe_papyrus_maintenance = {
+		#	papyrus = 1
+		#	lumber = 0.1
+		#	category = building_maintenance
+		#}	
 
 	}
 

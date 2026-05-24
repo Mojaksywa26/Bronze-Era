@@ -29,6 +29,12 @@
  commodity_weaponry_advance: "Weaponry as Currency"
  commodity_weaponry_advance_desc: "In some Bronze Age societies, weaponry was used as a form of currency. The value of weapons, such as swords, spears, or axes, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
 
+ irrigation_systems_advance: "Irrigation Systems"
+ irrigation_systems_advance_desc: "Irrigation systems are networks of channels, pipes, and other infrastructure used to distribute water for agricultural purposes. These systems are essential for supporting crop production in areas with limited rainfall or seasonal water availability."
+
+ royal_scribe_guild_advance: "Royal Scribes"
+ royal_scribe_guild_advance_desc: "Scribes are highly skilled individuals who are trained in the art of writing and record-keeping. In Bronze Age societies, royal scribes played a crucial role in the administration of the palace economy, maintaining records of resources, transactions, and other important information. They were often associated with the royal court and contributed to the development of complex bureaucratic systems."
+
 # ##########################
 # BUILDINGS
 # ##########################
