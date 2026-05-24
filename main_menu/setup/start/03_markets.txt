@@ -108,7 +108,7 @@ market_manager = {
 	add_market = aixe # LEMOV
 	add_market = ajaccio # TORRI
 	add_market = akcasehir # SAHIR
-	add_market = akkus # KASKA
+	add_market = bor #Hattie
 	add_market = al_quwayrah # SASU
 	add_market = alhambra_location # IBOLC
 	add_market = angouleme # SANTN
@@ -122,7 +122,7 @@ market_manager = {
 	add_market = bauge # ALCEN
 	add_market = baume # AEDUI
 	add_market = bayburt # AZZI
-	add_market = bayeux # VIDUC
+	add_market = dunkeld # Caledon
 	add_market = beauvoir # PICTO
 	add_market = beden # PAEOP
 	add_market = cherbourg # UNELL
@@ -131,7 +131,5 @@ market_manager = {
 	add_market = saint_avold # TEUCO
 	add_market = sarria # SEURR
 	add_market = seia # ARAOC
-	add_market = viana_do_castelo # SEURB
-	add_market = villablino # SAELI
 }
 
