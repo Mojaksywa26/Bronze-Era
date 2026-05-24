@@ -1982,60 +1982,20 @@ coin_laws= {
 		estate_preferences = {
 			crown_estate
 		}
-		ai_will_do = {
-			if = {
-				limit = {
-					AND = {
-						capital.market = {
-							"goods_supply_in_market(goods:goods_gold)" < 0
-							"goods_supply_in_market(goods:silver)" < 0
-						}
-					}
-					capital.market = {
-						"goods_supply_in_market(goods:goods_gold)" < 0
-					}
-					capital.market = {
-						"goods_supply_in_market(goods:silver)" < 0
-					}
-					AND = {
-						capital.market = {
-								"goods_supply_in_market(goods:silver)" < 0
-								"goods_supply_in_market(goods:copper)" < 0
-						}
-					}
-				}
-				add = {
-					desc = "has no metals"
-					value = 200
-				}
-			}
-		}
 		years = 2
 	}
 
-	stavraton_coin_policy = {
-		unique = yes
-		potential = {
-			has_unlocked_policy_trigger = { type = stavraton_coin_policy }
-		}
+	commodity_money_policy = {
+
 		country_modifier = {
-			silver_used_for_minting = yes
-			copper_used_for_minting = yes
-			
-			minting_inflation_threshold = 0.03
-			minting_income_factor = 0.1
-			monthly_towards_capital_economy = societal_value_monthly_move
+			minting_inflation_threshold = 0.01
+			minting_income_factor = 0.05
 		}
 		estate_preferences = {
 			crown_estate
 			burghers_estate
 		}
-		ai_will_do = {
-			add = {
-				value = 100
-				desc = "we always want this because it's better"
-			}
-		}
+
 		years = 2
 	}
 	

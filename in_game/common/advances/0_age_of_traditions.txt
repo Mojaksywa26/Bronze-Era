@@ -209,21 +209,11 @@ commodity_money_advance = {
 	unlock_building = market_village
 	trade_land_efficiency = 0.2
 
-	starting_technology_level = 2
-
-}
-
-currency_advance = {
-	age = age_1_traditions
-	icon = currency
-	research_cost = 2.0
-
-	requires = commodity_money_advance
-
 	unlock_law = coin_laws
-	unlock_policy = barter_exchange
+	unlock_policy = commodity_money_policy
 
-	starting_technology_level = 3
+
+	starting_technology_level = 2
 
 }
 
@@ -232,7 +222,7 @@ trade_caravans = {
 	icon = trade_caravans
 	research_cost = 2.0
 
-	requires = currency_advance
+	requires = commodity_money_advance
 	
 	trade_land_efficiency = 0.5
 
