@@ -237,6 +237,19 @@ warrior_aristocracy_advance = {
 	starting_technology_level = 2
 }
 
+ceremonial_burial_advance = {
+	age = age_1_traditions
+	icon = ceremonial_burial
+	research_cost = 1.5
+	
+	global_monthly_prestige = 0.05
+	unlock_law = ceremonial_burial_law
+
+	starting_technology_level = 2
+
+	requires = warrior_aristocracy_advance
+}
+
 #####################################
 # Long Distance Trade
 #####################################

@@ -1,0 +1,53 @@
+# Burial Laws
+burial_law = {
+	law_category = socioeconomic
+
+	# Policies
+	bronze_age_burial_pits_law = {
+		country_modifier = {
+			clergy_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+			peasants_estate_target_satisfaction = small_permanent_target_satisfaction
+			monthly_towards_spiritualist = societal_value_tiny_monthly_move
+		}
+
+		unlock building = bronze_age_burial_pit
+
+		estate_preferences = {
+			peasants_estate
+			tribes_estate
+		}
+
+		years = 2
+	}
+
+	bronze_age_aristocratic_mounds_law = {
+		country_modifier = {
+			nobles_estate_target_satisfaction = small_permanent_target_satisfaction
+			monthly_towards_aristocracy = societal_value_tiny_monthly_move
+		}
+
+		unlock building = bronze_age_aristocratic_mound
+
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 2
+	}
+
+	bronze_age_urnfields_law = {
+
+		country_modifier = {
+			clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+			monthly_towards_spiritualist = societal_value_tiny_monthly_move
+		}
+
+		unlock building = urnfield_burial_site
+
+		estate_preferences = {
+			clergy_estate
+			burghers_estate
+		}
+		years = 2
+	}
+
+}
