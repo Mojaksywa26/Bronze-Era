@@ -505,3 +505,50 @@ royal_scribe_guild = {
 	custom_tags = { guild }
 	construction_demand = guild_construction
 }
+
+temple_scribes_guild = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = guild_max_level
+
+	category = basic_industry_category
+	employment_size = guild_employment
+
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	build_time = guild_build_time
+
+	modifier = {
+	 local_cultural_influence = 0.2
+	 local_clergy_literacy = 0.05
+	 local_institution_growth_modifier = 0.02
+	}
+
+	unique_production_methods = {
+		scribe_tablets_maintenance = {
+			bronze_age_tablets = 1
+			lumber = 0.1
+			beeswax = 0.1
+			category = building_maintenance
+		}	
+
+		scribe_paper_maintenance = {
+			paper = 1
+			lumber = 0.1
+			beeswax = 0.1
+			category = building_maintenance
+		}			
+
+		#scribes_papyrus_maintenance = {
+		#	papyrus = 1
+		#	lumber = 0.1
+		#	category = building_maintenance
+		#}	
+
+	}
+
+	custom_tags = { guild }
+	construction_demand = guild_construction
+}

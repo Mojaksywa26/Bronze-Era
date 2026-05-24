@@ -95,6 +95,21 @@
  	requires = royal_scribe_guild_advance
  }
 
+ # ###############################
+ # TEMPLE WORKSHOPS TECH
+ # ###############################
+
+ temple_scribes_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+
+	unlock_building = temple_scribes_guild
+
+	starting_technology_level = 2
+
+	requires = religious_texts_advance
+}
+
 
 # ###############################
 # # Basic Buildings

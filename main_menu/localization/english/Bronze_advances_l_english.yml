@@ -41,6 +41,28 @@
  elite_scripts_advance: "Elite Scripts"
  elite_scripts_advance_desc: "The development of elite scripts in Bronze Age societies allowed for the creation of sophisticated written records and communication methods. These advanced writing systems were typically used by scribes and scholars, enabling the preservation and transmission of complex information and knowledge."
 
+ religious_texts_advance: "Religious Texts"
+ religious_texts_advance_desc: "The development of religious texts in Bronze Age societies provided a means for recording and transmitting religious beliefs, rituals, and practices. These texts often contained myths, prayers, hymns, and instructions for religious ceremonies, serving as a foundation for the spiritual and cultural identity of the society."
+
+ temple_scribes_advance: "Temple Scribes"
+ temple_scribes_advance_desc: "Priests in Bronze Age societies fulfilled many roles, including that of scribes. They were responsible for recording religious rituals, maintaining temple records, and preserving sacred knowledge. Temple scribes played a crucial role in the administration of religious institutions and the transmission of cultural and spiritual traditions."
+
+ temple_archives_advance: "Temple Archives"
+ temple_archives_advance_desc: "The establishment of temple archives in Bronze Age societies allowed for the systematic storage and preservation of important documents, records, and religious texts. These archives served as repositories of knowledge and information, ensuring the continuity of cultural and religious traditions across generations."
+
+ astronomical_observations_advance: "Astronomical Observations"
+ astronomical_observations_advance_desc: "The practice of astronomical observations in Bronze Age societies involved the systematic study and recording of celestial phenomena, such as the movements of the sun, moon, stars, and planets. These observations were often used for various purposes, including timekeeping, agricultural planning, religious rituals, and navigation. The knowledge gained from astronomical observations contributed to the development of early calendars and cosmological beliefs in Bronze Age cultures."
+
+ agricultural_calendar_advance: "Agricultural Calendar"
+ agricultural_calendar_advance_desc: "The development of an agricultural calendar in Bronze Age societies allowed for the systematic organization of farming activities and seasonal celebrations. These calendars were often based on astronomical observations and helped ensure the success of crops and the well-being of the community."
+
+ regnal_dating_system_advance: "Regnal Dating System"
+ regnal_dating_system_advance_desc: "The regnal dating system in Bronze Age societies was a method of recording time and events based on the reigns of rulers. This system allowed for the organization of historical records and the establishment of a chronological framework for understanding the past."
+
+ administrative_calendar_advance: "Administrative Calendar"
+ administrative_calendar_advance_desc: "The development of an administrative calendar in Bronze Age societies allowed for the systematic organization of administrative tasks, events, and ceremonies. This calendar helped ensure the efficient functioning of the palace economy and the coordination of various activities within the society."
+
+
 # ##########################
 # BUILDINGS
 # ##########################

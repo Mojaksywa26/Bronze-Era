@@ -72,6 +72,72 @@ elite_scripts_advance = {
 	requires = workforce_specialization_advance
 }
 
+religious_texts_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	global_clergy_max_literacy = 2
+
+	starting_technology_level = 2
+
+	requires = elite_scripts_advance
+}
+
+temple_archives_advance = {
+	age = age_1_traditions
+	
+	monthly_prestige = 0.1
+	global_clergy_city_desired_pop = 0.02
+
+	starting_technology_level = 3
+
+	requires = religious_texts_advance
+}
+
+astronomical_observations_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	global_monthly_food_modifier = 0.05
+	trade_range = 50
+
+	starting_technology_level = 3
+
+	requires = temple_archives_advance
+}
+
+agricultural_calendar_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	global_monthly_food_modifier = 0.10
+
+	starting_technology_level = 3
+
+	requires = astronomical_observations_advance
+}
+
+regnal_dating_system_advance = {
+	age = age_1_traditions
+	
+	monthly_prestige = 0.05
+
+	starting_technology_level = 3
+
+	requires = astronomical_observations_advance
+}
+
+administrative_calendar_advance = {
+	age = age_1_traditions
+	
+	monthly_stability = 0.05
+	tax_income_efficiency = small_tax_income_efficiency_bonus
+
+	starting_technology_level = 3
+
+	requires = regnal_dating_system_advance
+}
+
 cultural_traditions_law_advance = {
 	age = age_1_traditions
 	requires = elite_scripts_advance
@@ -97,12 +163,14 @@ distribution_of_power_advance = {
 	unlock_law = distribution_of_power_law
 
 	requires = codified_laws
+
+	starting_technology_level = 2
 }
 
 subjects_advance = {
 	age = age_1_traditions
 	icon = diplomatic_influence
-	research_cost = 2.5
+	research_cost = 2.0
 	
 	allow_subjects = yes
 	unlock_subject_type = vassal

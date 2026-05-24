@@ -41,6 +41,9 @@
  royal_scribe_guild: "Royal Scribe School"
  royal_scribe_guild_desc: "The royal scribe school is a prestigious institution where the most talented individuals are trained in the art of writing and record-keeping. The school produces highly skilled scribes who serve the administrative needs of the palace and contribute to the development of complex bureaucratic systems in Bronze Age societies."
 
+ temple_scribes_guild: "Temple Scribe School"
+ temple_scribes_guild_desc: "The temple scribe school is first and foremost an expression of the priesthood's political power, but it also serves to train scribes who maintain records of religious rituals, offerings, and temple administration in Bronze Age societies."
+
  weaponry_maker: "Local Weapon Maker"
  weaponry_maker_desc: "In the early Bronze Age, weapon production is a household craft. Villagers cast simple weapons for their own use, without the specialization or scale of organized labor."
 
