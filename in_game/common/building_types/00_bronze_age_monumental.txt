@@ -28,11 +28,7 @@ bronze_age_triumphal_monument = {
 	}
 
 	modifier = {
-		local_nobles_estate_power = 0.05
-		local_prestige_from_events = 0.05
-	}
-
-	capital_country_modifier = {
-		monthly_prestige = 0.01
+		local_crown_estate_power = 0.05
+		local_max_control = 0.020
 	}
 }
