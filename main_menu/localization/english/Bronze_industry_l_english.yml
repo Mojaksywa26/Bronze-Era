@@ -26,6 +26,13 @@
  weapon_guild: "Royal Weapon Workshop"  
  weapon_guild_desc: "The great task of building a prosperous domain requires the finest weapons and equipment. The royal weapon workshop is a dedicated facility where skilled craftsmen and artisans create high-quality weapons and implements for distribution according to the orders from the Palace."
 
+ pottery_maker: "Local Pottery Maker"
+ pottery_maker_desc: "In the early Bronze Age, pottery production is a household craft. Villagers create simple pottery for their own use, without the specialization or scale of organized labor."
+
+# ########################
+# PRODUCTION METHODS
+# ########################
+
  bronze_age_tools_bronze_recipe: "Bronze Tool Production"
  bronze_age_tools_bronze_recipe_desc: "Artisans cast bronze blades, chisels, awls and agricultural tools. The method is effective for the Bronze Age, but less scalable than later iron industries."
 
@@ -52,3 +59,6 @@
 
  bronze_age_small_scale_bronze_prod: "Local Bronze Smelting"
  bronze_age_small_scale_bronze_prod_desc: "The local forge produces a small quantity of bronze."
+
+ pottery_maker_maintenance: "Local Pottery Production"
+ pottery_maker_maintenance_desc: "The local pottery maker produces simple clay vessels for household use."

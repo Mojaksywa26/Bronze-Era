@@ -26,6 +26,9 @@
  tools_maker_advance: "Toolmaking Traditions"
  tools_maker_advance_desc: "In the early Bronze Age, tool production is a household craft. Villagers cast simple tools for their own use, without the specialization or scale of organized labor."
 
+ pottery_maker_advance: "Domestic Pottery Making"
+ pottery_maker_advance_desc: "In the early Bronze Age, pottery production is a household craft. Villagers create simple pottery for their own use, without the specialization or scale of organized labor."
+
  royal_tools_workshop_advance: "Royal Tools Workshop"
  royal_tools_workshop_advance_desc: "The great task of building a prosperous domain requires the finest tools and equipment. The royal tools workshop is a dedicated facility where skilled craftsmen and artisans create high-quality tools and implements for distribution according to the orders from the Palace."
 
