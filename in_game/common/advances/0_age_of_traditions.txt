@@ -4,6 +4,8 @@ settlements_advance = {
 	icon = town_rights_advance
 	depth = 0
 	research_cost = 2.0
+
+	unlock_building = settlement_building
 	
 	food_purchase_cost = -0.1
 	
