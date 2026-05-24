@@ -10,7 +10,7 @@ burial_law = {
 			monthly_towards_spiritualist = societal_value_tiny_monthly_move
 		}
 
-		unlock building = bronze_age_burial_pit
+		unlock building = bronze_age_burial_pits
 
 		estate_preferences = {
 			peasants_estate
@@ -41,7 +41,7 @@ burial_law = {
 			monthly_towards_spiritualist = societal_value_tiny_monthly_move
 		}
 
-		unlock building = urnfield_burial_site
+		unlock building = bronze_age_urnfield_burial_site
 
 		estate_preferences = {
 			clergy_estate

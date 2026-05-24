@@ -1,0 +1,120 @@
+bronze_age_burial_pits = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 1
+
+	category = religious_category
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = no
+
+	build_time = religious_building_build_time
+	construction_demand = religious_building_construction
+
+	unique_production_methods = {
+		bronze_age_burial_pit_maintenance_simple = {
+			tool = 0.01
+			cloth = 0.01
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_peasants_estate_power = 0.05
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.01
+		monthly_religious_influence = 0.01
+	}
+
+	custom_tags = { bronze_age_burial }
+}
+
+bronze_age_aristocratic_mound = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 2
+
+	category = religious_category
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = no
+	megalopolis = no
+
+	build_time = religious_building_build_time
+	construction_demand = religious_building_construction
+
+	unique_production_methods = {
+		bronze_age_aristocratic_mounds_maintenance_simple = {
+			tool = 0.05
+			lumber = 0.1
+			weapons = 0.1
+			fine_cloth = 0.1
+			pottery = 0.1
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_nobles_estate_power = 0.1
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.1
+		monthly_legitimacy = 0.05
+		monthly_religious_influence = 0.05
+	}
+
+	custom_tags = { bronze_age_burial }
+}
+
+bronze_age_urnfield_burial_site = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 2
+
+	category = religious_category
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	build_time = religious_building_build_time
+	construction_demand = religious_building_construction
+
+	unique_production_methods = {
+		bronze_age_urnfield_burial_site_maintenance_simple = {
+			pottery = 0.15
+			coal = 0.05
+			lumber = 0.05
+			tools = 0.03
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_clergy_estate_power = 0.05
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.02
+		monthly_legitimacy = 0.02
+		monthly_religious_influence = 0.05
+	}
+
+	custom_tags = { bronze_age_burial }
+}
