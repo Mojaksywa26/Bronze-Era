@@ -298,7 +298,7 @@ tools_maker = {
 			category = guild_input
 		}
 		stone_tools_maker_maintenance = {
-			stone = 0.70
+			stone = 0.5
 			produced = tools
 			output = 0.25
 			debug_max_profit = 0.1
@@ -353,7 +353,7 @@ weaponry_maker = {
 			category = guild_input
 		}
 		stone_weaponry_maker_maintenance = {
-			stone = 0.70
+			stone = 0.5
 			produced = weaponry
 			output = 0.25
 			debug_max_profit = 0.1
@@ -401,9 +401,8 @@ pottery_maker = {
 		pottery_maker_maintenance = {
 			clay = 0.3
 			produced = pottery
-			output = 0.2
+			output = 0.3
 
-			debug_max_profit = 0.2
 			category = guild_input
 		}
 	}
