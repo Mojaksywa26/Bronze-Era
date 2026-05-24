@@ -1,8 +1,8 @@
-{
+﻿{
 	"name":	"Bronze Era Test Environment",
 	"id":	"vador03.bronzeage.test",
 	"version":	"01.7.0",
-	"supported_game_version":	"1.2.3",
+	"supported_game_version":	"1.3.1",
 	"short_description":	"Bronze Age   Date",
 	"tags":	["Events", "Historical", "Map"],
 	"relationships":	[],
