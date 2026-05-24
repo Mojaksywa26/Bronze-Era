@@ -37,3 +37,10 @@
 
  royal_tablets_workshop_advance: "Royal Tablets Workshop"
  royal_tablets_workshop_advance_desc: "The invention of writing tablets allows for the recording of information, communication, and the development of complex administrative systems in Bronze Age societies."
+
+# ##########################
+# PRODUCTION METHODS
+# ##########################
+
+ bronze_tools_maker_maintenance_maintenance_advance: "Bronze Tools"
+ bronze_tools_maker_maintenance_maintenance_advance_desc: "Tools made of bronze are more durable and efficient than those made of stone or copper, allowing for improved productivity and craftsmanship in various tasks and industries."
