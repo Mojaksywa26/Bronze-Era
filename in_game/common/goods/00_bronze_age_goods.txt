@@ -16,3 +16,30 @@ bronze_age_bronze = {
 
 	custom_tags = { bronze_age_goods }
 }
+
+bronze_age_tablets = {
+	category = produced
+	color = goods_paper
+	default_market_price = 2
+	transport_cost = 0.6
+	icon = icon_goods_books
+
+	demand_add = {
+		nobles = 0.002
+		burghers = 0.003
+	}
+
+	demand_multiply = {
+		tribesmen = 0 
+	}
+
+	development_threshold = 20
+
+	literacy_demand_factor = 1
+
+	wealth_impact_threshold = {
+		all = 1.2
+	}
+
+	custom_tags = { bronze_age_goods }
+}
