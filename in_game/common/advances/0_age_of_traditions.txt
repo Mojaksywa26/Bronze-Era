@@ -247,11 +247,22 @@ ceremonial_burial_advance = {
 
 	unlock_building = bronze_age_aristocratic_mounds
 	unlock_building = bronze_age_burial_pits
-	unlock_building = bronze_age_urnfield_burial_site
+	unlock_building = bronze_age_inhumation_burial_site
 
 	starting_technology_level = 2
 
 	requires = warrior_aristocracy_advance
+}
+
+urnfield_advance = {
+	age = age_1_traditions
+	icon = urnfield_advance
+	research_cost = 1.5
+	
+	unlock_policy = bronze_age_urnfields_law
+	unlock_building = bronze_age_urnfield_burial_site
+
+	requires = ceremonial_burial_advance
 }
 
 #####################################

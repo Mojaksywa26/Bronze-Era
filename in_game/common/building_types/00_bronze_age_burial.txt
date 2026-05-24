@@ -16,8 +16,8 @@ bronze_age_burial_pits = {
 
 	unique_production_methods = {
 		bronze_age_burial_pit_maintenance_simple = {
-			tools = 0.01
-			cloth = 0.01
+			tools = 0.02
+			cloth = 0.02
 
 			category = building_maintenance
 		}
@@ -55,11 +55,11 @@ bronze_age_aristocratic_mounds = {
 
 	unique_production_methods = {
 		bronze_age_aristocratic_mounds_maintenance_simple = {
-			tools = 0.1
-			lumber = 0.1
-			weaponry = 0.1
-			fine_cloth = 0.1
-			pottery = 0.1
+			tools = 0.5
+			lumber = 0.5
+			weaponry = 0.3
+			fine_cloth = 0.3
+			pottery = 0.3
 
 			category = building_maintenance
 		}
@@ -81,10 +81,50 @@ bronze_age_aristocratic_mounds = {
 	custom_tags = { bronze_age_burial }
 }
 
+bronze_age_inhumation_burial_site = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 1
+
+	category = religious_category
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = no
+
+	build_time = religious_building_build_time
+	construction_demand = religious_building_construction
+
+	unique_production_methods = {
+		bronze_age_inhumation_burial_site_maintenance_simple = {
+			tools = 0.02
+			cloth = 0.02
+			coal = 0.02
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_clergy_estate_power = 0.05
+		local_disease_resistance = 0.05
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.01
+		monthly_religious_influence = 0.03
+	}
+
+	custom_tags = { bronze_age_burial }
+}
+
 bronze_age_urnfield_burial_site = {
 	is_foreign = no
 	pop_type = clergy
-	max_levels = 2
+	max_levels = 3
 
 	category = religious_category
 	employment_size = religious_building_employment
@@ -99,10 +139,10 @@ bronze_age_urnfield_burial_site = {
 
 	unique_production_methods = {
 		bronze_age_urnfield_burial_site_maintenance_simple = {
-			pottery = 0.15
-			coal = 0.05
+			pottery = 0.2
 			lumber = 0.05
-			tools = 0.03
+			coal = 0.02
+			tools = 0.02
 
 			category = building_maintenance
 		}

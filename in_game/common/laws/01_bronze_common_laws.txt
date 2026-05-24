@@ -32,17 +32,28 @@ burial_law = {
 		years = 2
 	}
 
-	bronze_age_urnfields_law = {
+	bronze_age_inhumation_law = {
 
 		country_modifier = {
 			clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
 			monthly_towards_spiritualist = societal_value_tiny_monthly_move
 		}
 
-		unlock building = bronze_age_urnfield_burial_site
-
 		estate_preferences = {
 			clergy_estate
+			burghers_estate
+		}
+		years = 2
+	}
+
+	bronze_age_urnfields_law = {
+		country_modifier = {
+			peasants_estate_target_satisfaction = tiny_permanent_target_satisfaction
+			monthly_towards_spiritualist = societal_value_tiny_monthly_move
+		}
+
+		estate_preferences = {
+			peasants_estate
 			burghers_estate
 		}
 		years = 2

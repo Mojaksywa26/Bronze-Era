@@ -65,6 +65,9 @@
  ceremonial_burial_advance: "Ceremonial Burial Practices"
  ceremonial_burial_advance_desc: "The development of ceremonial burial practices in Bronze Age societies reflected the cultural and religious beliefs of the time. These practices often involved elaborate rituals, the inclusion of grave goods, and the construction of tombs or burial mounds to honor and commemorate the deceased."
 
+ urnfield_advance: "Urnfield Burial Practices"
+ urnfield_advance_desc: "The urnfield burial practices became increasingly common in the late Bronze Age, as societies shifted towards cremation and the use of urns for burial. This practice reflected changing cultural beliefs and social norms related to death and the afterlife, emphasizing a more communal approach to burial compared to individual graves."
+
 
 # ##########################
 # BUILDINGS
