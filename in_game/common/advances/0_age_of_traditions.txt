@@ -210,10 +210,23 @@ commodity_money_advance = {
 	trade_land_efficiency = 0.2
 
 	unlock_law = coin_laws
-	unlock_policy = commodity_money_policy
+	unlock_policy = commodity_money_policy_common
 
 
 	starting_technology_level = 2
+
+}
+
+commodity_weaponry_advance = {
+	age = age_1_traditions
+	icon = merchants_and_trade
+	research_cost = 1.5
+
+	requires = commodity_money_advance
+
+	unlock_policy = commodity_money_policy_weaponry
+
+	starting_technology_level = 3
 
 }
 

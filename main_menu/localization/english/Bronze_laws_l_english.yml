@@ -1,4 +1,7 @@
 ﻿l_english:
 
- commodity_money_policy: "Commodity Money"
+ commodity_money_policy_common: "Simple Commodity Money"
  commodity_money_policy_desc: "The introduction of commodity money in Bronze Age societies allowed for more efficient trade and economic transactions, replacing barter systems with a standardized medium of exchange. The currency represents value in and of itself, such as precious metals or other valuable goods."
+
+ commodity_money_policy_weaponry: "Weaponry as Currency"
+ commodity_money_policy_weaponry_desc: "In some Bronze Age societies, weaponry was used as a form of currency. The value of weapons, such as swords, spears, or axes, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."

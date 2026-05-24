@@ -1985,18 +1985,39 @@ coin_laws= {
 		years = 2
 	}
 
-	commodity_money_policy = {
+	commodity_money_policy_common = {
 
 		country_modifier = {
+			pottery_used_for_minting = yes
+			pottery_impacts_inflation = 0.1
+			cloth_used_for_minting = yes
+			cloth_impacts_inflation = 0.1
+			tools_used_for_minting = yes
+			tools_impacts_inflation = 0.1
+
+
 			minting_inflation_threshold = 0.01
-			minting_income_factor = 0.05
+			minting_income_factor = 0.01
 		}
 		estate_preferences = {
+			peasants_estate
 			crown_estate
-			burghers_estate
 		}
 
 		years = 2
+	}
+
+	commodity_money_policy_weaponry = {
+		country_modifier = {
+			tools_used_for_minting = yes
+			tools_impacts_inflation = 0.1
+			weaponry_used_for_minting = yes
+			weaponry_impacts_inflation = 0.1
+		}
+
+		estate_preferences = {
+			nobles_estate
+		}
 	}
 	
 }
