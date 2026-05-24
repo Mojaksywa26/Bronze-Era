@@ -245,6 +245,10 @@ ceremonial_burial_advance = {
 	global_monthly_prestige = 0.05
 	unlock_law = burial_law
 
+	unlock building = bronze_age_aristocratic_mounds
+	unlock building = bronze_age_burial_pits
+	unlock building = bronze_age_urnfield_burial_site
+
 	starting_technology_level = 2
 
 	requires = warrior_aristocracy_advance

@@ -16,7 +16,7 @@ bronze_age_burial_pits = {
 
 	unique_production_methods = {
 		bronze_age_burial_pit_maintenance_simple = {
-			tool = 0.01
+			tools = 0.01
 			cloth = 0.01
 
 			category = building_maintenance
@@ -26,6 +26,7 @@ bronze_age_burial_pits = {
 
 	modifier = {
 		local_peasants_estate_power = 0.05
+		local_peasant_enfranchisment = 0.01
 	}
 
 	capital_country_modifier = {
@@ -36,7 +37,7 @@ bronze_age_burial_pits = {
 	custom_tags = { bronze_age_burial }
 }
 
-bronze_age_aristocratic_mound = {
+bronze_age_aristocratic_mounds = {
 	is_foreign = no
 	pop_type = clergy
 	max_levels = 2
@@ -54,9 +55,9 @@ bronze_age_aristocratic_mound = {
 
 	unique_production_methods = {
 		bronze_age_aristocratic_mounds_maintenance_simple = {
-			tool = 0.05
+			tools = 0.1
 			lumber = 0.1
-			weapons = 0.1
+			weaponry = 0.1
 			fine_cloth = 0.1
 			pottery = 0.1
 
@@ -67,6 +68,8 @@ bronze_age_aristocratic_mound = {
 
 	modifier = {
 		local_nobles_estate_power = 0.1
+		local_cultural_influence = 0.2
+		local_cultural_tradition = 0.2
 	}
 
 	capital_country_modifier = {
@@ -108,6 +111,7 @@ bronze_age_urnfield_burial_site = {
 
 	modifier = {
 		local_clergy_estate_power = 0.05
+		local_disease_resistance = 0.05
 	}
 
 	capital_country_modifier = {

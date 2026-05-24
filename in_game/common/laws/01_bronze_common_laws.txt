@@ -26,8 +26,6 @@ burial_law = {
 			monthly_towards_aristocracy = societal_value_tiny_monthly_move
 		}
 
-		unlock building = bronze_age_aristocratic_mound
-
 		estate_preferences = {
 			nobles_estate
 		}
