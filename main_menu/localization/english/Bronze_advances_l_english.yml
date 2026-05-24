@@ -20,6 +20,19 @@
  workforce_specialization_advance: "Workforce Specialization"
  workforce_specialization_advance_desc: "Workforce specialization became possible with the surplus of food administered by the palace economy, allowing individuals to focus on specific tasks and develop expertise in their chosen fields. This specialization led to increased efficiency and productivity, as workers could dedicate their time and energy to mastering their craft or trade."
 
+ contract_law_advance: "Contract Law"
+ contract_law_advance_desc: "Contract law is a legal framework that governs the formation, execution, and enforcement of agreements between parties. It provides a set of rules and principles that help ensure the validity and enforceability of contracts, which are essential for facilitating trade, commerce, and various transactions in society."
+
+ commodity_money_advance: "Commodity Money"
+ commodity_money_advance_desc: "The introduction of commodity money in Bronze Age societies allowed for more efficient trade and economic transactions, replacing barter systems with a standardized medium of exchange."
+
+ currency_advance: "Abstract Currency"
+ currency_advance_desc: "The introduction of currency in Bronze Age societies allowed for more efficient trade and economic transactions, further facilitating commerce and economic growth."
+
+# ##########################
+# BUILDINGS
+# ##########################
+
  settlements_advance: "Settlements"
  settlements_advance_desc: "Settlements refer to the establishment of permanent or semi-permanent communities where people live, work, and interact. These can range from small villages to large cities and are often characterized by the presence of infrastructure, social organization, and economic activities."
 

@@ -7,8 +7,6 @@ settlements_advance = {
 
 	unlock_building = settlement_building
 	
-	food_purchase_cost = -0.1
-	
 	starting_technology_level = 1
 	
 }
@@ -20,6 +18,7 @@ settlements_advance = {
 palace_economy_advance = {
 	age = age_1_traditions
 	icon = meritocracy
+	research_cost = 2.0
 		
 	country_cabinet_efficiency = 0.03
 
@@ -120,6 +119,20 @@ subjects_advance = {
 	unlock_subject_type = vassal
 	
 	requires = codified_laws
+
+	starting_technology_level = 2
+}
+
+contract_law_advance = {
+	age = age_1_traditions
+	icon = contract_law
+	research_cost = 2.0
+	
+	country_cabinet_efficiency = 0.05
+
+	requires = codified_laws
+
+	starting_technology_level = 3
 }
 
 taxation_advance = {
@@ -129,9 +142,9 @@ taxation_advance = {
 	enable_taxation = yes
 	has_stability_investment = yes
 	
-	unlock_law = coin_laws
-	
-	requires = codified_laws
+	requires = contract_law_advance
+
+	starting_technology_level = 3
 }
 
 state_administration_advance = {
@@ -140,6 +153,8 @@ state_administration_advance = {
 	unlock_law = administrative_system
 	
 	requires = taxation_advance
+
+	starting_technology_level = 3
 
 	potential = {
 		has_tribal_government = no
@@ -153,6 +168,7 @@ state_administration_advance = {
 warrior_aristocracy_advance = {
 	age = age_1_traditions
 	icon = a_footmen
+	research_cost = 2.0
 		
 	unlock_unit = a_champions
 	unlock_estate_privilege = noble_leaders_only
@@ -161,7 +177,7 @@ warrior_aristocracy_advance = {
 
 	allow = { has_embraced_institution = institution:chariot_warfare }
 
-
+	starting_technology_level = 2
 }
 
 #####################################
@@ -171,6 +187,7 @@ warrior_aristocracy_advance = {
 long_distance_trade_advance = {
 	age = age_1_traditions
 	icon = diplomatic_influence
+	research_cost = 2.0
 		
 	trade_range = 150
 	
@@ -178,4 +195,50 @@ long_distance_trade_advance = {
 
 	allow = { has_embraced_institution = institution:bronze_routes }
 
+	starting_technology_level = 2
+
+}
+
+commodity_money_advance = {
+	age = age_1_traditions
+	icon = merchants_and_trade
+	research_cost = 2.0
+
+	requires = long_distance_trade_advance
+
+	unlock_building = market_village
+	trade_land_efficiency = 0.2
+
+	starting_technology_level = 2
+
+}
+
+currency_advance = {
+	age = age_1_traditions
+	icon = currency
+	research_cost = 2.0
+
+	requires = commodity_money_advance
+
+	unlock_law = coin_laws
+	unlock_policy = barter_exchange
+
+	starting_technology_level = 3
+
+}
+
+trade_caravans = {
+	age = age_1_traditions
+	icon = trade_caravans
+	research_cost = 2.0
+
+	requires = currency_advance
+	
+	trade_land_efficiency = 0.5
+
+	potential = {
+		original_capital ?= { sub_continent = sub_continent:central_asia }
+	}
+	
+	starting_technology_level = 3
 }
