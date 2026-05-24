@@ -138,6 +138,7 @@ sea_peoples_raid_coastal_settlements = {
 								}
 							}
 						}
+						trigger_event_non_silently = sea_peoples_crisis.170
 					}
 				}
 
@@ -207,6 +208,7 @@ sea_peoples_raid_coastal_settlements = {
 								}
 							}
 						}
+						trigger_event_non_silently = sea_peoples_crisis.170
 					}
 				}
 
@@ -229,6 +231,7 @@ sea_peoples_raid_coastal_settlements = {
 							target = scope:actor
 							type = casus_belli:cb_sea_peoples_punitive_raid
 						}
+						trigger_event_non_silently = sea_peoples_crisis.171
 					}
 				}
 			}

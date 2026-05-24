@@ -23,12 +23,14 @@ sea_peoples_fortify_coastal_palaces = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_maritime_target = yes
 			NOT = { has_variable = sea_peoples_coastal_palaces_fortified }
 		}
@@ -81,12 +83,14 @@ sea_peoples_open_emergency_granaries = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 1 }
 			NOT = { has_variable = sea_peoples_emergency_granaries }
 		}
@@ -140,12 +144,14 @@ sea_peoples_escort_bronze_convoys = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			sea_peoples_crisis_maritime_target = yes
 			NOT = { has_variable = sea_peoples_bronze_convoys }
@@ -199,12 +205,14 @@ sea_peoples_raise_palace_levies = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			NOT = { has_variable = sea_peoples_palace_levies }
 		}
@@ -257,12 +265,14 @@ sea_peoples_hire_migrant_war_bands = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			NOT = { has_variable = sea_peoples_migrant_war_bands }
 		}
@@ -315,12 +325,14 @@ sea_peoples_controlled_settlement = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 3 }
 			sea_peoples_crisis_high_assimilation_zone = yes
 			NOT = { has_variable = sea_peoples_controlled_settlement }
@@ -376,12 +388,14 @@ sea_peoples_sanctuary_appeasement = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 1 }
 			NOT = { has_variable = sea_peoples_sanctuary_appeasement }
 		}
@@ -435,12 +449,14 @@ sea_peoples_mycenaean_league_levy = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			is_member_of_international_organization = international_organization:mycenaean_league
 			NOT = { has_variable = sea_peoples_league_emergency_levy }
@@ -494,12 +510,14 @@ sea_peoples_delta_defense_mobilization = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 2 }
 			sea_peoples_crisis_egyptian_target = yes
 			NOT = { has_variable = sea_peoples_delta_defense }
@@ -553,12 +571,14 @@ sea_peoples_open_phoenician_harbours = {
 			situation_is_active = yes
 			scope:actor ?= {
 				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
 			}
 		}
 	}
 	potential = {
 		scope:actor ?= {
 			sea_peoples_crisis_active_country = yes
+			sea_peoples_crisis_direct_country = yes
 			sea_peoples_crisis_phase_at_least = { value = 4 }
 			OR = {
 				culture = culture:phoenician

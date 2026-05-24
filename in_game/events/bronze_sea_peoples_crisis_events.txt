@@ -5,13 +5,13 @@ sea_peoples_crisis.1 = {
 	title = sea_peoples_crisis.1.title
 	desc = sea_peoples_crisis.1.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	major = yes
 	orphan = yes
 
 	trigger = {
-		sea_peoples_crisis_eastern_mediterranean_country = yes
+		sea_peoples_crisis_direct_country = yes
 		NOT = { has_variable = sea_peoples_crisis_active }
 	}
 
@@ -37,7 +37,7 @@ sea_peoples_crisis.5 = {
 	title = sea_peoples_crisis.5.title
 	desc = sea_peoples_crisis.5.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	orphan = yes
 
@@ -64,7 +64,7 @@ sea_peoples_crisis.10 = {
 	title = sea_peoples_crisis.10.title
 	desc = sea_peoples_crisis.10.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	orphan = yes
 
@@ -95,7 +95,7 @@ sea_peoples_crisis.20 = {
 	title = sea_peoples_crisis.20.title
 	desc = sea_peoples_crisis.20.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	orphan = yes
 
@@ -232,7 +232,7 @@ sea_peoples_crisis.30 = {
 	title = sea_peoples_crisis.30.title
 	desc = sea_peoples_crisis.30.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	orphan = yes
 
@@ -286,7 +286,7 @@ sea_peoples_crisis.40 = {
 	title = sea_peoples_crisis.40.title
 	desc = sea_peoples_crisis.40.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	orphan = yes
 
@@ -316,7 +316,7 @@ sea_peoples_crisis.50 = {
 	title = sea_peoples_crisis.50.title
 	desc = sea_peoples_crisis.50.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	orphan = yes
 
@@ -346,7 +346,7 @@ sea_peoples_crisis.60 = {
 	title = sea_peoples_crisis.60.title
 	desc = sea_peoples_crisis.60.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = neutral
 	orphan = yes
 
@@ -401,7 +401,7 @@ sea_peoples_crisis.70 = {
 	title = sea_peoples_crisis.70.title
 	desc = sea_peoples_crisis.70.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = positive
 	orphan = yes
 
@@ -458,7 +458,7 @@ sea_peoples_crisis.80 = {
 	title = sea_peoples_crisis.80.title
 	desc = sea_peoples_crisis.80.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = positive
 	orphan = yes
 
@@ -485,7 +485,7 @@ sea_peoples_crisis.90 = {
 	title = sea_peoples_crisis.90.title
 	desc = sea_peoples_crisis.90.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	major = yes
 	orphan = yes
@@ -517,7 +517,7 @@ sea_peoples_crisis.100 = {
 	title = sea_peoples_crisis.100.title
 	desc = sea_peoples_crisis.100.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	major = yes
 	orphan = yes
@@ -549,7 +549,7 @@ sea_peoples_crisis.110 = {
 	title = sea_peoples_crisis.110.title
 	desc = sea_peoples_crisis.110.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = positive
 	orphan = yes
 
@@ -571,7 +571,7 @@ sea_peoples_crisis.120 = {
 	title = sea_peoples_crisis.120.title
 	desc = sea_peoples_crisis.120.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	orphan = yes
 
@@ -602,7 +602,7 @@ sea_peoples_crisis.130 = {
 	title = sea_peoples_crisis.130.title
 	desc = sea_peoples_crisis.130.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	orphan = yes
 
@@ -633,7 +633,7 @@ sea_peoples_crisis.140 = {
 	title = sea_peoples_crisis.140.title
 	desc = sea_peoples_crisis.140.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	orphan = yes
 
@@ -670,7 +670,7 @@ sea_peoples_crisis.150 = {
 	title = sea_peoples_crisis.150.title
 	desc = sea_peoples_crisis.150.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = neutral
 	orphan = yes
 
@@ -712,7 +712,7 @@ sea_peoples_crisis.160 = {
 	title = sea_peoples_crisis.160.title
 	desc = sea_peoples_crisis.160.desc
 	category = situation_event
-	image = "gfx/interface/illustrations/situation/SeaPeople.dds"
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
 	outcome = negative
 	major = yes
 	orphan = yes
@@ -759,3 +759,36 @@ sea_peoples_crisis.160 = {
 	}
 }
 
+sea_peoples_crisis.170 = {
+	type = country_event
+	title = sea_peoples_crisis.170.title
+	desc = sea_peoples_crisis.170.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
+	outcome = negative
+	orphan = yes
+
+	trigger = {
+		has_variable = sea_peoples_recently_raid_victim
+	}
+
+	option = {
+		name = sea_peoples_crisis.170.a
+		custom_tooltip = sea_peoples_crisis_170a_tt
+	}
+}
+
+sea_peoples_crisis.171 = {
+	type = country_event
+	title = sea_peoples_crisis.171.title
+	desc = sea_peoples_crisis.171.desc
+	category = situation_event
+	image = "gfx/interface/illustrations/situation/sea_peoples_crisis.dds"
+	outcome = positive
+	orphan = yes
+
+	option = {
+		name = sea_peoples_crisis.171.a
+		custom_tooltip = sea_peoples_crisis_171a_tt
+	}
+}

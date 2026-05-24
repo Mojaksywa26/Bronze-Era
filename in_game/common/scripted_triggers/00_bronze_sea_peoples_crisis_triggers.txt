@@ -62,6 +62,25 @@ sea_peoples_crisis_eastern_mediterranean_country = {
 	}
 }
 
+sea_peoples_crisis_direct_country = {
+	custom_description = {
+		text = sea_peoples_crisis_direct_country_text
+		sea_peoples_crisis_eastern_mediterranean_country = yes
+		# Hatti and its direct sphere use bronze_hatti_collapse for country events.
+		# The Sea Peoples situation remains visible and still feeds Hatti pressure.
+		NOT = { tag = HATTI }
+		trigger_if = {
+			limit = { country_exists = c:HATTI }
+			NOT = { is_subject_of = c:HATTI }
+		}
+		NOT = { has_variable = bronze_hatti_collapse_active }
+		NOT = { has_variable = bronze_hatti_client_defiant }
+		NOT = { has_variable = bronze_hatti_client_loyal }
+		NOT = { has_variable = bronze_hatti_client_broken_oath }
+		NOT = { has_variable = bronze_hatti_successor_state }
+	}
+}
+
 sea_peoples_crisis_maritime_target = {
 	custom_description = {
 		text = sea_peoples_crisis_maritime_target_text
@@ -174,13 +193,28 @@ sea_peoples_crisis_anatolian_recomposition_target = {
 	custom_description = {
 		text = sea_peoples_crisis_anatolian_recomposition_target_text
 		NOT = { sea_peoples_raider_country_identity = yes }
+		# Hatti's imperial collapse, vassal defiance, and successor fragmentation are
+		# handled by the separate bronze_hatti_collapse situation. Sea Peoples only
+		# reshapes non-Hatti coastal Anatolia here to avoid doubled Anatolian maluses.
+		NOT = { tag = HATTI }
+		trigger_if = {
+			limit = { country_exists = c:HATTI }
+			NOT = { is_subject_of = c:HATTI }
+		}
+		NOT = { has_variable = bronze_hatti_collapse_active }
+		NOT = { has_variable = bronze_hatti_client_defiant }
+		NOT = { has_variable = bronze_hatti_client_loyal }
+		NOT = { has_variable = bronze_hatti_client_broken_oath }
+		NOT = { has_variable = bronze_hatti_successor_state }
 		OR = {
-			capital ?= { region = region:anatolia_region }
-			culture = culture:hittite
 			culture = culture:luwian
 			culture = culture:lycian
 			culture = culture:carian
 			culture = culture:lukka
+			AND = {
+				capital ?= { region = region:anatolia_region }
+				NOT = { culture = culture:hittite }
+			}
 		}
 	}
 }

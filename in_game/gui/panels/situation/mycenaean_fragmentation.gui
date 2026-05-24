@@ -1,0 +1,231 @@
+situation_panel = {
+
+	##################################### TOP HEADER #####################################
+
+	blockoverride "situation_header_left" {
+		icon = {
+			size = { 32 32 }
+			texture = "gfx/interface/icons/situations/mycenaean_fragmentation.dds"
+		}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				fontsize = 13
+				text = "mycenaean_fragmentation_panel_high_wanax"
+				default_format = "#subtle_name"
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				fontsize = 13
+				text = "[GetUniqueInternationalOrganization('mycenaean_league').GetLeaderCountry.GetName]"
+				default_format = "#Y"
+			}
+		}
+
+		expand = {}
+	}
+
+	blockoverride "situation_header_right" {
+		expand = {}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				fontsize = 13
+				text = "mycenaean_fragmentation_panel_unity"
+				default_format = "#subtle_name"
+			}
+
+			text_single = {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				fontsize = 13
+				text = "mycenaean_fragmentation_panel_unity_value"
+				default_format = "#Y"
+			}
+		}
+
+		icon = {
+			size = { 32 32 }
+			texture = "gfx/interface/icons/laws/resolutions/law_voting.dds"
+		}
+	}
+
+	##################################### MAIN CONTENT #####################################
+
+	blockoverride "situation_subheader_content" {}
+
+	blockoverride "situation_panel_main_content" {
+
+		# Keep this panel close to vanilla situations: brief overview, simple status,
+		# and the native situation actions list supplied by common.gui below.
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'mycenaean_overview_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "mycenaean_fragmentation_overview_card"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/situations/mycenaean_fragmentation.dds"
+			}
+			blockoverride "bottom_content" {
+				text_multi = {
+					autoresize = no
+					multiline = yes
+					size = { 470 95 }
+					text = "mycenaean_fragmentation_overview_card_desc"
+				}
+			}
+			blockoverride "visible_hint" {}
+			blockoverride "onaction_hint" {
+				action_tooltip = {
+					title = "OPEN_HINT"
+					on_action = "[OpenLateralViewWithParams('hints', 'selected_hint = hint_mycenaean_fragmentation')]"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'mycenaean_overview_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'mycenaean_overview_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'mycenaean_overview_toggled' ))]"
+			}
+		}
+
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'mycenaean_end_requirements_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "END_REQUIREMENTS"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/disasters/end_requirements_green.dds"
+			}
+			blockoverride "bottom_content" {
+				TooltipRequirementsList = {
+					textcontext = "[SituationView.GetActiveSituation.GetSituation.GetEndConditions]"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'mycenaean_end_requirements_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'mycenaean_end_requirements_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'mycenaean_end_requirements_toggled' ))]"
+			}
+		}
+
+		situation_fancy_two_line_card = {
+			block "card_datacontext" {}
+
+			blockoverride "left_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/laws/resolutions/law_voting.dds"
+				}
+			}
+			blockoverride "left_bottom_flag" {}
+			blockoverride "left_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "mycenaean_fragmentation_panel_unity"
+			}
+			blockoverride "left_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = left|nobaseline
+				text = "mycenaean_fragmentation_panel_unity_value"
+			}
+
+			blockoverride "right_flag" {
+				icon = {
+					size = { 40 40 }
+					texture = "gfx/interface/icons/flat_icons/war_view/army_strength.dds"
+				}
+			}
+			blockoverride "right_bottom_flag" {}
+			blockoverride "right_top_text" {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				text = "mycenaean_fragmentation_panel_strong_palace"
+			}
+			blockoverride "right_bottom_text" {
+				layoutpolicy_horizontal = expanding
+				align = right|nobaseline
+				text = "[SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('mycenaean_fragmentation_strongest_palace').GetCountry.GetName]"
+			}
+		}
+
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'mycenaean_actions_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "mycenaean_fragmentation_actions_card"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/religious_doctrines/catholic/religious_actions.dds"
+			}
+			blockoverride "bottom_content" {
+				text_multi = {
+					autoresize = no
+					multiline = yes
+					size = { 470 70 }
+					text = "mycenaean_fragmentation_actions_card_desc"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'mycenaean_actions_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'mycenaean_actions_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'mycenaean_actions_toggled' ))]"
+			}
+		}
+	}
+
+	blockoverride "situation_panel_main_content_bottom" {
+		situation_card_expandable = {
+			blockoverride "header_button_onclick" {
+				onclick = "[LateralView.Vars.Toggle( 'mycenaean_map_toggled' )]"
+			}
+			blockoverride "header_text" {
+				text = "mycenaean_fragmentation_map_card"
+			}
+			blockoverride "header_icon" {
+				texture = "gfx/interface/icons/map_modes/political.dds"
+			}
+			blockoverride "bottom_content" {
+				text_multi = {
+					autoresize = no
+					multiline = yes
+					size = { 470 70 }
+					text = "mycenaean_fragmentation_map_card_desc"
+				}
+			}
+			blockoverride "bottom_content_onclick" {
+				visible = "[LateralView.Vars.Exists( 'mycenaean_map_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_yes" {
+				visible = "[LateralView.Vars.Exists( 'mycenaean_map_toggled' )]"
+			}
+			blockoverride "icon_replace_visible_not" {
+				visible = "[Not(LateralView.Vars.Exists( 'mycenaean_map_toggled' ))]"
+			}
+		}
+	}
+}

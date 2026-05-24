@@ -48,7 +48,7 @@ sea_peoples_crisis = {
 
 		every_country = {
 			limit = {
-				sea_peoples_crisis_eastern_mediterranean_country = yes
+				sea_peoples_crisis_direct_country = yes
 				NOT = { has_variable = sea_peoples_crisis_active }
 			}
 			trigger_event_non_silently = sea_peoples_crisis.1
@@ -254,7 +254,7 @@ sea_peoples_crisis = {
 
 		every_country = {
 			limit = {
-				sea_peoples_crisis_eastern_mediterranean_country = yes
+				sea_peoples_crisis_direct_country = yes
 				NOT = { has_variable = sea_peoples_crisis_active }
 				NOT = { has_variable = sea_peoples_situation_intro_seen }
 			}
@@ -262,7 +262,10 @@ sea_peoples_crisis = {
 		}
 
 		every_country = {
-			limit = { sea_peoples_crisis_active_country = yes }
+			limit = {
+				sea_peoples_crisis_active_country = yes
+				sea_peoples_crisis_direct_country = yes
+			}
 
 			if = {
 				limit = {
@@ -378,7 +381,9 @@ sea_peoples_crisis = {
 					}
 					trigger_event_non_silently = sea_peoples_crisis.150
 				}
-				5 = {
+				# Hatti-specific Anatolian collapse is handled by bronze_hatti_collapse.
+				# This remains only for non-Hatti Anatolian migrant recomposition.
+				2 = {
 					trigger = {
 						sea_peoples_crisis_phase_at_least = { value = 5 }
 						sea_peoples_crisis_anatolian_recomposition_target = yes
