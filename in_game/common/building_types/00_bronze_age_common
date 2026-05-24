@@ -1,0 +1,38 @@
+bronze_age_triumphal_monument = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = 1
+
+	category = monumental_building_category
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = no
+
+	build_time = religious_building_build_time
+	construction_demand = religious_building_construction
+
+	unique_production_methods = {
+		bronze_age_burial_pit_maintenance_simple = {
+			tools = 0.02
+			cloth = 0.02
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_peasants_estate_power = 0.05
+		local_peasant_enfranchisment = 0.01
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.01
+		monthly_religious_influence = 0.01
+	}
+
+	custom_tags = { bronze_age_burial }
+}

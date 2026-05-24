@@ -68,6 +68,33 @@
  urnfield_advance: "Urnfield Burial Practices"
  urnfield_advance_desc: "The urnfield burial practices became increasingly common in the late Bronze Age, as societies shifted towards cremation and the use of urns for burial. This practice reflected changing cultural beliefs and social norms related to death and the afterlife, emphasizing a more communal approach to burial compared to individual graves."
 
+ aristocratic_burial_advance: "Aristocratic Mound Burial Practices"
+ aristocratic_burial_advance_desc: "The aristocratic mound burial practices in Bronze Age societies were a way to honor and commemorate the deceased, often involving the construction of elaborate burial mounds and the inclusion of valuable grave goods."
+
+ heroic_cult_advance: "Heroic Cults"
+ heroic_cult_advance_desc: "The development of heroic cults in Bronze Age societies involved the veneration of legendary heroes and figures from mythology. These cults often included rituals, offerings, and the construction of shrines or temples dedicated to these revered individuals, reflecting the cultural values and beliefs of the society."
+
+ epics_advance: "Epic Poetry"
+ epics_advance_desc: "The creation of epic poetry in Bronze Age societies allowed for the storytelling of heroic deeds, mythological tales, and historical events. These epic narratives were often passed down orally and served as a means of preserving cultural identity, values, and traditions."
+
+ divine_kingship_advance: "Divine Kingship"
+ divine_kingship_advance_desc: "The concept of divine kingship in Bronze Age societies involved the belief that rulers were divine or semi-divine beings with a special connection to the gods. This belief often legitimized the authority of the ruler and reinforced their position as the central figure in the political and religious life of the society."
+
+ fertility_rituals_advance: "Fertility Rituals"
+ fertility_rituals_advance_desc: "The practice of fertility rituals in Bronze Age societies was tied to the belief in divine connection of the king, as the ruler was often seen as a mediator between the gods and the people, responsible for ensuring the fertility of the land and the prosperity of the community through rituals and ceremonies."
+
+ blasphemous_rebellion_advance: "Blasphemous Rebellion"
+ blasphemous_rebellion_advance_desc: "Due to the divine nature of the ruler, rebellion was often seen as an act of blasphemy, as it challenged the divine authority and legitimacy of the ruler. This belief reinforced the power of the king and cemented loyalty among adherents of the state religion."
+
+ unlimited_authority_advance: "Unlimited Authority"
+ unlimited_authority_advance_desc: "The concentration of power in the hands of the ruler allowed for undertakings of great tasks, such as the construction of monumental architecture, the organization of large-scale labor forces, and the implementation of ambitious projects that required centralized decision-making and coordination."
+
+ triumphal_monuments_advance: "Triumphal Monuments"
+ triumphal_monuments_advance_desc: "The construction of triumphal monuments in Bronze Age societies served as a way to commemorate military victories, celebrate the achievements of rulers, and reinforce the power and prestige of the ruling elite. These monuments often featured elaborate architecture, inscriptions, and artistic representations of the events being celebrated."
+
+ royal_reliefs_advance: "Royal Reliefs"
+ royal_reliefs_advance_desc: "The creation of royal reliefs in Bronze Age societies allowed for the visual representation of the power, achievements, and divine connection of the ruling elite. These reliefs often depicted scenes of military victories, religious rituals, and royal ceremonies, serving as a means of reinforcing the authority and legitimacy of the ruler."
+
 
 # ##########################
 # BUILDINGS
