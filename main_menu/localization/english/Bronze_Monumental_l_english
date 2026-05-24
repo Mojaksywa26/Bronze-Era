@@ -1,0 +1,10 @@
+l_english:
+
+    bronze_age_triumphal_monument: "Triumphal Monument"
+    bronze_age_triumphal_monument_desc: "A grand bronze monument celebrating victory."
+
+# ######################
+# PRODUCTION METHODS
+# ######################
+
+    bronze_age_triumphal_monument_maintenance_simple: "Triumphal Monument upkeep"
