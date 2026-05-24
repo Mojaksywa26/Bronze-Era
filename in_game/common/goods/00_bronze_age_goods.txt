@@ -22,7 +22,6 @@ bronze_age_tablets = {
 	color = goods_paper
 	default_market_price = 2
 	transport_cost = 0.6
-	icon = icon_goods_books
 
 	demand_add = {
 		nobles = 0.002
