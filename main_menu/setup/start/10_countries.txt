@@ -52,7 +52,7 @@ countries = {
 
 	##EGYPT
 	0002G = {
-		capital = acre
+		capital = faqus
 		culture = upper_egyptian
 		religion = kemetic
 
