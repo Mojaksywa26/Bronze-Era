@@ -1,4 +1,86 @@
 #Remember to write sons and daughters ALWAYS after their parents to avoid crashes
 
 character_db={
+
+    character_merneptah = {					# https://en.wikipedia.org/wiki/Merneptah
+		first_name = { name = name_merneptah }			
+		last_name = { name = name_blank } 
+		culture = upper_egyptian				
+		religion = kemetic				
+		adm = 76					
+		dip = 39					
+		mil = 82					
+		birth_date = -54.1.1				
+        ruler_trait = strict
+		female = no					
+		birth = faqus				
+		tag = 0002G					
+		estate = nobles_estate				
+		dynasty = ramessid_dynasty			
+		
+		has_patronym = no				
+		fertility = 100					
+	}
+
+    character_isetnofret2 = {				# https://en.wikipedia.org/wiki/Isetnofret_II
+		first_name = { name = name_isetnofret }			
+		last_name = { name = name_blank } 
+		culture = upper_egyptian				
+		religion = kemetic				
+		adm = 37					
+		dip = 56					
+		mil = 46					
+		birth_date = -51.1.1				# Estimate based on age of Merneptah and Seti II
+		female = yes					
+		birth = giza						# Assuming she was the daughter of Khaemweset https://en.wikipedia.org/wiki/Khaemweset
+		tag = 0002G					
+		estate = nobles_estate				
+		dynasty = ramessid_dynasty			
+		
+        spouse = character_merneptah
+		has_patronym = no				
+		fertility = 100					
+	}
+
+    character_seti2 = {						# https://en.wikipedia.org/wiki/Seti_II
+		first_name = { name = name_seti }		
+		last_name = { name = name_blank } 
+		culture = upper_egyptian				
+		religion = kemetic				
+		adm = 63					
+		dip = 71					
+		mil = 62					
+		birth_date = -28.1.1				# Estimate baseed on age of Merneptah and him likely having been depicted as an adult during the reign of Merneptah
+		female = no					
+		birth = faqus				
+		tag = 0002G					
+		estate = nobles_estate				
+		dynasty = ramessid_dynasty			
+		
+        father = character_merneptah		
+        mother = character_isetnofret2
+		has_patronym = no				
+		fertility = 100					
+	}
+
+    character_takhat = {				# https://en.wikipedia.org/wiki/Takhat
+		first_name = { name = name_takhat }			
+		last_name = { name = name_blank } 
+		culture = upper_egyptian				
+		religion = kemetic				
+		adm = 51					
+		dip = 32					
+		mil = 36					
+		birth_date = -15.1.1				# Estimate based on age of Seti II and Amenmesse
+		female = yes					
+		birth = faqus						# Uncertain						
+		tag = 0002G					
+		estate = peasants_estate				
+		# dynasty = ramessid_dynasty			
+		
+        spouse = character_seti2
+		has_patronym = no				
+		fertility = 100		
+	}
+
 }

@@ -1,0 +1,14 @@
+﻿l_french:
+
+# Dynasties
+  name_ramessid_dynasty: "Ramessid"
+
+# Names
+  name_blank: "" # Needed for pharohs who don't have last names?
+  name_ramesses: "Ramesses"
+  name_seti: "Seti"
+  name_merneptah: "Merneptah"
+  name_isetnofret: "Isetnofret"
+  name_tia: "Tia"
+  name_henutmire: "Henutmire"
+  name_takhat: "Takhat"

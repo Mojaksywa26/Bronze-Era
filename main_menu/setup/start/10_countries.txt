@@ -71,7 +71,7 @@ countries = {
 			sharuna tahna tarrana tidah tinnis ushmum_tannah wadi_el_natrun warrada
 		}
 		government = {
-			ruler = random
+			ruler = character_merneptah
 		}
 		accepted_cultures = { upper_egyptian lower_egyptian canaanite libyan }
 		tolerated_cultures = { phoenician medjay peleset egyptian }
