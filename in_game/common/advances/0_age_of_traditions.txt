@@ -243,7 +243,7 @@ ceremonial_burial_advance = {
 	research_cost = 1.5
 	
 	global_monthly_prestige = 0.05
-	unlock_law = ceremonial_burial_law
+	unlock_law = _burial_law
 
 	starting_technology_level = 2
 
