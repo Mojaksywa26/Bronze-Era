@@ -7,7 +7,7 @@ bronze_age_palatial_complex_construction = {
 	category = building_construction
 }
 
-bronze_age_triumphal_monument_construction = {
+bronze_age_monument_construction = {
 	masonry = 5
 	lumber = 5
 	tools = 5

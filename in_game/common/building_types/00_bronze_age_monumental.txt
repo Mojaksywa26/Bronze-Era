@@ -12,8 +12,8 @@ bronze_age_triumphal_monument = {
 	megalopolis = yes
 
 	expensive = yes
-	build_time = large_cultural_building_time
-	construction_demand = bronze_age_triumphal_monument_construction
+	build_time = bronze_age_monument_build_time
+	construction_demand = bronze_age_monument_construction
 
 	unique_production_methods = {
 		bronze_age_triumphal_monument_maintenance_simple = {
