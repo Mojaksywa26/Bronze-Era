@@ -311,7 +311,7 @@ function configureLocationOverrides() {
   setLocation("denyen", ["adana", "ayas", "iskenderun", "tarsus"]);
   setLocation("hurrian", ["afrin", "al_bab", "aleppo", "ayntab", "birecik", "manbij", "suruc", "urfa"]);
 
-  setTag("ACRE", "tjekker");
+  setTag("SIDON", "phoenician");
   setTag("ALASI", "canaanite");
   setTag("AMURU", "amorite");
   setTag("ARWAD", "phoenician");
@@ -351,7 +351,6 @@ function configureLocationOverrides() {
   setLocation("sabaean", ["nizwa", "bahla", "ibri", "suhar", "sur"]);
 
   setTag("LIBYA", "libu");
-  setTag("TRPOL", "libu");
   setLocation("garamantian", ["siwa", "awjila"]);
 
   setTag("NURAG", "nuragic");

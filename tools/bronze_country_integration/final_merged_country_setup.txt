@@ -337,7 +337,7 @@ ACINI = {
     }
 }
 
-ACRE = {
+SIDON = {
     color = { 198 188 47 }
     culture = tjekker
     religion = sea_peoples_cult
@@ -866,13 +866,15 @@ ARVER = {
 }
 
 ARWAD = {
-    color = { 178 191 59 }
+    color = { 224 72 92 }
     culture = phoenician
     religion = phoenician
     discovered_regions = { crescent_region }
 
     own_control_core = {
-        jableh
+        baniyas
+        tartus
+        tripoli_syria
     }
 }
 
@@ -5868,19 +5870,6 @@ TROKM = {
     }
 }
 
-TRPOL = {
-    color = { 224 72 92 }
-    culture = libu
-    religion = berber_pagan
-    discovered_regions = { crescent_region }
-
-    own_control_core = {
-        baniyas
-        tartus
-        tripoli_syria
-    }
-}
-
 TUART = {
     color = { 72 191 64 }
     culture = turduli_artigi
@@ -6122,6 +6111,7 @@ UGART = {
     own_control_core = {
         antioch
         latakia
+        jableh
     }
 }
 
