@@ -38,20 +38,6 @@ urnfield_advance = {
 	requires = ceremonial_burial_advance
 }
 
-irrigation_systems_advance = {
-	age = age_1_traditions
-	icon = irrigation_systems_advance
-	depth = 0
-	research_cost = 1.5
-
-	unlock_building = irrigation_systems
-
-	requires = settlements_advance
-	
-	starting_technology_level = 1
-	
-}
-
 #####################################
 # Palace Economy
 #####################################
@@ -268,7 +254,7 @@ aristocratic_burial_advance = {
 	age = age_1_traditions
 	research_cost = 1.5
 	
-	unlock_law = bronze_age_aristocratic_mounds_law
+	unlock_policy = bronze_age_aristocratic_mounds_law
 
 	unlock_building = bronze_age_aristocratic_mounds
 

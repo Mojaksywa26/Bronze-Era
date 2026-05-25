@@ -1,3 +1,16 @@
+ irrigation_systems_advance = {
+	age = age_1_traditions
+	icon = irrigation_systems_advance
+	research_cost = 1.5
+
+	unlock_building = irrigation_systems
+
+	requires = settlements_advance
+	
+	starting_technology_level = 1
+	
+}
+
 ###############################
 # Industry Buildings
 ###############################

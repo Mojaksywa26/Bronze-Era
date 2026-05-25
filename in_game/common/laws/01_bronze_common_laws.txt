@@ -32,7 +32,7 @@ burial_law = {
 		years = 2
 	}
 
-	bronze_age_inhumation_law = {
+	bronze_age_collective_tombs_law = {
 
 		country_modifier = {
 			clergy_estate_target_satisfaction = medium_permanent_target_satisfaction

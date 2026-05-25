@@ -81,7 +81,7 @@ bronze_age_aristocratic_mounds = {
 	custom_tags = { bronze_age_burial }
 }
 
-bronze_age_inhumation_burial_site = {
+bronze_age_collective_tombs = {
 	is_foreign = no
 	pop_type = clergy
 	max_levels = 1
@@ -98,10 +98,11 @@ bronze_age_inhumation_burial_site = {
 	construction_demand = religious_building_construction
 
 	unique_production_methods = {
-		bronze_age_inhumation_burial_site_maintenance_simple = {
-			tools = 0.02
+		bronze_age_collective_tombs_maintenance_simple = {
+			tools = 0.01
+			pottery = 0.01
 			cloth = 0.02
-			coal = 0.02
+			lumber = 0.02
 
 			category = building_maintenance
 		}
@@ -109,13 +110,13 @@ bronze_age_inhumation_burial_site = {
 	}
 
 	modifier = {
-		local_clergy_estate_power = 0.05
-		local_disease_resistance = 0.05
+		local_burghers_estate_power = 0.05
+		local_cultural_tradition = 0.05
 	}
 
 	capital_country_modifier = {
 		monthly_prestige = 0.01
-		monthly_religious_influence = 0.03
+		monthly_religious_influence = 0.02
 	}
 
 	custom_tags = { bronze_age_burial }
