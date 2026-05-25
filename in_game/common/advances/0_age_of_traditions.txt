@@ -16,11 +16,11 @@ ceremonial_burial_advance = {
 	icon = ceremonial_burial
 	research_cost = 1.5
 	
-	global_monthly_prestige = 0.05
+	global_monthly_prestige = 0.01
 	unlock_law = burial_law
 
 	unlock_building = bronze_age_burial_pits
-	unlock_building = bronze_age_inhumation_burial_site
+	unlock_building = bronze_age_collective_tombs
 
 	starting_technology_level = 2
 

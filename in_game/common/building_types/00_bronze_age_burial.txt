@@ -14,6 +14,12 @@ bronze_age_burial_pits = {
 	build_time = religious_building_build_time
 	construction_demand = religious_building_construction
 
+	allow = {
+		owner = {
+			has_policy = bronze_age_burial_pits_law
+		}
+	}
+
 	unique_production_methods = {
 		bronze_age_burial_pit_maintenance_simple = {
 			tools = 0.02
@@ -53,6 +59,12 @@ bronze_age_aristocratic_mounds = {
 	build_time = religious_building_build_time
 	construction_demand = religious_building_construction
 
+	allow = {
+		owner = {
+			has_policy = bronze_age_aristocratic_mounds_law
+		}
+	}
+
 	unique_production_methods = {
 		bronze_age_aristocratic_mounds_maintenance_simple = {
 			tools = 0.5
@@ -69,12 +81,14 @@ bronze_age_aristocratic_mounds = {
 	modifier = {
 		local_nobles_estate_power = 0.1
 		local_cultural_influence = 0.2
-		local_cultural_tradition = 0.2
+	}
+
+	raw_modifier = {
+		local_cultural_tradition = 0.02
 	}
 
 	capital_country_modifier = {
 		monthly_prestige = 0.1
-		monthly_legitimacy = 0.05
 		monthly_religious_influence = 0.05
 	}
 
@@ -97,6 +111,12 @@ bronze_age_collective_tombs = {
 	build_time = religious_building_build_time
 	construction_demand = religious_building_construction
 
+	allow = {
+		owner = {
+			has_policy = bronze_age_collective_tombs_law
+		}
+	}
+
 	unique_production_methods = {
 		bronze_age_collective_tombs_maintenance_simple = {
 			tools = 0.01
@@ -111,7 +131,10 @@ bronze_age_collective_tombs = {
 
 	modifier = {
 		local_burghers_estate_power = 0.05
-		local_cultural_tradition = 0.05
+	}
+
+	raw_modifier = {
+		local_cultural_tradition = 0.01
 	}
 
 	capital_country_modifier = {
@@ -137,6 +160,12 @@ bronze_age_urnfield_burial_site = {
 
 	build_time = religious_building_build_time
 	construction_demand = religious_building_construction
+
+	allow = {
+		owner = {
+			has_policy = bronze_age_urnfields_law
+		}
+	}
 
 	unique_production_methods = {
 		bronze_age_urnfield_burial_site_maintenance_simple = {

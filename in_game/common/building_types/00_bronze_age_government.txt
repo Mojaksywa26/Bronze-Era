@@ -30,6 +30,10 @@ bronze_age_victory_stelae = {
 		local_max_control = 0.02
 	}
 
+	raw_modifier = {
+		local_cultural_tradition = 0.05
+	}
+
 	capital_country_modifier = {
 		monthly_prestige = 0.01
 	}
