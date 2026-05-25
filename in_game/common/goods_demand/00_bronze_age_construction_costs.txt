@@ -8,11 +8,11 @@ bronze_age_palatial_complex_construction = {
 }
 
 bronze_age_triumphal_monument_construction = {
-	masonry = 3
-	lumber = 3
-	tools = 1
-	goods_gold = 0.2
-	bronze = 0.5
+	masonry = 5
+	lumber = 5
+	tools = 5
+	goods_gold = 1
+	bronze_age_bronze = 5
 
 	category = building_construction
 }

@@ -361,7 +361,7 @@ triumphal_monuments_advance = {
 	age = age_1_traditions
 	research_cost = 1.5
 	
-	unlock_building = bronze_age_triumphal_monument
+	unlock_building = bronze_age_victory_stelae
 
 	requires = royal_reliefs_advance
 

@@ -1,0 +1,37 @@
+bronze_age_victory_stelae = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = 1
+
+	category = government_category
+
+	employment_size = 0
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	build_time = cultural_building_time
+	construction_demand = cultural_building_construction
+
+	unique_production_methods = {
+		bronze_age_victory_stelae_maintenance_simple = {
+			bronze_age_bronze = 0.1
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_crown_estate_power = 0.1
+		local_cultural_influence = 0.05
+		local_max_control = 0.02
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.01
+	}
+
+}
