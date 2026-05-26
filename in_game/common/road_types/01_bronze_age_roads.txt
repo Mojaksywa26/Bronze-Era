@@ -1,0 +1,12 @@
+holloway = {
+	level = 1
+	movement_cost = -0.05
+	market_access = -0.03
+	pop_movement = 0.1
+	build_time_per_unit_distance = 20
+	price_per_unit_distance = build_holloway
+	construction_demand = build_holloway_demand
+	maintenance_demand = maintain_holloway_demand
+	color = map_gravel_road
+	spline_style_id = 0
+}

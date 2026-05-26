@@ -49,6 +49,17 @@ wheeled_transport_advance = {
 	starting_technology_level = 2
 }
 
+spoked_wheel_advance = {
+	age = age_1_traditions
+
+	requires = wheeled_transport_advance
+	
+	army_heavy_cavalry_power = 0.05
+	army_light_cavalry_power = 0.05
+
+	starting_technology_level = 3
+}
+
 settlements_advance = {
 	age = age_1_traditions
 	icon = town_rights_advance

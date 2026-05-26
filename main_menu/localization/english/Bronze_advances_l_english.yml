@@ -104,6 +104,9 @@
  animal_husbandry_advance: "Animal Husbandry"
  animal_husbandry_advance_desc: "Animal husbandry provides a stable source of food, labor, hides, wool, and manure, forming the economic backbone of most settled societies. Herd animals increase agricultural output and transport capacity, but require pasture, seasonal management, and protection from disease, raiding, and famine."
 
+ spoked_wheel_advance: "Spoked Wheel"
+ spoked_wheel_advance_desc: "The spoked wheel creates lighter and faster vehicles than older solid-wheel designs, enabling swift chariots, improved transport, and more efficient long-distance communication. Its construction requires skilled woodworking and stronger craftsmanship, making it a prestige technology often associated with elites and warfare."
+
 
 # ##########################
 # BUILDINGS

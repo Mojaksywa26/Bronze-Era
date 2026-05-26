@@ -1,0 +1,3 @@
+	# road types
+	map_holloway_road = hsv360 { 75 84 76 }
+	map_maintained_holloway_road = hsv360 { 111 47 92 }
