@@ -33,6 +33,7 @@ temple_granary = {
 	modifier = {
 		local_food_capacity = 200
 		local_food_decay_modifier = -0.05
+		local_max_control = 0.2
 	}
 
 	ai_forbid_shutdown = yes
