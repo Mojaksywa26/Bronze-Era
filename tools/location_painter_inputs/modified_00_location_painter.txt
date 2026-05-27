@@ -290,7 +290,7 @@ location_painter_assignments = {
             zile
         }
     }
-    ACRE = {
+    SIDON = {
         color = { 198 188 47 }
         locations = {
             sidon
@@ -432,9 +432,11 @@ location_painter_assignments = {
         }
     }
     ARWAD = {
-        color = { 178 191 59 }
+        color = { 224 72 92 }
         locations = {
-            jableh
+            baniyas
+            tartus
+            tripoli_syria
         }
     }
     ASYRI = {
@@ -1793,19 +1795,12 @@ location_painter_assignments = {
             vico
         }
     }
-    TRPOL = {
-        color = { 224 72 92 }
-        locations = {
-            baniyas
-            tartus
-            tripoli_syria
-        }
-    }
     UGART = {
         color = { 50 69 210 }
         locations = {
             antioch
             latakia
+            jableh
         }
     }
     UMBRIAN = {

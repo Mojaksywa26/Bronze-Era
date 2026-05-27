@@ -912,11 +912,11 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
-	##ACRE
-	ACRE = {
+	##SIDON
+	SIDON = {
 		capital = sidon
-		culture = tjekker
-		religion = sea_peoples_cult
+		culture = phoenician
+		religion = phoenician
 
 		country_rank = rank_kingdom
 
@@ -1652,23 +1652,23 @@ countries = {
 		}
 	}
 
-	##ARWAD
+	##ARWAD 
 	ARWAD = {
-		capital = jableh
+		capital = tartus			# Known by many names such as Arwad, Arvad, Arados, Arado, Aradus. Set here as Tripoli's existance at this time is contested.
 		culture = phoenician
 		religion = phoenician
 
 		country_rank = rank_kingdom
 
-		include = "Bronze_Coast"
+		include = "Bronze"
 
 		own_control_core = {
-			jableh
+			baniyas tartus tripoli_syria
 		}
 		government = {
 			ruler = random
 		}
-		accepted_cultures = { phoenician }
+		accepted_cultures = { ugaritic }
 		tolerated_cultures = {  }
 		discovered_regions = {
 			crescent_region
@@ -8894,29 +8894,6 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
-	##TRIPOLI
-	TRPOL = {
-		capital = baniyas
-		culture = libu
-		religion = berber_pagan
-
-		country_rank = rank_kingdom
-
-		include = "Bronze"
-
-		own_control_core = {
-			baniyas tartus tripoli_syria
-		}
-		government = {
-			ruler = random
-		}
-		accepted_cultures = { libu }
-		tolerated_cultures = {  }
-		discovered_regions = {
-			crescent_region
-		}
-	}
-
 	##TURDULI ARTIGI
 	TUART = {
 		capital = almaden
@@ -9297,7 +9274,7 @@ countries = {
 
 	##UGARIT
 	UGART = {
-		capital = antioch
+		capital = latakia
 		culture = ugaritic
 		religion = ugaritic
 
@@ -9306,7 +9283,7 @@ countries = {
 		include = "Bronze"
 
 		own_control_core = {
-			antioch latakia
+			antioch latakia jableh
 		}
 		government = {
 			ruler = random
