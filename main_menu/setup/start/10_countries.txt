@@ -79,6 +79,9 @@ countries = {
 		discovered_regions = {
 			crescent_region egypt_region
 		}
+		discovered_areas = {
+			nubia_proper_area
+		}
 	}
 
 
