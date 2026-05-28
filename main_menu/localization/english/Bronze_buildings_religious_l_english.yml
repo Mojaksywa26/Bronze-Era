@@ -10,3 +10,25 @@
 
   temple_scribes_guild: "Temple Scribe School"
   temple_scribes_guild_desc: "The temple scribe school is first and foremost an expression of the priesthood's political power, but it also serves to train scribes who maintain records of religious rituals, offerings, and temple administration in Bronze Age societies."
+
+# #########################################
+# PRODUCTION AND MAINTENANCE METHODS
+# #########################################
+
+  neolithic_sanctuary_maintenance_fruit: "Fruit Offerings"
+  neolithic_sanctuary_maintenance_fruit_desc: "Worshippers sustain local sanctuaries through offerings of gathered and cultivated fruits used in seasonal rites, feasts, and sacred ceremonies."
+
+  neolithic_sanctuary_maintenance_livestock: "Animal Sacrifices"
+  neolithic_sanctuary_maintenance_livestock_desc: "Herd animals are dedicated to the sanctuary for ritual sacrifice, communal feasting, and the maintenance of sacred traditions."
+
+  neolithic_sanctuary_maintenance_slaves_goods: "Human Sacrifices"
+  neolithic_sanctuary_maintenance_slaves_goods_desc: "Sanctuaries practice the ritual sacrifice of captives, servants, or chosen offerings as part of sacred ceremonies believed to appease supernatural powers."
+
+  neolithic_sanctuary_maintenance_wheat: "Grain Offerings"
+  neolithic_sanctuary_maintenance_wheat_desc: "Stores of grain support ritual gatherings, priestly caretakers, and communal ceremonies held at the sanctuary throughout the year."
+
+  neolithic_sanctuary_maintenance_wild_game: "Hunting Offerings"
+  neolithic_sanctuary_maintenance_wild_game_desc: "Hunters dedicate meat, hides, and trophies from wild animals to honor local spirits and sustain ritual activity at sacred sites."
+
+  neolithic_feast_court_maintenance: "Stored Feast Reserves"
+  neolithic_feast_court_maintenance_desc: "Feast courts maintain communal stores of grain, livestock, and preserved foods reserved for seasonal ceremonies, ritual gatherings, and redistributive feasting."

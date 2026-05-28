@@ -15,11 +15,11 @@
 # PRODUCTION AND MAINTENANCE METHODS
 # #########################################
 
-  bronze_age_aristocratic_mounds_maintenance_simple: "Aristocratic Mounds Construction"
+  bronze_age_aristocratic_mounds_maintenance: "Aristocratic Mounds Construction"
   bronze_age_aristocratic_mounds_maintenance_desc: "Maintaining elite burial mounds requires continuous labor, ceremonial offerings, and the preservation of ancestral sites tied to noble prestige and dynastic legitimacy."
 
-  bronze_age_burial_pits_maintenance: "Burial Pits Practice"
-  bronze_age_burial_pits_maintenance_Desc: "Simple pit burials demand little material investment, relying mostly on local labor and basic funerary customs carried out by families or village communities."
+  bronze_age_burial_pit_maintenance: "Burial Pits Practice"
+  bronze_age_burial_pit_maintenance_Desc: "Simple pit burials demand little material investment, relying mostly on local labor and basic funerary customs carried out by families or village communities."
 
   bronze_age_urnfield_burial_site_maintenance: "Urnfield Maintenance"
   bronze_age_urnfield_burial_site_maintenance_desc: "Cremation grounds and urn cemeteries consume large quantities of fuel, pottery, and ritual labor to sustain widespread funerary practices and maintain sacred burial areas."

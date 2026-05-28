@@ -1,0 +1,38 @@
+﻿l_english:
+
+  merchant_house: "Merchant House"
+  merchant_house_desc: "Merchant houses serve as centers of trade, storage, and accounting for emerging commercial families operating beyond purely household exchange. From these compounds, merchants organize caravans, manage goods, negotiate contracts, and connect distant settlements through growing networks of commerce."
+
+  bronze_age_trade_office: "Trade Post"
+  bronze_age_trade_office_desc: "A trading post gathers merchants, caravans, and local producers at a recognized exchange point where goods, information, and travelers pass between regions. Though modest in scale, such sites help tie distant communities into wider economic networks."
+
+# ###########################################
+# PRODUCTION AND MAINTENANCE METHODS
+# ###########################################
+
+  merchant_house_maintenance_leather: "Leather Records"
+  merchant_house_maintenance_leather_desc: "Merchants keep contracts, inventories, and correspondence on treated leather sheets durable enough for repeated travel and long-term storage."
+
+  merchant_house_maintenance_paper: "Papyrus Records"
+  merchant_house_maintenance_paper_desc: "Trade accounts and commercial correspondence are maintained on lightweight writing scrolls that greatly improve the speed and volume of administration."
+
+  merchant_house_maintenance_potsherds: "Potsherd Records"
+  merchant_house_maintenance_potsherds_desc: "Broken pottery shards are widely reused for short notes, tallies, and receipts, providing merchants with a cheap and accessible writing surface."
+
+  merchant_house_maintenance_wood: "Wooden Tablets"
+  merchant_house_maintenance_wood_desc: "Merchants record debts, deliveries, and trade agreements on wooden tablets coated with wax or marked with ink for practical day-to-day administration."
+
+  bronze_trade_office_maintenance_leather: "Leather Archives"
+  bronze_trade_office_maintenance_leather_desc: "Trade agents maintain durable records, agreements, and cargo manifests on treated leather suited for long journeys and repeated handling."
+
+  bronze_trade_office_maintenance_paper: "Paper Correspondence"
+  bronze_trade_office_maintenance_paper_desc: "Cheap paper allows trade offices to manage extensive correspondence, inventories, and commercial accounts across distant markets."
+
+  bronze_trade_office_maintenance_potsherds: "Potsherd Tallies"
+  bronze_trade_office_maintenance_potsherds_desc: "Broken pottery shards are used for quick tallies, receipts, and temporary records needed for everyday commercial activity."
+
+  bronze_trade_office_maintenance_tablets: "Clay Tablet Records"
+  bronze_trade_office_maintenance_tablets_desc: "Trade offices preserve contracts, deliveries, and taxation records on inscribed clay tablets stored within administrative archives."
+
+  bronze_trade_office_maintenance_wood: "Wooden Account Boards"
+  bronze_trade_office_maintenance_wood_desc: "Wooden tablets and wax boards provide merchants with reusable surfaces for recording transactions, cargo lists, and trade arrangements."
