@@ -987,6 +987,17 @@ gandharan = {
 	}
 }
 
+hindu = {
+	language = indic_bronze_language
+	color = rgb { 196 142 68 }
+	tags = { indian_gfx }
+	opinions = {
+	}
+	culture_groups = {
+		indic_bronze_group
+	}
+}
+
 tocharian = {
 	language = iranian_bronze_language
 	color = rgb { 112 104 66 }
