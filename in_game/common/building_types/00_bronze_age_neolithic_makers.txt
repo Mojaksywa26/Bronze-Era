@@ -16,7 +16,7 @@ tools_maker = {
 
 	unique_production_methods = {
 		metalwork_tools_maker_maintenance = {
-			iron = 0.5
+			iron = 0.2
 			produced = tools
 			output = 0.5
 
@@ -24,9 +24,9 @@ tools_maker = {
 			category = guild_input
 		}
 		stone_tools_maker_maintenance = {
-			stone = 0.5
+			stone = 1
 			produced = tools
-			output = 0.25
+			output = 0.5
 			debug_max_profit = 0.1
 
 			category = guild_input
@@ -35,7 +35,7 @@ tools_maker = {
 		bronze_tools_maker_maintenance = {
 			bronze_age_bronze = 0.25
 			produced = tools
-			output = 0.4
+			output = 0.5
 			debug_max_profit = 0.15
 
 			category = guild_input
@@ -43,7 +43,7 @@ tools_maker = {
 		copper_tools_maker_maintenance = {
 			copper = 0.5
 			produced = tools
-			output = 0.55
+			output = 0.5
 			debug_max_profit = 0.15
 
 			category = guild_input
@@ -74,7 +74,7 @@ weaponry_maker = {
 			iron = 0.2
 			produced = weaponry
 			output = 0.5
-			
+
 			category = guild_input
 		}
 		stone_weaponry_maker_maintenance = {
