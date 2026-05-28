@@ -10214,5 +10214,737 @@ countries = {
 		tolerated_cultures = {  }
 	}
 
+	##ALLAHDINO
+	ALLAH = {
+		capital = ahmad_khan
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ahmad_khan laribandar manora muhammad_tur sonda thatta
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##AMRI
+	AMRI = {
+		capital = kotri
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			kotri moro_sindh ranikot sehwan
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##BALAKOT
+	BALAK = {
+		capital = bela
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bela sonamiani
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##BANAWALI
+	BANAW = {
+		capital = raikot
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			raikot sirhind
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##BRAHUI
+	BRAHU = {
+		capital = awaran
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			awaran besima chagai chaman dhadar duki gulistan hinglaj
+			jhao kalat kharan khuzdar lakhsar lorelai maruf mashkai
+			mastung naalbandin nagh nal nawah nushki ormara quetta
+			surab tank urgun wadh wana washuk wazakhwa zarghun_shahr
+			zhob zik
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##CHALDEANS
+	CHALD = {
+		capital = ar_rukai
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ar_rukai ash_shuaybah kazimah qurain
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##CHANHU-DARO
+	CHAND = {
+		capital = agham_kot
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			agham_kot chor hala mansura naserpur umarkot
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##CHAPUWALA
+	CHAPU = {
+		capital = bhatnir
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bhatnir channan_pir chishtian dunga_bunga karur_punjab khairpur kot_marot mailsi
+			mir_garh_qila
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##DHOLAVIRA
+	DHOLA = {
+		capital = kantha
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			kantha kapilkot lakhiyarvira lakhpat
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##GANWERIWALA
+	GANWE = {
+		capital = anupgarh
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			anupgarh aror bijnot derawar ghotki ludrava nawakot pugal
+			ramgar uch
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##HARAPPA
+	HARAP = {
+		capital = batala
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			batala bhera chichawatni dijkot dipalpur eminabad faridkot fatehabad
+			firozpur gugera jammu jaranwala kalanaur kasur lahore lalian
+			muktsar pakpattan pasrur pindi_bhattian shahpur sialkot sillanwali sultanwind
+			talwandi virkgarh
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##KOT DIJI
+	KOTDI = {
+		capital = islamgarh
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			islamgarh
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##KUNTASI
+	KUNTA = {
+		capital = bhanvad
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bhanvad chhaya dhrangadhra dwarka limbdi morvi nagnes
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##LAKHMIRWALA
+	LAKHM = {
+		capital = bajwara
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bajwara jalandhar kahlur kapurthala kutlehar rahon suket
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##LOTHAL
+	LOTHA = {
+		capital = ashaval
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			ashaval baroda broach danduka khambat nandod rander ranpur
+			sihor surat
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##MANDA
+	MANDA = {
+		capital = banihal
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			banihal baramulla ganderbal kupwara poonch pulawama rajouri rasyal
+			sharda srinagar udamphur
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##MEDIANS
+	MEDIA = {
+		capital = abhar
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			abhar avaj aveh bandar_e_anzali damavand delijan eyvanekey firuzkuh
+			fuman hashatjin kahak karaj kashan khwar lahijan langarud
+			maranjab natanz neyasar qazvin qeydar qom rahimabad rasht
+			razeqan rey rudbar sagzabad saveh savojbolagh shahrestan_sofla shamiram
+			sirdan takestan varamin
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##MITATHAL
+	MITAT = {
+		capital = karnal
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			karnal panipat thanesar
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##MOHEN-JO-DARO
+	MOHEN = {
+		capital = dubbi
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			dubbi kandiaro kot_lalu paat rajabar rohri shadodkot
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##NAUSHARO
+	NAUSH = {
+		capital = dera_bugti
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			dera_bugti gandava kahan lahri mithri rakni siwi
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##NUBIA
+	NUBI = {
+		capital = al_jeblien
+		culture = nubian
+		religion = nubian
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			al_jeblien arbaji branko dongola ed_damer ed_debba el_manaqil el_metemma
+			karima korti omdurman qerri quz_rajab shemkhiya shendi soba
+			waylula
+		}
+		accepted_cultures = { nubian }
+		tolerated_cultures = { medjay egyptian berber }
+			discovered_regions = {
+				egypt_region
+			}
+	}
+	##PATHANI DAMB
+	PATHA = {
+		capital = bab_kot
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bab_kot jhal jhatpat kashmore omerkot shikarpur sui_pakistan sukkur
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##RAKHIGARHI
+	RAKHI = {
+		capital = gangadvara
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			gangadvara hanol jansath kalsi nahan piran_i_kaliyar sadhaura saharanpur
+			soonpur uttarkashi
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##REHMAN DHERI
+	REHMA = {
+		capital = akora
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			akora bannu dinkot hangu isakhel khost khushab thal_daman
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##ROPAR
+	ROPAR = {
+		capital = bajaura
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			bajaura keylong koksar mandi milwat nagarkot naggar nurpur
+			palampur
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##SHORTUGAL
+	SHORT = {
+		capital = kham_bahar
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			kham_bahar ragh shiveh
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##SOMNATH
+	SOMNA = {
+		capital = amreli
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			amreli diu gondal junagarh lathi palitana somnath
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##SOTKA KOH
+	SOTKA = {
+		capital = pasni
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			pasni turbat
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##SURKOTADA
+	SURKO = {
+		capital = deodar
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			deodar dholka patan radhanpur
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##SUTKAGEN DOR
+	SUTKG = {
+		capital = gwadar
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			gwadar gwatar kuddan
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
+	##VAINIWAL
+	VAINI = {
+		capital = chiniot
+		culture = hindu
+		religion = hindu
+
+		country_rank = rank_county
+
+		include = "Bronze"
+
+		government = {
+			ruler = random
+		}
+
+		own_control_core = {
+			chiniot jhang kamalia multan shorkot tulamba
+		}
+		accepted_cultures = { hindu harappan vedic }
+		tolerated_cultures = { harappan vedic dravidian gandharan }
+			discovered_regions = {
+				india_region persia_region
+			}
+	}
 	}
 }
