@@ -6,3 +6,36 @@ bronze_age_palatial_complex_construction = {
 
 	category = building_construction
 }
+
+bronze_age_monument_construction = {
+	masonry = 5
+	lumber = 5
+	tools = 5
+	goods_gold = 1
+	bronze_age_bronze = 5
+
+	category = building_construction
+}
+
+build_holloway_demand = {
+	lumber = 0.2
+	category = building_construction
+}
+
+build_maintained_holloway_demand = {
+	lumber = 0.5
+	masonry = 0.5
+	sand = 0.2
+	category = building_construction
+}
+
+maintain_holloway_demand = {
+
+	category = building_maintenance
+}
+
+maintain_maintained_holloway_demand = {
+	sand = 0.02
+	lumber = 0.02
+	category = building_maintenance
+}

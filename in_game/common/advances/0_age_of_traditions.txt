@@ -1,14 +1,112 @@
-#This tech's effects are a placeholder, please ignore or advise better
+# ###################
+# NEOLITHIC
+# ###################
+
+agriculture_advance = {
+	age = age_1_traditions
+	research_cost = 2.0
+	can_extract_wheat = yes
+	can_extract_maize = yes
+	can_extract_potato = yes
+	can_extract_rice = yes
+	can_extract_millet = yes
+	can_extract_legumes = yes
+
+	unlock_building = farming_village
+	unlock_building = neolithic_granary
+
+	depth = 0
+
+	starting_technology_level = 1
+}
+
+ritual_sites_advance = {
+	age = age_1_traditions
+
+	requires = agriculture_advance
+
+	unlock_building = neolithic_sanctuary
+	unlock_building = neolithic_feast_court
+}
+
+animal_husbandry_advance = {
+	age = age_1_traditions
+
+	requires = agriculture_advance
+
+	can_extract_livestock = yes
+	unlock_building = neolithic_leather_maker
+}
+
+horse_domestication_advance = {
+	age = age_1_traditions
+	research_cost = 2.0
+
+	requires = animal_husbandry_advance
+
+	can_extract_horses = yes
+
+	starting_technology_level = 2
+}
+
+wheeled_transport_advance = {
+	age = age_1_traditions
+
+	requires = animal_husbandry_advance
+
+	global_construction_speed = 0.1
+
+	starting_technology_level = 2
+}
+
+spoked_wheel_advance = {
+	age = age_1_traditions
+
+	requires = wheeled_transport_advance
+	
+	army_heavy_cavalry_power = 0.05
+	army_light_cavalry_power = 0.05
+
+	starting_technology_level = 3
+}
+
 settlements_advance = {
 	age = age_1_traditions
 	icon = town_rights_advance
-	depth = 0
 	research_cost = 2.0
+
+	requires = agriculture_advance
 
 	unlock_building = settlement_building
 	
 	starting_technology_level = 1
 	
+}
+
+ceremonial_burial_advance = {
+	age = age_1_traditions
+	icon = ceremonial_burial
+	research_cost = 1.5
+	
+	unlock_law = burial_law
+
+	unlock_building = bronze_age_burial_pits
+	unlock_building = bronze_age_collective_tombs
+
+	starting_technology_level = 1
+
+	requires = settlements_advance
+}
+
+urnfield_advance = {
+	age = age_1_traditions
+	icon = urnfield_advance
+	research_cost = 1.5
+	
+	unlock_policy = bronze_age_urnfields_law
+	unlock_building = bronze_age_urnfield_burial_site
+
+	requires = ceremonial_burial_advance
 }
 
 #####################################
@@ -28,99 +126,186 @@ palace_economy_advance = {
 
 	allow = { has_embraced_institution = institution:palatial_economy }
 
+	starting_technology_level = 3
+
+}
+
+city_building_advance = {
+	age = age_1_traditions
+	research_cost = 2.0
+
+	can_build_cities = yes
+
+	requires = palace_economy_advance
+
 	potential = {
 		has_tribal_government = no
 	}
 
+	starting_technology_level = 3
 }
+
+temple_complex_advance = {
+	age = age_1_traditions
+	research_cost = 2.0
+
+	# unlock_building = temple_complex
+
+	requires = city_building_advance
+
+	starting_technology_level = 3
+
+}
+
+temple_granary_advance = {
+	age = age_1_traditions
+	research_cost = 2.0
+
+	unlock_building = temple_granary
+
+	requires = temple_complex_advance
+
+	starting_technology_level = 3
+
+}
+
 
 workforce_specialization_advance = {
 	age = age_1_traditions
 	icon = meritocracy
 	
-	global_max_literacy = 2
+	global_max_literacy = 1
 	global_monthly_literacy = 0.01
 
 	requires = palace_economy_advance
+
+	starting_technology_level = 3
 
 }
 
-written_alphabet = {
+elite_scripts_advance = {
 	age = age_1_traditions
-	icon = abacus_advance
+	icon = meritocracy
+	research_cost = 2.0
 	
-	global_max_literacy = 5
-	global_monthly_literacy = 0.01
+	global_nobles_max_literacy = 2
+	global_clergy_max_literacy = 2
+
+	starting_technology_level = 3
+
+	requires = workforce_specialization_advance
+}
+
+religious_texts_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
 	
-	starting_technology_level = 2
-	requires = palace_economy_advance
+	global_clergy_max_literacy = 1
+
+	starting_technology_level = 3
+
+	requires = elite_scripts_advance
+}
+
+temple_archives_advance = {
+	age = age_1_traditions
+	
+	monthly_prestige = 0.01
+	global_clergy_city_desired_pop = 0.02
+
+	starting_technology_level = 3
+
+	requires = religious_texts_advance
+}
+
+astronomical_observations_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	global_monthly_food_modifier = 0.05
+	trade_range = 50
+
+	starting_technology_level = 3
+
+	requires = temple_archives_advance
+}
+
+agricultural_calendar_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	global_monthly_food_modifier = 0.10
+
+	starting_technology_level = 3
+
+	requires = astronomical_observations_advance
+}
+
+administrative_calendar_advance = {
+	age = age_1_traditions
+	
+	monthly_stability = 0.05
+	tax_income_efficiency = small_tax_income_efficiency_bonus
+
+	starting_technology_level = 3
+
+	requires = astronomical_observations_advance
 }
 
 cultural_traditions_law_advance = {
 	age = age_1_traditions
-	requires = written_alphabet
+	requires = elite_scripts_advance
 	unlock_law = cultural_traditions_law
-	starting_technology_level = 2
-}
-
-cultural_acceptance_advance = {
-	age = age_1_traditions
-	icon = cultural_acceptance_advance
-	cultures_capacity = 1
 	starting_technology_level = 3
-	requires = cultural_traditions_law_advance
 }
 
-mapmaking = {
-	age = age_1_traditions
-	icon = maritime_advance_age_4
-	requires = written_alphabet
-	
-	research_cost = 1.0
-	may_explore = yes
-	unlock_law = immigration_law
-}
-
-colonies = {
-	age = age_1_traditions
-	icon = colonies
-	requires = mapmaking
-	
-	research_cost = 1.0
-	can_colonize = yes
-}
-
-codified_laws = {
+palace_administration = {
 	age = age_1_traditions
 	icon = scholasticism
 	
-	requires = written_alphabet
+	requires = elite_scripts_advance
 	
 	research_cost = 2.0
-	has_codified_laws = yes
+
+	unlock_policy = aristocratic_court_policy
 	allow_council_parliament = yes
 	
-	starting_technology_level = 2
+	starting_technology_level = 3
 }
 
 distribution_of_power_advance = {
 	age = age_1_traditions
 	unlock_law = distribution_of_power_law
 
-	requires = codified_laws
+	requires = palace_administration
+
+	starting_technology_level = 3
 }
 
 subjects_advance = {
 	age = age_1_traditions
 	icon = diplomatic_influence
-	research_cost = 2.5
+	research_cost = 2.0
 	
 	allow_subjects = yes
-	unlock_subject_type = vassal
+	unlock_subject_type = tributary
 	
-	requires = codified_laws
+	requires = distribution_of_power_advance
 
-	starting_technology_level = 2
+	starting_technology_level = 3
+}
+
+codified_laws = {
+	age = age_1_traditions
+	icon = scholasticism
+	
+	requires = palace_administration
+	
+	research_cost = 2.0
+
+	has_codified_laws = yes
+	
+	starting_technology_level = 3
 }
 
 contract_law_advance = {
@@ -128,7 +313,7 @@ contract_law_advance = {
 	icon = contract_law
 	research_cost = 2.0
 	
-	country_cabinet_efficiency = 0.05
+	global_merchant_capacity_modifier = 0.10
 
 	requires = codified_laws
 
@@ -141,6 +326,10 @@ taxation_advance = {
 	research_cost = 2.5
 	enable_taxation = yes
 	has_stability_investment = yes
+
+	allow = {
+		has_advance = commodity_money_advance
+	}
 	
 	requires = contract_law_advance
 
@@ -180,6 +369,116 @@ warrior_aristocracy_advance = {
 	starting_technology_level = 2
 }
 
+regnal_dating_system_advance = {
+	age = age_1_traditions
+	
+	monthly_prestige = 0.05
+
+	starting_technology_level = 3
+
+	requires = warrior_aristocracy_advance
+}
+
+aristocratic_burial_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	unlock_policy = bronze_age_aristocratic_mounds_law
+
+	unlock_building = bronze_age_aristocratic_mounds
+
+	starting_technology_level = 2
+
+	requires = warrior_aristocracy_advance
+}
+
+heroic_cult_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	monthly_army_tradition = 0.1
+
+	requires = warrior_aristocracy_advance
+
+	starting_technology_level = 2
+}
+
+epics_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	court_spending_cost_modifier = -0.05
+	num_possible_artists = 1
+
+	requires = heroic_cult_advance
+
+	starting_technology_level = 3
+}
+
+divine_kingship_advance = {
+	age = age_1_traditions
+	research_cost = 2.0
+
+	stability_cost = -0.1
+
+	requires = epics_advance
+
+	starting_technology_level = 3
+}
+
+royal_rituals_advance = {
+	age = age_1_traditions
+
+	global_estate_target_satisfaction = small_permanent_target_satisfaction
+
+	requires = divine_kingship_advance
+
+	starting_technology_level = 3
+}
+
+blasphemous_rebellion_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	subject_loyalty = 2
+
+	requires = divine_kingship_advance
+
+	starting_technology_level = 3
+}
+
+unlimited_authority_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	global_construction_speed = 0.2
+
+	requires = divine_kingship_advance
+
+	starting_technology_level = 3
+}
+
+royal_reliefs_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	monthly_prestige = 0.01
+
+	requires = divine_kingship_advance
+
+	starting_technology_level = 3
+}
+
+triumphal_monuments_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+	
+	unlock_building = bronze_age_victory_stelae
+
+	requires = royal_reliefs_advance
+
+}
+
 #####################################
 # Long Distance Trade
 #####################################
@@ -210,8 +509,6 @@ commodity_money_advance = {
 	trade_land_efficiency = 0.2
 
 	unlock_law = coin_laws
-	unlock_policy = commodity_money_policy_common
-
 
 	starting_technology_level = 2
 
@@ -244,4 +541,41 @@ trade_caravans = {
 	}
 	
 	starting_technology_level = 3
+}
+
+intercultural_relations_advance = {
+	age = age_1_traditions
+	icon = cultural_acceptance_advance
+	cultures_capacity = 1
+	starting_technology_level = 3
+	requires = long_distance_trade_advance
+}
+
+alphabet_script_advance = {
+	age = age_1_traditions
+	icon = abacus_advance
+	
+	global_max_literacy = 5
+	global_monthly_literacy = 0.01
+	
+	starting_technology_level = 3
+	requires = intercultural_relations_advance
+}
+
+mapmaking = {
+	age = age_1_traditions
+	icon = maritime_advance_age_4
+	requires = long_distance_trade_advance
+	
+	may_explore = yes
+	unlock_law = immigration_law
+}
+
+colonies = {
+	age = age_1_traditions
+	icon = colonies
+	requires = mapmaking
+	
+	research_cost = 1.0
+	can_colonize = yes
 }

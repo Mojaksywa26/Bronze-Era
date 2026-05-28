@@ -1,0 +1,83 @@
+bronze_age_victory_stelae = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = 1
+
+	category = government_category
+
+	employment_size = 0
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	build_time = cultural_building_time
+	construction_demand = cultural_building_construction
+
+	unique_production_methods = {
+		bronze_age_victory_stelae_maintenance_simple = {
+			bronze_age_bronze = 0.1
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_crown_estate_power = 0.1
+		local_cultural_influence = 0.05
+		local_max_control = 0.02
+	}
+
+	raw_modifier = {
+		local_cultural_tradition = 0.05
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.01
+	}
+
+}
+
+# #################
+# SCRIBES
+# #################
+
+royal_scribe_guild = {
+	is_foreign = no
+	pop_type = nobles
+	max_levels = guild_max_level
+
+	category = government_category
+	employment_size = guild_employment
+
+	town = no
+	city = yes
+	megalopolis = yes
+
+	AI_ignore_available_worker_flag = yes #since we may build this to increase pop promotion we don't want lack of workers to block it
+	forbidden_for_estates = yes
+
+	build_time = guild_build_time
+
+	modifier = {
+	 local_cultural_influence = 0.2
+	 local_nobles_max_literacy = 10
+	 local_nobles_literacy = 0.05
+	 local_pop_promotion_speed = 0.001
+	 local_institution_growth_modifier = 0.1
+	}
+
+	possible_production_methods = {
+		scribe_tablets_maintenance
+		scribe_paper_maintenance
+		#scribes_papyrus_maintenance
+		scribe_leather_maintenance
+		scribe_potsherds_maintenance
+		scribe_wood_maintenance
+	}
+
+	custom_tags = { scribe }
+	construction_demand = guild_construction
+}

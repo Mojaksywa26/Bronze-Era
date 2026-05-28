@@ -1,0 +1,129 @@
+merchant_house = {
+	is_foreign = no
+	max_levels = marketplace_max_level
+	pop_type = burghers
+	
+	category = trade_category
+	
+	employment_size = trade_employment
+
+	town = yes
+	city = yes
+	megalopolis = yes
+	
+	build_time = merchant_build_time
+
+	unique_production_methods = { 
+		merchant_house_maintenance_leather = {
+			cloth = 0.06
+			jewelry = 0.05
+			leather = 0.05
+			coal = 0.03
+
+			category = building_maintenance
+		}
+
+		merchant_house_maintenance_potsherds = {
+			cloth = 0.06
+			jewelry = 0.05
+			pottery = 0.05
+			coal = 0.03
+
+			category = building_maintenance
+		}
+
+		merchant_house_maintenance_wood = {
+			cloth = 0.06
+			jewelry = 0.05
+			lumber = 0.1
+			coal = 0.03
+
+			category = building_maintenance
+		}
+
+		merchant_house_maintenance_paper = {
+			cloth = 0.06
+			jewelry = 0.05
+			paper = 0.05
+			coal = 0.03
+
+			category = building_maintenance
+		}
+	}
+	
+	construction_demand = town_building_construction
+	
+	modifier = {
+		local_burghers_estate_power = 0.1
+
+		local_market_access = 0.005
+
+
+		local_merchant_power = 1
+		local_trades_per_burgher = 1
+		local_merchant_capacity = 1
+	}
+}
+
+bronze_age_trade_office = {
+	is_foreign = yes
+	stronger_power_projection = no
+	max_levels = trade_office_max_level
+	need_good_relation = yes
+	pop_type = burghers
+	
+	category = trade_category
+	
+	employment_size = foreign_trade_employment
+	
+	rural_settlement = no
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	allow = {
+		market = { in_trade_range_of = scope:actor }
+	}
+	
+	build_time = trade_post_build_time
+	
+	unique_production_methods = {
+
+		bronze_trade_office_maintenance_tablets = {
+			bronze_age_tablets = 0.2
+			category = building_maintenance
+		}
+
+		bronze_trade_office_maintenance_leather = {
+			leather = 0.1
+			category = building_maintenance
+		}
+
+		bronze_trade_office_maintenance_potsherds = {
+			pottery = 0.1
+			category = building_maintenance
+		}
+
+		bronze_trade_office_maintenance_wood = {
+			lumber = 0.2
+			category = building_maintenance
+		}
+
+		bronze_trade_office_maintenance_paper = {
+			paper = 0.1
+			category = building_maintenance
+		}
+
+		# bronze_trade_office_maintenance_papyrus = {
+		# 	papyrus = 0.1
+		# 	category = building_maintenance
+		# }
+	}
+	
+	
+	modifier = {
+		merchant_capacity_from_building = 0.3
+		building_owner_maritime_presence = 0.05
+		merchant_power_from_building = 0.2
+	}
+}

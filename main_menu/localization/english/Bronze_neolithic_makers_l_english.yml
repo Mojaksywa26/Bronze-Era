@@ -1,0 +1,49 @@
+﻿l_english:
+ neolithic_leather_maker: "Local Tanner"
+ neolithic_leather_maker_desc: "Leatherworking is dispersed among households rather than organized in dedicated workshops, with most families tanning small amounts of hide for their own needs or local exchange. Production remains informal, seasonal, and rooted in domestic labor, lacking specialized craftsmen or centralized oversight."
+
+ weaponry_maker: "Local Weapon Maker"
+ weaponry_maker_desc: "In the early Bronze Age, weapon production is a household craft. Villagers cast simple weapons for their own use, without the specialization or scale of organized labor."
+
+ pottery_maker: "Local Pottery Maker"
+ pottery_maker_desc: "In the early Bronze Age, pottery production is a household craft. Villagers create simple pottery for their own use, without the specialization or scale of organized labor."
+
+ tools_maker: "Local Tools Maker"
+ tools_maker_desc: "In the early Bronze Age, tool production is a household craft. Villagers cast simple tools for their own use, without the specialization or scale of organized labor."
+
+# #############################
+# PRODUCTION METHODS
+# #############################
+
+ metalwork_tools_maker_maintenance: "Local Iron Tools Production"
+ metalwork_tools_maker_maintenance_desc: "The local tools maker produces iron tools, but the quality is inconsistent and the output is limited by the scarcity of iron ore and the lack of advanced smelting oven."
+
+ bronze_tools_maker_maintenance: "Local Bronze Tools Production"
+ bronze_tools_maker_maintenance_desc: "The local tools maker produces bronze tools, but the output is limited by the supply of imported tin and the lack of advanced smelting ovens."
+
+ stone_tools_maker_maintenance: "Local Stone Tools Production"
+ stone_tools_maker_maintenance_desc: "The local tools maker produces stone tools."
+
+ copper_tools_maker_maintenance: "Local Copper Tools Production" 
+ copper_tools_maker_maintenance_desc: "The local tools maker produces copper tools."
+
+ pottery_maker_maintenance: "Local Pottery Production"
+ pottery_maker_maintenance_desc: "The local pottery maker produces simple clay vessels for household use."
+
+ metalwork_weaponry_maker_maintenance: "Local Iron Weapon Production"
+ metalwork_weaponry_maker_maintenance_desc: "The local weapon maker produces iron weapons, but the quality is inconsistent and the output is limited by the scarcity of iron ore and the lack of advanced smelting oven."
+
+ bronze_weaponry_maker_maintenance: "Local Bronze Weapon Production"
+ bronze_weaponry_maker_maintenance_desc: "The local weapon maker produces bronze weapons, but the output is limited by the supply of imported tin and the lack of advanced smelting ovens."
+
+ stone_weaponry_maker_maintenance: "Local Stone Weapon Production"
+ stone_weaponry_maker_maintenance_desc: "The local weapon maker produces stone weapons."
+
+ copper_weaponry_maker_maintenance: "Local Copper Weapon Production"
+ copper_weaponry_maker_maintenance_desc: "The local weapon maker produces copper weapons."
+
+ neolithic_leather_maker_maintenance_livestock: "Livestock Hides"
+ neolithic_leather_maker_maintenance_livestock_desc: "Leather is produced from domesticated herd animals slaughtered for meat, milk, or labor. Production is more reliable and integrated into daily rural life, supporting steady household crafting and local trade."
+
+ neolithic_leather_maker_maintenance_wild_game: "Wild game Hides"
+ neolithic_leather_maker_maintenance_wild_game_desc: "Leather is sourced from hunted animals, tying production to seasonal hunts and woodland access. Supplies are irregular but provide durable furs and hides valued for prestige clothing, trophies, and hardy equipment."

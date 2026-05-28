@@ -24,8 +24,8 @@ bronze_age_tablets = {
 	transport_cost = 0.6
 
 	demand_add = {
-		nobles = 0.002
-		burghers = 0.003
+		nobles = 0.0003
+		clergy = 0.0003
 	}
 
 	demand_multiply = {

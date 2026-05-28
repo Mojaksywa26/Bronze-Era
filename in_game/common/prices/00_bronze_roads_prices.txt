@@ -1,0 +1,8 @@
+build_holloway = {
+
+}
+
+build_maintained_holloway = {
+	gold = 5
+	government_power = 5
+}

@@ -1,65 +1,65 @@
-﻿monarchy_reform_traditions_advance = {
-	age = age_1_traditions
-	government = monarchy
-	requires = codified_laws
-	unlock_government_reform = autocracy
-}
+﻿# monarchy_reform_traditions_advance = {
+# 	age = age_1_traditions
+# 	government = monarchy
+# 	requires = codified_laws
+# 	unlock_government_reform = autocracy
+# }
 
 
-republic_reform_traditions_advance = {
-	age = age_1_traditions
-	government = republic
-	requires = codified_laws
-	unlock_government_reform = noble_elite
-	unlock_government_reform = sortition
+# republic_reform_traditions_advance = {
+# 	age = age_1_traditions
+# 	government = republic
+# 	requires = codified_laws
+# 	unlock_government_reform = noble_elite
+# 	unlock_government_reform = sortition
 	
-}
+# }
 
 
 ##################
-national_assemblies_advance = {
-	age = age_2_renaissance
-	unlock_government_reform = national_assemblies
-}
+# national_assemblies_advance = {
+# 	age = age_2_renaissance
+# 	unlock_government_reform = national_assemblies
+# }
 
 
 monarchy_royal_court_advance = {
 	age = age_1_traditions
 	government = monarchy
-	requires = codified_laws
+	requires = palace_administration
 	unlock_law = royal_court_customs_law
 }
 
-theocracy_divine_cause_law_advance = {
-	age = age_1_traditions
-	government = theocracy
-	requires = codified_laws
-	unlock_law = divine_cause_law
-}
+# theocracy_divine_cause_law_advance = {
+# 	age = age_1_traditions
+# 	government = theocracy
+# 	requires = codified_laws
+# 	unlock_law = divine_cause_law
+# }
 
-theocracy_nature_of_our_faith_law_advance = {
-	age = age_4_reformation
-	government = theocracy
-	requires = crown_power_advance_reformation
-	unlock_law = nature_of_our_faith_law
-}
+# theocracy_nature_of_our_faith_law_advance = {
+# 	age = age_4_reformation
+# 	government = theocracy
+# 	requires = crown_power_advance_reformation
+# 	unlock_law = nature_of_our_faith_law
+# }
 
 
-steppe_horde_tribal_religious_values_law_advance = {
-	age = age_2_renaissance
-	government = steppe_horde
-	unlock_law = tribal_religious_values_law
-}
-steppe_horde_tribal_cultural_identity_law_advance = {
-	age = age_3_discovery
-	government = steppe_horde
-	unlock_law = tribal_cultural_identity_law
-}
-steppe_horde_tribal_modernization_law_advance = {
-	age = age_4_reformation
-	government = steppe_horde
-	unlock_law = tribal_modernization_law
-}
+# steppe_horde_tribal_religious_values_law_advance = {
+# 	age = age_2_renaissance
+# 	government = steppe_horde
+# 	unlock_law = tribal_religious_values_law
+# }
+# steppe_horde_tribal_cultural_identity_law_advance = {
+# 	age = age_3_discovery
+# 	government = steppe_horde
+# 	unlock_law = tribal_cultural_identity_law
+# }
+# steppe_horde_tribal_modernization_law_advance = {
+# 	age = age_4_reformation
+# 	government = steppe_horde
+# 	unlock_law = tribal_modernization_law
+# }
 
 tribal_religious_values_law_advance = {
 	icon = laws

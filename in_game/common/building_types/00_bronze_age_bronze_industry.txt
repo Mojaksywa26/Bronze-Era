@@ -87,6 +87,8 @@ tools_guild = {
 	city = yes
 	megalopolis = yes
 
+	forbidden_for_estates = yes
+
 	build_time = guild_build_time
 
 	unique_production_methods = {
@@ -98,27 +100,28 @@ tools_guild = {
 			debug_max_profit = 0.4
 			category = guild_input
 		}
-		stone_tools_guild_maintenance = {
-			stone = 0.70
+		tools_guild_stone_recipe = {
+			stone = 0.5
 			produced = tools
-			output = 0.25
+			output = 0.3
 			debug_max_profit = 0.1
 
 			category = guild_input
 		}
 
-		bronze_age_tools_bronze_recipe = {
-			bronze_age_bronze = 0.45
+		tools_guild_bronze_recipe = {
+			bronze_age_bronze = 0.5
 			produced = tools
-			output = 0.7
+			output = 0.6
 			debug_max_profit = 0.25
 
 			category = guild_input
 		}
-		copper_tools_guild_maintenance = {
+
+		tools_guild_copper_recipe = {
 			copper = 0.5
 			produced = tools
-			output = 0.55
+			output = 0.5
 			debug_max_profit = 0.15
 
 			category = guild_input
@@ -178,42 +181,49 @@ weapon_guild = {
 	city = yes
 	megalopolis = yes
 
+	forbidden_for_estates = yes
+
 	build_time = guild_build_time
 
 	unique_production_methods = {
-		pre_columbian_weapon_smith_maintenance = {
-			lumber = 0.07
-			stone = 1.0
-			produced = weaponry
-			output = 0.4
-			category = guild_input
 
-			debug_max_profit = 0.1
-		}
-		weapon_smith_maintenance = {
-			lumber = 0.25
-			coal = 0.3
-			tools = 0.5
+		weapon_guild_stone_recipe = {
+			lumber = 0.3
+			stone = 0.3
+			tools = 0.2
 			category = guild_input
 			produced = weaponry
-			output = 1
+			output = 0.3
 		}
-		bronze_age_weapons_bronze_recipe = {
-			lumber = 0.15
-			bronze_age_bronze = 0.55
-			tools = 0.1
+
+		weapon_guild_copper_recipe = {
+			lumber = 0.2
+			copper = 0.5
+			coal = 0.3
+			tools = 0.2
+			category = guild_input
 			produced = weaponry
-			output = 0.8
+			output = 0.5
+		}
+
+		weapon_guild_bronze_recipe = {
+			lumber = 0.1
+			bronze_age_bronze = 0.5
+			coal = 0.3
+			tools = 0.2
+			produced = weaponry
+			output = 0.6
 
 			debug_max_profit = 0.25
 			category = guild_input
 		}
-		weapon_guild_obsidian_maintenance = {
-			lumber = 0.12
+		weapon_guild_obsidian_recipe = {
+			lumber = 0.2
 			stone = 0.5
 			gems = 0.1
 			produced = weaponry
-			output = 0.4
+			output = 0.5
+			
 			category = guild_input
 
 			debug_max_profit = 0.2
@@ -268,88 +278,6 @@ weapon_workshop = {
 	construction_demand = workshop_construction
 }
 
-# Pre-Palatial tools production.  This is a peasant industry with very low output.
-tools_maker = {
-	is_foreign = no
-	pop_type = peasants
-	max_levels = guild_max_level
-
-	category = basic_industry_category
-	employment_size = guild_employment
-
-	town = yes
-	city = no
-	megalopolis = no
-
-	build_time = guild_build_time
-
-	unique_production_methods = {
-		metalwork_tools_maker_maintenance = {
-			iron = 0.5
-			produced = tools
-			output = 0.5
-
-			debug_max_profit = 0.2
-			category = guild_input
-		}
-		stone_tools_maker_maintenance = {
-			stone = 0.70
-			produced = tools
-			output = 0.25
-			debug_max_profit = 0.1
-
-			category = guild_input
-		}
-
-		bronze_tools_maker_maintenance = {
-			bronze_age_bronze = 0.25
-			produced = tools
-			output = 0.4
-			debug_max_profit = 0.15
-
-			category = guild_input
-		}
-		copper_tools_maker_maintenance = {
-			copper = 0.5
-			produced = tools
-			output = 0.55
-			debug_max_profit = 0.15
-
-			category = guild_input
-		}
-	}
-
-	construction_demand = guild_construction
-}
-
-pottery_maker = {
-	is_foreign = no
-	pop_type = peasants
-	max_levels = guild_max_level
-
-	category = basic_industry_category
-	employment_size = guild_employment
-
-	town = yes
-	city = no
-	megalopolis = no
-
-	build_time = guild_build_time
-
-	unique_production_methods = {
-		pottery_maker_maintenance = {
-			clay = 0.3
-			produced = pottery
-			output = 0.2
-
-			debug_max_profit = 0.2
-			category = guild_input
-		}
-	}
-
-	construction_demand = guild_construction
-}
-
 tablets_guild = {
 	is_foreign = no
 	pop_type = laborers
@@ -362,6 +290,8 @@ tablets_guild = {
 	city = yes
 	megalopolis = yes
 
+	forbidden_for_estates = yes
+
 	build_time = guild_build_time
 
 	unique_production_methods = {
@@ -369,7 +299,7 @@ tablets_guild = {
 			lumber = 0.02
 			clay = 1.0
 			produced = bronze_age_tablets
-			output = 0.4
+			output = 0.5
 			category = guild_input
 
 			debug_max_profit = 0.3
@@ -378,7 +308,7 @@ tablets_guild = {
 		copper_tablets_maintenance = {
 			copper = 1.0
 			produced = bronze_age_tablets
-			output = 0.65
+			output = 0.5
 			category = guild_input
 
 			debug_max_profit = 0.5

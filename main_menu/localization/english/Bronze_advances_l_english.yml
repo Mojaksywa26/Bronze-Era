@@ -29,6 +29,111 @@
  commodity_weaponry_advance: "Weaponry as Currency"
  commodity_weaponry_advance_desc: "In some Bronze Age societies, weaponry was used as a form of currency. The value of weapons, such as swords, spears, or axes, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
 
+ irrigation_systems_advance: "Irrigation Systems"
+ irrigation_systems_advance_desc: "Irrigation systems are networks of channels, pipes, and other infrastructure used to distribute water for agricultural purposes. These systems are essential for supporting crop production in areas with limited rainfall or seasonal water availability."
+
+ intercultural_relations_advance: "Intercultural Relations"
+ intercultural_relations_advance_desc: "Intercultural relations refer to the interactions and relationships between different cultures and societies. These relations can involve various aspects such as trade, diplomacy, cultural exchange, and cooperation. Intercultural relations play a crucial role in fostering understanding, collaboration, and mutual respect among diverse groups of people."
+
+ alphabet_script_advance: "Alphabetic Writing System"
+ alphabet_script_advance_desc: "The development of an alphabetic writing system in Bronze Age societies marked a significant advancement in communication and record-keeping. An alphabetic script uses a set of symbols to represent individual sounds, allowing for more efficient and flexible writing compared to earlier pictographic or logographic systems. This innovation facilitated the recording of information, the transmission of knowledge, and the development of trade."
+
+ elite_scripts_advance: "Elite Scripts"
+ elite_scripts_advance_desc: "The development of elite scripts in Bronze Age societies allowed for the creation of sophisticated written records and communication methods. These advanced writing systems were typically used by scribes and scholars, enabling the preservation and transmission of complex information and knowledge."
+
+ religious_texts_advance: "Religious Texts"
+ religious_texts_advance_desc: "The development of religious texts in Bronze Age societies provided a means for recording and transmitting religious beliefs, rituals, and practices. These texts often contained myths, prayers, hymns, and instructions for religious ceremonies, serving as a foundation for the spiritual and cultural identity of the society."
+
+ temple_scribes_advance: "Temple Scribes"
+ temple_scribes_advance_desc: "Priests in Bronze Age societies fulfilled many roles, including that of scribes. They were responsible for recording religious rituals, maintaining temple records, and preserving sacred knowledge. Temple scribes played a crucial role in the administration of religious institutions and the transmission of cultural and spiritual traditions."
+
+ temple_archives_advance: "Temple Archives"
+ temple_archives_advance_desc: "The establishment of temple archives in Bronze Age societies allowed for the systematic storage and preservation of important documents, records, and religious texts. These archives served as repositories of knowledge and information, ensuring the continuity of cultural and religious traditions across generations."
+
+ astronomical_observations_advance: "Astronomical Observations"
+ astronomical_observations_advance_desc: "The practice of astronomical observations in Bronze Age societies involved the systematic study and recording of celestial phenomena, such as the movements of the sun, moon, stars, and planets. These observations were often used for various purposes, including timekeeping, agricultural planning, religious rituals, and navigation. The knowledge gained from astronomical observations contributed to the development of early calendars and cosmological beliefs in Bronze Age cultures."
+
+ agricultural_calendar_advance: "Agricultural Calendar"
+ agricultural_calendar_advance_desc: "The development of an agricultural calendar in Bronze Age societies allowed for the systematic organization of farming activities and seasonal celebrations. These calendars were often based on astronomical observations and helped ensure the success of crops and the well-being of the community."
+
+ regnal_dating_system_advance: "Regnal Dating System"
+ regnal_dating_system_advance_desc: "The regnal dating system in Bronze Age societies was a method of recording time and events based on the reigns of rulers. This system allowed for the organization of historical records and the establishment of a chronological framework for understanding the past."
+
+ administrative_calendar_advance: "Administrative Calendar"
+ administrative_calendar_advance_desc: "The development of an administrative calendar in Bronze Age societies allowed for the systematic organization of administrative tasks, events, and ceremonies. This calendar helped ensure the efficient functioning of the palace economy and the coordination of various activities within the society."
+
+ ceremonial_burial_advance: "Ceremonial Burial Practices"
+ ceremonial_burial_advance_desc: "The development of ceremonial burial practices in Bronze Age societies reflected the cultural and religious beliefs of the time. These practices often involved elaborate rituals, the inclusion of grave goods, and the construction of tombs or burial mounds to honor and commemorate the deceased."
+
+ urnfield_advance: "Urnfield Burial Practices"
+ urnfield_advance_desc: "The urnfield burial practices became increasingly common in the late Bronze Age, as societies shifted towards cremation and the use of urns for burial. This practice reflected changing cultural beliefs and social norms related to death and the afterlife, emphasizing a more communal approach to burial compared to individual graves."
+
+ aristocratic_burial_advance: "Aristocratic Mound Burial Practices"
+ aristocratic_burial_advance_desc: "The aristocratic mound burial practices in Bronze Age societies were a way to honor and commemorate the deceased, often involving the construction of elaborate burial mounds and the inclusion of valuable grave goods."
+
+ heroic_cult_advance: "Heroic Cults"
+ heroic_cult_advance_desc: "The development of heroic cults in Bronze Age societies involved the veneration of legendary heroes and figures from mythology. These cults often included rituals, offerings, and the construction of shrines or temples dedicated to these revered individuals, reflecting the cultural values and beliefs of the society."
+
+ epics_advance: "Epic Poetry"
+ epics_advance_desc: "The creation of epic poetry in Bronze Age societies allowed for the storytelling of heroic deeds, mythological tales, and historical events. These epic narratives were often passed down orally and served as a means of preserving cultural identity, values, and traditions."
+
+ divine_kingship_advance: "Divine Kingship"
+ divine_kingship_advance_desc: "The concept of divine kingship in Bronze Age societies involved the belief that rulers were divine or semi-divine beings with a special connection to the gods. This belief often legitimized the authority of the ruler and reinforced their position as the central figure in the political and religious life of the society."
+
+ royal_rituals_advance: "Royal Rites"
+ royal_rituals_advance_desc: "The ruler performs sacred ceremonies, seasonal rites, and public offerings that affirm their role as the chosen intermediary between the gods and the realm. These rituals legitimize royal authority, strengthen loyalty among the elite, and bind the stability of society to the person of the king."
+
+ blasphemous_rebellion_advance: "Blasphemous Rebellion"
+ blasphemous_rebellion_advance_desc: "Due to the divine nature of the ruler, rebellion was often seen as an act of blasphemy, as it challenged the divine authority and legitimacy of the ruler. This belief reinforced the power of the king and cemented loyalty among adherents of the state religion."
+
+ unlimited_authority_advance: "Unlimited Authority"
+ unlimited_authority_advance_desc: "The concentration of power in the hands of the ruler allowed for undertakings of great tasks, such as the construction of monumental architecture, the organization of large-scale labor forces, and the implementation of ambitious projects that required centralized decision-making and coordination."
+
+ triumphal_monuments_advance: "Triumphal Monuments"
+ triumphal_monuments_advance_desc: "The construction of triumphal monuments in Bronze Age societies served as a way to commemorate military victories, celebrate the achievements of rulers, and reinforce the power and prestige of the ruling elite. These monuments often featured elaborate architecture, inscriptions, and artistic representations of the events being celebrated."
+
+ royal_reliefs_advance: "Royal Reliefs"
+ royal_reliefs_advance_desc: "The creation of royal reliefs in Bronze Age societies allowed for the visual representation of the power, achievements, and divine connection of the ruling elite. These reliefs often depicted scenes of military victories, religious rituals, and royal ceremonies, serving as a means of reinforcing the authority and legitimacy of the ruler."
+
+ horse_domestication_advance: "Horse Domestication"
+ horse_domestication_advance_desc: "Early horse domestication is limited and prestige-based rather than fully transformative. Horses are mainly used for scouting, messengers, ritual display, and pulling light chariots or carts; effective cavalry is rare due to primitive riding techniques, lack of advanced saddles and stirrups, and the high cost of breeding and feeding horses."
+
+ wheeled_transport_advance: "Wheeled Transport"
+ wheeled_transport_advance_desc: "Early wheeled transport is slow, fragile, and dependent on prepared routes, but greatly improves movement of goods, tribute, and armies between settlements. Most vehicles are ox-drawn carts or wagons used by elites, merchants and temples."
+
+ animal_husbandry_advance: "Animal Husbandry"
+ animal_husbandry_advance_desc: "Animal husbandry provides a stable source of food, labor, hides, wool, and manure, forming the economic backbone of most settled societies. Herd animals increase agricultural output and transport capacity, but require pasture, seasonal management, and protection from disease, raiding, and famine."
+
+ spoked_wheel_advance: "Spoked Wheel"
+ spoked_wheel_advance_desc: "The spoked wheel creates lighter and faster vehicles than older solid-wheel designs, enabling swift chariots, improved transport, and more efficient long-distance communication. Its construction requires skilled woodworking and stronger craftsmanship, making it a prestige technology often associated with elites and warfare."
+
+ holloway_advance: "Holloways"
+ holloway_advance_desc: "Frequently traveled routes between settlements gradually form recognizable land corridors shaped by merchants, herders, and migrating peoples. These informal paths improve regional movement but remain vulnerable to weather and terrain."
+
+ maintained_holloway_advance: "Holloway Maintenance"
+ maintained_holloway_advance_desc: "Communities and local rulers begin periodically clearing, draining, and reinforcing heavily used holloways to keep them passable through changing seasons. These routes remain organic paths shaped by generations of travel rather than formally engineered roads, but regular upkeep improves trade and movement between settlements."
+
+ scribe_alphabetic_maintenance: "Perishable Writing Media"
+ scribe_alphabetic_maintenance_desc: "Simple alphabetic scripts spread onto cheap and widely available materials such as leather, wooden tablets, wax boards, and broken pottery shards. Writing escapes the confines of palace archives, allowing practical recordkeeping, trade notes, and personal messages to circulate through broader society."
+
+ merchant_house_advance: "Mercantile Literacy"
+ merchant_house_advance_desc: "The spread of practical alphabetic writing allows merchants to keep contracts, inventories, debts, and correspondence without reliance on palace scribes. Trade becomes increasingly organized around independent commercial households and long-distance exchange networks."
+
+ bronze_age_trade_posts_advance: "Foreign Trading Posts"
+ bronze_age_trade_posts_advance_desc: "Increasing volumes of long-distance trade lead communities to establish permanent stopping points along major routes and crossings. These early trading posts provide storage, security, and regular meeting places for merchants, caravans, and foreign traders."
+
+ palace_administration: "Palatial Bureaucracy"
+ palace_administration_desc: "Expanding royal courts develop systems of officials, scribes, and administrators to manage tribute, labor, storage, and redistribution across the realm. Political authority becomes increasingly centralized as the palace extends its influence into economic, religious, and social life.""
+
+ ritual_sites_advance: "Permanent Ritual Sites"
+ ritual_sites_advance_desc: "Communities begin establishing enduring sacred spaces where seasonal ceremonies, feasts, burials, and communal rites are performed generation after generation. These ritual centers strengthen shared identity, anchor spiritual traditions to specific places, and encourage the gathering of larger settled populations."
+
+ temple_complex_advance: "Temple Complex"
+ temple_complex_advance_desc: "Expanding cities and centralized rulers transform major cult sites into organized temple complexes staffed by permanent priesthoods, laborers, and administrators. Temples become centers of ritual, storage, redistribution, and political authority woven deeply into urban life."
+
+ temple_granary_advance: "Temple Granaries"
+ temple_granary_advance_desc: "Religious centers develop dedicated granaries and storage halls overseen by priesthoods and administrators responsible for collecting, managing, and redistributing agricultural surplus. Control over stored food strengthens the economic and political influence of temple institutions within urban society."
+
 # ##########################
 # BUILDINGS
 # ##########################
@@ -38,6 +143,9 @@
 
  tools_maker_advance: "Toolmaking Traditions"
  tools_maker_advance_desc: "In the early Bronze Age, tool production is a household craft. Villagers cast simple tools for their own use, without the specialization or scale of organized labor."
+
+ weaponry_maker_advance: "Weaponmaking Traditions"
+ weaponry_maker_advance_desc: "In the early Bronze Age, weapon production is a household craft. Villagers cast simple weapons for their own use, without the specialization or scale of organized labor."
 
  pottery_maker_advance: "Domestic Pottery Making"
  pottery_maker_advance_desc: "In the early Bronze Age, pottery production is a household craft. Villagers create simple pottery for their own use, without the specialization or scale of organized labor."
@@ -51,9 +159,15 @@
  royal_tablets_workshop_advance: "Royal Tablets Workshop"
  royal_tablets_workshop_advance_desc: "The invention of writing tablets allows for the recording of information, communication, and the development of complex administrative systems in Bronze Age societies."
 
+ royal_scribe_guild_advance: "Royal Scribes"
+ royal_scribe_guild_advance_desc: "Scribes are highly skilled individuals who are trained in the art of writing and record-keeping. In Bronze Age societies, royal scribes played a crucial role in the administration of the palace economy, maintaining records of resources, transactions, and other important information. They were often associated with the royal court and contributed to the development of complex bureaucratic systems."
+
 # ##########################
 # PRODUCTION METHODS
 # ##########################
 
  bronze_tools_maker_maintenance_maintenance_advance: "Bronze Tools"
  bronze_tools_maker_maintenance_maintenance_advance_desc: "Tools made of bronze are more durable and efficient than those made of stone or copper, allowing for improved productivity and craftsmanship in various tasks and industries."
+
+ bronze_weaponry_maker_maintenance_maintenance_advance: "Bronze Weapons"
+ bronze_weaponry_maker_maintenance_maintenance_advance_desc: "Weapons made of bronze are more durable and effective than those made of stone or copper, allowing for improved combat effectiveness."

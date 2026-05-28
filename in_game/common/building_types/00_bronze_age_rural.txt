@@ -1,0 +1,39 @@
+neolithic_granary = {
+	is_foreign = no
+	max_levels = 1
+
+	pop_type = peasants
+
+	employment_size = granary_employment
+
+	category = infrastructure_category
+
+	rural_settlement = yes
+	town = yes
+	city = no
+	megalopolis = no
+
+
+	build_time = government_build_time
+
+
+	unique_production_methods = {
+		neolithic_granary_maintenance = {
+			masonry = 0.1
+			pottery = 0.1
+			category = building_maintenance
+		}
+	}
+
+
+	construction_demand = granary_construction
+
+
+
+	modifier = {
+		local_food_capacity = 50
+		local_food_decay_modifier = -0.02
+	}
+
+	ai_forbid_shutdown = yes
+}

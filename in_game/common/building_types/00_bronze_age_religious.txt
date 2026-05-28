@@ -1,0 +1,196 @@
+neolithic_feast_court = {
+	is_foreign = no
+	max_levels = 1
+
+	pop_type = clergy
+
+	employment_size = religious_building_employment
+
+	category = religious_category
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+
+
+	build_time = religious_building_time
+
+
+	unique_production_methods = {
+		neolithic_feast_court_maintenance = {
+			masonry = 0.1
+			pottery = 0.1
+			category = building_maintenance
+		}
+	}
+
+
+	construction_demand = granary_construction
+
+
+
+	modifier = {
+		local_food_capacity = 100
+		local_food_decay_modifier = -0.02
+		local_max_control = 0.1
+	}
+
+	ai_forbid_shutdown = yes
+}
+
+neolithic_sanctuary = {
+	is_foreign = no
+	max_levels = 1
+	pop_type = clergy
+
+	employment_size = 0.025
+
+	category = religious_category
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+
+
+	build_time = religious_building_time
+
+
+	unique_production_methods = {
+		neolithic_sanctuary_maintenance_livestock = {
+			livestock = 0.01
+			cloth = 0.01
+			beeswax = 0.02
+
+			category = building_maintenance
+		}
+
+		neolithic_sanctuary_maintenance_wild_game = {
+			wild_game = 0.01
+			cloth = 0.01
+			beeswax = 0.02
+
+			category = building_maintenance
+		}
+
+		neolithic_sanctuary_maintenance_fruit = {
+			fruit = 0.02
+			cloth = 0.01
+			beeswax = 0.02
+
+			category = building_maintenance
+		}
+
+		neolithic_sanctuary_maintenance_wheat = {
+			wheat = 0.02
+			cloth = 0.01
+			beeswax = 0.02
+
+			category = building_maintenance
+		}
+
+		neolithic_sanctuary_maintenance_slaves_goods = {
+			slaves_goods = 0.01
+			cloth = 0.01
+			beeswax = 0.02
+
+			category = building_maintenance
+		}
+		
+	}
+
+	graphical_tags = { small_religious }
+
+
+	construction_demand = town_building_construction
+
+
+	modifier = {
+		local_unrest = -0.020
+		local_clergy_pop_growth = 0.10
+	}
+
+	raw_modifier = {
+		local_max_control = 0.05
+	}
+
+}
+
+temple_granary = {
+	is_foreign = no
+	max_levels = 1
+
+	pop_type = clergy
+
+	employment_size = granary_employment
+
+	category = religious_category
+
+	rural_settlement = no
+	town = no
+	city = yes
+	megalopolis = yes
+
+
+	build_time = government_build_time
+
+
+	unique_production_methods = {
+		temple_granary_maintenance = {
+			masonry = 0.25
+			pottery = 0.25
+			category = building_maintenance
+		}
+	}
+
+
+	construction_demand = granary_construction
+
+
+
+	modifier = {
+		local_food_capacity = 200
+		local_food_decay_modifier = -0.05
+		local_max_control = 0.2
+	}
+
+	obsolete = neolithic_feast_court
+
+	ai_forbid_shutdown = yes
+}
+
+temple_scribes_guild = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = guild_max_level
+
+	category = religious_category
+	employment_size = guild_employment
+
+	town = no
+	city = yes
+	megalopolis = yes
+
+	build_time = guild_build_time
+
+	modifier = {
+	 local_cultural_tradition = 0.2
+	 local_clergy_max_literacy = 10
+	 local_clergy_literacy = 0.05
+	 local_institution_growth_modifier = 0.02
+	 local_pop_promotion_speed = 0.001
+	}
+
+	possible_production_methods = {
+		scribe_tablets_maintenance
+		scribe_paper_maintenance
+		#scribes_papyrus_maintenance
+		scribe_leather_maintenance
+		scribe_potsherds_maintenance
+		scribe_wood_maintenance
+	}
+
+	custom_tags = { scribe }
+	construction_demand = guild_construction
+}

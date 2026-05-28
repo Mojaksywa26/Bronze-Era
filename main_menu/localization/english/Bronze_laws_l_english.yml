@@ -1,7 +1,53 @@
 ﻿l_english:
 
- commodity_money_policy_common: "Simple Commodity Money"
- commodity_money_policy_desc: "The introduction of commodity money in Bronze Age societies allowed for more efficient trade and economic transactions, replacing barter systems with a standardized medium of exchange. The currency represents value in and of itself, such as precious metals or other valuable goods."
+# ########################
+# CURRENCY POLICIES
+# ########################
+
+ commodity_money_policy_common: "Crop Standard Currency"
+ commodity_money_policy_desc: "The introduction of commodity money in Bronze Age societies allowed for more efficient trade and economic transactions, replacing barter systems with a standardized medium of exchange. The currency represents value in and of itself, and can be used for trade, savings, and as a unit of account. This policy allows the use of crops as a form of commodity money, facilitating the first steps towards a more complex economy and the development of trade networks in Bronze Age societies."
 
  commodity_money_policy_weaponry: "Weaponry as Currency"
  commodity_money_policy_weaponry_desc: "In some Bronze Age societies, weaponry was used as a form of currency. The value of weapons, such as swords, spears, or axes, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
+
+ commodity_money_policy_textiles: "Textiles as Currency"
+ commodity_money_policy_textiles_desc: "In some Bronze Age societies, textiles were used as a form of currency. The value of textiles, such as woven fabrics or garments, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
+
+ commodity_money_policy_salt: "Salt as Currency"
+ commodity_money_policy_salt_desc: "In some Bronze Age societies, salt was used as a form of currency. The value of salt, which was essential for preserving food and enhancing flavor, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
+
+ commodity_money_policy_furs: "Fur as Currency"
+ commodity_money_policy_furs_desc: "In some Bronze Age societies, fur was used as a form of currency. The value of fur, which was essential for clothing and warmth, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
+
+ commodity_money_policy_spices: "Spices as Currency"
+ commodity_money_policy_spices_desc: "In some Bronze Age societies, spices were used as a form of currency. The value of spices, which were essential for flavoring food and preserving it, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
+
+ commodity_money_policy_jewelry: "Jewelry as Currency"
+ commodity_money_policy_jewelry_desc: "In some Bronze Age societies, jewelry was used as a form of currency. The value of jewelry, which was often made from precious metals and adorned with gemstones, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
+
+ commodity_money_policy_livestock: "Livestock as Currency"
+ commodity_money_policy_livestock_desc: "In some Bronze Age societies, livestock was used as a form of currency. The value of livestock, which was essential for food, labor, and other resources, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
+
+ commodity_money_policy_tea: "Tea as Currency"
+ commodity_money_policy_tea_desc: "In some Bronze Age societies, tea was used as a form of currency. The value of tea, which was essential for its stimulating properties and cultural significance, was recognized and accepted in trade and economic transactions. This practice allowed for the exchange of goods and services using valuable and functional items as a medium of exchange."
+
+# BURIAL POLICIES
+
+ bronze_age_burial_pits_law: "Burial Pits"
+ bronze_age_burial_pits_law_desc: "The burial pits law mandates the use of simple burial pits for interring the deceased in Bronze Age societies. This practice reflects the cultural beliefs and social norms related to death and the afterlife, emphasizing a more modest approach to burial compared to elaborate tombs or mausoleums."
+
+ bronze_age_aristocratic_mounds_law: "Aristocratic Mounds"
+ bronze_age_aristocratic_mounds_law_desc: "The aristocratic mounds law mandates the use of elaborate burial mounds for interring the deceased in Bronze Age societies. This practice reflects the cultural beliefs and social norms related to death and the afterlife, emphasizing a more prestigious approach to burial compared to simple burial pits."
+
+ bronze_age_urnfields_law: "Urnfields"
+ bronze_age_urnfields_law_desc: "The urnfields became increasingly common in the late Bronze Age, as societies shifted towards cremation and the use of urns for burial. The urnfields law mandates the use of designated areas for interring the deceased in Bronze Age societies. This practice reflects the cultural beliefs and social norms related to death and the afterlife, emphasizing a more communal approach to burial compared to individual graves."
+
+ bronze_age_collective_tombs_law: "Collective Tombs"
+ bronze_age_collective_tombs_law_desc: "The collective tombs law mandates the use of shared burial spaces for interring the deceased in Bronze Age societies. This practice reflects the cultural beliefs and social norms related to death and the afterlife, emphasizing a communal approach to burial."
+
+# ########################
+# LAWS
+# ########################
+
+ burial_law: "Burial Law"
+ burial_law_desc: "The burial law governs the practices and customs surrounding the interment of the deceased in Bronze Age societies. It establishes guidelines for funeral rites, burial sites, and the treatment of the dead, reflecting cultural beliefs and social norms related to death and the afterlife."

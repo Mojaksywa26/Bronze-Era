@@ -1,0 +1,37 @@
+﻿l_english:
+  neolithic_feast_court: "Feast Court"
+  neolithic_feast_court_desc: "Large communal gathering spaces host ritual feasts, seasonal celebrations, assemblies, and redistributive ceremonies that reinforce alliances and social bonds. These sites concentrate food, labor, and prestige during important religious and political occasions."
+
+  neolithic_sanctuary: "Sanctuary"
+  neolithic_sanctuary_desc: "Large communal gathering spaces host ritual feasts, seasonal celebrations, assemblies, and redistributive ceremonies that reinforce alliances and social bonds. These sites concentrate food, labor, and prestige during important religious and political occasions."
+
+  temple_granary: "Temple Granary"
+  temple_granary_desc: "Vast storehouses attached to temples gather grain collected through tribute, taxation, and religious offerings, placing food reserves under the supervision of priesthoods and ruling authorities. These granaries sustain dense urban populations, support large labor forces, and reinforce the sacred authority of the state."
+
+  temple_scribes_guild: "Temple Scribe School"
+  temple_scribes_guild_desc: "The temple scribe school is first and foremost an expression of the priesthood's political power, but it also serves to train scribes who maintain records of religious rituals, offerings, and temple administration in Bronze Age societies."
+
+# #########################################
+# PRODUCTION AND MAINTENANCE METHODS
+# #########################################
+
+  neolithic_sanctuary_maintenance_fruit: "Fruit Offerings"
+  neolithic_sanctuary_maintenance_fruit_desc: "Worshippers sustain local sanctuaries through offerings of gathered and cultivated fruits used in seasonal rites, feasts, and sacred ceremonies."
+
+  neolithic_sanctuary_maintenance_livestock: "Animal Sacrifices"
+  neolithic_sanctuary_maintenance_livestock_desc: "Herd animals are dedicated to the sanctuary for ritual sacrifice, communal feasting, and the maintenance of sacred traditions."
+
+  neolithic_sanctuary_maintenance_slaves_goods: "Human Sacrifices"
+  neolithic_sanctuary_maintenance_slaves_goods_desc: "Sanctuaries practice the ritual sacrifice of captives, servants, or chosen offerings as part of sacred ceremonies believed to appease supernatural powers."
+
+  neolithic_sanctuary_maintenance_wheat: "Grain Offerings"
+  neolithic_sanctuary_maintenance_wheat_desc: "Stores of grain support ritual gatherings, priestly caretakers, and communal ceremonies held at the sanctuary throughout the year."
+
+  neolithic_sanctuary_maintenance_wild_game: "Hunting Offerings"
+  neolithic_sanctuary_maintenance_wild_game_desc: "Hunters dedicate meat, hides, and trophies from wild animals to honor local spirits and sustain ritual activity at sacred sites."
+
+  neolithic_feast_court_maintenance: "Stored Feast Reserves"
+  neolithic_feast_court_maintenance_desc: "Feast courts maintain communal stores of grain, livestock, and preserved foods reserved for seasonal ceremonies, ritual gatherings, and redistributive feasting."
+
+  temple_granary_maintenance: "Priestly Storehouse Administration"
+  temple_granary_maintenance_desc: "Temple granaries are overseen by priestly administrators who organize tribute, maintain records, supervise laborers, and redistribute stored food through the authority of the cult and the state."

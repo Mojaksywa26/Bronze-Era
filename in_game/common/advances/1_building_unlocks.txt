@@ -1,3 +1,16 @@
+ irrigation_systems_advance = {
+	age = age_1_traditions
+	icon = irrigation_systems_advance
+	research_cost = 1.5
+
+	unlock_building = irrigation_systems
+
+	requires = settlements_advance
+	
+	starting_technology_level = 1
+	
+}
+
 ###############################
 # Industry Buildings
 ###############################
@@ -34,6 +47,16 @@
 	starting_technology_level = 1
  }
 
+ weaponry_maker_advance = {
+ 	age = age_1_traditions
+
+	unlock_building = weaponry_maker
+	
+ 	requires = settlements_advance
+
+	starting_technology_level = 1
+ }
+
  pottery_maker_advance = {
  	age = age_1_traditions
 
@@ -64,13 +87,67 @@
  	requires = workforce_specialization_advance
  }
 
+ royal_scribe_guild_advance = {
+ 	age = age_1_traditions
+	
+ 	unlock_building = royal_scribe_guild
+	
+ 	requires = elite_scripts_advance
+ }
+
  royal_tablets_workshop_advance = {
  	age = age_1_traditions
+
+	# Historical nonsense, but im leaving it here for a template
+#	potential = {
+#		has_advance = written_alphabet
+#	}
 	
  	unlock_building = tablets_guild
 	
- 	requires = workforce_specialization_advance
+ 	requires = royal_scribe_guild_advance
  }
+
+ # ###############################
+ # TEMPLE WORKSHOPS TECH
+ # ###############################
+
+ temple_scribes_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+
+	unlock_building = temple_scribes_guild
+
+	starting_technology_level = 2
+
+	requires = religious_texts_advance
+}
+
+# ###############################
+# TRADE BUILDINGS
+# ###############################
+
+merchant_house_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+
+	unlock_building = merchant_house
+
+	starting_technology_level = 3
+
+	requires = scribe_alphabetic_maintenance
+}
+
+bronze_age_trade_posts_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+
+	unlock_building = bronze_age_trade_office
+
+	starting_technology_level = 3
+
+	requires = intercultural_relations_advance
+}
 
 # ###############################
 # # Basic Buildings

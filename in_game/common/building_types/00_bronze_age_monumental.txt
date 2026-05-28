@@ -1,0 +1,34 @@
+bronze_age_triumphal_monument = {
+	is_foreign = no
+	max_levels = 1
+	pop_type = laborers
+
+	category = monumental_building_category
+	employment_size = construction_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	expensive = yes
+	build_time = bronze_age_monument_build_time
+	construction_demand = bronze_age_monument_construction
+
+	unique_production_methods = {
+		bronze_age_triumphal_monument_maintenance_simple = {
+			clay = 0.1
+			lumber = 0.1
+			tools = 0.2
+			goods_gold = 0.1
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_crown_estate_power = 0.05
+		local_max_control = 0.020
+	}
+}

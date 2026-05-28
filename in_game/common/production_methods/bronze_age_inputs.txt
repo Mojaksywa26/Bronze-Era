@@ -1,0 +1,33 @@
+﻿scribe_tablets_maintenance = {
+	bronze_age_tablets = 1
+	lumber = 0.1
+	beeswax = 0.1
+	category = building_maintenance
+}
+
+scribe_paper_maintenance = {
+	paper = 1
+	lumber = 0.1
+	beeswax = 0.1
+	category = building_maintenance
+}
+
+scribe_leather_maintenance = {
+	leather = 1
+	lumber = 0.1
+	coal = 0.1
+	category = building_maintenance
+}
+
+scribe_potsherds_maintenance = {
+	pottery = 1.5
+	lumber = 0.1
+	coal = 0.1
+	category = building_maintenance
+}
+
+scribe_wood_maintenance = {
+	lumber = 2
+	coal = 0.1
+	category = building_maintenance
+}	

@@ -1,0 +1,194 @@
+bronze_age_burial_pits = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 1
+
+	category = religious_category
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = no
+
+	build_time = religious_building_build_time
+	construction_demand = religious_building_construction
+
+	allow = {
+		owner = {
+			has_policy = bronze_age_burial_pits_law
+		}
+	}
+
+	unique_production_methods = {
+		bronze_age_burial_pit_maintenance = {
+			tools = 0.02
+			cloth = 0.02
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_peasants_estate_power = 0.05
+		local_peasant_enfranchisment = 0.01
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.01
+		monthly_religious_influence = 0.01
+	}
+
+	custom_tags = { bronze_age_burial }
+}
+
+bronze_age_aristocratic_mounds = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 2
+
+	category = religious_category
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = no
+	megalopolis = no
+
+	build_time = religious_building_build_time
+	construction_demand = religious_building_construction
+
+	allow = {
+		owner = {
+			has_policy = bronze_age_aristocratic_mounds_law
+		}
+	}
+
+	unique_production_methods = {
+		bronze_age_aristocratic_mounds_maintenance = {
+			tools = 0.5
+			lumber = 0.5
+			weaponry = 0.3
+			fine_cloth = 0.3
+			pottery = 0.3
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_nobles_estate_power = 0.1
+		local_cultural_influence = 0.2
+	}
+
+	raw_modifier = {
+		local_cultural_tradition = 0.02
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.1
+		monthly_religious_influence = 0.05
+	}
+
+	custom_tags = { bronze_age_burial }
+}
+
+bronze_age_collective_tombs = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 1
+
+	category = religious_category
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = no
+
+	build_time = religious_building_build_time
+	construction_demand = religious_building_construction
+
+	allow = {
+		owner = {
+			has_policy = bronze_age_collective_tombs_law
+		}
+	}
+
+	unique_production_methods = {
+		bronze_age_collective_tombs_maintenance = {
+			tools = 0.01
+			pottery = 0.01
+			cloth = 0.02
+			lumber = 0.02
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_burghers_estate_power = 0.05
+	}
+
+	raw_modifier = {
+		local_cultural_tradition = 0.01
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.01
+		monthly_religious_influence = 0.02
+	}
+
+	custom_tags = { bronze_age_burial }
+}
+
+bronze_age_urnfield_burial_site = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 3
+
+	category = religious_category
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	build_time = religious_building_build_time
+	construction_demand = religious_building_construction
+
+	allow = {
+		owner = {
+			has_policy = bronze_age_urnfields_law
+		}
+	}
+
+	unique_production_methods = {
+		bronze_age_urnfield_burial_site_maintenance = {
+			pottery = 0.2
+			lumber = 0.05
+			coal = 0.02
+			tools = 0.02
+
+			category = building_maintenance
+		}
+
+	}
+
+	modifier = {
+		local_clergy_estate_power = 0.05
+		local_disease_resistance = 0.05
+	}
+
+	capital_country_modifier = {
+		monthly_prestige = 0.02
+		monthly_legitimacy = 0.02
+		monthly_religious_influence = 0.05
+	}
+
+	custom_tags = { bronze_age_burial }
+}

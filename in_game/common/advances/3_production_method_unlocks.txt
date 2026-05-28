@@ -8,3 +8,21 @@ bronze_tools_maker_maintenance_maintenance_advance = {
 	requires = bronze_forge_advance
 }
 
+bronze_weaponry_maker_maintenance_maintenance_advance = {
+	age = age_1_traditions
+	
+	unlock_production_method = bronze_weaponry_maker_maintenance
+	
+	requires = bronze_forge_advance
+}
+
+scribe_alphabetic_maintenance = {
+	age = age_1_traditions
+	
+	unlock_production_method = scribe_leather_maintenance
+	unlock_production_method = scribe_potsherds_maintenance
+	unlock_production_method = scribe_wood_maintenance
+	
+	requires = alphabet_script_advance
+}
+
