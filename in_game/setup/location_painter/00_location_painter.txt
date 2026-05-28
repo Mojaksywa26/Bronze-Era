@@ -178,7 +178,7 @@ location_painter_assignments = {
             olvera
         }
     }
-    ACRE = {
+    SIDON = {
         color = { 198 188 47 }
         locations = {
             sidon
@@ -284,6 +284,17 @@ location_painter_assignments = {
             mayenne
         }
     }
+    ALLAHDINO = {
+        color = { 205 96 131 }
+        locations = {
+            ahmad_khan
+            laribandar
+            manora
+            muhammad_tur
+            sonda
+            thatta
+        }
+    }
     ALLOB = {
         color = { 101 47 188 }
         locations = {
@@ -338,6 +349,15 @@ location_painter_assignments = {
             hesdin
             montreuil
             peronne
+        }
+    }
+    AMRI = {
+        color = { 221 57 39 }
+        locations = {
+            kotri
+            moro_sindh
+            ranikot
+            sehwan
         }
     }
     AMURU = {
@@ -557,9 +577,11 @@ location_painter_assignments = {
         }
     }
     ARWAD = {
-        color = { 178 191 59 }
+        color = { 224 72 92 }
         locations = {
-            jableh
+            baniyas
+            tartus
+            tripoli_syria
         }
     }
     ASYRI = {
@@ -721,6 +743,13 @@ location_painter_assignments = {
             vire
         }
     }
+    BALAKOT = {
+        color = { 220 50 64 }
+        locations = {
+            bela
+            sonamiani
+        }
+    }
     BALES = {
         color = { 97 41 209 }
         locations = {
@@ -735,6 +764,13 @@ location_painter_assignments = {
         color = { 213 132 77 }
         locations = {
             tavira
+        }
+    }
+    BANAWALI = {
+        color = { 71 88 118 }
+        locations = {
+            raikot
+            sirhind
         }
     }
     BARDI = {
@@ -951,6 +987,45 @@ location_painter_assignments = {
             chaves
             montalegre
             vila_real
+        }
+    }
+    BRAHUI = {
+        color = { 222 63 164 }
+        locations = {
+            awaran
+            besima
+            chagai
+            chaman
+            dhadar
+            duki
+            gulistan
+            hinglaj
+            jhao
+            kalat
+            kharan
+            khuzdar
+            lakhsar
+            lorelai
+            maruf
+            mashkai
+            mastung
+            naalbandin
+            nagh
+            nal
+            nawah
+            nushki
+            ormara
+            quetta
+            surab
+            tank
+            urgun
+            wadh
+            wana
+            washuk
+            wazakhwa
+            zarghun_shahr
+            zhob
+            zik
         }
     }
     BRENA = {
@@ -1287,6 +1362,40 @@ location_painter_assignments = {
             walden
         }
     }
+    CHALDEANS = {
+        color = { 203 94 67 }
+        locations = {
+            ar_rukai
+            ash_shuaybah
+            kazimah
+            qurain
+        }
+    }
+    CHANHU-DARO = {
+        color = { 204 97 166 }
+        locations = {
+            agham_kot
+            chor
+            hala
+            mansura
+            naserpur
+            umarkot
+        }
+    }
+    CHAPUWALA = {
+        color = { 219 194 57 }
+        locations = {
+            bhatnir
+            channan_pir
+            chishtian
+            dunga_bunga
+            karur_punjab
+            khairpur
+            kot_marot
+            mailsi
+            mir_garh_qila
+        }
+    }
     CIBAR = {
         color = { 155 48 217 }
         locations = {
@@ -1565,11 +1674,25 @@ location_painter_assignments = {
             vranje
         }
     }
+    DHOLAVIRA = {
+        color = { 95 200 81 }
+        locations = {
+            kantha
+            kapilkot
+            lakhiyarvira
+            lakhpat
+        }
+    }
     DIMUN = {
         color = { 81 63 217 }
         locations = {
+            al_ahsa
+            al_bidda
+            al_huwaila
             al_mashqar
+            al_udayd
             al_uqayr
+            baqqa
             eglat_faisal
             manama
             sayhat
@@ -1900,6 +2023,21 @@ location_painter_assignments = {
             moyarta
         }
     }
+    GANWERIWALA = {
+        color = { 83 157 198 }
+        locations = {
+            anupgarh
+            aror
+            bijnot
+            derawar
+            ghotki
+            ludrava
+            nawakot
+            pugal
+            ramgar
+            uch
+        }
+    }
     GARUM = {
         color = { 197 38 149 }
         locations = {
@@ -1982,6 +2120,37 @@ location_painter_assignments = {
             seyhli
             tavsanli
             usak
+        }
+    }
+    HARAPPA = {
+        color = { 207 174 63 }
+        locations = {
+            batala
+            bhera
+            chichawatni
+            dijkot
+            dipalpur
+            eminabad
+            faridkot
+            fatehabad
+            firozpur
+            gugera
+            jammu
+            jaranwala
+            kalanaur
+            kasur
+            lahore
+            lalian
+            muktsar
+            pakpattan
+            pasrur
+            pindi_bhattian
+            shahpur
+            sialkot
+            sillanwali
+            sultanwind
+            talwandi
+            virkgarh
         }
     }
     HATTI = {
@@ -2396,6 +2565,24 @@ location_painter_assignments = {
             zuwayr
         }
     }
+    KOT DIJI = {
+        color = { 95 123 206 }
+        locations = {
+            islamgarh
+        }
+    }
+    KUNTASI = {
+        color = { 91 200 116 }
+        locations = {
+            bhanvad
+            chhaya
+            dhrangadhra
+            dwarka
+            limbdi
+            morvi
+            nagnes
+        }
+    }
     KUWAL = {
         color = { 60 125 215 }
         locations = {
@@ -2431,6 +2618,18 @@ location_painter_assignments = {
         locations = {
             castellane
             draguignan
+        }
+    }
+    LAKHMIRWALA = {
+        color = { 51 108 193 }
+        locations = {
+            bajwara
+            jalandhar
+            kahlur
+            kapurthala
+            kutlehar
+            rahon
+            suket
         }
     }
     LAPCI = {
@@ -2596,6 +2795,21 @@ location_painter_assignments = {
             stockton
         }
     }
+    LOTHAL = {
+        color = { 116 69 217 }
+        locations = {
+            ashaval
+            baroda
+            broach
+            danduka
+            khambat
+            nandod
+            rander
+            ranpur
+            sihor
+            surat
+        }
+    }
     LOUGE = {
         color = { 147 199 56 }
         locations = {
@@ -2680,6 +2894,22 @@ location_painter_assignments = {
             wicklow
         }
     }
+    MANDA = {
+        color = { 216 79 207 }
+        locations = {
+            banihal
+            baramulla
+            ganderbal
+            kupwara
+            poonch
+            pulawama
+            rajouri
+            rasyal
+            sharda
+            srinagar
+            udamphur
+        }
+    }
     MANDU = {
         color = { 109 200 70 }
         locations = {
@@ -2743,6 +2973,46 @@ location_painter_assignments = {
             kutahya
             simav
             sultanonu
+        }
+    }
+    MEDIANS = {
+        color = { 210 194 91 }
+        locations = {
+            abhar
+            avaj
+            aveh
+            bandar_e_anzali
+            damavand
+            delijan
+            eyvanekey
+            firuzkuh
+            fuman
+            hashatjin
+            kahak
+            karaj
+            kashan
+            khwar
+            lahijan
+            langarud
+            maranjab
+            natanz
+            neyasar
+            qazvin
+            qeydar
+            qom
+            rahimabad
+            rasht
+            razeqan
+            rey
+            rudbar
+            sagzabad
+            saveh
+            savojbolagh
+            shahrestan_sofla
+            shamiram
+            sirdan
+            takestan
+            varamin
         }
     }
     MEDIO = {
@@ -2873,6 +3143,14 @@ location_painter_assignments = {
             viransehir
         }
     }
+    MITATHAL = {
+        color = { 80 52 183 }
+        locations = {
+            karnal
+            panipat
+            thanesar
+        }
+    }
     MOESI = {
         color = { 216 151 59 }
         locations = {
@@ -2881,6 +3159,18 @@ location_painter_assignments = {
             razgrad
             ruse
             tutrakan
+        }
+    }
+    MOHEN-JO-DARO = {
+        color = { 80 215 105 }
+        locations = {
+            dubbi
+            kandiaro
+            kot_lalu
+            paat
+            rajabar
+            rohri
+            shadodkot
         }
     }
     MOLOS = {
@@ -2936,6 +3226,18 @@ location_painter_assignments = {
             machecoul
             nantes
             redon
+        }
+    }
+    NAUSHARO = {
+        color = { 151 202 47 }
+        locations = {
+            dera_bugti
+            gandava
+            kahan
+            lahri
+            mithri
+            rakni
+            siwi
         }
     }
     NEME1 = {
@@ -3341,6 +3643,19 @@ location_painter_assignments = {
             seydisehir
         }
     }
+    PATHANI DAMB = {
+        color = { 68 126 193 }
+        locations = {
+            bab_kot
+            jhal
+            jhatpat
+            kashmore
+            omerkot
+            shikarpur
+            sui_pakistan
+            sukkur
+        }
+    }
     PETRO = {
         color = { 87 91 214 }
         locations = {
@@ -3424,6 +3739,21 @@ location_painter_assignments = {
             zuoz
         }
     }
+    RAKHIGARHI = {
+        color = { 171 155 170 }
+        locations = {
+            gangadvara
+            hanol
+            jansath
+            kalsi
+            nahan
+            piran_i_kaliyar
+            sadhaura
+            saharanpur
+            soonpur
+            uttarkashi
+        }
+    }
     RAURA = {
         color = { 51 204 196 }
         locations = {
@@ -3460,6 +3790,19 @@ location_painter_assignments = {
             woking
         }
     }
+    REHMAN DHERI = {
+        color = { 67 51 209 }
+        locations = {
+            akora
+            bannu
+            dinkot
+            hangu
+            isakhel
+            khost
+            khushab
+            thal_daman
+        }
+    }
     REMI = {
         color = { 44 60 206 }
         locations = {
@@ -3476,6 +3819,20 @@ location_painter_assignments = {
             derry
             dunluce
             magherafelt
+        }
+    }
+    ROPAR = {
+        color = { 203 52 150 }
+        locations = {
+            bajaura
+            keylong
+            koksar
+            mandi
+            milwat
+            nagarkot
+            naggar
+            nurpur
+            palampur
         }
     }
     RUTEN = {
@@ -3754,6 +4111,14 @@ location_painter_assignments = {
             sarria
         }
     }
+    SHORTUGAL = {
+        color = { 36 170 204 }
+        locations = {
+            kham_bahar
+            ragh
+            shiveh
+        }
+    }
     SIBUZ = {
         color = { 81 204 210 }
         locations = {
@@ -3816,6 +4181,18 @@ location_painter_assignments = {
             serres
         }
     }
+    SOMNATH = {
+        color = { 208 67 196 }
+        locations = {
+            amreli
+            diu
+            gondal
+            junagarh
+            lathi
+            palitana
+            somnath
+        }
+    }
     SOTIA = {
         color = { 218 78 155 }
         locations = {
@@ -3824,6 +4201,13 @@ location_painter_assignments = {
             condom
             lectoure
             nogaro
+        }
+    }
+    SOTKA KOH = {
+        color = { 92 204 172 }
+        locations = {
+            pasni
+            turbat
         }
     }
     SPICE = {
@@ -3878,11 +4262,28 @@ location_painter_assignments = {
             viana
         }
     }
+    SURKOTADA = {
+        color = { 193 65 62 }
+        locations = {
+            deodar
+            dholka
+            patan
+            radhanpur
+        }
+    }
     SURRT = {
         color = { 65 184 61 }
         locations = {
             naples
             salerno
+        }
+    }
+    SUTKAGEN DOR = {
+        color = { 167 218 47 }
+        locations = {
+            gwadar
+            gwatar
+            kuddan
         }
     }
     SUTU = {
@@ -4215,14 +4616,6 @@ location_painter_assignments = {
             vukovar
         }
     }
-    TRPOL = {
-        color = { 224 72 92 }
-        locations = {
-            baniyas
-            tartus
-            tripoli_syria
-        }
-    }
     TUART = {
         color = { 72 191 64 }
         locations = {
@@ -4385,6 +4778,7 @@ location_painter_assignments = {
         locations = {
             antioch
             latakia
+            jableh
         }
     }
     ULIBA = {
@@ -4516,6 +4910,17 @@ location_painter_assignments = {
             salvatierra
             san_sebastian
             tolosa
+        }
+    }
+    VAINIWAL = {
+        color = { 210 128 65 }
+        locations = {
+            chiniot
+            jhang
+            kamalia
+            multan
+            shorkot
+            tulamba
         }
     }
     VANGI = {
