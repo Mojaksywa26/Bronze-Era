@@ -57,3 +57,15 @@
 
   copper_tablets_maintenance: "Copper Tablets Production"
   copper_tablets_maintenance_desc: "The local tablets workshop produces copper tablets for record-keeping and communication."
+
+  weapon_guild_stone_recipe: "Stone Weapon Workshops"
+  weapon_guild_stone_recipe_desc: "Royal craftsmen produce stone-headed weapons, clubs, spears, and simple arms from carved stone, wood, and basic toolmaking techniques."
+
+  weapon_guild_bronze_recipe: "Bronze Weapon Foundries"
+  weapon_guild_bronze_recipe_desc: "Palatial foundries equip warriors with durable bronze weapons forged through advanced metallurgy, organized labor, and controlled access to strategic resources."
+
+  weapon_guild_obsidian_recipe: "Obsidian Weapon Workshops"
+  weapon_guild_obsidian_recipe_desc: "Specialized craftsmen shape volcanic glass into razor-sharp blades, spearheads, and ceremonial weapons prized for their cutting power and prestige."
+
+  weapon_guild_copper_recipe: "Copper Weapon Workshops"
+  weapon_guild_copper_recipe_desc: "Royal weapon workshops cast and hammer copper into axes, daggers, spearheads, and other arms that surpass stone weapons in versatility and status."

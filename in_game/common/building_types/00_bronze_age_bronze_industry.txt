@@ -188,8 +188,18 @@ weapon_guild = {
 	unique_production_methods = {
 
 		weapon_guild_stone_recipe = {
-			lumber = 0.5
-			stone = 0.5
+			lumber = 0.3
+			stone = 0.3
+			tools = 0.2
+			category = guild_input
+			produced = weaponry
+			output = 0.3
+		}
+
+		weapon_guild_copper_recipe = {
+			lumber = 0.2
+			copper = 0.5
+			coal = 0.3
 			tools = 0.2
 			category = guild_input
 			produced = weaponry
@@ -208,7 +218,7 @@ weapon_guild = {
 			category = guild_input
 		}
 		weapon_guild_obsidian_recipe = {
-			lumber = 0.15
+			lumber = 0.2
 			stone = 0.5
 			gems = 0.1
 			produced = weaponry
