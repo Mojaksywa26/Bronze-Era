@@ -313,7 +313,7 @@ location_painter_assignments = {
             zile
         }
     }
-    ACRE = {
+    SIDON = {
         # setup: own_control_core=1
         color = { 198 188 47 }
         locations = {
@@ -429,10 +429,12 @@ location_painter_assignments = {
         }
     }
     ARWAD = {
-        # setup: own_control_core=1
-        color = { 178 191 59 }
+        # setup: own_control_core=3
+        color = { 224 72 92 }
         locations = {
-            jableh
+            baniyas
+            tartus
+            tripoli_syria
         }
     }
     ASYRI = {
@@ -1386,21 +1388,13 @@ location_painter_assignments = {
             xanthia
         }
     }
-    TRPOL = {
-        # setup: own_control_core=3
-        color = { 224 72 92 }
-        locations = {
-            baniyas
-            tartus
-            tripoli_syria
-        }
-    }
     UGART = {
         # setup: own_control_core=2
         color = { 50 69 210 }
         locations = {
             antioch
             latakia
+            jableh
         }
     }
     WILUS = {

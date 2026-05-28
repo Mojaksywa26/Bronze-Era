@@ -7137,14 +7137,14 @@ qastal = { topography = flatland vegetation = sparse climate = cold_arid religio
 qusayr = { topography = flatland vegetation = grasslands climate = mediterranean religion = mesopotamian culture = amorite raw_material = legumes}
 salamiyya = { topography = flatland vegetation = sparse climate = cold_arid religion = canaanite culture = aramaean raw_material = legumes}
 latakia = { topography = hills vegetation = forest climate = mediterranean religion = ugaritic culture = ugaritic raw_material = lumber natural_harbor_suitability = 0.25}
-baniyas = { topography = hills vegetation = grasslands climate = mediterranean religion = berber_pagan culture = libu raw_material = fish natural_harbor_suitability = 0.25}
-jableh = { topography = hills vegetation = grasslands climate = mediterranean religion = phoenician culture = phoenician raw_material = wheat natural_harbor_suitability = 0.25}
-tartus = { topography = flatland vegetation = grasslands climate = mediterranean religion = berber_pagan culture = libu raw_material = fiber_crops natural_harbor_suitability = 0.00}
+baniyas = { topography = hills vegetation = grasslands climate = mediterranean religion = phoenician culture = phoenician raw_material = fish natural_harbor_suitability = 0.25}
+jableh = { topography = hills vegetation = grasslands climate = mediterranean religion = ugaritic culture = ugaritic raw_material = wheat natural_harbor_suitability = 0.25}
+tartus = { topography = flatland vegetation = grasslands climate = mediterranean religion = phoenician culture = phoenician raw_material = fiber_crops natural_harbor_suitability = 0.00}
 beirut = { topography = hills vegetation = forest climate = mediterranean religion = phoenician culture = phoenician raw_material = wine natural_harbor_suitability = 0.25}
 baalbek = { topography = plateau vegetation = farmland climate = mediterranean religion = mesopotamian culture = amorite raw_material = fruit}
 deir_qamar = { topography = hills vegetation = forest climate = mediterranean religion = phoenician culture = phoenician raw_material = silk natural_harbor_suitability = 0.00}
-sidon = { topography = hills vegetation = woods climate = mediterranean religion = sea_peoples_cult culture = tjekker raw_material = cotton natural_harbor_suitability = 0.25}
-tripoli_syria = { topography = hills vegetation = forest climate = mediterranean religion = berber_pagan culture = libu raw_material = fish natural_harbor_suitability = 0.25}
+sidon = { topography = hills vegetation = woods climate = mediterranean religion = phoenician culture = phoenician raw_material = cotton natural_harbor_suitability = 0.25}
+tripoli_syria = { topography = hills vegetation = forest climate = mediterranean religion = phoenician culture = phoenician raw_material = fish natural_harbor_suitability = 0.25}
 lebanon_mountains = { topography = mountain_wasteland vegetation = forest climate = continental}
 damascus = { modifier = damascus_base topography = hills vegetation = farmland climate = mediterranean religion = canaanite culture = aramaean raw_material = olives}
 burraq = { topography = flatland vegetation = sparse climate = cold_arid religion = canaanite culture = aramaean raw_material = fruit}

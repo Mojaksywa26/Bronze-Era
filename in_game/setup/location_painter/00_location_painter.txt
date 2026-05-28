@@ -178,7 +178,7 @@ location_painter_assignments = {
             olvera
         }
     }
-    ACRE = {
+    SIDON = {
         color = { 198 188 47 }
         locations = {
             sidon
@@ -577,9 +577,11 @@ location_painter_assignments = {
         }
     }
     ARWAD = {
-        color = { 178 191 59 }
+        color = { 224 72 92 }
         locations = {
-            jableh
+            baniyas
+            tartus
+            tripoli_syria
         }
     }
     ASYRI = {
@@ -4614,14 +4616,6 @@ location_painter_assignments = {
             vukovar
         }
     }
-    TRPOL = {
-        color = { 224 72 92 }
-        locations = {
-            baniyas
-            tartus
-            tripoli_syria
-        }
-    }
     TUART = {
         color = { 72 191 64 }
         locations = {
@@ -4784,6 +4778,7 @@ location_painter_assignments = {
         locations = {
             antioch
             latakia
+            jableh
         }
     }
     ULIBA = {

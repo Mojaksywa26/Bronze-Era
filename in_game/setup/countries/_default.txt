@@ -19,7 +19,7 @@ AMURU = {
 	color2 = rgb { 110 27 27 }
 }
 ARWAD = {
-	color = rgb { 178 191 59 }
+	color = rgb { 224 72 92 }
 	color2 = rgb { 110 27 27 }
 }
 ASYRI = {
@@ -144,10 +144,6 @@ SUTU = {
 }
 TARTS = {
 	color = rgb { 198 43 212 }
-	color2 = rgb { 110 27 27 }
-}
-TRPOL = {
-	color = rgb { 224 72 92 }
 	color2 = rgb { 110 27 27 }
 }
 UGART = {
@@ -326,7 +322,7 @@ HATTI = {
 	color = rgb { 18 131 217 }
 	color2 = rgb { 110 27 27 }
 }
-ACRE = {
+SIDON = {
 	color = rgb { 198 188 47 }
 	color2 = rgb { 110 27 27 }
 }

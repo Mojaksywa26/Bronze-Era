@@ -13,7 +13,7 @@ const tagOverrides = new Map([
   ["AHHIY", "0001G"],
   ["KEMET", "0002G"],
   ["HATTI", "HATTI"],
-  ["SIDON", "ACRE"],
+  ["SIDON", "SIDON"],
   ["AGRIANES", "AGRIA"],
   ["ALMOPIANS", "ALMOP"],
   ["ALZIYA", "ALZIY"],
@@ -47,7 +47,7 @@ const names = new Map([
   ["0001G", ["Ahhiyawa", "Ahhiyawan"]],
   ["0002G", ["Kemet", "Kemetic"]],
   ["HATTI", ["Hatti", "Hittite"]],
-  ["ACRE", ["Acre", "Acrean"]],
+  ["SIDON", ["Sidon", "Sidonian"]],
   ["ELIMI", ["Elimi", "Elimian"]],
   ["AGRIA", ["Agrianes", "Agrianian"]],
   ["ALMOP", ["Almopians", "Almopian"]],
@@ -207,7 +207,7 @@ function ensureGovernment(body) {
 
 function makeCountryBlock(assignment) {
   const [name] = countryDisplayName(assignment);
-  const comment = /^(?:000[123]G|ACRE|ELIMI)$/.test(assignment.tag) ? assignment.tag : name.toUpperCase();
+  const comment = /^(?:000[123]G|SIDON|ELIMI)$/.test(assignment.tag) ? assignment.tag : name.toUpperCase();
   const capital = assignment.locations[0] || "cairo";
   const locations = assignment.locations.length ? formatLocationList(assignment.locations) : "";
   return `\n\t##${comment}\n\t${assignment.tag} = {\n\t\tcapital = ${capital}\n\n\t\tcountry_rank = rank_kingdom\n\n\t\tinclude = "catholic_monarchy_not_present"\n\n\t\town_control_core = {\n${locations}\n\t\t}\n\t\tgovernment = {\n\t\t\truler = random\n\t\t}\n\t}\n`;
