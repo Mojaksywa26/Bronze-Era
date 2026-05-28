@@ -32,3 +32,6 @@
 
   neolithic_feast_court_maintenance: "Stored Feast Reserves"
   neolithic_feast_court_maintenance_desc: "Feast courts maintain communal stores of grain, livestock, and preserved foods reserved for seasonal ceremonies, ritual gatherings, and redistributive feasting."
+
+  temple_granary_maintenance: "Priestly Storehouse Administration"
+  temple_granary_maintenance_desc: "Temple granaries are overseen by priestly administrators who organize tribute, maintain records, supervise laborers, and redistribute stored food through the authority of the cult and the state."

@@ -1,62 +1,59 @@
 ﻿l_english:
- bronze_age_bronze_foundry: "Bronze Foundry"
- bronze_age_bronze_foundry_desc: "A workshop of furnaces, crucibles and molds where copper is alloyed with precious tin to create bronze for palace economies, artisans and armorers."
+  bronze_age_bronze_foundry: "Bronze Alloying Workshop"
+  bronze_age_bronze_foundry_desc: "A workshop of furnaces, crucibles and molds where copper is alloyed with precious tin to create bronze for palace economies, artisans and armorers."
 
- bronze_age_bronze_forge: "Bronze Forge"
- bronze_age_bronze_forge_desc: "In early Bronze Age societies, metalworking was still a household craft, with villagers casting tools and weapons for their own use rather than relying on professional smiths."
+  bronze_age_bronze_forge: "Bronze Forge"
+  bronze_age_bronze_forge_desc: "In early Bronze Age societies, metalworking was still a household craft, with villagers casting tools and weapons for their own use rather than relying on dedicated smiths."
 
- bronze_age_bronze: "Bronze"
- bronze_age_bronze_desc: "Bronze is an alloy of copper and tin, prized for tools, weapons, fittings and prestige objects. Its production depends on fragile long-distance tin routes."
+  bronze_age_bronze: "Bronze"
+  bronze_age_bronze_desc: "Bronze is an alloy of copper and tin, prized for tools, weapons, fittings and prestige objects. Its production depends on fragile long-distance tin routes."
 
- tin: "Tin"
- tin_desc: "Tin is a rare strategic metal required for true bronze. Its scarcity made distant mines and maritime trade routes vital to Late Bronze Age economies."
+  tin: "Tin"
+  tin_desc: "Tin is a rare strategic metal required for true bronze. Its scarcity made distant mines and maritime trade routes vital to Late Bronze Age economies."
 
- bronze_age_full_bronze_supply: "Full Bronze Supply"
- bronze_age_full_bronze_supply_desc: "The foundry has reliable access to both copper and tin, allowing its smiths to cast durable bronze at full efficiency."
+  bronze_age_full_bronze_supply: "Full Bronze Supply"
+  bronze_age_full_bronze_supply_desc: "The foundry has reliable access to both copper and tin, allowing its smiths to cast durable bronze at full efficiency."
 
- bronze_age_bronze_shortage: "Tin Shortage Smelting"
- bronze_age_bronze_shortage_desc: "Tin routes are unreliable. The foundry stretches copper stocks, recycles scrap and produces only a small quantity of usable bronze."
+  bronze_age_bronze_shortage: "Tin Shortage Smelting"
+  bronze_age_bronze_shortage_desc: "Tin routes are unreliable. The foundry stretches copper stocks, recycles scrap and produces only a small quantity of usable bronze."
 
- tools_guild: "Royal Tools Workshop"
- tools_guild_desc: "The great task of building a prosperous domain requires the finest tools and equipment. The royal tools workshop is a dedicated facility where skilled craftsmen and artisans create high-quality tools and implements for distribution according to the orders from the Palace."
+  tools_guild: "Royal Tools Workshop"
+  tools_guild_desc: "The great task of building a prosperous domain requires the finest tools and equipment. The royal tools workshop is a dedicated facility where skilled craftsmen and artisans create high-quality tools and implements for distribution according to the orders from the Palace."
 
- weapon_guild: "Royal Weapon Workshop"  
- weapon_guild_desc: "The great task of building a prosperous domain requires the finest weapons and equipment. The royal weapon workshop is a dedicated facility where skilled craftsmen and artisans create high-quality weapons and implements for distribution according to the orders from the Palace."
+  weapon_guild: "Royal Weapon Workshop"
+  weapon_guild_desc: "The great task of building a prosperous domain requires the finest weapons and equipment. The royal weapon workshop is a dedicated facility where skilled craftsmen and artisans create high-quality weapons and implements for distribution according to the orders from the Palace."
 
- tablets_guild: "Royal Tablets Workshop"
- tablets_guild_desc: "The invention of writing tablets allows for the recording of information, communication, and the development of complex administrative systems in Bronze Age societies."
+  tablets_guild: "Royal Tablets Workshop"
+  tablets_guild_desc: "The invention of writing tablets allows for the recording of information, communication, and the development of complex administrative systems in Bronze Age societies."
 
- royal_scribe_guild: "Royal Scribe School"
- royal_scribe_guild_desc: "The royal scribe school is a prestigious institution where the most talented individuals are trained in the art of writing and record-keeping. The school produces highly skilled scribes who serve the administrative needs of the palace and contribute to the development of complex bureaucratic systems in Bronze Age societies."
+  royal_scribe_guild: "Royal Scribe School"
+  royal_scribe_guild_desc: "The royal scribe school is a prestigious institution where the most talented individuals are trained in the art of writing and record-keeping. The school produces highly skilled scribes who serve the administrative needs of the palace and contribute to the development of complex bureaucratic systems in Bronze Age societies."
 
 
-# ########################
-# PRODUCTION METHODS
-# ########################
+  # ########################
+  # PRODUCTION METHODS
+  # ########################
 
- bronze_age_tools_bronze_recipe: "Bronze Tool Production"
- bronze_age_tools_bronze_recipe_desc: "Artisans cast bronze blades, chisels, awls and agricultural tools. The method is effective for the Bronze Age, but less scalable than later iron industries."
+  tools_guild_stone_recipe: "Stone Tool Workshops"
+  tools_guild_stone_recipe_desc: "Palatial workshops organize craftsmen producing simple stone tools for agriculture, construction, and household labor using widely available local materials."
 
- bronze_age_tools_workshop_bronze_recipe: "Bronze Tool Workshop"
- bronze_age_tools_workshop_bronze_recipe_desc: "Organized workshops turn bronze ingots into tools for farms, palaces and shipyards."
+  tools_guild_copper_recipe: "Copper Smithing Workshops"
+  tools_guild_copper_recipe_desc: "Royal workshops employ specialized smiths to cast and shape copper tools, improving durability and supporting more advanced craft production."
 
- bronze_age_weapons_bronze_recipe: "Bronze Weapon Production"
- bronze_age_weapons_bronze_recipe_desc: "Bronze is worked into spearheads, daggers, swords and fittings for elite warriors. The output is limited by the supply of imported tin."
+  tools_guild_bronze_recipe: "Bronze Foundries"
+  tools_guild_bronze_recipe_desc: "Centralized palace foundries produce high-quality bronze tools through controlled alloying and specialized metallurgy, greatly increasing efficiency and reinforcing elite economic power."
 
- bronze_age_weapons_workshop_bronze_recipe: "Bronze Weapons Workshop"
- bronze_age_weapons_workshop_bronze_recipe_desc: "Specialized smiths shape bronze into weapons for palace arsenals and aristocratic retinues."
+  bronze_age_small_scale_bronze_prod: "Local Bronze Smelting"
+  bronze_age_small_scale_bronze_prod_desc: "The local forge produces a small quantity of bronze."
 
- bronze_age_small_scale_bronze_prod: "Local Bronze Smelting"
- bronze_age_small_scale_bronze_prod_desc: "The local forge produces a small quantity of bronze."
+  scribe_tablets_maintenance: "Tablet Writing Materials"
+  scribe_tablets_maintenance_desc: "The royal scribes use tablets for their work."
 
- scribe_tablets_maintenance: "Tablet Writing Materials"
- scribe_tablets_maintenance_desc: "The royal scribes use tablets for their work."
+  scribe_paper_maintenance: "Paper Writing Materials"
+  scribe_paper_maintenance_desc: "The royal scribes use paper for their work."
 
- scribe_paper_maintenance: "Paper Writing Materials"
- scribe_paper_maintenance_desc: "The royal scribes use paper for their work."
+  clay_tablets_maintenance: "Clay Tablets Production"
+  clay_tablets_maintenance_desc: "The local tablets workshop produces simple clay tablets for record-keeping and communication."
 
- clay_tablets_maintenance: "Clay Tablets Production"
- clay_tablets_maintenance_desc: "The local tablets workshop produces simple clay tablets for record-keeping and communication."
-
- copper_tablets_maintenance: "Copper Tablets Production"
- copper_tablets_maintenance_desc: "The local tablets workshop produces copper tablets for record-keeping and communication."
+  copper_tablets_maintenance: "Copper Tablets Production"
+  copper_tablets_maintenance_desc: "The local tablets workshop produces copper tablets for record-keeping and communication."
