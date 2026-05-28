@@ -1,9 +1,12 @@
 ﻿l_english:
   neolithic_feast_court: "Feast Court"
-  neolithic_feast_court: "Large communal gathering spaces host ritual feasts, seasonal celebrations, assemblies, and redistributive ceremonies that reinforce alliances and social bonds. These sites concentrate food, labor, and prestige during important religious and political occasions."
+  neolithic_feast_court_desc: "Large communal gathering spaces host ritual feasts, seasonal celebrations, assemblies, and redistributive ceremonies that reinforce alliances and social bonds. These sites concentrate food, labor, and prestige during important religious and political occasions."
 
   neolithic_sanctuary: "Sanctuary"
   neolithic_sanctuary_desc: "Large communal gathering spaces host ritual feasts, seasonal celebrations, assemblies, and redistributive ceremonies that reinforce alliances and social bonds. These sites concentrate food, labor, and prestige during important religious and political occasions."
 
   temple_granary: "Temple Granary"
   temple_granary_desc: "Vast storehouses attached to temples gather grain collected through tribute, taxation, and religious offerings, placing food reserves under the supervision of priesthoods and ruling authorities. These granaries sustain dense urban populations, support large labor forces, and reinforce the sacred authority of the state."
+
+  temple_scribes_guild: "Temple Scribe School"
+  temple_scribes_guild_desc: "The temple scribe school is first and foremost an expression of the priesthood's political power, but it also serves to train scribes who maintain records of religious rituals, offerings, and temple administration in Bronze Age societies."

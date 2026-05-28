@@ -128,6 +128,12 @@
  ritual_sites_advance: "Permanent Ritual Sites"
  ritual_sites_advance_desc: "Communities begin establishing enduring sacred spaces where seasonal ceremonies, feasts, burials, and communal rites are performed generation after generation. These ritual centers strengthen shared identity, anchor spiritual traditions to specific places, and encourage the gathering of larger settled populations."
 
+ temple_complex_advance: "Temple Complex"
+ temple_complex_advance_desc: "Expanding cities and centralized rulers transform major cult sites into organized temple complexes staffed by permanent priesthoods, laborers, and administrators. Temples become centers of ritual, storage, redistribution, and political authority woven deeply into urban life."
+
+ temple_granary_advance: "Temple Granaries"
+ temple_granary_advance_desc: "Religious centers develop dedicated granaries and storage halls overseen by priesthoods and administrators responsible for collecting, managing, and redistributing agricultural surplus. Control over stored food strengthens the economic and political influence of temple institutions within urban society."
+
 # ##########################
 # BUILDINGS
 # ##########################

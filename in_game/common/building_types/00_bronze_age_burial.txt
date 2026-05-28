@@ -21,7 +21,7 @@ bronze_age_burial_pits = {
 	}
 
 	unique_production_methods = {
-		bronze_age_burial_pit_maintenance_simple = {
+		bronze_age_burial_pit_maintenance = {
 			tools = 0.02
 			cloth = 0.02
 
@@ -66,7 +66,7 @@ bronze_age_aristocratic_mounds = {
 	}
 
 	unique_production_methods = {
-		bronze_age_aristocratic_mounds_maintenance_simple = {
+		bronze_age_aristocratic_mounds_maintenance = {
 			tools = 0.5
 			lumber = 0.5
 			weaponry = 0.3
@@ -118,7 +118,7 @@ bronze_age_collective_tombs = {
 	}
 
 	unique_production_methods = {
-		bronze_age_collective_tombs_maintenance_simple = {
+		bronze_age_collective_tombs_maintenance = {
 			tools = 0.01
 			pottery = 0.01
 			cloth = 0.02
@@ -168,7 +168,7 @@ bronze_age_urnfield_burial_site = {
 	}
 
 	unique_production_methods = {
-		bronze_age_urnfield_burial_site_maintenance_simple = {
+		bronze_age_urnfield_burial_site_maintenance = {
 			pottery = 0.2
 			lumber = 0.05
 			coal = 0.02
