@@ -107,6 +107,9 @@
  spoked_wheel_advance: "Spoked Wheel"
  spoked_wheel_advance_desc: "The spoked wheel creates lighter and faster vehicles than older solid-wheel designs, enabling swift chariots, improved transport, and more efficient long-distance communication. Its construction requires skilled woodworking and stronger craftsmanship, making it a prestige technology often associated with elites and warfare."
 
+ simple_chariot_advance: "Simple Chariots"
+ simple_chariot_advance_desc: "Early horse-drawn fighting vehicles emerge from the adaptation of carts for warfare, carrying warriors rapidly across open ground. Crude, heavy, and lightly organized, these primitive chariots serve as mobile platforms for skirmishing, raiding, and displays of elite status rather than decisive battlefield weapons."
+
  holloway_advance: "Holloways"
  holloway_advance_desc: "Frequently traveled routes between settlements gradually form recognizable land corridors shaped by merchants, herders, and migrating peoples. These informal paths improve regional movement but remain vulnerable to weather and terrain."
 

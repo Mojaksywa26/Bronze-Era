@@ -22,159 +22,11 @@ unlock_archers_advance = {
 
 }
 
-# unlock_men_at_arms_advance = {
-# 	age = age_2_renaissance
-# 	unlock_unit = a_men_at_arms
-# 	unlock_levy = levy_a_men_at_arms
-	
-# 	requires = armory_advance
-	
-# 	allow = {
-# 		any_market_present_in_country = { 
-# 			OR = {
-# 				is_produced_in_market = goods:tools 
-# 				is_traded_in_market = goods:tools 
-# 			} 
-# 		} 
-# 	}
-
-# }
-
-
-# unlock_crossbowmen_advance = {
-# 	age = age_2_renaissance
-# 	unlock_unit = a_crossbowmen
-	
-# 	requires = armory_advance
-
-# }
-
-
-# unlock_reformed_crusader_knights_advance = {
-# 	age = age_2_renaissance
-# 	unlock_unit = a_late_crusader_knights
-# 	unlock_levy = levy_late_crusader_knights
-
-# 	requires = regiment_reinforcement_speed_renaissance
-
-# 	potential = {
-# 		OR = {
-# 			has_reform = government_reform:military_order_reform
-# 			has_estate_privilege = estate_privilege:clergy_military_orders
-# 		}
-# 	}
-
-# }
-
 # unlock_peasant_levy_advance = {
 # 	age = age_2_renaissance
 # 	unlock_levy = levy_a_peasant_levy
 	
 # 	requires = medieval_military
-# }
-
-
-# unlock_halberdiers_advance = {
-# 	age = age_3_discovery
-# 	unlock_unit = a_halberdiers
-	
-# 	requires = training_fields_advance
-
-# }
-
-# unlock_early_arquebusiers_advance = {
-# 	age = age_3_discovery
-# 	unlock_unit = a_early_arquebusiers
-	
-# 	requires = matchlock_gun
-
-# }
-
-# unlock_matchlock_levy = {
-# 	age = age_3_discovery
-# 	unlock_levy = levy_a_matchlock_levy
-	
-# 	requires = unlock_early_arquebusiers_advance
-# }
-
-
-
-# unlock_arquebusiers_advance = {
-# 	age = age_4_reformation
-# 	unlock_unit = a_arquebusiers
-	
-# 	requires = flintlock_gun
-
-# }
-
-# unlock_pikemen_advance = {
-# 	age = age_4_reformation
-# 	unlock_unit = a_pikemen
-	
-# 	requires = barracks_advance
-
-# }
-
-
-# unlock_flintlock_levy = {
-# 	age = age_4_reformation
-# 	unlock_levy = levy_a_flintlock_levy
-	
-# 	requires = unlock_arquebusiers_advance
-# }
-
-# unlock_hunters_advance = {
-# 	age = age_5_absolutism
-# 	unlock_unit = a_hunters
-	
-	
-# 	requires = military_revolution_advance
-# }
-
-# unlock_musketeers_advance = {
-# 	age = age_5_absolutism
-# 	unlock_unit = a_musketeers
-	
-	
-# 	requires = unlock_hunters_advance
-# }
-
-# militiamen_advance = {
-# 	age = age_5_absolutism
-# 	unlock_levy = levy_a_militiamen
-	
-# 	requires = unlock_musketeers_advance
-# }
-
-# unlock_sharpshooters_advance = {
-# 	age = age_6_revolutions
-# 	unlock_unit = a_sharpshooters
-	
-
-# 	requires = long_rifle
-# }
-
-# unlock_fusiliers_advance = {
-# 	age = age_6_revolutions
-# 	unlock_unit = a_fusiliers
-	
-
-# 	requires = conscription_center_advance
-# }
-
-# unlock_grenadiers_advance = {
-# 	age = age_6_revolutions
-# 	unlock_unit = a_grenadiers
-
-# 	requires = conscription_center_advance
-# }
-
-
-# conscription_advance = {
-# 	age = age_6_revolutions
-# 	unlock_levy = levy_conscripts
-	
-# 	requires = unlock_fusiliers_advance
 # }
 
 
@@ -192,7 +44,7 @@ simple_chariot_advance = {
 
 	requires = wheeled_transport_advance
 
-	unlock_unit = a_horsemen
+	unlock_unit = a_simple_chariots
 
 	starting_technology_level = 2
 }
