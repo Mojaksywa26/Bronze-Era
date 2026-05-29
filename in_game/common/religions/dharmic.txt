@@ -1,1 +1,29 @@
-# Bronze Era replacement stub: vanilla medieval and modern religious content is intentionally removed.
+hindu = {	
+	color = color_hindu
+	group = dharmic
+
+	language = sanskrit_language
+
+	has_avatars = yes
+
+	goods_demand_modifier = {
+		livestock = 0.25
+	}
+
+	definition_modifier = {
+		tolerance_heathen = 1
+		tolerance_own = 1
+		number_of_allowed_religious_figures = 1
+	}
+
+	max_religious_figures_for_religion = {
+		every_country_in_religion = {
+			add = 1.5
+		}
+		every_holy_site_in_religion = {
+			add = 1
+		}
+	}
+
+	tags = { dharmic_gfx }
+}
