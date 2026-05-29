@@ -25,6 +25,9 @@ mining_advance = {
 
 	requires = agriculture_advance
 
+
+	can_extract_stone = yes
+	can_extract_marble = yes
 	can_extract_copper = yes
 	can_extract_tin = yes
 	can_extract_coal = yes
