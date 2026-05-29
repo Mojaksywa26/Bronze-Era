@@ -20,6 +20,16 @@ agriculture_advance = {
 	starting_technology_level = 1
 }
 
+mining_advance = {
+	age = age_1_traditions
+
+	requires = agriculture_advance
+
+	can_extract_copper = yes
+	can_extract_tin = yes
+	can_extract_coal = yes
+}
+
 ritual_sites_advance = {
 	age = age_1_traditions
 

@@ -1,0 +1,53 @@
+﻿a_slingers = {
+	copy_from = a_age_1_traditions_light_infantry
+	
+
+	upgrades_to = a_archers
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = peasants
+		multiply = 0.05
+	}
+	
+	maintenance_demand = slinger_infantry_maintenance
+	construction_demand = slinger_infantry_construction
+	gfx_tags = { slingers_tag medium_tag }
+}
+
+a_simple_chariots = {
+	copy_from = a_light_chariot
+	
+	
+	upgrades_to = a_cavalrymen
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = nobles
+		multiply = 0.2
+	}
+	
+	mercenaries_per_location = {
+		pop_type = tribesmen
+		multiply = 0.02
+	}
+	gfx_tags = { medium_tag }
+}
+
+a_heavy_chariots = {
+	copy_from = a_age_1_traditions_heavy_chariot
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = nobles
+		multiply = 0.1
+	}
+	mercenaries_per_location = {
+		pop_type = tribesmen
+		multiply = 0.01
+	}
+
+	upgrades_to = a_heavy_cavalrymen
+
+	gfx_tags = { heavy_tag }
+}

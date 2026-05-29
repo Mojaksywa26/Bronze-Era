@@ -1,0 +1,59 @@
+﻿a_light_chariot = {
+	category = army_light_cavalry
+	buildable = no
+	empty = yes
+	hide = yes
+
+	impact = { 
+		jungle = 0.10
+		wetlands = 0.10
+		mountains = 0.10
+	}
+	combat = { 
+		jungle = -0.10
+		wetlands = -0.10
+		mountains = -0.10
+	}
+	
+}
+
+a_heavy_chariot = {
+	category = army_heavy_cavalry
+	buildable = no
+	empty = yes
+	hide = yes
+	
+	impact = { 
+		jungle = 0.10
+		wetlands = 0.10
+		mountains = 0.10
+	}
+	combat = { 
+		jungle = -0.15
+		wetlands = -0.15
+		mountains = -0.15
+	}
+	
+}
+
+a_age_1_traditions_light_chariot = {
+	copy_from = a_light_chariot
+	hide = yes
+
+	buildable = no
+	max_strength = 0.2
+	combat_power = 4
+
+
+	age = "age_1_traditions"
+}
+
+a_age_1_traditions_heavy_chariot = {
+	copy_from = a_heavy_chariot
+	hide = yes
+
+	buildable = no
+	max_strength = 0.2
+	combat_power = 4
+	age = "age_1_traditions"
+}

@@ -1,4 +1,4 @@
-bronze_age_palatial_complex_construction = {
+﻿bronze_age_palatial_complex_construction = {
 	masonry = 3.0
 	lumber = 2.0
 	tools = 0.75

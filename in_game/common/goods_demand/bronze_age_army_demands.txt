@@ -1,0 +1,68 @@
+﻿# PRODUCION
+
+slinger_infantry_construction = {
+	weaponry = 0.02
+	leather = 0.02
+	cloth = 0.02
+	category = regiment_construction
+}
+
+chariot_construction = {
+	leather = 0.2
+	horses = 1.0
+	weaponry = 0.3
+	tools = 0.1
+	category = regiment_construction
+}
+
+heavy_chariot_construction = {
+	leather = 0.5
+	cloth = 0.2
+	horses = 2.0
+	weaponry = 1.0
+	tools = 0.2
+	category = regiment_construction
+}
+
+expensive_heavy_chariot_construction = {
+	leather = 1.0
+	cloth = 0.3
+	horses = 2.5
+	weaponry = 1.2
+	tools = 0.5
+	category = regiment_construction
+}
+
+# MAINTENANCE
+
+slinger_infantry_maintenance = {
+	weaponry = 0.01
+	leather = 0.01
+	cloth = 0.01
+	category = regiment_maintenance
+}
+
+chariot_maintenance  = {
+	leather = 0.1
+	cloth = 0.05
+	horses = 0.25
+	weaponry = 0.1
+	tools = 0.05
+	category = regiment_construction
+}
+heavy_chariot_maintenance = {
+	leather = 0.2
+	weaponry = 0.15
+	cloth = 0.1
+	horses = 0.5
+	tools = 0.1
+	category = regiment_maintenance
+}
+expensive_heavy_chariot_maintenance = {
+	leather = 0.3
+	weaponry = 0.3
+	cloth = 0.2
+	horses = 1.0
+	tools = 0.2
+	category = regiment_maintenance
+}
