@@ -430,6 +430,31 @@ Validation:
 
 Risk: low to medium.
 
+Status: implemented as a first procedural art pass in the local mod.
+
+Files added:
+
+- `in_game/gfx/map/flatmap/flatmap_detail.dds`
+- `in_game/gfx/map/flatmap/terra_incognita.dds`
+- `in_game/gfx/map/flatmap/flatmap_materials.txt`
+- `in_game/gfx/map/flatmap/material_textures/flatmap_desert.dds`
+- `in_game/gfx/map/flatmap/material_textures/flatmap_farmland.dds`
+- `in_game/gfx/map/flatmap/material_textures/flatmap_hills.dds`
+- `in_game/gfx/map/flatmap/material_textures/flatmap_jungle.dds`
+- `in_game/gfx/map/flatmap/material_textures/flatmap_marsh.dds`
+- `in_game/gfx/map/flatmap/material_textures/flatmap_mountain.dds`
+- `in_game/gfx/map/flatmap/material_textures/flatmap_pine.dds`
+- `in_game/gfx/map/flatmap/material_textures/flatmap_plains.dds`
+- `in_game/gfx/map/flatmap/material_textures/flatmap_woods.dds`
+- `in_game/gfx/map/flatmap/material_textures/wip.dds`
+
+Implementation notes:
+
+- Material textures use vanilla-compatible DDS/DXT5 headers and mipmap layout.
+- `terra_incognita.dds` uses vanilla-compatible DDS/DXT1 header and mipmap layout.
+- `flatmap_detail.dds` uses the same uncompressed BGRA DDS layout as vanilla.
+- `flatmap_staticbackup.dds` was intentionally not replaced in this pass because it uses a DX10 DDS layout; replace it only after in-game testing confirms the current flatmap pass needs it.
+
 ### Phase 3: Water and border pass
 
 - Tune `water.settings`.
@@ -437,6 +462,25 @@ Risk: low to medium.
 - Replace border DDS with ink-line versions.
 
 Risk: medium because readability can degrade.
+
+Status: implemented as a conservative first pass in the local mod.
+
+Files added:
+
+- `in_game/gfx/map/water/water.settings`
+- `in_game/gfx/map/borders/border_country.dds`
+- `in_game/gfx/map/borders/border_province.dds`
+- `in_game/gfx/map/borders/border_location.dds`
+- `in_game/gfx/map/borders/border_sea_zone.dds`
+
+Implementation notes:
+
+- Water is changed through exposed settings only. The huge vanilla water color texture is intentionally not overridden yet.
+- Water is darker, less glossy, slower, and more desaturated to feel like an old maritime chart.
+- Border DDS files preserve vanilla dimensions, mipmap counts, and alpha masks.
+- Country borders are dark brown ink.
+- Province and location borders are lighter brown ink.
+- Sea-zone borders are muted blue-grey.
 
 ### Phase 4: Decorative decal pass
 
@@ -453,11 +497,40 @@ Risk: medium because decal support for custom definitions must be validated.
 
 Risk: medium.
 
+Status: implemented as a conservative map-font override in the local mod.
+
+Files added:
+
+- `in_game/fonts/in_game_fonts.font`
+- `in_game/fonts/MapNamesFonts/Roman_SD.ttf`
+
+Implementation notes:
+
+- `Roman_SD.ttf` is now the first `MapFontStandard` face for country/map names.
+- `CormorantGaramond-SemiBold.ttf` and the vanilla Noto serif fonts remain as fallbacks for missing glyphs.
+- The mod override leaves general UI fonts untouched.
+- `MapFontNumbersFiles` now prefers `CormorantGaramond-SemiBold.ttf` before fallback fonts, making secondary map text fit the antique atlas direction more closely.
+- Label curvature, irregular placement, and letter spacing still appear engine-controlled and were not forced.
+
 ### Phase 6: Post-effect LUT
 
 - Add a very gentle warm LUT only after the rest is readable.
 
 Risk: medium to high if overdone.
+
+Status: implemented as a light post-effect pass in the local mod.
+
+Files added:
+
+- `in_game/gfx/map/post_effects/colorcorrection_neutral.tga`
+- `in_game/gfx/map/post_effects/posteffect_volumes.txt`
+
+Implementation notes:
+
+- The local neutral LUT preserves vanilla TGA dimensions and footer data: 1024x32, 24-bit, uncompressed.
+- The color correction is intentionally subtle: slightly warmer red/yellow bias and a very small saturation softening.
+- `posteffect_volumes.txt` keeps the vanilla volume structure but uses warmer parchment fog with lower maximum fog at normal map distances.
+- Hot/cold climate volumes remain compatible with vanilla LUT references.
 
 ## Practical Limitations
 
