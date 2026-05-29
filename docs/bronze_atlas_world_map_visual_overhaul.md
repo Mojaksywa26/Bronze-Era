@@ -502,11 +502,11 @@ Status: implemented as a conservative map-font override in the local mod.
 Files added:
 
 - `in_game/fonts/in_game_fonts.font`
-- `in_game/fonts/MapNamesFonts/HERAKLES.TTF`
+- `in_game/fonts/MapNamesFonts/Roman_SD.ttf`
 
 Implementation notes:
 
-- `HERAKLES.TTF` is now the first `MapFontStandard` face for country/map names.
+- `Roman_SD.ttf` is now the first `MapFontStandard` face for country/map names.
 - `CormorantGaramond-SemiBold.ttf` and the vanilla Noto serif fonts remain as fallbacks for missing glyphs.
 - The mod override leaves general UI fonts untouched.
 - `MapFontNumbersFiles` now prefers `CormorantGaramond-SemiBold.ttf` before fallback fonts, making secondary map text fit the antique atlas direction more closely.

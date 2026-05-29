@@ -782,7 +782,7 @@ fontfiles = {
 	group = {
 		languages = { "l_english" "l_french" "l_german" "l_russian" "l_spanish" "l_polish" "l_braz_por" "l_turkish" }
 		files = { 
-			"fonts/MapNamesFonts/HERAKLES.TTF"
+			"fonts/MapNamesFonts/Roman_SD.ttf"
 			"fonts/MapNamesFonts/CormorantGaramond-SemiBold.ttf"
 			"fonts/MapNamesFonts/NotoSerifDisplay-SemiBold.ttf" 
 			"fonts/MapNamesFonts/NotoSerifSC-Bold.otf" 
@@ -794,7 +794,7 @@ fontfiles = {
 	group = {
 		languages = { "l_simp_chinese" }
 		files = { 
-			"fonts/MapNamesFonts/HERAKLES.TTF"
+			"fonts/MapNamesFonts/Roman_SD.ttf"
 			"fonts/MapNamesFonts/CormorantGaramond-SemiBold.ttf"
 			"fonts/MapNamesFonts/NotoSerifDisplay-SemiBold.ttf" 
 			"fonts/MapNamesFonts/NotoSerifSC-Bold.otf" 
@@ -806,7 +806,7 @@ fontfiles = {
 	group = {
 		languages = { "l_korean" }
 		files = { 
-			"fonts/MapNamesFonts/HERAKLES.TTF"
+			"fonts/MapNamesFonts/Roman_SD.ttf"
 			"fonts/MapNamesFonts/CormorantGaramond-SemiBold.ttf"
 			"fonts/MapNamesFonts/NotoSerifDisplay-SemiBold.ttf" 
 			"fonts/MapNamesFonts/NotoSerifKR-Bold.otf"
@@ -818,7 +818,7 @@ fontfiles = {
 	group = {
 		languages = { "l_japanese" }
 		files = { 
-			"fonts/MapNamesFonts/HERAKLES.TTF"
+			"fonts/MapNamesFonts/Roman_SD.ttf"
 			"fonts/MapNamesFonts/CormorantGaramond-SemiBold.ttf"
 			"fonts/MapNamesFonts/NotoSerifDisplay-SemiBold.ttf" 
 			"fonts/MapNamesFonts/NotoSerifJP-Bold.otf" 
