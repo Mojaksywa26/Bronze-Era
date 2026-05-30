@@ -1,0 +1,15 @@
+simple_chariot_advance = {
+	age = age_1_traditions
+	research_cost = 1.5
+
+	allow = {
+		has_advance = horse_domestication_advance
+	}
+
+	requires = wheeled_transport_advance
+
+	unlock_unit = a_simple_chariots
+
+	starting_technology_level = 2
+}
+

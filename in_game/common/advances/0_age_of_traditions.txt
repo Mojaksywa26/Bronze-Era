@@ -15,6 +15,11 @@ agriculture_advance = {
 	unlock_building = farming_village
 	unlock_building = neolithic_granary
 
+	unlock_levy = levy_noble_cavalry
+	unlock_levy = levy_tribal_cavalry
+
+	unlock_law = medieval_levy_law
+
 	depth = 0
 
 	starting_technology_level = 1
