@@ -10233,7 +10233,7 @@ countries = {
 		}
 		accepted_cultures = { hindu harappan vedic }
 		tolerated_cultures = { harappan vedic dravidian gandharan }
-			discovered_regions = {
+		discovered_regions = {
 				india_region persia_region
 			}
 	}

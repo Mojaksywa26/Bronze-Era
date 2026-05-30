@@ -182,7 +182,7 @@ international_organization_manager = {
 		}
 
 		variables = {
-			mycenaean_league_authority = 55
+			mycenaean_league_authority = 80
 		}
 	}
 }
