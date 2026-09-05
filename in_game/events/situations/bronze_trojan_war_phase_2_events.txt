@@ -1,6 +1,7 @@
 ﻿namespace = start_trojan_war_phase_2
 namespace = join_trojan_War
 namespace = trojan_war_end
+namespace = trojan_war_phase_2_flavor_event
 
 start_trojan_war_phase_2.1 = {
     type = country_event
@@ -188,4 +189,70 @@ trojan_war_end.6 = {
             }
 }
 }
+}
+
+
+trojan_war_phase_2_flavor_event.10 = {
+    type = country_event
+    title = trojan_war_phase_2_flavor_event_10.t
+    desc = trojan_war_phase_2_flavor_event_10.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_2_flavor_event_10.a"
+        treasury = {
+            add = -120 # want to be calcualted by wealth base
+        }
+    }
+     option = {
+        name = "trojan_war_phase_2_flavor_event_10.b"
+        add_country_modifier = {
+            modifier = trojan_war_phase_2_flavor_event_10_b
+            days = 365
+            mode = add
+        }
+        stability = {
+            add = -10
+        }
+    }
+}
+trojan_war_phase_2_flavor_event.20 = {
+    type = country_event
+    title = trojan_war_phase_2_flavor_event_20.t
+    desc = trojan_war_phase_2_flavor_event_20.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_2_flavor_event_20.a"
+    }
+}
+trojan_war_phase_2_flavor_event.30 = {
+    type = country_event
+    title = trojan_war_phase_2_flavor_event_30.t
+    desc = trojan_war_phase_2_flavor_event_30.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_2_flavor_event_30.a"
+    }
+}
+trojan_war_phase_2_flavor_event.40 = {
+    type = country_event
+    title = trojan_war_phase_2_flavor_event_40.t
+    desc = trojan_war_phase_2_flavor_event_40.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_2_flavor_event_40.a"
+    }
+}
+trojan_war_phase_2_flavor_event.50 = {
+    type = country_event
+    title = trojan_war_phase_2_flavor_event_50.t
+    desc = trojan_war_phase_2_flavor_event_50.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_2_flavor_event_50.a"
+    }
 }

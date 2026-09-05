@@ -35,3 +35,21 @@
   STATIC_MODIFIER_DESC_trade_envoys_modifier: "Our envoys travel abroad to maintain relations with foreign trading partners and encourage further commerce."
   STATIC_MODIFIER_NAME_merchants_freely_benefit: "Merchant Privilege"
   STATIC_MODIFIER_DESC_merchants_freely_benefit: "Our merchants are free to cultivate the foreign connections they have established and reap the rewards of their enterprise."
+  
+  #Trojan War Phase 1 modifiers
+  STATIC_MODIFIER_NAME_trojan_war_phase_2_flavor_event_10_b: "Army Food Shortages"
+  #Trojan War Phase 2 modifiers
+  STATIC_MODIFIER_NAME_trojan_war_greece_modifier_phase_2_siege_ability: "Trojan War Buff: Siege Ability"
+  STATIC_MODIFIER_NAME_trojan_war_greece_modifier_phase_2_navy_levy_size: "Trojan War Buff: Navy Levy Size"
+  STATIC_MODIFIER_NAME_trojan_war_anatolia_modifier_phase_2_siege_ability: "Trojan War Buff: Siege Ability"
+  STATIC_MODIFIER_NAME_trojan_war_anatolia_modifier_phase_2_levy_combat_efficiency: "Trojan War Buff: Levy Combat Efficiency"
+  #After trojan war modifiers
+  STATIC_MODIFIER_NAME_trojan_war_end_6: "Legacy of the War"
+  STATIC_MODIFIER_NAME_trojan_war_end_5: "Legacy of the War"
+  STATIC_MODIFIER_NAME_trojan_war_end_4: "Legacy of the War"
+  STATIC_MODIFIER_NAME_trojan_war_end_3: "Legacy of the War"
+  STATIC_MODIFIER_NAME_trojan_war_end_5: "Legacy of the War"
+  STATIC_MODIFIER_NAME_trojan_war_end_levy_combat_efficiency: "Legacy of the War"
+  STATIC_MODIFIER_NAME_trojan_war_end_siege_ability: "Legacy of the War"
+  STATIC_MODIFIER_NAME_trojan_war_end_maritime_presence: "Legacy of the War"
+  STATIC_MODIFIER_NAME_trojan_war_end_siege_ability: "Legacy of the War"

@@ -316,4 +316,15 @@ trojan_war_phase_2 = {
 		NOT = { has_global_variable = "trojan_war_phase_2_ended"}
 	}
 
+	on_monthly = {
+			random_events = {
+			chance_to_happen = 11
+			100 = 0
+			5 = trojan_war_phase_2_flavor_event.10
+			6 = trojan_war_phase_2_flavor_event.20
+			4 = trojan_war_phase_2_flavor_event.30
+			8 = trojan_war_phase_2_flavor_event.40
+			5 = trojan_war_phase_2_flavor_event.50
+		}
+	}
 }

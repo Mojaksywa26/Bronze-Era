@@ -1,6 +1,7 @@
 namespace = trojan_war_raid_on_anatolia_success
 namespace = trojan_war_raid_on_anatolia_failed
 namespace = anatolia_coastline_is_defend
+namespace = trojan_war_phase_1_flavor_event
 
 # Mycenae Outcomes
 trojan_war_raid_on_anatolia_success.1 = {
@@ -113,4 +114,59 @@ anatolia_coastline_is_defend.1 = {
 		name = anatolia_coastline_is_defend.a                       
 		custom_flavor_text = "coastline_defended" 
 	}
+}
+
+trojan_war_phase_1_flavor_event.10 = {
+    type = country_event
+    title = trojan_war_phase_1_flavor_event_10.t
+    desc = trojan_war_phase_1_flavor_event_10.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_1_flavor_event_10.a"
+    }
+}
+
+trojan_war_phase_1_flavor_event.20 = {
+    type = country_event
+    title = trojan_war_phase_1_flavor_event_20.t
+    desc = trojan_war_phase_1_flavor_event_20.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_1_flavor_event_20.a"
+    }
+}
+
+trojan_war_phase_1_flavor_event.30 = {
+    type = country_event
+    title = trojan_war_phase_1_flavor_event_30.t
+    desc = trojan_war_phase_1_flavor_event_30.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_1_flavor_event_30.a"
+    }
+}
+
+trojan_war_phase_1_flavor_event.40 = {
+    type = country_event
+    title = trojan_war_phase_1_flavor_event_40.t
+    desc = trojan_war_phase_1_flavor_event_40.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_1_flavor_event_40.a"
+    }
+}
+
+trojan_war_phase_1_flavor_event.50 = {
+    type = country_event
+    title = trojan_war_phase_1_flavor_event_50.t
+    desc = trojan_war_phase_1_flavor_event_50.d
+    is_triggered_only = yes
+    hidden = no
+    option = {
+        name = "trojan_war_phase_1_flavor_event_50.a"
+    }
 }

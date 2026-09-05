@@ -65,8 +65,6 @@ trojan_war_end_levy_combat_efficiency ={
     levy_combat_efficiency = 1
 }
 
-
-
 trojan_war_end_3 = {
     game_data = {
         category = country
@@ -97,4 +95,11 @@ trojan_war_end_6 = {
     }
     #minor anatolia victory
     monthly_prestige = 0.05
+}
+
+trojan_war_phase_2_flavor_event_10_b = {
+    game_data = {
+        category = country
+    }
+   global_monthly_food_modifier = -0.1
 }
