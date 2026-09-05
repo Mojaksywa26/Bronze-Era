@@ -22,7 +22,8 @@
 			"events/government",
 			"events/missionevents",
 			"events/religion",
-			"events/situations"
+			"events/situations",
+			"in_game/common/unit_types"
 		]
 	}
 }
